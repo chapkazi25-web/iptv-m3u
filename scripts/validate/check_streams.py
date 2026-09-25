@@ -8,6 +8,7 @@ import concurrent.futures
 import json
 import socket
 import sys
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -43,8 +44,45 @@ def utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def probe(target: ProbeTarget, timeout: float) -> tuple[bool, int | None, str]:
+class HostLimiter:
+    """Cap how many probes may hit the same host at once.
+
+    The catalog is spread over thousands of hosts, but a few carry hundreds of
+    channels each. Without a per-host cap, raising the worker count turns into
+    a burst against those hosts, and the resulting 429/503 responses are
+    recorded as genuine failures. A dead channel is only disabled after six
+    consecutive failures, so a single rate-limited run can wrongly retire a
+    healthy stream. Capping per host lets total concurrency rise safely.
+    """
+
+    def __init__(self, max_per_host: int) -> None:
+        self.max_per_host = max(1, int(max_per_host))
+        self._locks: dict[str, threading.Semaphore] = {}
+        self._guard = threading.Lock()
+
+    def lock_for(self, host: str) -> threading.Semaphore:
+        key = host.lower()
+        with self._guard:
+            lock = self._locks.get(key)
+            if lock is None:
+                lock = threading.Semaphore(self.max_per_host)
+                self._locks[key] = lock
+            return lock
+
+    def limit(self, url: str) -> threading.Semaphore:
+        return self.lock_for(urllib.parse.urlparse(url).netloc)
+
+
+def probe(
+    target: ProbeTarget,
+    timeout: float,
+    limiter: HostLimiter | None = None,
+) -> tuple[bool, int | None, str]:
+    """Probe one stream, returning (online, response_time_ms, error)."""
     headers = {"User-Agent": DEFAULT_USER_AGENT, "Range": f"bytes=0-{PROBE_BYTES - 1}", **target.headers}
+    lock = limiter.limit(target.url) if limiter is not None else None
+    if lock is not None:
+        lock.acquire()
     started = time.perf_counter()
     try:
         request = urllib.request.Request(target.url, headers=headers)
@@ -70,6 +108,9 @@ def probe(target: ProbeTarget, timeout: float) -> tuple[bool, int | None, str]:
         return False, max(0, round((time.perf_counter() - started) * 1000)), "timeout"
     except Exception as error:  # noqa: BLE001 - persist a useful health result
         return False, max(0, round((time.perf_counter() - started) * 1000)), type(error).__name__
+    finally:
+        if lock is not None:
+            lock.release()
 
 
 def collect_targets(root: Path, selected_sources: set[str]) -> list[ProbeTarget]:
@@ -140,6 +181,27 @@ def update_record(
     health.streams[target.identifier] = record
 
 
+def spread_by_host(targets: list[ProbeTarget]) -> list[ProbeTarget]:
+    """Round-robin targets across hosts so no host forms one long run.
+
+    Grouping by host would let a worker pool issue a burst of concurrent
+    requests at a single provider, which looks like an attack and invites
+    429/503 responses. Interleaving keeps instantaneous per-host load low,
+    and the per-host cap then handles the remainder.
+    """
+    buckets: dict[str, list[ProbeTarget]] = {}
+    for target in targets:
+        host = urllib.parse.urlparse(target.url).netloc.lower()
+        buckets.setdefault(host, []).append(target)
+    ordered: list[ProbeTarget] = []
+    depth = max((len(items) for items in buckets.values()), default=0)
+    for index in range(depth):
+        for items in buckets.values():
+            if index < len(items):
+                ordered.append(items[index])
+    return ordered
+
+
 def run(
     root: Path,
     *,
@@ -147,6 +209,7 @@ def run(
     timeout: float,
     limit: int,
     selected_sources: set[str],
+    max_per_host: int = 0,
 ) -> dict[str, Any]:
     health = HealthStore.load(root / "data/stream-health.json")
     targets = collect_targets(root, selected_sources)
@@ -159,16 +222,22 @@ def run(
             if identifier not in seen:
                 record["present"] = False
 
+    # Interleave hosts so a large provider is spread across the run instead of
+    # arriving as one contiguous burst.
+    targets = spread_by_host(targets)
+    limiter = HostLimiter(max_per_host) if max_per_host > 0 else None
     online = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
-        futures = {pool.submit(probe, target, timeout): target for target in targets}
+        futures = {
+            pool.submit(probe, target, timeout, limiter): target for target in targets
+        }
         for completed, future in enumerate(concurrent.futures.as_completed(futures), 1):
             target = futures[future]
             success, response_time_ms, error = future.result()
             checked_at = utc_now()
             update_record(health, target, success, response_time_ms, error, checked_at)
             online += int(success)
-            if completed % 50 == 0 or completed == len(targets):
+            if completed % 500 == 0 or completed == len(targets):
                 print(f"checked {completed}/{len(targets)} ({online} online)", flush=True)
 
     write_json(root / "data/stream-health.json", health.as_dict())
@@ -178,14 +247,22 @@ def run(
         "offline": len(targets) - online,
         "workers": workers,
         "timeout_seconds": timeout,
+        "max_per_host": max_per_host,
     }
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=PROJECT_ROOT)
-    parser.add_argument("--workers", type=int, default=24)
-    parser.add_argument("--timeout", type=float, default=12.0)
+    parser.add_argument("--workers", type=int, default=64)
+    parser.add_argument("--timeout", type=float, default=10.0)
+    parser.add_argument(
+        "--max-per-host",
+        type=int,
+        default=16,
+        dest="max_per_host",
+        help="max simultaneous probes per host; 0 disables the cap",
+    )
     parser.add_argument("--limit", type=int, default=0, help="maximum streams to check; 0 checks all")
     parser.add_argument("--source", action="append", default=[], help="limit to a source id; repeatable")
     args = parser.parse_args()
@@ -195,6 +272,7 @@ def main() -> int:
         timeout=args.timeout,
         limit=args.limit,
         selected_sources=set(args.source),
+        max_per_host=args.max_per_host,
     )
     print(json.dumps(result, indent=2))
     return 0

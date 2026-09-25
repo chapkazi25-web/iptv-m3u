@@ -25,7 +25,7 @@ test:
 	$(PYTHON) -m unittest discover -v
 
 health:
-	$(PYTHON) scripts/validate/check_streams.py
+	$(PYTHON) scripts/validate/check_streams.py --workers 64 --timeout 10 --max-per-host 16
 
 # Probe a sample of every source and report the play rate per source.
 sample:

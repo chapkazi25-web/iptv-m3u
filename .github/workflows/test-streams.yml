@@ -2,7 +2,10 @@ name: Test Streams
 
 on:
   schedule:
-    - cron: "45 */6 * * *"
+    # Every 2 hours. A stream is only retired after 6 consecutive failures, so
+    # at this cadence a genuinely dead link is dropped within ~12 hours and an
+    # expired source token is picked up on the next pass.
+    - cron: "17 */2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -12,10 +15,19 @@ concurrency:
   group: generated-artifacts
   cancel-in-progress: false
 
+env:
+  # Probing is network bound, so 64 threads is comfortable on a 4 vCPU runner.
+  # Targets are interleaved by host before dispatch, so no provider sees a
+  # burst; --max-per-host is a safety net for a host that carries most of the
+  # catalog, not the primary control.
+  PROBE_WORKERS: "64"
+  PROBE_TIMEOUT: "10"
+  PROBE_MAX_PER_HOST: "16"
+
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,10 +43,14 @@ jobs:
         run: python scripts/discover/build_catalog.py
 
       - name: Probe source streams
-        run: python scripts/test/check_streams.py --workers 24 --timeout 12
+        run: >-
+          python scripts/validate/check_streams.py
+          --workers "$PROBE_WORKERS"
+          --timeout "$PROBE_TIMEOUT"
+          --max-per-host "$PROBE_MAX_PER_HOST"
 
       - name: Commit health state
         run: >-
           python scripts/ci/commit_changes.py 'data: update stream health' --push
-          --regenerate "python scripts/discover/build_catalog.py && python scripts/validate/check_streams.py --workers 24 --timeout 12"
+          --regenerate "python scripts/discover/build_catalog.py && python scripts/validate/check_streams.py --workers $PROBE_WORKERS --timeout $PROBE_TIMEOUT --max-per-host $PROBE_MAX_PER_HOST"
           data/channels.json data/stream-health.json
