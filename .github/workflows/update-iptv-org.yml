@@ -1,0 +1,52 @@
+name: Update iptv-org Playlist
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+    inputs:
+      country:
+        description: "Comma-separated ISO country codes to keep (blank = all)"
+        type: string
+        default: ""
+      category:
+        description: "Comma-separated groups to keep (blank = all)"
+        type: string
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-iptv-org-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Convert the iptv-org community index
+        run: >-
+          python sources/iptv-org/generate.py
+          --country '${{ inputs.country }}'
+          --category '${{ inputs.category }}'
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit generated source
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh iptv-org playlist' --push
+          --regenerate "python sources/iptv-org/generate.py"
+          playlists/sources/iptv-org.m3u

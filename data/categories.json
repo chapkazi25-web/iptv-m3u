@@ -1,42 +1,109 @@
 {
-  "version": 1,
+  "version": 2,
   "default": "entertainment",
   "categories": {
     "news": {
-      "name": "News & Weather",
-      "aliases": ["news", "news & weather", "news + opinion", "local news", "weather"]
+      "name": "News",
+      "aliases": ["news", "news + opinion", "local news", "current affairs"]
     },
     "sports": {
       "name": "Sports",
-      "aliases": ["sports", "live", "live events"]
+      "aliases": ["sports", "sport", "outdoor;sports", "public;sports", "news;sports", "general;sports", "kids;sports", "culture;sports", "entertainment;sports"]
+    },
+    "sky-sports": {
+      "name": "Sky Sports",
+      "aliases": ["sky sports"],
+      "name_patterns": ["\\bsky\\s*sports?\\b", "\\bsky\\s*mix\\b"]
+    },
+    "tsn": {
+      "name": "TSN",
+      "aliases": ["tsn"],
+      "name_patterns": ["\\btsn\\b", "\\bteletoon\\b"]
+    },
+    "tnt-sports": {
+      "name": "TNT Sports",
+      "aliases": ["tnt sports", "tnt sport"],
+      "name_patterns": ["\\btnt\\s*sports?\\b", "\\btnt\\s*go\\b"]
+    },
+    "stan-sports": {
+      "name": "Stan Sports",
+      "aliases": ["stan sports", "stan sport"],
+      "name_patterns": ["\\bstan\\s*sport\\b", "\\b10\\s*stan\\s*sport\\b"]
+    },
+    "bein-sports": {
+      "name": "beIN Sports",
+      "aliases": ["bein sports", "beinsports", "bein sport"],
+      "name_patterns": ["\\bbein\\s*sports?\\b", "\\bbeinsports\\b"]
+    },
+    "soccer": {
+      "name": "Soccer",
+      "aliases": ["live - soccer", "soccer", "football"],
+      "name_patterns": ["\\blive\\s*-\\s*soccer\\b", "\\bsoccer\\b", "\\bfutbol\\b", "\\bfussball\\b"]
+    },
+    "nfl": {
+      "name": "NFL",
+      "aliases": ["live - american football", "american football", "nfl"],
+      "name_patterns": ["\\blive\\s*-\\s*american\\s*football\\b", "\\bnfl\\b", "\\bamerican\\s*football\\b"]
+    },
+    "nba": {
+      "name": "NBA",
+      "aliases": ["live - basketball", "basketball", "nba"],
+      "name_patterns": ["\\blive\\s*-\\s*basketball\\b", "\\bnba\\b"]
+    },
+    "ufc": {
+      "name": "UFC",
+      "aliases": ["ufc", "mma"],
+      "name_patterns": ["\\bufc\\b", "\\bmma\\b", "\\bbellator\\b", "\\bpfl\\b"]
     },
     "entertainment": {
       "name": "Entertainment",
-      "aliases": ["entertainment", "general", "classic tv", "comedy", "drama", "reality", "competition reality", "big brother live"]
+      "aliases": ["entertainment", "general", "classic tv", "comedy", "drama", "reality", "series", "competition reality", "variety", "culture", "interactive"]
     },
     "movies": {
       "name": "Movies & Premium",
-      "aliases": ["movies", "movies & premium", "movie channels", "westerns", "true crime"]
+      "aliases": ["movies", "movies & premium", "movie channels", "westerns", "true crime", "film"]
     },
     "music": {
       "name": "Music",
-      "aliases": ["music", "music videos"]
+      "aliases": ["music", "music videos", "radio"]
     },
     "kids": {
       "name": "Kids & Family",
-      "aliases": ["kids", "kids & family", "anime", "children"]
+      "aliases": ["kids", "kids & family", "anime", "children", "animation", "family", "education"]
     },
     "documentary": {
       "name": "Documentary & Reality",
-      "aliases": ["documentary", "documentary & reality", "animals + nature", "history + science", "science + nature", "home + food"]
-    },
-    "live-events": {
-      "name": "Live Events",
-      "aliases": ["live - american football", "live - baseball", "live - basketball", "live - hockey", "live - racing", "live - soccer", "live - tennis", "live - other events"]
-    },
-    "regional": {
-      "name": "Regional",
-      "aliases": ["en español", "regional", "local"]
+      "aliases": ["documentary", "documentary & reality", "animals + nature", "history + science", "science + nature", "home + food", "cooking", "travel", "outdoor", "lifestyle", "religious", "science"]
     }
+  },
+  "exclude": {
+    "categories": ["regional", "business", "weather"],
+    "group_patterns": [
+      "^live\\s*-\\s*baseball$",
+      "^live\\s*-\\s*hockey$",
+      "^live\\s*-\\s*racing$",
+      "^live\\s*-\\s*tennis$",
+      "^live\\s*-\\s*other\\s*events$"
+    ],
+    "name_patterns": [
+      "\\bweather\\w*",
+      "\\baccuweather\\b",
+      "\\bmeteo\\b",
+      "\\bstorm\\s*team\\b",
+      "\\bfirst\\s*alert\\b",
+      "\\bbig\\s*brother\\s*(camera|quad|feed|house)\\b",
+      "\\bbb\\s*camera\\b",
+      "\\bbusiness\\b",
+      "\\bcnbc\\b",
+      "\\bbloomberg\\b"
+    ],
+    "channels": [
+      "fox-business",
+      "cnbc",
+      "cnbc-world",
+      "bloomberg-tv",
+      "al-arabiya-business",
+      "al-arabia-business"
+    ]
   }
 }

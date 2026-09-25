@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 import urllib.parse
 from collections import defaultdict
 from dataclasses import dataclass
@@ -71,12 +72,70 @@ def load_category_config(root: str | Path = ".") -> tuple[dict[str, dict[str, An
     return categories, str(data.get("default", "entertainment")), aliases
 
 
+def load_name_patterns(root: str | Path = ".") -> list[tuple[re.Pattern[str], str]]:
+    """Return (compiled regex, category slug) pairs from the category config.
+
+    Brand and sport channels are published under generic groups such as
+    "Sports", so the display name is the only reliable signal. Order follows
+    the config so specific brands win over the broad sport patterns.
+    """
+    data = load_json(Path(root) / "data/categories.json")
+    pairs: list[tuple[re.Pattern[str], str]] = []
+    for slug, config in data.get("categories", {}).items():
+        for pattern in config.get("name_patterns", []):
+            try:
+                pairs.append((re.compile(str(pattern), re.I), slug))
+            except re.error as error:
+                raise ValueError(f"invalid name_pattern for {slug!r}: {pattern!r} ({error})") from error
+    return pairs
+
+
+def load_exclusions(root: str | Path = ".") -> dict[str, Any]:
+    """Return the exclusion rules used to drop unwanted channels."""
+    data = load_json(Path(root) / "data/categories.json")
+    config = data.get("exclude", {})
+    return {
+        "categories": {str(value) for value in config.get("categories", [])},
+        "channels": {str(value) for value in config.get("channels", [])},
+        "name_patterns": [
+            re.compile(str(pattern), re.I) for pattern in config.get("name_patterns", [])
+        ],
+        "group_patterns": [
+            re.compile(str(pattern), re.I) for pattern in config.get("group_patterns", [])
+        ],
+    }
+
+
+def is_excluded_group(group: str, rules: dict[str, Any]) -> bool:
+    """True when a source group-title should not contribute channels at all."""
+    return any(pattern.search(group or "") for pattern in rules.get("group_patterns", []))
+
+
+def match_name_category(name: str, patterns: list[tuple[re.Pattern[str], str]]) -> str:
+    for pattern, slug in patterns:
+        if pattern.search(name or ""):
+            return slug
+    return ""
+
+
+def is_excluded(channel_id: str, name: str, categories: list[str], rules: dict[str, Any]) -> str:
+    """Return the rule that excludes a channel, or an empty string to keep it."""
+    if channel_id in rules["channels"]:
+        return f"channel:{channel_id}"
+    if rules["categories"].intersection(categories):
+        return "category"
+    for pattern in rules["name_patterns"]:
+        if pattern.search(name or ""):
+            return f"name:{pattern.pattern}"
+    return ""
+
+
 def canonical_category(entry: M3UEntry, aliases: dict[str, str], default: str) -> str:
     group_key = normalize_name(entry.group)
     if group_key in aliases:
         return aliases[group_key]
     if entry.name.lstrip().startswith("["):
-        return "live-events"
+        return "entertainment"
     return default
 
 

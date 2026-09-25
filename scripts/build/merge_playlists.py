@@ -21,7 +21,9 @@ from scripts.lib.pipeline import (
     HealthStore,
     LogoIndex,
     category_name,
+    is_excluded_group,
     load_category_config,
+    load_exclusions,
     load_sources,
     quality_rank,
     stream_id,
@@ -90,6 +92,7 @@ def build(root: Path, *, strict: bool = True) -> dict[str, Any]:
     health = HealthStore.load(root / "data/stream-health.json")
     logos = LogoIndex.load(root / "data/logo-index.json", RAW_BASE_URL)
     categories, default_category, _ = load_category_config(root)
+    exclusion_rules = load_exclusions(root)
 
     candidates_by_channel: dict[str, list[Candidate]] = defaultdict(list)
     unresolved: set[str] = set()
@@ -100,6 +103,10 @@ def build(root: Path, *, strict: bool = True) -> dict[str, Any]:
             raise FileNotFoundError(f"source playlist is missing: {source.playlist}")
         _, entries = parse_m3u(source.playlist)
         for entry in entries:
+            # Keep the builder in step with the catalog: entries in an
+            # excluded group are intentionally absent from data/channels.json.
+            if is_excluded_group(entry.group, exclusion_rules):
+                continue
             resolution = catalog.resolve(source_id, entry, source.default_country or None)
             if resolution.matched_by in {"fallback", "ambiguous-fallback"}:
                 unresolved.add(f"{source_id}:{resolution.channel_id}")

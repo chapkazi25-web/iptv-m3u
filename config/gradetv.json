@@ -1,0 +1,10 @@
+{
+  "comment": "Curated Grade TV pulls. The full playable catalog is available with --all.",
+  "countries": ["TZ"],
+  "queries": ["trace"],
+  "channels": [
+    "TBC1.tz",
+    "TBC2.tz",
+    "DodomaTV.tz"
+  ]
+}

@@ -1,20 +1,33 @@
 # Human-readable source configuration. Runtime automation uses data/sources.json.
+# Lower priority wins when two sources offer the same channel at equal health.
 sources:
-  core:
-    name: Core IPTV
-    playlist: playlists/sources/core.m3u
-    priority: 2
   cdn:
     name: CDN Live TV
     playlist: playlists/sources/cdn.m3u
     priority: 1
+  core:
+    name: Core IPTV
+    playlist: playlists/sources/core.m3u
+    priority: 2
   pluto-tv:
     name: Pluto TV
     playlist: playlists/sources/pluto-tv.m3u
     priority: 3
     default_country: US
     ephemeral: true
+  gradetv:
+    name: Grade TV
+    playlist: playlists/sources/gradetv.m3u
+    priority: 4
+    ephemeral: true
+  iptv-org:
+    name: iptv-org
+    playlist: playlists/sources/iptv-org.m3u
+    priority: 5
+    ephemeral: true
+  # Last-resort fallback: slow to refresh, kept only for channels the
+  # faster sources do not carry.
   tvivu:
     name: TVivu Music
     playlist: playlists/sources/tvivu-music.m3u
-    priority: 4
+    priority: 6

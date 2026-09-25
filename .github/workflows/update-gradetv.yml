@@ -1,0 +1,48 @@
+name: Update GradeTV Playlist
+
+on:
+  schedule:
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Sweep the full playable catalog instead of the curated list"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-gradetv-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate GradeTV playlist from the public API
+        run: >-
+          python sources/gradetv/generate.py
+          ${{ inputs.all && '--all' || '' }}
+          --workers 8
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit generated source
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh GradeTV playlist' --push
+          --regenerate "python sources/gradetv/generate.py"
+          playlists/sources/gradetv.m3u

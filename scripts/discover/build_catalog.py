@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter, defaultdict
 from dataclasses import dataclass
@@ -15,12 +16,23 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if __package__ in {None, ""}:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from scripts.lib.catalog import ChannelCatalog, country_codes, normalize_name, slugify
+from scripts.lib.catalog import (
+    QUALITY_SUFFIX_RE,
+    ChannelCatalog,
+    country_codes,
+    normalize_name,
+    slugify,
+)
 from scripts.lib.m3u import M3UEntry, parse_m3u
 from scripts.lib.pipeline import (
     canonical_category,
+    is_excluded,
+    is_excluded_group,
     load_category_config,
+    load_exclusions,
+    load_name_patterns,
     load_sources,
+    match_name_category,
     write_json,
 )
 
@@ -47,6 +59,76 @@ def load_existing(path: Path) -> dict[str, dict[str, Any]]:
     return {str(key): dict(value) for key, value in records.items() if isinstance(value, dict)}
 
 
+def _union(current: Any, incoming: Any) -> list[str]:
+    """Return the ordered union of two catalog list values."""
+    merged = [str(value) for value in current] if isinstance(current, list) else []
+    seen = set(merged)
+    if isinstance(incoming, list):
+        for value in incoming:
+            text = str(value)
+            if text not in seen:
+                merged.append(text)
+                seen.add(text)
+    return merged
+
+
+def consolidate_existing(records: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Fold quality-suffix duplicates of one channel into a single record.
+
+    An older catalog could hold both "Trace Africa" and "Trace Africa (1080p)"
+    as separate IDs. Both register the same normalized alias, which makes name
+    resolution ambiguous and blocks the rebuild. Merging them preserves
+    curated data such as EPG IDs and manual flags, and is idempotent once the
+    canonical ID equals the slug.
+    """
+    groups: dict[str, list[tuple[str, dict[str, Any]]]] = defaultdict(list)
+    for channel_id, record in records.items():
+        groups[slugify(str(record.get("name", "") or channel_id))].append((channel_id, record))
+
+    merged: dict[str, dict[str, Any]] = {}
+    for slug, members in groups.items():
+        if len(members) == 1:
+            merged[members[0][0]] = members[0][1]
+            continue
+        # Prefer the record that already owns the canonical slug, then the
+        # shortest id, so the choice is deterministic across rebuilds.
+        members.sort(key=lambda item: (item[0] != slug, len(item[0])))
+        base_id, base = members[0]
+        record = dict(base)
+        # A name without an advertised resolution reads better publicly.
+        plain = [
+            item for _, item in members
+            if not QUALITY_SUFFIX_RE.search(str(item.get("name", "")))
+        ]
+        if plain:
+            record["name"] = str(plain[0].get("name"))
+        refs: dict[str, set[str]] = {
+            str(source): {str(value) for value in values}
+            for source, values in (record.get("source_refs") or {}).items()
+            if isinstance(values, list)
+        }
+        for _, other in members[1:]:
+            for key in ("aliases", "countries", "categories", "sources"):
+                merged_values = _union(record.get(key), other.get(key))
+                if merged_values:
+                    record[key] = merged_values
+            for source, values in (other.get("source_refs") or {}).items():
+                if isinstance(values, list):
+                    refs.setdefault(str(source), set()).update(str(value) for value in values)
+            if not record.get("epg_id") and other.get("epg_id"):
+                record["epg_id"] = other["epg_id"]
+            if other.get("manual") is True:
+                record["manual"] = True
+            if not record.get("logo") and other.get("logo"):
+                record["logo"] = other["logo"]
+            if other.get("enabled") is not False:
+                record["enabled"] = True
+        if refs:
+            record["source_refs"] = {source: sorted(values) for source, values in sorted(refs.items())}
+        merged[base_id] = record
+    return merged
+
+
 def alias_for(source: str, entry: M3UEntry, aliases: dict[str, Any]) -> str:
     source_map = aliases.get(source, {}) if isinstance(aliases, dict) else {}
     for candidate in sorted(entry.candidate_names(), key=lambda value: (len(value), value)):
@@ -62,10 +144,13 @@ def collect_items(
     root: Path,
     existing: dict[str, dict[str, Any]],
     aliases: dict[str, Any],
+    exclusion_rules: dict[str, Any] | None = None,
+    verbose: bool = True,
 ) -> tuple[list[Item], dict[str, dict[str, Any]]]:
     sources = load_sources(root)
     category_map, default_category, category_aliases = load_category_config(root)
     del category_map
+    rules = exclusion_rules if exclusion_rules is not None else load_exclusions(root)
     manual_existing = {
         channel_id: record
         for channel_id, record in existing.items()
@@ -90,12 +175,16 @@ def collect_items(
             source_aliases.setdefault(source, {})[ref] = next(iter(targets))
     catalog = ChannelCatalog(existing, source_aliases=source_aliases)
 
+    dropped_groups: Counter[str] = Counter()
     preliminary: list[Item] = []
     for source_id, source in sources.items():
         if not source.playlist.exists():
             continue
         _, entries = parse_m3u(source.playlist)
         for entry in entries:
+            if is_excluded_group(entry.group, rules):
+                dropped_groups[entry.group] += 1
+                continue
             name = entry.clean_name()
             country = entry.inferred_country(source.default_country or None)
             preliminary.append(
@@ -133,14 +222,25 @@ def collect_items(
         if item.explicit_id:
             item.channel_id = item.explicit_id
 
+    if dropped_groups and verbose:
+        for group, count in dropped_groups.most_common():
+            print(f"excluded group {group!r}: {count} entries", file=sys.stderr)
+
     return preliminary, existing
 
 
-def make_record(items: list[Item], existing: dict[str, dict[str, Any]], default_category: str, category_aliases: dict[str, str]) -> dict[str, Any]:
+def make_record(
+    items: list[Item],
+    existing: dict[str, dict[str, Any]],
+    default_category: str,
+    category_aliases: dict[str, str],
+    name_patterns: list[tuple[re.Pattern[str], str]],
+    source_order: dict[str, int],
+) -> dict[str, Any]:
     ordered = sorted(
         items,
         key=lambda item: (
-            {"core": 0, "cdn": 1, "pluto-tv": 2, "tvivu": 3}.get(item.source, 9),
+            source_order.get(item.source, 999),
             item.name.lower(),
             item.entry.url,
         ),
@@ -169,7 +269,10 @@ def make_record(items: list[Item], existing: dict[str, dict[str, Any]], default_
 
     category_counts: Counter[str] = Counter()
     for item in ordered:
-        category_counts[canonical_category(item.entry, category_aliases, default_category)] += 1
+        # Brand and sport channels arrive under generic groups such as
+        # "Sports", so the display name is checked before the group title.
+        named = match_name_category(item.name, name_patterns)
+        category_counts[named or canonical_category(item.entry, category_aliases, default_category)] += 1
     configured_values = record.get("categories", []) if record.get("manual") is True else []
     configured = [value for value in configured_values if isinstance(value, str)]
     category_order = list(configured)
@@ -212,12 +315,24 @@ def make_record(items: list[Item], existing: dict[str, dict[str, Any]], default_
     return record
 
 
-def build_catalog(root: Path) -> dict[str, Any]:
+def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
     channels_path = root / "data/channels.json"
     aliases_path = root / "data/aliases.json"
     existing = load_existing(channels_path)
+    before = len(existing)
+    existing = consolidate_existing(existing)
+    if verbose and len(existing) != before:
+        print(
+            f"merged {before - len(existing)} quality-suffix duplicate records",
+            file=sys.stderr,
+        )
     aliases = json.loads(aliases_path.read_text(encoding="utf-8")) if aliases_path.exists() else {}
     _, default_category, category_aliases = load_category_config(root)
+    name_patterns = load_name_patterns(root)
+    exclusion_rules = load_exclusions(root)
+    source_order = {
+        source_id: source.priority for source_id, source in load_sources(root).items()
+    }
     items, _ = collect_items(root, existing, aliases)
     grouped: dict[str, list[Item]] = defaultdict(list)
     for item in items:
@@ -242,7 +357,27 @@ def build_catalog(root: Path) -> dict[str, Any]:
             existing,
             default_category,
             category_aliases,
+            name_patterns,
+            source_order,
         )
+
+    # Excluded channels stay in the catalog as disabled records so their
+    # identity and source references survive a rebuild, but they are never
+    # published to the public playlist.
+    for channel_id, record in records.items():
+        if record.get("manual") is True:
+            continue
+        reason = is_excluded(
+            channel_id,
+            str(record.get("name", "")),
+            [str(value) for value in record.get("categories", [])],
+            exclusion_rules,
+        )
+        if reason:
+            record["enabled"] = False
+            record["excluded_by"] = reason
+        else:
+            record.pop("excluded_by", None)
 
     return {
         "version": 1,

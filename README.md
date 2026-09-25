@@ -76,7 +76,7 @@ python3 scripts/logos/remote_index.py
 python3 scripts/logos/apply_logos.py
 python3 scripts/build/merge_playlists.py
 python3 scripts/validate/validate_m3u.py
-python3 scripts/test/check_streams.py --limit 50
+python3 scripts/validate/check_streams.py --limit 50
 python3 -m unittest discover -v
 ```
 
@@ -86,12 +86,58 @@ Regenerate a source only when needed:
 python3 sources/core/generate.py --check-streams
 python3 sources/cdn/generate.py
 python3 sources/pluto-tv/generate.py
+python3 sources/gradetv/generate.py
+python3 sources/iptv-org/generate.py
 python3 sources/tvivu/generate.py --no-logo-resolve
 ```
 
+Compare source quality by probing a sample of each playlist:
+
+```bash
+make sample            # 20 channels per source
+```
+
+## Sources
+
+| Source | Priority | Notes |
+| --- | --- | --- |
+| `cdn` | 1 | CDN Live TV |
+| `core` | 2 | Core IPTV |
+| `pluto-tv` | 3 | Pluto TV, fresh session token per run |
+| `gradetv` | 4 | Grade TV public API; resolves per-feed health |
+| `iptv-org` | 5 | iptv-org community index, links are unverified |
+| `tvivu` | 6 | Last-resort fallback, slowest to refresh |
+
+Priority only breaks ties between streams that are equally healthy, so a
+verified Grade TV feed always wins over an unverified iptv-org link.
+
+Grade TV is queried through its documented API. Each channel exposes one
+stream per feed (HD, SD, ...) and each feed carries its own health, so the
+generator resolves the detail endpoint and publishes the healthiest feed
+rather than the first one listed. The curated channel list lives in
+`config/gradetv.json`; run with `--all` to sweep the full playable catalog.
+
+## Categories
+
+`data/categories.json` is the single source of truth. Live events are split
+into `soccer`, `nfl`, `nba` and `ufc`, and sports broadcasters get their own
+groups: `sky-sports`, `tsn`, `tnt-sports`, `stan-sports` and `bein-sports`.
+
+Because broadcasters publish their channels under a generic `Sports` group,
+categories are matched on the channel name first (`name_patterns`) and only
+then on the source `group-title`. Order in the config decides precedence, so
+brand rules win over the broad sport patterns.
+
+The same file carries an `exclude` block. Channels matching a name pattern, a
+category, or an explicit ID are kept in the catalog as disabled records — they
+keep their identity and source references across rebuilds but never reach the
+public playlist. `group_patterns` drops a whole source group before catalog
+resolution, which is how the unwanted live-event groups (baseball, hockey,
+racing, tennis, other events) are removed.
+
 ## Stream selection and health
 
-`scripts/test/check_streams.py` records status, latency, and consecutive failures for every source stream. The selector considers reachability, failure history, response time, source priority, quality, and stream identity.
+`scripts/validate/check_streams.py` records status, latency, and consecutive failures for every source stream. The selector considers reachability, failure history, response time, source priority, quality, and stream identity.
 
 A single failed check does not remove a stream. Repeated failures mark it degraded or unstable; after six consecutive failures it is disabled unless the source is explicitly ephemeral. A successful check clears the failure count and restores the stream. When a preferred source fails, a healthy alternate can automatically take its place.
 
@@ -102,6 +148,8 @@ A single failed check does not remove a stream. Repeated failures mark it degrad
 | `update-core.yml` | Refresh the core source playlist |
 | `update-cdn.yml` | Refresh CDN Live TV tokens and channels |
 | `update-pluto.yml` | Refresh Pluto TV session tokens |
+| `update-gradetv.yml` | Refresh the Grade TV playlist from its public API |
+| `update-iptv-org.yml` | Refresh the iptv-org community index |
 | `update-tvivu.yml` | Extract TVivu HD/FHD music streams |
 | `update-logos.yml` | Refresh the metadata-only K-yzu raw artwork index |
 | `update-epg.yml` | Refresh EPGShare XMLTV channel ID mappings |
@@ -109,6 +157,12 @@ A single failed check does not remove a stream. Repeated failures mark it degrad
 | `test-streams.yml` | Update stream health with failure hysteresis |
 | `build-playlists.yml` | Build the single canonical `playlists/all.m3u` |
 | `validate.yml` | Run tests and playlist integrity checks |
+
+Source refreshes each own their playlist file, so they run in parallel. The
+four workflows that rewrite the same generated artifacts share a
+`generated-artifacts` concurrency group and serialize. If a push still races,
+`scripts/ci/commit_changes.py` regenerates from the updated branch instead of
+merging two independently generated playlists.
 
 Run the validation and test commands above before submitting changes.
 

@@ -1,6 +1,7 @@
 PYTHON ?= python3
 
-.PHONY: catalog epg logos apply-logos build validate test health refresh
+.PHONY: catalog epg logos apply-logos build validate test health sample refresh \
+        sources-gradetv sources-iptv-org
 
 catalog:
 	$(PYTHON) scripts/discover/build_catalog.py
@@ -24,6 +25,16 @@ test:
 	$(PYTHON) -m unittest discover -v
 
 health:
-	$(PYTHON) scripts/test/check_streams.py
+	$(PYTHON) scripts/validate/check_streams.py
+
+# Probe a sample of every source and report the play rate per source.
+sample:
+	$(PYTHON) scripts/validate/sample_sources.py --per-source 20
+
+sources-gradetv:
+	$(PYTHON) sources/gradetv/generate.py
+
+sources-iptv-org:
+	$(PYTHON) sources/iptv-org/generate.py
 
 refresh: catalog logos build apply-logos validate

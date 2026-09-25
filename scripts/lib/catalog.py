@@ -13,7 +13,13 @@ from typing import Any, Iterable
 from .m3u import M3UEntry
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-QUALITY_SUFFIX_RE = re.compile(r"\s+\((?:FHD|UHD|HD|SD|4K)\)\s*$", re.I)
+# Publishers append the feed quality to the channel name ("Trace Africa
+# (1080p)"). Stripping it keeps one canonical record per channel instead of
+# one per advertised resolution.
+QUALITY_SUFFIX_RE = re.compile(
+    r"\s+\((?:FHD|UHD|HD|SD|4K|[1-9][0-9]{2,3}[pi])\)\s*$",
+    re.I,
+)
 
 
 def normalize_name(value: str) -> str:

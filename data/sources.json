@@ -22,10 +22,24 @@
       "default_country": "US",
       "ephemeral": true
     },
+    "gradetv": {
+      "name": "Grade TV",
+      "playlist": "playlists/sources/gradetv.m3u",
+      "priority": 4,
+      "default_country": null,
+      "ephemeral": true
+    },
+    "iptv-org": {
+      "name": "iptv-org",
+      "playlist": "playlists/sources/iptv-org.m3u",
+      "priority": 5,
+      "default_country": null,
+      "ephemeral": true
+    },
     "tvivu": {
       "name": "TVivu Music",
       "playlist": "playlists/sources/tvivu-music.m3u",
-      "priority": 4,
+      "priority": 6,
       "default_country": null,
       "ephemeral": false
     }
