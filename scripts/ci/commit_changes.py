@@ -11,8 +11,14 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 
-def run(command: list[str], *, check: bool = True) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(command, cwd=PROJECT_ROOT, text=True, check=check)
+def run(command: list[str], *, check: bool = True, capture: bool = False) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        command,
+        cwd=PROJECT_ROOT,
+        text=True,
+        check=check,
+        capture_output=capture,
+    )
 
 
 def main() -> int:
@@ -35,7 +41,7 @@ def main() -> int:
         return 0
     run(["git", "commit", "-m", args.message])
     if args.push:
-        branch = run(["git", "branch", "--show-current"], check=True).stdout.strip() or "main"
+        branch = run(["git", "branch", "--show-current"], check=True, capture=True).stdout.strip() or "main"
         for attempt in range(1, 4):
             pull = run(["git", "pull", "--rebase", "origin", branch], check=False)
             push = run(["git", "push", "origin", f"HEAD:{branch}"], check=False) if pull.returncode == 0 else None
