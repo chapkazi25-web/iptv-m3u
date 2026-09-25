@@ -36,4 +36,5 @@ jobs:
       - name: Commit generated source
         run: >-
           python scripts/ci/commit_changes.py 'chore: refresh Pluto playlist' --push
+          --regenerate "python sources/pluto-tv/generate.py"
           playlists/sources/pluto-tv.m3u

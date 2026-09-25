@@ -35,4 +35,5 @@ jobs:
       - name: Commit remote artwork index
         run: >-
           python scripts/ci/commit_changes.py 'chore: refresh K-yzu artwork index' --push
+          --regenerate "python scripts/logos/remote_index.py"
           data/logo-index.json

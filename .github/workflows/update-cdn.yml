@@ -36,4 +36,5 @@ jobs:
       - name: Commit generated source
         run: >-
           python scripts/ci/commit_changes.py 'chore: refresh CDN playlist' --push
+          --regenerate "python sources/cdn/generate.py"
           playlists/sources/cdn.m3u

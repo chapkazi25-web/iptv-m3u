@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: test-streams
+  group: generated-artifacts
   cancel-in-progress: false
 
 jobs:
@@ -36,4 +36,5 @@ jobs:
       - name: Commit health state
         run: >-
           python scripts/ci/commit_changes.py 'data: update stream health' --push
+          --regenerate "python scripts/discover/build_catalog.py && python scripts/validate/check_streams.py --workers 24 --timeout 12"
           data/channels.json data/stream-health.json

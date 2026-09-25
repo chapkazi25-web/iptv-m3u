@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: discover-channels
+  group: generated-artifacts
   cancel-in-progress: false
 
 jobs:
@@ -39,4 +39,5 @@ jobs:
       - name: Commit canonical channel changes
         run: >-
           python scripts/ci/commit_changes.py 'data: discover canonical channels' --push
+          --regenerate "python scripts/discover/build_catalog.py && python scripts/build/merge_playlists.py"
           data/channels.json data/stream-index.json data/build-report.json playlists

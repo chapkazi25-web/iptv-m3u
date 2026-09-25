@@ -39,4 +39,5 @@ jobs:
       - name: Commit generated source
         run: >-
           python scripts/ci/commit_changes.py 'chore: refresh TVivu playlist' --push
+          --regenerate "python sources/tvivu/generate.py --no-logo-resolve"
           playlists/sources/tvivu-music.m3u

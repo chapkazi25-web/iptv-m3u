@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-epgshare-mapping
+  group: generated-artifacts
   cancel-in-progress: false
 
 jobs:
@@ -42,4 +42,5 @@ jobs:
       - name: Commit EPG mapping and playlist output
         run: >-
           python scripts/ci/commit_changes.py 'data: refresh EPGShare channel IDs' --push
+          --regenerate "python scripts/epg/import_epgshare.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
           data/channels.json data/epg-map.json data/stream-index.json data/build-report.json playlists

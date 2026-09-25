@@ -36,4 +36,5 @@ jobs:
       - name: Commit generated source
         run: >-
           python scripts/ci/commit_changes.py 'chore: refresh core playlist' --push
+          --regenerate "python sources/core/generate.py --check-streams"
           playlists/sources/core.m3u data/reports/core.md

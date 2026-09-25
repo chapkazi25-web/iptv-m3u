@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: build-playlists
+  group: generated-artifacts
   cancel-in-progress: false
 
 jobs:
@@ -43,4 +43,5 @@ jobs:
       - name: Commit generated playlists
         run: >-
           python scripts/ci/commit_changes.py 'chore: rebuild public playlists' --push
+          --regenerate "python scripts/discover/build_catalog.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
           playlists data/channels.json data/stream-index.json data/build-report.json
