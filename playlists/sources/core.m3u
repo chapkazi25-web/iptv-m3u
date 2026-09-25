@@ -96,7 +96,7 @@ https://cache0.wonvt.st/live/15a0cd61f3w7um0229g5g/master.m3u8
 #EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8
-#EXTINF:-1 tvg-chno="38" tvg-id="WNYW-DT.us_locals1" tvg-name="Fox" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox.png" group-title="Entertainment",Fox
+#EXTINF:-1 tvg-chno="38" tvg-id="WNYW-DT.us_locals1" tvg-name="Fox" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/World%20Cup/Fox%204K.png" group-title="Entertainment",Fox
 #EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cache0.wonvt.st/live/0zpwy861v9tajs0jmdwna/master.m3u8
@@ -1974,7 +1974,7 @@ http://41.205.93.154/ESPNNEWS/index.m3u8
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cae6c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNhZTZjOjE3OTAzODQ0NDc4NTM6Y2RubGl2ZXR2LnR2OmUwNzdmOTkxYzYzNWY0M2IuYTUzYTE4MjQxZTdmYWY3Y2I1NDg2ODY3Zjc4MmM3OWU0ZTk2ZDJjMWE5YjAzZjA0ZGYxZGFmZTFjMDhlNDdkZg
 #EXTINF:-1 tvg-chno="541" tvg-id="plex.tv.LiveNOW.from.FOX.plex" tvg-name="Fox LiveNOW" group-title="News & Weather",Fox LiveNOW
 https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-chno="542" tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News" group-title="News & Weather",Fox News
+#EXTINF:-1 tvg-chno="542" tvg-id="Fox.News.Channel.HD.us2" tvg-name="Fox News" group-title="News & Weather" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox%20News%20HD.png",Fox News
 #EXTVLCOPT:http-referrer=https://usnewson.com/watch/fox-news-live
 https://p6.usnlive.com/stream/foxnews.m3u8
 #EXTINF:-1 tvg-chno="543" tvg-id="plex.tv.FOX.Weather.plex" tvg-name="Fox Weather" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Fox%20Weather.png" group-title="News & Weather",Fox Weather
@@ -2117,10 +2117,10 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb306/playlist.m3u8?token=
 https://cache0.wonvt.st/live/0nkruul0d8pahi1pz4sjc/master.m3u8
 #EXTINF:-1 tvg-chno="595" tvg-id="Outdoor.Channel.HD.us2" tvg-name="Outdoor Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Outdoor%20Channel.png" group-title="Sports",Outdoor Channel
 http://23.237.104.106:8080/USA_OUTDOOR/index.m3u8
-#EXTINF:-1 tvg-chno="596" tvg-id="Premier.Sports.1.HD.ie" tvg-name="Premier Sports 1" group-title="Sports",Premier Sports 1
+#EXTINF:-1 tvg-chno="596" tvg-id="Premier.Sports.1.HD.ie" tvg-name="Premier Sports 1" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Premier%20Sports%201%20HD.png",Premier Sports 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3OTAzODQ0NTIwNDI6Y2RubGl2ZXR2LnR2OmVjZDQ3NTdjMzA0MmNiMjQuZTdhYjA2YjNiNWVmMDdmNTE4N2Q4MGQ2MDJiMjM5NGJjNWZmNDllNGNhY2UzOGVhOWVkZWFhZjBkYjI2OWUyMQ
-#EXTINF:-1 tvg-chno="597" tvg-id="Premier.Sports.2.HD.ie" tvg-name="Premier Sports 2" group-title="Sports",Premier Sports 2
+#EXTINF:-1 tvg-chno="597" tvg-id="Premier.Sports.2.HD.ie" tvg-name="Premier Sports 2" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Premier%20Sports%202%20HD.png",Premier Sports 2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3OTAzODQ0NTIyNjY6Y2RubGl2ZXR2LnR2OjNlZjQxY2Y1YmNiYzMyZDQuMWNjMTY5NmYzOTcwZWQ5NDA5ZmVhNDY1MmVmYTc4N2ZiM2M2MDU4MWJmZmM0NGRhY2ZmZmQzNWM1OGQ1MzM1Yw
 #EXTINF:-1 tvg-chno="598" tvg-id="RACER.Network.HD.us2" tvg-name="RACER Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Racer%20Network.png" group-title="Sports",RACER Network
@@ -2165,16 +2165,16 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ea/playlist.m3u8?token=
 #EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cache0.wonvt.st/live/0rwqr121hh9q861eel783/master.m3u8
-#EXTINF:-1 tvg-chno="613" tvg-id="Sportsnet.360.HD.ca2" tvg-name="Sportsnet 360" group-title="Sports",Sportsnet 360
+#EXTINF:-1 tvg-chno="613" tvg-id="Sportsnet.360.HD.ca2" tvg-name="Sportsnet 360" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet%20360%204K.png",Sportsnet 360
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3OTAzODQ0NTUyMTk6Y2RubGl2ZXR2LnR2OjE0OTUwY2JjMzEwMjM4MDUuZDEwZmJmNTA3M2JhMjBlNzZhNjg0NDJjZWMxYTNiMjlhNTU2NmY4ZDE3Yjg1MjliMjZlYzE3YWYxN2ZhZWEwNA
-#EXTINF:-1 tvg-chno="614" tvg-id="Sportsnet.East.ca2" tvg-name="Sportsnet East" group-title="Sports",Sportsnet East
+#EXTINF:-1 tvg-chno="614" tvg-id="Sportsnet.East.ca2" tvg-name="Sportsnet East" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet%20East%204K.png",Sportsnet East
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3OTAzODQ0NTU0Mjg6Y2RubGl2ZXR2LnR2OmM0YmE5ODA2ZTM3NjNjZjkuYzU2NzJiYzkzNDc4MGU4NzliMDI2NjBiOWQ4ZmYxOGJkNzNlYTAyMGExOWY0MTUyN2I3OWU3Zjk1MDYyMWYwYQ
 #EXTINF:-1 tvg-chno="615" tvg-id="SNY.SportsNet.New.York.HD.us2" tvg-name="SportsNet New York" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet%20New%20York.png" group-title="Sports",SportsNet New York
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJlOjE3OTAzODQ0NTU2MzY6Y2RubGl2ZXR2LnR2OjU1Y2ExZjY1MjI3ODNlNWQuNjgyZDYwNTQxMGQ4MTcyYjMxYzFlOWM4YWQ2NWVmYWY3MzM3NGQ1YmNhM2M2ZmEwZmM5NmE5MmI3Mzk4YTJhMA
-#EXTINF:-1 tvg-chno="616" tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One" group-title="Sports",Sportsnet One
+#EXTINF:-1 tvg-chno="616" tvg-id="Sportsnet.One.ca2" tvg-name="Sportsnet One" group-title="Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet%20One%204K.png",Sportsnet One
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3OTAzODQ0NTU4NDY6Y2RubGl2ZXR2LnR2OjJhZWVjMzRlNDFiNzY1MDAuMDgzNWIzYjdhNjA1ODZiNzU5Mjc2NTEzNDFlNGVmNzc5MDc3ZjQzZDRmOTk5NDVkNjM4YjNlY2U0N2M5MDcxMA
 #EXTINF:-1 tvg-chno="617" tvg-id="SportsNet.Pittsburgh.HD.us2" tvg-name="SportsNet Pittsburgh" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet%20Pittsburgh.png" group-title="Sports",SportsNet Pittsburgh

@@ -111,6 +111,111 @@ def is_excluded_group(group: str, rules: dict[str, Any]) -> bool:
     return any(pattern.search(group or "") for pattern in rules.get("group_patterns", []))
 
 
+# --------------------------------------------------------------- language
+
+def load_language_index(root: str | Path = ".") -> dict[str, dict[str, Any]]:
+    """Load the optional per-channel language index.
+
+    The index is a build input produced by scripts/languages/build_index.py.
+    When it is absent every channel is simply unclassified and the language
+    filter keeps everything, so a missing index never deletes channels.
+    """
+    path = Path(root) / "data/languages.json"
+    if not path.exists():
+        return {}
+    channels = load_json(path).get("channels")
+    return channels if isinstance(channels, dict) else {}
+
+
+def load_language_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("language_filter", {})
+    return {
+        "keep": [str(value).lower() for value in config.get("keep", ["eng"])],
+        "categories": {str(value) for value in config.get("categories", [])},
+        "except_categories": {str(value) for value in config.get("except_categories", [])},
+        "except_channels": {str(value) for value in config.get("except_channels", [])},
+        "unknown": str(config.get("unknown", "keep")).lower(),
+    }
+
+
+NOT_24_7_RE = re.compile(r"\[\s*not\s*24\s*/\s*7\s*\]", re.I)
+RESOLUTION_RE = re.compile(r"\(\s*([1-9][0-9]{2,3})\s*[pi]\s*\)", re.I)
+HD_WORD_RE = re.compile(r"\b(?:FHD|UHD|4K|HEVC|HD)\b", re.I)
+
+
+def load_quality_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("quality_filter", {})
+    return {
+        "categories": {str(value) for value in config.get("categories", [])},
+        "max_height": config.get("max_height"),
+        "require_247": bool(config.get("require_247", False)),
+    }
+
+
+def name_quality(name: str) -> tuple[int | None, bool]:
+    """Return (advertised height, is_not_24_7) parsed from a channel name."""
+    text = name or ""
+    height: int | None = None
+    for match in RESOLUTION_RE.finditer(text):
+        value = int(match.group(1))
+        height = value if height is None else max(height, value)
+    if height is None and HD_WORD_RE.search(text):
+        height = 1080 if re.search(r"\b(?:FHD|UHD|4K|HEVC)\b", text, re.I) else 720
+    return height, bool(NOT_24_7_RE.search(text))
+
+
+def language_exclusion_reason(
+    channel_id: str,
+    name: str,
+    categories: list[str],
+    languages: list[str],
+    english: bool | None,
+    rules: dict[str, Any],
+) -> str:
+    """Return why a channel fails the language filter, or '' to keep it.
+
+    Unknown language is kept by default: removing a channel because we failed
+    to find data about it is far more damaging than leaving a non-English
+    channel in the list.
+    """
+    if channel_id in rules["except_channels"]:
+        return ""
+    category_set = set(categories)
+    if not (category_set & rules["categories"]):
+        return ""
+    if category_set & rules["except_categories"]:
+        return ""
+    if english is None:
+        return "" if rules["unknown"] == "keep" else "language:unknown"
+    if english:
+        return ""
+    listed = {str(value).lower() for value in languages}
+    if listed & set(rules["keep"]):
+        return ""
+    return f"language:{','.join(sorted(listed)) or 'non-english'}"
+
+
+def quality_exclusion_reason(
+    name: str,
+    categories: list[str],
+    rules: dict[str, Any],
+) -> str:
+    """Enforce per-category quality rules such as music being SD and 24/7.
+
+    Only a positively advertised high resolution disqualifies a channel: an
+    unknown resolution is kept rather than assumed to be HD.
+    """
+    if not (set(categories) & set(rules.get("categories", []))):
+        return ""
+    height, not_247 = name_quality(name)
+    max_height = rules.get("max_height")
+    if max_height is not None and height is not None and height > int(max_height):
+        return f"quality:{height}p"
+    if rules.get("require_247") and not_247:
+        return "not-24/7"
+    return ""
+
+
 def match_name_category(name: str, patterns: list[tuple[re.Pattern[str], str]]) -> str:
     for pattern, slug in patterns:
         if pattern.search(name or ""):

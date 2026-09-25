@@ -76,6 +76,32 @@
       "aliases": ["documentary", "documentary & reality", "animals + nature", "history + science", "science + nature", "home + food", "cooking", "travel", "outdoor", "lifestyle", "religious", "science"]
     }
   },
+  "language_filter": {
+    "comment": "Keep English-language channels in the listed categories. A channel is only removed when a source positively identifies a non-English language; unknown is kept, because a missing language record is not evidence of anything. Regenerate the index with scripts/languages/build_index.py.",
+    "keep": ["eng"],
+    "categories": [
+      "documentary",
+      "entertainment",
+      "kids",
+      "movies",
+      "music",
+      "news",
+      "sports"
+    ],
+    "except_categories": ["bein-sports"],
+    "except_channels": [
+      "tbc1",
+      "tbc2",
+      "dodoma-tv"
+    ],
+    "unknown": "keep"
+  },
+  "quality_filter": {
+    "comment": "Music is limited to SD, 24/7 channels. SD means below 720, so 480p and 576p are kept and 720p and above are dropped. An unknown resolution is kept rather than assumed to be HD.",
+    "categories": ["music"],
+    "max_height": 719,
+    "require_247": true
+  },
   "exclude": {
     "categories": ["regional", "business", "weather"],
     "group_patterns": [

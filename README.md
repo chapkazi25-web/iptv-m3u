@@ -136,6 +136,32 @@ public playlist. `group_patterns` drops a whole source group before catalog
 resolution, which is how the unwanted live-event groups (baseball, hockey,
 racing, tennis, other events) are removed.
 
+## Language filtering
+
+`data/categories.json` also carries a `language_filter` and a `quality_filter`.
+The language filter keeps English channels in documentary, entertainment, kids,
+movies, music, news and sports, with beIN Sports excepted and the Tanzanian
+channels named in `except_channels` protected explicitly. The quality filter
+limits music to standard definition, 24/7 channels.
+
+The catalog carries no language data of its own, so `data/languages.json` is
+built by `scripts/languages/build_index.py` from the two public sources that
+have any:
+
+- **Grade TV** publishes ISO 639-3 codes per channel for ~95% of its catalog.
+- **iptv-org** has no language field, but many entries carry `alt_names` in the
+  channel's original script. Its primary names are transliterated to ASCII, so
+  that alt-name script is the only language signal available.
+
+A channel is only ever labelled `english: false` when a source positively
+identifies another language. When nothing is known the channel is marked
+`english: null` and **kept** — roughly 62% of the catalog currently falls into
+that bucket, so the filter is deliberately partial and improves on its own as
+Grade TV adds language data. Deleting a channel because no data was found for
+it would be far more damaging than the occasional non-English channel slipping
+through. Run `make languages` to refresh the index; the scheduled
+`update-languages` workflow does it weekly.
+
 ## Stream selection and health
 
 `scripts/validate/check_streams.py` records status, latency, and consecutive failures for every source stream. The selector considers reachability, source priority, failure history, and response time.
@@ -153,6 +179,7 @@ A single failed check does not remove a stream. Repeated failures mark it degrad
 | `update-iptv-org.yml` | Refresh the iptv-org community index |
 | `update-tvivu.yml` | Extract TVivu HD/FHD music streams |
 | `update-logos.yml` | Refresh the metadata-only K-yzu raw artwork index |
+| `update-languages.yml` | Refresh the per-channel language index and reapply filters |
 | `update-epg.yml` | Refresh EPGShare XMLTV channel ID mappings |
 | `discover-channels.yml` | Rebuild the canonical channel catalog |
 | `test-streams.yml` | Update stream health with failure hysteresis |

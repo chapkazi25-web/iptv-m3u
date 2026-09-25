@@ -28,11 +28,16 @@ from scripts.lib.pipeline import (
     canonical_category,
     is_excluded,
     is_excluded_group,
+    language_exclusion_reason,
     load_category_config,
     load_exclusions,
+    load_language_filter,
+    load_language_index,
     load_name_patterns,
+    load_quality_filter,
     load_sources,
     match_name_category,
+    quality_exclusion_reason,
     write_json,
 )
 
@@ -315,6 +320,50 @@ def make_record(
     return record
 
 
+IPTVORG_QUALITY_RE = re.compile(
+    r"\.(?:SD|HD|FHD|UHD|4K|360p|480p|540p|576[pi]|720p|1080[pi]|2160p)$", re.I
+)
+
+
+def lookup_language(
+    index: dict[str, dict[str, Any]],
+    channel_id: str,
+    name: str,
+    record: dict[str, Any],
+) -> tuple[list[str], bool | None]:
+    """Resolve a channel's language from the index, or unknown.
+
+    Matching is by canonical id, then by iptv-org source reference, then by
+    normalized name. The id is preferred because one display name can be
+    shared by channels in different countries and languages.
+    """
+    if not index:
+        return [], None
+    keys = [channel_id]
+    for ref in (record.get("source_refs") or {}).get("iptv-org", []):
+        text = str(ref)
+        keys.append(text.lower())
+        keys.append(IPTVORG_QUALITY_RE.sub("", text.lower()))
+    normalized = normalize_name(name)
+    if normalized:
+        keys.append(normalized)
+    languages: set[str] = set()
+    english: bool | None = None
+    for key in keys:
+        entry = index.get(key)
+        if not entry:
+            continue
+        languages |= {str(value).lower() for value in (entry.get("languages") or [])}
+        flag = entry.get("english")
+        if flag is True:
+            return sorted(languages), True
+        if flag is False and english is None:
+            english = False
+    if english is False and any(value.startswith("eng") for value in languages):
+        english = True
+    return sorted(languages), english
+
+
 def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
     channels_path = root / "data/channels.json"
     aliases_path = root / "data/aliases.json"
@@ -330,6 +379,9 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
     _, default_category, category_aliases = load_category_config(root)
     name_patterns = load_name_patterns(root)
     exclusion_rules = load_exclusions(root)
+    language_index = load_language_index(root)
+    language_rules = load_language_filter(root)
+    quality_rules = load_quality_filter(root)
     source_order = {
         source_id: source.priority for source_id, source in load_sources(root).items()
     }
@@ -367,16 +419,28 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
     for channel_id, record in records.items():
         if record.get("manual") is True:
             continue
-        reason = is_excluded(
-            channel_id,
-            str(record.get("name", "")),
-            [str(value) for value in record.get("categories", [])],
-            exclusion_rules,
+        name = str(record.get("name", ""))
+        categories = [str(value) for value in record.get("categories", [])]
+        languages, english = lookup_language(language_index, channel_id, name, record)
+        if languages:
+            record["languages"] = languages
+        record["english"] = english
+
+        reason = (
+            language_exclusion_reason(
+                channel_id, name, categories, languages, english, language_rules
+            )
+            or quality_exclusion_reason(name, categories, quality_rules)
+            or is_excluded(channel_id, name, categories, exclusion_rules)
         )
         if reason:
             record["enabled"] = False
             record["excluded_by"] = reason
         else:
+            # Recompute rather than inherit: a channel excluded by an earlier
+            # rule must return once that rule no longer applies, otherwise
+            # stale exclusions accumulate and channels vanish silently.
+            record["enabled"] = True
             record.pop("excluded_by", None)
 
     return {

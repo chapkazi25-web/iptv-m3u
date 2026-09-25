@@ -1,0 +1,48 @@
+name: Update Language Index
+
+on:
+  schedule:
+    # Weekly. Grade TV adds languages as its catalog grows, so more channels
+    # become classifiable over time and the filter gets sharper.
+    - cron: "40 4 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generated-artifacts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build per-channel language index
+        run: python scripts/languages/build_index.py
+
+      - name: Reapply the language and quality filters
+        run: >-
+          python scripts/discover/build_catalog.py
+          && python scripts/build/merge_playlists.py
+          && python scripts/logos/apply_logos.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit language index
+        run: >-
+          python scripts/ci/commit_changes.py 'data: refresh channel language index' --push
+          --regenerate "python scripts/languages/build_index.py && python scripts/discover/build_catalog.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
+          data/languages.json data/channels.json data/stream-index.json data/build-report.json playlists

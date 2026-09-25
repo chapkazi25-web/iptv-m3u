@@ -13,13 +13,26 @@ from typing import Any, Iterable
 from .m3u import M3UEntry
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-# Publishers append the feed quality to the channel name ("Trace Africa
-# (1080p)"). Stripping it keeps one canonical record per channel instead of
-# one per advertised resolution.
+# Publishers advertise the feed quality in the channel name, either as a
+# parenthesised resolution ("Trace Africa (1080p)") or as a bare trailing word
+# ("Trace Urban HD"). Both forms have to be ignored, otherwise one channel is
+# catalogued once per advertised quality.
 QUALITY_SUFFIX_RE = re.compile(
     r"\s+\((?:FHD|UHD|HD|SD|4K|[1-9][0-9]{2,3}[pi])\)\s*$",
     re.I,
 )
+QUALITY_WORD_RE = re.compile(r"\s+(?:FHD|UHD|HD|SD|4K|HEVC)\s*$", re.I)
+
+
+def strip_quality(value: str) -> str:
+    """Return the channel name without any advertised quality marker."""
+    text = QUALITY_SUFFIX_RE.sub("", value or "").strip()
+    # Repeat: a name can carry both forms, e.g. "Trace Urban HD (1080p)".
+    previous = None
+    while previous != text:
+        previous = text
+        text = QUALITY_WORD_RE.sub("", text).strip()
+    return text or (value or "").strip()
 
 
 def normalize_name(value: str) -> str:
@@ -27,7 +40,7 @@ def normalize_name(value: str) -> str:
     text = unicodedata.normalize("NFKD", value or "")
     text = text.encode("ascii", "ignore").decode("ascii")
     text = text.replace("&", " and ")
-    text = QUALITY_SUFFIX_RE.sub("", text)
+    text = strip_quality(text)
     return re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
 
 
@@ -35,7 +48,7 @@ def slugify(value: str) -> str:
     text = unicodedata.normalize("NFKD", value or "")
     text = text.encode("ascii", "ignore").decode("ascii")
     text = text.replace("&", " and ")
-    text = QUALITY_SUFFIX_RE.sub("", text)
+    text = strip_quality(text)
     text = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     return text or "unknown-channel"
 
@@ -78,7 +91,16 @@ class ChannelCatalog:
         source_aliases: dict[str, dict[str, str]] | None = None,
     ) -> None:
         self.records = records
-        self.source_aliases = source_aliases or {}
+        # Alias keys are stored in whatever form the source published them
+        # ("CNN HD", "cnn hd"). Normalizing on load keeps them matching even
+        # though quality markers are now ignored in channel names.
+        self.source_aliases = {
+            str(source): {
+                normalize_name(str(alias)): str(target)
+                for alias, target in values.items()
+            }
+            for source, values in (source_aliases or {}).items()
+        }
         self._names: dict[str, set[str]] = defaultdict(set)
         for channel_id, record in records.items():
             for name in record_names(record, channel_id):

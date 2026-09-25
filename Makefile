@@ -1,6 +1,6 @@
 PYTHON ?= python3
 
-.PHONY: catalog epg logos apply-logos build validate test health sample refresh \
+.PHONY: catalog epg logos languages apply-logos build validate test health sample refresh \
         sources-gradetv sources-iptv-org
 
 catalog:
@@ -11,6 +11,9 @@ epg:
 
 logos:
 	$(PYTHON) scripts/logos/remote_index.py
+
+languages:
+	$(PYTHON) scripts/languages/build_index.py
 
 apply-logos:
 	$(PYTHON) scripts/logos/apply_logos.py
