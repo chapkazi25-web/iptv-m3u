@@ -1,0 +1,39 @@
+name: Update Core Playlist
+
+on:
+  schedule:
+    - cron: "35 2,8,14,20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-core-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate and check core playlist
+        run: python sources/core/generate.py --check-streams
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit generated source
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh core playlist' --push
+          playlists/sources/core.m3u data/reports/core.md

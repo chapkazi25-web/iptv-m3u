@@ -1,0 +1,46 @@
+name: Build Playlists
+
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-playlists
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh canonical channel catalog
+        run: python scripts/discover/build_catalog.py
+
+      - name: Build canonical playlists
+        run: python scripts/build/merge_playlists.py
+
+      - name: Apply remote K-yzu artwork links
+        run: python scripts/logos/apply_logos.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit generated playlists
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: rebuild public playlists' --push
+          playlists data/channels.json data/stream-index.json data/build-report.json

@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "disable_after_failures": 6,
+  "streams": {}
+}

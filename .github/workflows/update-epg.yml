@@ -1,0 +1,45 @@
+name: Update EPGShare Mapping
+
+on:
+  schedule:
+    - cron: "15 3 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-epgshare-mapping
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Import EPGShare XMLTV channel IDs
+        run: python scripts/epg/import_epgshare.py
+
+      - name: Rebuild playlists with EPG IDs
+        run: python scripts/build/merge_playlists.py
+
+      - name: Apply remote K-yzu artwork links
+        run: python scripts/logos/apply_logos.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit EPG mapping and playlist output
+        run: >-
+          python scripts/ci/commit_changes.py 'data: refresh EPGShare channel IDs' --push
+          data/channels.json data/epg-map.json data/stream-index.json data/build-report.json playlists

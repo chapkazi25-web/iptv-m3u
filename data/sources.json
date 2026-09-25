@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "sources": {
+    "core": {
+      "name": "Core IPTV",
+      "playlist": "playlists/sources/core.m3u",
+      "priority": 2,
+      "default_country": null,
+      "ephemeral": false
+    },
+    "cdn": {
+      "name": "CDN Live TV",
+      "playlist": "playlists/sources/cdn.m3u",
+      "priority": 1,
+      "default_country": null,
+      "ephemeral": false
+    },
+    "pluto-tv": {
+      "name": "Pluto TV",
+      "playlist": "playlists/sources/pluto-tv.m3u",
+      "priority": 3,
+      "default_country": "US",
+      "ephemeral": true
+    },
+    "tvivu": {
+      "name": "TVivu Music",
+      "playlist": "playlists/sources/tvivu-music.m3u",
+      "priority": 4,
+      "default_country": null,
+      "ephemeral": false
+    }
+  }
+}

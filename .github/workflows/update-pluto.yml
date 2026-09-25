@@ -1,0 +1,39 @@
+name: Update Pluto Playlist
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pluto-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate Pluto playlist with fresh session token
+        run: python sources/pluto-tv/generate.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit generated source
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh Pluto playlist' --push
+          playlists/sources/pluto-tv.m3u

@@ -1,0 +1,39 @@
+name: Update CDN Playlist
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-cdn-playlist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate CDN playlist with fresh tokens
+        run: python sources/cdn/generate.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit generated source
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh CDN playlist' --push
+          playlists/sources/cdn.m3u

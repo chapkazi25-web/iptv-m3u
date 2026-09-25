@@ -1,0 +1,42 @@
+name: Discover Channels
+
+on:
+  schedule:
+    - cron: "40 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-channels
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild canonical channel catalog
+        run: python scripts/discover/build_catalog.py
+
+      - name: Rebuild playlists
+        run: python scripts/build/merge_playlists.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit canonical channel changes
+        run: >-
+          python scripts/ci/commit_changes.py 'data: discover canonical channels' --push
+          data/channels.json data/stream-index.json data/build-report.json playlists

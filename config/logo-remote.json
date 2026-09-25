@@ -1,0 +1,7 @@
+{
+  "repository": "K-yzu/Logos",
+  "branch": "main",
+  "raw_base_url": "https://raw.githubusercontent.com/K-yzu/Logos/main",
+  "api_url": "https://api.github.com/repos/K-yzu/Logos/git/trees/main?recursive=1",
+  "extensions": [".png", ".gif", ".jpg", ".jpeg"]
+}

@@ -1,0 +1,1261 @@
+{
+  "version": 1,
+  "source": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz",
+  "source_url": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz",
+  "pdf_url": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.pdf",
+  "imported_at": "2026-09-25T20:19:32Z",
+  "stats": {
+    "epg_channels": 27394,
+    "usable_epg_channels": 27244,
+    "catalog_channels": 1530,
+    "matched": 311,
+    "ambiguous": 20,
+    "unmatched": 1199
+  },
+  "channels": {
+    "9x-jalwa": {
+      "epg_id": "9X.Jalwa.in",
+      "method": "source-id"
+    },
+    "a-and-e-tv": {
+      "epg_id": "A.and.E.HD.East.us2",
+      "method": "source-id"
+    },
+    "abc": {
+      "epg_id": "WABC-DT.us_locals1",
+      "method": "source-id"
+    },
+    "abc-news-live": {
+      "epg_id": "ABC.News.Live.us2",
+      "method": "source-id"
+    },
+    "acc-digital-network": {
+      "epg_id": "plex.tv.ACCDN.plex",
+      "method": "source-id"
+    },
+    "accuweather-now": {
+      "epg_id": "plex.tv.AccuWeather.NOW.plex",
+      "method": "source-id"
+    },
+    "adult-swim": {
+      "epg_id": "AdultSwim.com.Cartoon.Network.us2",
+      "method": "source-id"
+    },
+    "altitude-sports": {
+      "epg_id": "Altitude.Sports.us2",
+      "method": "source-id"
+    },
+    "amc": {
+      "epg_id": "AMC.HD.us2",
+      "method": "source-id"
+    },
+    "american-crimes": {
+      "epg_id": "American.Crimes.us2",
+      "method": "name-country"
+    },
+    "animal-planet": {
+      "epg_id": "Animal.Planet.HD.us2",
+      "method": "source-id"
+    },
+    "axs-tv": {
+      "epg_id": "AXS.TV.us2",
+      "method": "source-id"
+    },
+    "balle-balle": {
+      "epg_id": "BALLE.BALLE.in",
+      "method": "source-id"
+    },
+    "bbc-america": {
+      "epg_id": "BBC.America.HD.us2",
+      "method": "source-id"
+    },
+    "bbc-one": {
+      "epg_id": "BBC.One.Lon.HD.uk",
+      "method": "source-id"
+    },
+    "bbc-world-news": {
+      "epg_id": "BBC.News.(North.America).HD.us2",
+      "method": "source-id"
+    },
+    "bein-sports-1-au": {
+      "epg_id": "beINSports1.au",
+      "method": "name-country"
+    },
+    "bein-sports-1-france": {
+      "epg_id": "beIN.SPORTS.1.fr",
+      "method": "source-id"
+    },
+    "bein-sports-en-espanol": {
+      "epg_id": "beIN.Sports.En.Español.HD.us2",
+      "method": "source-id"
+    },
+    "bein-sports-usa": {
+      "epg_id": "beIN.Sports.USA.HD.us2",
+      "method": "source-id"
+    },
+    "bein-sports-xtra": {
+      "epg_id": "plex.tv.beIN.SPORTS.XTRA.plex",
+      "method": "source-id"
+    },
+    "bet": {
+      "epg_id": "BET.HD.us2",
+      "method": "source-id"
+    },
+    "big-ten-network": {
+      "epg_id": "Big.Ten.Network.HD.us2",
+      "method": "source-id"
+    },
+    "bloomberg-tv": {
+      "epg_id": "Bloomberg.HD.us2",
+      "method": "source-id"
+    },
+    "boogle-bollywood": {
+      "epg_id": "Boogle.Bollywood.in",
+      "method": "source-id"
+    },
+    "boomerang": {
+      "epg_id": "Boomerang.us2",
+      "method": "source-id"
+    },
+    "bounce-tv": {
+      "epg_id": "Bounce.TV.us2",
+      "method": "source-id"
+    },
+    "bravo-tv": {
+      "epg_id": "Bravo.HD.us2",
+      "method": "source-id"
+    },
+    "buzzr": {
+      "epg_id": "BUZZR.Stream.us2",
+      "method": "source-id"
+    },
+    "cartoon-network": {
+      "epg_id": "Cartoon.Network.HD.us2",
+      "method": "source-id"
+    },
+    "cbc-news-network": {
+      "epg_id": "CBC.News.Network.HD.ca2",
+      "method": "source-id"
+    },
+    "cbs-news-24-7": {
+      "epg_id": "CBS.News.National.Stream.us2",
+      "method": "source-id"
+    },
+    "cbs-sports-golazo-network": {
+      "epg_id": "CBS.Sports.Golazo.Network.us2",
+      "method": "source-id"
+    },
+    "cbs-sports-hq": {
+      "epg_id": "CBS.Sports.HQ.us2",
+      "method": "name-country"
+    },
+    "cbs-sports-network": {
+      "epg_id": "CBS.Sports.Network.HD.us2",
+      "method": "source-id"
+    },
+    "channel-5": {
+      "epg_id": "Channel.5.uk",
+      "method": "name-country"
+    },
+    "charge": {
+      "epg_id": "CHARGE!.us2",
+      "method": "source-id"
+    },
+    "cheddar": {
+      "epg_id": "Cheddar.us2",
+      "method": "source-id"
+    },
+    "chicago-sports-network": {
+      "epg_id": "CHSN.Chicago.Sports.Network.us2",
+      "method": "source-id"
+    },
+    "cine-en-espanol": {
+      "epg_id": "Cine.en.Español.us",
+      "method": "name-country"
+    },
+    "cinemax": {
+      "epg_id": "Cinemax.HD.us2",
+      "method": "source-id"
+    },
+    "cinemax-classics": {
+      "epg_id": "Cinemax.Classics.us2",
+      "method": "source-id"
+    },
+    "cinemax-hits": {
+      "epg_id": "Cinemax.Hits.us2",
+      "method": "source-id"
+    },
+    "circle-country": {
+      "epg_id": "Circle.Country.us2",
+      "method": "source-id"
+    },
+    "cmt": {
+      "epg_id": "CMT.HD.us2",
+      "method": "source-id"
+    },
+    "cnbc": {
+      "epg_id": "CNBC.HD.us2",
+      "method": "source-id"
+    },
+    "cnbc-us": {
+      "epg_id": "CNBC.us",
+      "method": "name-country"
+    },
+    "cnbc-world": {
+      "epg_id": "CNBC.World.us2",
+      "method": "source-id"
+    },
+    "cnn": {
+      "epg_id": "CNN.HD.us2",
+      "method": "source-id"
+    },
+    "cnn-headlines": {
+      "epg_id": "plex.tv.CNN.Headlines.plex",
+      "method": "source-id"
+    },
+    "cnn-international": {
+      "epg_id": "CNN.International.us2",
+      "method": "source-id"
+    },
+    "comedy-central": {
+      "epg_id": "Comedy.Central.HD.us2",
+      "method": "source-id"
+    },
+    "comet-tv": {
+      "epg_id": "Comet.us2",
+      "method": "source-id"
+    },
+    "confess-by-nosey": {
+      "epg_id": "Confess.by.Nosey.us",
+      "method": "name-country"
+    },
+    "cooking-channel": {
+      "epg_id": "Cooking.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "court-tv": {
+      "epg_id": "Court.TV.us2",
+      "method": "source-id"
+    },
+    "cozi-tv": {
+      "epg_id": "COZI.TV.us2",
+      "method": "source-id"
+    },
+    "crime-and-investigation-network": {
+      "epg_id": "Crime.and.Investigation.Network.HD.us2",
+      "method": "source-id"
+    },
+    "cw": {
+      "epg_id": "WPIX-DT.us_locals1",
+      "method": "source-id"
+    },
+    "dazn-1-germany": {
+      "epg_id": "DAZN.1.de",
+      "method": "source-id"
+    },
+    "dazn-2-germany": {
+      "epg_id": "DAZN.2.de",
+      "method": "source-id"
+    },
+    "deluxe-dance": {
+      "epg_id": "Deluxe.Dance.de",
+      "method": "source-id"
+    },
+    "deluxe-music": {
+      "epg_id": "DELUXE.MUSIC.de",
+      "method": "source-id"
+    },
+    "deluxe-rap": {
+      "epg_id": "Deluxe.Rap.de",
+      "method": "source-id"
+    },
+    "destination-america": {
+      "epg_id": "Destination.America.HD.us2",
+      "method": "source-id"
+    },
+    "dhoom-music": {
+      "epg_id": "DHOOM.MUSIC.in",
+      "method": "source-id"
+    },
+    "disco-polo-music": {
+      "epg_id": "Disco.Polo.Music.pl",
+      "method": "source-id"
+    },
+    "discovery-channel": {
+      "epg_id": "Discovery.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "discovery-life": {
+      "epg_id": "Discovery.Life.Channel.us2",
+      "method": "source-id"
+    },
+    "discovery-turbo-tv": {
+      "epg_id": "Discovery.Turbo.TV.us2",
+      "method": "name-country"
+    },
+    "disney-channel": {
+      "epg_id": "Disney.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "disney-jr": {
+      "epg_id": "Disney.Junior.HD.us2",
+      "method": "source-id"
+    },
+    "disney-xd": {
+      "epg_id": "Disney.XD.HD.us2",
+      "method": "source-id"
+    },
+    "dmf": {
+      "epg_id": "DMF.de",
+      "method": "source-id"
+    },
+    "dream-turk": {
+      "epg_id": "DREAM.TÜRK.tr",
+      "method": "name-country"
+    },
+    "e-entertainment": {
+      "epg_id": "E!.Entertainment.Television.HD.us2",
+      "method": "source-id"
+    },
+    "eska-rock-tv": {
+      "epg_id": "Eska.Rock.TV.pl",
+      "method": "source-id"
+    },
+    "eska-tv": {
+      "epg_id": "Eska.TV.pl",
+      "method": "source-id"
+    },
+    "eska-tv-extra": {
+      "epg_id": "Eska.TV.Extra.pl",
+      "method": "source-id"
+    },
+    "espn": {
+      "epg_id": "ESPN.HD.us2",
+      "method": "source-id"
+    },
+    "espn-deportes": {
+      "epg_id": "ESPN.Deportes.HD.us2",
+      "method": "source-id"
+    },
+    "espn2": {
+      "epg_id": "ESPN2.HD.us2",
+      "method": "source-id"
+    },
+    "espnews": {
+      "epg_id": "ESPNEWS.HD.us2",
+      "method": "source-id"
+    },
+    "espnu": {
+      "epg_id": "ESPNU.HD.us2",
+      "method": "source-id"
+    },
+    "estrella-news": {
+      "epg_id": "ESTRELLA.NEWS.us2",
+      "method": "name-country"
+    },
+    "extra-tv": {
+      "epg_id": "Extra.TV.hr",
+      "method": "source-id"
+    },
+    "failarmy": {
+      "epg_id": "FailArmy.us",
+      "method": "name-country"
+    },
+    "fanduel-racing": {
+      "epg_id": "Fanduel.Racing.us",
+      "method": "source-id"
+    },
+    "fetv": {
+      "epg_id": "Family.Entertainment.Television.us2",
+      "method": "source-id"
+    },
+    "food-network": {
+      "epg_id": "Food.Network.HD.us2",
+      "method": "source-id"
+    },
+    "fox": {
+      "epg_id": "WNYW-DT.us_locals1",
+      "method": "source-id"
+    },
+    "fox-business": {
+      "epg_id": "Fox.Business.HD.us2",
+      "method": "source-id"
+    },
+    "fox-deportes": {
+      "epg_id": "Fox.Deportes.HD.us2",
+      "method": "source-id"
+    },
+    "fox-livenow": {
+      "epg_id": "plex.tv.LiveNOW.from.FOX.plex",
+      "method": "source-id"
+    },
+    "fox-news": {
+      "epg_id": "Fox.News.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "fox-soccer-plus": {
+      "epg_id": "Fox.Soccer.Plus.HD.us2",
+      "method": "source-id"
+    },
+    "fox-sports-1": {
+      "epg_id": "FS1.HD.us2",
+      "method": "source-id"
+    },
+    "fox-sports-2": {
+      "epg_id": "FS2.HD.us2",
+      "method": "source-id"
+    },
+    "fox-weather": {
+      "epg_id": "plex.tv.FOX.Weather.plex",
+      "method": "source-id"
+    },
+    "freeform-tv": {
+      "epg_id": "Freeform.HD.us2",
+      "method": "source-id"
+    },
+    "fuse": {
+      "epg_id": "Fuse.HD.us2",
+      "method": "source-id"
+    },
+    "fx": {
+      "epg_id": "FX.HD.us2",
+      "method": "source-id"
+    },
+    "fx-movie-channel": {
+      "epg_id": "FX.Movie.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "fxx": {
+      "epg_id": "FXX.HD.us2",
+      "method": "source-id"
+    },
+    "fyi-tv": {
+      "epg_id": "FYI.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "game-show-central": {
+      "epg_id": "plex.tv.Game.Show.Central.plex",
+      "method": "source-id"
+    },
+    "game-show-network": {
+      "epg_id": "Game.Show.Network.HD.us2",
+      "method": "source-id"
+    },
+    "golf-channel": {
+      "epg_id": "Golf.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "great-entertainment-television": {
+      "epg_id": "Great.Entertainment.Television.us2",
+      "method": "source-id"
+    },
+    "grit-tv": {
+      "epg_id": "Grit.us2",
+      "method": "source-id"
+    },
+    "hallmark-channel": {
+      "epg_id": "Hallmark.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "hallmark-mystery": {
+      "epg_id": "Hallmark.Mystery.HD.us2",
+      "method": "source-id"
+    },
+    "hbo": {
+      "epg_id": "HBO.East.us2",
+      "method": "source-id"
+    },
+    "hbo-comedy": {
+      "epg_id": "HBO.Comedy.HD.us2",
+      "method": "source-id"
+    },
+    "hbo-zone": {
+      "epg_id": "HBO.Zone.HD.us2",
+      "method": "source-id"
+    },
+    "heartland": {
+      "epg_id": "KRPC-LD.us_locals1",
+      "method": "source-id"
+    },
+    "history-channel": {
+      "epg_id": "History.HD.us2",
+      "method": "source-id"
+    },
+    "hln-tv": {
+      "epg_id": "HLN.HD.us2",
+      "method": "source-id"
+    },
+    "ifc": {
+      "epg_id": "IFC.HD.us2",
+      "method": "source-id"
+    },
+    "insp": {
+      "epg_id": "INSP.HD.us2",
+      "method": "source-id"
+    },
+    "investigation-discovery": {
+      "epg_id": "Investigation.Discovery.HD.us2",
+      "method": "source-id"
+    },
+    "ion-tv": {
+      "epg_id": "ION.Television.HD.us2",
+      "method": "source-id"
+    },
+    "itv1": {
+      "epg_id": "ITV1.HD.uk",
+      "method": "source-id"
+    },
+    "judge-nosey": {
+      "epg_id": "Judge.Nosey.us",
+      "method": "name-country"
+    },
+    "kiss-tv": {
+      "epg_id": "Kiss.TV.ro",
+      "method": "source-id"
+    },
+    "law-and-crime": {
+      "epg_id": "Law.and.Crime.us2",
+      "method": "source-id"
+    },
+    "lifetime": {
+      "epg_id": "Lifetime.HD.us2",
+      "method": "source-id"
+    },
+    "lifetime-movie-network": {
+      "epg_id": "LMN.HD.us2",
+      "method": "source-id"
+    },
+    "magic-tv-ro": {
+      "epg_id": "Magic.TV.ro",
+      "method": "source-id"
+    },
+    "marquee-sports-network": {
+      "epg_id": "Marquee.Sports.Network.HD.us2",
+      "method": "source-id"
+    },
+    "mbc-america": {
+      "epg_id": "MBC.America.us2",
+      "method": "name-country"
+    },
+    "mbc-fm": {
+      "epg_id": "MBC.FM.ae",
+      "method": "source-id"
+    },
+    "metv": {
+      "epg_id": "Me.TV.Network.us2",
+      "method": "source-id"
+    },
+    "mezzo": {
+      "epg_id": "Mezzo.fr",
+      "method": "source-id"
+    },
+    "mgm": {
+      "epg_id": "MGM+.HD.us2",
+      "method": "source-id"
+    },
+    "mh-1-music": {
+      "epg_id": "mh1.(Music).in",
+      "method": "source-id"
+    },
+    "mlb-network": {
+      "epg_id": "MLB.Network.HD.us2",
+      "method": "source-id"
+    },
+    "mlb-network-strike-zone": {
+      "epg_id": "MLB.Network.Strike.Zone.HD.us2",
+      "method": "source-id"
+    },
+    "ms-now": {
+      "epg_id": "MS.NOW.HD.us2",
+      "method": "source-id"
+    },
+    "msg": {
+      "epg_id": "MSG.National.us2",
+      "method": "source-id"
+    },
+    "mtv": {
+      "epg_id": "MTV.-.Music.Television.HD.us2",
+      "method": "source-id"
+    },
+    "mtv-classic": {
+      "epg_id": "MTV.Classic.us2",
+      "method": "name-country"
+    },
+    "mtv-live": {
+      "epg_id": "MTVLIVE.us2",
+      "method": "source-id"
+    },
+    "music-india": {
+      "epg_id": "Music.India.in",
+      "method": "source-id"
+    },
+    "nat-geo": {
+      "epg_id": "National.Geographic.HD.us2",
+      "method": "source-id"
+    },
+    "nat-geo-wild": {
+      "epg_id": "National.Geographic.Wild.HD.us2",
+      "method": "source-id"
+    },
+    "nba-tv": {
+      "epg_id": "NBA.TV.HD.us2",
+      "method": "source-id"
+    },
+    "nbc": {
+      "epg_id": "WNBC-DT.us_locals1",
+      "method": "source-id"
+    },
+    "nbc-news-now": {
+      "epg_id": "plex.tv.NBC.News.NOW.plex",
+      "method": "source-id"
+    },
+    "nbc-sports-bay-area": {
+      "epg_id": "NBC.Sports.Bay.Area.HD.us2",
+      "method": "source-id"
+    },
+    "nbc-sports-boston": {
+      "epg_id": "NBC.Sports.Boston.HD.us2",
+      "method": "source-id"
+    },
+    "nbc-sports-california": {
+      "epg_id": "NBC.Sports.California.SAT.us2",
+      "method": "source-id"
+    },
+    "nbc-sports-now": {
+      "epg_id": "plex.tv.NBC.Sports.NOW.plex",
+      "method": "source-id"
+    },
+    "nbc-sports-philadelphia": {
+      "epg_id": "NBC.Sports.Philadelphia.HD.us2",
+      "method": "source-id"
+    },
+    "nesn": {
+      "epg_id": "New.England.Sports.Network.HD.us2",
+      "method": "source-id"
+    },
+    "newsmax-tv": {
+      "epg_id": "Newsmax.TV.HD.us2",
+      "method": "source-id"
+    },
+    "newsmax2": {
+      "epg_id": "plex.tv.Newsmax2.plex",
+      "method": "source-id"
+    },
+    "newsnation": {
+      "epg_id": "NewsNation.us2",
+      "method": "source-id"
+    },
+    "nfl-network": {
+      "epg_id": "NFL.Network.HD.us2",
+      "method": "source-id"
+    },
+    "nhl-network": {
+      "epg_id": "NHL.Network.HD.us2",
+      "method": "source-id"
+    },
+    "nick-jr": {
+      "epg_id": "Nick.Jr.HD.us2",
+      "method": "source-id"
+    },
+    "nickelodeon": {
+      "epg_id": "Nickelodeon.HD.us2",
+      "method": "source-id"
+    },
+    "nicktoons": {
+      "epg_id": "Nicktoons.us2",
+      "method": "source-id"
+    },
+    "now-70s": {
+      "epg_id": "NOW.70s.uk",
+      "method": "source-id"
+    },
+    "now-80s": {
+      "epg_id": "NOW.80s.uk",
+      "method": "source-id"
+    },
+    "now-90s00s": {
+      "epg_id": "NOW.90s00s.uk",
+      "method": "source-id"
+    },
+    "now-rock": {
+      "epg_id": "Now.Rock.uk",
+      "method": "source-id"
+    },
+    "oan-plus": {
+      "epg_id": "OAN.Plus.us",
+      "method": "name-country"
+    },
+    "one-america-news": {
+      "epg_id": "One.America.News.Network.HD.us2",
+      "method": "source-id"
+    },
+    "outdoor-channel": {
+      "epg_id": "Outdoor.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "oxygen-true-crime": {
+      "epg_id": "Oxygen.True.Crime.HD.us2",
+      "method": "source-id"
+    },
+    "panik-tv": {
+      "epg_id": "Panik.TV.gr",
+      "method": "source-id"
+    },
+    "paramount-network": {
+      "epg_id": "Paramount.Network.HD.us2",
+      "method": "source-id"
+    },
+    "peppers-tv": {
+      "epg_id": "Peppers.TV.in",
+      "method": "source-id"
+    },
+    "pop-tv": {
+      "epg_id": "POP.HD.us2",
+      "method": "source-id"
+    },
+    "premier-sports-1": {
+      "epg_id": "Premier.Sports.1.HD.ie",
+      "method": "source-id"
+    },
+    "premier-sports-2": {
+      "epg_id": "Premier.Sports.2.HD.ie",
+      "method": "source-id"
+    },
+    "ptc-music": {
+      "epg_id": "PTC.Music.in",
+      "method": "source-id"
+    },
+    "punjabi-hits": {
+      "epg_id": "Punjabi.Hits.in",
+      "method": "source-id"
+    },
+    "qvc2": {
+      "epg_id": "QVC2.us2",
+      "method": "name-country"
+    },
+    "racer-network": {
+      "epg_id": "RACER.Network.HD.us2",
+      "method": "source-id"
+    },
+    "radio-swh-tv": {
+      "epg_id": "Radio.SWH.TV.lv",
+      "method": "source-id"
+    },
+    "raj-musix-telugu": {
+      "epg_id": "RAJ.MUSIX.TELUGU.in",
+      "method": "source-id"
+    },
+    "real-america-s-voice": {
+      "epg_id": "Real.Americas.Voice.us2",
+      "method": "source-id"
+    },
+    "reelz-channel": {
+      "epg_id": "ReelzChannel.HD.us2",
+      "method": "source-id"
+    },
+    "reuters-60": {
+      "epg_id": "plex.tv.The.Reuters.60.plex",
+      "method": "source-id"
+    },
+    "rock-tv-ro": {
+      "epg_id": "Rock.TV.ro",
+      "method": "source-id"
+    },
+    "salem-news-channel": {
+      "epg_id": "Salem.News.Channel.us2",
+      "method": "name-country"
+    },
+    "sangeet-marathi": {
+      "epg_id": "Sangeet.Marathi.in",
+      "method": "source-id"
+    },
+    "science-channel": {
+      "epg_id": "Science.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "scripps-news": {
+      "epg_id": "Scripps.News.us2",
+      "method": "name-country"
+    },
+    "sec-network": {
+      "epg_id": "SEC.Network.HD.us2",
+      "method": "source-id"
+    },
+    "shop-lc": {
+      "epg_id": "Shop.LC.us2",
+      "method": "name-country"
+    },
+    "showtime": {
+      "epg_id": "Paramount+.with.Showtime.HD.us2",
+      "method": "source-id"
+    },
+    "showtime-2": {
+      "epg_id": "Showtime.2.HD.us2",
+      "method": "source-id"
+    },
+    "showtime-extreme": {
+      "epg_id": "Showtime.Extreme.HD.us2",
+      "method": "source-id"
+    },
+    "showtime-family-zone": {
+      "epg_id": "Showtime.Familyzone.HD.us2",
+      "method": "source-id"
+    },
+    "sky-news": {
+      "epg_id": "[SKYNWS].Sky.News.PEACOCK",
+      "method": "source-id"
+    },
+    "sky-sport-1": {
+      "epg_id": "Sky.Sport.1.nz",
+      "method": "name-country"
+    },
+    "sky-sport-2": {
+      "epg_id": "Sky.Sport.2.nz",
+      "method": "name-country"
+    },
+    "sky-sport-3": {
+      "epg_id": "Sky.Sport.3.nz",
+      "method": "name-country"
+    },
+    "sky-sport-4": {
+      "epg_id": "Sky.Sport.4.nz",
+      "method": "name-country"
+    },
+    "sky-sport-5": {
+      "epg_id": "Sky.Sport.5.nz",
+      "method": "name-country"
+    },
+    "sky-sport-6": {
+      "epg_id": "Sky.Sport.6.nz",
+      "method": "name-country"
+    },
+    "sky-sport-7": {
+      "epg_id": "Sky.Sport.7.nz",
+      "method": "name-country"
+    },
+    "sky-sport-8": {
+      "epg_id": "Sky.Sport.8.nz",
+      "method": "name-country"
+    },
+    "sky-sport-9": {
+      "epg_id": "Sky.Sport.9.nz",
+      "method": "name-country"
+    },
+    "sky-sport-select": {
+      "epg_id": "Sky.Sport.Select.nz",
+      "method": "name-country"
+    },
+    "sky-sports-action": {
+      "epg_id": "SkySp.Action.uk",
+      "method": "source-id"
+    },
+    "sky-sports-cricket": {
+      "epg_id": "SkySp.Cricket.uk",
+      "method": "source-id"
+    },
+    "sky-sports-f1": {
+      "epg_id": "SkySp.F1.uk",
+      "method": "source-id"
+    },
+    "sky-sports-football": {
+      "epg_id": "SkySp.Fball.uk",
+      "method": "source-id"
+    },
+    "sky-sports-golf": {
+      "epg_id": "SkySp.Golf.uk",
+      "method": "source-id"
+    },
+    "sky-sports-main-event": {
+      "epg_id": "SkySpMainEvHD.uk",
+      "method": "source-id"
+    },
+    "sky-sports-mix": {
+      "epg_id": "SkySp.Mix.HD.uk",
+      "method": "source-id"
+    },
+    "sky-sports-news": {
+      "epg_id": "SkySp.News.HD.uk",
+      "method": "source-id"
+    },
+    "sky-sports-premier-league": {
+      "epg_id": "SkySp.PL.HD.uk",
+      "method": "source-id"
+    },
+    "sky-sports-racing": {
+      "epg_id": "SkySp.Racing.HD.uk",
+      "method": "source-id"
+    },
+    "sky-sports-tennis": {
+      "epg_id": "SkySp.Tennis.HD.uk",
+      "method": "source-id"
+    },
+    "smithsonian-channel": {
+      "epg_id": "Smithsonian.HD.Network.us2",
+      "method": "source-id"
+    },
+    "space-city-home-network": {
+      "epg_id": "Space.City.Home.Network.HD.us2",
+      "method": "source-id"
+    },
+    "spectrum-news": {
+      "epg_id": "Spectrum.News+.us2",
+      "method": "source-id"
+    },
+    "spectrum-sportsnet-la-dodgers": {
+      "epg_id": "Spectrum.SportsNet.LA.Dodgers.HD.us2",
+      "method": "source-id"
+    },
+    "spectrum-sportsnet-lakers": {
+      "epg_id": "Spectrum.SportsNet.Lakers.HD.us2",
+      "method": "source-id"
+    },
+    "sportsnet-360": {
+      "epg_id": "Sportsnet.360.HD.ca2",
+      "method": "source-id"
+    },
+    "sportsnet-new-york": {
+      "epg_id": "SNY.SportsNet.New.York.HD.us2",
+      "method": "source-id"
+    },
+    "sportsnet-pittsburgh": {
+      "epg_id": "SportsNet.Pittsburgh.HD.us2",
+      "method": "source-id"
+    },
+    "sportsnet-world": {
+      "epg_id": "Sportsnet.World.ca2",
+      "method": "name-country"
+    },
+    "starz": {
+      "epg_id": "Starz.HD.us2",
+      "method": "source-id"
+    },
+    "starz-cinema": {
+      "epg_id": "Starz.Cinema.HD.us2",
+      "method": "source-id"
+    },
+    "starz-comedy": {
+      "epg_id": "Starz.Comedy.HD.us2",
+      "method": "source-id"
+    },
+    "starz-edge": {
+      "epg_id": "Starz.Edge.HD.us2",
+      "method": "source-id"
+    },
+    "starz-encore-action": {
+      "epg_id": "Starz.Encore.Action.HD.us2",
+      "method": "source-id"
+    },
+    "starz-encore-black": {
+      "epg_id": "Starz.Encore.Black.us2",
+      "method": "source-id"
+    },
+    "starz-encore-classic": {
+      "epg_id": "Starz.Encore.Classic.us2",
+      "method": "source-id"
+    },
+    "starz-encore-family": {
+      "epg_id": "Starz.Encore.Family.SD.us2",
+      "method": "source-id"
+    },
+    "starz-encore-suspense": {
+      "epg_id": "Starz.Encore.Suspense.us2",
+      "method": "source-id"
+    },
+    "starz-encore-westerns": {
+      "epg_id": "Starz.Encore.Westerns.SD.us2",
+      "method": "source-id"
+    },
+    "starz-in-black": {
+      "epg_id": "Starz.in.Black.HD.us2",
+      "method": "source-id"
+    },
+    "starz-kids-and-family": {
+      "epg_id": "Starz.Kids.HD.us2",
+      "method": "source-id"
+    },
+    "steelbird-music": {
+      "epg_id": "Steelbird.Music.in",
+      "method": "source-id"
+    },
+    "stingray-classic-rock": {
+      "epg_id": "Stingray.Classic.Rock.ca2",
+      "method": "name-country"
+    },
+    "stingray-hit-list": {
+      "epg_id": "Stingray.Hit.List.ca2",
+      "method": "name-country"
+    },
+    "stingray-hot-country": {
+      "epg_id": "Stingray.Hot.Country.ca2",
+      "method": "name-country"
+    },
+    "stingray-jukebox-oldies": {
+      "epg_id": "Stingray.Jukebox.Oldies.ca2",
+      "method": "name-country"
+    },
+    "stingray-pop-adult": {
+      "epg_id": "Stingray.Pop.Adult.ca2",
+      "method": "name-country"
+    },
+    "stingray-remember-the-80s": {
+      "epg_id": "Stingray.Remember.the.’80s.ca2",
+      "method": "name-country"
+    },
+    "stingray-the-spa": {
+      "epg_id": "Stingray.The.Spa.ca2",
+      "method": "name-country"
+    },
+    "stv": {
+      "epg_id": "STV.HD.uk",
+      "method": "source-id"
+    },
+    "sundance": {
+      "epg_id": "SundanceTV.HD.us2",
+      "method": "source-id"
+    },
+    "syfy": {
+      "epg_id": "Syfy.HD.us2",
+      "method": "source-id"
+    },
+    "tabbar-hits": {
+      "epg_id": "Tabbar.Hits.in",
+      "method": "source-id"
+    },
+    "tarang-music": {
+      "epg_id": "TARANG.MUSIC.in",
+      "method": "source-id"
+    },
+    "tbs": {
+      "epg_id": "TBS.HD.us2",
+      "method": "source-id"
+    },
+    "tbs-west": {
+      "epg_id": "TBS.HD.(Pacific).us2",
+      "method": "source-id"
+    },
+    "telemundo": {
+      "epg_id": "Telemundo.Satellite.Feed.Pacific.us2",
+      "method": "source-id"
+    },
+    "tennis-channel": {
+      "epg_id": "Tennis.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "tennis-channel-2": {
+      "epg_id": "plex.tv.Tennis.Channel.2.plex",
+      "method": "source-id"
+    },
+    "the-first": {
+      "epg_id": "The.First.us2",
+      "method": "name-country"
+    },
+    "the-voice": {
+      "epg_id": "The.Voice.bg",
+      "method": "source-id"
+    },
+    "the-weather-channel": {
+      "epg_id": "The.Weather.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "tlc": {
+      "epg_id": "TLC.HD.(US).us2",
+      "method": "source-id"
+    },
+    "tnt": {
+      "epg_id": "TNT.HD.us2",
+      "method": "source-id"
+    },
+    "tnt-sports-1": {
+      "epg_id": "TNT.Sports.1.HD.uk",
+      "method": "source-id"
+    },
+    "tnt-sports-2": {
+      "epg_id": "TNT.Sports.2.HD.uk",
+      "method": "source-id"
+    },
+    "tnt-sports-3": {
+      "epg_id": "TNT.Sports.3.HD.uk",
+      "method": "source-id"
+    },
+    "tnt-sports-4": {
+      "epg_id": "TNT.Sports.4.HD.uk",
+      "method": "source-id"
+    },
+    "tnt-west": {
+      "epg_id": "TNT.HD.(Pacific).us2",
+      "method": "source-id"
+    },
+    "today-all-day": {
+      "epg_id": "TODAY.ALL.DAY.us",
+      "method": "name-country"
+    },
+    "today-radio": {
+      "epg_id": "Today.Radio.lu",
+      "method": "source-id"
+    },
+    "trace-gospel": {
+      "epg_id": "Trace.Gospel.fr",
+      "method": "source-id"
+    },
+    "trace-latina": {
+      "epg_id": "Trace.Latina.fr",
+      "method": "source-id"
+    },
+    "trace-urban": {
+      "epg_id": "Trace.Urban.fr",
+      "method": "source-id"
+    },
+    "travel-channel": {
+      "epg_id": "The.Travel.Channel.HD.us2",
+      "method": "source-id"
+    },
+    "trt-muzik": {
+      "epg_id": "TRT.MÜZİK.tr",
+      "method": "name-country"
+    },
+    "trutv": {
+      "epg_id": "truTV.HD.us2",
+      "method": "source-id"
+    },
+    "trutv-west": {
+      "epg_id": "truTV.HD.(Pacific).us2",
+      "method": "source-id"
+    },
+    "tunes-6": {
+      "epg_id": "Tunes.6.in",
+      "method": "source-id"
+    },
+    "turner-classic-movies": {
+      "epg_id": "Turner.Classic.Movies.HD.us2",
+      "method": "source-id"
+    },
+    "tv-land": {
+      "epg_id": "TV.Land.HD.us2",
+      "method": "source-id"
+    },
+    "tv-one": {
+      "epg_id": "TV.ONE.HD.us2",
+      "method": "source-id"
+    },
+    "universal-action": {
+      "epg_id": "Universal.Action.us2",
+      "method": "name-country"
+    },
+    "universal-crime": {
+      "epg_id": "Universal.Crime.us2",
+      "method": "name-country"
+    },
+    "universal-monsters": {
+      "epg_id": "Universal.Monsters.us2",
+      "method": "name-country"
+    },
+    "usa-network": {
+      "epg_id": "USA.Network.HD.us2",
+      "method": "source-id"
+    },
+    "vaanavil-tv": {
+      "epg_id": "Vaanavil.TV.in",
+      "method": "source-id"
+    },
+    "vevo-2k": {
+      "epg_id": "Vevo.2K.us2",
+      "method": "name-country"
+    },
+    "vevo-70s": {
+      "epg_id": "Vevo.70s.us2",
+      "method": "name-country"
+    },
+    "vevo-80s": {
+      "epg_id": "Vevo.80s.us2",
+      "method": "name-country"
+    },
+    "vevo-90s": {
+      "epg_id": "Vevo.90s.us2",
+      "method": "name-country"
+    },
+    "vevo-country": {
+      "epg_id": "Vevo.Country.us2",
+      "method": "name-country"
+    },
+    "vevo-iconos-latinos": {
+      "epg_id": "Vevo.Íconos.Latinos.us2",
+      "method": "name-country"
+    },
+    "vevo-latino": {
+      "epg_id": "Vevo.Latino.us2",
+      "method": "name-country"
+    },
+    "vevo-pop": {
+      "epg_id": "Vevo.Pop.us2",
+      "method": "name-country"
+    },
+    "vevo-r-and-b": {
+      "epg_id": "Vevo.R.andB.us2",
+      "method": "name-country"
+    },
+    "vevo-regional-mexicano": {
+      "epg_id": "Vevo.Regional.Mexicano.us2",
+      "method": "name-country"
+    },
+    "vevo-rock": {
+      "epg_id": "Vevo.Rock.us2",
+      "method": "name-country"
+    },
+    "vevo-true-school-hip-hop": {
+      "epg_id": "Vevo.True.School.Hip-Hop.us2",
+      "method": "name-country"
+    },
+    "vh1": {
+      "epg_id": "VH1.HD.us2",
+      "method": "source-id"
+    },
+    "vice-tv": {
+      "epg_id": "Vice.HD.us2",
+      "method": "source-id"
+    },
+    "vijay-takkar": {
+      "epg_id": "VIJAY.TAKKAR.in",
+      "method": "source-id"
+    },
+    "viva-russia": {
+      "epg_id": "VIVARussia.ru",
+      "method": "source-id"
+    },
+    "vox-music-tv": {
+      "epg_id": "VOX.Music.TV.pl",
+      "method": "source-id"
+    },
+    "we-tv": {
+      "epg_id": "WE.tv.HD.us2",
+      "method": "source-id"
+    },
+    "weathernation": {
+      "epg_id": "Weather.Nation.TV.HD.us2",
+      "method": "source-id"
+    },
+    "willow-sports": {
+      "epg_id": "plex.tv.Willow.Sports.plex",
+      "method": "source-id"
+    },
+    "world-poker-tour": {
+      "epg_id": "World.Poker.Tour.us",
+      "method": "name-country"
+    },
+    "xite": {
+      "epg_id": "XITE.nl",
+      "method": "source-id"
+    },
+    "yahoo-finance": {
+      "epg_id": "plex.tv.Yahoo.Finance.plex",
+      "method": "source-id"
+    },
+    "yrf-music": {
+      "epg_id": "YRF.Music.in",
+      "method": "source-id"
+    },
+    "zoom": {
+      "epg_id": "ZOOM.in",
+      "method": "source-id"
+    }
+  }
+}

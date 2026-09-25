@@ -1,0 +1,38 @@
+name: Update Remote Logo Index
+
+on:
+  schedule:
+    - cron: "25 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-logo-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh K-yzu raw artwork index
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/logos/remote_index.py
+
+      - name: Commit remote artwork index
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh K-yzu artwork index' --push
+          data/logo-index.json

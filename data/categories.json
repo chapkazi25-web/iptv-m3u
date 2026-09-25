@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "default": "entertainment",
+  "categories": {
+    "news": {
+      "name": "News & Weather",
+      "aliases": ["news", "news & weather", "news + opinion", "local news", "weather"]
+    },
+    "sports": {
+      "name": "Sports",
+      "aliases": ["sports", "live", "live events"]
+    },
+    "entertainment": {
+      "name": "Entertainment",
+      "aliases": ["entertainment", "general", "classic tv", "comedy", "drama", "reality", "competition reality", "big brother live"]
+    },
+    "movies": {
+      "name": "Movies & Premium",
+      "aliases": ["movies", "movies & premium", "movie channels", "westerns", "true crime"]
+    },
+    "music": {
+      "name": "Music",
+      "aliases": ["music", "music videos"]
+    },
+    "kids": {
+      "name": "Kids & Family",
+      "aliases": ["kids", "kids & family", "anime", "children"]
+    },
+    "documentary": {
+      "name": "Documentary & Reality",
+      "aliases": ["documentary", "documentary & reality", "animals + nature", "history + science", "science + nature", "home + food"]
+    },
+    "live-events": {
+      "name": "Live Events",
+      "aliases": ["live - american football", "live - baseball", "live - basketball", "live - hockey", "live - racing", "live - soccer", "live - tennis", "live - other events"]
+    },
+    "regional": {
+      "name": "Regional",
+      "aliases": ["en español", "regional", "local"]
+    }
+  }
+}

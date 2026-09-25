@@ -1,0 +1,1 @@
+"""Stream testing command namespace."""

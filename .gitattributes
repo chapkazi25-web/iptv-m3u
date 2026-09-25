@@ -1,0 +1,12 @@
+* text=auto eol=lf
+*.m3u text eol=lf
+*.m3u8 text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.md text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary

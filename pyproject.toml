@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iptv-m3u"
+version = "1.0.0"
+description = "Canonical, health-aware IPTV M3U generation pipeline"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+dependencies = ["requests>=2.31,<3"]
+
+[tool.setuptools]
+packages = [
+  "scripts",
+  "scripts.lib",
+  "scripts.build",
+  "scripts.ci",
+  "scripts.discover",
+  "scripts.epg",
+  "scripts.logos",
+  "scripts.normalize",
+  "scripts.test",
+  "scripts.validate",
+]

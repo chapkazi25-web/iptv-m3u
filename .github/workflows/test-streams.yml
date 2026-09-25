@@ -1,0 +1,39 @@
+name: Test Streams
+
+on:
+  schedule:
+    - cron: "45 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: test-streams
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh canonical channel catalog
+        run: python scripts/discover/build_catalog.py
+
+      - name: Probe source streams
+        run: python scripts/test/check_streams.py --workers 24 --timeout 12
+
+      - name: Commit health state
+        run: >-
+          python scripts/ci/commit_changes.py 'data: update stream health' --push
+          data/channels.json data/stream-health.json

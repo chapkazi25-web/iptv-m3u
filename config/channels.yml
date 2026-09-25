@@ -1,0 +1,15 @@
+# Canonical channel overrides and stable IDs.
+# The complete generated catalog lives in data/channels.json.
+channels:
+  cnn:
+    manual: true
+    name: CNN
+    aliases: [CNN, CNN HD, CNN US, CNN USA]
+    countries: [US]
+    categories: [news]
+  bbc-one:
+    manual: true
+    name: BBC One
+    aliases: [BBC One, BBC1, BBC One HD]
+    countries: [GB]
+    categories: [entertainment]

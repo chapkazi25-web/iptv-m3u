@@ -1,0 +1,30 @@
+name: Validate Repository
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit and integration tests
+        run: python -m unittest discover -v
+
+      - name: Validate M3U and canonical data
+        run: python scripts/validate/validate_m3u.py

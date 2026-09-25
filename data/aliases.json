@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "sources": {
+    "core": {
+      "cnn hd": "cnn",
+      "cnn us": "cnn",
+      "cnn usa": "cnn"
+    },
+    "cdn": {
+      "cnn hd": "cnn",
+      "cnn us": "cnn",
+      "cnn usa": "cnn"
+    },
+    "pluto-tv": {
+      "cnn hd": "cnn"
+    },
+    "tvivu": {
+      "cnn hd": "cnn"
+    }
+  }
+}
