@@ -6,6 +6,7 @@ from scripts.discover.build_catalog import consolidate_existing
 from scripts.lib.catalog import normalize_name, slugify
 from scripts.lib.m3u import M3UEntry
 from scripts.lib.pipeline import (
+    HealthStore,
     canonical_category,
     is_excluded,
     is_excluded_group,
@@ -232,6 +233,48 @@ class QualitySuffixTests(unittest.TestCase):
             "sky-news": {"name": "Sky News", "countries": ["GB"]},
         }
         self.assertEqual(consolidate_existing(existing), existing)
+
+
+class SourcePreferenceTests(unittest.TestCase):
+    """A higher-trust source must win over a marginally faster one.
+
+    Verified proxy hops (GradeTV) are slower than direct links (iptv-org) but
+    re-check their feed, so source priority outranks response time once both
+    streams are equally healthy.
+    """
+
+    def _store(self, **streams: dict) -> HealthStore:
+        return HealthStore({"version": 1, "disable_after_failures": 6, "streams": streams})
+
+    def test_higher_trust_source_wins_despite_slower_response(self) -> None:
+        store = self._store(
+            gradetv={"status": "online", "failures": 0, "response_time_ms": 1312},
+            iptv_org={"status": "online", "failures": 0, "response_time_ms": 1037},
+        )
+        self.assertLess(store.score("gradetv", 4), store.score("iptv_org", 5))
+
+    def test_health_still_outranks_source_priority(self) -> None:
+        store = self._store(
+            trusted_but_degraded={"status": "degraded", "failures": 1, "response_time_ms": 200},
+            less_trusted_but_online={"status": "online", "failures": 0, "response_time_ms": 900},
+        )
+        # A working stream from a lower-priority source must still be chosen.
+        self.assertLess(
+            store.score("less_trusted_but_online", 5),
+            store.score("trusted_but_degraded", 1),
+        )
+
+    def test_untested_stream_is_used_when_no_health_data_exists(self) -> None:
+        store = self._store()
+        self.assertEqual(store.status_rank("never-probed"), 1)
+        self.assertEqual(store.score("never-probed", 9), (1, 9, 0, 10**9))
+
+    def test_response_time_breaks_ties_within_one_source(self) -> None:
+        store = self._store(
+            slow={"status": "online", "failures": 0, "response_time_ms": 900},
+            fast={"status": "online", "failures": 0, "response_time_ms": 300},
+        )
+        self.assertLess(store.score("fast", 4), store.score("slow", 4))
 
 
 if __name__ == "__main__":

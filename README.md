@@ -108,8 +108,9 @@ make sample            # 20 channels per source
 | `iptv-org` | 5 | iptv-org community index, links are unverified |
 | `tvivu` | 6 | Last-resort fallback, slowest to refresh |
 
-Priority only breaks ties between streams that are equally healthy, so a
-verified Grade TV feed always wins over an unverified iptv-org link.
+Priority is applied in this order: stream health, then source priority, then
+failure count, then response time. Source trust deliberately outranks latency,
+so a verified Grade TV hop wins over a marginally faster direct iptv-org link.
 
 Grade TV is queried through its documented API. Each channel exposes one
 stream per feed (HD, SD, ...) and each feed carries its own health, so the
@@ -137,7 +138,7 @@ racing, tennis, other events) are removed.
 
 ## Stream selection and health
 
-`scripts/validate/check_streams.py` records status, latency, and consecutive failures for every source stream. The selector considers reachability, failure history, response time, source priority, quality, and stream identity.
+`scripts/validate/check_streams.py` records status, latency, and consecutive failures for every source stream. The selector considers reachability, source priority, failure history, and response time.
 
 A single failed check does not remove a stream. Repeated failures mark it degraded or unstable; after six consecutive failures it is disabled unless the source is explicitly ephemeral. A successful check clears the failure count and restores the stream. When a preferred source fails, a healthy alternate can automatically take its place.
 

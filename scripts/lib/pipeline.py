@@ -195,12 +195,19 @@ class HealthStore:
             return None
 
     def score(self, identifier: str, source_priority: int) -> tuple[Any, ...]:
+        """Order candidates: health first, then source trust, then latency.
+
+        Source priority deliberately outranks response time. A verified proxy
+        hop such as GradeTV is typically a few hundred milliseconds slower
+        than a direct link, but it re-checks the feed and self-heals, so the
+        extra latency is worth the higher-trust source.
+        """
         response = self.response_time(identifier)
         return (
             self.status_rank(identifier),
+            source_priority,
             min(self.failures(identifier), self.disable_after_failures),
             response if response is not None else 10**9,
-            source_priority,
         )
 
     def as_dict(self) -> dict[str, Any]:
