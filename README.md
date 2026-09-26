@@ -99,14 +99,14 @@ make sample            # 20 channels per source
 
 ## Sources
 
-| Source | Priority | Notes |
-| --- | --- | --- |
-| `cdn` | 1 | CDN Live TV |
-| `core` | 2 | Core IPTV |
-| `pluto-tv` | 3 | Pluto TV, fresh session token per run |
-| `gradetv` | 4 | Grade TV public API; resolves per-feed health |
-| `iptv-org` | 5 | iptv-org community index, links are unverified |
-| `tvivu` | 6 | Last-resort fallback, slowest to refresh |
+| Source | Upstream | Priority | Notes |
+| --- | --- | --- | --- |
+| `cdn` | [CDN Live TV](https://cdnlivetv.is) | 1 | Channel list and per-channel player tokens |
+| `core` | [doms9/iptv](https://github.com/doms9/iptv) | 2 | Group titles reorganised into categories |
+| `pluto-tv` | [Pluto TV](https://pluto.tv) | 3 | Fresh session token per run |
+| `gradetv` | [Grade TV](https://gradetv.net) | 4 | Public API; resolves per-feed health |
+| `iptv-org` | [iptv-org/iptv](https://github.com/iptv-org/iptv) | 5 | Community index, links are unverified |
+| `tvivu` | [TVivu](https://tvivu.com) | 6 | Last-resort fallback, slowest to refresh |
 
 Priority is applied in this order: stream health, then source priority, then
 failure count, then response time. Source trust deliberately outranks latency,
@@ -117,6 +117,32 @@ stream per feed (HD, SD, ...) and each feed carries its own health, so the
 generator resolves the detail endpoint and publishes the healthiest feed
 rather than the first one listed. The curated channel list lives in
 `config/gradetv.json`; run with `--all` to sweep the full playable catalog.
+
+## Credits
+
+None of the streams in this playlist are hosted here. Every one is a public URL
+published by somebody else, and this repository only decides which of them to
+link. That work is the entire reason the list is worth anything, so the
+upstream projects deserve the credit rather than a passing mention in a table:
+
+| Project | What it contributes |
+| --- | --- |
+| [iptv-org](https://github.com/iptv-org/iptv) | The community channel index this list is largely built on. Thousands of channels, maintained by volunteers, with the country and language metadata the filters read. |
+| [doms9/iptv](https://github.com/doms9/iptv) | A continuously refreshed playlist and its EPG, plus the health-report layout the stream checker here follows. |
+| [CDN Live TV](https://cdnlivetv.is) | A documented channel API and per-channel player tokens for the US, CA, GB, AU and NZ feeds. |
+| [Grade TV](https://gradetv.net) | A per-channel API exposing a stable hop in front of each feed, the per-feed health this project selects on, and hosted artwork cards. |
+| [Pluto TV](https://pluto.tv) | The free ad-supported linear channels and the session API that lists them. |
+| [TVivu](https://tvivu.com) | The music-channel catalogue used as the last-resort source. |
+| [K-yzu/Logos](https://github.com/K-yzu/Logos) | The bulk of the channel artwork in `tvg-logo`. |
+| [EPGShare01](https://epgshare01.online) | The public XMLTV feed that every `tvg-id` is matched against. |
+| [Wikipedia](https://en.wikipedia.org) | Artwork for the channels K-yzu and Grade TV do not cover, queried under its API etiquette. |
+| [TheSportsDB](https://www.thesportsdb.com) | The free fixture schedule that expires live-event channels on time. |
+
+Two things follow from depending on other people's work. Their terms apply to
+what they publish, and this project inherits none of it — the disclaimer below
+is not a formality. And when one of them changes an endpoint, a rate limit or
+a licence, the breakage shows up here first, so issues traced to a single
+upstream are worth reporting to them as well as opening one here.
 
 ## Categories
 
@@ -288,4 +314,6 @@ Run the validation and test commands above before submitting changes.
 
 ## Disclaimer
 
-This project does not host, store, or transmit video content. It only references publicly accessible streaming URLs and remote artwork URLs. Availability, licensing, and legality vary by source and jurisdiction. Users are responsible for complying with applicable law and the rights of content owners. If you own content and want a reference removed, open an issue.
+This project does not host, store, or transmit video content. It only references publicly accessible streaming URLs and remote artwork URLs. It claims no ownership of any channel, stream, or logo, and it hosts none of them. The channels themselves belong to their respective broadcasters, and the artwork belongs to the projects credited above.
+
+Availability, licensing, and legality vary by source and jurisdiction, and each upstream publishes its own terms; using this playlist means following theirs. Users are responsible for complying with applicable law and the rights of content owners. If you own content and want a reference removed, open an issue.

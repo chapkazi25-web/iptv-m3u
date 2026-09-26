@@ -33,7 +33,27 @@ from scripts.lib.pipeline import (
 
 RAW_BASE_URL = "https://raw.githubusercontent.com/K-yzu/Logos/main"
 EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
-ALL_HEADER = f'#EXTM3U url-tvg="{EPG_URL}"'
+REPOSITORY = "https://github.com/chapkazi25-web/iptv-m3u"
+
+# A playlist URL is often the only thing a user ever sees, so the attribution
+# travels with the file rather than living only in the README. These are the
+# upstreams that actually publish the streams; this project only chooses which
+# of their links to point at.
+ALL_HEADER = "\n".join(
+    [
+        f'#EXTM3U url-tvg="{EPG_URL}"',
+        "#",
+        "# No stream here is hosted by this project. Every URL below is a public",
+        "# feed published by one of these projects, which do the work of keeping",
+        "# them alive. Thank you:",
+        "#",
+        "#   streams  iptv-org, doms9/iptv, CDN Live TV, Grade TV, Pluto TV, TVivu",
+        "#   artwork  K-yzu/Logos, Wikipedia",
+        "#   data     EPGShare01, TheSportsDB",
+        "#",
+        f"# Details and per-project credits: {REPOSITORY}#credits",
+    ]
+)
 
 
 @dataclass

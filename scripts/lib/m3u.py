@@ -115,6 +115,11 @@ class M3UEntry:
 def parse_m3u_text(text: str, *, source: str = "<memory>") -> tuple[str, list[M3UEntry]]:
     lines = text.replace("\r\n", "\n").replace("\r", "\n").split("\n")
     header = "#EXTM3U"
+    # Comments that appear between the #EXTM3U line and the first entry belong
+    # to the playlist, not to any channel, and are kept as part of the header
+    # so a parse and re-render round trip does not silently drop them. That is
+    # what lets the published playlist carry its attribution.
+    preamble: list[str] = []
     entries: list[M3UEntry] = []
     current: M3UEntry | None = None
 
@@ -136,10 +141,13 @@ def parse_m3u_text(text: str, *, source: str = "<memory>") -> tuple[str, list[M3
                 line_number=line_number,
             )
             continue
-        if current is None:
-            continue
         if line.startswith("#"):
-            current.extra_lines.append(raw_line.rstrip())
+            if current is None:
+                preamble.append(raw_line.rstrip())
+            else:
+                current.extra_lines.append(raw_line.rstrip())
+            continue
+        if current is None:
             continue
         current.url = line
         entries.append(current)
@@ -147,7 +155,7 @@ def parse_m3u_text(text: str, *, source: str = "<memory>") -> tuple[str, list[M3
 
     if current is not None:
         entries.append(current)
-    return header, entries
+    return "\n".join([header, *preamble]), entries
 
 
 def parse_m3u(path: str | Path) -> tuple[str, list[M3UEntry]]:
@@ -168,7 +176,9 @@ def render_extinf(entry: M3UEntry) -> str:
 
 
 def render_m3u(header: str, entries: Iterable[M3UEntry]) -> str:
-    lines = [header.rstrip() or "#EXTM3U"]
+    # The header may be several lines when it carries a comment block, which
+    # render_m3u passes through as written.
+    lines = (header.rstrip() or "#EXTM3U").split("\n")
     for entry in entries:
         lines.append(render_extinf(entry))
         lines.extend(entry.extra_lines)
