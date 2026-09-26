@@ -29,14 +29,14 @@
     "ufc": 4
   },
   "country_channels": {
-    "AU": 52,
+    "AU": 53,
     "CA": 74,
     "FR": 3,
     "GB": 155,
     "NZ": 16,
     "TR": 5,
     "TZ": 6,
-    "US": 1589
+    "US": 1588
   },
   "international_channels": 6,
   "unresolved_channels": []
