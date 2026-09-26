@@ -25448,6 +25448,29 @@
       "quality_height": null,
       "not_24_7": false
     },
+    "axn-asia-philippines": {
+      "name": "AXN Asia Philippines",
+      "quality_height": 576,
+      "not_24_7": false,
+      "aliases": [
+        "AXN Asia Philippines (576p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "AXNAsia.sg.Philippines"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "axn-asia-taiwan-1080p": {
       "name": "AXN Asia Taiwan",
       "aliases": [
@@ -25819,7 +25842,7 @@
     "axn-latin-america-south": {
       "name": "AXN Latin America South",
       "aliases": [
-        "AXN Latin America South"
+        "AXN Latin America South (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -25836,7 +25859,7 @@
       "logo": "",
       "enabled": true,
       "english": null,
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "axn-movies-720p": {
@@ -27881,6 +27904,30 @@
       "excluded_by": "language:por",
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "bandamax": {
+      "name": "Bandamax",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Bandamax (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Bandamax.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "quality:1080p"
     },
     "bandnews-1080p": {
       "name": "BandNews",
@@ -51997,7 +52044,8 @@
       "enabled": false,
       "source_refs": {
         "pluto-tv": [
-          "cbs-news-philadelphia-ptv1"
+          "cbs-news-philadelphia-ptv1",
+          "cbs-news-philadelphia-ptv2"
         ]
       },
       "english": null,
@@ -56087,6 +56135,30 @@
       "quality_height": null,
       "not_24_7": false
     },
+    "chaozhou-public-channel": {
+      "name": "Chaozhou Public Channel",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Chaozhou Public Channel"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "ChaozhouPublicChannel.cn.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": false,
+      "excluded_by": "language:non-english"
+    },
     "chappelle-s-show": {
       "name": "Chappelle's Show",
       "aliases": [
@@ -59069,6 +59141,29 @@
       "english": null,
       "quality_height": null,
       "not_24_7": false
+    },
+    "cinemax-action-east": {
+      "name": "Cinemax Action East",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Cinemax Action East HD (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "CinemaxAction.us.EastHD"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "cinemax-classics": {
       "name": "Cinemax Classics",
@@ -105349,10 +105444,12 @@
       "quality_height": null,
       "not_24_7": false
     },
-    "hbo-hits-720p": {
-      "name": "HBO Hits",
+    "hbo-drama": {
+      "name": "HBO Drama",
+      "quality_height": 1080,
+      "not_24_7": false,
       "aliases": [
-        "HBO Hits (720p)"
+        "HBO Drama (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -105363,18 +105460,12 @@
       ],
       "source_refs": {
         "iptv-org": [
-          "HBOHits.us.East"
+          "HBODrama.us.East"
         ]
       },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/HBO%20Hits.png",
+      "logo": "",
       "enabled": true,
-      "languages": [
-        "eng",
-        "spa"
-      ],
-      "english": true,
-      "quality_height": 720,
-      "not_24_7": false
+      "english": null
     },
     "hbo-hits-east-hd-720p": {
       "name": "HBO Hits East",
@@ -160987,6 +161078,29 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "nick-jr-united-states-east": {
+      "name": "Nick Jr. (United States) East",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Nick Jr. (United States) East HD (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "kids"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "NickJr.us.EastHD"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "nickelodeon": {
       "name": "Nickelodeon",
       "aliases": [
@@ -161813,7 +161927,7 @@
     "nicktoons-united-states-720p": {
       "name": "Nicktoons (United States)",
       "aliases": [
-        "Nicktoons (United States) (720p)"
+        "Nicktoons (United States) (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -161830,7 +161944,7 @@
       "logo": "",
       "enabled": true,
       "english": null,
-      "quality_height": 720,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "nicktoons-united-states-ca": {
@@ -164793,7 +164907,7 @@
     "ntn24-576p": {
       "name": "NTN24",
       "aliases": [
-        "NTN24 (576p)"
+        "NTN24 (720p)"
       ],
       "countries": [],
       "categories": [
@@ -164810,7 +164924,7 @@
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NTN24.png",
       "enabled": true,
       "english": null,
-      "quality_height": 576,
+      "quality_height": 720,
       "not_24_7": false
     },
     "nts-1080p-not-24-7": {
@@ -239242,6 +239356,31 @@
       "quality_height": 1080,
       "not_24_7": true
     },
+    "telemundo-noticias-noreste": {
+      "name": "Telemundo Noticias Noreste",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Telemundo Noticias Noreste"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "telemundo-noticias-noreste"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "telemundo-telenovelas-clasicas": {
       "name": "Telemundo telenovelas clásicas",
       "aliases": [
@@ -278519,17 +278658,13 @@
       "aliases": [
         "WeatherNation"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "news"
+        "entertainment"
       ],
       "sources": [
         "core",
-        "iptv-org",
-        "pluto-tv"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/WeatherNation.png",
       "enabled": false,
@@ -278539,9 +278674,6 @@
         ],
         "iptv-org": [
           "WeatherNation.us.SD"
-        ],
-        "pluto-tv": [
-          "weather-nation"
         ]
       },
       "epg_id": "Weather.Nation.TV.HD.us2",
@@ -278549,6 +278681,32 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "weathernation-raleigh-durham": {
+      "name": "WeatherNation Raleigh-Durham",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "WeatherNation Raleigh-Durham"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "weathernation-raleigh-durham"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bweather\\w*"
     },
     "weathernews-720p": {
       "name": "Weathernews",
@@ -279054,6 +279212,32 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "wftv-orlando": {
+      "name": "WFTV Orlando",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "WFTV Orlando"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "wftv-orlando"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\borlando\\b"
     },
     "wggs-tv-16-1": {
       "name": "WGGS-TV 16.1",
@@ -279598,6 +279782,29 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "win-futbol": {
+      "name": "Win+ Futbol",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Win+ Futbol (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "WinPlusFutbol.co.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "win-sports-1080p": {
       "name": "Win Sports",
@@ -280465,6 +280672,58 @@
       "english": null,
       "quality_height": 360,
       "not_24_7": false
+    },
+    "wsb-atlanta": {
+      "name": "WSB Atlanta",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "WSB Atlanta"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "wsb-atlanta"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\batlanta\\b"
+    },
+    "wsoc-charlotte": {
+      "name": "WSOC Charlotte",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "WSOC Charlotte"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "wsoc-charlotte"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bcharlotte\\b"
     },
     "wsoc-now-1080p-geo-blocked": {
       "name": "WSOC Now [Geo-blocked]",
@@ -285520,6 +285779,31 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "zuffa-boxing-prelims": {
+      "name": "Zuffa Boxing Prelims",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Zuffa Boxing Prelims"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "zuffa-boxing-prelims"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "zuglo-tv-360p": {
       "name": "Zuglo TV",
