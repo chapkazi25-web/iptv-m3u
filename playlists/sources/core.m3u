@@ -37,7 +37,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb245/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6bb/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmJiOjE3OTAzODQ0NDk1MTA6Y2RubGl2ZXR2LnR2OmYxNjNjYTc1MjA3ZDMwMjkuNmU2YzMzN2NmYTJmZDBiMWZhYjNlYjcwY2UxMTQwMmIxYWJlNDU1NDRjM2RhZGU4ZmUyNjA4Mzc0N2U4ZTFjYg
 #EXTINF:-1 tvg-chno="15" tvg-id="National.Geographic.HD.us2" tvg-name="Nat Geo" group-title="Documentary & Reality",Nat Geo
 http://198.58.104.90:8989/natgeo/index.m3u8
-#EXTINF:-1 tvg-chno="16" tvg-id="National.Geographic.Wild.HD.us2" tvg-name="Nat Geo Wild" group-title="Documentary & Reality",Nat Geo Wild
+#EXTINF:-1 tvg-chno="16" tvg-id="National.Geographic.Wild.HD.us2" tvg-name="Nat Geo Wild" group-title="Documentary & Reality" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/330px-National_Geographic_Wild_logo.svg.png",Nat Geo Wild
 http://23.237.104.106:8080/USA_NAT_GEO_WILD/index.m3u8
 #EXTINF:-1 tvg-chno="17" tvg-id="Oxygen.True.Crime.HD.us2" tvg-name="Oxygen True Crime" group-title="Documentary & Reality",Oxygen True Crime
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
@@ -115,7 +115,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22c/playlist.m3u8?token=
 https://wurlgameshownetwork.global.transmit.live/hls/68d174d50531b397b61a7797/v1/gsn_gameshowchannnel_1/lg_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-chno="43" tvg-id="Game.Show.Network.HD.us2" tvg-name="Game Show Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Game%20Show%20Network.png" group-title="Entertainment",Game Show Network
 https://a-cdn.klowdtv.com/live2/gsn_720p/playlist.m3u8
-#EXTINF:-1 tvg-chno="44" tvg-id="Great.Entertainment.Television.us2" tvg-name="Great Entertainment Television" group-title="Entertainment",Great Entertainment Television
+#EXTINF:-1 tvg-chno="44" tvg-id="Great.Entertainment.Television.us2" tvg-name="Great Entertainment Television" group-title="Entertainment" tvg-logo="https://gradetv.net/logos/GreatEntertainmentTelevision.us",Great Entertainment Television
 https://a-cdn.klowdtv.com/live2/greattv_720p/playlist.m3u8
 #EXTINF:-1 tvg-chno="45" tvg-id="Grit.us2" tvg-name="Grit TV" group-title="Entertainment",Grit TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
@@ -136,7 +136,7 @@ https://cache0.wonvt.st/live/0vbsvzw1x1ldxx1921sbe/master.m3u8
 #EXTINF:-1 tvg-chno="51" tvg-id="POP.HD.us2" tvg-name="Pop TV" group-title="Entertainment",Pop TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb269/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjY5OjE3OTAzODQ0NTE4NjU6Y2RubGl2ZXR2LnR2OmVkMjRjZDVhZjA0MTY5ODguMGVmMTBmMmIxZjBiM2RmMjhjNjVlNDU2YzEyYTNiMzI5ZmUzNzYzMjQyMjY4MzcyYWQzNzc1YzBhNjk1ZDg0ZA
-#EXTINF:-1 tvg-chno="52" tvg-id="Real.Americas.Voice.us2" tvg-name="Real America's Voice" group-title="Entertainment",Real America's Voice
+#EXTINF:-1 tvg-chno="52" tvg-id="Real.Americas.Voice.us2" tvg-name="Real America's Voice" group-title="Entertainment" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_Real_America%27s_Voice.svg/330px-Logo_Real_America%27s_Voice.svg.png",Real America's Voice
 https://2-fss-2.streamhoster.com/pl_118/206858-4404454-1/playlist.m3u8
 #EXTINF:-1 tvg-chno="53" tvg-id="STV.HD.uk" tvg-name="STV" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/STV.png" group-title="Entertainment",STV
 http://176.65.153.4:4007/play/a073/index.m3u8
@@ -1851,7 +1851,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb22b/playlist.m3u8?token=
 #EXTINF:-1 tvg-chno="493" tvg-id="Hallmark.Channel.HD.us2" tvg-name="Hallmark Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Hallmark%20Channel.png" group-title="Movies & Premium",Hallmark Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb232/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjMyOjE3OTAzODQ0NDkwODI6Y2RubGl2ZXR2LnR2OmMyOTk1YTZkZTg1NzE0ZjMuY2YzYzA5YmE1MDk1NmM2OTU5ZGU3ZDhkYTQ1ZTllZWE4NjA2YWNkZGJhYTk1MmVkYmM4YWE4YzMxMjE0ZjIwZA
-#EXTINF:-1 tvg-chno="494" tvg-id="Hallmark.Mystery.HD.us2" tvg-name="Hallmark Mystery" group-title="Movies & Premium",Hallmark Mystery
+#EXTINF:-1 tvg-chno="494" tvg-id="Hallmark.Mystery.HD.us2" tvg-name="Hallmark Mystery" group-title="Movies & Premium" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hallmark_logo.svg/330px-Hallmark_logo.svg.png",Hallmark Mystery
 #EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cache0.wonvt.st/live/06cs2qs180xxhr0ebtptz/master.m3u8
@@ -1948,7 +1948,7 @@ https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8
 https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-chno="529" tvg-id="Bloomberg.HD.us2" tvg-name="Bloomberg TV" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Bloomberg%20TV.png" group-title="News & Weather",Bloomberg TV
 https://www.bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-chno="530" tvg-id="CBC.News.Network.HD.ca2" tvg-name="CBC News Network" group-title="News & Weather",CBC News Network
+#EXTINF:-1 tvg-chno="530" tvg-id="CBC.News.Network.HD.ca2" tvg-name="CBC News Network" group-title="News & Weather" tvg-logo="https://gradetv.net/logos/CBCNewsNetwork.ca",CBC News Network
 https://aegis-cloudfront-1.tubi.video/c71ce9b6-cddb-4cec-b0db-2f09289f8782/master.m3u8
 #EXTINF:-1 tvg-chno="531" tvg-id="CBS.News.National.Stream.us2" tvg-name="CBS News 24/7" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%2024%207.png" group-title="News & Weather",CBS News 24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -1992,7 +1992,7 @@ https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-chno="549" tvg-id="plex.tv.Newsmax2.plex" tvg-name="Newsmax2" group-title="News & Weather",Newsmax2
 https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-chno="550" tvg-id="NewsNation.us2" tvg-name="NewsNation" group-title="News & Weather",NewsNation
+#EXTINF:-1 tvg-chno="550" tvg-id="NewsNation.us2" tvg-name="NewsNation" group-title="News & Weather" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/NewsNation_logo.svg/330px-NewsNation_logo.svg.png",NewsNation
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb4c3/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNGMzOjE3OTAzODQ0NTExNjM6Y2RubGl2ZXR2LnR2OmQ2ZTE2M2EyNjhjOTZjMmQuMDAzMWIwMDFhOGVlN2QwOWJiNGI0N2VkMDcyZGZmMjY3YjAyMWZlMTIxOWVlOTEzMDY1YTU3NWNhMzVkNTI2Mw
 #EXTINF:-1 tvg-chno="551" tvg-id="One.America.News.Network.HD.us2" tvg-name="One America News" group-title="News & Weather",One America News
@@ -2031,7 +2031,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76ca97e/playlist.m3u8?token=
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-chno="565" tvg-id="Big.Ten.Network.HD.us2" tvg-name="Big Ten Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Big%20Ten%20Network.png" group-title="Sports",Big Ten Network
 http://23.237.104.106:8080/USA_BTN/index.m3u8
-#EXTINF:-1 tvg-chno="566" tvg-id="CBS.Sports.Golazo.Network.us2" tvg-name="CBS Sports Golazo Network" group-title="Sports",CBS Sports Golazo Network
+#EXTINF:-1 tvg-chno="566" tvg-id="CBS.Sports.Golazo.Network.us2" tvg-name="CBS Sports Golazo Network" group-title="Sports" tvg-logo="https://gradetv.net/logos/CBSSportsGolazoNetwork.us",CBS Sports Golazo Network
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-chno="567" tvg-id="CBS.Sports.Network.HD.us2" tvg-name="CBS Sports Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS%20Sports%20Network.png" group-title="Sports",CBS Sports Network
 #EXTVLCOPT:http-referrer=https://tvnow.st/
@@ -2051,10 +2051,10 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2b81d8192bb76ccca2/playlist.m3u8?token=
 http://stream.bottledesk.net/6500/index.m3u8
 #EXTINF:-1 tvg-chno="572" tvg-id="ESPN.Deportes.HD.us2" tvg-name="ESPN Deportes" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN%20Deportes.png" group-title="Sports",ESPN Deportes
 http://186.33.0.101:4430/play/espnhd/index.m3u8
-#EXTINF:-1 tvg-chno="573" tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" group-title="Sports",ESPN2
+#EXTINF:-1 tvg-chno="573" tvg-id="ESPN2.HD.us2" tvg-name="ESPN2" group-title="Sports" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/330px-ESPN2_logo.svg.png",ESPN2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb307/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzA3OjE3OTAzODQ0NDc2NDY6Y2RubGl2ZXR2LnR2OjA5NmE4NWI3MmI2OTdjOTcuMzllYmJhNTdiNTE5YjZmNmNjNDMyZWRlMzdhYTA5ZWQ2ZDA0NTY5M2YzNDg1ZTQ1NDgyZDlkMWFiODM3NTBlMw
-#EXTINF:-1 tvg-chno="574" tvg-id="ESPNU.HD.us2" tvg-name="ESPNU" group-title="Sports",ESPNU
+#EXTINF:-1 tvg-chno="574" tvg-id="ESPNU.HD.us2" tvg-name="ESPNU" group-title="Sports" tvg-logo="https://gradetv.net/logos/ESPNU.us",ESPNU
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
 #EXTINF:-1 tvg-chno="575" tvg-id="Fanduel.Racing.us" tvg-name="FanDuel Racing" group-title="Sports",FanDuel Racing
 https://d3ehq1uaxory6w.cloudfront.net/out/v1/35c05f080f4e49a4b4eb031b5a14e505/TVG2index_2.m3u8
@@ -2154,7 +2154,7 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=
 #EXTINF:-1 tvg-chno="609" tvg-id="SkySp.Tennis.HD.uk" tvg-name="Sky Sports Tennis" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Tennis.png" group-title="Sports",Sky Sports Tennis
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3OTAzODQ0NTQ2MTE6Y2RubGl2ZXR2LnR2OjE1ZDIzMThhNjA3YjU4YjEuZWI0NDgyMTc5N2VkNmI2ODJlYTQ5ZjE1MjBjM2RjMDEyM2VmMTA1Zjg1OTQ2MzQyMDkwNzE2MWQ0MzNmNzBiYg
-#EXTINF:-1 tvg-chno="610" tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network" group-title="Sports",Space City Home Network
+#EXTINF:-1 tvg-chno="610" tvg-id="Space.City.Home.Network.HD.us2" tvg-name="Space City Home Network" group-title="Sports" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/a/ad/Space_City_Home_Network_Logo.png/330px-Space_City_Home_Network_Logo.png",Space City Home Network
 #EXTVLCOPT:http-referrer=https://tvnow.st/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cache0.wonvt.st/live/034yveq0x3b43c1q0ycfa/master.m3u8
@@ -2215,5 +2215,5 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=
 https://streaming-live-fcdn.api.prd.univisionnow.com/tudn/tudn.isml/hls/tudn.m3u8
 #EXTINF:-1 tvg-chno="630" tvg-id="plex.tv.Willow.Sports.plex" tvg-name="Willow Sports" group-title="Sports",Willow Sports
 https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8
-#EXTINF:-1 tvg-chno="631" tvg-id="Yes.Network.us2" tvg-name="YES Network" group-title="Sports",YES Network
+#EXTINF:-1 tvg-chno="631" tvg-id="Yes.Network.us2" tvg-name="YES Network" group-title="Sports" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/330px-YES_Network_logo.svg.png",YES Network
 http://23.237.104.106:8080/USA_YES_NETWORK/index.m3u8

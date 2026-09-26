@@ -8,6 +8,7 @@ import re
 import urllib.parse
 from collections import defaultdict
 from dataclasses import dataclass
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -152,6 +153,44 @@ def load_quality_filter(root: str | Path = ".") -> dict[str, Any]:
     }
 
 
+def load_event_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("event_filter", {})
+    return {
+        "enabled": bool(config.get("enabled", False)),
+        "durations": {str(key): float(value) for key, value in (config.get("durations") or {}).items()},
+        "default_duration": float(config.get("default_duration", 2.5)),
+    }
+
+
+def event_exclusion_reason(
+    record: dict[str, Any],
+    rules: dict[str, Any],
+    now: datetime | None = None,
+) -> str:
+    """Drop a live-event channel once its fixture window has passed.
+
+    A channel with no resolved kickoff is never removed: absence of a fixture
+    is not evidence that an event has finished.
+    """
+    if not rules.get("enabled"):
+        return ""
+    start = record.get("event_start")
+    if not start:
+        return ""
+    try:
+        kickoff = datetime.fromisoformat(str(start))
+    except ValueError:
+        return ""
+    if kickoff.tzinfo is None:
+        kickoff = kickoff.replace(tzinfo=timezone.utc)
+    sport = str(record.get("event_sport") or "")
+    hours = rules["durations"].get(sport, rules["default_duration"])
+    current = now or datetime.now(timezone.utc)
+    if current > kickoff + timedelta(hours=hours):
+        return f"event-ended:{start}"
+    return ""
+
+
 def name_quality(name: str) -> tuple[int | None, bool]:
     """Return (advertised height, is_not_24_7) parsed from a channel name."""
     text = name or ""
@@ -196,22 +235,24 @@ def language_exclusion_reason(
 
 
 def quality_exclusion_reason(
-    name: str,
+    record: dict[str, Any],
     categories: list[str],
     rules: dict[str, Any],
 ) -> str:
     """Enforce per-category quality rules such as music being SD and 24/7.
 
-    Only a positively advertised high resolution disqualifies a channel: an
-    unknown resolution is kept rather than assumed to be HD.
+    Reads the resolution stored on the record rather than the display name,
+    because the name no longer carries a quality marker. Only a positively
+    advertised high resolution disqualifies a channel: an unknown resolution
+    is kept rather than assumed to be HD.
     """
     if not (set(categories) & set(rules.get("categories", []))):
         return ""
-    height, not_247 = name_quality(name)
     max_height = rules.get("max_height")
-    if max_height is not None and height is not None and height > int(max_height):
-        return f"quality:{height}p"
-    if rules.get("require_247") and not_247:
+    height = record.get("quality_height")
+    if max_height is not None and height is not None and int(height) > int(max_height):
+        return f"quality:{int(height)}p"
+    if rules.get("require_247") and record.get("not_24_7"):
         return "not-24/7"
     return ""
 
@@ -324,7 +365,16 @@ class HealthStore:
 
 
 class LogoIndex:
-    """Name/country lookup over the metadata-only K-yzu artwork index."""
+    """Name/country lookup over the metadata-only artwork indexes.
+
+    Records come from three sources, consulted in the order the project
+    prefers: the K-yzu repository, then Grade TV's hosted cards, then
+    Wikipedia. Only URLs are stored; no artwork is downloaded.
+    """
+
+    # Lower sorts first, so a K-yzu logo always beats a Grade TV or Wikipedia
+    # one for the same channel.
+    SOURCE_PRIORITY = {"kyzu": 0, "gradetv": 1, "wikipedia": 2}
 
     def __init__(self, records: list[dict[str, Any]], base_url: str) -> None:
         self.records = records
@@ -341,10 +391,27 @@ class LogoIndex:
 
     @classmethod
     def load(cls, path: str | Path, base_url: str) -> "LogoIndex":
-        if not Path(path).exists():
-            return cls([], base_url)
-        data = load_json(path)
-        return cls(data.get("logos", []), str(data.get("raw_base_url", base_url)))
+        return cls._read([Path(path)], base_url)
+
+    @classmethod
+    def load_many(cls, paths: list[str | Path], base_url: str) -> "LogoIndex":
+        """Merge several artwork indexes into one lookup."""
+        return cls._read([Path(path) for path in paths], base_url)
+
+    @classmethod
+    def _read(cls, paths: list[Path], base_url: str) -> "LogoIndex":
+        records: list[dict[str, Any]] = []
+        resolved_base = base_url
+        for path in paths:
+            if not path.exists():
+                continue
+            data = load_json(path)
+            resolved_base = str(data.get("raw_base_url") or resolved_base)
+            entries = data.get("logos")
+            if not isinstance(entries, list):
+                continue
+            records.extend(entry for entry in entries if isinstance(entry, dict))
+        return cls(records, resolved_base)
 
     def find(self, name: str, country: str = "") -> str:
         key = normalize_name(name)
@@ -357,10 +424,11 @@ class LogoIndex:
         candidates = sorted(
             candidates,
             key=lambda item: (
+                self.SOURCE_PRIORITY.get(str(item.get("source", "kyzu")), 0),
                 0 if str(item.get("country", "")).upper() == country.upper() else 1,
                 0 if str(item.get("kind", "")) == "channel" else 1,
-                len(str(item.get("path", ""))),
-                str(item.get("path", "")),
+                len(str(item.get("path", "") or item.get("url", ""))),
+                str(item.get("path", "") or item.get("url", "")),
             ),
         )
         record = candidates[0]

@@ -1,7 +1,7 @@
 PYTHON ?= python3
 
-.PHONY: catalog epg logos languages apply-logos build validate test health sample refresh \
-        sources-gradetv sources-iptv-org
+.PHONY: catalog epg logos logo-fallbacks languages events apply-logos build validate test \
+        health sample refresh sources-gradetv sources-iptv-org
 
 catalog:
 	$(PYTHON) scripts/discover/build_catalog.py
@@ -12,8 +12,14 @@ epg:
 logos:
 	$(PYTHON) scripts/logos/remote_index.py
 
+logo-fallbacks:
+	$(PYTHON) scripts/logos/enrich_index.py
+
 languages:
 	$(PYTHON) scripts/languages/build_index.py
+
+events:
+	$(PYTHON) scripts/events/fixture_schedule.py --days 7
 
 apply-logos:
 	$(PYTHON) scripts/logos/apply_logos.py

@@ -90,7 +90,10 @@ def build(root: Path, *, strict: bool = True) -> dict[str, Any]:
     sources = load_sources(root)
     catalog = ChannelCatalog.load(root)
     health = HealthStore.load(root / "data/stream-health.json")
-    logos = LogoIndex.load(root / "data/logo-index.json", RAW_BASE_URL)
+    logos = LogoIndex.load_many(
+        [root / "data/logo-index.json", root / "data/logo-fallbacks.json"],
+        RAW_BASE_URL,
+    )
     categories, default_category, _ = load_category_config(root)
     exclusion_rules = load_exclusions(root)
 

@@ -1,0 +1,6671 @@
+{
+  "version": 1,
+  "sources": [
+    "gradetv",
+    "wikipedia"
+  ],
+  "counts": {
+    "entries": 951,
+    "gradetv": 668,
+    "wikipedia": 283
+  },
+  "logos": [
+    {
+      "name": "00s Replay",
+      "url": "https://gradetv.net/logos/00sReplay.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "111 TV",
+      "url": "https://gradetv.net/logos/111TV.it",
+      "country": "IT",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "13 Kids",
+      "url": "https://gradetv.net/logos/13Kids.cl",
+      "country": "CL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "1KZN TV",
+      "url": "https://gradetv.net/logos/1KZNTV.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": ":24",
+      "url": "https://gradetv.net/logos/24.sk",
+      "country": "SK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "24 Hour Free Movies",
+      "url": "https://gradetv.net/logos/24HourFreeMovies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "2900 Happiness",
+      "url": "https://gradetv.net/logos/2900Happiness.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "2GB",
+      "url": "https://gradetv.net/logos/2GB.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Darcizzle Offshore",
+      "url": "https://gradetv.net/logos/30ADarcizzleOffshore.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Georgia Hollywood Review",
+      "url": "https://gradetv.net/logos/30AGeorgiaHollywoodReview.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Golf Kingdom",
+      "url": "https://gradetv.net/logos/30AGolfKingdom.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Investment Pitch",
+      "url": "https://gradetv.net/logos/30AInvestmentPitch.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Lionel Nation",
+      "url": "https://gradetv.net/logos/30ALionelNation.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Loomered TV",
+      "url": "https://gradetv.net/logos/30ALoomeredTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Luxe Life Discovered",
+      "url": "https://gradetv.net/logos/30ALuxeLifeDiscovered.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Ridiculous TV",
+      "url": "https://gradetv.net/logos/30ARidiculousTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Sidewalks",
+      "url": "https://gradetv.net/logos/30ASidewalks.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A Television Channel",
+      "url": "https://gradetv.net/logos/30ATelevisionChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A The Beach Show",
+      "url": "https://gradetv.net/logos/30ATheBeachShow.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A TV Classic Movies",
+      "url": "https://gradetv.net/logos/30ATVClassicMovies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "30A We Love Cars",
+      "url": "https://gradetv.net/logos/30AWeLoveCars.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3ABN Canada",
+      "url": "https://gradetv.net/logos/3ABNCanada.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3ABN English",
+      "url": "https://gradetv.net/logos/3ABNEnglish.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3ABN International",
+      "url": "https://gradetv.net/logos/3ABNInternational.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3ABN Kids",
+      "url": "https://gradetv.net/logos/3ABNKids.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3ABN Latino",
+      "url": "https://gradetv.net/logos/3ABNLatino.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3AW",
+      "url": "https://gradetv.net/logos/3AW.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "3HD",
+      "url": "https://gradetv.net/logos/3HD.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "48 Hours",
+      "url": "https://gradetv.net/logos/48Hours.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "5 Cops",
+      "url": "https://gradetv.net/logos/5Cops.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "50 Cent Action",
+      "url": "https://gradetv.net/logos/50CentAction.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "60 Minutes",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/60-minutes.svg/330px-60-minutes.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "6PR",
+      "url": "https://gradetv.net/logos/6PR.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "70s Cinema",
+      "url": "https://gradetv.net/logos/70sCinema.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "7th Heaven",
+      "url": "https://gradetv.net/logos/7thHeaven.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "80s Rewind",
+      "url": "https://gradetv.net/logos/80sRewind.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "90's Kids",
+      "url": "https://gradetv.net/logos/90sKids.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "90s Kids TV 2",
+      "url": "https://gradetv.net/logos/90sKidsTV2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "90s Throwback",
+      "url": "https://gradetv.net/logos/90sThrowback.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "A&E",
+      "url": "https://gradetv.net/logos/AE.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "A2i TV",
+      "url": "https://gradetv.net/logos/A2iTV.it",
+      "country": "IT",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Abante TV",
+      "url": "https://gradetv.net/logos/AbanteTV.ph",
+      "country": "PH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC Entertains",
+      "url": "https://gradetv.net/logos/ABCEntertains.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 1",
+      "url": "https://gradetv.net/logos/ABCNewsLive1.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 10",
+      "url": "https://gradetv.net/logos/ABCNewsLive10.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 2",
+      "url": "https://gradetv.net/logos/ABCNewsLive2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 3",
+      "url": "https://gradetv.net/logos/ABCNewsLive3.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 4",
+      "url": "https://gradetv.net/logos/ABCNewsLive4.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 5",
+      "url": "https://gradetv.net/logos/ABCNewsLive5.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 6",
+      "url": "https://gradetv.net/logos/ABCNewsLive6.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 7",
+      "url": "https://gradetv.net/logos/ABCNewsLive7.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 8",
+      "url": "https://gradetv.net/logos/ABCNewsLive8.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC News Live 9",
+      "url": "https://gradetv.net/logos/ABCNewsLive9.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABC TV Plus",
+      "url": "https://gradetv.net/logos/ABCTVPlus.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABN Africa",
+      "url": "https://gradetv.net/logos/ABNAfrica.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABN Bible Movies Channel",
+      "url": "https://gradetv.net/logos/ABNBibleMoviesChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ABP News",
+      "url": "https://gradetv.net/logos/ABPNews.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Absolute Reality by WE TV",
+      "url": "https://gradetv.net/logos/AbsoluteRealitybyWETV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Acapulco Shore",
+      "url": "https://gradetv.net/logos/AcapulcoShore.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Access 19",
+      "url": "https://gradetv.net/logos/Access19.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Access 4 PAC",
+      "url": "https://gradetv.net/logos/Access4PAC.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Access Humboldt",
+      "url": "https://gradetv.net/logos/AccessHumboldt.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Access Nashua",
+      "url": "https://gradetv.net/logos/AccessNashua.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Access Sacramento Channel 17",
+      "url": "https://gradetv.net/logos/AccessSacramentoChannel17.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Access Tuolumne",
+      "url": "https://gradetv.net/logos/AccessTuolumne.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AccessVision Channel 16",
+      "url": "https://gradetv.net/logos/AccessVisionChannel16.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AccessVision Channel 17",
+      "url": "https://gradetv.net/logos/AccessVisionChannel17.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ace TV",
+      "url": "https://gradetv.net/logos/AceTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Acheloos TV",
+      "url": "https://gradetv.net/logos/AcheloosTV.gr",
+      "country": "GR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ACNN",
+      "url": "https://gradetv.net/logos/ACNN.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ACW UG TV",
+      "url": "https://gradetv.net/logos/ACWUGTV.ug",
+      "country": "UG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Adinkra TV",
+      "url": "https://gradetv.net/logos/AdinkraTV.gh",
+      "country": "GH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Adventure Earth",
+      "url": "https://gradetv.net/logos/AdventureEarth.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Afaq TV",
+      "url": "https://gradetv.net/logos/AfaqTV.iq",
+      "country": "IQ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Afghanistan International",
+      "url": "https://gradetv.net/logos/AfghanistanInternational.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Africa 24 English",
+      "url": "https://gradetv.net/logos/Africa24English.fr",
+      "country": "FR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Africanews English",
+      "url": "https://gradetv.net/logos/AfricanewsEnglish.fr",
+      "country": "FR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Afrique Media",
+      "url": "https://gradetv.net/logos/AfriqueMedia.cm",
+      "country": "CM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Afrique54 TV",
+      "url": "https://gradetv.net/logos/Afrique54TV.cm",
+      "country": "CM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AfroLandTV",
+      "url": "https://gradetv.net/logos/AfroLandTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AFTV",
+      "url": "https://gradetv.net/logos/AFTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AFV",
+      "url": "https://gradetv.net/logos/AFV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ahlulbayt TV",
+      "url": "https://gradetv.net/logos/AhlulbaytTV.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ajman TV",
+      "url": "https://gradetv.net/logos/AjmanTV.ae",
+      "country": "AE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Akaku 53",
+      "url": "https://gradetv.net/logos/Akaku53.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Akaku 54",
+      "url": "https://gradetv.net/logos/Akaku54.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Akaku 55",
+      "url": "https://gradetv.net/logos/Akaku55.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AKC TV",
+      "url": "https://gradetv.net/logos/AKCTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AKC TV Meet the Breeds",
+      "url": "https://gradetv.net/logos/AKCTVMeettheBreeds.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AKC TV Puppies",
+      "url": "https://gradetv.net/logos/AKCTVPuppies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Akili Kids!",
+      "url": "https://gradetv.net/logos/AkiliKids.ke",
+      "country": "KE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Al Arabiya English",
+      "url": "https://gradetv.net/logos/AlArabiyaEnglish.sa",
+      "country": "SA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Al Jazeera",
+      "url": "https://gradetv.net/logos/AlJazeera.qa",
+      "country": "QA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AL24 News",
+      "url": "https://gradetv.net/logos/AL24News.dz",
+      "country": "DZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "All Reality by WE tv",
+      "url": "https://gradetv.net/logos/AllRealitybyWEtv.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "All Weddings WE tv",
+      "url": "https://gradetv.net/logos/AllWeddingsWEtv.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ALLBLK Gems",
+      "url": "https://gradetv.net/logos/ALLBLKGems.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Allo Cine",
+      "url": "https://gradetv.net/logos/AlloCine.cm",
+      "country": "CM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Almagd TV North America",
+      "url": "https://gradetv.net/logos/AlmagdTVNorthAmerica.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Alpha Digital",
+      "url": "https://gradetv.net/logos/AlphaDigital.ug",
+      "country": "UG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Always Funny Videos",
+      "url": "https://gradetv.net/logos/AlwaysFunnyVideos.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Amazing Discoveries TV",
+      "url": "https://gradetv.net/logos/AmazingDiscoveriesTV.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Amazing Facts TV",
+      "url": "https://gradetv.net/logos/AmazingFactsTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "America's Next Top Model",
+      "url": "https://gradetv.net/logos/AmericasNextTopModel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "America's Test Kitchen",
+      "url": "https://gradetv.net/logos/AmericasTestKitchen.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "America's Voice",
+      "url": "https://gradetv.net/logos/AmericasVoice.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "America's Voice News",
+      "url": "https://gradetv.net/logos/AmericasVoiceNews.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "American Crime Channel",
+      "url": "https://gradetv.net/logos/AmericanCrimeChannel.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "American Horrors",
+      "url": "https://gradetv.net/logos/AmericanHorrors.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AMG TV",
+      "url": "https://gradetv.net/logos/AMGTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AMP 1",
+      "url": "https://gradetv.net/logos/AMP1.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AMP 2",
+      "url": "https://gradetv.net/logos/AMP2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Andromeda",
+      "url": "https://gradetv.net/logos/Andromeda.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AnewZ TV",
+      "url": "https://gradetv.net/logos/AnewZTV.az",
+      "country": "AZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Angel TV",
+      "url": "https://gradetv.net/logos/AngelTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Anger Management Channel",
+      "url": "https://gradetv.net/logos/AngerManagementChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ANIMAL KINGDOM",
+      "url": "https://gradetv.net/logos/ANIMALKINGDOM.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Anime x HIDIVE",
+      "url": "https://gradetv.net/logos/AnimexHIDIVE.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Aniplus Asia",
+      "url": "https://gradetv.net/logos/AniplusAsia.sg",
+      "country": "SG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Anthony Bourdain: Parts Unknown",
+      "url": "https://gradetv.net/logos/AnthonyBourdainPartsUnknown.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Antiques Road Trip",
+      "url": "https://gradetv.net/logos/AntiquesRoadTrip.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Antiques Roadshow UK",
+      "url": "https://gradetv.net/logos/AntiquesRoadshowUK.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AP TV",
+      "url": "https://gradetv.net/logos/APTV.gh",
+      "country": "GH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Apna Channel",
+      "url": "https://gradetv.net/logos/ApnaChannel.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Approval TV",
+      "url": "https://gradetv.net/logos/ApprovalTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Aqlvoy",
+      "url": "https://gradetv.net/logos/Aqlvoy.uz",
+      "country": "UZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Are We There Yet?",
+      "url": "https://gradetv.net/logos/AreWeThereYet.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Are You The One?",
+      "url": "https://gradetv.net/logos/AreYouTheOne.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Arirang TV",
+      "url": "https://gradetv.net/logos/ArirangTv.kr",
+      "country": "KR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Arirang UN",
+      "url": "https://gradetv.net/logos/ArirangUN.kr",
+      "country": "KR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ARTFLIX Movie Classics",
+      "url": "https://gradetv.net/logos/ARTFLIXMovieClassics.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Aruba.TV",
+      "url": "https://gradetv.net/logos/ArubaTV.aw",
+      "country": "AW",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ArubaTV +",
+      "url": "https://gradetv.net/logos/ArubaTVPlus.aw",
+      "country": "AW",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Asia TV",
+      "url": "https://gradetv.net/logos/AsiaTV.lk",
+      "country": "LK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Asian Culture TV",
+      "url": "https://gradetv.net/logos/AsianCultureTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AsianCrush",
+      "url": "https://gradetv.net/logos/AsianCrush.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Aspire TV Life",
+      "url": "https://gradetv.net/logos/AspireTVLife.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "At Home with Family Handyman",
+      "url": "https://gradetv.net/logos/AtHomewithFamilyHandyman.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ATL 26",
+      "url": "https://gradetv.net/logos/ATL26.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Atlas",
+      "url": "https://gradetv.net/logos/Atlas.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Atomic TV",
+      "url": "https://gradetv.net/logos/AtomicTV.ro",
+      "country": "RO",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ATXN1",
+      "url": "https://gradetv.net/logos/ATXN1.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ATXN2",
+      "url": "https://gradetv.net/logos/ATXN2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ATXN3",
+      "url": "https://gradetv.net/logos/ATXN3.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AuroraTV",
+      "url": "https://gradetv.net/logos/AuroraTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Autentic History",
+      "url": "https://gradetv.net/logos/AutenticHistory.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Autentic Travel",
+      "url": "https://gradetv.net/logos/AutenticTravel.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Aviation TV",
+      "url": "https://gradetv.net/logos/AviationTV.ke",
+      "country": "KE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AWE International",
+      "url": "https://gradetv.net/logos/AWEInternational.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AWE Plus",
+      "url": "https://gradetv.net/logos/AWEPlus.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AXN Adria",
+      "url": "https://gradetv.net/logos/AXNAdria.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AXN Black",
+      "url": "https://gradetv.net/logos/AXNBlack.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AXN CEE",
+      "url": "https://gradetv.net/logos/AXNCEE.es",
+      "country": "ES",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AXN Crime",
+      "url": "https://gradetv.net/logos/AXNCrime.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "AXN White",
+      "url": "https://gradetv.net/logos/AXNWhite.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Baby Shark TV",
+      "url": "https://gradetv.net/logos/BabySharkTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BabyFirst",
+      "url": "https://gradetv.net/logos/BabyFirst.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Backstage",
+      "url": "https://gradetv.net/logos/Backstage.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bad Girls Club",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/37/Bad-girls-logo-season3.jpg",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Bar Rescue",
+      "url": "https://gradetv.net/logos/BarRescue.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bark TV",
+      "url": "https://gradetv.net/logos/BarkTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Battlestar Galactica",
+      "url": "https://gradetv.net/logos/BattlestarGalactica.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BATV",
+      "url": "https://gradetv.net/logos/BATV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BATV Educational Channel",
+      "url": "https://gradetv.net/logos/BATVEducationalChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BATV Government Channel",
+      "url": "https://gradetv.net/logos/BATVGovernmentChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BATV Government TV",
+      "url": "https://gradetv.net/logos/BATVGovernmentTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BATV Public Channel",
+      "url": "https://gradetv.net/logos/BATVPublicChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Baywatch",
+      "url": "https://gradetv.net/logos/Baywatch.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC Drama",
+      "url": "https://gradetv.net/logos/BBCDrama.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC Food",
+      "url": "https://gradetv.net/logos/BBCFood.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC Four/CBeebies",
+      "url": "https://gradetv.net/logos/BBCFourCBeebies.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC Home & Garden",
+      "url": "https://gradetv.net/logos/BBCHomeGarden.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC Kids",
+      "url": "https://gradetv.net/logos/BBCKids.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC Three/CBBC",
+      "url": "https://gradetv.net/logos/BBCThreeCBBC.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC UHD 1",
+      "url": "https://gradetv.net/logos/BBCUHD1.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC UHD 2",
+      "url": "https://gradetv.net/logos/BBCUHD2.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC UHD 3",
+      "url": "https://gradetv.net/logos/BBCUHD3.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BBC UHD 4",
+      "url": "https://gradetv.net/logos/BBCUHD4.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BCS StarCross TV",
+      "url": "https://gradetv.net/logos/BCSStarCrossTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beach TV Florida & Alabama",
+      "url": "https://gradetv.net/logos/BeachTVFloridaAlabama.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beach TV Key West & Florida Keys",
+      "url": "https://gradetv.net/logos/BeachTVKeyWestFloridaKeys.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beach TV Myrtle Beach & The Grand Strand",
+      "url": "https://gradetv.net/logos/BeachTVMyrtleBeachTheGrandStrand.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beach TV Panama City",
+      "url": "https://gradetv.net/logos/BeachTVPanamaCity.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beavis and Butt-Head",
+      "url": "https://gradetv.net/logos/BeavisandButtHead.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BEK News",
+      "url": "https://gradetv.net/logos/BEKNews.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Belarus-24",
+      "url": "https://gradetv.net/logos/Belarus24.by",
+      "country": "BY",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bellator MMA",
+      "url": "https://gradetv.net/logos/BellatorMMA.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Berks Community TV",
+      "url": "https://gradetv.net/logos/BerksCommunityTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of BATV Channel",
+      "url": "https://gradetv.net/logos/BestofBATVChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of Dr Phil",
+      "url": "https://gradetv.net/logos/BestofDrPhil.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of MTV",
+      "url": "https://gradetv.net/logos/BestofMTV.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of Paradise Hotel: Finalveckan",
+      "url": "https://gradetv.net/logos/BestofParadiseHotelFinalveckan.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of Paradise Hotel: Kyssar & karlek",
+      "url": "https://gradetv.net/logos/BestofParadiseHotelKyssarkarlek.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of Paradise Hotel: Pandoras Ask",
+      "url": "https://gradetv.net/logos/BestofParadiseHotelPandorasAsk.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Best of Paradise Hotel: Skolveckan",
+      "url": "https://gradetv.net/logos/BestofParadiseHotelSkolveckan.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BET Cinema",
+      "url": "https://gradetv.net/logos/BETCinema.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BET Classics Pluto TV",
+      "url": "https://gradetv.net/logos/BETClassicsPlutoTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BET Comedy Movies",
+      "url": "https://gradetv.net/logos/BETComedyMovies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BET Pluto TV",
+      "url": "https://gradetv.net/logos/BETPlutoTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BET Throwbacks",
+      "url": "https://gradetv.net/logos/BETThrowbacks.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BET Visionaries",
+      "url": "https://gradetv.net/logos/BETVisionaries.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Better Health TV",
+      "url": "https://gradetv.net/logos/BetterHealthTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Better Life Nature Channel",
+      "url": "https://gradetv.net/logos/BetterLifeNatureChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Better Life TV",
+      "url": "https://gradetv.net/logos/BetterLifeTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beverly Hillbillies",
+      "url": "https://gradetv.net/logos/BeverlyHillbillies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beverly Hills 90210",
+      "url": "https://gradetv.net/logos/BeverlyHills90210.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beyond Belief: Fact or Fiction",
+      "url": "https://gradetv.net/logos/BeyondBeliefFactorFiction.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Beyond the Gates",
+      "url": "https://gradetv.net/logos/BeyondtheGates.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bharat Express",
+      "url": "https://gradetv.net/logos/BharatExpress.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BHTV10",
+      "url": "https://gradetv.net/logos/BHTV10.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BHTV35",
+      "url": "https://gradetv.net/logos/BHTV35.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Big Brother",
+      "url": "https://gradetv.net/logos/BigBrother.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BIG Civic Channel",
+      "url": "https://gradetv.net/logos/BIGCivicChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BIG Community Channel",
+      "url": "https://gradetv.net/logos/BIGCommunityChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Binge",
+      "url": "https://gradetv.net/logos/Binge.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "bitMe",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/BitMe_logo.svg/330px-BitMe_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Biz TV",
+      "url": "https://gradetv.net/logos/BizTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bizz TV",
+      "url": "https://gradetv.net/logos/BizzTV.tt",
+      "country": "TT",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Black Family Sitcoms",
+      "url": "https://gradetv.net/logos/BlackFamilySitcoms.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Black Ink Crew",
+      "url": "https://gradetv.net/logos/BlackInkCrew.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Black News Channel",
+      "url": "https://gradetv.net/logos/BlackNewsChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Blaze Live",
+      "url": "https://gradetv.net/logos/BlazeLive.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Blue Bloods",
+      "url": "https://gradetv.net/logos/BlueBloods.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BMC-HD TV",
+      "url": "https://gradetv.net/logos/BMCHDTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BOKTV",
+      "url": "https://gradetv.net/logos/BOKTV.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Boligjakten",
+      "url": "https://gradetv.net/logos/Boligjakten.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Boligkjop i blinde",
+      "url": "https://gradetv.net/logos/Boligkjopiblinde.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Boligkob i blinde",
+      "url": "https://gradetv.net/logos/Boligkobiblinde.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bollywood HD",
+      "url": "https://gradetv.net/logos/BollywoodHD.ro",
+      "country": "RO",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bonanza",
+      "url": "https://gradetv.net/logos/Bonanza.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bounce",
+      "url": "https://gradetv.net/logos/Bounce.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bounce XL",
+      "url": "https://gradetv.net/logos/BounceXL.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BPTV",
+      "url": "https://gradetv.net/logos/BPTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Brat TV",
+      "url": "https://gradetv.net/logos/BratTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Breinholts",
+      "url": "https://gradetv.net/logos/Breinholts.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Brevard Government Access TV",
+      "url": "https://gradetv.net/logos/BrevardGovernmentAccessTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Bride TV",
+      "url": "https://gradetv.net/logos/BrideTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Britain's Next Top Model",
+      "url": "https://gradetv.net/logos/BritainsNextTopModel.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BritBox Mysteries",
+      "url": "https://gradetv.net/logos/BritBoxMysteries.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "British Comedy",
+      "url": "https://gradetv.net/logos/BritishComedy.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Broad City",
+      "url": "https://gradetv.net/logos/BroadCity.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Brondby TV",
+      "url": "https://gradetv.net/logos/BrondbyTV.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BT TV",
+      "url": "https://gradetv.net/logos/BTTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BTB Info",
+      "url": "https://gradetv.net/logos/BTBInfo.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BTV",
+      "url": "https://gradetv.net/logos/BTV.ug",
+      "country": "UG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "bTV Action",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/BTV_Action_Bulgaria_logo.svg/330px-BTV_Action_Bulgaria_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "bTV Cinema",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/BTV_Cinema_Bulgaria_logo.svg/330px-BTV_Cinema_Bulgaria_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "bTV Comedy",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/BTV_Comedy_Bulgaria_logo.svg/330px-BTV_Comedy_Bulgaria_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Bull",
+      "url": "https://gradetv.net/logos/Bull.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Buying Blind Denmark",
+      "url": "https://gradetv.net/logos/BuyingBlindDenmark.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Buzzfeed Unsolved",
+      "url": "https://gradetv.net/logos/BuzzfeedUnsolved.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BX Arts",
+      "url": "https://gradetv.net/logos/BXArts.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BX Culture",
+      "url": "https://gradetv.net/logos/BXCulture.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BX Inform",
+      "url": "https://gradetv.net/logos/BXInform.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BX Inspire",
+      "url": "https://gradetv.net/logos/BXInspire.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "BX Omni",
+      "url": "https://gradetv.net/logos/BXOmni.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cagney & Lacey",
+      "url": "https://gradetv.net/logos/CagneyLacey.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Camera Smile TV",
+      "url": "https://gradetv.net/logos/CameraSmileTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Camp Kulinaris",
+      "url": "https://gradetv.net/logos/CampKulinaris.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Camp Spoopy",
+      "url": "https://gradetv.net/logos/CampSpoopy.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CAN TV19",
+      "url": "https://gradetv.net/logos/CANTV19.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CAN TV21",
+      "url": "https://gradetv.net/logos/CANTV21.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CAN TV27",
+      "url": "https://gradetv.net/logos/CANTV27.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CAN TV36",
+      "url": "https://gradetv.net/logos/CANTV36.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Canaf54 TV",
+      "url": "https://gradetv.net/logos/Canaf54TV.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Canal Motor",
+      "url": "https://gradetv.net/logos/CanalMotor.no",
+      "country": "NO",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cape Town TV",
+      "url": "https://gradetv.net/logos/CapeTownTV.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Capuchin TV",
+      "url": "https://gradetv.net/logos/CapuchinTV.ke",
+      "country": "KE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Car Chase",
+      "url": "https://gradetv.net/logos/CarChase.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Caribbean Gospel TV",
+      "url": "https://gradetv.net/logos/CaribbeanGospelTV.jm",
+      "country": "JM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Caroline in the City",
+      "url": "https://gradetv.net/logos/CarolineintheCity.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cartoon Classics",
+      "url": "https://gradetv.net/logos/CartoonClassics.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Catholic TV",
+      "url": "https://gradetv.net/logos/CatholicTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBC News Network",
+      "url": "https://gradetv.net/logos/CBCNewsNetwork.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBN Family",
+      "url": "https://gradetv.net/logos/CBNFamily.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBN Gospel",
+      "url": "https://gradetv.net/logos/CBNGospel.vg",
+      "country": "VG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBN News",
+      "url": "https://gradetv.net/logos/CBNNews.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBN TV",
+      "url": "https://gradetv.net/logos/CBNTV.vg",
+      "country": "VG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBS en espanol",
+      "url": "https://gradetv.net/logos/CBSenespanol.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CBS Sports Golazo Network",
+      "url": "https://gradetv.net/logos/CBSSportsGolazoNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CC-TV",
+      "url": "https://gradetv.net/logos/CCTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CCTV-4 America",
+      "url": "https://gradetv.net/logos/CCTV4America.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CCTV-4 Asia",
+      "url": "https://gradetv.net/logos/CCTV4Asia.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CCTV-4 Europe",
+      "url": "https://gradetv.net/logos/CCTV4Europe.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CCX1",
+      "url": "https://gradetv.net/logos/CCX1.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Celebrity Scene TV",
+      "url": "https://gradetv.net/logos/CelebritySceneTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cerritos TV3",
+      "url": "https://gradetv.net/logos/CerritosTV3.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CFM TV Channel 98",
+      "url": "https://gradetv.net/logos/CFMTVChannel98.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CGTN Global Biz",
+      "url": "https://gradetv.net/logos/CGTNGlobalBiz.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CGTN Spanish",
+      "url": "https://gradetv.net/logos/CGTNSpanish.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CGTV",
+      "url": "https://gradetv.net/logos/CGTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Channel 18 GAC",
+      "url": "https://gradetv.net/logos/Channel18GAC.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Channel 200",
+      "url": "https://gradetv.net/logos/Channel200.nz",
+      "country": "NZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Channel U",
+      "url": "https://gradetv.net/logos/ChannelU.sg",
+      "country": "SG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Channel8",
+      "url": "https://gradetv.net/logos/Channel8.iq",
+      "country": "IQ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Channels TV",
+      "url": "https://gradetv.net/logos/ChannelsTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Chappelle's Show",
+      "url": "https://gradetv.net/logos/ChappellesShow.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Charterfeber",
+      "url": "https://gradetv.net/logos/Charterfeber.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cheers",
+      "url": "https://gradetv.net/logos/Cheers.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cheers + Frasier",
+      "url": "https://gradetv.net/logos/CheersPlusFrasier.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Chemodan TV",
+      "url": "https://gradetv.net/logos/ChemodanTV.ua",
+      "country": "UA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Chile Channel",
+      "url": "https://gradetv.net/logos/ChileChannel.cl",
+      "country": "CL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "China Travel",
+      "url": "https://gradetv.net/logos/ChinaTravel.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Choppertown",
+      "url": "https://gradetv.net/logos/Choppertown.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Chosen TV English",
+      "url": "https://gradetv.net/logos/ChosenTVEnglish.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Christian Youth Channel CYC",
+      "url": "https://gradetv.net/logos/ChristianYouthChannelCYC.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CINDIE TV",
+      "url": "https://gradetv.net/logos/CINDIETV.br",
+      "country": "BR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cine aventura",
+      "url": "https://gradetv.net/logos/Cineaventura.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cine en espanol",
+      "url": "https://gradetv.net/logos/Cineenespanol.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cine Romantico",
+      "url": "https://gradetv.net/logos/CineRomantico.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cinecanal",
+      "url": "https://gradetv.net/logos/Cinecanal.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CinemaWorld",
+      "url": "https://gradetv.net/logos/CinemaWorld.my",
+      "country": "MY",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cinevault 80s",
+      "url": "https://gradetv.net/logos/Cinevault80s.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City 41",
+      "url": "https://gradetv.net/logos/City41.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City of Fort Pierce",
+      "url": "https://gradetv.net/logos/CityofFortPierce.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City of Loveland TV",
+      "url": "https://gradetv.net/logos/CityofLovelandTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City of Monroe Government Channel",
+      "url": "https://gradetv.net/logos/CityofMonroeGovernmentChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City of Pompano Beach",
+      "url": "https://gradetv.net/logos/CityofPompanoBeach.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City TV Carlsbad",
+      "url": "https://gradetv.net/logos/CityTVCarlsbad.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "City TV Channel 3/41",
+      "url": "https://gradetv.net/logos/CityTVChannel341.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CityNews Calgary",
+      "url": "https://gradetv.net/logos/CityNewsCalgary.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CityNews Edmonton",
+      "url": "https://gradetv.net/logos/CityNewsEdmonton.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CityNews Toronto",
+      "url": "https://gradetv.net/logos/CityNewsToronto.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CityNews Vancouver",
+      "url": "https://gradetv.net/logos/CityNewsVancouver.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CityTV Lakewood",
+      "url": "https://gradetv.net/logos/CityTVLakewood.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CityTV Whittier",
+      "url": "https://gradetv.net/logos/CityTVWhittier.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CKNO-FM",
+      "url": "https://gradetv.net/logos/CKNOFM.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Classic Movie Westerns",
+      "url": "https://gradetv.net/logos/ClassicMovieWesterns.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Classic Movies Channel",
+      "url": "https://gradetv.net/logos/ClassicMoviesChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Classic TV Comedy",
+      "url": "https://gradetv.net/logos/ClassicTVComedy.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Classic TV Crime Drama",
+      "url": "https://gradetv.net/logos/ClassicTVCrimeDrama.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Classic TV Drama",
+      "url": "https://gradetv.net/logos/ClassicTVDrama.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Classic TV: Families",
+      "url": "https://gradetv.net/logos/ClassicTVFamilies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cloudflare TV",
+      "url": "https://gradetv.net/logos/CloudflareTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Clubbing TV",
+      "url": "https://gradetv.net/logos/ClubbingTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAC 1",
+      "url": "https://gradetv.net/logos/CMAC1.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAC 2",
+      "url": "https://gradetv.net/logos/CMAC2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAC 3",
+      "url": "https://gradetv.net/logos/CMAC3.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAP Channel 17",
+      "url": "https://gradetv.net/logos/CMAPChannel17.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAP Channel 18",
+      "url": "https://gradetv.net/logos/CMAPChannel18.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAP Channel 19",
+      "url": "https://gradetv.net/logos/CMAPChannel19.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CMAP Channel 20",
+      "url": "https://gradetv.net/logos/CMAPChannel20.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CNA International",
+      "url": "https://gradetv.net/logos/CNAInternational.sg",
+      "country": "SG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CNA Originals",
+      "url": "https://gradetv.net/logos/CNAOriginals.sg",
+      "country": "SG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cold Case Files",
+      "url": "https://gradetv.net/logos/ColdCaseFiles.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Collier TV",
+      "url": "https://gradetv.net/logos/CollierTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Comedy Central Animation",
+      "url": "https://gradetv.net/logos/ComedyCentralAnimation.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Comedy Central Pluto TV",
+      "url": "https://gradetv.net/logos/ComedyCentralPlutoTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Comedy Central Roast",
+      "url": "https://gradetv.net/logos/ComedyCentralRoast.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Comedy Dynamics",
+      "url": "https://gradetv.net/logos/ComedyDynamics.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Community 12TV",
+      "url": "https://gradetv.net/logos/Community12TV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Concord TV",
+      "url": "https://gradetv.net/logos/ConcordTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cooking Panda",
+      "url": "https://gradetv.net/logos/CookingPanda.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cops",
+      "url": "https://gradetv.net/logos/Cops.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cornerstone TV",
+      "url": "https://gradetv.net/logos/CornerstoneTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "COStv",
+      "url": "https://gradetv.net/logos/COStv.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Coza TV",
+      "url": "https://gradetv.net/logos/CozaTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CPAC English",
+      "url": "https://gradetv.net/logos/CPACEnglish.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Crazy Ex-Girlfriend",
+      "url": "https://gradetv.net/logos/CrazyExGirlfriend.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CreaTV Channel 15",
+      "url": "https://gradetv.net/logos/CreaTVChannel15.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CreaTV Channel 27",
+      "url": "https://gradetv.net/logos/CreaTVChannel27.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CreaTV Channel 28",
+      "url": "https://gradetv.net/logos/CreaTVChannel28.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CreaTV Channel 30",
+      "url": "https://gradetv.net/logos/CreaTVChannel30.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cricket Gold",
+      "url": "https://gradetv.net/logos/CricketGold.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Crime 360",
+      "url": "https://gradetv.net/logos/Crime360.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Crime and Evidence",
+      "url": "https://gradetv.net/logos/CrimeandEvidence.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Crime + Investigation",
+      "url": "https://gradetv.net/logos/CrimePlusInvestigation.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Crime + Investigation CEE",
+      "url": "https://gradetv.net/logos/CrimePlusInvestigationCEE.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Crimenes Imperfectos",
+      "url": "https://gradetv.net/logos/CrimenesImperfectos.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cruz TV",
+      "url": "https://gradetv.net/logos/CruzTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CSI",
+      "url": "https://gradetv.net/logos/CSI.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CSI: Crime Scene Investigation",
+      "url": "https://gradetv.net/logos/CSICrimeSceneInvestigation.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CSI: NY",
+      "url": "https://gradetv.net/logos/CSINY.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CSI: NY en espanol",
+      "url": "https://gradetv.net/logos/CSINYenespanol.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CTB Perth",
+      "url": "https://gradetv.net/logos/CTBPerth.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CTB Perth Movies Channel",
+      "url": "https://gradetv.net/logos/CTBPerthMoviesChannel.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CTV 2 Atlantic",
+      "url": "https://gradetv.net/logos/CTV2Atlantic.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CTV Life Channel",
+      "url": "https://gradetv.net/logos/CTVLifeChannel.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CTV19",
+      "url": "https://gradetv.net/logos/CTV19.gy",
+      "country": "GY",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CVC Education",
+      "url": "https://gradetv.net/logos/CVCEducation.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CVC Government",
+      "url": "https://gradetv.net/logos/CVCGovernment.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CVC Public",
+      "url": "https://gradetv.net/logos/CVCPublic.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CVR English",
+      "url": "https://gradetv.net/logos/CVREnglish.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CVTV Channel 192",
+      "url": "https://gradetv.net/logos/CVTVChannel192.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "CVTV Channel 194",
+      "url": "https://gradetv.net/logos/CVTVChannel194.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Cypress Channel 36",
+      "url": "https://gradetv.net/logos/CypressChannel36.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DanceHits80",
+      "url": "https://gradetv.net/logos/DanceHits80.ru",
+      "country": "RU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Danger TV",
+      "url": "https://gradetv.net/logos/DangerTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dare To Dream Network",
+      "url": "https://gradetv.net/logos/DareToDreamNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dark Matter TV",
+      "url": "https://gradetv.net/logos/DarkMatterTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dateline 24/7",
+      "url": "https://gradetv.net/logos/Dateline247.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dating Disasters",
+      "url": "https://gradetv.net/logos/DatingDisasters.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dating Naked UK",
+      "url": "https://gradetv.net/logos/DatingNakedUK.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Daystar TV",
+      "url": "https://gradetv.net/logos/DaystarTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Daystar TV Espanol",
+      "url": "https://gradetv.net/logos/DaystarTVEspanol.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DBS TV",
+      "url": "https://gradetv.net/logos/DBSTV.lc",
+      "country": "LC",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DC Council Hearing Room 120",
+      "url": "https://gradetv.net/logos/DCCouncilHearingRoom120.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DCC",
+      "url": "https://gradetv.net/logos/DCC.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DCC: Making the Team",
+      "url": "https://gradetv.net/logos/DCCMakingtheTeam.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD Assam",
+      "url": "https://gradetv.net/logos/DDAssam.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD India",
+      "url": "https://gradetv.net/logos/DDIndia.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD Meghalaya",
+      "url": "https://gradetv.net/logos/DDMeghalaya.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD Mizoram",
+      "url": "https://gradetv.net/logos/DDMizoram.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD Nagaland",
+      "url": "https://gradetv.net/logos/DDNagaland.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD Sports",
+      "url": "https://gradetv.net/logos/DDSports.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DD Urdu",
+      "url": "https://gradetv.net/logos/DDUrdu.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "De unge modre",
+      "url": "https://gradetv.net/logos/Deungemodre.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Deadly Women",
+      "url": "https://gradetv.net/logos/DeadlyWomen.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Deal or No Deal",
+      "url": "https://gradetv.net/logos/DealorNoDeal.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DeFiance Media",
+      "url": "https://gradetv.net/logos/DeFianceMedia.pr",
+      "country": "PR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Degrassi",
+      "url": "https://gradetv.net/logos/Degrassi.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DellaTV",
+      "url": "https://gradetv.net/logos/DellaTV.it",
+      "country": "IT",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Den gule sofa med Allan Sindberg",
+      "url": "https://gradetv.net/logos/DengulesofamedAllanSindberg.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Der TV",
+      "url": "https://gradetv.net/logos/DerTV.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DerryTV 17",
+      "url": "https://gradetv.net/logos/DerryTV17.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DerryTV 23",
+      "url": "https://gradetv.net/logos/DerryTV23.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Det sene show med Christian Fuhlendorff",
+      "url": "https://gradetv.net/logos/DetseneshowmedChristianFuhlendorff.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Diagnosis Murder",
+      "url": "https://gradetv.net/logos/DiagnosisMurder.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dijlah TV",
+      "url": "https://gradetv.net/logos/DijlahTV.iq",
+      "country": "IQ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Discovering China",
+      "url": "https://gradetv.net/logos/DiscoveringChina.cn",
+      "country": "CN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Disney Channel (Bulgaria)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2022_Disney_Channel_logo.svg/330px-2022_Disney_Channel_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Disney Channel (India)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/2024_Disney_Channel_text_logo.svg/330px-2024_Disney_Channel_text_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Disney Channel (Israel)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2022_Disney_Channel_logo.svg/330px-2022_Disney_Channel_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Disney Channel (Poland)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2022_Disney_Channel_logo.svg/330px-2022_Disney_Channel_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Disney International HD",
+      "url": "https://gradetv.net/logos/DisneyInternationalHD.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Disney Jr. (France)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/2000_Playhouse_Disney_logo.svg/330px-2000_Playhouse_Disney_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Disney XD (United States)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/2015_Disney_XD_logo.svg/330px-2015_Disney_XD_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "District of Columbia Network",
+      "url": "https://gradetv.net/logos/DistrictofColumbiaNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Distrito Comedia",
+      "url": "https://gradetv.net/logos/DistritoComedia.mx",
+      "country": "MX",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DKN",
+      "url": "https://gradetv.net/logos/DKN.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 1",
+      "url": "https://gradetv.net/logos/DLTV1.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 10",
+      "url": "https://gradetv.net/logos/DLTV10.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 11",
+      "url": "https://gradetv.net/logos/DLTV11.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 12",
+      "url": "https://gradetv.net/logos/DLTV12.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 13",
+      "url": "https://gradetv.net/logos/DLTV13.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 14",
+      "url": "https://gradetv.net/logos/DLTV14.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 15",
+      "url": "https://gradetv.net/logos/DLTV15.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 2",
+      "url": "https://gradetv.net/logos/DLTV2.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 3",
+      "url": "https://gradetv.net/logos/DLTV3.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 4",
+      "url": "https://gradetv.net/logos/DLTV4.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 5",
+      "url": "https://gradetv.net/logos/DLTV5.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 6",
+      "url": "https://gradetv.net/logos/DLTV6.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 7",
+      "url": "https://gradetv.net/logos/DLTV7.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 8",
+      "url": "https://gradetv.net/logos/DLTV8.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DLTV 9",
+      "url": "https://gradetv.net/logos/DLTV9.th",
+      "country": "TH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Doctor Who Classic",
+      "url": "https://gradetv.net/logos/DoctorWhoClassic.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DocuBay TV",
+      "url": "https://gradetv.net/logos/DocuBayTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DocuBox",
+      "url": "https://gradetv.net/logos/DocuBox.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Docurama",
+      "url": "https://gradetv.net/logos/Docurama.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dodoma TV",
+      "url": "https://gradetv.net/logos/DodomaTV.tz",
+      "country": "TZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dog the Bounty Hunter",
+      "url": "https://gradetv.net/logos/DogtheBountyHunter.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Don't Tell The Bride",
+      "url": "https://gradetv.net/logos/DontTellTheBride.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dora TV",
+      "url": "https://gradetv.net/logos/DoraTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dove Channel",
+      "url": "https://gradetv.net/logos/DoveChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dr Pal TV",
+      "url": "https://gradetv.net/logos/DrPalTV.sa",
+      "country": "SA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dr. Quinn, Medicine Woman",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Dr._Quinn%2C_Medicine_Woman_%28logo%29.svg/330px-Dr._Quinn%2C_Medicine_Woman_%28logo%29.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "DraftKings Network",
+      "url": "https://gradetv.net/logos/DraftKingsNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dream TV",
+      "url": "https://gradetv.net/logos/DreamTV.ug",
+      "country": "UG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DreamWorks Channel Asia",
+      "url": "https://gradetv.net/logos/DreamWorksChannelAsia.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DroneTV",
+      "url": "https://gradetv.net/logos/DroneTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dry Bar Comedy+",
+      "url": "https://gradetv.net/logos/DryBarComedyPlus.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Duck Dynasty",
+      "url": "https://gradetv.net/logos/DuckDynasty.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Duck Hunting TV",
+      "url": "https://gradetv.net/logos/DuckHuntingTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dungeon TV",
+      "url": "https://gradetv.net/logos/DungeonTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DUST",
+      "url": "https://gradetv.net/logos/DUST.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dvojka",
+      "url": "https://gradetv.net/logos/STV2.sk",
+      "country": "SK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "DW Español",
+      "url": "https://gradetv.net/logos/DWEspanol.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Dynasty",
+      "url": "https://gradetv.net/logos/Dynasty.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "E! Keeping Up",
+      "url": "https://gradetv.net/logos/EKeepingUp.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "EAC News TV",
+      "url": "https://gradetv.net/logos/EACNewsTV.kh",
+      "country": "KH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ebony TV by Lionsgate",
+      "url": "https://gradetv.net/logos/EbonyTVbyLionsgate.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "EBS Plus 2",
+      "url": "https://gradetv.net/logos/EBSPlus2.kr",
+      "country": "KR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "El Reino Infantil",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/40/El_Reino_Infantil_logo.jpg",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "El Rey",
+      "url": "https://gradetv.net/logos/ElRey.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Electric Now",
+      "url": "https://gradetv.net/logos/ElectricNow.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Elevation Church Network",
+      "url": "https://gradetv.net/logos/ElevationChurchNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "English Class",
+      "url": "https://gradetv.net/logos/EnglishClass.ru",
+      "country": "RU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Entertainment Tonight",
+      "url": "https://gradetv.net/logos/EntertainmentTonight.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "EntrepreneurTV",
+      "url": "https://gradetv.net/logos/EntrepreneurTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ERi-TV 1",
+      "url": "https://gradetv.net/logos/ERiTV1.er",
+      "country": "ER",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Escambia County TV",
+      "url": "https://gradetv.net/logos/EscambiaCountyTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ESPN2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/330px-ESPN2_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ESPN8: The Ocho",
+      "url": "https://gradetv.net/logos/ESPN8TheOcho.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ESPNU",
+      "url": "https://gradetv.net/logos/ESPNU.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ETV Bal Bharat",
+      "url": "https://gradetv.net/logos/ETVBalBharat.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Eurochannel",
+      "url": "https://gradetv.net/logos/Eurochannel.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Euronews English",
+      "url": "https://gradetv.net/logos/EuronewsEnglish.fr",
+      "country": "FR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Europa Europa",
+      "url": "https://gradetv.net/logos/EuropaEuropa.ar",
+      "country": "AR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Eventyrlig Oppussing",
+      "url": "https://gradetv.net/logos/EventyrligOppussing.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Everybody Hates Chris",
+      "url": "https://gradetv.net/logos/EverybodyHatesChris.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Expo Channel",
+      "url": "https://gradetv.net/logos/ExpoChannel.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Faith Africa",
+      "url": "https://gradetv.net/logos/FaithAfrica.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Faith TV",
+      "url": "https://gradetv.net/logos/FaithTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fame95 FM",
+      "url": "https://gradetv.net/logos/Fame95FM.jm",
+      "country": "JM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Familien fra Bryggen",
+      "url": "https://gradetv.net/logos/FamilienfraBryggen.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Family Feud",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d7/Logo_of_Family_Feud_since_2014.png/330px-Logo_of_Family_Feud_since_2014.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Family Ties",
+      "url": "https://gradetv.net/logos/FamilyTies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Farscape",
+      "url": "https://gradetv.net/logos/Farscape.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fashion&LifeStyle",
+      "url": "https://gradetv.net/logos/FashionLifeStyle.ru",
+      "country": "RU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fashion Finds",
+      "url": "https://gradetv.net/logos/FashionFinds.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FashionBox",
+      "url": "https://gradetv.net/logos/FashionBox.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FashionTV Asia",
+      "url": "https://gradetv.net/logos/FashionTVAsia.fr",
+      "country": "FR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FashionTV Europe",
+      "url": "https://gradetv.net/logos/FashionTVEurope.fr",
+      "country": "FR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FashionTV Secrets",
+      "url": "https://gradetv.net/logos/FashionTVSecrets.fr",
+      "country": "FR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fast TV",
+      "url": "https://gradetv.net/logos/FastTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fazal TV",
+      "url": "https://gradetv.net/logos/FazalTV.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FB TV",
+      "url": "https://gradetv.net/logos/FBTV.tr",
+      "country": "TR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FBI Files",
+      "url": "https://gradetv.net/logos/FBIFiles.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FBoy Island",
+      "url": "https://gradetv.net/logos/FBoyIsland.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FC Public Media",
+      "url": "https://gradetv.net/logos/FCPublicMedia.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FCK Lovinderne",
+      "url": "https://gradetv.net/logos/FCKLovinderne.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FCTV",
+      "url": "https://gradetv.net/logos/FCTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fear Factor",
+      "url": "https://gradetv.net/logos/FearFactor.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Feel Good Drama",
+      "url": "https://gradetv.net/logos/FeelGoodDrama.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FEVA TV",
+      "url": "https://gradetv.net/logos/FEVATV.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FIFA+ Women",
+      "url": "https://gradetv.net/logos/FIFAPlusWomen.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FightBox",
+      "url": "https://gradetv.net/logos/FightBox.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FilAmTV Network",
+      "url": "https://gradetv.net/logos/FilAmTVNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Film1 Action",
+      "url": "https://gradetv.net/logos/Film1Action.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Filmazia",
+      "url": "https://gradetv.net/logos/Filmazia.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FILMBOX+ Festival",
+      "url": "https://gradetv.net/logos/FILMBOXPlusFestival.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FILMBOX+ Love & Crime",
+      "url": "https://gradetv.net/logos/FILMBOXPlusLoveCrime.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Firstlight",
+      "url": "https://gradetv.net/logos/Firstlight.nz",
+      "country": "NZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FITE 24/7",
+      "url": "https://gradetv.net/logos/FITE247.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Flame TV",
+      "url": "https://gradetv.net/logos/FlameTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Flicks of Fury",
+      "url": "https://gradetv.net/logos/FlicksofFury.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FloHockey",
+      "url": "https://gradetv.net/logos/FloHockey.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FloRacing",
+      "url": "https://gradetv.net/logos/FloRacing.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Flowers TV USA",
+      "url": "https://gradetv.net/logos/FlowersTVUSA.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FNX",
+      "url": "https://gradetv.net/logos/FNX.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "For laekker til love",
+      "url": "https://gradetv.net/logos/Forlaekkertillove.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "For You TV",
+      "url": "https://gradetv.net/logos/ForYouTV.cm",
+      "country": "CM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Forever Kids",
+      "url": "https://gradetv.net/logos/ForeverKids.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Forsidefruer",
+      "url": "https://gradetv.net/logos/Forsidefruer.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FORT TV",
+      "url": "https://gradetv.net/logos/FORTTV.ug",
+      "country": "UG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fortis TV",
+      "url": "https://gradetv.net/logos/FortisTV.ng",
+      "country": "NG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fox News Radio",
+      "url": "https://gradetv.net/logos/FoxNewsRadio.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fox Sports News",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fox_Sports_wordmark_logo.svg/330px-Fox_Sports_wordmark_logo.svg.png",
+      "country": "AU",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Frasier",
+      "url": "https://gradetv.net/logos/Frasier.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FrightFlix",
+      "url": "https://gradetv.net/logos/FrightFlix.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Frusna Vagar",
+      "url": "https://gradetv.net/logos/FrusnaVagar.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FTF Sports",
+      "url": "https://gradetv.net/logos/FTFSports.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FUEL TV",
+      "url": "https://gradetv.net/logos/FuelTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Fun Roads",
+      "url": "https://gradetv.net/logos/FunRoads.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "FunBox UHD",
+      "url": "https://gradetv.net/logos/FunBoxUHD.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Funny AF",
+      "url": "https://gradetv.net/logos/FunnyAF.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Futbol",
+      "url": "https://gradetv.net/logos/Futbol.tj",
+      "country": "TJ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Futbol TV",
+      "url": "https://gradetv.net/logos/FutbolTV.uz",
+      "country": "UZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "G10TV",
+      "url": "https://gradetv.net/logos/G10TV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gagsnetwork",
+      "url": "https://gradetv.net/logos/Gagsnetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Galxy TV",
+      "url": "https://gradetv.net/logos/GalxyTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Game+",
+      "url": "https://gradetv.net/logos/GamePlus.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gametoon",
+      "url": "https://gradetv.net/logos/Gametoon.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Garfield and Friends",
+      "url": "https://gradetv.net/logos/GarfieldandFriends.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GCN America",
+      "url": "https://gradetv.net/logos/GCNAmerica.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GCO.tv",
+      "url": "https://gradetv.net/logos/GCOtv.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Genesis Science Network",
+      "url": "https://gradetv.net/logos/GenesisScienceNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Get.factual",
+      "url": "https://gradetv.net/logos/Getfactual.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ghost Dimension",
+      "url": "https://gradetv.net/logos/GhostDimension.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ghost Hunters",
+      "url": "https://gradetv.net/logos/GhostHunters.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Giggle Mug",
+      "url": "https://gradetv.net/logos/GiggleMug.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gillette Public Access Television Channel 189",
+      "url": "https://gradetv.net/logos/GillettePublicAccessTelevisionChannel189.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gillette Public Access Television Channel 190",
+      "url": "https://gradetv.net/logos/GillettePublicAccessTelevisionChannel190.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gillette Public Access Television Channel 192",
+      "url": "https://gradetv.net/logos/GillettePublicAccessTelevisionChannel192.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Girlfriends Films",
+      "url": "https://gradetv.net/logos/GirlfriendsFilms.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Glendale 11 AZ",
+      "url": "https://gradetv.net/logos/Glendale11AZ.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Global Buddhist Network",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/7a/Global_Buddhist_Network_Logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Global Fashion Channel",
+      "url": "https://gradetv.net/logos/GlobalFashionChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Global Trekker",
+      "url": "https://gradetv.net/logos/GlobalTrekker.sg",
+      "country": "SG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GlobalWorldTV",
+      "url": "https://gradetv.net/logos/GlobalWorldTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GNF TV",
+      "url": "https://gradetv.net/logos/GNFTV.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GNN TV",
+      "url": "https://gradetv.net/logos/GNNTV.jm",
+      "country": "JM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "God Stands Kids Club TV",
+      "url": "https://gradetv.net/logos/GodStandsKidsClubTV.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "God Stands TV",
+      "url": "https://gradetv.net/logos/GodStandsTV.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Golazo Network",
+      "url": "https://gradetv.net/logos/GolazoNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GoodNews TV",
+      "url": "https://gradetv.net/logos/GoodNewsTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gordon Ramsay's Hell's Kitchen",
+      "url": "https://gradetv.net/logos/GordonRamsaysHellsKitchen.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gospel Truth TV",
+      "url": "https://gradetv.net/logos/GospelTruthTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Government TV 16",
+      "url": "https://gradetv.net/logos/GovernmentTV16.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Grace Network",
+      "url": "https://gradetv.net/logos/GraceNetwork.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gravitas Movies",
+      "url": "https://gradetv.net/logos/GravitasMovies.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Great Commission TV",
+      "url": "https://gradetv.net/logos/GreatCommissionTV.ke",
+      "country": "KE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Great Entertainment Television",
+      "url": "https://gradetv.net/logos/GreatEntertainmentTelevision.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Greater Love TV",
+      "url": "https://gradetv.net/logos/GreaterLoveTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Greensboro TV",
+      "url": "https://gradetv.net/logos/GreensboroTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Grit Xtra",
+      "url": "https://gradetv.net/logos/GritXtra.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Grjngo Western Movies",
+      "url": "https://gradetv.net/logos/GrjngoWesternMovies.de",
+      "country": "DE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GS Shop",
+      "url": "https://gradetv.net/logos/GSShop.kr",
+      "country": "KR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GS TV",
+      "url": "https://gradetv.net/logos/GSTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Guadalupe Media",
+      "url": "https://gradetv.net/logos/GuadalupeMedia.bz",
+      "country": "BZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Guardian Talk Radio",
+      "url": "https://gradetv.net/logos/GuardianTalkRadio.bs",
+      "country": "BS",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gugudde TV",
+      "url": "https://gradetv.net/logos/GuguddeTV.ug",
+      "country": "UG",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gustav & Linse pa udebane",
+      "url": "https://gradetv.net/logos/GustavLinsepaudebane.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Gusto TV",
+      "url": "https://gradetv.net/logos/GustoTV.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "GZT",
+      "url": "https://gradetv.net/logos/GZT.tr",
+      "country": "TR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "H2 HD",
+      "url": "https://gradetv.net/logos/H2HD.si",
+      "country": "SI",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hala London",
+      "url": "https://gradetv.net/logos/HalaLondon.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hallmark Movies & More",
+      "url": "https://gradetv.net/logos/HallmarkMoviesMore.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hallmark Mystery",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Hallmark_logo.svg/330px-Hallmark_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Happy Days",
+      "url": "https://gradetv.net/logos/HappyDays.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HappyKids",
+      "url": "https://gradetv.net/logos/HappyKids.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hard Knocks",
+      "url": "https://gradetv.net/logos/HardKnocks.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hard Knocks Fighting Championship",
+      "url": "https://gradetv.net/logos/HardKnocksFightingChampionship.pl",
+      "country": "PL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Harvest USA",
+      "url": "https://gradetv.net/logos/HarvestUSA.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HauntTV",
+      "url": "https://gradetv.net/logos/HauntTV.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HBTV",
+      "url": "https://gradetv.net/logos/HBTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HCTV Educational Access Channel",
+      "url": "https://gradetv.net/logos/HCTVEducationalAccessChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HCTV Government Channel",
+      "url": "https://gradetv.net/logos/HCTVGovernmentChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HCTV Public Access Channel",
+      "url": "https://gradetv.net/logos/HCTVPublicAccessChannel.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Heart Radio Aruba",
+      "url": "https://gradetv.net/logos/HeartRadioAruba.aw",
+      "country": "AW",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hell's Kitchen",
+      "url": "https://gradetv.net/logos/HellsKitchen.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hi Dost!",
+      "url": "https://gradetv.net/logos/HiDost.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hi-YAH!",
+      "url": "https://gradetv.net/logos/HiYAH.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Highway to Heaven",
+      "url": "https://gradetv.net/logos/HighwaytoHeaven.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hillsborough TV",
+      "url": "https://gradetv.net/logos/HillsboroughTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "His Glory TV",
+      "url": "https://gradetv.net/logos/HisGloryTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "History Asia",
+      "url": "https://gradetv.net/logos/HistoryAsia.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hobby Maker",
+      "url": "https://gradetv.net/logos/HobbyMaker.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hogan's Heroes",
+      "url": "https://gradetv.net/logos/HogansHeroes.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hogspanning",
+      "url": "https://gradetv.net/logos/Hogspanning.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HollyWire",
+      "url": "https://gradetv.net/logos/HollyWire.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Home.Made.Nation",
+      "url": "https://gradetv.net/logos/HomeMadeNation.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Homebase TV",
+      "url": "https://gradetv.net/logos/HomebaseTV.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Homeful",
+      "url": "https://gradetv.net/logos/Homeful.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Homes Under Hammer",
+      "url": "https://gradetv.net/logos/HomesUnderHammer.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Homicide Hunter",
+      "url": "https://gradetv.net/logos/HomicideHunter.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel Africa",
+      "url": "https://gradetv.net/logos/HopeChannelAfrica.za",
+      "country": "ZA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel Australia",
+      "url": "https://gradetv.net/logos/HopeChannelAustralia.au",
+      "country": "AU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel Ghana",
+      "url": "https://gradetv.net/logos/HopeChannelGhana.gh",
+      "country": "GH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel India",
+      "url": "https://gradetv.net/logos/HopeChannelIndia.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel Inter-America English",
+      "url": "https://gradetv.net/logos/HopeChannelInterAmericaEnglish.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel International",
+      "url": "https://gradetv.net/logos/HopeChannelInternational.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel North America",
+      "url": "https://gradetv.net/logos/HopeChannelNorthAmerica.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope Channel Philippines",
+      "url": "https://gradetv.net/logos/HopeChannelPhilippines.ph",
+      "country": "PH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hope4Life TV",
+      "url": "https://gradetv.net/logos/Hope4LifeTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hornbill TV",
+      "url": "https://gradetv.net/logos/HornbillTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Horse & Country TV",
+      "url": "https://gradetv.net/logos/HorseCountryTV.uk",
+      "country": "UK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hosanna TV",
+      "url": "https://gradetv.net/logos/HosannaTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hot Bench",
+      "url": "https://gradetv.net/logos/HotBench.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "House of Lies",
+      "url": "https://gradetv.net/logos/HouseofLies.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "hr-fernsehen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/HR-Fernsehen_Logo_2023.svg/330px-HR-Fernsehen_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "HSN2",
+      "url": "https://gradetv.net/logos/HSN2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "HSTV",
+      "url": "https://gradetv.net/logos/HSTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Humor Mill",
+      "url": "https://gradetv.net/logos/HumorMill.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Hungry",
+      "url": "https://gradetv.net/logos/Hungry.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "I Love Lucy",
+      "url": "https://gradetv.net/logos/ILoveLucy.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "IBN TV",
+      "url": "https://gradetv.net/logos/IBNTV.tz",
+      "country": "TZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "IBN TV Africa",
+      "url": "https://gradetv.net/logos/IBNTVAfrica.tz",
+      "country": "TZ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ice Pilots",
+      "url": "https://gradetv.net/logos/IcePilots.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "IIPC TV",
+      "url": "https://gradetv.net/logos/IIPCTV.ca",
+      "country": "CA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Imam Hussein TV 3",
+      "url": "https://gradetv.net/logos/ImamHusseinTV3.iq",
+      "country": "IQ",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Impact Network",
+      "url": "https://gradetv.net/logos/ImpactNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Impossible Quiz Show",
+      "url": "https://gradetv.net/logos/ImpossibleQuizShow.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "In the Kitchen",
+      "url": "https://gradetv.net/logos/IntheKitchen.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "INC Radio",
+      "url": "https://gradetv.net/logos/INCRadio.ph",
+      "country": "PH",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "India Ahead",
+      "url": "https://gradetv.net/logos/IndiaAhead.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "India Today",
+      "url": "https://gradetv.net/logos/IndiaToday.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Indywood TV",
+      "url": "https://gradetv.net/logos/IndywoodTV.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "INFAST",
+      "url": "https://gradetv.net/logos/INFAST.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "InfoWars",
+      "url": "https://gradetv.net/logos/InfoWars.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Ink Master",
+      "url": "https://gradetv.net/logos/InkMaster.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Inooro TV",
+      "url": "https://gradetv.net/logos/InooroTV.ke",
+      "country": "KE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Insayt TV",
+      "url": "https://gradetv.net/logos/InsaytTV.ru",
+      "country": "RU",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Inside Crime",
+      "url": "https://gradetv.net/logos/InsideCrime.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "INTRAVEL",
+      "url": "https://gradetv.net/logos/INTRAVEL.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "InTrouble",
+      "url": "https://gradetv.net/logos/InTrouble.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Investiga",
+      "url": "https://gradetv.net/logos/Investiga.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "INWILD",
+      "url": "https://gradetv.net/logos/INWILD.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "InWonder",
+      "url": "https://gradetv.net/logos/InWonder.nl",
+      "country": "NL",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Iqraa Africa & Europe",
+      "url": "https://gradetv.net/logos/IqraaAfricaEurope.sa",
+      "country": "SA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Iqraa Quran",
+      "url": "https://gradetv.net/logos/IqraaQuran.sa",
+      "country": "SA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Iran Press",
+      "url": "https://gradetv.net/logos/IranPress.ir",
+      "country": "IR",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Iris",
+      "url": "https://gradetv.net/logos/Iris.it",
+      "country": "IT",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Iron Chef",
+      "url": "https://gradetv.net/logos/IronChef.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Isaac TV",
+      "url": "https://gradetv.net/logos/IsaacTV.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Island Luck TV",
+      "url": "https://gradetv.net/logos/IslandLuckTV.bs",
+      "country": "BS",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "It Is Written TV",
+      "url": "https://gradetv.net/logos/ItIsWrittenTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "It's Supernatural! Network",
+      "url": "https://gradetv.net/logos/ItsSupernaturalNetwork.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "ITV",
+      "url": "https://gradetv.net/logos/ITV.ua",
+      "country": "UA",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Iunior TV",
+      "url": "https://gradetv.net/logos/IuniorTV.it",
+      "country": "IT",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Jalwa TV",
+      "url": "https://gradetv.net/logos/JalwaTV.pk",
+      "country": "PK",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Jamaica Travel Channel",
+      "url": "https://gradetv.net/logos/JamaicaTravelChannel.jm",
+      "country": "JM",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "JBS",
+      "url": "https://gradetv.net/logos/JBS.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Jersey Shore",
+      "url": "https://gradetv.net/logos/JerseyShore.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Jersey Shore Family Vacation",
+      "url": "https://gradetv.net/logos/JerseyShoreFamilyVacation.se",
+      "country": "SE",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Jewelry TV",
+      "url": "https://gradetv.net/logos/JewelryTV.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "Jewelry TV 2",
+      "url": "https://gradetv.net/logos/JewelryTV2.us",
+      "country": "US",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "JTBS Classic",
+      "url": "https://gradetv.net/logos/JTBSClassic.in",
+      "country": "IN",
+      "kind": "channel",
+      "source": "gradetv"
+    },
+    {
+      "name": "kabel eins Doku",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Kabel_eins_Doku_Logo_2016.svg/330px-Kabel_eins_Doku_Logo_2016.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kairali TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Kairali_WE_TV_Logo.png/330px-Kairali_WE_TV_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kalaignar TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/3a/Kalaignar_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kanal A",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Kanal_A_logo_2020.svg/330px-Kanal_A_logo_2020.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kapaz TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/70/Kapaz_TV_Logo_2019.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kappa TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Kappa_tv_Channel_Logo.png/330px-Kappa_tv_Channel_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "KCAT",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/45/KCAT_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kenan & Kel",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Kenan_and_kel_logo.png/330px-Kenan_and_kel_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kidoodle.TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Kidoodle_TV_Logo.svg/330px-Kidoodle_TV_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Klan Kosova",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Klan_Kosova_logo_2017.svg/330px-Klan_Kosova_logo_2017.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kohavision",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Kohavision_logo_%282015%29.svg/330px-Kohavision_logo_%282015%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Kurdistan 24",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/K24logo.png/330px-K24logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Lietuvos Rytas TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/f/f8/Lrytas_tv_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "LRT Plius",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/LRT_Plius_Logo_2022.svg/330px-LRT_Plius_Logo_2022.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "LTV1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/LTV1_logo.svg/330px-LTV1_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "LTV7",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/LTV7_Logo_2021.svg/330px-LTV7_Logo_2021.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "M-Net",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4d/M-Net_new_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Makkal TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/a/a5/Makkal_TV_Logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MasterChef",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/44/MasterChef_Logo.svg/330px-MasterChef_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Mastiii",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Mastiii-TV_logo.jpg/330px-Mastiii-TV_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Mathrubhumi News",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Mathrubhumi_News_logo.png/330px-Mathrubhumi_News_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Mazhavil Manorama",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Mazhavil_Manorama_Logo.png/330px-Mazhavil_Manorama_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MBC Persia",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/2/26/MBC_Persia_Logo.svg/330px-MBC_Persia_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MDTV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/330px-MDTV_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Midsomer Murders",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/62/Midsomer_Murders_logo.svg/330px-Midsomer_Murders_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Mister Rogers' Neighborhood",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mister_Rogers%27_Neighborhood_Logo_1971.svg/330px-Mister_Rogers%27_Neighborhood_Logo_1971.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MNCTV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/MNCTV_logo_2015.svg/330px-MNCTV_logo_2015.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Moldova 1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Moldova_1_logo_%282018%29.png/330px-Moldova_1_logo_%282018%29.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Moldova 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Moldova_2_logo_%282022%29.svg/330px-Moldova_2_logo_%282022%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Monumental Sports Network",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/e/e1/Monumental_Sports_Network_Logo.png/330px-Monumental_Sports_Network_Logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Most Haunted",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Most_Haunted_Logo.png/330px-Most_Haunted_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MTR",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b9/HK_MTR_logo.svg/330px-HK_MTR_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MTV (Germany)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/MTV%2B_Germany_logo.svg/330px-MTV%2B_Germany_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MTV Global",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/MTV_1981_logo_%28all_outlined_except_%22TV%22%29.svg/330px-MTV_1981_logo_%28all_outlined_except_%22TV%22%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Murder, She Wrote",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Murder%2C_She_Wrote_%281984_television_series_logo%29.svg/330px-Murder%2C_She_Wrote_%281984_television_series_logo%29.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "MY5",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/MY5_TV_logotipi.png/330px-MY5_TV_logotipi.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Mystery Science Theater 3000",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/330px-Wikidata-logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Naruto",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/330px-Wikidata-logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nat Geo Wild",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/330px-National_Geographic_Wild_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "National Geographic (Netherlands)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/330px-Natgeologo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NDR Fernsehen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Logo_NDR_Fernsehen_2017.svg/330px-Logo_NDR_Fernsehen_2017.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NDTV India",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/NDTV_India_Logo_Updated.png/330px-NDTV_India_Logo_Updated.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "News of the World",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/News_of_the_World_Logo_2009.svg/330px-News_of_the_World_Logo_2009.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "News1",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/11/Nfc_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "News18 Marathi",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/aa/News18_Lokmat_Logo.svg/330px-News18_Lokmat_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "News18 Odia",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fc/News18_Odia_Logo.svg/330px-News18_Odia_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "News18 Urdu",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/News18_Urdu_logo.png/330px-News18_Urdu_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NewsNation",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/NewsNation_logo.svg/330px-NewsNation_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NewsX",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/NewsX_Logo.png/330px-NewsX_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NHK World-Japan",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_NHK_World_Radio_Japan.jpg/330px-Logo_NHK_World_Radio_Japan.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NHK World Premium",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/NHK_WORLD_PREMIUM_logo.png/330px-NHK_WORLD_PREMIUM_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nick Jr. (India)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nick_Jr._logo_2023.svg/330px-Nick_Jr._logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nick Jr. (Israel)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nick_Jr._logo_2023.svg/330px-Nick_Jr._logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nick Jr. (Italy)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nick_Jr._logo_2023.svg/330px-Nick_Jr._logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nick Jr. (Russia)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Nick_Jr._logo_2023.svg/330px-Nick_Jr._logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Brazil)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Bulgaria)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Croatia)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Czech Republic)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Germany)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Hungary)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (India)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (Romania)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nickelodeon (United States)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Nickelodeon_2023_logo_%28outline%29.svg/330px-Nickelodeon_2023_logo_%28outline%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nicktoons (Czech Republic)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nicktoons_Logo_2023.svg/330px-Nicktoons_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nicktoons (Hungary)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nicktoons_Logo_2023.svg/330px-Nicktoons_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nicktoons (Romania)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nicktoons_Logo_2023.svg/330px-Nicktoons_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nicktoons (United States)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Nicktoons_Logo_2023.svg/330px-Nicktoons_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Nour TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8c/Nourtv_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "NTV7",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/ab/NTV7_logo_%282018%29.svg/330px-NTV7_logo_%282018%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Oakland Athletics",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/330px-Oakland_A%27s_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "OM TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c4/OM_TV_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Omroep Brabant",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Omroep_Brabant_logo_2012.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Omroep Zeeland",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Logo_omroep_Zeeland.png/330px-Logo_omroep_Zeeland.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "One Piece",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/330px-Wikidata-logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ORF 1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/ORF_logo.svg/330px-ORF_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ORF 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/ORF_2_HD_logo.svg/330px-ORF_2_HD_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ORF III",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/330px-ORF_III_Logo_Monochrom.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Paradise",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/330px-Wikibooks-logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Paradise Hotel",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/3d/Paradise_Hotel_TV_Series_FOX_Logo.jpg/330px-Paradise_Hotel_TV_Series_FOX_Logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Paraguay TV",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Logotipo_de_Paraguay_TV%2C_desde_2020.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Parliament of Malta",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/53/Logo_of_the_Parliament_of_Malta.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Peppa Pig",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/86/Peppa_Pig_logo.svg/330px-Peppa_Pig_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Pokémon",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/330px-International_Pok%C3%A9mon_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "PokerGO",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/PokerGO_logo.png/330px-PokerGO_logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Portlandia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Portlandia_logo.png/330px-Portlandia_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Prag News",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d7/Prag_News_logo.jpg/330px-Prag_News_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Pratidin Time",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/95/Pratidin_Time_logo.jpeg/330px-Pratidin_Time_logo.jpeg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "PTC News",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PTC_NEWS_LOGO.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "PTV News",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bb/PTV_News_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Public Music",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/35/Public_Music_Kannada_Channel_Logo.jpg",
+      "country": "IN",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Puls 2",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Puls_2_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Raajje TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/0/05/Logo_of_Raajje_TV.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Radio 1 (Belgium)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Radio_1_%28Belgium%29_logo.png/330px-Radio_1_%28Belgium%29_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Radio 538",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_Radio_538_2014.svg/330px-Logo_Radio_538_2014.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Radio Moldova",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Radio_Moldova_logo_%282025%29.svg/330px-Radio_Moldova_logo_%282025%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rai 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rai_2_-_Logo_2016.svg/330px-Rai_2_-_Logo_2016.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rai 3",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Rai_3_-_Logo_2016.svg/330px-Rai_3_-_Logo_2016.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rai 4",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Rai_4_-_Logo_2016.svg/330px-Rai_4_-_Logo_2016.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rai Gulp",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Rai_Gulp_-_Logo_2017.svg/330px-Rai_Gulp_-_Logo_2017.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rai News 24",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Rai_News_24_-_Logo_2013.svg/330px-Rai_News_24_-_Logo_2013.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rai Sport",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Rai_Sport_-_Logo_2022.svg/330px-Rai_Sport_-_Logo_2022.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Raj News Kannada",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/RAJ_NEWS_KANNADA_LOGO.jpg/330px-RAJ_NEWS_KANNADA_LOGO.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rakuten Viki",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Rakuten_Global_Brand_Logo.svg/330px-Rakuten_Global_Brand_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Ramdhenu",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/58/Logo_of_Ramdhenu.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "rbb Fernsehen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/330px-Rbb_Fernsehen_Logo_2017.08.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RCTI",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/RCTI_logo_2015.svg/330px-RCTI_logo_2015.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Real America's Voice",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Logo_Real_America%27s_Voice.svg/330px-Logo_Real_America%27s_Voice.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rede Minas",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Logo_da_Rede_Minas.svg/330px-Logo_da_Rede_Minas.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rengoni",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c6/Rengoni_logo.jpeg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Republic TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/de/Republic_TV_full_logo.svg/330px-Republic_TV_full_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Reuters TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Reuters_TV_logo.png/330px-Reuters_TV_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Revry",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Revry_Logo_-_Background.jpg/330px-Revry_Logo_-_Background.jpg",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Ridiculousness",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c7/Ridiculousness_logo.png/330px-Ridiculousness_logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RiffTrax",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/d7/Rifftrax_Logo.png/330px-Rifftrax_Logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Riigikogu",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Riigikogu_logo.svg/330px-Riigikogu_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RIK 1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Logo_RIK_1_2017.svg/330px-Logo_RIK_1_2017.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RIK 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Logo_RIK_2_2017.svg/330px-Logo_RIK_2_2017.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RMC Life",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/RMC_Life_logo_2025.svg/330px-RMC_Life_logo_2025.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ROCK Entertainment",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Blue_ant_entertainment_logo.png/330px-Blue_ant_entertainment_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rock TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d9/Rock_TV_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RT India",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/330px-Russia-today-logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTK 3",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/RTK3_logo_5ac42bcfd1a4d.png/330px-RTK3_logo_5ac42bcfd1a4d.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTL Club",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/RTL_Club_Logo_2023.svg/330px-RTL_Club_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTL Zwei",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/330px-RTLZWEI_Logo_2019.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTSH 1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/RTSH_1_HD_%282020_Logo%29.svg/330px-RTSH_1_HD_%282020_Logo%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTSH 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/RTSH_2_HD_%282020_Logo%29.svg/330px-RTSH_2_HD_%282020_Logo%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTV Rijnmond",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Rijnmond_nieuw_logo.jpg/330px-Rijnmond_nieuw_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTV Utrecht",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/RTV_Utrecht_logo.png/330px-RTV_Utrecht_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "RTV Zenica",
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5b/Logo_of_RTV_Zenica.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Rustavi 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Rustavi_2_logo.png/330px-Rustavi_2_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Safari TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Safari_logo_new_25-07-2015.png/330px-Safari_logo_new_25-07-2015.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "San Marino RTV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/San_Marino_RTV_logo_2025.png/330px-San_Marino_RTV_logo_2025.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Sangat TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/c/c3/Sangat_TV_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Scripps News",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/a0/Scripps_News_logo.svg/330px-Scripps_News_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Sensing Murder",
+      "url": "https://upload.wikimedia.org/wikipedia/en/3/36/Sensing_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Setanta Sports",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Logo_boxed_yellow.png/330px-Logo_boxed_yellow.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Sevimli TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/SEVIMLI_ORANGE_LOGO.png/330px-SEVIMLI_ORANGE_LOGO.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Shakthi TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6b/Shakthi_TV_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Shalom World",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/World%28Shalom_World_Logo%29.png/330px-World%28Shalom_World_Logo%29.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Shant TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/98/Shant_TV_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "SIC Radical",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/60/SICRadical2011logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "sixx",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Sixx_Logo.svg/330px-Sixx_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Sony Aath",
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/64/Sony_Aath_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Sony Pix",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/9/90/Sony_Pix_logo.svg/330px-Sony_Pix_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Soundcity TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/SOUNDCITY_AFRICA_LOGO.png/330px-SOUNDCITY_AFRICA_LOGO.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Soweto TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Soweto_TV_Logo_Transparent_PNG.png/330px-Soweto_TV_Logo_Transparent_PNG.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Space City Home Network",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/a/ad/Space_City_Home_Network_Logo.png/330px-Space_City_Home_Network_Logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "SpongeBob SquarePants",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/SpongeBob_SquarePants_Logo_%282008%29.svg/330px-SpongeBob_SquarePants_Logo_%282008%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Sportitalia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sportitalia_2019_Logo.png/330px-Sportitalia_2019_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "SR Fernsehen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/SR_Fernsehen_Logo_2023.svg/330px-SR_Fernsehen_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "SRF zwei",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Logo_SRF_zwei.svg/330px-Logo_SRF_zwei.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Channel (Greece)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Star_Channel_Greece_logo.svg/330px-Star_Channel_Greece_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Jalsha",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Star_Jalsha_logo_2023.png/330px-Star_Jalsha_logo_2023.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Maa",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Star_maa_logo_2023.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Trek: Deep Space Nine",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Star_Trek_DS9_logo.svg/330px-Star_Trek_DS9_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Trek: Enterprise",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Star_Trek_ENT_logo.svg/330px-Star_Trek_ENT_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Trek: The Next Generation",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Star_Trek_The_Next_Generation_Logo.svg/330px-Star_Trek_The_Next_Generation_Logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Star Trek: Voyager",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Star_Trek_Voyager_Logo.svg/330px-Star_Trek_Voyager_Logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Stargate",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Stargate_Origins_2018_logo.svg/330px-Stargate_Origins_2018_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "StarPlus",
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d7/StarPlus_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Super Hungama",
+      "url": "https://upload.wikimedia.org/wikipedia/en/7/74/Super_Hungama_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Super TV2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Super_TV2_logo.png/330px-Super_TV2_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Supermarket Sweep",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/fa/SupermarketSweep2020Logo.png/330px-SupermarketSweep2020Logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Svenska Hollywoodfruar",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Hollywoodfruarlogo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "SWR Fernsehen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/SWR_Logo_2023.svg/330px-SWR_Logo_2023.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "T News",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/1a/T_News_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "T Sports",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/330px-T_Sports_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "tagesschau24",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/1-Extra-Logo-alt.svg/330px-1-Extra-Logo-alt.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Tastemade",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/TastemadeLogo.svg/330px-TastemadeLogo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TBMM TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/330px-TBMM_TV_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TBN Inspire",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/65/TBN_Inspire_Logo.png/330px-TBN_Inspire_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Tele7ABC",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Tele7abc_logo.svg/330px-Tele7abc_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Teleamazonas",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/330px-Teleamazonas_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telecanal",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Telecanal_-_2011_logo_%283D_variant%29.png/330px-Telecanal_-_2011_logo_%283D_variant%29.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telecinco",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Telecinco_2024_Logo.svg/330px-Telecinco_2024_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Teledeporte",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Logo_RTVE.svg/330px-Logo_RTVE.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telefriuli",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Nuovo_logo_telefriuli.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telejato",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Telejatologo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telemetro",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Logo-telemetro.svg/330px-Logo-telemetro.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telemicro",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Telemicro_logo.jpg/330px-Telemicro_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telemundo Internacional",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/330px-Telemundo_logo_2018.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TeleRama",
+      "url": "https://upload.wikimedia.org/wikipedia/en/4/4b/TeleramaLogo.gif",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telesol",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Telesol_San_Juan_%28Logo_2020%29.png/330px-Telesol_San_Juan_%28Logo_2020%29.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Telesur",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/330px-TeleSUR-Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TeleTicino",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Teleticino-logo.png/330px-Teleticino-logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Teletubbies",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5a/Teletubbies_Logo.png/330px-Teletubbies_Logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Televize Seznam",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Logo_Televize_Seznam.png/330px-Logo_Televize_Seznam.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TGRT Haber",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/TGRT_Haber_logosu.png/330px-TGRT_Haber_logosu.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Thanthi TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/THANTHI_TV_LOGO.png/330px-THANTHI_TV_LOGO.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Addams Family",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/The_Addams_Family_%28Tee_%26_Charles_Addams_Foundation%29_franchise_logo_%281%29.svg/330px-The_Addams_Family_%28Tee_%26_Charles_Addams_Foundation%29_franchise_logo_%281%29.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Andy Griffith Show",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/The_Andy_Griffith_Show_%28television_series_logo%29.svg/330px-The_Andy_Griffith_Show_%28television_series_logo%29.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Brady Bunch",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b0/The_Brady_Bunch_logo.svg/330px-The_Brady_Bunch_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Daily Show",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/The_Daily_Show_2023_logo.svg/330px-The_Daily_Show_2023_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The First TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_First_TV_logo.png/330px-The_First_TV_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Indonesia Channel",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f4/The_Indonesia_Channel_Logo.jpg/330px-The_Indonesia_Channel_Logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Jungle Book",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/W-h-drake_kipling-tiger-tiger-logo.png/330px-W-h-drake_kipling-tiger-tiger-logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Price Is Right",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Price_is_Right_50th_Anniversary_logo.png/330px-Price_is_Right_50th_Anniversary_logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Twilight Zone",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_Twilight_Zone_%281959_TV_series%29_logo.svg/330px-The_Twilight_Zone_%281959_TV_series%29_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The X-Files",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Wikidata-logo.svg/330px-Wikidata-logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "The Young Turks",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/TYT_logo.svg/330px-TYT_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "This Old House",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5b/This_Old_House_%28logo%29.svg/330px-This_Old_House_%28logo%29.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Three's Company",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Three%27s_Company_yellow_logo.svg/330px-Three%27s_Company_yellow_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Tiny House Nation",
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/98/Tiny_House_Nation_logo.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TMZ",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/TMZLogo.svg/330px-TMZLogo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TRT 3",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/TRT_3_Spor_logo_%282022%29.svg/330px-TRT_3_Spor_logo_%282022%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TRT Belgesel",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/TRT_Belgesel_logo_%282019-%29.svg/330px-TRT_Belgesel_logo_%282019-%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TRT Haber",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/TRT_Haber_Eyl%C3%BCl_2020_Logo.svg/330px-TRT_Haber_Eyl%C3%BCl_2020_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV Bahia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/TV_Bahia_logo_%282025%29.svg/330px-TV_Bahia_logo_%282025%29.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV Barrandov",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/TV_Barrandov_logo_2025.png/330px-TV_Barrandov_logo_2025.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV Brasil",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/TV_Brasil_logo_2019.svg/330px-TV_Brasil_logo_2019.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV Cultura",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cultura_logo_2013.svg/330px-Cultura_logo_2013.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV Puls",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/TV_Puls_logo.jpg/330px-TV_Puls_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV SLO 1",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Logo_of_TV_SLO_1_HD_%282012-%29.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV SLO 2",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Logo_of_TV_SLO_2_HD_%282012-%29.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV3 Life",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/TV3_Life_Logo_2020.svg/330px-TV3_Life_Logo_2020.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV5 Cambodia",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Logos_of_TV5_Cambodia.png/330px-Logos_of_TV5_Cambodia.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TV9 Telugu",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/TV9TeluguLogo.jpg/330px-TV9TeluguLogo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVA Vicenza",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/TVA_Logo_Ok.png/330px-TVA_Logo_Ok.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVBS-Asia",
+      "url": "https://upload.wikimedia.org/wikipedia/en/e/e9/TVBS_Asia_logo_2017.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVCG MNE",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/TVCG_MNE_Logo_2024.svg/330px-TVCG_MNE_Logo_2024.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVM (Malta)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Tvmi-logo-website.svg/330px-Tvmi-logo-website.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVMax",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Logo_tvmax.png/330px-Logo_tvmax.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVR 1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/TVR_1_Logo_2022.svg/330px-TVR_1_Logo_2022.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVR 2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/TVR_2_Logo_2022.svg/330px-TVR_2_Logo_2022.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVR 3",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/TVR_3_Logo_2022.svg/330px-TVR_3_Logo_2022.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVRI",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/330px-TVRILogo2019.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "TVS Television Network",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Tvs_television_network_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Universal Monsters",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Universal_Classic_Monsters_logo.jpg/330px-Universal_Classic_Monsters_logo.jpg",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Unsolved Mysteries",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Unsolved_Mysteries_%28Cosgrove-Meurer_Productions_and_21_Laps%29_logo.svg/330px-Unsolved_Mysteries_%28Cosgrove-Meurer_Productions_and_21_Laps%29_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "USA TODAY",
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/8/8f/USA_Today_Logo.svg/330px-USA_Today_Logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "UTV (Iraq)",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Utv_logo.png/330px-Utv_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Uvagut TV",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Uvagut_logo.png/330px-Uvagut_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Vasanth TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/b/bf/Vasanth_TV_logo.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Vaya semanita",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Vaya_Semanita_logo.svg/330px-Vaya_Semanita_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Viasat Kino",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Viasat_Kino_Logo_2025.svg/330px-Viasat_Kino_Logo_2025.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Viasat Kino Action",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Viasat_Kino_Action_Logo_2025.svg/330px-Viasat_Kino_Action_Logo_2025.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Vietnam Today",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Vietnam_Television_logo_from_2013.svg/330px-Vietnam_Television_logo_from_2013.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "viju+ Sport",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Viju%2B_Sport_logo.svg/330px-Viju%2B_Sport_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV (Maldives)",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/VTV_Maldives_Logo_2018.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV1",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_VTV1_-_%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_Vi%E1%BB%87t_Nam.svg/330px-Logo_VTV1_-_%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_Vi%E1%BB%87t_Nam.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV10",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/VTV10_logo_2026.png/330px-VTV10_logo_2026.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV2",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Logo_VTV2_-_%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_Vi%E1%BB%87t_Nam.svg/330px-Logo_VTV2_-_%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_Vi%E1%BB%87t_Nam.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV3",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/VTV3_logo_2026.png/330px-VTV3_logo_2026.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV4",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/VTV4_logo_2026.png/330px-VTV4_logo_2026.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV5",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/VTV5_logo_2025.png/330px-VTV5_logo_2025.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV6",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/VTV6_new_logo_2026.webp/330px-VTV6_new_logo_2026.webp",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV7",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/VTV7_logo_2026.png/330px-VTV7_logo_2026.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV8",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/VTV8_logo_2026.png/330px-VTV8_logo_2026.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "VTV9",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/VTV9_logo_2026.png/330px-VTV9_logo_2026.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Wanasah",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Wanasah_logo.png",
+      "country": "AE",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "WDR Fernsehen",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Wdr_fernsehen_logo_2016.svg/330px-Wdr_fernsehen_logo_2016.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Wildfire",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Definition_of_Free_Cultural_Works_logo_notext.svg/330px-Definition_of_Free_Cultural_Works_logo_notext.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Win Sports",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/330px-Win_Sports_nuevo_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "WWE",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/330px-WWE_official_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Yes Network",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/330px-YES_Network_logo.svg.png",
+      "country": "US",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "YTA TV",
+      "url": "https://upload.wikimedia.org/wikipedia/en/1/12/The_Nostalgia_Channel_logo.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ZAZ",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Zaz-logo.svg/330px-Zaz-logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "ZDFneo",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/ARD_2019_logo.svg/330px-ARD_2019_logo.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Zee Bharat",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Zee_Bharat_Logo_2025.svg/330px-Zee_Bharat_Logo_2025.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Zee One",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Zee_One_Logo_2025.png/330px-Zee_One_Logo_2025.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Zee Telugu",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Zee-Telugu-Logo-history.jpg/330px-Zee-Telugu-Logo-history.jpg",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    },
+    {
+      "name": "Ziggo Sport",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ziggo_Sport_logo_2026.svg/330px-Ziggo_Sport_logo_2026.svg.png",
+      "country": "",
+      "kind": "channel",
+      "source": "wikipedia"
+    }
+  ]
+}

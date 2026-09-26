@@ -1,0 +1,51 @@
+name: Update Fallback Artwork
+
+on:
+  schedule:
+    # Weekly. Grade TV grows its catalogue, and Wikipedia artwork changes
+    # slowly, so a weekly refresh is enough to keep coverage improving.
+    - cron: "50 5 * * 4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-logo-fallbacks
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh the K-yzu artwork index
+        run: python scripts/logos/remote_index.py
+
+      - name: Build Grade TV and Wikipedia fallbacks
+        # Wikipedia is queried politely: batched, sequential, with a delay.
+        run: python scripts/logos/enrich_index.py
+
+      - name: Reapply artwork to playlists
+        run: >-
+          python scripts/build/merge_playlists.py
+          && python scripts/logos/apply_logos.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit artwork indexes
+        run: >-
+          python scripts/ci/commit_changes.py 'chore: refresh fallback artwork index' --push
+          --regenerate "python scripts/logos/remote_index.py && python scripts/logos/enrich_index.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
+          data/logo-index.json data/logo-fallbacks.json data/stream-index.json playlists

@@ -162,6 +162,43 @@ it would be far more damaging than the occasional non-English channel slipping
 through. Run `make languages` to refresh the index; the scheduled
 `update-languages` workflow does it weekly.
 
+## Artwork
+
+`data/logo-index.json` is the metadata-only index of the K-yzu/Logos repository
+and is always preferred. Because that repository only covers a few thousand
+US and GB channels, `data/logo-fallbacks.json` fills the gap from two more
+sources, consulted in order: Grade TV's hosted cards, then Wikipedia. Only URLs
+are stored; no artwork is downloaded or committed.
+
+`scripts/logos/enrich_index.py` builds the fallbacks. Wikipedia is queried
+politely as its policy requires: a descriptive User-Agent, titles batched 50
+per request, sequential requests with a delay, and results cached to
+`data/logo-fallbacks.json`. A channel is only matched when the file looks like
+a logo — page furniture such as `Commons-logo.svg` is rejected, and a vector
+lead image is accepted even when the file name omits the word "logo"
+("60-minutes.svg" on the *60 Minutes* article) while a photograph is not.
+
+Channel names are published without any resolution or bitrate marker.
+Advertised quality is kept as data in `quality_height`, which the music filter
+reads, so the filter still works after the name is cleaned.
+
+## Live events
+
+Live-event channels are named after the match they carry, for example
+`[Liga MX] América vs Monterrey`. No EPG in the project covers them: EPGShare
+maps none of them and Grade TV does not carry them. Instead,
+`scripts/events/fixture_schedule.py` resolves the fixture from TheSportsDB, a
+free open schedule API, by parsing the sport from the `[...]` prefix and the
+two teams from the `X vs Y` part. The kickoff time is stored on the record as
+`event_start`, and the `event_filter` block in `data/categories.json` drops the
+channel once the window for its sport has passed — so an event is removed on the
+next scheduled run rather than when its stream happens to time out.
+
+A channel whose fixture cannot be resolved is never removed, because a missing
+fixture is not evidence that the event finished. The schedule API is sparse on
+its free tier and rate limits aggressively, so fetched days are cached and
+matching is deliberately conservative: both team names have to match.
+
 ## Stream selection and health
 
 `scripts/validate/check_streams.py` records status, latency, and consecutive failures for every source stream. The selector considers reachability, source priority, failure history, and response time.
@@ -179,7 +216,9 @@ A single failed check does not remove a stream. Repeated failures mark it degrad
 | `update-iptv-org.yml` | Refresh the iptv-org community index |
 | `update-tvivu.yml` | Extract TVivu HD/FHD music streams |
 | `update-logos.yml` | Refresh the metadata-only K-yzu raw artwork index |
+| `update-logo-fallbacks.yml` | Refresh the Grade TV and Wikipedia artwork fallbacks |
 | `update-languages.yml` | Refresh the per-channel language index and reapply filters |
+| `update-events.yml` | Resolve live-event kickoff times and drop finished events |
 | `update-epg.yml` | Refresh EPGShare XMLTV channel ID mappings |
 | `discover-channels.yml` | Rebuild the canonical channel catalog |
 | `test-streams.yml` | Update stream health with failure hysteresis |

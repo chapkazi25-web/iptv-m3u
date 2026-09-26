@@ -22,21 +22,25 @@ from scripts.lib.catalog import (
     country_codes,
     normalize_name,
     slugify,
+    strip_quality,
 )
 from scripts.lib.m3u import M3UEntry, parse_m3u
 from scripts.lib.pipeline import (
     canonical_category,
+    event_exclusion_reason,
     is_excluded,
     is_excluded_group,
     language_exclusion_reason,
     load_category_config,
     load_exclusions,
+    load_event_filter,
     load_language_filter,
     load_language_index,
     load_name_patterns,
     load_quality_filter,
     load_sources,
     match_name_category,
+    name_quality,
     quality_exclusion_reason,
     write_json,
 )
@@ -252,7 +256,18 @@ def make_record(
     )
     first = ordered[0]
     record = dict(existing.get(first.channel_id, {}))
-    record["name"] = first.name
+    # The advertised resolution is kept as data and stripped from the display
+    # name, so the public playlist never shows "(1080p)" or a trailing "HD".
+    # The best quality across all sources is what the channel can deliver, and
+    # the quality filter reads this field rather than re-parsing the name.
+    heights = [
+        height
+        for height in (name_quality(item.name)[0] for item in ordered)
+        if height is not None
+    ]
+    record["name"] = strip_quality(first.name)
+    record["quality_height"] = max(heights) if heights else None
+    record["not_24_7"] = any(name_quality(item.name)[1] for item in ordered)
     aliases: list[str] = []
     for item in ordered:
         aliases.extend([item.entry.title, item.name])
@@ -382,6 +397,7 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
     language_index = load_language_index(root)
     language_rules = load_language_filter(root)
     quality_rules = load_quality_filter(root)
+    event_rules = load_event_filter(root)
     source_order = {
         source_id: source.priority for source_id, source in load_sources(root).items()
     }
@@ -430,7 +446,8 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
             language_exclusion_reason(
                 channel_id, name, categories, languages, english, language_rules
             )
-            or quality_exclusion_reason(name, categories, quality_rules)
+            or quality_exclusion_reason(record, categories, quality_rules)
+            or event_exclusion_reason(record, event_rules)
             or is_excluded(channel_id, name, categories, exclusion_rules)
         )
         if reason:

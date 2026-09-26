@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="DodomaTV.tz" tvg-name="Dodoma TV" tvg-country="TZ" group-title="entertainment",Dodoma TV
+#EXTINF:-1 tvg-id="DodomaTV.tz" tvg-name="Dodoma TV" tvg-country="TZ" group-title="entertainment" tvg-logo="https://gradetv.net/logos/DodomaTV.tz",Dodoma TV
 https://m3m8.gradetv.net/api/s/DodomaTV.tz%3ASD%3A5752.m3u8
-#EXTINF:-1 tvg-id="IBNTV.tz" tvg-name="IBN TV" tvg-country="TZ" group-title="documentary",IBN TV
+#EXTINF:-1 tvg-id="IBNTV.tz" tvg-name="IBN TV" tvg-country="TZ" group-title="documentary" tvg-logo="https://gradetv.net/logos/IBNTV.tz",IBN TV
 https://m3m8.gradetv.net/api/s/IBNTV.tz%3ASD%3A7531.m3u8
-#EXTINF:-1 tvg-id="IBNTVAfrica.tz" tvg-name="IBN TV Africa" tvg-country="TZ" group-title="documentary",IBN TV Africa
+#EXTINF:-1 tvg-id="IBNTVAfrica.tz" tvg-name="IBN TV Africa" tvg-country="TZ" group-title="documentary" tvg-logo="https://gradetv.net/logos/IBNTVAfrica.tz",IBN TV Africa
 https://m3m8.gradetv.net/api/s/IBNTVAfrica.tz%3ASD%3A7532.m3u8
 #EXTINF:-1 tvg-id="MahaasinTV.tz" tvg-name="Mahaasin TV" tvg-country="TZ" group-title="documentary",Mahaasin TV
 https://m3m8.gradetv.net/api/s/MahaasinTV.tz%3ASD%3A8838.m3u8

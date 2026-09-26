@@ -66,7 +66,11 @@ class QualityFilterTests(unittest.TestCase):
         cls.rules = load_quality_filter(ROOT)
 
     def _reason(self, name, cats):
-        return quality_exclusion_reason(name, cats, self.rules)
+        # The filter reads the resolution stored on the record, because the
+        # display name no longer carries a quality marker.
+        height, not_247 = name_quality(name)
+        record = {"quality_height": height, "not_24_7": not_247}
+        return quality_exclusion_reason(record, cats, self.rules)
 
     def test_high_definition_music_is_dropped(self) -> None:
         for name in ("30A Music (720p)", "360TuneBox (1080p)", "Some Channel (2160p)"):
@@ -84,6 +88,9 @@ class QualityFilterTests(unittest.TestCase):
     def test_rule_only_applies_to_configured_categories(self) -> None:
         # An HD news channel is not affected by the music quality rule.
         self.assertEqual(self._reason("CNN HD (1080p)", ["news"]), "")
+
+    def test_unknown_resolution_is_not_assumed_to_be_hd(self) -> None:
+        self.assertEqual(self._reason("Unlabelled Music", ["music"]), "")
 
     def test_name_quality_parsing(self) -> None:
         self.assertEqual(name_quality("Channel (1080p)"), (1080, False))

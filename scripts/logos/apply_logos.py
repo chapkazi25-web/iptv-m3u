@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Rewrite playlist tvg-logo attributes to public K-yzu raw URLs."""
+"""Rewrite playlist tvg-logo attributes to public artwork URLs.
+
+Three sources are consulted in order: the K-yzu repository, Grade TV's hosted
+cards, then Wikipedia. Only URLs are written; no artwork is downloaded.
+"""
 
 from __future__ import annotations
 
@@ -16,12 +20,13 @@ from scripts.lib.m3u import parse_m3u, write_m3u
 from scripts.lib.pipeline import LogoIndex, load_sources
 
 DEFAULT_INDEX = PROJECT_ROOT / "data/logo-index.json"
+DEFAULT_FALLBACKS = PROJECT_ROOT / "data/logo-fallbacks.json"
 DEFAULT_BASE = "https://raw.githubusercontent.com/K-yzu/Logos/main"
 
 
-def rewrite(root: Path, index_path: Path) -> dict[str, int]:
+def rewrite(root: Path, index_paths: list[Path]) -> dict[str, int]:
     catalog = ChannelCatalog.load(root)
-    logos = LogoIndex.load(index_path, DEFAULT_BASE)
+    logos = LogoIndex.load_many(index_paths, DEFAULT_BASE)
     sources = load_sources(root)
     source_by_playlist = {
         source.playlist.resolve(): (source.source_id, source.default_country)
@@ -56,11 +61,13 @@ def rewrite(root: Path, index_path: Path) -> dict[str, int]:
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=PROJECT_ROOT)
-    parser.add_argument("--index", type=Path, default=DEFAULT_INDEX)
+    parser.add_argument("--index", type=Path, action="append", default=None,
+                        help="artwork index to load; repeatable")
     args = parser.parse_args(argv)
-    result = rewrite(args.root.resolve(), args.index)
+    paths = args.index or [DEFAULT_INDEX, DEFAULT_FALLBACKS]
+    result = rewrite(args.root.resolve(), paths)
     print(
-        f"rewrote {result['files']} playlists: {result['matched']} K-yzu logos matched, "
+        f"rewrote {result['files']} playlists: {result['matched']} logos matched, "
         f"{result['unmatched']} entries left without a logo"
     )
     return 0

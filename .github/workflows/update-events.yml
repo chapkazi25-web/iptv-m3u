@@ -1,0 +1,51 @@
+name: Update Live Events
+
+on:
+  schedule:
+    # Every 3 hours. The fixture schedule is resolved before each build so an
+    # event is dropped shortly after it finishes rather than when its stream
+    # happens to time out.
+    - cron: "25 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generated-artifacts
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve live-event kickoff times
+        # The schedule API rate limits aggressively, so the fetched days are
+        # cached and only the new ones are requested.
+        run: python scripts/events/fixture_schedule.py --days 7
+
+      - name: Drop events that have finished
+        run: >-
+          python scripts/discover/build_catalog.py
+          && python scripts/build/merge_playlists.py
+          && python scripts/logos/apply_logos.py
+
+      - name: Validate playlists
+        run: python scripts/validate/validate_m3u.py
+
+      - name: Commit event state
+        run: >-
+          python scripts/ci/commit_changes.py 'data: expire finished live events' --push
+          --regenerate "python scripts/discover/build_catalog.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
+          data/channels.json data/event-schedule.json data/stream-index.json data/build-report.json playlists

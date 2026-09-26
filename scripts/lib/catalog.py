@@ -22,16 +22,26 @@ QUALITY_SUFFIX_RE = re.compile(
     re.I,
 )
 QUALITY_WORD_RE = re.compile(r"\s+(?:FHD|UHD|HD|SD|4K|HEVC)\s*$", re.I)
+QUALITY_ANY_RE = re.compile(
+    r"\s*\((?:FHD|UHD|HD|SD|4K|HEVC|[1-9][0-9]{2,3}[pi])\)",
+    re.I,
+)
 
 
 def strip_quality(value: str) -> str:
-    """Return the channel name without any advertised quality marker."""
-    text = QUALITY_SUFFIX_RE.sub("", value or "").strip()
-    # Repeat: a name can carry both forms, e.g. "Trace Urban HD (1080p)".
+    """Return the channel name without any advertised quality marker.
+
+    Parenthesised markers are removed wherever they appear, because sources
+    append annotations after them ("9Gem (720p) [Geo-blocked]"). A trailing
+    bare word such as "HD" is removed repeatedly, since a name can carry both
+    forms ("Trace Urban HD (1080p)").
+    """
+    text = QUALITY_ANY_RE.sub("", value or "").strip()
     previous = None
     while previous != text:
         previous = text
         text = QUALITY_WORD_RE.sub("", text).strip()
+    text = re.sub(r"\s{2,}", " ", text)
     return text or (value or "").strip()
 
 

@@ -128,7 +128,7 @@ http://stream.mcquack.net/283/index.m3u8
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="BocaChicaTV.do" tvg-country="DO" group-title="Music",Boca Chica TV (HD)
 https://fox.hostlagarto.com:8081/bocachicatv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="BOKTV.za" tvg-country="ZA" group-title="Music",BOKTV (HD)
+#EXTINF:-1 tvg-id="BOKTV.za" tvg-country="ZA" group-title="Music" tvg-logo="https://gradetv.net/logos/BOKTV.za",BOKTV (HD)
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
 #EXTINF:-1 tvg-id="BonaoTV.do" tvg-country="DO" group-title="Music",Bonao TV (HD)
 https://tele-stream.telecasa.net/live/st2/bonaotv-hd/index.m3u8
@@ -184,7 +184,7 @@ https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
 https://oracle.streaminghd.cl:443/ciudadanoradiotv/ciudadanoradiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="ClassicMusic.ru" tvg-country="RU" group-title="Music",Classic Music (FHD)
 http://str2.iptvhd.ru:8080/c-music/index.m3u8
-#EXTINF:-1 tvg-id="ClubbingTV.us" tvg-country="US" group-title="Music",Clubbing TV (HD)
+#EXTINF:-1 tvg-id="ClubbingTV.us" tvg-country="US" group-title="Music" tvg-logo="https://gradetv.net/logos/ClubbingTV.us",Clubbing TV (HD)
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="CMC-USACountryMusicChannel.us" tvg-country="US" group-title="Music",CMC-USA Country Music Channel (HD)
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
@@ -630,7 +630,7 @@ https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
 https://cdn.pishow.tv/ott/live/449/master.m3u8
 #EXTINF:-1 tvg-id="PTCMusic.in" tvg-country="IN" group-title="Music",PTC Music (HD)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
-#EXTINF:-1 tvg-id="PublicMusic.in" tvg-country="IN" group-title="Music",Public Music (HD)
+#EXTINF:-1 tvg-id="PublicMusic.in" tvg-country="IN" group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/35/Public_Music_Kannada_Channel_Logo.jpg",Public Music (HD)
 https://cdn.pishow.tv/ott/live/441/master.m3u8
 #EXTINF:-1 tvg-id="Pulse95Radio.ae" tvg-country="AE" group-title="Music",Pulse95 Radio (FHD)
 https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8
@@ -1095,7 +1095,7 @@ https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19171/index.m3u8
 #EXTINF:-1 tvg-id="WaarTV.iq" tvg-country="IQ" group-title="Music",Waar TV (FHD)
 https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8
-#EXTINF:-1 tvg-id="Wanasah.ae" tvg-country="AE" group-title="Music",Wanasah (FHD)
+#EXTINF:-1 tvg-id="Wanasah.ae" tvg-country="AE" group-title="Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Wanasah_logo.png",Wanasah (FHD)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8
 #EXTINF:-1 tvg-id="WapTV.ng" tvg-country="NG" group-title="Music",Wap TV (HD)
 https://newproxy3.vidivu.tv/waptv/index.m3u8
