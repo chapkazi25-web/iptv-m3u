@@ -13,6 +13,7 @@ from pathlib import Path
 from typing import Any
 
 from .catalog import normalize_name
+from .geo import record_countries, region_base_name
 from .m3u import M3UEntry
 
 QUALITY_RANK = {"SD": 0, "HD": 720, "FHD": 1080, "UHD": 2160, "4K": 2160}
@@ -160,6 +161,174 @@ def load_event_filter(root: str | Path = ".") -> dict[str, Any]:
         "durations": {str(key): float(value) for key, value in (config.get("durations") or {}).items()},
         "default_duration": float(config.get("default_duration", 2.5)),
     }
+
+
+# --------------------------------------------------------------- geography
+
+def load_country_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("country_filter", {})
+    return {
+        "allow": {str(value).upper() for value in config.get("allow", [])},
+        "unknown": str(config.get("unknown", "keep")).lower(),
+        "except_categories": {str(value) for value in config.get("except_categories", [])},
+        "except_brands": [str(value).lower() for value in config.get("except_brands", [])],
+    }
+
+
+def _mentions_brand(name: str, brands: list[str]) -> bool:
+    lowered = f" {(name or '').lower()} "
+    return any(f" {brand} " in lowered for brand in brands)
+
+
+def country_exclusion_reason(
+    name: str,
+    categories: list[str],
+    record: dict[str, Any],
+    rules: dict[str, Any],
+) -> str:
+    """Return why a channel fails the country filter, or '' to keep it.
+
+    A brand that publishes one worldwide feed under a single name is excepted,
+    because beIN Sports, Trace, Xite and Vevo have no country of their own and
+    an allow list would otherwise empty the whole category.
+    """
+    if _mentions_brand(name, rules["except_brands"]):
+        return ""
+    if set(categories) & rules["except_categories"]:
+        return ""
+    countries = record_countries(record)
+    if not countries:
+        return "country:unknown" if rules["unknown"] == "drop" else ""
+    if countries & rules["allow"]:
+        return ""
+    return "country:" + ",".join(sorted(countries))
+
+
+def load_region_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("region_filter", {})
+    return {"words": [str(value) for value in config.get("words", [])]}
+
+
+def region_duplicates(
+    records: dict[str, dict[str, Any]],
+    published: set[str],
+    rules: dict[str, Any],
+) -> dict[str, str]:
+    """Map every region variant to the record that should be published.
+
+    Only records that already survive every other filter take part, so a
+    duplicate is never named as the winner of a group that would itself be
+    dropped. A variant is folded in only when the unqualified name is a
+    channel in its own right, which is what keeps the Trace music channels
+    apart while collapsing the fifteen Angel TV feeds into one.
+    """
+    by_name: dict[str, list[str]] = defaultdict(list)
+    for channel_id in published:
+        by_name[normalize_name(records[channel_id].get("name", ""))].append(channel_id)
+
+    duplicates: dict[str, str] = {}
+    for channel_id in sorted(published):
+        name = str(records[channel_id].get("name", ""))
+        base = region_base_name(name, rules["words"])
+        if base == name:
+            continue
+        candidates = [
+            other
+            for other in by_name.get(normalize_name(base), [])
+            if other != channel_id
+        ]
+        if not candidates:
+            continue
+        winner = min(
+            candidates,
+            key=lambda other: (
+                region_base_name(str(records[other].get("name", "")), rules["words"])
+                != str(records[other].get("name", "")),
+                0 if record_countries(records[other]) else 1,
+                other,
+            ),
+        )
+        duplicates[channel_id] = winner
+    return duplicates
+
+
+def load_local_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("local_filter", {})
+    return {
+        "call_sign_countries": {
+            str(value).upper() for value in config.get("call_sign_countries", [])
+        },
+        "name_patterns": [
+            re.compile(str(pattern), re.I) for pattern in config.get("name_patterns", [])
+        ],
+        "call_signs": [
+            re.compile(str(pattern)) for pattern in config.get("call_sign_patterns", [])
+        ],
+        "case_sensitive_name_patterns": [
+            re.compile(str(pattern))
+            for pattern in config.get("case_sensitive_name_patterns", [])
+        ],
+        "references": [
+            re.compile(str(pattern), re.I)
+            for pattern in config.get("reference_patterns", [])
+        ],
+    }
+
+
+def local_exclusion_reason(name: str, record: dict[str, Any], rules: dict[str, Any]) -> str:
+    """Return why a channel is a local station, or '' to keep it.
+
+    The patterns are deliberately case sensitive. A local station is named after
+    the affiliate it carries, so matching case insensitively would also take out
+    channels that merely start with K or W ("Terra Mater WILD"), and a state
+    abbreviation would swallow the Bolivian football club "SA Bulo Bulo". A call
+    sign is only read as one in the country that issues call signs.
+    """
+    for pattern in rules["name_patterns"]:
+        if pattern.search(name or ""):
+            return "local"
+    if record_countries(record) & rules["call_sign_countries"]:
+        for pattern in rules["call_signs"]:
+            if pattern.search(name or ""):
+                return "local"
+    for pattern in rules["case_sensitive_name_patterns"]:
+        if pattern.search(name or ""):
+            return "local"
+    references = record.get("source_refs")
+    if isinstance(references, dict):
+        for values in references.values():
+            for value in values if isinstance(values, list) else []:
+                if any(pattern.search(str(value)) for pattern in rules["references"]):
+                    return "local"
+    return ""
+
+
+def load_radio_filter(root: str | Path = ".") -> dict[str, Any]:
+    config = load_json(Path(root) / "data/categories.json").get("radio_filter", {})
+    return {
+        "categories": {str(value) for value in config.get("categories", [])},
+        "name_patterns": [
+            re.compile(str(pattern), re.I) for pattern in config.get("name_patterns", [])
+        ],
+        "case_sensitive_name_patterns": [
+            re.compile(str(pattern))
+            for pattern in config.get("case_sensitive_name_patterns", [])
+        ],
+    }
+
+
+def radio_exclusion_reason(
+    name: str,
+    categories: list[str],
+    rules: dict[str, Any],
+) -> str:
+    """Return why a music category entry is a radio station, or '' to keep it."""
+    if not (set(categories) & rules["categories"]):
+        return ""
+    for pattern in (*rules["name_patterns"], *rules["case_sensitive_name_patterns"]):
+        if pattern.search(name or ""):
+            return "radio"
+    return ""
 
 
 def event_exclusion_reason(

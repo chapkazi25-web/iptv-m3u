@@ -16,6 +16,7 @@ if __package__ in {None, ""}:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.lib.catalog import ChannelCatalog, country_codes
+from scripts.lib.geo import record_countries
 from scripts.lib.m3u import M3UEntry, parse_m3u, write_m3u
 from scripts.lib.pipeline import (
     HealthStore,
@@ -58,6 +59,20 @@ class Candidate:
         }
 
 
+def entry_country(record: dict[str, Any], candidate: Candidate) -> str:
+    """Return the country to publish, or '' when it is genuinely unknown.
+
+    The selected stream's own value wins, because it describes the feed that is
+    actually linked. Failing that the channel's resolved geography is used: the
+    country filter only publishes a channel once its country is known, so
+    reading it back here is what gives every entry a flag.
+    """
+    if candidate.country:
+        return candidate.country
+    countries = sorted(country_codes(record) | record_countries(record))
+    return countries[0] if len(countries) == 1 else ""
+
+
 def output_entry(
     record: dict[str, Any],
     candidate: Candidate,
@@ -65,8 +80,7 @@ def output_entry(
     logo: str,
     category: str,
 ) -> M3UEntry:
-    countries = sorted(country_codes(record))
-    country = candidate.country or (countries[0] if len(countries) == 1 else "")
+    country = entry_country(record, candidate)
     attrs = {
         "tvg-chno": str(number),
         "tvg-id": str(record.get("epg_id") or candidate.channel_id),
@@ -182,8 +196,7 @@ def build(root: Path, *, strict: bool = True) -> dict[str, Any]:
         selected_candidates[channel_id] = selected
         selected_categories[channel_id] = primary_category
 
-        countries = sorted(country_codes(record))
-        selected_country = selected.country or (countries[0] if len(countries) == 1 else "")
+        selected_country = entry_country(record, selected)
         selected_countries[channel_id] = selected_country
         index_channels[channel_id] = {
             "name": record["name"],

@@ -30,18 +30,26 @@ from scripts.lib.pipeline import (
     event_exclusion_reason,
     is_excluded,
     is_excluded_group,
+    country_exclusion_reason,
     language_exclusion_reason,
     load_category_config,
+    load_country_filter,
     load_exclusions,
     load_event_filter,
     load_language_filter,
     load_language_index,
+    load_local_filter,
     load_name_patterns,
     load_quality_filter,
+    load_radio_filter,
+    load_region_filter,
     load_sources,
+    local_exclusion_reason,
     match_name_category,
     name_quality,
     quality_exclusion_reason,
+    radio_exclusion_reason,
+    region_duplicates,
     write_json,
 )
 
@@ -397,6 +405,10 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
     language_index = load_language_index(root)
     language_rules = load_language_filter(root)
     quality_rules = load_quality_filter(root)
+    country_rules = load_country_filter(root)
+    region_rules = load_region_filter(root)
+    local_rules = load_local_filter(root)
+    radio_rules = load_radio_filter(root)
     event_rules = load_event_filter(root)
     source_order = {
         source_id: source.priority for source_id, source in load_sources(root).items()
@@ -431,7 +443,10 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
 
     # Excluded channels stay in the catalog as disabled records so their
     # identity and source references survive a rebuild, but they are never
-    # published to the public playlist.
+    # published to the public playlist. Region variants are resolved last: a
+    # variant is only ever folded into a record that survived everything else,
+    # so the entry kept for a group is always one the playlist will carry.
+    reasons: dict[str, str] = {}
     for channel_id, record in records.items():
         if record.get("manual") is True:
             continue
@@ -441,15 +456,26 @@ def build_catalog(root: Path, *, verbose: bool = True) -> dict[str, Any]:
         if languages:
             record["languages"] = languages
         record["english"] = english
-
-        reason = (
+        reasons[channel_id] = (
             language_exclusion_reason(
                 channel_id, name, categories, languages, english, language_rules
             )
             or quality_exclusion_reason(record, categories, quality_rules)
+            or radio_exclusion_reason(name, categories, radio_rules)
             or event_exclusion_reason(record, event_rules)
             or is_excluded(channel_id, name, categories, exclusion_rules)
+            or local_exclusion_reason(name, record, local_rules)
+            or country_exclusion_reason(name, categories, record, country_rules)
         )
+
+    published = {channel_id for channel_id, reason in reasons.items() if not reason}
+    for channel_id, winner in region_duplicates(records, published, region_rules).items():
+        reasons[channel_id] = f"duplicate-of:{winner}"
+
+    for channel_id, record in records.items():
+        if record.get("manual") is True:
+            continue
+        reason = reasons.get(channel_id, "")
         if reason:
             record["enabled"] = False
             record["excluded_by"] = reason

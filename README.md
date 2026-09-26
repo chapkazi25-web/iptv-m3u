@@ -121,8 +121,9 @@ rather than the first one listed. The curated channel list lives in
 ## Categories
 
 `data/categories.json` is the single source of truth. Live events are split
-into `soccer`, `nfl`, `nba` and `ufc`, and sports broadcasters get their own
-groups: `sky-sports`, `tsn`, `tnt-sports`, `stan-sports` and `bein-sports`.
+into `soccer`, `nfl`, `nba` and `ufc`, sports broadcasters get their own
+groups: `sky-sports`, `tsn`, `tnt-sports`, `stan-sports` and `bein-sports`,
+and the Tanzanian national channels are collected under `tanzania`.
 
 Because broadcasters publish their channels under a generic `Sports` group,
 categories are matched on the channel name first (`name_patterns`) and only
@@ -134,7 +135,8 @@ category, or an explicit ID are kept in the catalog as disabled records — they
 keep their identity and source references across rebuilds but never reach the
 public playlist. `group_patterns` drops a whole source group before catalog
 resolution, which is how the unwanted live-event groups (baseball, hockey,
-racing, tennis, other events) are removed.
+racing, tennis, other events) are removed. The group pattern for `Local News`
+is what removes Pluto's city-level news feeds.
 
 ## Language filtering
 
@@ -161,6 +163,57 @@ Grade TV adds language data. Deleting a channel because no data was found for
 it would be far more damaging than the occasional non-English channel slipping
 through. Run `make languages` to refresh the index; the scheduled
 `update-languages` workflow does it weekly.
+
+## Geography
+
+The catalog carries almost no `tvg-country` data, so `scripts/lib/geo.py`
+recovers a channel's geography from the places sources do record it:
+
+- the `tvg-country` attribute, when a source publishes one;
+- the source id, because iptv-org encodes it as `Name.CC.variant`
+  (`PlutoTVParanormal.de.ES`, where the segment before the last one is the
+  channel's country and the last one is the audience) while Grade TV and TVivu
+  use the shorter `Name.CC` (`DodomaTV.tz`);
+- the display name, when it carries a country in brackets
+  (`Pluto TV Paranormal (Germany)`).
+
+A segment only counts as a country when it is a real ISO 3166-1 code, which is
+what keeps `HD`, `SD` and a channel's own name (`DodomaTV` is not `DO`) out of
+the result. That resolves a country for all but two records in the catalog, and
+`playlists/all.m3u` publishes it as `tvg-country` as well.
+
+`country_filter` then keeps only Canada, the United States, the United Kingdom,
+New Zealand and Australia. Two groups are excepted: brands that publish a
+worldwide feed under one name — beIN Sports, Trace, Xite and Vevo — and the
+`Tanzania` category. Unlike the language filter, an unknown country is
+**dropped**: a feed with no geography at all is nearly always a regional stream
+that is dead outside its own market, which is the opposite of the case for an
+unknown *language*. A channel that resolves to at least one allowed country
+survives even when it also resolves to others, so a US and French feed of the
+same channel stays.
+
+`region_filter` collapses the same feed published once per region. A record is
+only ever folded into a record that already exists under the unqualified name,
+which is what collapses the fifteen `Angel TV` feeds into one entry and the
+`Pluto TV Paranormal` region feeds into a single one, while leaving `Trace
+Africa` and `Trace Naija` alone — they share a brand, not a channel. Folding
+happens after every other filter, so the entry kept for a group is always one
+the playlist will actually carry.
+
+`local_filter` removes the affiliate feeds that are useless to a list read from
+more than one place: US call signs (`ABC KATC`, `CBS KCCI`), the Australian
+state suffix a broadcaster appends to its regional feed (`ABC TV NT`), municipal
+and community-access channels (`City of Fort Pierce`, `Kern County TV`,
+`CAN TV19`), and a source id ending in `locals`. A call sign is only read as one
+in the country that issues call signs, so `Terra Mater WILD` and `TV-WEST` stay
+ordinary channels and are left to the country filter.
+
+`radio_filter` keeps audio-only stations out of the `music` category, which is
+for music video. Its `FM` and `AM` patterns are case sensitive so that the
+English word in a title such as *I Am Famous* is not read as an AM station.
+
+Geo-blocked and not-24/7 feeds are ordinary `exclude` name patterns, so they
+are removed in every category rather than only in music.
 
 ## Artwork
 

@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "default": "entertainment",
   "categories": {
     "news": {
@@ -74,6 +74,11 @@
     "documentary": {
       "name": "Documentary & Reality",
       "aliases": ["documentary", "documentary & reality", "animals + nature", "history + science", "science + nature", "home + food", "cooking", "travel", "outdoor", "lifestyle", "religious", "science"]
+    },
+    "tanzania": {
+      "name": "Tanzania",
+      "aliases": ["tanzania"],
+      "name_patterns": ["^\\s*TBC(?:\\s*\\d+|N)?\\s*$", "\\bDodoma\\b", "\\bIBN\\s*TV\\b", "\\bMahaasin\\b", "^Tanzania\\b"]
     }
   },
   "language_filter": {
@@ -102,6 +107,49 @@
     "max_height": 719,
     "require_247": true
   },
+  "country_filter": {
+    "comment": "The list is meant to be watchable, so only channels published for Canada, the United States, the United Kingdom, New Zealand and Australia are listed. A country is read from tvg-country first, then from the source id, because iptv-org encodes it as Name.CC.variant (PlutoTVParanormal.de.ES) while Grade TV and TVivu use Name.CC (DodomaTV.tz), and finally from a country name in the display name (Pluto TV Paranormal (Germany)). An unknown country is dropped: a feed with no geography at all is nearly always a regional stream that is dead outside its own market. Brands that publish one worldwide feed under a single name, and the Tanzania category, are excepted.",
+    "allow": ["CA", "US", "GB", "NZ", "AU"],
+    "unknown": "drop",
+    "except_categories": ["tanzania"],
+    "except_brands": ["bein", "trace", "xite", "vevo"]
+  },
+  "region_filter": {
+    "comment": "One channel is published under one name, so the same feed repeated once per region is collapsed to a single entry. A record is only ever folded into a record that already exists under the unqualified name, which is what keeps 'Trace Africa' and 'Trace Naija' apart while collapsing 'Angel TV Arabia' into 'Angel TV'. The winner is the unqualified name, then a record from an allowed country, then the lowest id. The bare words below are the region and language qualifiers sources append; a country in brackets and a trailing country code are recognised without being listed here.",
+    "words": [
+      "africa", "america", "arabia", "arabic", "asia", "australia", "balkans",
+      "brazil", "britain", "china", "chinese", "croatia", "cyprus", "czech",
+      "denmark", "dutch", "england", "europe", "fareast", "far east", "finnish",
+      "france", "germany", "greek", "hebrew", "hindi", "india", "indo china",
+      "indonesia", "ireland", "italian", "italy", "japan", "japanese", "korea",
+      "latin", "mexico", "netherlands", "norway", "poland", "portugal",
+      "portuguese", "romania", "russia", "russian", "scandinavia", "scotland",
+      "serbia", "spain", "spanish", "sweden", "swiss", "turkey", "turkiye",
+      "ukraine", "vietnam", "wales"
+    ]
+  },
+  "local_filter": {
+    "comment": "A local station is the affiliate feed of one city or one region, or a municipal and community-access channel, so it is of no use to a list shared between viewers in different places. Every pattern here is matched case sensitively: case insensitively a call sign would swallow ordinary words such as 'Warner' and 'West', and the state suffix is anchored to the end of the name so a leading 'SA' still reads as the Bolivian football club SA Bulo Bulo. A call sign is only read as one for a channel published for a country that uses them: a KQSL is a US station even where iptv-org files it under Canada, while 'Terra Mater WILD' and 'TV-WEST' are not stations at all. A source id ending in 'locals' marks the same kind of station even when the display name carries no call sign.",
+    "call_sign_countries": ["US", "CA"],
+    "name_patterns": [
+      "\\bcity\\s+of\\b",
+      "\\bcounty\\b",
+      "\\bgovernment\\b",
+      "\\bcommunity\\s+access\\b",
+      "\\bcan\\s*tv\\s*\\d",
+      "\\bkey\\s+west\\b",
+      "\\bflorida\\s+keys\\b"
+    ],
+    "call_sign_patterns": ["\\b[KW][A-Z]{3}(?:-(?:TV|DT|LD))?\\b"],
+    "case_sensitive_name_patterns": ["(?:^|\\s)(?:NSW|QLD|TAS|VIC|WA|ACT|NT|SA)\\s*$"],
+    "reference_patterns": ["(?:^|[._])locals?\\d*\\b"]
+  },
+  "radio_filter": {
+    "comment": "The music category is for music video channels, so a station that broadcasts audio only is dropped instead of being republished as an ordinary channel. The case-sensitive patterns catch the conventional upper-case station suffix; a case-insensitive 'am' would match the English word in a title.",
+    "categories": ["music"],
+    "name_patterns": ["\\bradio\\b", "\\b\\d{2,3}(?:[.,]\\d)?\\s*fm\\b"],
+    "case_sensitive_name_patterns": ["\\bFM\\b", "\\bAM\\b"]
+  },
   "event_filter": {
     "comment": "Live-event channels are named after the match they carry. scripts/events/fixture_schedule.py resolves the kickoff time from TheSportsDB and stores it as event_start, and a channel is dropped once its fixture window has passed. A channel with no resolved kickoff is never removed, because a missing fixture is not evidence that the event finished.",
     "enabled": true,
@@ -122,9 +170,12 @@
       "^live\\s*-\\s*hockey$",
       "^live\\s*-\\s*racing$",
       "^live\\s*-\\s*tennis$",
-      "^live\\s*-\\s*other\\s*events$"
+      "^live\\s*-\\s*other\\s*events$",
+      "^local\\s*news$"
     ],
     "name_patterns": [
+      "\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]",
+      "\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]",
       "\\bweather\\w*",
       "\\baccuweather\\b",
       "\\bmeteo\\b",
@@ -172,7 +223,14 @@
       "\\bkansas\\s+city\\b",
       "\\btampa\\b",
       "\\borlando\\b",
-      "\\bcharlotte\\b"
+      "\\bcharlotte\\b",
+      "\\blittleton\\b",
+      "\\bcerritos\\b",
+      "\\bphilly\\b",
+      "\\bsacramento\\b",
+      "\\bbay\\s+area\\b",
+      "\\bminnesota\\b",
+      "\\bcbs\\s+news\\s+colorado\\b"
     ],
     "channels": [
       "fox-business",

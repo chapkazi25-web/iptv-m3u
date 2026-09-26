@@ -56,9 +56,29 @@ class CategoryNameRuleTests(unittest.TestCase):
                 self.assertEqual(match_name_category(name, self.patterns), expected)
 
     def test_unrelated_channels_are_not_recategorized(self) -> None:
-        for name in ("CNN", "Trace Mziki", "Dodoma TV", "TBC1"):
+        for name in ("CNN", "Trace Mziki", "Sky News"):
             with self.subTest(name=name):
                 self.assertEqual(match_name_category(name, self.patterns), "")
+
+    def test_tanzanian_channels_get_their_own_category(self) -> None:
+        cases = {
+            "TBC1": "tanzania",
+            "TBC2": "tanzania",
+            "TBCN": "tanzania",
+            "Dodoma TV": "tanzania",
+            "IBN TV": "tanzania",
+            "Mahaasin TV": "tanzania",
+            "Tanzania Safari Channel": "tanzania",
+        }
+        for name, expected in cases.items():
+            with self.subTest(name=name):
+                self.assertEqual(match_name_category(name, self.patterns), expected)
+
+    def test_a_tournament_name_is_not_treated_as_tanzanian(self) -> None:
+        # "[Clasificacion] Tanzania vs Guinea-Bissau" names the country but is
+        # a football event, not a Tanzanian channel.
+        name = "[Clasificación para la Copa Africana de Naciones] Tanzania vs Guinea-Bissau | BeIN Sports Ñ"
+        self.assertNotEqual(match_name_category(name, self.patterns), "tanzania")
 
     def test_brand_rules_win_over_generic_sport_names(self) -> None:
         # "Sky Sports Cricket" is both a Sky channel and a sport; the brand
@@ -112,6 +132,17 @@ class ExclusionRuleTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.rules = load_exclusions(ROOT)
 
+    def test_geo_blocked_and_not_24_7_channels_are_excluded(self) -> None:
+        cases = {
+            "9Gem [Geo-blocked]": "entertainment",
+            "arte (Germany) [Geo-Blocked]": "documentary",
+            "100% Auto Moto TV (406p) [Not 24/7]": "entertainment",
+            "Q'hubo TV [Not 24/7]": "news",
+        }
+        for name, category in cases.items():
+            with self.subTest(name=name):
+                self.assertTrue(is_excluded("some-id", name, [category], self.rules))
+
     def test_weather_channels_are_excluded(self) -> None:
         for name in ("The Weather Channel", "WeatherSpy (India)", "Fox Weather", "AccuWeather NOW"):
             with self.subTest(name=name):
@@ -132,6 +163,23 @@ class ExclusionRuleTests(unittest.TestCase):
 
     def test_regional_category_channels_are_excluded(self) -> None:
         self.assertTrue(is_excluded("some-id", "Local Channel", ["regional"], self.rules))
+
+    def test_local_market_news_channels_are_excluded(self) -> None:
+        for name in (
+            "CBS News Bay Area",
+            "CBS News Colorado",
+            "CBS News Minnesota",
+            "CBS News Philly",
+            "CBS News Sacramento",
+            "Access Sacramento Channel 17",
+        ):
+            with self.subTest(name=name):
+                self.assertTrue(is_excluded("some-id", name, ["news"], self.rules))
+
+    def test_national_news_channels_survive(self) -> None:
+        for name in ("CBS News 24/7", "ABC News Live", "ABC News Live 7", "NBC News NOW", "BBC News"):
+            with self.subTest(name=name):
+                self.assertFalse(is_excluded("some-id", name, ["news"], self.rules))
 
     def test_ordinary_channels_survive(self) -> None:
         for name, cats in (("CNN", ["news"]), ("Trace Naija", ["music"]), ("Sky News", ["news"])):
