@@ -27924,7 +27924,7 @@
           "Bandamax.mx.SD"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Bandamax.png",
       "enabled": false,
       "english": null,
       "excluded_by": "quality:1080p"
@@ -105463,7 +105463,7 @@
           "HBODrama.us.East"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/HBO%20Drama.png",
       "enabled": true,
       "english": null
     },
