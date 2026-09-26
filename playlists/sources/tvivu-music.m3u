@@ -1,1159 +1,1159 @@
 #EXTM3U x-tvg-url=""
-#EXTINF:-1 tvg-id="13Festival.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/13%20Festival.png" tvg-country="CL" group-title="Music",13 Festival (FHD)
+#EXTINF:-1 tvg-id="13Festival.cl" tvg-country="CL" group-title="Music",13 Festival (FHD)
 https://origin.dpsgo.com/ssai/event/Nftd0fM2SXasfDlRphvUsg/master.m3u8
-#EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/1HD%20Music%20Television.png" tvg-country="RU" group-title="Music",1HD Music Television (FHD)
+#EXTINF:-1 tvg-id="1HDMusicTelevision.ru" tvg-country="RU" group-title="Music",1HD Music Television (FHD)
 https://stream8.cinerama.uz/1267/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="30AMusic.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/30A%20Music.png" tvg-country="US" group-title="Music",30A Music (HD)
+#EXTINF:-1 tvg-id="30AMusic.us" tvg-country="US" group-title="Music",30A Music (HD)
 https://30a-tv.com/music.m3u8
-#EXTINF:-1 tvg-id="360TuneBox.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/360TuneBox.png" tvg-country="NL" group-title="Music",360TuneBox (FHD)
+#EXTINF:-1 tvg-id="360TuneBox.nl" tvg-country="NL" group-title="Music",360TuneBox (FHD)
 https://dash3.antik.sk/live/test_360_tunebox_medium_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="4everMusic.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/4ever%20Music.png" tvg-country="UA" group-title="Music",4ever Music (FHD)
+#EXTINF:-1 tvg-id="4everMusic.ua" tvg-country="UA" group-title="Music",4ever Music (FHD)
 http://stream.mcquack.net/257/index.m3u8
-#EXTINF:-1 tvg-id="98.1PearlFM.sx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/98.1%20Pearl%20FM.png" tvg-country="SX" group-title="Music",98.1 Pearl FM (HD)
+#EXTINF:-1 tvg-id="98.1PearlFM.sx" tvg-country="SX" group-title="Music",98.1 Pearl FM (HD)
 https://live2.tensila.com/pearl-v-1.pearlfm/hls/live/mystream.m3u8
-#EXTINF:-1 tvg-id="9XJalwa.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/9X%20Jalwa.png" tvg-country="IN" group-title="Music",9X Jalwa (FHD)
+#EXTINF:-1 tvg-id="9XJalwa.in" tvg-country="IN" group-title="Music",9X Jalwa (FHD)
 https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
-#EXTINF:-1 tvg-id="9XTashan.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/9X%20Tashan.png" tvg-country="IN" group-title="Music",9X Tashan (FHD)
+#EXTINF:-1 tvg-id="9XTashan.in" tvg-country="IN" group-title="Music",9X Tashan (FHD)
 https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
-#EXTINF:-1 tvg-id="A2iMusic.sn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/A2i%20Music.png" tvg-country="SN" group-title="Music",A2i Music (HD)
+#EXTINF:-1 tvg-id="A2iMusic.sn" tvg-country="SN" group-title="Music",A2i Music (HD)
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="ActivaTV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Activa%20TV.png" tvg-country="ES" group-title="Music",Activa TV (HD)
+#EXTINF:-1 tvg-id="ActivaTV.es" tvg-country="ES" group-title="Music",Activa TV (HD)
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
-#EXTINF:-1 tvg-id="AERadioTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AE%20Radio%20TV.png" tvg-country="CL" group-title="Music",AE Radio TV (HD)
+#EXTINF:-1 tvg-id="AERadioTV.cl" tvg-country="CL" group-title="Music",AE Radio TV (HD)
 https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Afrobeat%20TV%20Entertainment.png" tvg-country="UK" group-title="Music",Afrobeat TV Entertainment (FHD)
+#EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk" tvg-country="UK" group-title="Music",Afrobeat TV Entertainment (FHD)
 https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 tvg-id="AfroturkTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Afroturk%20TV.png" tvg-country="TR" group-title="Music",Afroturk TV (FHD)
+#EXTINF:-1 tvg-id="AfroturkTV.tr" tvg-country="TR" group-title="Music",Afroturk TV (FHD)
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
-#EXTINF:-1 tvg-id="AghaniAghaniTV.lb" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Aghani%20Aghani%20TV.png" tvg-country="LB" group-title="Music",Aghani Aghani TV (FHD)
+#EXTINF:-1 tvg-id="AghaniAghaniTV.lb" tvg-country="LB" group-title="Music",Aghani Aghani TV (FHD)
 https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
-#EXTINF:-1 tvg-id="AIONTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AION%20TV.png" tvg-country="DO" group-title="Music",AION TV (FHD)
+#EXTINF:-1 tvg-id="AIONTV.do" tvg-country="DO" group-title="Music",AION TV (FHD)
 https://edge.essastream.com/aiontelevision/playlist.m3u8
-#EXTINF:-1 tvg-id="AiquilenaRadioyTelevision.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Aiquilena%20Radio%20y%20Television.png" tvg-country="BO" group-title="Music",Aiquilena Radio y Television (HD)
+#EXTINF:-1 tvg-id="AiquilenaRadioyTelevision.bo" tvg-country="BO" group-title="Music",Aiquilena Radio y Television (HD)
 https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8
-#EXTINF:-1 tvg-id="AISTTV.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AIST%20TV.png" tvg-country="RU" group-title="Music",AIST TV (FHD)
+#EXTINF:-1 tvg-id="AISTTV.ru" tvg-country="RU" group-title="Music",AIST TV (FHD)
 http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="AksuTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Aksu%20TV.png" tvg-country="TR" group-title="Music",Aksu TV (HD)
+#EXTINF:-1 tvg-id="AksuTV.tr" tvg-country="TR" group-title="Music",Aksu TV (HD)
 https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlanyaPostaTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Alanya%20Posta%20TV.png" tvg-country="TR" group-title="Music",Alanya Posta TV (FHD)
+#EXTINF:-1 tvg-id="AlanyaPostaTV.tr" tvg-country="TR" group-title="Music",Alanya Posta TV (FHD)
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlbdreamsTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Albdreams%20TV.png" tvg-country="US" group-title="Music",Albdreams TV (HD)
+#EXTINF:-1 tvg-id="AlbdreamsTV.us" tvg-country="US" group-title="Music",Albdreams TV (HD)
 http://live.albavision.net:1123/live/albdreams.m3u8
-#EXTINF:-1 tvg-id="AlbKanaleMusicTV.al" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AlbKanale%20Music%20TV.png" tvg-country="AL" group-title="Music",AlbKanale Music TV (HD)
+#EXTINF:-1 tvg-id="AlbKanaleMusicTV.al" tvg-country="AL" group-title="Music",AlbKanale Music TV (HD)
 https://albportal.net/albkanalemusic.m3u8
-#EXTINF:-1 tvg-id="AlbUKTV.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Alb%20UK%20TV.png" tvg-country="UK" group-title="Music",Alb UK TV (FHD)
+#EXTINF:-1 tvg-id="AlbUKTV.uk" tvg-country="UK" group-title="Music",Alb UK TV (FHD)
 http://albuk.dyndns.tv:1935/albuk/albuk.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="AlegriaTV.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Alegria%20TV.png" tvg-country="BO" group-title="Music",Alegria TV (HD)
+#EXTINF:-1 tvg-id="AlegriaTV.bo" tvg-country="BO" group-title="Music",Alegria TV (HD)
 https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8
-#EXTINF:-1 tvg-id="AlexBerlin.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Alex%20Berlin.png" tvg-country="DE" group-title="Music",Alex Berlin (FHD)
+#EXTINF:-1 tvg-id="AlexBerlin.de" tvg-country="DE" group-title="Music",Alex Berlin (FHD)
 https://alex-stream.rosebud-media.de/bounce/alexlivetv50.smil/index.m3u8
-#EXTINF:-1 tvg-id="AlIraqiaKurdish.iq" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Al%20Iraqia%20Kurdish.png" tvg-country="IQ" group-title="Music",Al Iraqia Kurdish (HD)
+#EXTINF:-1 tvg-id="AlIraqiaKurdish.iq" tvg-country="IQ" group-title="Music",Al Iraqia Kurdish (HD)
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
-#EXTINF:-1 tvg-id="AlQamarTV.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Al%20Qamar%20TV.png" tvg-country="AE" group-title="Music",Al Qamar TV (FHD)
+#EXTINF:-1 tvg-id="AlQamarTV.ae" tvg-country="AE" group-title="Music",Al Qamar TV (FHD)
 https://streamer3.premio.link/alqamar/playlist.m3u8
-#EXTINF:-1 tvg-id="AlRiyadhRadio.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Al%20Riyadh%20Radio.png" tvg-country="SA" group-title="Music",Al Riyadh Radio (FHD)
+#EXTINF:-1 tvg-id="AlRiyadhRadio.sa" tvg-country="SA" group-title="Music",Al Riyadh Radio (FHD)
 https://live.kwikmotion.com/sbrksariyadhradiolive/srpksariyadhradio/playlist.m3u8
-#EXTINF:-1 tvg-id="AlternaTV.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AlternaTV.png" tvg-country="AR" group-title="Music",AlternaTV (HD)
+#EXTINF:-1 tvg-id="AlternaTV.ar" tvg-country="AR" group-title="Music",AlternaTV (HD)
 https://tv.alterna.ar/stream/hls/live.m3u8
-#EXTINF:-1 tvg-id="AmazonSat.br" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Amazon%20Sat.png" tvg-country="BR" group-title="Music",Amazon Sat (FHD)
+#EXTINF:-1 tvg-id="AmazonSat.br" tvg-country="BR" group-title="Music",Amazon Sat (FHD)
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
-#EXTINF:-1 tvg-id="AMC.af" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AMC.png" tvg-country="AF" group-title="Music",AMC (FHD)
+#EXTINF:-1 tvg-id="AMC.af" tvg-country="AF" group-title="Music",AMC (FHD)
 https://amchls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AnandTV.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Anand%20TV.png" tvg-country="UK" group-title="Music",Anand TV (HD)
+#EXTINF:-1 tvg-id="AnandTV.uk" tvg-country="UK" group-title="Music",Anand TV (HD)
 https://live-anandtv.anandmedia.net/anandtvapp/anandtv/index.m3u8
-#EXTINF:-1 tvg-id="AndinaRTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Andina%20RTV.png" tvg-country="PE" group-title="Music",Andina RTV (HD)
+#EXTINF:-1 tvg-id="AndinaRTV.pe" tvg-country="PE" group-title="Music",Andina RTV (HD)
 https://live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="AngelTVNepal.np" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Angel%20TV%20Nepal.png" tvg-country="NP" group-title="Music",Angel TV Nepal (HD)
+#EXTINF:-1 tvg-id="AngelTVNepal.np" tvg-country="NP" group-title="Music",Angel TV Nepal (HD)
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
-#EXTINF:-1 tvg-id="AntenaSUR.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Antena%20SUR.png" tvg-country="PE" group-title="Music",Antena SUR (HD)
+#EXTINF:-1 tvg-id="AntenaSUR.pe" tvg-country="PE" group-title="Music",Antena SUR (HD)
 https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8
-#EXTINF:-1 tvg-id="AntenneKaernten.at" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Antenne%20Kaernten.png" tvg-country="AT" group-title="Music",Antenne Kaernten (HD)
+#EXTINF:-1 tvg-id="AntenneKaernten.at" tvg-country="AT" group-title="Music",Antenne Kaernten (HD)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="AntenneSteiermark.at" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Antenne%20Steiermark.png" tvg-country="AT" group-title="Music",Antenne Steiermark (HD)
+#EXTINF:-1 tvg-id="AntenneSteiermark.at" tvg-country="AT" group-title="Music",Antenne Steiermark (HD)
 https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="ArabicaTV.lb" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Arabica%20TV.png" tvg-country="LB" group-title="Music",Arabica TV (HD)
+#EXTINF:-1 tvg-id="ArabicaTV.lb" tvg-country="LB" group-title="Music",Arabica TV (HD)
 http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
-#EXTINF:-1 tvg-id="ArgesTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Arges%20TV.png" tvg-country="RO" group-title="Music",Arges TV (HD)
+#EXTINF:-1 tvg-id="ArgesTV.ro" tvg-country="RO" group-title="Music",Arges TV (HD)
 https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3cy.m3u8
-#EXTINF:-1 tvg-id="ArirangRadio.kr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Arirang%20Radio.png" tvg-country="KR" group-title="Music",Arirang Radio (HD)
+#EXTINF:-1 tvg-id="ArirangRadio.kr" tvg-country="KR" group-title="Music",Arirang Radio (HD)
 http://amdlive-ch03.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ArpegioTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Arpegio%20TV.png" tvg-country="PE" group-title="Music",Arpegio TV (HD)
+#EXTINF:-1 tvg-id="ArpegioTV.pe" tvg-country="PE" group-title="Music",Arpegio TV (HD)
 https://vdo.oyotunserver.com/arpegio/video.m3u8
-#EXTINF:-1 tvg-id="AstroBlitarTV.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Astro%20Blitar%20TV.png" tvg-country="ID" group-title="Music",Astro Blitar TV (HD)
+#EXTINF:-1 tvg-id="AstroBlitarTV.id" tvg-country="ID" group-title="Music",Astro Blitar TV (HD)
 #EXTVLCOPT:http-referrer=https://abtelevisi.com/
 https://5bf7b725107e5.streamlock.net/abtv/abtv/playlist.m3u8
-#EXTINF:-1 tvg-id="AtabalTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Atabal%20TV.png" tvg-country="DO" group-title="Music",Atabal TV (FHD)
+#EXTINF:-1 tvg-id="AtabalTV.do" tvg-country="DO" group-title="Music",Atabal TV (FHD)
 https://vdopanel.jlahozconsulting.com:3648/live/atabaltvlive.m3u8
-#EXTINF:-1 tvg-id="AtlantisRadioTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Atlantis%20Radio%20TV.png" tvg-country="PE" group-title="Music",Atlantis Radio TV (HD)
+#EXTINF:-1 tvg-id="AtlantisRadioTV.pe" tvg-country="PE" group-title="Music",Atlantis Radio TV (HD)
 https://live-evg8.tv360.bitel.com.pe/bitel/atlantisSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="Audiokiss.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Audiokiss.png" tvg-country="BO" group-title="Music",Audiokiss (FHD)
+#EXTINF:-1 tvg-id="Audiokiss.bo" tvg-country="BO" group-title="Music",Audiokiss (FHD)
 https://master.tucableip.com/audiokisstv/index.m3u8
-#EXTINF:-1 tvg-id="AvangTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Avang%20TV.png" tvg-country="US" group-title="Music",Avang TV (FHD)
+#EXTINF:-1 tvg-id="AvangTV.us" tvg-country="US" group-title="Music",Avang TV (FHD)
 https://hls.avang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AvarTV.iq" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Avar%20TV.png" tvg-country="IQ" group-title="Music",Avar TV (FHD)
+#EXTINF:-1 tvg-id="AvarTV.iq" tvg-country="IQ" group-title="Music",Avar TV (FHD)
 https://avr.host247.net/live/AvarTv/playlist.m3u8
-#EXTINF:-1 tvg-id="AYNITV.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AYNI%20TV.png" tvg-country="BO" group-title="Music",AYNI TV (FHD)
+#EXTINF:-1 tvg-id="AYNITV.bo" tvg-country="BO" group-title="Music",AYNI TV (FHD)
 http://15.204.246.24:8080/AyniTVHD/index.m3u8
-#EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Azahares%20Radiovisual%20Multimedia.png" tvg-country="AR" group-title="Music",Azahares Radiovisual Multimedia (HD)
+#EXTINF:-1 tvg-id="AzaharesRadiovisualMultimedia.ar" tvg-country="AR" group-title="Music",Azahares Radiovisual Multimedia (HD)
 https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="B4UMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/B4U%20Music.png" tvg-country="IN" group-title="Music",B4U Music (FHD)
+#EXTINF:-1 tvg-id="B4UMusic.in" tvg-country="IN" group-title="Music",B4U Music (FHD)
 https://cdn-2.pishow.tv/live/415/master.m3u8
-#EXTINF:-1 tvg-id="BalleBalle.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Balle%20Balle.png" tvg-country="IN" group-title="Music",Balle Balle (HD)
+#EXTINF:-1 tvg-id="BalleBalle.in" tvg-country="IN" group-title="Music",Balle Balle (HD)
 https://mcncdndigital.com/balleballetv/index.m3u8
-#EXTINF:-1 tvg-id="BarazaTVDeepHouse.gr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Baraza%20TV%20Deep%20House.png" tvg-country="GR" group-title="Music",Baraza TV Deep House (HD)
+#EXTINF:-1 tvg-id="BarazaTVDeepHouse.gr" tvg-country="GR" group-title="Music",Baraza TV Deep House (HD)
 https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8
-#EXTINF:-1 tvg-id="BarazaTVRelaxing.gr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Baraza%20TV%20Relaxing.png" tvg-country="GR" group-title="Music",Baraza TV Relaxing (HD)
+#EXTINF:-1 tvg-id="BarazaTVRelaxing.gr" tvg-country="GR" group-title="Music",Baraza TV Relaxing (HD)
 https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8
-#EXTINF:-1 tvg-id="BEATTV.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BEATTV.png" tvg-country="NL" group-title="Music",BEATTV (FHD)
+#EXTINF:-1 tvg-id="BEATTV.nl" tvg-country="NL" group-title="Music",BEATTV (FHD)
 https://tv.beatfm.nl/live.m3u8
-#EXTINF:-1 tvg-id="BellaAbanquinaTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Bella%20Abanquina%20TV.png" tvg-country="PE" group-title="Music",Bella Abanquina TV (HD)
+#EXTINF:-1 tvg-id="BellaAbanquinaTV.pe" tvg-country="PE" group-title="Music",Bella Abanquina TV (HD)
 https://live-evg8.tv360.bitel.com.pe/bitel/bellaabanquinaSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="BerenteTV.hu" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Berente%20TV.png" tvg-country="HU" group-title="Music",Berente TV (FHD)
+#EXTINF:-1 tvg-id="BerenteTV.hu" tvg-country="HU" group-title="Music",Berente TV (FHD)
 https://stream.streaming4u.hu/BerenteTV/index.m3u8
-#EXTINF:-1 tvg-id="BestofDanceTV.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Best%20of%20Dance%20TV.png" tvg-country="EE" group-title="Music",Best of Dance TV (FHD)
+#EXTINF:-1 tvg-id="BestofDanceTV.ee" tvg-country="EE" group-title="Music",Best of Dance TV (FHD)
 https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8
-#EXTINF:-1 tvg-id="BibelTV.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Bibel%20TV.png" tvg-country="DE" group-title="Music",Bibel TV (HD)
+#EXTINF:-1 tvg-id="BibelTV.de" tvg-country="DE" group-title="Music",Bibel TV (HD)
 https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="BibelTVMusik.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Bibel%20TV%20Musik.png" tvg-country="DE" group-title="Music",Bibel TV Musik (HD)
+#EXTINF:-1 tvg-id="BibelTVMusik.de" tvg-country="DE" group-title="Music",Bibel TV Musik (HD)
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-id="BIZMusic.uz" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BIZ%20Music.png" tvg-country="UZ" group-title="Music",BIZ Music (FHD)
+#EXTINF:-1 tvg-id="BIZMusic.uz" tvg-country="UZ" group-title="Music",BIZ Music (FHD)
 https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
-#EXTINF:-1 tvg-id="BiznetAdventure.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Biznet%20Adventure.png" tvg-country="ID" group-title="Music",Biznet Adventure (FHD)
+#EXTINF:-1 tvg-id="BiznetAdventure.id" tvg-country="ID" group-title="Music",Biznet Adventure (FHD)
 http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Black.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Black.png" tvg-country="UA" group-title="Music",Black (FHD)
+#EXTINF:-1 tvg-id="Black.ua" tvg-country="UA" group-title="Music",Black (FHD)
 http://stream.mcquack.net/283/index.m3u8
-#EXTINF:-1 tvg-id="BLKRegionalTV.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BLK%20Regional%20TV.png" tvg-country="DE" group-title="Music",BLK Regional TV (FHD)
+#EXTINF:-1 tvg-id="BLKRegionalTV.de" tvg-country="DE" group-title="Music",BLK Regional TV (FHD)
 https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
-#EXTINF:-1 tvg-id="BocaChicaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Boca%20Chica%20TV.png" tvg-country="DO" group-title="Music",Boca Chica TV (HD)
+#EXTINF:-1 tvg-id="BocaChicaTV.do" tvg-country="DO" group-title="Music",Boca Chica TV (HD)
 https://fox.hostlagarto.com:8081/bocachicatv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="BOKTV.za" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BOKTV.png" tvg-country="ZA" group-title="Music",BOKTV (HD)
+#EXTINF:-1 tvg-id="BOKTV.za" tvg-logo="https://gradetv.net/logos/BOKTV.za" tvg-country="ZA" group-title="Music",BOKTV (HD)
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
-#EXTINF:-1 tvg-id="BonaoTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Bonao%20TV.png" tvg-country="DO" group-title="Music",Bonao TV (HD)
+#EXTINF:-1 tvg-id="BonaoTV.do" tvg-country="DO" group-title="Music",Bonao TV (HD)
 https://tele-stream.telecasa.net/live/st2/bonaotv-hd/index.m3u8
-#EXTINF:-1 tvg-id="BoogleBollywood.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Boogle%20Bollywood.png" tvg-country="IN" group-title="Music",Boogle Bollywood (HD)
+#EXTINF:-1 tvg-id="BoogleBollywood.in" tvg-country="IN" group-title="Music",Boogle Bollywood (HD)
 https://yuppnimrestreammum.akamaized.net/181224/smil:bogglebollywood.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="BoomTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Boom%20TV.png" tvg-country="RO" group-title="Music",Boom TV (FHD)
+#EXTINF:-1 tvg-id="BoomTV.ro" tvg-country="RO" group-title="Music",Boom TV (FHD)
 #EXTVLCOPT:http-referrer=https://tvboom.ro/
 https://tvboom.ro/live-tv/live.m3u8
-#EXTINF:-1 tvg-id="BRIDGEDeluxe.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BRIDGE%20Deluxe.png" tvg-country="RU" group-title="Music",BRIDGE Deluxe (FHD)
+#EXTINF:-1 tvg-id="BRIDGEDeluxe.ru" tvg-country="RU" group-title="Music",BRIDGE Deluxe (FHD)
 http://tmptv.sunduk.tv/CH257/index.m3u8
-#EXTINF:-1 tvg-id="BRIDGEFresh.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BRIDGE%20Fresh.png" tvg-country="RU" group-title="Music",BRIDGE Fresh (FHD)
+#EXTINF:-1 tvg-id="BRIDGEFresh.ru" tvg-country="RU" group-title="Music",BRIDGE Fresh (FHD)
 http://str2.iptvhd.ru:8080/Bridge_TV_HD/index.m3u8
-#EXTINF:-1 tvg-id="BTATV.ve" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BTA%20TV.png" tvg-country="VE" group-title="Music",BTA TV (HD)
+#EXTINF:-1 tvg-id="BTATV.ve" tvg-country="VE" group-title="Music",BTA TV (HD)
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
-#EXTINF:-1 tvg-id="BTBInternational.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BTB%20International.png" tvg-country="PL" group-title="Music",BTB International (FHD)
+#EXTINF:-1 tvg-id="BTBInternational.pl" tvg-country="PL" group-title="Music",BTB International (FHD)
 https://emisja.btb.j00r.us/iptv/session/2/hls.m3u8
-#EXTINF:-1 tvg-id="BTBMusic.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BTB%20Music.png" tvg-country="PL" group-title="Music",BTB Music (FHD)
+#EXTINF:-1 tvg-id="BTBMusic.pl" tvg-country="PL" group-title="Music",BTB Music (FHD)
 https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8
-#EXTINF:-1 tvg-id="CableNobsaTV.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cable%20Nobsa%20TV.png" tvg-country="CO" group-title="Music",Cable Nobsa TV (HD)
+#EXTINF:-1 tvg-id="CableNobsaTV.co" tvg-country="CO" group-title="Music",Cable Nobsa TV (HD)
 https://eu1.servers10.com:8081/8164/index.m3u8
-#EXTINF:-1 tvg-id="CadenaElite.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cadena%20Elite.png" tvg-country="ES" group-title="Music",Cadena Elite (HD)
+#EXTINF:-1 tvg-id="CadenaElite.es" tvg-country="ES" group-title="Music",Cadena Elite (HD)
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/California%20Music%20Channel.png" tvg-country="US" group-title="Music",California Music Channel (FHD)
 https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal21Huancayo.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Canal%2021%20Huancayo.png" tvg-country="PE" group-title="Music",Canal 21 Huancayo (HD)
+#EXTINF:-1 tvg-id="Canal21Huancayo.pe" tvg-country="PE" group-title="Music",Canal 21 Huancayo (HD)
 https://live-evg11.tv360.bitel.com.pe/bitel/tvwanka/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Canal%203%20KMK%20TV.png" tvg-country="CR" group-title="Music",Canal 3 KMK TV (HD)
+#EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-country="CR" group-title="Music",Canal 3 KMK TV (HD)
 https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
-#EXTINF:-1 tvg-id="Canal6MasterTVCarapari.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Canal%206%20Master%20TV%20Carapari.png" tvg-country="BO" group-title="Music",Canal 6 Master TV Carapari (HD)
+#EXTINF:-1 tvg-id="Canal6MasterTVCarapari.bo" tvg-country="BO" group-title="Music",Canal 6 Master TV Carapari (HD)
 https://edge.enhdtv.com/8064/index.m3u8
-#EXTINF:-1 tvg-id="Canal8Catacaos.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Canal%208%20Catacaos.png" tvg-country="PE" group-title="Music",Canal 8 Catacaos (HD)
+#EXTINF:-1 tvg-id="Canal8Catacaos.pe" tvg-country="PE" group-title="Music",Canal 8 Catacaos (HD)
 https://live.obslivestream.com/canal8/index.m3u8
-#EXTINF:-1 tvg-id="CanangaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cananga%20TV.png" tvg-country="DO" group-title="Music",Cananga TV (HD)
+#EXTINF:-1 tvg-id="CanangaTV.do" tvg-country="DO" group-title="Music",Cananga TV (HD)
 https://cdn.streamingcpanel.com:3545/live/canangatlive.m3u8
-#EXTINF:-1 tvg-id="CaobaTVRadio.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Caoba%20TV%20Radio.png" tvg-country="DO" group-title="Music",Caoba TV Radio (HD)
+#EXTINF:-1 tvg-id="CaobaTVRadio.do" tvg-country="DO" group-title="Music",Caoba TV Radio (HD)
 https://host.streamingnation.live:3940/live/caobatvlive.m3u8
-#EXTINF:-1 tvg-id="CaribbeanHot7TV.lc" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Caribbean%20Hot%207%20TV.png" tvg-country="LC" group-title="Music",Caribbean Hot 7 TV (HD)
+#EXTINF:-1 tvg-id="CaribbeanHot7TV.lc" tvg-country="LC" group-title="Music",Caribbean Hot 7 TV (HD)
 https://586a9edea75f1.streamlock.net/caribbeanhot7tv/ch7-1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CasmaTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Casma%20TV.png" tvg-country="PE" group-title="Music",Casma TV (HD)
+#EXTINF:-1 tvg-id="CasmaTV.pe" tvg-country="PE" group-title="Music",Casma TV (HD)
 https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV-11.cn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/CCTV-11.png" tvg-country="CN" group-title="Music",CCTV-11 (HD)
+#EXTINF:-1 tvg-id="CCTV-11.cn" tvg-country="CN" group-title="Music",CCTV-11 (HD)
 http://74.91.26.218:82/live/cctv11hd.m3u8
-#EXTINF:-1 tvg-id="CCTV-15.cn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/CCTV-15.png" tvg-country="CN" group-title="Music",CCTV-15 (FHD)
+#EXTINF:-1 tvg-id="CCTV-15.cn" tvg-country="CN" group-title="Music",CCTV-15 (FHD)
 https://xykt-fix.github.io/play/a02e/index.m3u8
-#EXTINF:-1 tvg-id="Channel24.il" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Channel%2024.png" tvg-country="IL" group-title="Music",Channel 24 (FHD)
+#EXTINF:-1 tvg-id="Channel24.il" tvg-country="IL" group-title="Music",Channel 24 (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/42/index.m3u8
-#EXTINF:-1 tvg-id="ChocolateFM.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Chocolate%20FM.png" tvg-country="CL" group-title="Music",Chocolate FM (HD)
+#EXTINF:-1 tvg-id="ChocolateFM.cl" tvg-country="CL" group-title="Music",Chocolate FM (HD)
 https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8
-#EXTINF:-1 tvg-id="CiraTV.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cira%20TV.png" tvg-country="DE" group-title="Music",Cira TV (FHD)
+#EXTINF:-1 tvg-id="CiraTV.de" tvg-country="DE" group-title="Music",Cira TV (FHD)
 https://hlspackager.akamaized.net/live/DB/CIRA_TV/HLS/CIRA_TV.m3u8
-#EXTINF:-1 tvg-id="CiudadanoRadio.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ciudadano%20Radio.png" tvg-country="CL" group-title="Music",Ciudadano Radio (HD)
+#EXTINF:-1 tvg-id="CiudadanoRadio.cl" tvg-country="CL" group-title="Music",Ciudadano Radio (HD)
 https://oracle.streaminghd.cl:443/ciudadanoradiotv/ciudadanoradiotv/playlist.m3u8
-#EXTINF:-1 tvg-id="ClassicMusic.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Classic%20Music.png" tvg-country="RU" group-title="Music",Classic Music (FHD)
+#EXTINF:-1 tvg-id="ClassicMusic.ru" tvg-country="RU" group-title="Music",Classic Music (FHD)
 http://stream.mcquack.net/312/index.m3u8
-#EXTINF:-1 tvg-id="ClubbingTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Clubbing%20TV.png" tvg-country="US" group-title="Music",Clubbing TV (HD)
+#EXTINF:-1 tvg-id="ClubbingTV.us" tvg-logo="https://gradetv.net/logos/ClubbingTV.us" tvg-country="US" group-title="Music",Clubbing TV (HD)
 https://a-cdn.klowdtv.com/live3/clubbingtv_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="CMC-USACountryMusicChannel.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CMC-USA%20Country%20Music%20Channel.png" tvg-country="US" group-title="Music",CMC-USA Country Music Channel (HD)
+#EXTINF:-1 tvg-id="CMC-USACountryMusicChannel.us" tvg-country="US" group-title="Music",CMC-USA Country Music Channel (HD)
 https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
-#EXTINF:-1 tvg-id="CMTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CMTV.png" tvg-country="US" group-title="Music",CMTV (HD)
+#EXTINF:-1 tvg-id="CMTV.us" tvg-country="US" group-title="Music",CMTV (HD)
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
-#EXTINF:-1 tvg-id="CNCValledupar.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/CNC%20Valledupar.png" tvg-country="CO" group-title="Music",CNC Valledupar (HD)
+#EXTINF:-1 tvg-id="CNCValledupar.co" tvg-country="CO" group-title="Music",CNC Valledupar (HD)
 https://live20.bozztv.com/akamaissh101/ssh101/cncvalledupar1/playlist.m3u8
-#EXTINF:-1 tvg-id="ConectaTV.mx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Conecta%20TV.png" tvg-country="MX" group-title="Music",Conecta TV (HD)
+#EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" group-title="Music",Conecta TV (HD)
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
-#EXTINF:-1 tvg-id="ConecTVBrasil.br" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ConecTV%20Brasil.png" tvg-country="BR" group-title="Music",ConecTV Brasil (HD)
+#EXTINF:-1 tvg-id="ConecTVBrasil.br" tvg-country="BR" group-title="Music",ConecTV Brasil (HD)
 https://stream01.msolutionbrasil.com.br/hls/conectv/live.m3u8
-#EXTINF:-1 tvg-id="CoolFM98.9.aw" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cool%20FM%2098.9.png" tvg-country="AW" group-title="Music",Cool FM 98.9 (HD)
+#EXTINF:-1 tvg-id="CoolFM98.9.aw" tvg-country="AW" group-title="Music",Cool FM 98.9 (HD)
 https://live2.tensila.com/cool-v-1.arubara/hls/master.m3u8
-#EXTINF:-1 tvg-id="CubavisionInternacional.cu" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cubavision%20Internacional.png" tvg-country="CU" group-title="Music",Cubavision Internacional (HD)
+#EXTINF:-1 tvg-id="CubavisionInternacional.cu" tvg-country="CU" group-title="Music",Cubavision Internacional (HD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://teveo.cu/
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CumbiaMix.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Cumbia%20Mix.png" tvg-country="AR" group-title="Music",Cumbia Mix (HD)
+#EXTINF:-1 tvg-id="CumbiaMix.ar" tvg-country="AR" group-title="Music",Cumbia Mix (HD)
 https://cloud.tvomix.com/CUMBIAMIX/index.m3u8
-#EXTINF:-1 tvg-id="DanceFM.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Dance%20FM.png" tvg-country="CL" group-title="Music",Dance FM (HD)
+#EXTINF:-1 tvg-id="DanceFM.cl" tvg-country="CL" group-title="Music",Dance FM (HD)
 https://5eaccbab48461.streamlock.net:1936/dancefm_1/dancefm_1/playlist.m3u8
-#EXTINF:-1 tvg-id="DanceTVAlgorhythm.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/DanceTV%20Algorhythm.png" tvg-country="EE" group-title="Music",DanceTV Algorhythm (FHD)
+#EXTINF:-1 tvg-id="DanceTVAlgorhythm.ee" tvg-country="EE" group-title="Music",DanceTV Algorhythm (FHD)
 https://m2b2.worldcast.tv:7443/dancetelevisionfour/dancetelevisionfour.m3u8
-#EXTINF:-1 tvg-id="DanceTVDeepHouseDistrict.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/DanceTV%20Deep%20House%20District.png" tvg-country="EE" group-title="Music",DanceTV Deep House District (FHD)
+#EXTINF:-1 tvg-id="DanceTVDeepHouseDistrict.ee" tvg-country="EE" group-title="Music",DanceTV Deep House District (FHD)
 https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
-#EXTINF:-1 tvg-id="DanceTVHouseFloor.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/DanceTV%20House%20Floor.png" tvg-country="EE" group-title="Music",DanceTV House Floor (FHD)
+#EXTINF:-1 tvg-id="DanceTVHouseFloor.ee" tvg-country="EE" group-title="Music",DanceTV House Floor (FHD)
 https://m2b2.worldcast.tv:7443/dancetelevisionfive/dancetelevisionfive.m3u8
-#EXTINF:-1 tvg-id="DanceTVTechnoWarehouse.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/DanceTV%20Techno%20Warehouse.png" tvg-country="EE" group-title="Music",DanceTV Techno Warehouse (FHD)
+#EXTINF:-1 tvg-id="DanceTVTechnoWarehouse.ee" tvg-country="EE" group-title="Music",DanceTV Techno Warehouse (FHD)
 https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8
-#EXTINF:-1 tvg-id="DASDING90.8.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/DASDING%2090.8.png" tvg-country="DE" group-title="Music",DASDING 90.8 (HD)
+#EXTINF:-1 tvg-id="DASDING90.8.de" tvg-country="DE" group-title="Music",DASDING 90.8 (HD)
 https://swrdasdingvr-hls.akamaized.net/hls/live/2018681/dasdingvr/master.m3u8
-#EXTINF:-1 tvg-id="DBMTV.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/DBM%20TV.png" tvg-country="FR" group-title="Music",DBM TV (FHD)
+#EXTINF:-1 tvg-id="DBMTV.fr" tvg-country="FR" group-title="Music",DBM TV (FHD)
 https://dbmtv.vedge.infomaniak.com/livecast/dbmtv/playlist.m3u8
-#EXTINF:-1 tvg-id="DeepHouseDistrict.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Deep%20House%20District.png" tvg-country="NL" group-title="Music",Deep House District (FHD)
+#EXTINF:-1 tvg-id="DeepHouseDistrict.nl" tvg-country="NL" group-title="Music",Deep House District (FHD)
 https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
-#EXTINF:-1 tvg-id="DeluxeDance.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Deluxe%20Dance.png" tvg-country="DE" group-title="Music",Deluxe Dance (FHD)
+#EXTINF:-1 tvg-id="DeluxeDance.de" tvg-country="DE" group-title="Music",Deluxe Dance (FHD)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/64733/64733_264_live.m3u8
-#EXTINF:-1 tvg-id="DELUXEMUSIC.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/DELUXE%20MUSIC.png" tvg-country="DE" group-title="Music",DELUXE MUSIC (HD)
+#EXTINF:-1 tvg-id="DELUXEMUSIC.de" tvg-country="DE" group-title="Music",DELUXE MUSIC (HD)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
-#EXTINF:-1 tvg-id="DeluxeRap.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Deluxe%20Rap.png" tvg-country="DE" group-title="Music",Deluxe Rap (FHD)
+#EXTINF:-1 tvg-id="DeluxeRap.de" tvg-country="DE" group-title="Music",Deluxe Rap (FHD)
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
-#EXTINF:-1 tvg-id="DeshiTV.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Deshi%20TV.png" tvg-country="CA" group-title="Music",Deshi TV (HD)
+#EXTINF:-1 tvg-id="DeshiTV.ca" tvg-country="CA" group-title="Music",Deshi TV (HD)
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="DhoomMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Dhoom%20Music.png" tvg-country="IN" group-title="Music",Dhoom Music (HD)
+#EXTINF:-1 tvg-id="DhoomMusic.in" tvg-country="IN" group-title="Music",Dhoom Music (HD)
 https://cdn.pishow.tv/ott/live/1456/master.m3u8
-#EXTINF:-1 tvg-id="Digital809TV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Digital809%20TV.png" tvg-country="DO" group-title="Music",Digital809 TV (HD)
+#EXTINF:-1 tvg-id="Digital809TV.do" tvg-country="DO" group-title="Music",Digital809 TV (HD)
 https://stream.inliveserver.com:19360/8146/8146.m3u8
-#EXTINF:-1 tvg-id="DiscoPoloMusic.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Disco%20Polo%20Music.png" tvg-country="PL" group-title="Music",Disco Polo Music (FHD)
+#EXTINF:-1 tvg-id="DiscoPoloMusic.pl" tvg-country="PL" group-title="Music",Disco Polo Music (FHD)
 http://185.227.34.179:8080/disco-polo-music/index.m3u8
-#EXTINF:-1 tvg-id="DismarRadioTV.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Dismar%20Radio%20TV.png" tvg-country="PY" group-title="Music",Dismar Radio TV (HD)
+#EXTINF:-1 tvg-id="DismarRadioTV.py" tvg-country="PY" group-title="Music",Dismar Radio TV (HD)
 https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8
-#EXTINF:-1 tvg-id="Dushevnoe.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Dushevnoe.png" tvg-country="RU" group-title="Music",Dushevnoe (FHD)
+#EXTINF:-1 tvg-id="Dushevnoe.ru" tvg-country="RU" group-title="Music",Dushevnoe (FHD)
 https://adpnetworkhd-cmd.github.io/iptv/DushevnoeHD.m3u8
-#EXTINF:-1 tvg-id="E40.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/E40.png" tvg-country="PY" group-title="Music",E40 (FHD)
+#EXTINF:-1 tvg-id="E40.py" tvg-country="PY" group-title="Music",E40 (FHD)
 #EXTVLCOPT:http-referrer=https://www.estacion40.com.py/
 https://copacotf.desdeparaguay.net/e40tv/e40tv_py_alta/playlist.m3u8?admin=tvaccion
-#EXTINF:-1 tvg-id="EBSMusika.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/EBS%20Musika.png" tvg-country="US" group-title="Music",EBS Musika (HD)
+#EXTINF:-1 tvg-id="EBSMusika.us" tvg-country="US" group-title="Music",EBS Musika (HD)
 https://rpn.bozztv.com/ebstv/ebsmusika/index.m3u8
-#EXTINF:-1 tvg-id="EliasPinaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Elias%20Pina%20TV.png" tvg-country="DO" group-title="Music",Elias Pina TV (HD)
+#EXTINF:-1 tvg-id="EliasPinaTV.do" tvg-country="DO" group-title="Music",Elias Pina TV (HD)
 https://cloud2.streaminglivehd.com:1936/8078/8078/playlist.m3u8
-#EXTINF:-1 tvg-id="ElPitucoTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/El%20Pituco%20TV.png" tvg-country="DO" group-title="Music",El Pituco TV (HD)
+#EXTINF:-1 tvg-id="ElPitucoTV.do" tvg-country="DO" group-title="Music",El Pituco TV (HD)
 https://imagenuniversaltv.net:3439/live/elpitucolive.m3u8
-#EXTINF:-1 tvg-id="ElRadar.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/El%20Radar.png" tvg-country="CL" group-title="Music",El Radar (HD)
+#EXTINF:-1 tvg-id="ElRadar.cl" tvg-country="CL" group-title="Music",El Radar (HD)
 https://video.ipstream.cl:3459/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="ElSolNetworkTV.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/El%20Sol%20Network%20TV.png" tvg-country="EC" group-title="Music",El Sol Network TV (FHD)
+#EXTINF:-1 tvg-id="ElSolNetworkTV.ec" tvg-country="EC" group-title="Music",El Sol Network TV (FHD)
 https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
-#EXTINF:-1 tvg-id="emsTVLingen.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ems%20TV%20Lingen.png" tvg-country="DE" group-title="Music",ems TV Lingen (HD)
+#EXTINF:-1 tvg-id="emsTVLingen.de" tvg-country="DE" group-title="Music",ems TV Lingen (HD)
 https://h058.video-stream-hosting.de/ev1tv-live/_definst_/mp4:stream1.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="EnerGeekRadio.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/EnerGeek%20Radio.png" tvg-country="CL" group-title="Music",EnerGeek Radio (FHD)
+#EXTINF:-1 tvg-id="EnerGeekRadio.cl" tvg-country="CL" group-title="Music",EnerGeek Radio (FHD)
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=ZZDemoIPTVGH
-#EXTINF:-1 tvg-id="EntunoTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Entuno%20TV.png" tvg-country="DO" group-title="Music",Entuno TV (FHD)
+#EXTINF:-1 tvg-id="EntunoTV.do" tvg-country="DO" group-title="Music",Entuno TV (FHD)
 https://soportedvb.click:3442/live/entunotvlive.m3u8
-#EXTINF:-1 tvg-id="EpicMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Epic%20Music.png" tvg-country="IN" group-title="Music",Epic Music (FHD)
+#EXTINF:-1 tvg-id="EpicMusic.in" tvg-country="IN" group-title="Music",Epic Music (FHD)
 https://cc-3cyxq80qusspd.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-3cyxq80qusspd/playlist.m3u8
-#EXTINF:-1 tvg-id="ErzurumWebTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Erzurum%20Web%20TV.png" tvg-country="TR" group-title="Music",Erzurum Web TV (HD)
+#EXTINF:-1 tvg-id="ErzurumWebTV.tr" tvg-country="TR" group-title="Music",Erzurum Web TV (HD)
 https://win29.yayin.com.tr/erzurumwebtv/erzurumwebtv/iptvdelisi.m3u8
-#EXTINF:-1 tvg-id="EskaRockTV.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Eska%20Rock%20TV.png" tvg-country="PL" group-title="Music",Eska Rock TV (FHD)
+#EXTINF:-1 tvg-id="EskaRockTV.pl" tvg-country="PL" group-title="Music",Eska Rock TV (FHD)
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19172/index.m3u8
-#EXTINF:-1 tvg-id="EskaTV.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Eska%20TV.png" tvg-country="PL" group-title="Music",Eska TV (FHD)
+#EXTINF:-1 tvg-id="EskaTV.pl" tvg-country="PL" group-title="Music",Eska TV (FHD)
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19174/index.m3u8
-#EXTINF:-1 tvg-id="EskaTVExtra.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Eska%20TV%20Extra.png" tvg-country="PL" group-title="Music",Eska TV Extra (FHD)
+#EXTINF:-1 tvg-id="EskaTVExtra.pl" tvg-country="PL" group-title="Music",Eska TV Extra (FHD)
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19173/index.m3u8
-#EXTINF:-1 tvg-id="EstacionTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Estacion%20TV.png" tvg-country="CL" group-title="Music",Estacion TV (HD)
+#EXTINF:-1 tvg-id="EstacionTV.cl" tvg-country="CL" group-title="Music",Estacion TV (HD)
 https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ETVBeats.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ETV%20Beats.png" tvg-country="IN" group-title="Music",ETV Beats (FHD)
+#EXTINF:-1 tvg-id="ETVBeats.in" tvg-country="IN" group-title="Music",ETV Beats (FHD)
 https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
-#EXTINF:-1 tvg-id="ExtraTV.hr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Extra%20TV.png" tvg-country="HR" group-title="Music",Extra TV (FHD)
+#EXTINF:-1 tvg-id="ExtraTV.hr" tvg-country="HR" group-title="Music",Extra TV (FHD)
 https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
-#EXTINF:-1 tvg-id="FabulosaEstereo100.5FM.pa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fabulosa%20Estereo%20100.5%20FM.png" tvg-country="PA" group-title="Music",Fabulosa Estereo 100.5 FM (HD)
+#EXTINF:-1 tvg-id="FabulosaEstereo100.5FM.pa" tvg-country="PA" group-title="Music",Fabulosa Estereo 100.5 FM (HD)
 https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
-#EXTINF:-1 tvg-id="Fairuz.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fairuz.png" tvg-country="SA" group-title="Music",Fairuz (FHD)
+#EXTINF:-1 tvg-id="Fairuz.sa" tvg-country="SA" group-title="Music",Fairuz (FHD)
 https://shd-amg-fast.edgenextcdn.net/tx029/playlist.m3u8
-#EXTINF:-1 tvg-id="FalastiniTV.ps" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Falastini%20TV.png" tvg-country="PS" group-title="Music",Falastini TV (FHD)
+#EXTINF:-1 tvg-id="FalastiniTV.ps" tvg-country="PS" group-title="Music",Falastini TV (FHD)
 https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
-#EXTINF:-1 tvg-id="FarraPlay.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Farra%20Play.png" tvg-country="PY" group-title="Music",Farra Play (HD)
+#EXTINF:-1 tvg-id="FarraPlay.py" tvg-country="PY" group-title="Music",Farra Play (HD)
 http://159.203.148.226/live/farra.m3u8
-#EXTINF:-1 tvg-id="FieriTv.al" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fieri%20Tv.png" tvg-country="AL" group-title="Music",Fieri Tv (HD)
+#EXTINF:-1 tvg-id="FieriTv.al" tvg-country="AL" group-title="Music",Fieri Tv (HD)
 http://valashop.online:8090/fieritv.m3u8
-#EXTINF:-1 tvg-id="FirstMusicChannel.by" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/First%20Music%20Channel.png" tvg-country="BY" group-title="Music",First Music Channel (FHD)
+#EXTINF:-1 tvg-id="FirstMusicChannel.by" tvg-country="BY" group-title="Music",First Music Channel (FHD)
 http://rtmp.one.by:1300
-#EXTINF:-1 tvg-id="FirstMusicChannelRussia.by" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/First%20Music%20Channel%20Russia.png" tvg-country="BY" group-title="Music",First Music Channel Russia (FHD)
+#EXTINF:-1 tvg-id="FirstMusicChannelRussia.by" tvg-country="BY" group-title="Music",First Music Channel Russia (FHD)
 http://rtmp.one.by:2300
-#EXTINF:-1 tvg-id="FMITALIA.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/FM%20ITALIA.png" tvg-country="IT" group-title="Music",FM ITALIA (FHD)
+#EXTINF:-1 tvg-id="FMITALIA.it" tvg-country="IT" group-title="Music",FM ITALIA (FHD)
 https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="FMMundo.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/FM%20Mundo.png" tvg-country="EC" group-title="Music",FM Mundo (FHD)
+#EXTINF:-1 tvg-id="FMMundo.ec" tvg-country="EC" group-title="Music",FM Mundo (FHD)
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
-#EXTINF:-1 tvg-id="FMPlusTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/FM%20Plus%20TV.png" tvg-country="CL" group-title="Music",FM Plus TV (HD)
+#EXTINF:-1 tvg-id="FMPlusTV.cl" tvg-country="CL" group-title="Music",FM Plus TV (HD)
 https://v2.tustreaming.cl/fmplus/index.m3u8
-#EXTINF:-1 tvg-id="FolkKlubTV.au" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:AU/Folk%20Klub%20TV.png" tvg-country="AU" group-title="Music",Folk Klub TV (HD)
+#EXTINF:-1 tvg-id="FolkKlubTV.au" tvg-country="AU" group-title="Music",Folk Klub TV (HD)
 http://tv1.intv.mk:1935/live2/folkklub/index.m3u8
-#EXTINF:-1 tvg-id="FolkloreTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Folklore%20TV.png" tvg-country="PE" group-title="Music",Folklore TV (HD)
+#EXTINF:-1 tvg-id="FolkloreTV.pe" tvg-country="PE" group-title="Music",Folklore TV (HD)
 https://play.folkloretv.pe/StreamSD/index.m3u8
-#EXTINF:-1 tvg-id="FolkTV.mk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Folk%20TV.png" tvg-country="MK" group-title="Music",Folk TV (FHD)
+#EXTINF:-1 tvg-id="FolkTV.mk" tvg-country="MK" group-title="Music",Folk TV (FHD)
 https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
-#EXTINF:-1 tvg-id="FomixTV.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/FomixTV.png" tvg-country="NL" group-title="Music",FomixTV (FHD)
+#EXTINF:-1 tvg-id="FomixTV.nl" tvg-country="NL" group-title="Music",FomixTV (FHD)
 #EXTVLCOPT:http-referrer=https://www.fomix.nl
 https://stream.fomixmedia.nl/FomixTV/video.m3u8
-#EXTINF:-1 tvg-id="FonMusic.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fon%20Music.png" tvg-country="RU" group-title="Music",Fon Music (FHD)
+#EXTINF:-1 tvg-id="FonMusic.ru" tvg-country="RU" group-title="Music",Fon Music (FHD)
 http://hls127.freeott.top:8080/TNT_MUSIC_HD/video.m3u8
-#EXTINF:-1 tvg-id="FortunaTV.ve" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fortuna%20TV.png" tvg-country="VE" group-title="Music",Fortuna TV (FHD)
+#EXTINF:-1 tvg-id="FortunaTV.ve" tvg-country="VE" group-title="Music",Fortuna TV (FHD)
 https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
-#EXTINF:-1 tvg-id="FUSIONTV.mq" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/FUSION%20TV.png" tvg-country="MQ" group-title="Music",FUSION TV (FHD)
+#EXTINF:-1 tvg-id="FUSIONTV.mq" tvg-country="MQ" group-title="Music",FUSION TV (FHD)
 https://edge20.vedge.infomaniak.com/livecast/ik:fusiontv/manifest.m3u8
-#EXTINF:-1 tvg-id="FutureTV.lb" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Future%20TV.png" tvg-country="LB" group-title="Music",Future TV (FHD)
+#EXTINF:-1 tvg-id="FutureTV.lb" tvg-country="LB" group-title="Music",Future TV (FHD)
 https://live.kwikmotion.com/futurelive/ftv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Ganj%20e%20Hozour%20TV.png" tvg-country="US" group-title="Music",Ganj e Hozour TV (FHD)
+#EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-country="US" group-title="Music",Ganj e Hozour TV (FHD)
 https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="GarudaTV.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Garuda%20TV.png" tvg-country="ID" group-title="Music",Garuda TV (FHD)
+#EXTINF:-1 tvg-id="GarudaTV.id" tvg-country="ID" group-title="Music",Garuda TV (FHD)
 https://hgmtv.com:19360/garudatvlivestreaming/garudatvlivestreaming.m3u8
-#EXTINF:-1 tvg-id="GaundaPunjabTV.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Gaunda%20Punjab%20TV.png" tvg-country="CA" group-title="Music",Gaunda Punjab TV (HD)
+#EXTINF:-1 tvg-id="GaundaPunjabTV.ca" tvg-country="CA" group-title="Music",Gaunda Punjab TV (HD)
 http://cdn6.live247stream.com/gaundapunjab/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="GenialTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Genial%20TV.png" tvg-country="CL" group-title="Music",Genial TV (HD)
+#EXTINF:-1 tvg-id="GenialTV.cl" tvg-country="CL" group-title="Music",Genial TV (HD)
 https://v1.tustreaming.cl/genialtv/index.m3u8
-#EXTINF:-1 tvg-id="GeniosTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Genios%20TV.png" tvg-country="PE" group-title="Music",Genios TV (FHD)
+#EXTINF:-1 tvg-id="GeniosTV.pe" tvg-country="PE" group-title="Music",Genios TV (FHD)
 https://sc3.wasidata.com/Genios2_1902/video.m3u8
-#EXTINF:-1 tvg-id="GexTV.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Gex%20TV.png" tvg-country="CR" group-title="Music",Gex TV (FHD)
+#EXTINF:-1 tvg-id="GexTV.cr" tvg-country="CR" group-title="Music",Gex TV (FHD)
 https://live20.bozztv.com/akamaissh101/ssh101/gextvaccess/playlist.m3u8
-#EXTINF:-1 tvg-id="GigantFM.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Gigant%20FM.png" tvg-country="NL" group-title="Music",Gigant FM (HD)
+#EXTINF:-1 tvg-id="GigantFM.nl" tvg-country="NL" group-title="Music",Gigant FM (HD)
 https://video.uitzending.tv:19360/gigantfm/gigantfm.m3u8
-#EXTINF:-1 tvg-id="Gigavision.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Gigavision.png" tvg-country="BO" group-title="Music",Gigavision (HD)
+#EXTINF:-1 tvg-id="Gigavision.bo" tvg-country="BO" group-title="Music",Gigavision (HD)
 https://tv2.bitstreaming.net:3576/multi_live/play.m3u8
-#EXTINF:-1 tvg-id="GOTV.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/GO%20TV.png" tvg-country="PY" group-title="Music",GO TV (HD)
+#EXTINF:-1 tvg-id="GOTV.py" tvg-country="PY" group-title="Music",GO TV (HD)
 https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
-#EXTINF:-1 tvg-id="GugakTV.kr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Gugak%20TV.png" tvg-country="KR" group-title="Music",Gugak TV (FHD)
+#EXTINF:-1 tvg-id="GugakTV.kr" tvg-country="KR" group-title="Music",Gugak TV (FHD)
 https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="HalaTV.il" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Hala%20TV.png" tvg-country="IL" group-title="Music",Hala TV (FHD)
+#EXTINF:-1 tvg-id="HalaTV.il" tvg-country="IL" group-title="Music",Hala TV (FHD)
 https://stream.panet.com/edge/halaTV/playlist.m3u8
-#EXTINF:-1 tvg-id="HappyRadioTV.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Happy%20Radio%20TV.png" tvg-country="UA" group-title="Music",Happy Radio TV (FHD)
+#EXTINF:-1 tvg-id="HappyRadioTV.ua" tvg-country="UA" group-title="Music",Happy Radio TV (FHD)
 https://tv.mediacp.eu:8081/happyradio/index.m3u8
-#EXTINF:-1 tvg-id="HarmonyGospelMusicTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Harmony%20Gospel%20Music%20TV.png" tvg-country="US" group-title="Music",Harmony Gospel Music TV (FHD)
+#EXTINF:-1 tvg-id="HarmonyGospelMusicTV.us" tvg-country="US" group-title="Music",Harmony Gospel Music TV (FHD)
 https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
-#EXTINF:-1 tvg-id="HEiNow.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/HEi%20Now.png" tvg-country="PY" group-title="Music",HEi Now (FHD)
+#EXTINF:-1 tvg-id="HEiNow.py" tvg-country="PY" group-title="Music",HEi Now (FHD)
 #EXTVLCOPT:http-referrer=https://www.heinow.com.py/
 https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
-#EXTINF:-1 tvg-id="HeliconiaRadioTV.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Heliconia%20Radio%20TV.png" tvg-country="CO" group-title="Music",Heliconia Radio TV (HD)
+#EXTINF:-1 tvg-id="HeliconiaRadioTV.co" tvg-country="CO" group-title="Music",Heliconia Radio TV (HD)
 https://eu1.servers10.com:8081/8178/index.m3u8
 #EXTINF:-1 tvg-id="HellenicTV.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Hellenic%20TV.png" tvg-country="UK" group-title="Music",Hellenic TV (HD)
 https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8
-#EXTINF:-1 tvg-id="HighVisionTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/High%20Vision%20TV.png" tvg-country="US" group-title="Music",High Vision TV (FHD)
+#EXTINF:-1 tvg-id="HighVisionTV.us" tvg-country="US" group-title="Music",High Vision TV (FHD)
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
-#EXTINF:-1 tvg-id="HistoryHit.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/History%20Hit.png" tvg-country="UK" group-title="Music",History Hit (FHD)
+#EXTINF:-1 tvg-id="HistoryHit.uk" tvg-country="UK" group-title="Music",History Hit (FHD)
 https://lds-timeline-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="HitradioO3.at" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Hitradio%20O3.png" tvg-country="AT" group-title="Music",Hitradio O3 (HD)
+#EXTINF:-1 tvg-id="HitradioO3.at" tvg-country="AT" group-title="Music",Hitradio O3 (HD)
 https://studiocam-oe3.mdn.ors.at/out/u/studiocam_oe3/q6a/manifest_1.m3u8
-#EXTINF:-1 tvg-id="HMIPROMZNEWS.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/HMI%20PROMZ%20NEWS.png" tvg-country="US" group-title="Music",HMI PROMZ NEWS (HD)
+#EXTINF:-1 tvg-id="HMIPROMZNEWS.us" tvg-country="US" group-title="Music",HMI PROMZ NEWS (HD)
 https://video1.getstreamhosting.com:1936/8326/8326/playlist.m3u8
-#EXTINF:-1 tvg-id="HypeVisualRadio.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Hype%20Visual%20Radio.png" tvg-country="NL" group-title="Music",Hype Visual Radio (FHD)
+#EXTINF:-1 tvg-id="HypeVisualRadio.nl" tvg-country="NL" group-title="Music",Hype Visual Radio (FHD)
 https://streammix.alsolnet.com/hyperadio/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ImagenFM105.1.hn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Imagen%20FM%20105.1.png" tvg-country="HN" group-title="Music",Imagen FM 105.1 (HD)
+#EXTINF:-1 tvg-id="ImagenFM105.1.hn" tvg-country="HN" group-title="Music",Imagen FM 105.1 (HD)
 https://streaming.imagenfm105-1.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ImpactTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Impact%20TV.png" tvg-country="RO" group-title="Music",Impact TV (FHD)
+#EXTINF:-1 tvg-id="ImpactTV.ro" tvg-country="RO" group-title="Music",Impact TV (FHD)
 #EXTVLCOPT:http-referrer=https://tvimpact.ro/
 https://live.tvimpact.ro:8088/hevc/index.m3u8
-#EXTINF:-1 tvg-id="ImpactTVDance.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Impact%20TV%20Dance.png" tvg-country="RO" group-title="Music",Impact TV Dance (FHD)
+#EXTINF:-1 tvg-id="ImpactTVDance.ro" tvg-country="RO" group-title="Music",Impact TV Dance (FHD)
 https://online.tvimpact.live/hls/dancetv.m3u8
-#EXTINF:-1 tvg-id="ImpactTVManele.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Impact%20TV%20Manele.png" tvg-country="RO" group-title="Music",Impact TV Manele (FHD)
+#EXTINF:-1 tvg-id="ImpactTVManele.ro" tvg-country="RO" group-title="Music",Impact TV Manele (FHD)
 https://online.tvimpact.live/hls/impact_tv.m3u8
-#EXTINF:-1 tvg-id="InfinitaTV.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Infinita%20TV.png" tvg-country="EC" group-title="Music",Infinita TV (FHD)
+#EXTINF:-1 tvg-id="InfinitaTV.ec" tvg-country="EC" group-title="Music",Infinita TV (FHD)
 https://s2.tvdatta.com:3753/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="InRatingTV.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/InRating%20TV.png" tvg-country="UA" group-title="Music",InRating TV (FHD)
+#EXTINF:-1 tvg-id="InRatingTV.ua" tvg-country="UA" group-title="Music",InRating TV (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/147/index.m3u8
-#EXTINF:-1 tvg-id="INTVAustralia.au" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:AU/INTV%20Australia.png" tvg-country="AU" group-title="Music",INTV Australia (HD)
+#EXTINF:-1 tvg-id="INTVAustralia.au" tvg-country="AU" group-title="Music",INTV Australia (HD)
 http://tv1.intv.mk:1935/live/intv/index.m3u8
-#EXTINF:-1 tvg-id="IQChannel.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/IQ%20Channel.png" tvg-country="CR" group-title="Music",IQ Channel (HD)
+#EXTINF:-1 tvg-id="IQChannel.cr" tvg-country="CR" group-title="Music",IQ Channel (HD)
 https://rtmp.info/iqtv/envivo/playlist.m3u8
-#EXTINF:-1 tvg-id="IvoireChannel.ci" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ivoire%20Channel.png" tvg-country="CI" group-title="Music",Ivoire Channel (HD)
+#EXTINF:-1 tvg-id="IvoireChannel.ci" tvg-country="CI" group-title="Music",Ivoire Channel (HD)
 https://video1.getstreamhosting.com:1936/8244/8244/playlist.m3u8
-#EXTINF:-1 tvg-id="JazzTV.mk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Jazz%20TV.png" tvg-country="MK" group-title="Music",Jazz TV (FHD)
+#EXTINF:-1 tvg-id="JazzTV.mk" tvg-country="MK" group-title="Music",Jazz TV (FHD)
 https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
-#EXTINF:-1 tvg-id="JeddahRadio.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Jeddah%20Radio.png" tvg-country="SA" group-title="Music",Jeddah Radio (FHD)
+#EXTINF:-1 tvg-id="JeddahRadio.sa" tvg-country="SA" group-title="Music",Jeddah Radio (FHD)
 https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8
-#EXTINF:-1 tvg-id="JooMusic.pk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/JooMusic.png" tvg-country="PK" group-title="Music",JooMusic (HD)
+#EXTINF:-1 tvg-id="JooMusic.pk" tvg-country="PK" group-title="Music",JooMusic (HD)
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JordanSongs.jo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Jordan%20Songs.png" tvg-country="JO" group-title="Music",Jordan Songs (FHD)
+#EXTINF:-1 tvg-id="JordanSongs.jo" tvg-country="JO" group-title="Music",Jordan Songs (FHD)
 https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/Song/playlist.m3u8
-#EXTINF:-1 tvg-id="JRTVJarviradio.fi" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/JRTV%20Jarviradio.png" tvg-country="FI" group-title="Music",JRTV Jarviradio (HD)
+#EXTINF:-1 tvg-id="JRTVJarviradio.fi" tvg-country="FI" group-title="Music",JRTV Jarviradio (HD)
 https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
-#EXTINF:-1 tvg-id="K100.is" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/K100.png" tvg-country="IS" group-title="Music",K100 (FHD)
+#EXTINF:-1 tvg-id="K100.is" tvg-country="IS" group-title="Music",K100 (FHD)
 https://k100streymi.mbl.is/beint/k100/index.m3u8
-#EXTINF:-1 tvg-id="KalacTV.gn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kalac%20TV.png" tvg-country="GN" group-title="Music",Kalac TV (FHD)
+#EXTINF:-1 tvg-id="KalacTV.gn" tvg-country="GN" group-title="Music",Kalac TV (FHD)
 https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8
-#EXTINF:-1 tvg-id="KayhanTV.af" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kayhan%20TV.png" tvg-country="AF" group-title="Music",Kayhan TV (HD)
+#EXTINF:-1 tvg-id="KayhanTV.af" tvg-country="AF" group-title="Music",Kayhan TV (HD)
 https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
-#EXTINF:-1 tvg-id="KissKissNapoliTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kiss%20Kiss%20Napoli%20TV.png" tvg-country="IT" group-title="Music",Kiss Kiss Napoli TV (HD)
+#EXTINF:-1 tvg-id="KissKissNapoliTV.it" tvg-country="IT" group-title="Music",Kiss Kiss Napoli TV (HD)
 https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="KissKissTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kiss%20Kiss%20TV.png" tvg-country="IT" group-title="Music",Kiss Kiss TV (FHD)
+#EXTINF:-1 tvg-id="KissKissTV.it" tvg-country="IT" group-title="Music",Kiss Kiss TV (FHD)
 https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="KissTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kiss%20TV.png" tvg-country="RO" group-title="Music",Kiss TV (FHD)
+#EXTINF:-1 tvg-id="KissTV.ro" tvg-country="RO" group-title="Music",Kiss TV (FHD)
 https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
-#EXTINF:-1 tvg-id="KlapeiTambureTV.hr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Klape%20i%20Tambure%20TV.png" tvg-country="HR" group-title="Music",Klape i Tambure TV (FHD)
+#EXTINF:-1 tvg-id="KlapeiTambureTV.hr" tvg-country="HR" group-title="Music",Klape i Tambure TV (FHD)
 https://stream.cmctv.hr:49998/kit/live.m3u8
-#EXTINF:-1 tvg-id="KosTV.gr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kos%20TV.png" tvg-country="GR" group-title="Music",Kos TV (HD)
+#EXTINF:-1 tvg-id="KosTV.gr" tvg-country="GR" group-title="Music",Kos TV (HD)
 https://eu1.streams.gr:8081/kostv/index.m3u8
-#EXTINF:-1 tvg-id="KpopMix.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kpop%20Mix.png" tvg-country="AR" group-title="Music",Kpop Mix (HD)
+#EXTINF:-1 tvg-id="KpopMix.ar" tvg-country="AR" group-title="Music",Kpop Mix (HD)
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
-#EXTINF:-1 tvg-id="Kronehit.at" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kronehit.png" tvg-country="AT" group-title="Music",Kronehit (FHD)
+#EXTINF:-1 tvg-id="Kronehit.at" tvg-country="AT" group-title="Music",Kronehit (FHD)
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="KTVBangla.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/KTV%20Bangla.png" tvg-country="IN" group-title="Music",KTV Bangla (HD)
+#EXTINF:-1 tvg-id="KTVBangla.in" tvg-country="IN" group-title="Music",KTV Bangla (HD)
 https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
-#EXTINF:-1 tvg-id="La-X.pr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La-X.png" tvg-country="PR" group-title="Music",La-X (HD)
+#EXTINF:-1 tvg-id="La-X.pr" tvg-country="PR" group-title="Music",La-X (HD)
 https://stream.eleden.com/livelax/ngrp:livelax_all/playlist.m3u8
-#EXTINF:-1 tvg-id="La100.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20100.png" tvg-country="AR" group-title="Music",La 100 (FHD)
+#EXTINF:-1 tvg-id="La100.ar" tvg-country="AR" group-title="Music",La 100 (FHD)
 https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
-#EXTINF:-1 tvg-id="LaCaletaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Caleta%20TV.png" tvg-country="DO" group-title="Music",La Caleta TV (HD)
+#EXTINF:-1 tvg-id="LaCaletaTV.do" tvg-country="DO" group-title="Music",La Caleta TV (HD)
 https://edge.essastream.com/lacaletatv/playlist.m3u8
-#EXTINF:-1 tvg-id="LaClave.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Clave.png" tvg-country="CL" group-title="Music",La Clave (HD)
+#EXTINF:-1 tvg-id="LaClave.cl" tvg-country="CL" group-title="Music",La Clave (HD)
 https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LaFabulosaTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Fabulosa%20TV.png" tvg-country="PE" group-title="Music",La Fabulosa TV (HD)
+#EXTINF:-1 tvg-id="LaFabulosaTV.pe" tvg-country="PE" group-title="Music",La Fabulosa TV (HD)
 https://eu1.servers10.com:8081/8004/index.m3u8
-#EXTINF:-1 tvg-id="LaHoraTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Hora%20TV.png" tvg-country="DO" group-title="Music",La Hora TV (HD)
+#EXTINF:-1 tvg-id="LaHoraTV.do" tvg-country="DO" group-title="Music",La Hora TV (HD)
 https://edge.enhdtv.com/8206/index.m3u8
-#EXTINF:-1 tvg-id="LaKalle.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Kalle.png" tvg-country="CO" group-title="Music",La Kalle (HD)
+#EXTINF:-1 tvg-id="LaKalle.co" tvg-country="CO" group-title="Music",La Kalle (HD)
 https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8
-#EXTINF:-1 tvg-id="LaMoradaRadioTV.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Morada%20Radio%20TV.png" tvg-country="CO" group-title="Music",La Morada Radio TV (HD)
+#EXTINF:-1 tvg-id="LaMoradaRadioTV.co" tvg-country="CO" group-title="Music",La Morada Radio TV (HD)
 https://movil.ejeserver.com/live/lamoradatv.m3u8
-#EXTINF:-1 tvg-id="LandleTV.at" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Landle%20TV.png" tvg-country="AT" group-title="Music",Landle TV (FHD)
+#EXTINF:-1 tvg-id="LandleTV.at" tvg-country="AT" group-title="Music",Landle TV (FHD)
 https://streaming13.huberwebmedia.at/LiveApp/streams/985585225397790082777809.m3u8
-#EXTINF:-1 tvg-id="LaoNetTV.la" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Lao%20Net%20TV.png" tvg-country="LA" group-title="Music",Lao Net TV (HD)
+#EXTINF:-1 tvg-id="LaoNetTV.la" tvg-country="LA" group-title="Music",Lao Net TV (HD)
 https://livefta.malimarcdn.com/ftaedge00/laonet.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="LaPerlaRadioTV.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Perla%20Radio%20TV.png" tvg-country="EC" group-title="Music",La Perla Radio TV (HD)
+#EXTINF:-1 tvg-id="LaPerlaRadioTV.ec" tvg-country="EC" group-title="Music",La Perla Radio TV (HD)
 https://eu1.servers10.com:8081/8068/index.m3u8
-#EXTINF:-1 tvg-id="LatinZone.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Latin%20Zone.png" tvg-country="US" group-title="Music",Latin Zone (HD)
+#EXTINF:-1 tvg-id="LatinZone.us" tvg-country="US" group-title="Music",Latin Zone (HD)
 https://cdn.streamingcpanel.com:3784/live/latinzonetvlive.m3u8
-#EXTINF:-1 tvg-id="LaTop102.9.hn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Top%20102.9.png" tvg-country="HN" group-title="Music",La Top 102.9 (HD)
+#EXTINF:-1 tvg-id="LaTop102.9.hn" tvg-country="HN" group-title="Music",La Top 102.9 (HD)
 https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
-#EXTINF:-1 tvg-id="LaTop107.7.hn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/La%20Top%20107.7.png" tvg-country="HN" group-title="Music",La Top 107.7 (HD)
+#EXTINF:-1 tvg-id="LaTop107.7.hn" tvg-country="HN" group-title="Music",La Top 107.7 (HD)
 https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
-#EXTINF:-1 tvg-id="Lausitzwelle.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Lausitzwelle.png" tvg-country="DE" group-title="Music",Lausitzwelle (FHD)
+#EXTINF:-1 tvg-id="Lausitzwelle.de" tvg-country="DE" group-title="Music",Lausitzwelle (FHD)
 https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
-#EXTINF:-1 tvg-id="LiraTV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/LiraTV.png" tvg-country="ES" group-title="Music",LiraTV (HD)
+#EXTINF:-1 tvg-id="LiraTV.es" tvg-country="ES" group-title="Music",LiraTV (HD)
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
-#EXTINF:-1 tvg-id="LittleGuyanaTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Little%20Guyana%20TV.png" tvg-country="US" group-title="Music",Little Guyana TV (FHD)
+#EXTINF:-1 tvg-id="LittleGuyanaTV.us" tvg-country="US" group-title="Music",Little Guyana TV (FHD)
 https://video1.getstreamhosting.com:1936/8122/8122/playlist.m3u8
-#EXTINF:-1 tvg-id="LittoralFMTV.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Littoral%20FM%20TV.png" tvg-country="FR" group-title="Music",Littoral FM TV (HD)
+#EXTINF:-1 tvg-id="LittoralFMTV.fr" tvg-country="FR" group-title="Music",Littoral FM TV (HD)
 https://live.creacast.com/littoralfm-ch1/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="Live99FM.bq" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Live99FM.png" tvg-country="BQ" group-title="Music",Live99FM (FHD)
+#EXTINF:-1 tvg-id="Live99FM.bq" tvg-country="BQ" group-title="Music",Live99FM (FHD)
 https://media.streambrothers.com:1936/8014/8014/playlist.m3u8
-#EXTINF:-1 tvg-id="LIVExLIVE.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/LIVExLIVE.png" tvg-country="US" group-title="Music",LIVExLIVE (FHD)
+#EXTINF:-1 tvg-id="LIVExLIVE.us" tvg-country="US" group-title="Music",LIVExLIVE (FHD)
 https://livestream.liveone.com/lc1/p1.m3u8
-#EXTINF:-1 tvg-id="LoboTV.mx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Lobo%20TV.png" tvg-country="MX" group-title="Music",Lobo TV (HD)
+#EXTINF:-1 tvg-id="LoboTV.mx" tvg-country="MX" group-title="Music",Lobo TV (HD)
 https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
-#EXTINF:-1 tvg-id="LookThoongTV.la" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Look%20Thoong%20TV.png" tvg-country="LA" group-title="Music",Look Thoong TV (HD)
+#EXTINF:-1 tvg-id="LookThoongTV.la" tvg-country="LA" group-title="Music",Look Thoong TV (HD)
 https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="LoveTV.mk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Love%20TV.png" tvg-country="MK" group-title="Music",Love TV (FHD)
+#EXTINF:-1 tvg-id="LoveTV.mk" tvg-country="MK" group-title="Music",Love TV (FHD)
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
-#EXTINF:-1 tvg-id="M1.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/M1.png" tvg-country="UA" group-title="Music",M1 (FHD)
+#EXTINF:-1 tvg-id="M1.ua" tvg-country="UA" group-title="Music",M1 (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/218/index.m3u8
-#EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/M2.png" tvg-country="UA" group-title="Music",M2 (FHD)
+#EXTINF:-1 tvg-id="M2.ua" tvg-country="UA" group-title="Music",M2 (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/330/index.m3u8
-#EXTINF:-1 tvg-id="m2oTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/m2o%20TV.png" tvg-country="IT" group-title="Music",m2o TV (FHD)
+#EXTINF:-1 tvg-id="m2oTV.it" tvg-country="IT" group-title="Music",m2o TV (FHD)
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
-#EXTINF:-1 tvg-id="MadrasFMTV.gp" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Madras%20FM%20TV.png" tvg-country="GP" group-title="Music",Madras FM TV (FHD)
+#EXTINF:-1 tvg-id="MadrasFMTV.gp" tvg-country="GP" group-title="Music",Madras FM TV (FHD)
 https://edge12.vedge.infomaniak.com/livecast/ik:madrasfmtv/manifest.m3u8
-#EXTINF:-1 tvg-id="MagicTV.bg" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Magic%20TV.png" tvg-country="BG" group-title="Music",Magic TV (HD)
+#EXTINF:-1 tvg-id="MagicTV.bg" tvg-country="BG" group-title="Music",Magic TV (HD)
 https://bss1.neterra.tv/magictv/magictv.m3u8
-#EXTINF:-1 tvg-id="MagicTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Magic%20TV.png" tvg-country="RO" group-title="Music",Magic TV (HD)
+#EXTINF:-1 tvg-id="MagicTV.ro" tvg-country="RO" group-title="Music",Magic TV (HD)
 https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8
-#EXTINF:-1 tvg-id="MagnaChannel.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Magna%20Channel.png" tvg-country="ID" group-title="Music",Magna Channel (FHD)
+#EXTINF:-1 tvg-id="MagnaChannel.id" tvg-country="ID" group-title="Music",Magna Channel (FHD)
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Maidan.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Maidan.png" tvg-country="RU" group-title="Music",Maidan (HD)
+#EXTINF:-1 tvg-id="Maidan.ru" tvg-country="RU" group-title="Music",Maidan (HD)
 https://live-maidantv.cdnvideo.ru/maidantv/maidantv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="MaimonTVCanal3.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Maimon%20TV%20Canal%203.png" tvg-country="DO" group-title="Music",Maimon TV Canal 3 (HD)
+#EXTINF:-1 tvg-id="MaimonTVCanal3.do" tvg-country="DO" group-title="Music",Maimon TV Canal 3 (HD)
 https://tele-stream.telecasa.net/live/st3/maimontv-hd/index.m3u8
-#EXTINF:-1 tvg-id="MajidAlMohandis.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Majid%20Al%20Mohandis.png" tvg-country="SA" group-title="Music",Majid Al Mohandis (FHD)
+#EXTINF:-1 tvg-id="MajidAlMohandis.sa" tvg-country="SA" group-title="Music",Majid Al Mohandis (FHD)
 https://shd-amg-fast.edgenextcdn.net/tx019/playlist.m3u8
-#EXTINF:-1 tvg-id="MakinaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Makina%20TV.png" tvg-country="DO" group-title="Music",Makina TV (HD)
+#EXTINF:-1 tvg-id="MakinaTV.do" tvg-country="DO" group-title="Music",Makina TV (HD)
 https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8
-#EXTINF:-1 tvg-id="MamerTV.lu" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Mamer%20TV.png" tvg-country="LU" group-title="Music",Mamer TV (FHD)
+#EXTINF:-1 tvg-id="MamerTV.lu" tvg-country="LU" group-title="Music",Mamer TV (FHD)
 https://streamer20.multimedia.blue/Eltrona/MamerTV/playlist.m3u8
-#EXTINF:-1 tvg-id="MarinaTV.kw" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Marina%20TV.png" tvg-country="KW" group-title="Music",Marina TV (FHD)
+#EXTINF:-1 tvg-id="MarinaTV.kw" tvg-country="KW" group-title="Music",Marina TV (FHD)
 https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8
-#EXTINF:-1 tvg-id="MasFM.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Mas%20FM.png" tvg-country="AR" group-title="Music",Mas FM (HD)
+#EXTINF:-1 tvg-id="MasFM.ar" tvg-country="AR" group-title="Music",Mas FM (HD)
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
-#EXTINF:-1 tvg-id="MasMusicaFM.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/MasMusica%20FM.png" tvg-country="CO" group-title="Music",MasMusica FM (HD)
+#EXTINF:-1 tvg-id="MasMusicaFM.co" tvg-country="CO" group-title="Music",MasMusica FM (HD)
 https://movil.ejeserver.com/live/masmusica.m3u8
-#EXTINF:-1 tvg-id="MaturTV.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Matur%20TV.png" tvg-country="RU" group-title="Music",Matur TV (FHD)
+#EXTINF:-1 tvg-id="MaturTV.ru" tvg-country="RU" group-title="Music",Matur TV (FHD)
 https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-#EXTINF:-1 tvg-id="MBCAmerica.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MBC%20America.png" tvg-country="US" group-title="Music",MBC America (FHD)
+#EXTINF:-1 tvg-id="MBCAmerica.us" tvg-country="US" group-title="Music",MBC America (FHD)
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
-#EXTINF:-1 tvg-id="MBCFM.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/MBC%20FM.png" tvg-country="AE" group-title="Music",MBC FM (FHD)
+#EXTINF:-1 tvg-id="MBCFM.ae" tvg-country="AE" group-title="Music",MBC FM (FHD)
 https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
-#EXTINF:-1 tvg-id="MBCLoud.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/MBC%20Loud.png" tvg-country="SA" group-title="Music",MBC Loud (FHD)
+#EXTINF:-1 tvg-id="MBCLoud.sa" tvg-country="SA" group-title="Music",MBC Loud (FHD)
 https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8
-#EXTINF:-1 tvg-id="MBCMood.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/MBC%20Mood.png" tvg-country="SA" group-title="Music",MBC Mood (FHD)
+#EXTINF:-1 tvg-id="MBCMood.sa" tvg-country="SA" group-title="Music",MBC Mood (FHD)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8
-#EXTINF:-1 tvg-id="MCN6MusicChannel.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MCN6%20Music%20Channel.png" tvg-country="US" group-title="Music",MCN6 Music Channel (FHD)
+#EXTINF:-1 tvg-id="MCN6MusicChannel.us" tvg-country="US" group-title="Music",MCN6 Music Channel (FHD)
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
-#EXTINF:-1 tvg-id="MelodyFM.jo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Melody%20FM.png" tvg-country="JO" group-title="Music",Melody FM (HD)
+#EXTINF:-1 tvg-id="MelodyFM.jo" tvg-country="JO" group-title="Music",Melody FM (HD)
 https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8
-#EXTINF:-1 tvg-id="MessatidaTV.gr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Messatida%20TV.png" tvg-country="GR" group-title="Music",Messatida TV (HD)
+#EXTINF:-1 tvg-id="MessatidaTV.gr" tvg-country="GR" group-title="Music",Messatida TV (HD)
 https://rtmp.streams.ovh:8081/mtv/index.m3u8
-#EXTINF:-1 tvg-id="MetropolaTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Metropola%20TV.png" tvg-country="RO" group-title="Music",Metropola TV (FHD)
+#EXTINF:-1 tvg-id="MetropolaTV.ro" tvg-country="RO" group-title="Music",Metropola TV (FHD)
 https://www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8
-#EXTINF:-1 tvg-id="MetropoliMediosTV.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Metropoli%20Medios%20TV.png" tvg-country="EC" group-title="Music",Metropoli Medios TV (HD)
+#EXTINF:-1 tvg-id="MetropoliMediosTV.ec" tvg-country="EC" group-title="Music",Metropoli Medios TV (HD)
 https://eu1.servers10.com:8081/8214/index.m3u8
 #EXTINF:-1 tvg-id="Mezzo.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Mezzo.png" tvg-country="FR" group-title="Music",Mezzo (FHD)
 https://live-3.otcnet.ru/Mezzo/index.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Mezzo%20Live.png" tvg-country="FR" group-title="Music",Mezzo Live (FHD)
 http://stream.mcquack.net/276/index.m3u8
-#EXTINF:-1 tvg-id="Mh1Music.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Mh%201%20Music.png" tvg-country="IN" group-title="Music",Mh 1 Music (HD)
+#EXTINF:-1 tvg-id="Mh1Music.in" tvg-country="IN" group-title="Music",Mh 1 Music (HD)
 https://livestream.jswk.online/playlisttest/live/playlist.m3u8
-#EXTINF:-1 tvg-id="MielTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Miel%20TV.png" tvg-country="PE" group-title="Music",Miel TV (HD)
+#EXTINF:-1 tvg-id="MielTV.pe" tvg-country="PE" group-title="Music",Miel TV (HD)
 https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="MiGenteTV.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Mi%20Gente%20TV.png" tvg-country="CO" group-title="Music",Mi Gente TV (HD)
+#EXTINF:-1 tvg-id="MiGenteTV.co" tvg-country="CO" group-title="Music",Mi Gente TV (HD)
 https://byecableiptvnew3.ddns.net/ENVIVOMIGENTE/video.m3u8
-#EXTINF:-1 tvg-id="Mijas3.40TV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Mijas%203.40TV.png" tvg-country="ES" group-title="Music",Mijas 3.40TV (HD)
+#EXTINF:-1 tvg-id="Mijas3.40TV.es" tvg-country="ES" group-title="Music",Mijas 3.40TV (HD)
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
-#EXTINF:-1 tvg-id="MontonesTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Montones%20TV.png" tvg-country="DO" group-title="Music",Montones TV (FHD)
+#EXTINF:-1 tvg-id="MontonesTV.do" tvg-country="DO" group-title="Music",Montones TV (FHD)
 https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
-#EXTINF:-1 tvg-id="MosaiqueFM.tn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Mosaique%20FM.png" tvg-country="TN" group-title="Music",Mosaique FM (FHD)
+#EXTINF:-1 tvg-id="MosaiqueFM.tn" tvg-country="TN" group-title="Music",Mosaique FM (FHD)
 https://webcam.mosaiquefm.net/mosatv/_definst_/studio/playlist.m3u8?DVR
-#EXTINF:-1 tvg-id="MovieMusicbyStingray.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Movie%20Music%20by%20Stingray.png" tvg-country="CA" group-title="Music",Movie Music by Stingray (FHD)
+#EXTINF:-1 tvg-id="MovieMusicbyStingray.ca" tvg-country="CA" group-title="Music",Movie Music by Stingray (FHD)
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="MTVGuyana.gy" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/MTV%20Guyana.png" tvg-country="GY" group-title="Music",MTV Guyana (FHD)
+#EXTINF:-1 tvg-id="MTVGuyana.gy" tvg-country="GY" group-title="Music",MTV Guyana (FHD)
 https://stream.mtvgy.com/mtvguyana/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="MTVVolgograd.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/MTV%20Volgograd.png" tvg-country="RU" group-title="Music",MTV Volgograd (HD)
+#EXTINF:-1 tvg-id="MTVVolgograd.ru" tvg-country="RU" group-title="Music",MTV Volgograd (HD)
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="MusicIndia.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Music%20India.png" tvg-country="IN" group-title="Music",Music India (HD)
+#EXTINF:-1 tvg-id="MusicIndia.in" tvg-country="IN" group-title="Music",Music India (HD)
 https://cdn.pishow.tv/ott/live/226/master.m3u8
-#EXTINF:-1 tvg-id="MusicInformationChannel.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Music%20Information%20Channel.png" tvg-country="ID" group-title="Music",Music Information Channel (HD)
+#EXTINF:-1 tvg-id="MusicInformationChannel.id" tvg-country="ID" group-title="Music",Music Information Channel (HD)
 #EXTVLCOPT:http-referrer=https://mic-indo.com/live
 https://mic.siar.us/mic/live/mic.m3u8
-#EXTINF:-1 tvg-id="MusicTVGranada.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Music%20TV%20Granada.png" tvg-country="ES" group-title="Music",Music TV Granada (FHD)
+#EXTINF:-1 tvg-id="MusicTVGranada.es" tvg-country="ES" group-title="Music",Music TV Granada (FHD)
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
-#EXTINF:-1 tvg-id="MuzangalaTV.ao" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Muzangala%20TV.png" tvg-country="AO" group-title="Music",Muzangala TV (FHD)
+#EXTINF:-1 tvg-id="MuzangalaTV.ao" tvg-country="AO" group-title="Music",Muzangala TV (FHD)
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
-#EXTINF:-1 tvg-id="myx.ph" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/myx.png" tvg-country="PH" group-title="Music",myx (FHD)
+#EXTINF:-1 tvg-id="myx.ph" tvg-country="PH" group-title="Music",myx (FHD)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/index.mpd
-#EXTINF:-1 tvg-id="NavahangTV.fi" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Navahang%20TV.png" tvg-country="FI" group-title="Music",Navahang TV (HD)
+#EXTINF:-1 tvg-id="NavahangTV.fi" tvg-country="FI" group-title="Music",Navahang TV (HD)
 https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="NavarreteTelevision.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Navarrete%20Television.png" tvg-country="DO" group-title="Music",Navarrete Television (FHD)
+#EXTINF:-1 tvg-id="NavarreteTelevision.do" tvg-country="DO" group-title="Music",Navarrete Television (FHD)
 https://cnn.hostlagarto.com/ntvnavarrete/index.m3u8
-#EXTINF:-1 tvg-id="NEWK-POP.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NEW%20K-POP.png" tvg-country="US" group-title="Music",NEW K-POP (FHD)
+#EXTINF:-1 tvg-id="NEWK-POP.us" tvg-country="US" group-title="Music",NEW K-POP (FHD)
 https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus
-#EXTINF:-1 tvg-id="NgheAnTV.vn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Nghe%20An%20TV.png" tvg-country="VN" group-title="Music",Nghe An TV (FHD)
+#EXTINF:-1 tvg-id="NgheAnTV.vn" tvg-country="VN" group-title="Music",Nghe An TV (FHD)
 https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8
-#EXTINF:-1 tvg-id="NidaeAlIslamRadio.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Nidae%20AlIslam%20Radio.png" tvg-country="SA" group-title="Music",Nidae AlIslam Radio (FHD)
+#EXTINF:-1 tvg-id="NidaeAlIslamRadio.sa" tvg-country="SA" group-title="Music",Nidae AlIslam Radio (FHD)
 https://live.kwikmotion.com/sbrksanedaradiolive/srpksanedaradio/playlist.m3u8
 #EXTINF:-1 tvg-id="Now70s.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Now%2070s.png" tvg-country="UK" group-title="Music",Now 70s (HD)
 https://lightning-now70s-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Now80s.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Now%2080s.png" tvg-country="UK" group-title="Music",Now 80s (FHD)
 https://lightningnow80-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="Now90s00s.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Now%2090s00s.png" tvg-country="UK" group-title="Music",Now 90s00s (FHD)
+#EXTINF:-1 tvg-id="Now90s00s.uk" tvg-country="UK" group-title="Music",Now 90s00s (FHD)
 https://amg01076-amg01076c19-samsung-gb-6683.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-samsunggb/playlist.m3u8
-#EXTINF:-1 tvg-id="NOWRock.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/NOW%20Rock.png" tvg-country="UK" group-title="Music",NOW Rock (FHD)
+#EXTINF:-1 tvg-id="NOWRock.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Now%20Rock.png" tvg-country="UK" group-title="Music",NOW Rock (FHD)
 https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NSTV.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/NSTV.png" tvg-country="CO" group-title="Music",NSTV (FHD)
+#EXTINF:-1 tvg-id="NSTV.co" tvg-country="CO" group-title="Music",NSTV (FHD)
 https://sistemastr.tropicalmoonmedia.com/live/2C7CA6CECC9B8F8C3A07315FDA110936/21.m3u8
-#EXTINF:-1 tvg-id="NuevaVidaFM.pr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Nueva%20Vida%20FM.png" tvg-country="PR" group-title="Music",Nueva Vida FM (HD)
+#EXTINF:-1 tvg-id="NuevaVidaFM.pr" tvg-country="PR" group-title="Music",Nueva Vida FM (HD)
 https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8
-#EXTINF:-1 tvg-id="Number1Ask.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Number%201%20Ask.png" tvg-country="TR" group-title="Music",Number 1 Ask (HD)
+#EXTINF:-1 tvg-id="Number1Ask.tr" tvg-country="TR" group-title="Music",Number 1 Ask (HD)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Damar.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Number%201%20Damar.png" tvg-country="TR" group-title="Music",Number 1 Damar (HD)
+#EXTINF:-1 tvg-id="Number1Damar.tr" tvg-country="TR" group-title="Music",Number 1 Damar (HD)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e198784bdc_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1Dance.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Number%201%20Dance.png" tvg-country="TR" group-title="Music",Number 1 Dance (HD)
+#EXTINF:-1 tvg-id="Number1Dance.tr" tvg-country="TR" group-title="Music",Number 1 Dance (HD)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2aa8acf44_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Number1TV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Number%201%20TV.png" tvg-country="TR" group-title="Music",Number 1 TV (HD)
+#EXTINF:-1 tvg-id="Number1TV.tr" tvg-country="TR" group-title="Music",Number 1 TV (HD)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="OmroepBrabantRadio.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Omroep%20Brabant%20Radio.png" tvg-country="NL" group-title="Music",Omroep Brabant Radio (FHD)
+#EXTINF:-1 tvg-id="OmroepBrabantRadio.nl" tvg-country="NL" group-title="Music",Omroep Brabant Radio (FHD)
 https://d3slqp9xhts6qb.cloudfront.net/live/omroepbrabant/visualradio/index.m3u8
-#EXTINF:-1 tvg-id="OndaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Onda%20TV.png" tvg-country="DO" group-title="Music",Onda TV (HD)
+#EXTINF:-1 tvg-id="OndaTV.do" tvg-country="DO" group-title="Music",Onda TV (HD)
 https://cnn.hostlagarto.com/ondatv/index.m3u8
-#EXTINF:-1 tvg-id="OndaValenciaTV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Onda%20Valencia%20TV.png" tvg-country="ES" group-title="Music",Onda Valencia TV (HD)
+#EXTINF:-1 tvg-id="OndaValenciaTV.es" tvg-country="ES" group-title="Music",Onda Valencia TV (HD)
 https://cloudvideo.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="OneFM.lb" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/OneFM.png" tvg-country="LB" group-title="Music",OneFM (HD)
+#EXTINF:-1 tvg-id="OneFM.lb" tvg-country="LB" group-title="Music",OneFM (HD)
 https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8
-#EXTINF:-1 tvg-id="OneTV.lb" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/One%20TV.png" tvg-country="LB" group-title="Music",One TV (HD)
+#EXTINF:-1 tvg-id="OneTV.lb" tvg-country="LB" group-title="Music",One TV (HD)
 https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8
-#EXTINF:-1 tvg-id="ONFM.pt" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ON%20FM.png" tvg-country="PT" group-title="Music",ON FM (HD)
+#EXTINF:-1 tvg-id="ONFM.pt" tvg-country="PT" group-title="Music",ON FM (HD)
 https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="OrangeBanglaTV.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Orange%20Bangla%20TV.png" tvg-country="IN" group-title="Music",Orange Bangla TV (HD)
+#EXTINF:-1 tvg-id="OrangeBanglaTV.in" tvg-country="IN" group-title="Music",Orange Bangla TV (HD)
 https://cdn.pishow.tv/ott/live/1499/master.m3u8
-#EXTINF:-1 tvg-id="P2MTV.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/P2M%20TV.png" tvg-country="FR" group-title="Music",P2M TV (HD)
+#EXTINF:-1 tvg-id="P2MTV.fr" tvg-country="FR" group-title="Music",P2M TV (HD)
 https://vdo2.pro-fhi.net:3207/stream/play.m3u8
-#EXTINF:-1 tvg-id="PamirTV.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Pamir%20TV.png" tvg-country="CA" group-title="Music",Pamir TV (FHD)
+#EXTINF:-1 tvg-id="PamirTV.ca" tvg-country="CA" group-title="Music",Pamir TV (FHD)
 http://live.stream.cdn.pamirtv.com/ptv/d0dbe915091d400bd8ee7f27f0791303.sdp/index.m3u8
-#EXTINF:-1 tvg-id="PanikTV.gr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Panik%20TV.png" tvg-country="GR" group-title="Music",Panik TV (FHD)
+#EXTINF:-1 tvg-id="PanikTV.gr" tvg-country="GR" group-title="Music",Panik TV (FHD)
 https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
-#EXTINF:-1 tvg-id="PanoramaFM.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Panorama%20FM.png" tvg-country="SA" group-title="Music",Panorama FM (FHD)
+#EXTINF:-1 tvg-id="PanoramaFM.sa" tvg-country="SA" group-title="Music",Panorama FM (FHD)
 https://d6izdil55uftn.cloudfront.net/out/v1/0a06d1d6377c47edbd48721ed724bd08/index.m3u8
-#EXTINF:-1 tvg-id="ParrandaVallenata.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Parranda%20Vallenata.png" tvg-country="CO" group-title="Music",Parranda Vallenata (HD)
+#EXTINF:-1 tvg-id="ParrandaVallenata.co" tvg-country="CO" group-title="Music",Parranda Vallenata (HD)
 https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
-#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Patagonia%20Radio%20TV.png" tvg-country="CL" group-title="Music",Patagonia Radio TV (HD)
+#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl" tvg-country="CL" group-title="Music",Patagonia Radio TV (HD)
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
-#EXTINF:-1 tvg-id="Pauta.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Pauta.png" tvg-country="CL" group-title="Music",Pauta (FHD)
+#EXTINF:-1 tvg-id="Pauta.cl" tvg-country="CL" group-title="Music",Pauta (FHD)
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PeppersTV.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Peppers%20TV.png" tvg-country="IN" group-title="Music",Peppers TV (HD)
+#EXTINF:-1 tvg-id="PeppersTV.in" tvg-country="IN" group-title="Music",Peppers TV (HD)
 https://cdn.pishow.tv/ott/live/1383/master.m3u8
-#EXTINF:-1 tvg-id="Planet100.9FM.pa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Planet%20100.9%20FM.png" tvg-country="PA" group-title="Music",Planet 100.9 FM (FHD)
+#EXTINF:-1 tvg-id="Planet100.9FM.pa" tvg-country="PA" group-title="Music",Planet 100.9 FM (FHD)
 https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
-#EXTINF:-1 tvg-id="PlayTV.cm" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Play%20TV.png" tvg-country="CM" group-title="Music",Play TV (HD)
+#EXTINF:-1 tvg-id="PlayTV.cm" tvg-country="CM" group-title="Music",Play TV (HD)
 http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
-#EXTINF:-1 tvg-id="PMCRoyale.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PMC%20Royale.png" tvg-country="AE" group-title="Music",PMC Royale (FHD)
+#EXTINF:-1 tvg-id="PMCRoyale.ae" tvg-country="AE" group-title="Music",PMC Royale (FHD)
 https://pmcrohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PoloTV.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Polo%20TV.png" tvg-country="PL" group-title="Music",Polo TV (FHD)
+#EXTINF:-1 tvg-id="PoloTV.pl" tvg-country="PL" group-title="Music",Polo TV (FHD)
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19170/index.m3u8
-#EXTINF:-1 tvg-id="POPWorldTV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/POP%20World%20TV.png" tvg-country="ES" group-title="Music",POP World TV (HD)
+#EXTINF:-1 tvg-id="POPWorldTV.es" tvg-country="ES" group-title="Music",POP World TV (HD)
 https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
-#EXTINF:-1 tvg-id="Power101.7FM.aw" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Power%20101.7%20FM.png" tvg-country="AW" group-title="Music",Power 101.7 FM (HD)
+#EXTINF:-1 tvg-id="Power101.7FM.aw" tvg-country="AW" group-title="Music",Power 101.7 FM (HD)
 https://vcp11.myplaytv.com/powerfm/powerfm/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerDance.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Power%20Dance.png" tvg-country="TR" group-title="Music",Power Dance (FHD)
+#EXTINF:-1 tvg-id="PowerDance.tr" tvg-country="TR" group-title="Music",Power Dance (FHD)
 https://livetv.powerapp.com.tr/dance/dance.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerLove.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Power%20Love.png" tvg-country="TR" group-title="Music",Power Love (FHD)
+#EXTINF:-1 tvg-id="PowerLove.tr" tvg-country="TR" group-title="Music",Power Love (FHD)
 https://livetv.powerapp.com.tr/plove/love.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PowerTurk%20Akustik.png" tvg-country="TR" group-title="Music",PowerTurk Akustik (FHD)
+#EXTINF:-1 tvg-id="PowerTurkAkustik.tr" tvg-country="TR" group-title="Music",PowerTurk Akustik (FHD)
 https://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkSlow.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PowerTurk%20Slow.png" tvg-country="TR" group-title="Music",PowerTurk Slow (FHD)
+#EXTINF:-1 tvg-id="PowerTurkSlow.tr" tvg-country="TR" group-title="Music",PowerTurk Slow (FHD)
 https://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PowerTurk%20Taptaze.png" tvg-country="TR" group-title="Music",PowerTurk Taptaze (FHD)
+#EXTINF:-1 tvg-id="PowerTurkTaptaze.tr" tvg-country="TR" group-title="Music",PowerTurk Taptaze (FHD)
 https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PowerTurk%20TV.png" tvg-country="TR" group-title="Music",PowerTurk TV (FHD)
+#EXTINF:-1 tvg-id="PowerTurkTV.tr" tvg-country="TR" group-title="Music",PowerTurk TV (FHD)
 https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="PrarthanaTV.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Prarthana%20TV.png" tvg-country="IN" group-title="Music",Prarthana TV (HD)
+#EXTINF:-1 tvg-id="PrarthanaTV.in" tvg-country="IN" group-title="Music",Prarthana TV (HD)
 https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
-#EXTINF:-1 tvg-id="PravasiChannel.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Pravasi%20Channel.png" tvg-country="IN" group-title="Music",Pravasi Channel (FHD)
+#EXTINF:-1 tvg-id="PravasiChannel.in" tvg-country="IN" group-title="Music",Pravasi Channel (FHD)
 https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PRIDEtv%20LATAM.png" tvg-country="CL" group-title="Music",PRIDEtv LATAM (FHD)
+#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl" tvg-country="CL" group-title="Music",PRIDEtv LATAM (FHD)
 https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
-#EXTINF:-1 tvg-id="PTCChakde.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PTC%20Chakde.png" tvg-country="IN" group-title="Music",PTC Chakde (HD)
+#EXTINF:-1 tvg-id="PTCChakde.in" tvg-country="IN" group-title="Music",PTC Chakde (HD)
 https://cdn.pishow.tv/ott/live/449/master.m3u8
-#EXTINF:-1 tvg-id="PTCMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PTC%20Music.png" tvg-country="IN" group-title="Music",PTC Music (HD)
+#EXTINF:-1 tvg-id="PTCMusic.in" tvg-country="IN" group-title="Music",PTC Music (HD)
 https://d2lk5u59tns74c.cloudfront.net/out/v1/f913cf893c594f73b114216e74a2efbc/index.m3u8
-#EXTINF:-1 tvg-id="PublicMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Public%20Music.png" tvg-country="IN" group-title="Music",Public Music (HD)
+#EXTINF:-1 tvg-id="PublicMusic.in" tvg-logo="https://upload.wikimedia.org/wikipedia/en/3/35/Public_Music_Kannada_Channel_Logo.jpg" tvg-country="IN" group-title="Music",Public Music (HD)
 https://cdn.pishow.tv/ott/live/441/master.m3u8
-#EXTINF:-1 tvg-id="Pulse95Radio.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Pulse95%20Radio.png" tvg-country="AE" group-title="Music",Pulse95 Radio (FHD)
+#EXTINF:-1 tvg-id="Pulse95Radio.ae" tvg-country="AE" group-title="Music",Pulse95 Radio (FHD)
 https://svs.itworkscdn.net/pulse95live/pulse96/playlist.m3u8
-#EXTINF:-1 tvg-id="PunjabiHits.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Punjabi%20Hits.png" tvg-country="IN" group-title="Music",Punjabi Hits (FHD)
+#EXTINF:-1 tvg-id="PunjabiHits.in" tvg-country="IN" group-title="Music",Punjabi Hits (FHD)
 https://stream.ottlive.co.in/punjabihits/index.m3u8
-#EXTINF:-1 tvg-id="Qaraqalpaqstan.uz" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Qaraqalpaqstan.png" tvg-country="UZ" group-title="Music",Qaraqalpaqstan (HD)
+#EXTINF:-1 tvg-id="Qaraqalpaqstan.uz" tvg-country="UZ" group-title="Music",Qaraqalpaqstan (HD)
 https://stream8.cinerama.uz/1467/playlist.m3u8
-#EXTINF:-1 tvg-id="QelloConcertsbyStingray.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Qello%20Concerts%20by%20Stingray.png" tvg-country="CA" group-title="Music",Qello Concerts by Stingray (FHD)
+#EXTINF:-1 tvg-id="QelloConcertsbyStingray.ca" tvg-country="CA" group-title="Music",Qello Concerts by Stingray (FHD)
 https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="Qmusic.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Qmusic.png" tvg-country="NL" group-title="Music",Qmusic (HD)
+#EXTINF:-1 tvg-id="Qmusic.nl" tvg-country="NL" group-title="Music",Qmusic (HD)
 https://stream.qmusic.nl/qmusic/videohls.m3u8
-#EXTINF:-1 tvg-id="QollasuyoTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Qollasuyo%20TV.png" tvg-country="PE" group-title="Music",Qollasuyo TV (HD)
+#EXTINF:-1 tvg-id="QollasuyoTV.pe" tvg-country="PE" group-title="Music",Qollasuyo TV (HD)
 https://live-evg5.tv360.bitel.com.pe/bitel/qollasuyotv/playlist.m3u8
-#EXTINF:-1 tvg-id="QTVGambia.gm" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/QTV%20Gambia.png" tvg-country="GM" group-title="Music",QTV Gambia (HD)
+#EXTINF:-1 tvg-id="QTVGambia.gm" tvg-country="GM" group-title="Music",QTV Gambia (HD)
 https://player.qtv.gm/hls/live.stream.m3u8
-#EXTINF:-1 tvg-id="QwestTV.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Qwest%20TV.png" tvg-country="FR" group-title="Music",Qwest TV (FHD)
+#EXTINF:-1 tvg-id="QwestTV.fr" tvg-country="FR" group-title="Music",Qwest TV (FHD)
 https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
-#EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Qwest%20TV%20Jazz%20%26%20Beyond.png" tvg-country="FR" group-title="Music",Qwest TV Jazz & Beyond (FHD)
+#EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr" tvg-country="FR" group-title="Music",Qwest TV Jazz & Beyond (FHD)
 https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RabehSaqer.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rabeh%20Saqer.png" tvg-country="SA" group-title="Music",Rabeh Saqer (FHD)
+#EXTINF:-1 tvg-id="RabehSaqer.sa" tvg-country="SA" group-title="Music",Rabeh Saqer (FHD)
 https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8
-#EXTINF:-1 tvg-id="RadarTasikmalayaTV.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radar%20Tasikmalaya%20TV.png" tvg-country="ID" group-title="Music",Radar Tasikmalaya TV (HD)
+#EXTINF:-1 tvg-id="RadarTasikmalayaTV.id" tvg-country="ID" group-title="Music",Radar Tasikmalaya TV (HD)
 https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Radio10.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%2010.png" tvg-country="NL" group-title="Music",Radio 10 (HD)
+#EXTINF:-1 tvg-id="Radio10.nl" tvg-country="NL" group-title="Music",Radio 10 (HD)
 https://radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index.m3u8
-#EXTINF:-1 tvg-id="Radio3i.ch" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%203i.png" tvg-country="CH" group-title="Music",Radio 3i (HD)
+#EXTINF:-1 tvg-id="Radio3i.ch" tvg-country="CH" group-title="Music",Radio 3i (HD)
 https://vstream-cdn.ch/hls/radio3i.m3u8
-#EXTINF:-1 tvg-id="RadioAalsmeerTV.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Aalsmeer%20TV.png" tvg-country="NL" group-title="Music",Radio Aalsmeer TV (HD)
+#EXTINF:-1 tvg-id="RadioAalsmeerTV.nl" tvg-country="NL" group-title="Music",Radio Aalsmeer TV (HD)
 https://radioaalsmeer.nl:4443/live/tv.m3u8
-#EXTINF:-1 tvg-id="RadioAlbaladTV.ps" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Albalad%20TV.png" tvg-country="PS" group-title="Music",Radio Albalad TV (HD)
+#EXTINF:-1 tvg-id="RadioAlbaladTV.ps" tvg-country="PS" group-title="Music",Radio Albalad TV (HD)
 http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioAncoaTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Ancoa%20TV.png" tvg-country="CL" group-title="Music",Radio Ancoa TV (HD)
+#EXTINF:-1 tvg-id="RadioAncoaTV.cl" tvg-country="CL" group-title="Music",Radio Ancoa TV (HD)
 https://v2.tustreaming.cl/radioancoatv/index.m3u8
-#EXTINF:-1 tvg-id="RadioBonita106.7.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Bonita%20106.7.png" tvg-country="EC" group-title="Music",Radio Bonita 106.7 (HD)
+#EXTINF:-1 tvg-id="RadioBonita106.7.ec" tvg-country="EC" group-title="Music",Radio Bonita 106.7 (HD)
 https://cloudvideo.servers10.com:8081/8154/index.m3u8
-#EXTINF:-1 tvg-id="RadioBremenFernsehen.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Bremen%20Fernsehen.png" tvg-country="DE" group-title="Music",Radio Bremen Fernsehen (FHD)
+#EXTINF:-1 tvg-id="RadioBremenFernsehen.de" tvg-country="DE" group-title="Music",Radio Bremen Fernsehen (FHD)
 https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8
-#EXTINF:-1 tvg-id="RadioCamilaTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Camila%20TV.png" tvg-country="CL" group-title="Music",Radio Camila TV (HD)
+#EXTINF:-1 tvg-id="RadioCamilaTV.cl" tvg-country="CL" group-title="Music",Radio Camila TV (HD)
 https://panel.tvstream.cl:1936/8008/8008/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioCarnavalTV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Carnaval%20TV.png" tvg-country="ES" group-title="Music",Radio Carnaval TV (HD)
+#EXTINF:-1 tvg-id="RadioCarnavalTV.es" tvg-country="ES" group-title="Music",Radio Carnaval TV (HD)
 https://eu1.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 tvg-id="RadioCentro.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Centro.png" tvg-country="BO" group-title="Music",Radio Centro (HD)
+#EXTINF:-1 tvg-id="RadioCentro.bo" tvg-country="BO" group-title="Music",Radio Centro (HD)
 https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioClasicaTV.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Clasica%20TV.png" tvg-country="BO" group-title="Music",Radio Clasica TV (HD)
+#EXTINF:-1 tvg-id="RadioClasicaTV.bo" tvg-country="BO" group-title="Music",Radio Clasica TV (HD)
 https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioConexionWebTV.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Conexion%20Web%20TV.png" tvg-country="AR" group-title="Music",Radio Conexion Web TV (HD)
+#EXTINF:-1 tvg-id="RadioConexionWebTV.ar" tvg-country="AR" group-title="Music",Radio Conexion Web TV (HD)
 https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8
-#EXTINF:-1 tvg-id="RadioContemporaneaCoihueco.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Contemporanea%20Coihueco.png" tvg-country="CL" group-title="Music",Radio Contemporanea Coihueco (HD)
+#EXTINF:-1 tvg-id="RadioContemporaneaCoihueco.cl" tvg-country="CL" group-title="Music",Radio Contemporanea Coihueco (HD)
 https://tv.arkeo.cl:19360/8046/8046.m3u8
-#EXTINF:-1 tvg-id="RadioCuencaEstereo.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Cuenca%20Estereo.png" tvg-country="EC" group-title="Music",Radio Cuenca Estereo (HD)
+#EXTINF:-1 tvg-id="RadioCuencaEstereo.ec" tvg-country="EC" group-title="Music",Radio Cuenca Estereo (HD)
 https://eu1.servers10.com:8081/8074/index.m3u8
-#EXTINF:-1 tvg-id="RADIODISCOuntTV.ch" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RADIO%20DISCOunt%20TV.png" tvg-country="CH" group-title="Music",RADIO DISCOunt TV (FHD)
+#EXTINF:-1 tvg-id="RADIODISCOuntTV.ch" tvg-country="CH" group-title="Music",RADIO DISCOunt TV (FHD)
 https://585b674743bbb.streamlock.net/9030/9030/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioDuna.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Duna.png" tvg-country="CL" group-title="Music",Radio Duna (HD)
+#EXTINF:-1 tvg-id="RadioDuna.cl" tvg-country="CL" group-title="Music",Radio Duna (HD)
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
-#EXTINF:-1 tvg-id="RadioEdelweiss.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Edelweiss.png" tvg-country="CL" group-title="Music",Radio Edelweiss (HD)
+#EXTINF:-1 tvg-id="RadioEdelweiss.cl" tvg-country="CL" group-title="Music",Radio Edelweiss (HD)
 https://vmix.dyndns.biz/Edelweiss/index.m3u8
-#EXTINF:-1 tvg-id="RadioFantasiaTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Fantasia%20TV.png" tvg-country="CL" group-title="Music",Radio Fantasia TV (HD)
+#EXTINF:-1 tvg-id="RadioFantasiaTV.cl" tvg-country="CL" group-title="Music",Radio Fantasia TV (HD)
 https://v2.tustreaming.cl/fantasiatv/index.m3u8
-#EXTINF:-1 tvg-id="RadioFrecuenciaUno.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Frecuencia%20Uno.png" tvg-country="CL" group-title="Music",Radio Frecuencia Uno (HD)
+#EXTINF:-1 tvg-id="RadioFrecuenciaUno.cl" tvg-country="CL" group-title="Music",Radio Frecuencia Uno (HD)
 https://v1.tustreaming.cl/frecuencia1tv/index.m3u8
-#EXTINF:-1 tvg-id="RadioGente.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Gente.png" tvg-country="BO" group-title="Music",Radio Gente (HD)
+#EXTINF:-1 tvg-id="RadioGente.bo" tvg-country="BO" group-title="Music",Radio Gente (HD)
 https://edge.enhdtv.com/8068/index.m3u8
-#EXTINF:-1 tvg-id="RadioHitFMTV.rs" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Hit%20FM%20TV.png" tvg-country="RS" group-title="Music",Radio Hit FM TV (HD)
+#EXTINF:-1 tvg-id="RadioHitFMTV.rs" tvg-country="RS" group-title="Music",Radio Hit FM TV (HD)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
-#EXTINF:-1 tvg-id="RadioIbizaTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Ibiza%20TV.png" tvg-country="IT" group-title="Music",Radio Ibiza TV (HD)
+#EXTINF:-1 tvg-id="RadioIbizaTV.it" tvg-country="IT" group-title="Music",Radio Ibiza TV (HD)
 https://5929b138b139d.streamlock.net/RadioIbizaTV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioIdeal.hn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Ideal.png" tvg-country="HN" group-title="Music",Radio Ideal (HD)
+#EXTINF:-1 tvg-id="RadioIdeal.hn" tvg-country="HN" group-title="Music",Radio Ideal (HD)
 https://www.idealfm104-7.com/hls/0/stream.m3u8
-#EXTINF:-1 tvg-id="RadioItaliaTrendTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Italia%20Trend%20TV.png" tvg-country="IT" group-title="Music",Radio Italia Trend TV (HD)
+#EXTINF:-1 tvg-id="RadioItaliaTrendTV.it" tvg-country="IT" group-title="Music",Radio Italia Trend TV (HD)
 https://amg00745-radioitailaspa-radioitalia-rakuten-sucsc.amagi.tv/hls/amagi_hls_data_rakutenAA-radioitalia-rakuten/CDN/master.m3u8
-#EXTINF:-1 tvg-id="RadioJND.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20JND.png" tvg-country="NL" group-title="Music",Radio JND (FHD)
+#EXTINF:-1 tvg-id="RadioJND.nl" tvg-country="NL" group-title="Music",Radio JND (FHD)
 https://radiojnd.cdn.hostin.cc/radiojnd/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioKarolinaTV.rs" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Karolina%20TV.png" tvg-country="RS" group-title="Music",Radio Karolina TV (HD)
+#EXTINF:-1 tvg-id="RadioKarolinaTV.rs" tvg-country="RS" group-title="Music",Radio Karolina TV (HD)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/0.m3u8
-#EXTINF:-1 tvg-id="RadioKollasuyo.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Kollasuyo.png" tvg-country="BO" group-title="Music",Radio Kollasuyo (HD)
+#EXTINF:-1 tvg-id="RadioKollasuyo.bo" tvg-country="BO" group-title="Music",Radio Kollasuyo (HD)
 https://azura2.bitstreaming.net/hls/kollasuyo3/live.m3u8
-#EXTINF:-1 tvg-id="RadioLaSerenaTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20La%20Serena%20TV.png" tvg-country="CL" group-title="Music",Radio La Serena TV (HD)
+#EXTINF:-1 tvg-id="RadioLaSerenaTV.cl" tvg-country="CL" group-title="Music",Radio La Serena TV (HD)
 https://5ff3d9babae13.streamlock.net/chrgkqgkyb/chrgkqgkyb/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioLasNieves.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Las%20Nieves.png" tvg-country="CL" group-title="Music",Radio Las Nieves (HD)
+#EXTINF:-1 tvg-id="RadioLasNieves.cl" tvg-country="CL" group-title="Music",Radio Las Nieves (HD)
 https://v2.tustreaming.cl/rln/index.m3u8
-#EXTINF:-1 tvg-id="RadioLolaTV.rs" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Lola%20TV.png" tvg-country="RS" group-title="Music",Radio Lola TV (HD)
+#EXTINF:-1 tvg-id="RadioLolaTV.rs" tvg-country="RS" group-title="Music",Radio Lola TV (HD)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/7c3ea8d3-49dc-4e1b-8b1e-dc6fab71f5cf/0.m3u8
-#EXTINF:-1 tvg-id="RadioMaster.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Master.png" tvg-country="PE" group-title="Music",Radio Master (HD)
+#EXTINF:-1 tvg-id="RadioMaster.pe" tvg-country="PE" group-title="Music",Radio Master (HD)
 https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8
-#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Mega%20TV%20Amazonia.png" tvg-country="BO" group-title="Music",Radio Mega TV Amazonia (HD)
+#EXTINF:-1 tvg-id="RadioMegaTVAmazonia.bo" tvg-country="BO" group-title="Music",Radio Mega TV Amazonia (HD)
 https://ares.disfrutaenlared.com:1936/megatv/megatv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioMir.by" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Mir.png" tvg-country="BY" group-title="Music",Radio Mir (HD)
+#EXTINF:-1 tvg-id="RadioMir.by" tvg-country="BY" group-title="Music",Radio Mir (HD)
 https://stream1.dc.beltelecom.by/radiomir/studio.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioMonumentalTV.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Monumental%20TV.png" tvg-country="EC" group-title="Music",Radio Monumental TV (HD)
+#EXTINF:-1 tvg-id="RadioMonumentalTV.ec" tvg-country="EC" group-title="Music",Radio Monumental TV (HD)
 https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8
-#EXTINF:-1 tvg-id="RadioNLTV.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RadioNL%20TV.png" tvg-country="NL" group-title="Music",RadioNL TV (FHD)
+#EXTINF:-1 tvg-id="RadioNLTV.nl" tvg-country="NL" group-title="Music",RadioNL TV (FHD)
 https://stream.radionl.tv/radionltv/radionltv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioNuble.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Nuble.png" tvg-country="CL" group-title="Music",Radio Nuble (HD)
+#EXTINF:-1 tvg-id="RadioNuble.cl" tvg-country="CL" group-title="Music",Radio Nuble (HD)
 https://tv.telselec.cl:3376/live/nublefmlive.m3u8
-#EXTINF:-1 tvg-id="RadioNumberOne.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Number%20One.png" tvg-country="IT" group-title="Music",Radio Number One (HD)
+#EXTINF:-1 tvg-id="RadioNumberOne.it" tvg-country="IT" group-title="Music",Radio Number One (HD)
 https://56b50ada2d659.streamlock.net/RN1TV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioOndaDigital.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Onda%20Digital.png" tvg-country="PE" group-title="Music",Radio Onda Digital (FHD)
+#EXTINF:-1 tvg-id="RadioOndaDigital.pe" tvg-country="PE" group-title="Music",Radio Onda Digital (FHD)
 https://live.ondadigitaltv.com/RADIOODTV/index.m3u8
-#EXTINF:-1 tvg-id="RadioPanoramica.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Panoramica.png" tvg-country="CL" group-title="Music",Radio Panoramica (HD)
+#EXTINF:-1 tvg-id="RadioPanoramica.cl" tvg-country="CL" group-title="Music",Radio Panoramica (HD)
 https://v2.tustreaming.cl/alingeproducciones/index.m3u8
-#EXTINF:-1 tvg-id="RadioPudahuel.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Pudahuel.png" tvg-country="CL" group-title="Music",Radio Pudahuel (HD)
+#EXTINF:-1 tvg-id="RadioPudahuel.cl" tvg-country="CL" group-title="Music",Radio Pudahuel (HD)
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioRancaguaFM.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Rancagua%20FM.png" tvg-country="CL" group-title="Music",Radio Rancagua FM (HD)
+#EXTINF:-1 tvg-id="RadioRancaguaFM.cl" tvg-country="CL" group-title="Music",Radio Rancagua FM (HD)
 https://tv.arkeo.cl:1936/radiorancagua/radiorancagua/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioRealpolitik.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Realpolitik.png" tvg-country="AR" group-title="Music",Radio Realpolitik (HD)
+#EXTINF:-1 tvg-id="RadioRealpolitik.ar" tvg-country="AR" group-title="Music",Radio Realpolitik (HD)
 https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
-#EXTINF:-1 tvg-id="RadioRitmoFM.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Ritmo%20FM.png" tvg-country="CL" group-title="Music",Radio Ritmo FM (FHD)
+#EXTINF:-1 tvg-id="RadioRitmoFM.cl" tvg-country="CL" group-title="Music",Radio Ritmo FM (FHD)
 https://panel.tvstream.cl:1936/8046/8046/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioRomaniaAntenaSatelor.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Romania%20Antena%20Satelor.png" tvg-country="RO" group-title="Music",Radio Romania Antena Satelor (HD)
+#EXTINF:-1 tvg-id="RadioRomaniaAntenaSatelor.ro" tvg-country="RO" group-title="Music",Radio Romania Antena Satelor (HD)
 https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioRossii.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Rossii.png" tvg-country="RU" group-title="Music",Radio Rossii (HD)
+#EXTINF:-1 tvg-id="RadioRossii.ru" tvg-country="RU" group-title="Music",Radio Rossii (HD)
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
-#EXTINF:-1 tvg-id="RadioRumbaTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Rumba%20TV.png" tvg-country="PE" group-title="Music",Radio Rumba TV (HD)
+#EXTINF:-1 tvg-id="RadioRumbaTV.pe" tvg-country="PE" group-title="Music",Radio Rumba TV (HD)
 https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioShanson.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Shanson.png" tvg-country="RU" group-title="Music",Radio Shanson (HD)
+#EXTINF:-1 tvg-id="RadioShanson.ru" tvg-country="RU" group-title="Music",Radio Shanson (HD)
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
-#EXTINF:-1 tvg-id="RadioSines.pt" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Sines.png" tvg-country="PT" group-title="Music",Radio Sines (HD)
+#EXTINF:-1 tvg-id="RadioSines.pt" tvg-country="PT" group-title="Music",Radio Sines (HD)
 https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioStudioDeltaTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Studio%20Delta%20TV.png" tvg-country="IT" group-title="Music",Radio Studio Delta TV (FHD)
+#EXTINF:-1 tvg-id="RadioStudioDeltaTV.it" tvg-country="IT" group-title="Music",Radio Studio Delta TV (FHD)
 https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioSuyaiTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Suyai%20TV.png" tvg-country="CL" group-title="Music",Radio Suyai TV (FHD)
+#EXTINF:-1 tvg-id="RadioSuyaiTV.cl" tvg-country="CL" group-title="Music",Radio Suyai TV (FHD)
 https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8
-#EXTINF:-1 tvg-id="RadioSWHTV.lv" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20SWH%20TV.png" tvg-country="LV" group-title="Music",Radio SWH TV (FHD)
+#EXTINF:-1 tvg-id="RadioSWHTV.lv" tvg-country="LV" group-title="Music",Radio SWH TV (FHD)
 https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTaorminaSicilia.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Taormina%20Sicilia.png" tvg-country="IT" group-title="Music",Radio Taormina Sicilia (HD)
+#EXTINF:-1 tvg-id="RadioTaorminaSicilia.it" tvg-country="IT" group-title="Music",Radio Taormina Sicilia (HD)
 https://stream2.xdevel.com/video1s3-7/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Tele%20Planet%20Compas.png" tvg-country="HT" group-title="Music",Radio Tele Planet Compas (HD)
+#EXTINF:-1 tvg-id="RadioTelePlanetCompas.ht" tvg-country="HT" group-title="Music",Radio Tele Planet Compas (HD)
 https://5dcab9aed5331.streamlock.net/mrcompas1/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioTVBasse-Terre.gp" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20TV%20Basse-Terre.png" tvg-country="GP" group-title="Music",Radio TV Basse-Terre (HD)
+#EXTINF:-1 tvg-id="RadioTVBasse-Terre.gp" tvg-country="GP" group-title="Music",Radio TV Basse-Terre (HD)
 https://vdo.ssl-stream.com:3412/stream/play.m3u8
-#EXTINF:-1 tvg-id="RadioUC.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20UC.png" tvg-country="CL" group-title="Music",Radio UC (HD)
+#EXTINF:-1 tvg-id="RadioUC.cl" tvg-country="CL" group-title="Music",Radio UC (HD)
 https://oracle.streaminghd.cl/radiouc/radiouc/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioUNIACC.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20UNIACC.png" tvg-country="CL" group-title="Music",Radio UNIACC (HD)
+#EXTINF:-1 tvg-id="RadioUNIACC.cl" tvg-country="CL" group-title="Music",Radio UNIACC (HD)
 https://scl.edge.grupoz.cl/uniaccastream/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioUniversal.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Universal.png" tvg-country="CL" group-title="Music",Radio Universal (HD)
+#EXTINF:-1 tvg-id="RadioUniversal.cl" tvg-country="CL" group-title="Music",Radio Universal (HD)
 https://videostream.chileservidores.com:8081/universal/index.m3u8
-#EXTINF:-1 tvg-id="RadioViaLibre.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Via%20Libre.png" tvg-country="CL" group-title="Music",Radio Via Libre (HD)
+#EXTINF:-1 tvg-id="RadioViaLibre.cl" tvg-country="CL" group-title="Music",Radio Via Libre (HD)
 https://live20.bozztv.com/akamaissh101/ssh101/vialibretv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioVidaCurico.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Vida%20Curico.png" tvg-country="CL" group-title="Music",Radio Vida Curico (HD)
+#EXTINF:-1 tvg-id="RadioVidaCurico.cl" tvg-country="CL" group-title="Music",Radio Vida Curico (HD)
 https://v2.tustreaming.cl/radiovidacurico/index.m3u8
-#EXTINF:-1 tvg-id="RadioZona90.3.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Zona%2090.3.png" tvg-country="CL" group-title="Music",Radio Zona 90.3 (HD)
+#EXTINF:-1 tvg-id="RadioZona90.3.cl" tvg-country="CL" group-title="Music",Radio Zona 90.3 (HD)
 https://live.tvcontrolcp.com:8081/radiozona/index.m3u8
-#EXTINF:-1 tvg-id="RajMusixTelugu.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Raj%20Musix%20Telugu.png" tvg-country="IN" group-title="Music",Raj Musix Telugu (HD)
+#EXTINF:-1 tvg-id="RajMusixTelugu.in" tvg-country="IN" group-title="Music",Raj Musix Telugu (HD)
 https://cdn.pishow.tv/ott/live/1213/master.m3u8
-#EXTINF:-1 tvg-id="Rararadio.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rararadio.png" tvg-country="NL" group-title="Music",Rararadio (HD)
+#EXTINF:-1 tvg-id="Rararadio.nl" tvg-country="NL" group-title="Music",Rararadio (HD)
 https://58c04fb1d143f.streamlock.net/rararadio/rararadio/playlist.m3u8
-#EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RDS%20Social%20TV.png" tvg-country="IT" group-title="Music",RDS Social TV (HD)
+#EXTINF:-1 tvg-id="RDSSocialTV.it" tvg-country="IT" group-title="Music",RDS Social TV (HD)
 https://stream.rdstv.radio/out/v1/ec85f72b87f04555aa41d616d5be41dc/index.m3u8
-#EXTINF:-1 tvg-id="ReadyTVCanal6.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ready%20TV%20Canal%206.png" tvg-country="DO" group-title="Music",Ready TV Canal 6 (HD)
+#EXTINF:-1 tvg-id="ReadyTVCanal6.do" tvg-country="DO" group-title="Music",Ready TV Canal 6 (HD)
 https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8
-#EXTINF:-1 tvg-id="RedCarpetTVInternational.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Red%20Carpet%20TV%20International.png" tvg-country="PL" group-title="Music",Red Carpet TV International (FHD)
+#EXTINF:-1 tvg-id="RedCarpetTVInternational.pl" tvg-country="PL" group-title="Music",Red Carpet TV International (FHD)
 https://fast-rakuten.okast.tv/fa2e8c4385712f9a9076eaf728c751de/channels/1a6ecfaa-40c6-41b8-8634-595c424f856e/21f67fd1-4d21-43ba-8ad8-3afac9982c25/master.m3u8
-#EXTINF:-1 tvg-id="RetromusicaTelevision.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Retromusica%20Television.png" tvg-country="CL" group-title="Music",Retromusica Television (HD)
+#EXTINF:-1 tvg-id="RetromusicaTelevision.cl" tvg-country="CL" group-title="Music",Retromusica Television (HD)
 https://vdochile.com:3864/stream/play.m3u8
-#EXTINF:-1 tvg-id="RetroPlus2.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Retro%20Plus%202.png" tvg-country="CL" group-title="Music",Retro Plus 2 (HD)
+#EXTINF:-1 tvg-id="RetroPlus2.cl" tvg-country="CL" group-title="Music",Retro Plus 2 (HD)
 #EXTVLCOPT:http-referrer=https://retroplustv.com/
 https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RewindTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rewind%20TV.png" tvg-country="CL" group-title="Music",Rewind TV (FHD)
+#EXTINF:-1 tvg-id="RewindTV.cl" tvg-country="CL" group-title="Music",Rewind TV (FHD)
 https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RHTGuadeloupe.gp" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RHT%20Guadeloupe.png" tvg-country="GP" group-title="Music",RHT Guadeloupe (HD)
+#EXTINF:-1 tvg-id="RHTGuadeloupe.gp" tvg-country="GP" group-title="Music",RHT Guadeloupe (HD)
 https://edge12.vedge.infomaniak.com/livecast/ik:livehautetension/manifest.m3u8
-#EXTINF:-1 tvg-id="RitoqueTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ritoque%20TV.png" tvg-country="CL" group-title="Music",Ritoque TV (HD)
+#EXTINF:-1 tvg-id="RitoqueTV.cl" tvg-country="CL" group-title="Music",Ritoque TV (HD)
 https://v2.tustreaming.cl/unetev/index.m3u8
-#EXTINF:-1 tvg-id="RJTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/RJTV.png" tvg-country="US" group-title="Music",RJTV (FHD)
+#EXTINF:-1 tvg-id="RJTV.us" tvg-country="US" group-title="Music",RJTV (FHD)
 https://rjtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RockTV.mk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rock%20TV.png" tvg-country="MK" group-title="Music",Rock TV (FHD)
+#EXTINF:-1 tvg-id="RockTV.mk" tvg-country="MK" group-title="Music",Rock TV (FHD)
 https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
-#EXTINF:-1 tvg-id="RockTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rock%20TV.png" tvg-country="RO" group-title="Music",Rock TV (HD)
+#EXTINF:-1 tvg-id="RockTV.ro" tvg-country="RO" group-title="Music",Rock TV (HD)
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
-#EXTINF:-1 tvg-id="RotanaClip.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rotana%20Clip.png" tvg-country="SA" group-title="Music",Rotana Clip (FHD)
+#EXTINF:-1 tvg-id="RotanaClip.sa" tvg-country="SA" group-title="Music",Rotana Clip (FHD)
 #EXTVLCOPT:http-referrer=https://rotana.net/
 https://rotana.hibridcdn.net/rotananet/clip_net-7Y83PP5adWixDF93/playlist.m3u8
-#EXTINF:-1 tvg-id="RotanaKhalijia.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rotana%20Khalijia.png" tvg-country="SA" group-title="Music",Rotana Khalijia (FHD)
+#EXTINF:-1 tvg-id="RotanaKhalijia.sa" tvg-country="SA" group-title="Music",Rotana Khalijia (FHD)
 #EXTVLCOPT:http-referrer=https://rotana.net/
 https://rotana.hibridcdn.net/rotananet/khaleejiya_net-7Y83PP5adWixDF93/playlist.m3u8
-#EXTINF:-1 tvg-id="RotanaMusic.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Rotana%20Music.png" tvg-country="SA" group-title="Music",Rotana Music (FHD)
+#EXTINF:-1 tvg-id="RotanaMusic.sa" tvg-country="SA" group-title="Music",Rotana Music (FHD)
 #EXTVLCOPT:http-referrer=https://rotana.net/
 https://rotana.hibridcdn.net/rotananet/music_net-7Y83PP5adWixDF93/playlist.m3u8
-#EXTINF:-1 tvg-id="RTL102.5Best.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20Best.png" tvg-country="IT" group-title="Music",RTL 102.5 Best (FHD)
+#EXTINF:-1 tvg-id="RTL102.5Best.it" tvg-country="IT" group-title="Music",RTL 102.5 Best (FHD)
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8
-#EXTINF:-1 tvg-id="RTL102.5BroSis.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20Bro%26Sis.png" tvg-country="IT" group-title="Music",RTL 102.5 Bro&Sis (FHD)
+#EXTINF:-1 tvg-id="RTL102.5BroSis.it" tvg-country="IT" group-title="Music",RTL 102.5 Bro&Sis (FHD)
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist_video.m3u8
-#EXTINF:-1 tvg-id="RTL102.5Caliente.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20Caliente.png" tvg-country="IT" group-title="Music",RTL 102.5 Caliente (FHD)
+#EXTINF:-1 tvg-id="RTL102.5Caliente.it" tvg-country="IT" group-title="Music",RTL 102.5 Caliente (FHD)
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8
-#EXTINF:-1 tvg-id="RTL102.5Disco.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20Disco.png" tvg-country="IT" group-title="Music",RTL 102.5 Disco (FHD)
+#EXTINF:-1 tvg-id="RTL102.5Disco.it" tvg-country="IT" group-title="Music",RTL 102.5 Disco (FHD)
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8
-#EXTINF:-1 tvg-id="RTL102.5Napule.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20Napule.png" tvg-country="IT" group-title="Music",RTL 102.5 Napule (FHD)
+#EXTINF:-1 tvg-id="RTL102.5Napule.it" tvg-country="IT" group-title="Music",RTL 102.5 Napule (FHD)
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8
-#EXTINF:-1 tvg-id="RTL102.5TV.it" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20TV.png" tvg-country="IT" group-title="Music",RTL 102.5 TV (FHD)
+#EXTINF:-1 tvg-id="RTL102.5TV.it" tvg-country="IT" group-title="Music",RTL 102.5 TV (FHD)
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
-#EXTINF:-1 tvg-id="RTLGold.lu" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20Gold.png" tvg-country="LU" group-title="Music",RTL Gold (FHD)
+#EXTINF:-1 tvg-id="RTLGold.lu" tvg-country="LU" group-title="Music",RTL Gold (FHD)
 https://stream.rtl.lu/data/live/tele/rtlgold/playlist.m3u8
-#EXTINF:-1 tvg-id="RTLWebRadioTV.lu" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20Web%20Radio%20TV.png" tvg-country="LU" group-title="Music",RTL Web Radio TV (FHD)
+#EXTINF:-1 tvg-id="RTLWebRadioTV.lu" tvg-country="LU" group-title="Music",RTL Web Radio TV (FHD)
 https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTVVida.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTV%20Vida.png" tvg-country="ES" group-title="Music",RTV Vida (FHD)
+#EXTINF:-1 tvg-id="RTVVida.es" tvg-country="ES" group-title="Music",RTV Vida (FHD)
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
-#EXTINF:-1 tvg-id="RU.TV.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RU.TV.png" tvg-country="RU" group-title="Music",RU.TV (FHD)
+#EXTINF:-1 tvg-id="RU.TV.ru" tvg-country="RU" group-title="Music",RU.TV (FHD)
 https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
-#EXTINF:-1 tvg-id="RumbaMixTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RumbaMix%20TV.png" tvg-country="PE" group-title="Music",RumbaMix TV (HD)
+#EXTINF:-1 tvg-id="RumbaMixTV.pe" tvg-country="PE" group-title="Music",RumbaMix TV (HD)
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="Ruta66TV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ruta%2066%20TV.png" tvg-country="DO" group-title="Music",Ruta 66 TV (HD)
+#EXTINF:-1 tvg-id="Ruta66TV.do" tvg-country="DO" group-title="Music",Ruta 66 TV (HD)
 https://cnn.livestreaminggroup.info:3796/live/ruta66tvlive.m3u8
-#EXTINF:-1 tvg-id="SaborTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sabor%20TV.png" tvg-country="CL" group-title="Music",Sabor TV (HD)
+#EXTINF:-1 tvg-id="SaborTV.cl" tvg-country="CL" group-title="Music",Sabor TV (HD)
 https://v1.tustreaming.cl/sabortv/index.m3u8
-#EXTINF:-1 tvg-id="SalsaGordaTelevision.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Salsa%20Gorda%20Television.png" tvg-country="CO" group-title="Music",Salsa Gorda Television (FHD)
+#EXTINF:-1 tvg-id="SalsaGordaTelevision.co" tvg-country="CO" group-title="Music",Salsa Gorda Television (FHD)
 https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
-#EXTINF:-1 tvg-id="SaltoBrasaMusic.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Salto%20Brasa%20Music.png" tvg-country="NL" group-title="Music",Salto Brasa Music (FHD)
+#EXTINF:-1 tvg-id="SaltoBrasaMusic.nl" tvg-country="NL" group-title="Music",Salto Brasa Music (FHD)
 https://salto-streams.nl/hls/sotv1.m3u8
-#EXTINF:-1 tvg-id="SanaPlus.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sana%20Plus.png" tvg-country="IN" group-title="Music",Sana Plus (FHD)
+#EXTINF:-1 tvg-id="SanaPlus.in" tvg-country="IN" group-title="Music",Sana Plus (FHD)
 https://galaxyott.live/hls/sanaplus.m3u8
-#EXTINF:-1 tvg-id="SangeetBangla.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sangeet%20Bangla.png" tvg-country="IN" group-title="Music",Sangeet Bangla (HD)
+#EXTINF:-1 tvg-id="SangeetBangla.in" tvg-country="IN" group-title="Music",Sangeet Bangla (HD)
 https://cdn.pishow.tv/ott/live/1143/master.m3u8
-#EXTINF:-1 tvg-id="SangeetMarathi.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sangeet%20Marathi.png" tvg-country="IN" group-title="Music",Sangeet Marathi (HD)
+#EXTINF:-1 tvg-id="SangeetMarathi.in" tvg-country="IN" group-title="Music",Sangeet Marathi (HD)
 https://cdn.pishow.tv/ott/live/1229/master.m3u8
-#EXTINF:-1 tvg-id="SantaCruzTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Santa%20Cruz%20TV.png" tvg-country="DO" group-title="Music",Santa Cruz TV (FHD)
+#EXTINF:-1 tvg-id="SantaCruzTV.do" tvg-country="DO" group-title="Music",Santa Cruz TV (FHD)
 https://host.streamingnation.live/p/3345/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="SantaMariaTelevision.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Santa%20Maria%20Television.png" tvg-country="CL" group-title="Music",Santa Maria Television (HD)
+#EXTINF:-1 tvg-id="SantaMariaTelevision.cl" tvg-country="CL" group-title="Music",Santa Maria Television (HD)
 https://pantera1-100gb-cl-movistar.dps.live/smtv/smtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="SaudiaRadio.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Saudia%20Radio.png" tvg-country="SA" group-title="Music",Saudia Radio (FHD)
+#EXTINF:-1 tvg-id="SaudiaRadio.sa" tvg-country="SA" group-title="Music",Saudia Radio (FHD)
 https://live.kwikmotion.com/sbrksasaudiaradiolive/srpksasaudiaradio/playlist.m3u8
-#EXTINF:-1 tvg-id="SBTV.hr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/SBTV.png" tvg-country="HR" group-title="Music",SBTV (FHD)
+#EXTINF:-1 tvg-id="SBTV.hr" tvg-country="HR" group-title="Music",SBTV (FHD)
 https://live.leveex.hr/hls/live.m3u8
-#EXTINF:-1 tvg-id="ScorchTV.tt" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Scorch%20TV.png" tvg-country="TT" group-title="Music",Scorch TV (FHD)
+#EXTINF:-1 tvg-id="ScorchTV.tt" tvg-country="TT" group-title="Music",Scorch TV (FHD)
 https://w6oy7x7jlxrg-hls-live.5centscdn.com/MandETV/955ad3298db330b5ee880c2c9e6f23a0.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="ShababFM.ps" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Shabab%20FM.png" tvg-country="PS" group-title="Music",Shabab FM (HD)
+#EXTINF:-1 tvg-id="ShababFM.ps" tvg-country="PS" group-title="Music",Shabab FM (HD)
 https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8
-#EXTINF:-1 tvg-id="SharjahRadio.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sharjah%20Radio.png" tvg-country="AE" group-title="Music",Sharjah Radio (FHD)
+#EXTINF:-1 tvg-id="SharjahRadio.ae" tvg-country="AE" group-title="Music",Sharjah Radio (FHD)
 https://svs.itworkscdn.net/smcradiolive/smcradiolive/playlist.m3u8
-#EXTINF:-1 tvg-id="ShemarooFilmiGaane.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Shemaroo%20Filmi%20Gaane.png" tvg-country="IN" group-title="Music",Shemaroo Filmi Gaane (FHD)
+#EXTINF:-1 tvg-id="ShemarooFilmiGaane.in" tvg-country="IN" group-title="Music",Shemaroo Filmi Gaane (FHD)
 https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
-#EXTINF:-1 tvg-id="ShowVenTV.ve" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ShowVen%20TV.png" tvg-country="VE" group-title="Music",ShowVen TV (HD)
+#EXTINF:-1 tvg-id="ShowVenTV.ve" tvg-country="VE" group-title="Music",ShowVen TV (HD)
 https://cdnbarinas.tvzamora.com/showven/index.m3u8
-#EXTINF:-1 tvg-id="SiembraTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Siembra%20TV.png" tvg-country="DO" group-title="Music",Siembra TV (HD)
+#EXTINF:-1 tvg-id="SiembraTV.do" tvg-country="DO" group-title="Music",Siembra TV (HD)
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
-#EXTINF:-1 tvg-id="SkyFolkTV.mk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sky%20Folk%20TV.png" tvg-country="MK" group-title="Music",Sky Folk TV (HD)
+#EXTINF:-1 tvg-id="SkyFolkTV.mk" tvg-country="MK" group-title="Music",Sky Folk TV (HD)
 https://skyfolk.mk/live.m3u8
-#EXTINF:-1 tvg-id="SochiLive.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sochi%20Live.png" tvg-country="RU" group-title="Music",Sochi Live (HD)
+#EXTINF:-1 tvg-id="SochiLive.ru" tvg-country="RU" group-title="Music",Sochi Live (HD)
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="SonataTV.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sonata%20TV.png" tvg-country="UA" group-title="Music",Sonata TV (FHD)
+#EXTINF:-1 tvg-id="SonataTV.ua" tvg-country="UA" group-title="Music",Sonata TV (FHD)
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.24/index.m3u8
-#EXTINF:-1 tvg-id="SOYPlanchaTV.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/SOY%20Plancha%20TV.png" tvg-country="CR" group-title="Music",SOY Plancha TV (HD)
+#EXTINF:-1 tvg-id="SOYPlanchaTV.cr" tvg-country="CR" group-title="Music",SOY Plancha TV (HD)
 https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
-#EXTINF:-1 tvg-id="SpektraTV.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/SpektraTV.png" tvg-country="ES" group-title="Music",SpektraTV (HD)
+#EXTINF:-1 tvg-id="SpektraTV.es" tvg-country="ES" group-title="Music",SpektraTV (HD)
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="SpiritTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Spirit%20TV.png" tvg-country="US" group-title="Music",Spirit TV (HD)
+#EXTINF:-1 tvg-id="SpiritTV.us" tvg-country="US" group-title="Music",Spirit TV (HD)
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
-#EXTINF:-1 tvg-id="StarTV.mn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Star%20TV.png" tvg-country="MN" group-title="Music",Star TV (HD)
+#EXTINF:-1 tvg-id="StarTV.mn" tvg-country="MN" group-title="Music",Star TV (HD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Star/HLSv3-FTA/Star.m3u8
-#EXTINF:-1 tvg-id="SteelbirdMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Steelbird%20Music.png" tvg-country="IN" group-title="Music",Steelbird Music (HD)
+#EXTINF:-1 tvg-id="SteelbirdMusic.in" tvg-country="IN" group-title="Music",Steelbird Music (HD)
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
-#EXTINF:-1 tvg-id="StingrayCityscapes.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Cityscapes.png" tvg-country="CA" group-title="Music",Stingray Cityscapes (FHD)
+#EXTINF:-1 tvg-id="StingrayCityscapes.ca" tvg-country="CA" group-title="Music",Stingray Cityscapes (FHD)
 https://aka-live1050.delivery.roku.com/7572d640-7373-4137-8b14-a3afff395349/t2-origin/out/v1/live.m3u8
-#EXTINF:-1 tvg-id="StingrayCMusic.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20CMusic.png" tvg-country="CA" group-title="Music",Stingray CMusic (FHD)
+#EXTINF:-1 tvg-id="StingrayCMusic.ca" tvg-country="CA" group-title="Music",Stingray CMusic (FHD)
 https://lotus.stingray.com/manifest/cmusic-cme004-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayCozyCafe.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Cozy%20Cafe.png" tvg-country="CA" group-title="Music",Stingray Cozy Cafe (FHD)
+#EXTINF:-1 tvg-id="StingrayCozyCafe.ca" tvg-country="CA" group-title="Music",Stingray Cozy Cafe (FHD)
 https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-origin/out/v1/live.m3u8
-#EXTINF:-1 tvg-id="StingrayEverything80s.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Everything%20%2780s.png" tvg-country="CA" group-title="Music",Stingray Everything '80s (FHD)
+#EXTINF:-1 tvg-id="StingrayEverything80s.ca" tvg-country="CA" group-title="Music",Stingray Everything '80s (FHD)
 https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayHitList.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Hit%20List.png" tvg-country="CA" group-title="Music",Stingray Hit List (FHD)
+#EXTINF:-1 tvg-id="StingrayHitList.ca" tvg-country="CA" group-title="Music",Stingray Hit List (FHD)
 https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayHolidayHits.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Holiday%20Hits.png" tvg-country="CA" group-title="Music",Stingray Holiday Hits (FHD)
+#EXTINF:-1 tvg-id="StingrayHolidayHits.ca" tvg-country="CA" group-title="Music",Stingray Holiday Hits (FHD)
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayHolidayscapes.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Holidayscapes.png" tvg-country="CA" group-title="Music",Stingray Holidayscapes (FHD)
+#EXTINF:-1 tvg-id="StingrayHolidayscapes.ca" tvg-country="CA" group-title="Music",Stingray Holidayscapes (FHD)
 https://lotus.stingray.com/manifest/holidayscapes-hol001ads_hol001-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayHotCountry.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Hot%20Country.png" tvg-country="CA" group-title="Music",Stingray Hot Country (FHD)
+#EXTINF:-1 tvg-id="StingrayHotCountry.ca" tvg-country="CA" group-title="Music",Stingray Hot Country (FHD)
 https://lotus.stingray.com/manifest/ose-108ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayJukeboxOldies.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Jukebox%20Oldies.png" tvg-country="CA" group-title="Music",Stingray Jukebox Oldies (FHD)
+#EXTINF:-1 tvg-id="StingrayJukeboxOldies.ca" tvg-country="CA" group-title="Music",Stingray Jukebox Oldies (FHD)
 https://lotus.stingray.com/manifest/ose-021ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayKaraoke.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Karaoke.png" tvg-country="CA" group-title="Music",Stingray Karaoke (FHD)
+#EXTINF:-1 tvg-id="StingrayKaraoke.ca" tvg-country="CA" group-title="Music",Stingray Karaoke (FHD)
 https://lotus.stingray.com/manifest/karaoke-kar000-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayPopAdult.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Pop%20Adult.png" tvg-country="CA" group-title="Music",Stingray Pop Adult (FHD)
+#EXTINF:-1 tvg-id="StingrayPopAdult.ca" tvg-country="CA" group-title="Music",Stingray Pop Adult (FHD)
 https://lotus.stingray.com/manifest/ose-104ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayRockAlternative.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Rock%20Alternative.png" tvg-country="CA" group-title="Music",Stingray Rock Alternative (FHD)
+#EXTINF:-1 tvg-id="StingrayRockAlternative.ca" tvg-country="CA" group-title="Music",Stingray Rock Alternative (FHD)
 https://lotus.stingray.com/manifest/ose-102ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingraySoulStorm.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Soul%20Storm.png" tvg-country="CA" group-title="Music",Stingray Soul Storm (FHD)
+#EXTINF:-1 tvg-id="StingraySoulStorm.ca" tvg-country="CA" group-title="Music",Stingray Soul Storm (FHD)
 https://lotus.stingray.com/manifest/ose-134ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayTheSpa.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20The%20Spa.png" tvg-country="CA" group-title="Music",Stingray The Spa (FHD)
+#EXTINF:-1 tvg-id="StingrayTheSpa.ca" tvg-country="CA" group-title="Music",Stingray The Spa (FHD)
 https://lotus.stingray.com/manifest/ose-122ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StingrayTikTokRadio.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20TikTok%20Radio.png" tvg-country="CA" group-title="Music",Stingray TikTok Radio (FHD)
+#EXTINF:-1 tvg-id="StingrayTikTokRadio.ca" tvg-country="CA" group-title="Music",Stingray TikTok Radio (FHD)
 https://d3f4oii5n0oeqi.cloudfront.net/11701/88814594/hls/master.m3u8?ads.xumo_channelId=88814594
-#EXTINF:-1 tvg-id="StingrayUrbanBeat.ca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Urban%20Beat.png" tvg-country="CA" group-title="Music",Stingray Urban Beat (FHD)
+#EXTINF:-1 tvg-id="StingrayUrbanBeat.ca" tvg-country="CA" group-title="Music",Stingray Urban Beat (FHD)
 https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u8
-#EXTINF:-1 tvg-id="StranaFM.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Strana%20FM.png" tvg-country="RU" group-title="Music",Strana FM (HD)
+#EXTINF:-1 tvg-id="StranaFM.ru" tvg-country="RU" group-title="Music",Strana FM (HD)
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="StrykTV.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Stryk%20TV.png" tvg-country="US" group-title="Music",Stryk TV (FHD)
+#EXTINF:-1 tvg-id="StrykTV.us" tvg-country="US" group-title="Music",Stryk TV (FHD)
 https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
-#EXTINF:-1 tvg-id="Superhitz.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Superhitz.png" tvg-country="IN" group-title="Music",Superhitz (HD)
+#EXTINF:-1 tvg-id="Superhitz.in" tvg-country="IN" group-title="Music",Superhitz (HD)
 https://live-evg5.tv360.bitel.com.pe/bitel/fillka/playlist.m3u8
-#EXTINF:-1 tvg-id="SupermusicaTV.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Supermusica%20TV.png" tvg-country="CO" group-title="Music",Supermusica TV (HD)
+#EXTINF:-1 tvg-id="SupermusicaTV.co" tvg-country="CO" group-title="Music",Supermusica TV (HD)
 https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
-#EXTINF:-1 tvg-id="SuperQPanama.pa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Super%20Q%20Panama.png" tvg-country="PA" group-title="Music",Super Q Panama (FHD)
+#EXTINF:-1 tvg-id="SuperQPanama.pa" tvg-country="PA" group-title="Music",Super Q Panama (FHD)
 https://vcp8.myplaytv.com:1936/superq/superq/playlist.m3u8
-#EXTINF:-1 tvg-id="SuperTV.ro" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Super%20TV.png" tvg-country="RO" group-title="Music",Super TV (FHD)
+#EXTINF:-1 tvg-id="SuperTV.ro" tvg-country="RO" group-title="Music",Super TV (FHD)
 #EXTVLCOPT:http-referrer=https://supertv.ro
 https://live.supertv.ro/live/supertv/playlist.m3u8
-#EXTINF:-1 tvg-id="SWR3VisualRadio.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/SWR%203%20Visual%20Radio.png" tvg-country="DE" group-title="Music",SWR 3 Visual Radio (HD)
+#EXTINF:-1 tvg-id="SWR3VisualRadio.de" tvg-country="DE" group-title="Music",SWR 3 Visual Radio (HD)
 https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
-#EXTINF:-1 tvg-id="SyrosTV1.gr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Syros%20TV1.png" tvg-country="GR" group-title="Music",Syros TV1 (HD)
+#EXTINF:-1 tvg-id="SyrosTV1.gr" tvg-country="GR" group-title="Music",Syros TV1 (HD)
 https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8
-#EXTINF:-1 tvg-id="Tarab.sa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tarab.png" tvg-country="SA" group-title="Music",Tarab (FHD)
+#EXTINF:-1 tvg-id="Tarab.sa" tvg-country="SA" group-title="Music",Tarab (FHD)
 https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8
-#EXTINF:-1 tvg-id="TarangMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tarang%20Music.png" tvg-country="IN" group-title="Music",Tarang Music (HD)
+#EXTINF:-1 tvg-id="TarangMusic.in" tvg-country="IN" group-title="Music",Tarang Music (HD)
 https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Telecaribe.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Telecaribe.png" tvg-country="CO" group-title="Music",Telecaribe (FHD)
+#EXTINF:-1 tvg-id="Telecaribe.co" tvg-country="CO" group-title="Music",Telecaribe (FHD)
 http://138.121.15.230:9002/TELECARIBE/index.m3u8
-#EXTINF:-1 tvg-id="TelecaribePlus.co" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Telecaribe%20Plus.png" tvg-country="CO" group-title="Music",Telecaribe Plus (HD)
+#EXTINF:-1 tvg-id="TelecaribePlus.co" tvg-country="CO" group-title="Music",Telecaribe Plus (HD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp02.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleDominicanaTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tele%20Dominicana%20TV.png" tvg-country="DO" group-title="Music",Tele Dominicana TV (HD)
+#EXTINF:-1 tvg-id="TeleDominicanaTV.do" tvg-country="DO" group-title="Music",Tele Dominicana TV (HD)
 https://vdopanel.jlahozconsulting.com/p/3417/hybrid/play.m3u8
-#EXTINF:-1 tvg-id="TelePeyi.gf" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tele%20Peyi.png" tvg-country="GF" group-title="Music",Tele Peyi (HD)
+#EXTINF:-1 tvg-id="TelePeyi.gf" tvg-country="GF" group-title="Music",Tele Peyi (HD)
 https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8
-#EXTINF:-1 tvg-id="Teleritmo.mx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Teleritmo.png" tvg-country="MX" group-title="Music",Teleritmo (HD)
+#EXTINF:-1 tvg-id="Teleritmo.mx" tvg-country="MX" group-title="Music",Teleritmo (HD)
 https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
-#EXTINF:-1 tvg-id="TelevisionCaribbean.kn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Television%20Caribbean.png" tvg-country="KN" group-title="Music",Television Caribbean (FHD)
+#EXTINF:-1 tvg-id="TelevisionCaribbean.kn" tvg-country="KN" group-title="Music",Television Caribbean (FHD)
 https://live.kingdom-tv.com:3545/stream/play.m3u8
-#EXTINF:-1 tvg-id="TelevisionEspoir47.tg" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Television%20Espoir%2047.png" tvg-country="TG" group-title="Music",Television Espoir 47 (HD)
+#EXTINF:-1 tvg-id="TelevisionEspoir47.tg" tvg-country="TG" group-title="Music",Television Espoir 47 (HD)
 https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
-#EXTINF:-1 tvg-id="TenarensesTV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tenarenses%20TV.png" tvg-country="DO" group-title="Music",Tenarenses TV (FHD)
+#EXTINF:-1 tvg-id="TenarensesTV.do" tvg-country="DO" group-title="Music",Tenarenses TV (FHD)
 https://edge.essastream.com/tenarensestvrd/playlist.m3u8
 #EXTINF:-1 tvg-id="TheCountryNetwork.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/The%20Country%20Network.png" tvg-country="US" group-title="Music",The Country Network (FHD)
 https://amg00600-amg00600c1-thecountrynetwork-us-5497.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TheVoice.bg" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/The%20Voice.png" tvg-country="BG" group-title="Music",The Voice (HD)
+#EXTINF:-1 tvg-id="TheVoice.bg" tvg-country="BG" group-title="Music",The Voice (HD)
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
-#EXTINF:-1 tvg-id="TjilTV.na" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tjil%20TV.png" tvg-country="NA" group-title="Music",Tjil TV (HD)
+#EXTINF:-1 tvg-id="TjilTV.na" tvg-country="NA" group-title="Music",Tjil TV (HD)
 https://hls-1zdhtxpm-livepush.akamaized.net/live_cdn/nsM12Xw0C1xXdJ/em0Wx71z-ec6EWJb/rewind-3600.m3u8
-#EXTINF:-1 tvg-id="TMA.gp" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TMA.png" tvg-country="GP" group-title="Music",TMA (FHD)
+#EXTINF:-1 tvg-id="TMA.gp" tvg-country="GP" group-title="Music",TMA (FHD)
 http://hls.tmacaraibes.com/live/index.m3u8
-#EXTINF:-1 tvg-id="TodayRadio.lu" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Today%20Radio.png" tvg-country="LU" group-title="Music",Today Radio (HD)
+#EXTINF:-1 tvg-id="TodayRadio.lu" tvg-country="LU" group-title="Music",Today Radio (HD)
 https://stream.rtl.lu/data/live/tele/rtltodayradio/playlist.m3u8
-#EXTINF:-1 tvg-id="TopEstradaTV.mk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TopEstrada%20TV.png" tvg-country="MK" group-title="Music",TopEstrada TV (HD)
+#EXTINF:-1 tvg-id="TopEstradaTV.mk" tvg-country="MK" group-title="Music",TopEstrada TV (HD)
 http://live.topestrada.com/live/topestrada/playlist.m3u8
-#EXTINF:-1 tvg-id="TopicalMoonRD.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Topical%20Moon%20RD.png" tvg-country="DO" group-title="Music",Topical Moon RD (HD)
+#EXTINF:-1 tvg-id="TopicalMoonRD.do" tvg-country="DO" group-title="Music",Topical Moon RD (HD)
 https://sistemastr.tropicalmoonmedia.com/live/56BE17DB16EB76C9F2DDB8346F4DFA4E/30.m3u8
-#EXTINF:-1 tvg-id="Totalmusic.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Totalmusic.png" tvg-country="UK" group-title="Music",Totalmusic (HD)
+#EXTINF:-1 tvg-id="Totalmusic.uk" tvg-country="UK" group-title="Music",Totalmusic (HD)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="Totalmusic2000s.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Totalmusic%202000s.png" tvg-country="UK" group-title="Music",Totalmusic 2000s (HD)
+#EXTINF:-1 tvg-id="Totalmusic2000s.uk" tvg-country="UK" group-title="Music",Totalmusic 2000s (HD)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_00s/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="Totalmusic80s.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Totalmusic%2080s.png" tvg-country="UK" group-title="Music",Totalmusic 80s (HD)
+#EXTINF:-1 tvg-id="Totalmusic80s.uk" tvg-country="UK" group-title="Music",Totalmusic 80s (HD)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="TotalmusicConcerts.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Totalmusic%20Concerts.png" tvg-country="UK" group-title="Music",Totalmusic Concerts (HD)
+#EXTINF:-1 tvg-id="TotalmusicConcerts.uk" tvg-country="UK" group-title="Music",Totalmusic Concerts (HD)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="TotalmusicDance.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Totalmusic%20Dance.png" tvg-country="UK" group-title="Music",Totalmusic Dance (HD)
+#EXTINF:-1 tvg-id="TotalmusicDance.uk" tvg-country="UK" group-title="Music",Totalmusic Dance (HD)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Brazuca.png" tvg-country="FR" group-title="Music",Trace Brazuca (FHD)
+#EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-country="FR" group-title="Music",Trace Brazuca (FHD)
 https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Gospel.png" tvg-country="FR" group-title="Music",Trace Gospel (FHD)
 https://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8
-#EXTINF:-1 tvg-id="TraceIvoire.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Ivoire.png" tvg-country="FR" group-title="Music",Trace Ivoire (FHD)
+#EXTINF:-1 tvg-id="TraceIvoire.fr" tvg-country="FR" group-title="Music",Trace Ivoire (FHD)
 https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceJama.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Jama.png" tvg-country="FR" group-title="Music",Trace Jama (FHD)
+#EXTINF:-1 tvg-id="TraceJama.fr" tvg-country="FR" group-title="Music",Trace Jama (FHD)
 https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Latina.png" tvg-country="FR" group-title="Music",Trace Latina (FHD)
+#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-country="FR" group-title="Music",Trace Latina (FHD)
 https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceNgoma.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Ngoma.png" tvg-country="FR" group-title="Music",Trace Ngoma (FHD)
+#EXTINF:-1 tvg-id="TraceNgoma.fr" tvg-country="FR" group-title="Music",Trace Ngoma (FHD)
 https://channels.trace.plus/Traceprod/AFRICA_EN_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceUK.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Trace%20UK.png" tvg-country="UK" group-title="Music",Trace UK (FHD)
+#EXTINF:-1 tvg-id="TraceUK.uk" tvg-country="UK" group-title="Music",Trace UK (FHD)
 https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceUrban.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Urban.png" tvg-country="FR" group-title="Music",Trace Urban (FHD)
 https://channels.trace.plus/Traceprod/URBAN_INTER_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraVinhTV.vn" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tra%20Vinh%20TV.png" tvg-country="VN" group-title="Music",Tra Vinh TV (FHD)
+#EXTINF:-1 tvg-id="TraVinhTV.vn" tvg-country="VN" group-title="Music",Tra Vinh TV (FHD)
 https://freem3u.xyz/api/live/play.m3u8?vid=91
-#EXTINF:-1 tvg-id="TropiQ99.7FM.pa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tropi%20Q%2099.7%20FM.png" tvg-country="PA" group-title="Music",Tropi Q 99.7 FM (FHD)
+#EXTINF:-1 tvg-id="TropiQ99.7FM.pa" tvg-country="PA" group-title="Music",Tropi Q 99.7 FM (FHD)
 https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8
-#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TRT%20Kurdi.png" tvg-country="TR" group-title="Music",TRT Kurdi (HD)
+#EXTINF:-1 tvg-id="TRTKurdi.tr" tvg-country="TR" group-title="Music",TRT Kurdi (HD)
 https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TRT%20Muzik.png" tvg-country="TR" group-title="Music",TRT Muzik (HD)
+#EXTINF:-1 tvg-id="TRTMuzik.tr" tvg-country="TR" group-title="Music",TRT Muzik (HD)
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="Tunes6.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tunes%206.png" tvg-country="IN" group-title="Music",Tunes 6 (HD)
+#EXTINF:-1 tvg-id="Tunes6.in" tvg-country="IN" group-title="Music",Tunes 6 (HD)
 https://stream.d6-pro.com/tunes6music/live/video.m3u8
-#EXTINF:-1 tvg-id="TV10.rw" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV10.png" tvg-country="RW" group-title="Music",TV10 (HD)
+#EXTINF:-1 tvg-id="TV10.rw" tvg-country="RW" group-title="Music",TV10 (HD)
 https://5c46fa289c89f.streamlock.net/pub1live/mystream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVCancaoNova.br" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Cancao%20Nova.png" tvg-country="BR" group-title="Music",TV Cancao Nova (HD)
+#EXTINF:-1 tvg-id="TVCancaoNova.br" tvg-country="BR" group-title="Music",TV Cancao Nova (HD)
 http://168.197.104.22/CANCAO_NOVA/index.m3u8
-#EXTINF:-1 tvg-id="TVDielli.xk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Dielli.png" tvg-country="XK" group-title="Music",TV Dielli (HD)
+#EXTINF:-1 tvg-id="TVDielli.xk" tvg-country="XK" group-title="Music",TV Dielli (HD)
 http://stream.tvdielli.com:8081/dielli/index.m3u8
-#EXTINF:-1 tvg-id="TVExitos.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Exitos.png" tvg-country="DO" group-title="Music",TV Exitos (HD)
+#EXTINF:-1 tvg-id="TVExitos.do" tvg-country="DO" group-title="Music",TV Exitos (HD)
 https://streaming.grupomediosdelnorte.com:19360/tvexitos/tvexitos.m3u8
-#EXTINF:-1 tvg-id="TVMarajoara.br" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Marajoara.png" tvg-country="BR" group-title="Music",TV Marajoara (HD)
+#EXTINF:-1 tvg-id="TVMarajoara.br" tvg-country="BR" group-title="Music",TV Marajoara (HD)
 https://tv02.zas.media:1936/tvmarajoara/tvmarajoara/playlist.m3u8
-#EXTINF:-1 tvg-id="TVNiksic.me" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Niksic.png" tvg-country="ME" group-title="Music",TV Niksic (HD)
+#EXTINF:-1 tvg-id="TVNiksic.me" tvg-country="ME" group-title="Music",TV Niksic (HD)
 https://tv.rtv-niksic.me/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TVOMIX.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TVOMIX.png" tvg-country="ES" group-title="Music",TVOMIX (FHD)
+#EXTINF:-1 tvg-id="TVOMIX.es" tvg-country="ES" group-title="Music",TVOMIX (FHD)
 https://cloud.tvomix.com/TVOMIX/index.m3u8
-#EXTINF:-1 tvg-id="TVOpoja.xk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Opoja.png" tvg-country="XK" group-title="Music",TV Opoja (HD)
+#EXTINF:-1 tvg-id="TVOpoja.xk" tvg-country="XK" group-title="Music",TV Opoja (HD)
 http://ip.opoja.tv:1935/tvopoja/tvopoja/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPanou.ht" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Panou.png" tvg-country="HT" group-title="Music",TV Panou (HD)
+#EXTINF:-1 tvg-id="TVPanou.ht" tvg-country="HT" group-title="Music",TV Panou (HD)
 http://tvpanoucom.srfms.com:1935/tvpanoucom/livestream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPeruanisima.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Peruanisima.png" tvg-country="PE" group-title="Music",TV Peruanisima (HD)
+#EXTINF:-1 tvg-id="TVPeruanisima.pe" tvg-country="PE" group-title="Music",TV Peruanisima (HD)
 https://k20.usastreams.com:8081/tvperuanisima/index.m3u8
-#EXTINF:-1 tvg-id="TVRodina.bg" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Rodina.png" tvg-country="BG" group-title="Music",TV Rodina (FHD)
+#EXTINF:-1 tvg-id="TVRodina.bg" tvg-country="BG" group-title="Music",TV Rodina (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://shift03.isp.bg/RodinaTV/index.m3u8
-#EXTINF:-1 tvg-id="TVSMusicNetwork.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TVS%20Music%20Network.png" tvg-country="US" group-title="Music",TVS Music Network (HD)
+#EXTINF:-1 tvg-id="TVSMusicNetwork.us" tvg-country="US" group-title="Music",TVS Music Network (HD)
 https://rpn.bozztv.com/gusa/gusa-tvsmusic/index.m3u8
-#EXTINF:-1 tvg-id="TVTabalong.id" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Tabalong.png" tvg-country="ID" group-title="Music",TV Tabalong (HD)
+#EXTINF:-1 tvg-id="TVTabalong.id" tvg-country="ID" group-title="Music",TV Tabalong (HD)
 https://5bf7b725107e5.streamlock.net/tvtabalong/tvtabalong/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUNO.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TVUNO.png" tvg-country="PE" group-title="Music",TVUNO (HD)
+#EXTINF:-1 tvg-id="TVUNO.pe" tvg-country="PE" group-title="Music",TVUNO (HD)
 https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVZimbo.ao" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Zimbo.png" tvg-country="AO" group-title="Music",TV Zimbo (FHD)
+#EXTINF:-1 tvg-id="TVZimbo.ao" tvg-country="AO" group-title="Music",TV Zimbo (FHD)
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="UAMusic.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/UA%20Music.png" tvg-country="UA" group-title="Music",UA Music (FHD)
+#EXTINF:-1 tvg-id="UAMusic.ua" tvg-country="UA" group-title="Music",UA Music (FHD)
 http://stream.mcquack.net/281/index.m3u8
-#EXTINF:-1 tvg-id="UltimateTV.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ultimate%20TV.png" tvg-country="IN" group-title="Music",Ultimate TV (FHD)
+#EXTINF:-1 tvg-id="UltimateTV.in" tvg-country="IN" group-title="Music",Ultimate TV (FHD)
 https://stream.ottlive.co.in/utvtamil/index.m3u8
-#EXTINF:-1 tvg-id="UltraTVPuebla.mx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Ultra%20TV%20Puebla.png" tvg-country="MX" group-title="Music",Ultra TV Puebla (HD)
+#EXTINF:-1 tvg-id="UltraTVPuebla.mx" tvg-country="MX" group-title="Music",Ultra TV Puebla (HD)
 https://5e50264bd6766.streamlock.net/telemetrika2/smil:telemetrika2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="UrbanMix.ar" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Urban%20Mix.png" tvg-country="AR" group-title="Music",Urban Mix (HD)
+#EXTINF:-1 tvg-id="UrbanMix.ar" tvg-country="AR" group-title="Music",Urban Mix (HD)
 https://cloud.tvomix.com/URBANMIX/index.m3u8
-#EXTINF:-1 tvg-id="UrbanoTV.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Urbano%20TV.png" tvg-country="CR" group-title="Music",Urbano TV (HD)
+#EXTINF:-1 tvg-id="UrbanoTV.cr" tvg-country="CR" group-title="Music",Urbano TV (HD)
 https://59ef525c24caa.streamlock.net/tvurbano/tvurbano/playlist.m3u8
 #EXTINF:-1 tvg-id="UtsavPlus.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Utsav%20Plus.png" tvg-country="UK" group-title="Music",Utsav Plus (HD)
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/gb/YuppTV/UtsavPlus.m3u8
-#EXTINF:-1 tvg-id="UTVPalakkad.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/UTV%20Palakkad.png" tvg-country="IN" group-title="Music",UTV Palakkad (FHD)
+#EXTINF:-1 tvg-id="UTVPalakkad.in" tvg-country="IN" group-title="Music",UTV Palakkad (FHD)
 https://em4qj6nedyvg-hls-live.wmncdn.net/utv/ab2de115318ae40bdd434e193a2f2e7f.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="UVATV.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/UVA%20TV.png" tvg-country="DO" group-title="Music",UVA TV (HD)
+#EXTINF:-1 tvg-id="UVATV.do" tvg-country="DO" group-title="Music",UVA TV (HD)
 https://www.uvatvhd.com/hls.php?file=live.m3u8
-#EXTINF:-1 tvg-id="V2BEATTV.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/V2BEAT%20TV.png" tvg-country="UK" group-title="Music",V2BEAT TV (HD)
+#EXTINF:-1 tvg-id="V2BEATTV.uk" tvg-country="UK" group-title="Music",V2BEAT TV (HD)
 https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 tvg-id="VaanavilTV.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vaanavil%20TV.png" tvg-country="IN" group-title="Music",Vaanavil TV (HD)
+#EXTINF:-1 tvg-id="VaanavilTV.in" tvg-country="IN" group-title="Music",Vaanavil TV (HD)
 https://6n3yope4d9ok-hls-live.5centscdn.com/vaanavil/TV.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="VAMTV.cw" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/VAM%20TV.png" tvg-country="CW" group-title="Music",VAM TV (HD)
+#EXTINF:-1 tvg-id="VAMTV.cw" tvg-country="CW" group-title="Music",VAM TV (HD)
 https://sincerecloud.stream/loadbalancer/public/J9EmQQGf.m3u8
-#EXTINF:-1 tvg-id="VantageClassic.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vantage%20Classic.png" tvg-country="EE" group-title="Music",Vantage Classic (HD)
+#EXTINF:-1 tvg-id="VantageClassic.ee" tvg-country="EE" group-title="Music",Vantage Classic (HD)
 https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8
-#EXTINF:-1 tvg-id="VantageDance.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vantage%20Dance.png" tvg-country="EE" group-title="Music",Vantage Dance (HD)
+#EXTINF:-1 tvg-id="VantageDance.ee" tvg-country="EE" group-title="Music",Vantage Dance (HD)
 https://hls.vantagetv.ee/vdance_stream/main_stream.m3u8
-#EXTINF:-1 tvg-id="VantageMusic.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vantage%20Music.png" tvg-country="EE" group-title="Music",Vantage Music (FHD)
+#EXTINF:-1 tvg-id="VantageMusic.ee" tvg-country="EE" group-title="Music",Vantage Music (FHD)
 https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
-#EXTINF:-1 tvg-id="VantageRock.ee" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vantage%20Rock.png" tvg-country="EE" group-title="Music",Vantage Rock (HD)
+#EXTINF:-1 tvg-id="VantageRock.ee" tvg-country="EE" group-title="Music",Vantage Rock (HD)
 https://hls.vantagetv.ee/vrock_stream/index.m3u8
-#EXTINF:-1 tvg-id="VClassicTV.cl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/V%20Classic%20TV.png" tvg-country="CL" group-title="Music",V Classic TV (HD)
+#EXTINF:-1 tvg-id="VClassicTV.cl" tvg-country="CL" group-title="Music",V Classic TV (HD)
 https://5eaccbab48461.streamlock.net:1936/8112/8112/playlist.m3u8
-#EXTINF:-1 tvg-id="VenusMedia.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Venus%20Media.png" tvg-country="PY" group-title="Music",Venus Media (FHD)
+#EXTINF:-1 tvg-id="VenusMedia.py" tvg-country="PY" group-title="Music",Venus Media (FHD)
 https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
-#EXTINF:-1 tvg-id="Vevo70s.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vevo%20%2770s.png" tvg-country="US" group-title="Music",Vevo '70s (FHD)
+#EXTINF:-1 tvg-id="Vevo70s.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Vevo%2070s.png" tvg-country="US" group-title="Music",Vevo '70s (FHD)
 https://amg00056-vevotv-vevo70saunz-samsungnz-lmeak.amagi.tv/playlist/amg00056-vevotv-vevo70saunz-samsungnz/playlist.m3u8
-#EXTINF:-1 tvg-id="Vevo80s.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vevo%20%2780s.png" tvg-country="US" group-title="Music",Vevo '80s (FHD)
+#EXTINF:-1 tvg-id="Vevo80s.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Vevo%2080s.png" tvg-country="US" group-title="Music",Vevo '80s (FHD)
 https://d3svsvgc81yfe1.cloudfront.net/Vevo_80s.m3u8
-#EXTINF:-1 tvg-id="Vevo90s.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vevo%20%2790s.png" tvg-country="US" group-title="Music",Vevo '90s (FHD)
+#EXTINF:-1 tvg-id="Vevo90s.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Vevo%2090s.png" tvg-country="US" group-title="Music",Vevo '90s (FHD)
 https://d29u7uq3k6xqk0.cloudfront.net/Vevo_90s.m3u8
-#EXTINF:-1 tvg-id="VevoCountry.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vevo%20Country.png" tvg-country="US" group-title="Music",Vevo Country (FHD)
+#EXTINF:-1 tvg-id="VevoCountry.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Vevo%20Country.png" tvg-country="US" group-title="Music",Vevo Country (FHD)
 https://pb-xrdbj9zdgm6ez.akamaized.net/Vevo_Country.m3u8
-#EXTINF:-1 tvg-id="VevoLatino.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vevo%20Latino.png" tvg-country="US" group-title="Music",Vevo Latino (FHD)
+#EXTINF:-1 tvg-id="VevoLatino.us" tvg-country="US" group-title="Music",Vevo Latino (FHD)
 https://d1vgg34wqvwdqj.cloudfront.net/Vevo_Latino.m3u8
-#EXTINF:-1 tvg-id="VevoPop.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vevo%20Pop.png" tvg-country="US" group-title="Music",Vevo Pop (FHD)
+#EXTINF:-1 tvg-id="VevoPop.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Vevo%20Pop.png" tvg-country="US" group-title="Music",Vevo Pop (FHD)
 https://d2n5ee9u100agb.cloudfront.net/Vevo_Pop.m3u8
-#EXTINF:-1 tvg-id="vijay-takkar.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/vijay-takkar.png" tvg-country="IN" group-title="Music",vijay-takkar (FHD)
+#EXTINF:-1 tvg-id="vijay-takkar.in" tvg-country="IN" group-title="Music",vijay-takkar (FHD)
 https://tglmp01.akamaized.net/out/v1/c1071012b73f4f189b202e1529e8f802/manifest.mpd
-#EXTINF:-1 tvg-id="VillaElisaRadioTV.py" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Villa%20Elisa%20Radio%20TV.png" tvg-country="PY" group-title="Music",Villa Elisa Radio TV (FHD)
+#EXTINF:-1 tvg-id="VillaElisaRadioTV.py" tvg-country="PY" group-title="Music",Villa Elisa Radio TV (FHD)
 https://copacogen.desdeparaguay.net/villaelisatv/villaelisatv/playlist.m3u8?admin=nacion
-#EXTINF:-1 tvg-id="VintageMusic.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vintage%20Music.png" tvg-country="CR" group-title="Music",Vintage Music (HD)
+#EXTINF:-1 tvg-id="VintageMusic.cr" tvg-country="CR" group-title="Music",Vintage Music (HD)
 https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
-#EXTINF:-1 tvg-id="VisionLatinaNetwork.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Vision%20Latina%20Network.png" tvg-country="US" group-title="Music",Vision Latina Network (FHD)
+#EXTINF:-1 tvg-id="VisionLatinaNetwork.us" tvg-country="US" group-title="Music",Vision Latina Network (FHD)
 https://cdn-cloudfront.us-east-1.prod.ingest.aws-infra.dacast.com/live/c1804a4c-ccbf-46e5-87c3-0f8d4a94d9e3/master.m3u8
-#EXTINF:-1 tvg-id="VisionTelevision.mx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vision%20Television.png" tvg-country="MX" group-title="Music",Vision Television (HD)
+#EXTINF:-1 tvg-id="VisionTelevision.mx" tvg-country="MX" group-title="Music",Vision Television (HD)
 https://cloudvideo.servers10.com:8081/8016/index.m3u8
-#EXTINF:-1 tvg-id="VivaLatino.ua" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/%C2%A1Viva%20Latino%21.png" tvg-country="UA" group-title="Music",¡Viva Latino! (FHD)
+#EXTINF:-1 tvg-id="VivaLatino.ua" tvg-country="UA" group-title="Music",¡Viva Latino! (FHD)
 http://stream.mcquack.net/285/index.m3u8
-#EXTINF:-1 tvg-id="VIVARussia.ru" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/VIVA%20Russia.png" tvg-country="RU" group-title="Music",VIVA Russia (FHD)
+#EXTINF:-1 tvg-id="VIVARussia.ru" tvg-country="RU" group-title="Music",VIVA Russia (FHD)
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/chunks.m3u8
-#EXTINF:-1 tvg-id="VMLatino.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/VM%20Latino.png" tvg-country="CR" group-title="Music",VM Latino (HD)
+#EXTINF:-1 tvg-id="VMLatino.cr" tvg-country="CR" group-title="Music",VM Latino (HD)
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
-#EXTINF:-1 tvg-id="VoiceOverRadioTV.cr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/VoiceOver%20Radio%20TV.png" tvg-country="CR" group-title="Music",VoiceOver Radio TV (HD)
+#EXTINF:-1 tvg-id="VoiceOverRadioTV.cr" tvg-country="CR" group-title="Music",VoiceOver Radio TV (HD)
 https://cloudvideo.servers10.com:8081/8198/index.m3u8
-#EXTINF:-1 tvg-id="VolksmusikTV.de" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Volksmusik%20TV.png" tvg-country="DE" group-title="Music",Volksmusik TV (FHD)
+#EXTINF:-1 tvg-id="VolksmusikTV.de" tvg-country="DE" group-title="Music",Volksmusik TV (FHD)
 https://vmtv.iptv-playoutcenter.de/vmtv/vmtv1/playlist.m3u8
-#EXTINF:-1 tvg-id="VosyTV.ec" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vos%20y%20TV.png" tvg-country="EC" group-title="Music",Vos y TV (HD)
+#EXTINF:-1 tvg-id="VosyTV.ec" tvg-country="EC" group-title="Music",Vos y TV (HD)
 https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
-#EXTINF:-1 tvg-id="VOXMusicTV.pl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/VOX%20Music%20TV.png" tvg-country="PL" group-title="Music",VOX Music TV (FHD)
+#EXTINF:-1 tvg-id="VOXMusicTV.pl" tvg-country="PL" group-title="Music",VOX Music TV (FHD)
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19171/index.m3u8
-#EXTINF:-1 tvg-id="WaarTV.iq" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Waar%20TV.png" tvg-country="IQ" group-title="Music",Waar TV (FHD)
+#EXTINF:-1 tvg-id="WaarTV.iq" tvg-country="IQ" group-title="Music",Waar TV (FHD)
 https://hlspackager.akamaized.net/live/DB/WAAR_HD/HLS/WAAR_HD.m3u8
-#EXTINF:-1 tvg-id="Wanasah.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Wanasah.png" tvg-country="AE" group-title="Music",Wanasah (FHD)
+#EXTINF:-1 tvg-id="Wanasah.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/Wanasah_logo.png" tvg-country="AE" group-title="Music",Wanasah (FHD)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8
-#EXTINF:-1 tvg-id="WapTV.ng" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Wap%20TV.png" tvg-country="NG" group-title="Music",Wap TV (HD)
+#EXTINF:-1 tvg-id="WapTV.ng" tvg-country="NG" group-title="Music",Wap TV (HD)
 https://newproxy3.vidivu.tv/waptv/index.m3u8
-#EXTINF:-1 tvg-id="WatarRadio.ae" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Watar%20Radio.png" tvg-country="AE" group-title="Music",Watar Radio (FHD)
+#EXTINF:-1 tvg-id="WatarRadio.ae" tvg-country="AE" group-title="Music",Watar Radio (FHD)
 https://svs.itworkscdn.net/smcwatarlive/smcwatar/playlist.m3u8
-#EXTINF:-1 tvg-id="WATC-DT57.1.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/WATC-DT%2057.1.png" tvg-country="US" group-title="Music",WATC-DT 57.1 (FHD)
+#EXTINF:-1 tvg-id="WATC-DT57.1.us" tvg-country="US" group-title="Music",WATC-DT 57.1 (FHD)
 https://tgn2.bozztv.com/watc57/watc57-1/watc57-1/index.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVAbuja.ng" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Wazobia%20Max%20TV%20Abuja.png" tvg-country="NG" group-title="Music",Wazobia Max TV Abuja (HD)
+#EXTINF:-1 tvg-id="WazobiaMaxTVAbuja.ng" tvg-country="NG" group-title="Music",Wazobia Max TV Abuja (HD)
 https://wazobia.live:8333/channel/wmaxabuja.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Wazobia%20Max%20TV%20Nigeria.png" tvg-country="NG" group-title="Music",Wazobia Max TV Nigeria (HD)
+#EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng" tvg-country="NG" group-title="Music",Wazobia Max TV Nigeria (HD)
 https://wazobia.live:8333/channel/wmax.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVPort-Harcourt.ng" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Wazobia%20Max%20TV%20Port-Harcourt.png" tvg-country="NG" group-title="Music",Wazobia Max TV Port-Harcourt (HD)
+#EXTINF:-1 tvg-id="WazobiaMaxTVPort-Harcourt.ng" tvg-country="NG" group-title="Music",Wazobia Max TV Port-Harcourt (HD)
 https://wazobia.live:8333/channel/wmaxph.m3u8
-#EXTINF:-1 tvg-id="WeertFMTV.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/WeertFM%20TV.png" tvg-country="NL" group-title="Music",WeertFM TV (HD)
+#EXTINF:-1 tvg-id="WeertFMTV.nl" tvg-country="NL" group-title="Music",WeertFM TV (HD)
 https://ms2.mx-cd.net/tv/151-573495/WeertFM_TV.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="WVCU-LP.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/WVCU-LP.png" tvg-country="US" group-title="Music",WVCU-LP (FHD)
+#EXTINF:-1 tvg-id="WVCU-LP.us" tvg-country="US" group-title="Music",WVCU-LP (FHD)
 https://video1.getstreamhosting.com:1936/8152/8152/playlist.m3u8
-#EXTINF:-1 tvg-id="XHFGL-TDT.mx" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XHFGL-TDT.png" tvg-country="MX" group-title="Music",XHFGL-TDT (FHD)
+#EXTINF:-1 tvg-id="XHFGL-TDT.mx" tvg-country="MX" group-title="Music",XHFGL-TDT (FHD)
 https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8
-#EXTINF:-1 tvg-id="XITE.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XITE.png" tvg-country="NL" group-title="Music",XITE (HD)
+#EXTINF:-1 tvg-id="XITE.nl" tvg-country="NL" group-title="Music",XITE (HD)
 https://xite-rakuten.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XITEReggaeVibes.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XITE%20Reggae%20Vibes.png" tvg-country="NL" group-title="Music",XITE Reggae Vibes (FHD)
+#EXTINF:-1 tvg-id="XITEReggaeVibes.nl" tvg-country="NL" group-title="Music",XITE Reggae Vibes (FHD)
 https://dw2m7yrngfg8c.cloudfront.net/XITE_Reggae_Vibes.m3u8
-#EXTINF:-1 tvg-id="XITERockxMetal.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XITE%20Rock%20x%20Metal.png" tvg-country="NL" group-title="Music",XITE Rock x Metal (FHD)
+#EXTINF:-1 tvg-id="XITERockxMetal.nl" tvg-country="NL" group-title="Music",XITE Rock x Metal (FHD)
 https://amg01243-xite-amg01243c21-tcl-us-6483.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="XPTV1.es" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XPTV1.png" tvg-country="ES" group-title="Music",XPTV1 (HD)
+#EXTINF:-1 tvg-id="XPTV1.es" tvg-country="ES" group-title="Music",XPTV1 (HD)
 https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
-#EXTINF:-1 tvg-id="XtremoChannel.do" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Xtremo%20Channel.png" tvg-country="DO" group-title="Music",Xtremo Channel (HD)
+#EXTINF:-1 tvg-id="XtremoChannel.do" tvg-country="DO" group-title="Music",Xtremo Channel (HD)
 https://ss2.tvrdomi.com:1936/xtremochannel/xtremochannel/playlist.m3u8
-#EXTINF:-1 tvg-id="YabanTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Yaban%20TV.png" tvg-country="TR" group-title="Music",Yaban TV (FHD)
+#EXTINF:-1 tvg-id="YabanTV.tr" tvg-country="TR" group-title="Music",Yaban TV (FHD)
 http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
-#EXTINF:-1 tvg-id="YETMax.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/YET%20Max.png" tvg-country="IN" group-title="Music",YET Max (HD)
+#EXTINF:-1 tvg-id="YETMax.in" tvg-country="IN" group-title="Music",YET Max (HD)
 https://live.yettelevision.com:5443/LiveApp/streams/yettv2.m3u8
-#EXTINF:-1 tvg-id="Yoshlar.uz" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Yoshlar.png" tvg-country="UZ" group-title="Music",Yoshlar (FHD)
+#EXTINF:-1 tvg-id="Yoshlar.uz" tvg-country="UZ" group-title="Music",Yoshlar (FHD)
 https://stream8.cinerama.uz/1002/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-id="YRFMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/YRF%20Music.png" tvg-country="IN" group-title="Music",YRF Music (FHD)
+#EXTINF:-1 tvg-id="YRFMusic.in" tvg-country="IN" group-title="Music",YRF Music (FHD)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
-#EXTINF:-1 tvg-id="YurimaguasTV.pe" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Yurimaguas%20TV.png" tvg-country="PE" group-title="Music",Yurimaguas TV (HD)
+#EXTINF:-1 tvg-id="YurimaguasTV.pe" tvg-country="PE" group-title="Music",Yurimaguas TV (HD)
 https://live-evg7.tv360.bitel.com.pe/bitel/yurimaguastvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="ZagrosTV.iq" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Zagros%20TV.png" tvg-country="IQ" group-title="Music",Zagros TV (FHD)
+#EXTINF:-1 tvg-id="ZagrosTV.iq" tvg-country="IQ" group-title="Music",Zagros TV (FHD)
 https://hlspackager.akamaized.net/live/DB/ZAGROS_TV/HLS/ZAGROS_TV.m3u8
-#EXTINF:-1 tvg-id="ZarokTV.tr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Zarok%20TV.png" tvg-country="TR" group-title="Music",Zarok TV (HD)
+#EXTINF:-1 tvg-id="ZarokTV.tr" tvg-country="TR" group-title="Music",Zarok TV (HD)
 https://zindikurmanci.zaroktv.com.tr/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZBMusic.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ZB%20Music.png" tvg-country="IN" group-title="Music",ZB Music (HD)
+#EXTINF:-1 tvg-id="ZBMusic.in" tvg-country="IN" group-title="Music",ZB Music (HD)
 https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 tvg-id="ZFMZoetermeerTV.nl" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ZFM%20Zoetermeer%20TV.png" tvg-country="NL" group-title="Music",ZFM Zoetermeer TV (HD)
+#EXTINF:-1 tvg-id="ZFMZoetermeerTV.nl" tvg-country="NL" group-title="Music",ZFM Zoetermeer TV (HD)
 https://zfmzoetermeer.nl/live/master.m3u8
-#EXTINF:-1 tvg-id="ZICOTV.rs" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ZICO%20TV.png" tvg-country="RS" group-title="Music",ZICO TV (HD)
+#EXTINF:-1 tvg-id="ZICOTV.rs" tvg-country="RS" group-title="Music",ZICO TV (HD)
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/index.m3u8
-#EXTINF:-1 tvg-id="Zoom.in" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Zoom.png" tvg-country="IN" group-title="Music",Zoom (HD)
+#EXTINF:-1 tvg-id="Zoom.in" tvg-country="IN" group-title="Music",Zoom (HD)
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8

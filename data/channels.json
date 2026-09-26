@@ -5736,24 +5736,18 @@
       "aliases": [
         "Aaryaa TV (1080p)"
       ],
-      "countries": [
-        "IN"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Aaryaa%20TV.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "AaryaaTV.in.SD"
-        ],
-        "tvivu": [
-          "AaryaaTV.in"
         ]
       },
       "languages": [
@@ -86016,24 +86010,17 @@
       "aliases": [
         "etv (1080p)"
       ],
-      "countries": [
-        "GP"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "ETVPlus.ee.SD",
           "etv.es.SD"
-        ],
-        "tvivu": [
-          "ETV.gp"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ETV.png",
@@ -122083,29 +122070,21 @@
       "aliases": [
         "Kanal 35 (720p)"
       ],
-      "countries": [
-        "AZ"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "Kanal35.az.SD"
-        ],
-        "tvivu": [
-          "Kanal35.az"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kanal%2035.png",
-      "enabled": false,
+      "enabled": true,
       "english": null,
-      "excluded_by": "quality:720p",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -137512,19 +137491,25 @@
       "aliases": [
         "Madras FM TV (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "GP"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "MadrasFMTV.gp.SD"
+        ],
+        "tvivu": [
+          "MadrasFMTV.gp"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Madras%20FM%20TV.png",
       "enabled": false,
       "english": null,
       "excluded_by": "quality:1080p",
@@ -169923,6 +169908,31 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "one-tv": {
+      "name": "One TV",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "One TV (HD)"
+      ],
+      "countries": [
+        "LB"
+      ],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "tvivu"
+      ],
+      "source_refs": {
+        "tvivu": [
+          "OneTV.lb"
+        ]
+      },
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/One%20TV.png",
+      "enabled": true,
+      "english": null
+    },
     "one-tv-720p-not-24-7": {
       "name": "One TV [Not 24/7]",
       "aliases": [
@@ -173538,29 +173548,21 @@
       "aliases": [
         "PBC Tapesh TV (720p)"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "PBCTapeshTV.us.SD"
-        ],
-        "tvivu": [
-          "PBCTapeshTV.us"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/PBC%20Tapesh%20TV.png",
-      "enabled": false,
+      "enabled": true,
       "english": null,
-      "excluded_by": "quality:720p",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -187562,19 +187564,25 @@
       "aliases": [
         "POP World TV (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "ES"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "POPWorldTV.es.SD"
+        ],
+        "tvivu": [
+          "POPWorldTV.es"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/POP%20World%20TV.png",
       "enabled": false,
       "english": null,
       "excluded_by": "quality:720p",
@@ -194035,23 +194043,31 @@
       "aliases": [
         "Radio Albalad TV (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "PS"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "RadioAlbaladTV.ps.SD"
+        ],
+        "tvivu": [
+          "RadioAlbaladTV.ps"
         ]
       },
-      "logo": "",
-      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Albalad%20TV.png",
+      "enabled": false,
       "english": null,
       "quality_height": 720,
-      "not_24_7": false
+      "not_24_7": false,
+      "excluded_by": "quality:720p"
     },
     "radio-america-tv-720p": {
       "name": "Radio America TV",
@@ -195106,6 +195122,31 @@
       "english": null,
       "quality_height": 720,
       "not_24_7": true
+    },
+    "radio-ideal": {
+      "name": "Radio Ideal",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Radio Ideal (HD)"
+      ],
+      "countries": [
+        "HN"
+      ],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "tvivu"
+      ],
+      "source_refs": {
+        "tvivu": [
+          "RadioIdeal.hn"
+        ]
+      },
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Ideal.png",
+      "enabled": true,
+      "english": null
     },
     "radio-ideal-720p-not-24-7": {
       "name": "Radio Ideal [Not 24/7]",
@@ -206675,19 +206716,25 @@
       "aliases": [
         "RTL 102.5 TV (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "IT"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "RTL1025TV.it.SD"
+        ],
+        "tvivu": [
+          "RTL102.5TV.it"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RTL%20102.5%20TV.png",
       "enabled": false,
       "english": null,
       "excluded_by": "quality:1080p",
@@ -213647,23 +213694,31 @@
       "aliases": [
         "Saudia Radio (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "SA"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "SaudiaRadio.sa.SD"
+        ],
+        "tvivu": [
+          "SaudiaRadio.sa"
         ]
       },
-      "logo": "",
-      "enabled": true,
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Saudia%20Radio.png",
+      "enabled": false,
       "english": null,
       "quality_height": 1080,
-      "not_24_7": false
+      "not_24_7": false,
+      "excluded_by": "quality:1080p"
     },
     "savane-tv": {
       "name": "Savane TV",
@@ -250168,7 +250223,8 @@
       ],
       "sources": [
         "gradetv",
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "gradetv": [
@@ -250176,9 +250232,12 @@
         ],
         "iptv-org": [
           "TraceNgoma.fr.SD"
+        ],
+        "tvivu": [
+          "TraceNgoma.fr"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Ngoma.png",
       "enabled": false,
       "english": null,
       "quality_height": 1080,
@@ -275098,19 +275157,25 @@
       "aliases": [
         "Vintage Music (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "CR"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "VintageMusic.cr.SD"
+        ],
+        "tvivu": [
+          "VintageMusic.cr"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vintage%20Music.png",
       "enabled": false,
       "english": null,
       "excluded_by": "quality:720p",

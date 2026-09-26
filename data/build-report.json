@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "total_channels": 7426,
+  "total_channels": 7428,
   "source_channels": {
     "cdn": 181,
     "core": 379,
     "gradetv": 25,
     "iptv-org": 10916,
     "pluto-tv": 441,
-    "tvivu": 563
+    "tvivu": 568
   },
   "category_channels": {
     "bein-sports": 9,
@@ -15,7 +15,7 @@
     "entertainment": 4082,
     "kids": 471,
     "movies": 565,
-    "music": 216,
+    "music": 218,
     "nba": 2,
     "news": 707,
     "nfl": 21,
@@ -31,7 +31,7 @@
     "AE": 1,
     "AF": 1,
     "AT": 1,
-    "AU": 24,
+    "AU": 25,
     "BO": 3,
     "CA": 17,
     "CL": 3,
@@ -47,6 +47,7 @@
     "GB": 36,
     "GM": 1,
     "GY": 1,
+    "HN": 1,
     "HR": 2,
     "HT": 2,
     "ID": 3,
@@ -54,7 +55,7 @@
     "IT": 5,
     "JO": 1,
     "LA": 1,
-    "LB": 1,
+    "LB": 2,
     "LU": 2,
     "MK": 2,
     "MN": 1,
@@ -73,7 +74,7 @@
     "TR": 1,
     "TZ": 5,
     "UA": 3,
-    "US": 456,
+    "US": 455,
     "VN": 1,
     "XK": 2,
     "ZA": 1
