@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total_channels": 1909,
+  "total_channels": 1906,
   "source_channels": {
     "cdn": 181,
     "core": 379,
@@ -15,12 +15,12 @@
     "entertainment": 853,
     "kids": 157,
     "movies": 209,
-    "music": 16,
+    "music": 14,
     "nba": 1,
     "news": 152,
     "nfl": 21,
     "sky-sports": 23,
-    "soccer": 116,
+    "soccer": 115,
     "sports": 114,
     "stan-sports": 16,
     "tanzania": 6,
@@ -29,14 +29,14 @@
     "ufc": 4
   },
   "country_channels": {
-    "AU": 53,
+    "AU": 52,
     "CA": 74,
     "FR": 3,
-    "GB": 156,
+    "GB": 155,
     "NZ": 16,
     "TR": 5,
     "TZ": 6,
-    "US": 1590
+    "US": 1589
   },
   "international_channels": 6,
   "unresolved_channels": []
