@@ -5759,18 +5759,24 @@
       "aliases": [
         "Aaryaa TV (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "IN"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Aaryaa%20TV.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "AaryaaTV.in.SD"
+        ],
+        "tvivu": [
+          "AaryaaTV.in"
         ]
       },
       "languages": [
@@ -10894,35 +10900,6 @@
       "quality_height": null,
       "not_24_7": false
     },
-    "aion-tv": {
-      "name": "AION TV",
-      "aliases": [
-        "AION TV (FHD)"
-      ],
-      "countries": [
-        "DO"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "AIONTV.do"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/AION%20TV.png",
-      "enabled": false,
-      "languages": [
-        "spa"
-      ],
-      "english": false,
-      "excluded_by": "language:spa",
-      "quality_height": null,
-      "not_24_7": false
-    },
     "aion-tv-1080p-not-24-7": {
       "name": "AION TV [Not 24/7]",
       "aliases": [
@@ -13670,31 +13647,6 @@
       "english": false,
       "excluded_by": "language:sqi",
       "quality_height": 1080,
-      "not_24_7": false
-    },
-    "albdreams-tv": {
-      "name": "Albdreams TV",
-      "aliases": [
-        "Albdreams TV (HD)"
-      ],
-      "countries": [
-        "US"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "AlbdreamsTV.us"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Albdreams%20TV.png",
-      "enabled": true,
-      "english": null,
-      "quality_height": null,
       "not_24_7": false
     },
     "albkanale-music-tv": {
@@ -16946,29 +16898,6 @@
       "enabled": true,
       "english": null
     },
-    "american-football-alabama-state-vs-mississippi-valley-state-damitv": {
-      "name": "[American Football] Alabama State vs Mississippi Valley State (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Alabama State vs Mississippi Valley State (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-app-state-mountaineers-vs-nc-state-wolfpack-english-strmcntr": {
       "name": "[American Football] App State Mountaineers vs. NC State Wolfpack | English (STRMCNTR)",
       "quality_height": null,
@@ -17015,29 +16944,6 @@
       "enabled": true,
       "english": null
     },
-    "american-football-auburn-vs-vanderbilt-damitv": {
-      "name": "[American Football] Auburn vs Vanderbilt (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Auburn vs Vanderbilt (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-ball-state-cardinals-vs-kent-state-golden-flashes-english-strmcntr": {
       "name": "[American Football] Ball State Cardinals vs. Kent State Golden Flashes | English (STRMCNTR)",
       "quality_height": null,
@@ -17061,58 +16967,12 @@
       "enabled": true,
       "english": null
     },
-    "american-football-bethune-cookman-vs-south-carolina-state-damitv": {
-      "name": "[American Football] Bethune-Cookman vs South Carolina State (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Bethune-Cookman vs South Carolina State (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-boise-state-broncos-vs-western-michigan-broncos-english-strmcntr": {
       "name": "[American Football] Boise State Broncos vs. Western Michigan Broncos | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[American Football] Boise State Broncos vs. Western Michigan Broncos | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-bowling-green-vs-south-florida-damitv": {
-      "name": "[American Football] Bowling Green vs South Florida (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Bowling Green vs South Florida (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -17177,30 +17037,6 @@
       "enabled": true,
       "english": null
     },
-    "american-football-central-michigan-chippewas-at-miami-hurricanes-damitv": {
-      "name": "[American Football] Central Michigan Chippewas at Miami Hurricanes (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Central Michigan Chippewas at Miami Hurricanes (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bmiami\\b"
-    },
     "american-football-central-michigan-chippewas-vs-miami-hurricanes-english-strmcntr": {
       "name": "[American Football] Central Michigan Chippewas vs. Miami Hurricanes | English (STRMCNTR)",
       "quality_height": null,
@@ -17224,53 +17060,6 @@
       "enabled": false,
       "english": null,
       "excluded_by": "name:\\bmiami\\b"
-    },
-    "american-football-charlotte-vs-louisiana-damitv": {
-      "name": "[American Football] Charlotte vs Louisiana (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Charlotte vs Louisiana (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bcharlotte\\b"
-    },
-    "american-football-cincinnati-vs-kansas-state-damitv": {
-      "name": "[American Football] Cincinnati vs Kansas State (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Cincinnati vs Kansas State (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
     },
     "american-football-colorado-buffaloes-vs-baylor-bears-english-strmcntr": {
       "name": "[American Football] Colorado Buffaloes vs. Baylor Bears | English (STRMCNTR)",
@@ -17324,52 +17113,6 @@
       "not_24_7": false,
       "aliases": [
         "[American Football] Delaware Blue Hens vs. Virginia Cavaliers | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-delaware-state-vs-towson-damitv": {
-      "name": "[American Football] Delaware State vs Towson (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Delaware State vs Towson (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-eastern-washington-vs-cal-poly-damitv": {
-      "name": "[American Football] Eastern Washington vs Cal Poly (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Eastern Washington vs Cal Poly (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -17462,75 +17205,6 @@
       "not_24_7": false,
       "aliases": [
         "[American Football] Georgia Tech Yellow Jackets vs. Stanford Cardinal | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-grambling-state-vs-prairie-view-a-and-m-damitv": {
-      "name": "[American Football] Grambling State vs Prairie View A and M (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Grambling State vs Prairie View A and M (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-hamilton-tiger-cats-at-edmonton-elks-damitv": {
-      "name": "[American Football] Hamilton Tiger-Cats at Edmonton Elks (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Hamilton Tiger-Cats at Edmonton Elks (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-hampton-vs-campbell-damitv": {
-      "name": "[American Football] Hampton vs Campbell (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Hampton vs Campbell (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -17687,53 +17361,6 @@
       "logo": "",
       "enabled": true,
       "english": null
-    },
-    "american-football-jackson-state-vs-southern-damitv": {
-      "name": "[American Football] Jackson State vs Southern (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Jackson State vs Southern (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-jacksonville-state-vs-middle-tennessee-damitv": {
-      "name": "[American Football] Jacksonville State vs Middle Tennessee (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Jacksonville State vs Middle Tennessee (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bjacksonville\\b"
     },
     "american-football-james-madison-dukes-vs-old-dominion-monarchs-english-strmcntr": {
       "name": "[American Football] James Madison Dukes vs. Old Dominion Monarchs | English (STRMCNTR)",
@@ -17898,58 +17525,12 @@
       "english": null,
       "excluded_by": "name:\\bsacramento\\b"
     },
-    "american-football-mcneese-state-vs-east-texas-a-and-m-damitv": {
-      "name": "[American Football] McNeese State vs East Texas A and M (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] McNeese State vs East Texas A and M (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-mercyhurst-lakers-vs-western-kentucky-hilltoppers-english-strmcntr": {
       "name": "[American Football] Mercyhurst Lakers vs. Western Kentucky Hilltoppers | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[American Football] Mercyhurst Lakers vs. Western Kentucky Hilltoppers | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-michigan-state-vs-nebraska-damitv": {
-      "name": "[American Football] Michigan State vs Nebraska (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Michigan State vs Nebraska (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -18130,59 +17711,12 @@
       "enabled": true,
       "english": null
     },
-    "american-football-north-texas-vs-houston-baptist-damitv": {
-      "name": "[American Football] North Texas vs Houston Baptist (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] North Texas vs Houston Baptist (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bhouston\\b"
-    },
     "american-football-northern-illinois-huskies-vs-georgia-state-panthers-english-strmcntr": {
       "name": "[American Football] Northern Illinois Huskies vs. Georgia State Panthers | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[American Football] Northern Illinois Huskies vs. Georgia State Panthers | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-northwestern-state-vs-southeastern-louisiana-damitv": {
-      "name": "[American Football] Northwestern State vs Southeastern Louisiana (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Northwestern State vs Southeastern Louisiana (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -18269,58 +17803,12 @@
       "enabled": true,
       "english": null
     },
-    "american-football-old-dominion-vs-james-madison-damitv": {
-      "name": "[American Football] Old Dominion vs James Madison (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Old Dominion vs James Madison (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-ole-miss-rebels-vs-florida-gators-english-strmcntr": {
       "name": "[American Football] Ole Miss Rebels vs. Florida Gators | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[American Football] Ole Miss Rebels vs. Florida Gators | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-oregon-ducks-at-usc-trojans-damitv": {
-      "name": "[American Football] Oregon Ducks at USC Trojans (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Oregon Ducks at USC Trojans (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -18501,29 +17989,6 @@
       "enabled": true,
       "english": null
     },
-    "american-football-south-carolina-gamecocks-at-alabama-crimson-tide-damitv": {
-      "name": "[American Football] South Carolina Gamecocks at Alabama Crimson Tide (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] South Carolina Gamecocks at Alabama Crimson Tide (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-south-carolina-gamecocks-vs-alabama-crimson-tide-english-strmcntr": {
       "name": "[American Football] South Carolina Gamecocks vs. Alabama Crimson Tide | English (STRMCNTR)",
       "quality_height": null,
@@ -18570,29 +18035,6 @@
       "enabled": true,
       "english": null
     },
-    "american-football-southeast-missouri-state-vs-west-florida-damitv": {
-      "name": "[American Football] Southeast Missouri State vs West Florida (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Southeast Missouri State vs West Florida (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-southern-miss-golden-eagles-vs-tulane-green-wave-english-strmcntr": {
       "name": "[American Football] Southern Miss Golden Eagles vs. Tulane Green Wave | English (STRMCNTR)",
       "quality_height": null,
@@ -18615,30 +18057,6 @@
       "logo": "",
       "enabled": true,
       "english": null
-    },
-    "american-football-stephen-f-austin-vs-northeastern-state-damitv": {
-      "name": "[American Football] Stephen F. Austin vs Northeastern State (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Stephen F. Austin vs Northeastern State (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\baustin\\b"
     },
     "american-football-stonehill-skyhawks-vs-ohio-bobcats-english-strmcntr": {
       "name": "[American Football] Stonehill Skyhawks vs. Ohio Bobcats | English (STRMCNTR)",
@@ -18669,29 +18087,6 @@
       "not_24_7": false,
       "aliases": [
         "[American Football] TCU Horned Frogs vs. UCF Knights | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-texas-a-and-m-aggies-at-lsu-tigers-damitv": {
-      "name": "[American Football] Texas A&M Aggies at LSU Tigers (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Texas A&M Aggies at LSU Tigers (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -18755,58 +18150,12 @@
       "enabled": true,
       "english": null
     },
-    "american-football-texas-state-vs-incarnate-word-damitv": {
-      "name": "[American Football] Texas State vs Incarnate Word (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Texas State vs Incarnate Word (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-troy-trojans-vs-utah-state-aggies-english-strmcntr": {
       "name": "[American Football] Troy Trojans vs. Utah State Aggies | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[American Football] Troy Trojans vs. Utah State Aggies | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-tulane-vs-southern-miss-damitv": {
-      "name": "[American Football] Tulane vs Southern Miss (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Tulane vs Southern Miss (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -18917,52 +18266,6 @@
       "enabled": true,
       "english": null
     },
-    "american-football-usc-vs-oregon-damitv": {
-      "name": "[American Football] USC vs Oregon (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] USC vs Oregon (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-utah-state-aggies-vs-troy-trojans-damitv": {
-      "name": "[American Football] Utah State Aggies vs Troy Trojans (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Utah State Aggies vs Troy Trojans (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-utah-utes-vs-iowa-state-cyclones-english-strmcntr": {
       "name": "[American Football] Utah Utes vs. Iowa State Cyclones | English (STRMCNTR)",
       "quality_height": null,
@@ -19033,29 +18336,6 @@
       "english": null,
       "excluded_by": "name:\\bboston\\b"
     },
-    "american-football-virginia-vs-delaware-damitv": {
-      "name": "[American Football] Virginia vs Delaware (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Virginia vs Delaware (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-wake-forest-demon-deacons-vs-louisville-cardinals-english-strmcntr": {
       "name": "[American Football] Wake Forest Demon Deacons vs. Louisville Cardinals | English (STRMCNTR)",
       "quality_height": null,
@@ -19080,81 +18360,12 @@
       "english": null,
       "excluded_by": "name:\\blouisville\\b"
     },
-    "american-football-washington-state-vs-arizona-damitv": {
-      "name": "[American Football] Washington State vs Arizona (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Washington State vs Arizona (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-western-kentucky-vs-mercyhurst-damitv": {
-      "name": "[American Football] Western Kentucky vs Mercyhurst (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Western Kentucky vs Mercyhurst (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "american-football-william-and-mary-tribe-vs-duke-blue-devils-english-strmcntr": {
       "name": "[American Football] William & Mary Tribe vs. Duke Blue Devils | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[American Football] William & Mary Tribe vs. Duke Blue Devils | English (STRMCNTR)"
-      ],
-      "countries": [],
-      "categories": [
-        "nfl"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Football.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "american-football-wisconsin-badgers-at-penn-state-nittany-lions-damitv": {
-      "name": "[American Football] Wisconsin Badgers at Penn State Nittany Lions (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[American Football] Wisconsin Badgers at Penn State Nittany Lions (DAMITV)"
       ],
       "countries": [],
       "categories": [
@@ -30297,16 +29508,22 @@
       "aliases": [
         "Bandamax (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "MX"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "Bandamax.mx.SD"
+        ],
+        "tvivu": [
+          "Bandamax.mx"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Bandamax.png",
@@ -38110,23 +37327,16 @@
       "aliases": [
         "Biznet Adventure (1080p)"
       ],
-      "countries": [
-        "ID"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "BiznetAdventure.id.SD"
-        ],
-        "tvivu": [
-          "BiznetAdventure.id"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Biznet%20Adventure.png",
@@ -39738,6 +38948,29 @@
       "enabled": true,
       "english": null
     },
+    "bolivia-copa-universitario-de-vinto-vs-oriente-petrolero-fawa": {
+      "name": "[Bolivia Copa] Universitario de Vinto vs Oriente Petrolero (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Bolivia Copa] Universitario de Vinto vs Oriente Petrolero (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "bolivia-tv-1080p": {
       "name": "Bolivia TV",
       "aliases": [
@@ -41131,29 +40364,6 @@
       "source_refs": {
         "pluto-tv": [
           "bravo-vault"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "brazil-serie-b-goias-vs-atletico-go-fawa": {
-      "name": "[Brazil Serie B] Goias vs Atletico GO (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Brazil Serie B] Goias vs Atletico GO (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
         ]
       },
       "logo": "",
@@ -59683,52 +58893,6 @@
       "not_24_7": false,
       "excluded_by": "country:CL"
     },
-    "chile-copa-nublense-vs-d-puerto-montt-fawa": {
-      "name": "[Chile Copa] Nublense vs D Puerto Montt (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Chile Copa] Nublense vs D Puerto Montt (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "chile-copa-u-catolica-vs-union-la-calera-fawa": {
-      "name": "[Chile Copa] U Catolica vs Union La Calera (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Chile Copa] U Catolica vs Union La Calera (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "chilevision-1080p": {
       "name": "ChileVision",
       "aliases": [
@@ -65854,58 +65018,12 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "colombia-primera-a-cucuta-vs-llaneros-fawa": {
-      "name": "[Colombia Primera A] Cucuta vs Llaneros (FAWA)",
+    "colombia-primera-a-junior-vs-ind-medellin-fawa": {
+      "name": "[Colombia Primera A] Junior vs Ind Medellin (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Colombia Primera A] Cucuta vs Llaneros (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "colombia-primera-a-pereira-vs-inter-bogota-fawa": {
-      "name": "[Colombia Primera A] Pereira vs Inter Bogota (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Colombia Primera A] Pereira vs Inter Bogota (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "colombia-primera-b-boca-juniors-vs-patriotas-fawa": {
-      "name": "[Colombia Primera B] Boca Juniors vs Patriotas (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Colombia Primera B] Boca Juniors vs Patriotas (FAWA)"
+        "[Colombia Primera A] Junior vs Ind Medellin (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -67895,6 +67013,98 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "copa-argentina-racing-club-vs-boca-juniors-tyc-sports-strmxhd": {
+      "name": "[Copa Argentina] Racing Club vs Boca Juniors | TyC Sports (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Argentina] Racing Club vs Boca Juniors | TyC Sports (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-chile-antofagasta-vs-deportes-iquique-tnt-sports-chile-strmxhd": {
+      "name": "[Copa Chile] Antofagasta vs Deportes Iquique | TNT Sports Chile (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Chile] Antofagasta vs Deportes Iquique | TNT Sports Chile (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "tnt-sports"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-chile-deportes-concepcion-vs-curico-unido-tnt-sports-chile-strmxhd": {
+      "name": "[Copa Chile] Deportes Concepción vs Curicó Unido | TNT Sports Chile (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Chile] Deportes Concepción vs Curicó Unido | TNT Sports Chile (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "tnt-sports"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-chile-deportes-santa-cruz-vs-o-higgins-tnt-sports-chile-strmxhd": {
+      "name": "[Copa Chile] Deportes Santa Cruz vs O'Higgins | TNT Sports Chile (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Chile] Deportes Santa Cruz vs O'Higgins | TNT Sports Chile (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "tnt-sports"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "copa-chile-nublense-vs-puerto-montt-1-plibre": {
       "name": "[Copa Chile] Ñublense vs Puerto Montt 1 (PLIBRE)",
       "quality_height": null,
@@ -68171,6 +67381,29 @@
       "enabled": true,
       "english": null
     },
+    "copa-chile-universidad-chile-vs-everton-tnt-sports-chile-strmxhd": {
+      "name": "[Copa Chile] Universidad Chile vs Everton | TNT Sports Chile (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Chile] Universidad Chile vs Everton | TNT Sports Chile (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "tnt-sports"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "copa-de-la-division-profesional-the-strongest-vs-guabira-entel-tv-plus-tvf90": {
       "name": "[Copa de la División Profesional] The Strongest vs Guabirá | Entel TV PLUS+ (TVF90)",
       "quality_height": null,
@@ -68217,6 +67450,75 @@
       "enabled": true,
       "english": null
     },
+    "copa-de-la-liga-ad-tarma-vs-sporting-cristal-america-tv-strmxhd": {
+      "name": "[Copa de la Liga] AD Tarma vs Sporting Cristal | América TV (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa de la Liga] AD Tarma vs Sporting Cristal | América TV (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-de-la-liga-ad-tarma-vs-sporting-cristal-eventos-3-strmxhd": {
+      "name": "[Copa de la Liga] AD Tarma vs Sporting Cristal | Eventos 3 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa de la Liga] AD Tarma vs Sporting Cristal | Eventos 3 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-de-la-liga-sport-boys-vs-alianza-atletico-america-tv-strmxhd": {
+      "name": "[Copa de la Liga] Sport Boys vs Alianza Atlético | América TV (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa de la Liga] Sport Boys vs Alianza Atlético | América TV (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "copa-de-primera-rubio-nu-vs-2-de-mayo-1-stp": {
       "name": "[Copa de Primera] Rubio Ñú vs 2 de Mayo 1 (STP)",
       "quality_height": null,
@@ -68246,6 +67548,52 @@
       "not_24_7": false,
       "aliases": [
         "[Copa de Primera] Sportivo Trinidense vs Cerro Porteño 1 (STP)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-mundial-sub-20-f-espana-vs-corea-del-norte-dsports-strmxhd": {
+      "name": "[Copa Mundial Sub-20 (F)] España vs Corea del Norte | DSports (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Mundial Sub-20 (F)] España vs Corea del Norte | DSports (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-mundial-sub-20-f-espana-vs-corea-del-norte-tudn-mx-strmxhd": {
+      "name": "[Copa Mundial Sub-20 (F)] España vs Corea del Norte | TUDN MX (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Mundial Sub-20 (F)] España vs Corea del Norte | TUDN MX (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -87699,23 +87047,16 @@
       "aliases": [
         "Erzurum Web TV (720p)"
       ],
-      "countries": [
-        "TR"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "ErzurumWebTV.tr.SD"
-        ],
-        "tvivu": [
-          "ErzurumWebTV.tr"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Erzurum%20Web%20TV.png",
@@ -89083,17 +88424,24 @@
       "aliases": [
         "etv (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "GP"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "ETVPlus.ee.SD",
           "etv.es.SD"
+        ],
+        "tvivu": [
+          "ETV.gp"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/ETV.png",
@@ -125538,16 +124886,23 @@
       "aliases": [
         "Kanal 35 (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "AZ"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "Kanal35.az.SD"
+        ],
+        "tvivu": [
+          "Kanal35.az"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Kanal%2035.png",
@@ -125555,7 +124910,7 @@
       "english": null,
       "quality_height": 720,
       "not_24_7": false,
-      "excluded_by": "country:AZ"
+      "excluded_by": "quality:720p"
     },
     "kanal-5-360p": {
       "name": "Kanal 5",
@@ -133191,6 +132546,121 @@
       "enabled": true,
       "english": null
     },
+    "laliga-hypermotion-burgos-vs-eldense-laliga-hypermotion-2-strmxhd": {
+      "name": "[LaLiga Hypermotion] Burgos vs Eldense | LaLiga Hypermotion 2 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[LaLiga Hypermotion] Burgos vs Eldense | LaLiga Hypermotion 2 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "laliga-hypermotion-eibar-vs-las-palmas-laliga-hypermotion-strmxhd": {
+      "name": "[LaLiga Hypermotion] Eibar vs Las Palmas | LaLiga Hypermotion (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[LaLiga Hypermotion] Eibar vs Las Palmas | LaLiga Hypermotion (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "laliga-hypermotion-mallorca-vs-almeria-laliga-hypermotion-strmxhd": {
+      "name": "[LaLiga Hypermotion] Mallorca vs Almería | LaLiga Hypermotion (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[LaLiga Hypermotion] Mallorca vs Almería | LaLiga Hypermotion (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "laliga-hypermotion-real-oviedo-vs-sporting-gijon-laliga-hypermotion-strmxhd": {
+      "name": "[LaLiga Hypermotion] Real Oviedo vs Sporting Gijón | LaLiga Hypermotion (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[LaLiga Hypermotion] Real Oviedo vs Sporting Gijón | LaLiga Hypermotion (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "laliga-hypermotion-real-valladolid-vs-cordoba-laliga-hypermotion-strmxhd": {
+      "name": "[LaLiga Hypermotion] Real Valladolid vs Córdoba | LaLiga Hypermotion (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[LaLiga Hypermotion] Real Valladolid vs Córdoba | LaLiga Hypermotion (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "laliga-tv": {
       "name": "LaLiga TV",
       "aliases": [
@@ -135826,12 +135296,81 @@
       "enabled": true,
       "english": null
     },
+    "liga-colombia-deportivo-cali-vs-rionegro-aguilas-win-sports-strmxhd": {
+      "name": "[Liga Colombia] Deportivo Cali vs Rionegro Águilas | Win Sports + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Colombia] Deportivo Cali vs Rionegro Águilas | Win Sports + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-colombia-deportivo-pereira-vs-inter-bogota-win-sports-strmxhd": {
       "name": "[Liga Colombia] Deportivo Pereira vs Inter Bogotá | Win Sports + (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[Liga Colombia] Deportivo Pereira vs Inter Bogotá | Win Sports + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-colombia-fortaleza-ceif-vs-deportes-tolima-win-sports-strmxhd": {
+      "name": "[Liga Colombia] Fortaleza CEIF vs Deportes Tolima | Win Sports + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Colombia] Fortaleza CEIF vs Deportes Tolima | Win Sports + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-colombia-jaguares-de-cordoba-vs-alianza-win-sports-strmxhd": {
+      "name": "[Liga Colombia] Jaguares de Córdoba vs Alianza | Win Sports + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Colombia] Jaguares de Córdoba vs Alianza | Win Sports + (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -136172,12 +135711,173 @@
       "enabled": true,
       "english": null
     },
+    "liga-de-naciones-alemania-vs-grecia-disney-strmxhd": {
+      "name": "[Liga de Naciones] Alemania vs Grecia | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Alemania vs Grecia | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-alemania-vs-grecia-sportv-2-strmxhd": {
+      "name": "[Liga de Naciones] Alemania vs Grecia | SporTV 2 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Alemania vs Grecia | SporTV 2 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-austria-vs-kosovo-disney-strmxhd": {
+      "name": "[Liga de Naciones] Austria vs Kosovo | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Austria vs Kosovo | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-de-naciones-bulgaria-vs-luxemburgo-disney-strmxhd": {
       "name": "[Liga de Naciones] Bulgaria vs Luxemburgo | Disney + (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[Liga de Naciones] Bulgaria vs Luxemburgo | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-concacaf-curazao-vs-nicaragua-vix-strmxhd": {
+      "name": "[Liga de Naciones CONCACAF] Curazao vs Nicaragua | Vix + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones CONCACAF] Curazao vs Nicaragua | Vix + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-concacaf-dominica-vs-puerto-rico-vix-strmxhd": {
+      "name": "[Liga de Naciones CONCACAF] Dominica vs Puerto Rico | Vix + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones CONCACAF] Dominica vs Puerto Rico | Vix + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-concacaf-haiti-vs-costa-rica-vix-strmxhd": {
+      "name": "[Liga de Naciones CONCACAF] Haití vs Costa Rica | Vix + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones CONCACAF] Haití vs Costa Rica | Vix + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-concacaf-trinidad-y-tobago-vs-republica-dominicana-vix-strmxhd": {
+      "name": "[Liga de Naciones CONCACAF] Trinidad y Tobago vs República Dominicana | Vix + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones CONCACAF] Trinidad y Tobago vs República Dominicana | Vix + (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -136747,6 +136447,29 @@
       "enabled": true,
       "english": null
     },
+    "liga-de-naciones-dinamarca-vs-gales-disney-strmxhd": {
+      "name": "[Liga de Naciones] Dinamarca vs Gales | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Dinamarca vs Gales | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-de-naciones-eslovaquia-vs-moldavia-disney-strmxhd": {
       "name": "[Liga de Naciones] Eslovaquia vs Moldavia | Disney + (STRMXHD)",
       "quality_height": null,
@@ -136799,6 +136522,29 @@
       "not_24_7": false,
       "aliases": [
         "[Liga de Naciones] Eslovenia vs Escocia | ESPN 4 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-gibraltar-vs-andorra-disney-strmxhd": {
+      "name": "[Liga de Naciones] Gibraltar vs Andorra | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Gibraltar vs Andorra | Disney + (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -137000,12 +136746,81 @@
       "enabled": true,
       "english": null
     },
+    "liga-de-naciones-israel-vs-republica-de-irlanda-disney-strmxhd": {
+      "name": "[Liga de Naciones] Israel vs República de Irlanda | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Israel vs República de Irlanda | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-de-naciones-macedonia-del-norte-vs-suiza-disney-strmxhd": {
       "name": "[Liga de Naciones] Macedonia del Norte vs Suiza | Disney + (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[Liga de Naciones] Macedonia del Norte vs Suiza | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-noruega-vs-portugal-disney-strmxhd": {
+      "name": "[Liga de Naciones] Noruega vs Portugal | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Noruega vs Portugal | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-noruega-vs-portugal-espn-strmxhd": {
+      "name": "[Liga de Naciones] Noruega vs Portugal | ESPN (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones] Noruega vs Portugal | ESPN (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -137673,6 +137488,144 @@
       "not_24_7": false,
       "aliases": [
         "[Liga MX] Guadalajara vs Querétaro | Universo (TVF90)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-mx-leon-vs-juarez-fox-one-strmxhd": {
+      "name": "[Liga MX] León vs Juárez | FOX One (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga MX] León vs Juárez | FOX One (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-mx-leon-vs-juarez-tudn-usa-strmxhd": {
+      "name": "[Liga MX] León vs Juárez | TUDN USA (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga MX] León vs Juárez | TUDN USA (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-mx-necaxa-vs-america-fox-deportes-usa-strmxhd": {
+      "name": "[Liga MX] Necaxa vs América | FOX Deportes USA (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga MX] Necaxa vs América | FOX Deportes USA (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-mx-necaxa-vs-america-fox-one-strmxhd": {
+      "name": "[Liga MX] Necaxa vs América | FOX One (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga MX] Necaxa vs América | FOX One (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-mx-pumas-unam-vs-atletico-san-luis-tudn-usa-strmxhd": {
+      "name": "[Liga MX] Pumas UNAM vs Atlético San Luis | TUDN USA (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga MX] Pumas UNAM vs Atlético San Luis | TUDN USA (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-mx-pumas-unam-vs-atletico-san-luis-vix-strmxhd": {
+      "name": "[Liga MX] Pumas UNAM vs Atlético San Luis | Vix (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga MX] Pumas UNAM vs Atlético San Luis | Vix (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -138518,12 +138471,81 @@
       "enabled": true,
       "english": null
     },
+    "liga-uruguay-central-espanol-vs-liverpool-disney-strmxhd": {
+      "name": "[Liga Uruguay] Central Español vs Liverpool | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Uruguay] Central Español vs Liverpool | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-uruguay-cerro-largo-vs-nacional-disney-strmxhd": {
       "name": "[Liga Uruguay] Cerro Largo vs Nacional | Disney + (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[Liga Uruguay] Cerro Largo vs Nacional | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-uruguay-defensor-sporting-vs-danubio-disney-strmxhd": {
+      "name": "[Liga Uruguay] Defensor Sporting vs Danubio | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Uruguay] Defensor Sporting vs Danubio | Disney + (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-uruguay-juventud-vs-cerro-disney-strmxhd": {
+      "name": "[Liga Uruguay] Juventud vs Cerro | Disney + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Uruguay] Juventud vs Cerro | Disney + (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -142699,7 +142721,6 @@
         "Magic TV (HD)"
       ],
       "countries": [
-        "BG",
         "RO"
       ],
       "categories": [
@@ -142712,7 +142733,6 @@
       "enabled": false,
       "source_refs": {
         "tvivu": [
-          "MagicTV.bg",
           "MagicTV.ro"
         ]
       },
@@ -143344,36 +143364,12 @@
       "quality_height": 1080,
       "not_24_7": false
     },
-    "major-league-soccer-chicago-fire-fc-charlotte-fc-timstrm": {
-      "name": "[Major League Soccer] Chicago Fire FC @ Charlotte FC (TIMSTRM)",
+    "major-league-soccer-colorado-rapids-la-galaxy-timstrm": {
+      "name": "[Major League Soccer] Colorado Rapids @ LA Galaxy (TIMSTRM)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Major League Soccer] Chicago Fire FC @ Charlotte FC (TIMSTRM)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bchicago\\b"
-    },
-    "major-league-soccer-fc-cincinnati-cf-montreal-timstrm": {
-      "name": "[Major League Soccer] FC Cincinnati @ CF Montréal (TIMSTRM)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Major League Soccer] FC Cincinnati @ CF Montréal (TIMSTRM)"
+        "[Major League Soccer] Colorado Rapids @ LA Galaxy (TIMSTRM)"
       ],
       "countries": [],
       "categories": [
@@ -143391,12 +143387,12 @@
       "enabled": true,
       "english": null
     },
-    "major-league-soccer-new-york-city-fc-atlanta-united-fc-timstrm": {
-      "name": "[Major League Soccer] New York City FC @ Atlanta United FC (TIMSTRM)",
+    "major-league-soccer-d-c-united-vancouver-whitecaps-timstrm": {
+      "name": "[Major League Soccer] D.C. United @ Vancouver Whitecaps (TIMSTRM)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Major League Soccer] New York City FC @ Atlanta United FC (TIMSTRM)"
+        "[Major League Soccer] D.C. United @ Vancouver Whitecaps (TIMSTRM)"
       ],
       "countries": [],
       "categories": [
@@ -143411,16 +143407,15 @@
         ]
       },
       "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "enabled": true,
+      "english": null
     },
-    "major-league-soccer-orlando-city-sc-philadelphia-union-timstrm": {
-      "name": "[Major League Soccer] Orlando City SC @ Philadelphia Union (TIMSTRM)",
+    "major-league-soccer-lafc-fc-dallas-timstrm": {
+      "name": "[Major League Soccer] LAFC @ FC Dallas (TIMSTRM)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Major League Soccer] Orlando City SC @ Philadelphia Union (TIMSTRM)"
+        "[Major League Soccer] LAFC @ FC Dallas (TIMSTRM)"
       ],
       "countries": [],
       "categories": [
@@ -143437,14 +143432,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bphiladelphia\\b"
+      "excluded_by": "name:\\bdallas\\b"
     },
-    "major-league-soccer-st-louis-city-sc-red-bull-new-york-timstrm": {
-      "name": "[Major League Soccer] St. Louis CITY SC @ Red Bull New York (TIMSTRM)",
+    "major-league-soccer-minnesota-united-fc-seattle-sounders-fc-timstrm": {
+      "name": "[Major League Soccer] Minnesota United FC @ Seattle Sounders FC (TIMSTRM)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Major League Soccer] St. Louis CITY SC @ Red Bull New York (TIMSTRM)"
+        "[Major League Soccer] Minnesota United FC @ Seattle Sounders FC (TIMSTRM)"
       ],
       "countries": [],
       "categories": [
@@ -143461,7 +143456,126 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "excluded_by": "name:\\bseattle\\b"
+    },
+    "major-league-soccer-new-england-revolution-real-salt-lake-timstrm": {
+      "name": "[Major League Soccer] New England Revolution @ Real Salt Lake (TIMSTRM)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Major League Soccer] New England Revolution @ Real Salt Lake (TIMSTRM)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "major-league-soccer-portland-timbers-san-jose-earthquakes-timstrm": {
+      "name": "[Major League Soccer] Portland Timbers @ San Jose Earthquakes (TIMSTRM)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Major League Soccer] Portland Timbers @ San Jose Earthquakes (TIMSTRM)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+jose\\b"
+    },
+    "major-league-soccer-san-diego-fc-austin-fc-timstrm": {
+      "name": "[Major League Soccer] San Diego FC @ Austin FC (TIMSTRM)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Major League Soccer] San Diego FC @ Austin FC (TIMSTRM)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+diego\\b"
+    },
+    "major-league-soccer-sporting-kansas-city-houston-dynamo-fc-timstrm": {
+      "name": "[Major League Soccer] Sporting Kansas City @ Houston Dynamo FC (TIMSTRM)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Major League Soccer] Sporting Kansas City @ Houston Dynamo FC (TIMSTRM)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bhouston\\b"
+    },
+    "major-league-soccer-toronto-fc-nashville-sc-timstrm": {
+      "name": "[Major League Soccer] Toronto FC @ Nashville SC (TIMSTRM)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Major League Soccer] Toronto FC @ Nashville SC (TIMSTRM)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnashville\\b"
     },
     "makan-33-1080p": {
       "name": "Makan 33",
@@ -149309,12 +149423,12 @@
       "not_24_7": false,
       "excluded_by": "country:SG"
     },
-    "mexico-liga-mx-cruz-azul-vs-toluca-fawa": {
-      "name": "[Mexico Liga MX] Cruz Azul vs Toluca (FAWA)",
+    "mexico-liga-mx-santos-laguna-vs-pachuca-fawa": {
+      "name": "[Mexico Liga MX] Santos Laguna vs Pachuca (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Mexico Liga MX] Cruz Azul vs Toluca (FAWA)"
+        "[Mexico Liga MX] Santos Laguna vs Pachuca (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -149332,12 +149446,12 @@
       "enabled": true,
       "english": null
     },
-    "mexico-liga-mx-guadalajara-chivas-vs-queretaro-fawa": {
-      "name": "[Mexico Liga MX] Guadalajara Chivas vs Queretaro (FAWA)",
+    "mexico-liga-mx-tigres-uanl-vs-puebla-fawa": {
+      "name": "[Mexico Liga MX] Tigres UANL vs Puebla (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Mexico Liga MX] Guadalajara Chivas vs Queretaro (FAWA)"
+        "[Mexico Liga MX] Tigres UANL vs Puebla (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -151786,30 +151900,6 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "mls-atlanta-united-fc-vs-new-york-city-fc-damitv": {
-      "name": "[MLS] Atlanta United FC vs. New York City FC (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[MLS] Atlanta United FC vs. New York City FC (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
-    },
     "mls-atlanta-united-vs-new-york-city-1-stp": {
       "name": "[MLS] Atlanta United vs New York City 1 (STP)",
       "quality_height": null,
@@ -151858,6 +151948,30 @@
       "english": null,
       "excluded_by": "name:\\bnew\\s+york\\b"
     },
+    "mls-austin-fc-vs-san-diego-fc-watchfty": {
+      "name": "[MLS] Austin FC vs San Diego FC (WATCHFTY)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Austin FC vs San Diego FC (WATCHFTY)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+diego\\b"
+    },
     "mls-austin-vs-san-diego-apple-tv-espanol-strmxhd": {
       "name": "[MLS] Austin vs San Diego | Apple TV Español (STRMXHD)",
       "quality_height": null,
@@ -151904,53 +152018,6 @@
       "logo": "",
       "enabled": true,
       "english": null
-    },
-    "mls-cf-montreal-vs-fc-cincinnati-damitv": {
-      "name": "[MLS] CF Montréal vs. FC Cincinnati (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[MLS] CF Montréal vs. FC Cincinnati (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "mls-charlotte-fc-vs-chicago-fire-fc-damitv": {
-      "name": "[MLS] Charlotte FC vs. Chicago Fire FC (DAMITV)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[MLS] Charlotte FC vs. Chicago Fire FC (DAMITV)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bchicago\\b"
     },
     "mls-charlotte-vs-chicago-fire-1-stp": {
       "name": "[MLS] Charlotte vs Chicago Fire 1 (STP)",
@@ -152024,6 +152091,146 @@
       "english": null,
       "excluded_by": "name:\\bchicago\\b"
     },
+    "mls-colorado-rapids-vs-la-galaxy-english-strmgate": {
+      "name": "[MLS] Colorado Rapids vs LA Galaxy | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Colorado Rapids vs LA Galaxy | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-colorado-rapids-vs-la-galaxy-strmfree": {
+      "name": "[MLS] Colorado Rapids vs LA Galaxy (STRMFREE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Colorado Rapids vs LA Galaxy (STRMFREE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-columbus-crew-vs-inter-miami-apple-tv-english-strmxhd": {
+      "name": "[MLS] Columbus Crew vs Inter Miami | Apple TV English (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Columbus Crew vs Inter Miami | Apple TV English (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bcolumbus\\b"
+    },
+    "mls-columbus-crew-vs-inter-miami-apple-tv-espanol-strmxhd": {
+      "name": "[MLS] Columbus Crew vs Inter Miami | Apple TV Español (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Columbus Crew vs Inter Miami | Apple TV Español (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bcolumbus\\b"
+    },
+    "mls-d-c-united-vs-vancouver-whitecaps-english-strmgate": {
+      "name": "[MLS] D.C. United vs Vancouver Whitecaps | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] D.C. United vs Vancouver Whitecaps | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-d-c-united-vs-vancouver-whitecaps-strmfree": {
+      "name": "[MLS] D.C. United vs Vancouver Whitecaps (STRMFREE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] D.C. United vs Vancouver Whitecaps (STRMFREE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "mls-dallas-vs-los-angeles-fc-1-stp": {
       "name": "[MLS] Dallas vs Los Angeles FC 1 (STP)",
       "quality_height": null,
@@ -152094,6 +152301,30 @@
       "logo": "",
       "enabled": true,
       "english": null
+    },
+    "mls-fc-dallas-vs-lafc-watchfty": {
+      "name": "[MLS] FC Dallas vs LAFC (WATCHFTY)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] FC Dallas vs LAFC (WATCHFTY)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bdallas\\b"
     },
     "mls-houston-dynamo-vs-sporting-kc-1-stp": {
       "name": "[MLS] Houston Dynamo vs Sporting KC 1 (STP)",
@@ -152189,6 +152420,194 @@
       "enabled": true,
       "english": null
     },
+    "mls-la-galaxy-vs-colorado-rapids-istrmeast": {
+      "name": "[MLS] LA Galaxy vs Colorado Rapids (iSTRMEAST)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] LA Galaxy vs Colorado Rapids (iSTRMEAST)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-la-galaxy-vs-colorado-rapids-watchfty": {
+      "name": "[MLS] LA Galaxy vs Colorado Rapids (WATCHFTY)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] LA Galaxy vs Colorado Rapids (WATCHFTY)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-lafc-vs-fc-dallas-english-strmgate": {
+      "name": "[MLS] LAFC vs FC Dallas | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] LAFC vs FC Dallas | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bdallas\\b"
+    },
+    "mls-league-los-angeles-galaxy-vs-colorado-rapids-fawa": {
+      "name": "[MLS League] Los Angeles Galaxy vs Colorado Rapids (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS League] Los Angeles Galaxy vs Colorado Rapids (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
+    },
+    "mls-league-real-salt-lake-vs-new-england-revolution-fawa": {
+      "name": "[MLS League] Real Salt Lake vs New England Revolution (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS League] Real Salt Lake vs New England Revolution (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-league-san-jose-earthquakes-vs-portland-timbers-fawa": {
+      "name": "[MLS League] San Jose Earthquakes vs Portland Timbers (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS League] San Jose Earthquakes vs Portland Timbers (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+jose\\b"
+    },
+    "mls-league-vancouver-whitecaps-vs-dc-united-fawa": {
+      "name": "[MLS League] Vancouver Whitecaps vs DC United (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS League] Vancouver Whitecaps vs DC United (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-minnesota-united-fc-vs-seattle-sounders-fc-english-strmgate": {
+      "name": "[MLS] Minnesota United FC vs Seattle Sounders FC | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Minnesota United FC vs Seattle Sounders FC | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bseattle\\b"
+    },
     "mls-nashville-sc-vs-toronto-fc-1-stp": {
       "name": "[MLS] Nashville SC vs Toronto FC 1 (STP)",
       "quality_height": null,
@@ -152236,6 +152655,29 @@
       "enabled": false,
       "english": null,
       "excluded_by": "name:\\bnashville\\b"
+    },
+    "mls-new-england-revolution-vs-real-salt-lake-english-strmgate": {
+      "name": "[MLS] New England Revolution vs Real Salt Lake | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] New England Revolution vs Real Salt Lake | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "mls-new-york-city-fc-vs-atlanta-united-fc-english-strmgate": {
       "name": "[MLS] New York City FC vs Atlanta United FC | English (STRMGATE)",
@@ -152381,12 +152823,12 @@
       "english": null,
       "excluded_by": "name:\\bphiladelphia\\b"
     },
-    "mls-philadelphia-union-vs-orlando-city-sc-damitv": {
-      "name": "[MLS] Philadelphia Union vs. Orlando City SC (DAMITV)",
+    "mls-portland-timbers-vs-san-jose-earthquakes-english-strmgate": {
+      "name": "[MLS] Portland Timbers vs San Jose Earthquakes | English (STRMGATE)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[MLS] Philadelphia Union vs. Orlando City SC (DAMITV)"
+        "[MLS] Portland Timbers vs San Jose Earthquakes | English (STRMGATE)"
       ],
       "countries": [],
       "categories": [
@@ -152403,7 +152845,31 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bphiladelphia\\b"
+      "excluded_by": "name:\\bsan\\s+jose\\b"
+    },
+    "mls-portland-timbers-vs-san-jose-earthquakes-strmfree": {
+      "name": "[MLS] Portland Timbers vs San Jose Earthquakes (STRMFREE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Portland Timbers vs San Jose Earthquakes (STRMFREE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+jose\\b"
     },
     "mls-real-salt-lake-vs-new-england-1-stp": {
       "name": "[MLS] Real Salt Lake vs New England 1 (STP)",
@@ -152451,12 +152917,12 @@
       "enabled": true,
       "english": null
     },
-    "mls-red-bull-new-york-vs-st-louis-city-sc-damitv": {
-      "name": "[MLS] Red Bull New York vs. St. Louis CITY SC (DAMITV)",
+    "mls-san-diego-fc-vs-austin-fc-english-strmgate": {
+      "name": "[MLS] San Diego FC vs Austin FC | English (STRMGATE)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[MLS] Red Bull New York vs. St. Louis CITY SC (DAMITV)"
+        "[MLS] San Diego FC vs Austin FC | English (STRMGATE)"
       ],
       "countries": [],
       "categories": [
@@ -152473,7 +152939,55 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "excluded_by": "name:\\bsan\\s+diego\\b"
+    },
+    "mls-san-jose-earthquakes-vs-portland-timbers-istrmeast": {
+      "name": "[MLS] San Jose Earthquakes vs Portland Timbers (iSTRMEAST)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] San Jose Earthquakes vs Portland Timbers (iSTRMEAST)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+jose\\b"
+    },
+    "mls-san-jose-earthquakes-vs-portland-timbers-watchfty": {
+      "name": "[MLS] San Jose Earthquakes vs Portland Timbers (WATCHFTY)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] San Jose Earthquakes vs Portland Timbers (WATCHFTY)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+jose\\b"
     },
     "mls-seattle-sounders-fc-vs-minnesota-united-1-stp": {
       "name": "[MLS] Seattle Sounders FC vs Minnesota United 1 (STP)",
@@ -152571,6 +153085,30 @@
       "english": null,
       "excluded_by": "name:\\bportland\\b"
     },
+    "mls-sporting-kansas-city-vs-houston-dynamo-fc-english-strmgate": {
+      "name": "[MLS] Sporting Kansas City vs Houston Dynamo FC | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Sporting Kansas City vs Houston Dynamo FC | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bhouston\\b"
+    },
     "mls-st-louis-city-sc-vs-red-bull-new-york-english-strmgate": {
       "name": "[MLS] St. Louis CITY SC vs Red Bull New York | English (STRMGATE)",
       "quality_height": null,
@@ -152594,6 +153132,30 @@
       "enabled": false,
       "english": null,
       "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "mls-toronto-fc-vs-nashville-sc-english-strmgate": {
+      "name": "[MLS] Toronto FC vs Nashville SC | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Toronto FC vs Nashville SC | English (STRMGATE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnashville\\b"
     },
     "mls-vancouver-whitecaps-vs-dc-united-1-stp": {
       "name": "[MLS] Vancouver Whitecaps vs DC United 1 (STP)",
@@ -152624,6 +153186,29 @@
       "not_24_7": false,
       "aliases": [
         "[MLS] Vancouver Whitecaps vs DC United | Apple TV Español (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "mls-vancouver-whitecaps-vs-dc-united-istrmeast": {
+      "name": "[MLS] Vancouver Whitecaps vs DC United (iSTRMEAST)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Vancouver Whitecaps vs DC United (iSTRMEAST)"
       ],
       "countries": [],
       "categories": [
@@ -163540,34 +164125,37 @@
       "aliases": [
         "[NCAA American Football] Alabama vs South Carolina (FAWA)",
         "[NCAA American Football] Arkansas State vs Kennesaw State (FAWA)",
-        "[NCAA American Football] Auburn vs Vanderbilt (FAWA)",
         "[NCAA American Football] Buffalo vs Robert Morris (FAWA)",
-        "[NCAA American Football] Charlotte vs Louisiana-Lafayette (FAWA)",
         "[NCAA American Football] Cincinnati Bearcats vs Kansas State (FAWA)",
+        "[NCAA American Football] CS Sacramento vs Massachusetts (FAWA)",
         "[NCAA American Football] Duke vs William-Mary Tribe (FAWA)",
-        "[NCAA American Football] East Carolina vs North Carolina Central Eagles (FAWA)",
         "[NCAA American Football] Florida Gators vs Ole Miss (FAWA)",
-        "[NCAA American Football] Florida International vs LIU Sharks (FAWA)",
         "[NCAA American Football] Florida State vs Central Arkansas (FAWA)",
-        "[NCAA American Football] Georgia Southern vs Houston (FAWA)",
-        "[NCAA American Football] Georgia State Panthers vs Northern Illinois (FAWA)",
+        "[NCAA American Football] Fresno State vs Rice (FAWA)",
         "[NCAA American Football] Georgia vs Oklahoma (FAWA)",
         "[NCAA American Football] Iowa State vs Utah (FAWA)",
         "[NCAA American Football] Jacksonville State vs Middle Tennessee St (FAWA)",
+        "[NCAA American Football] Louisiana-Monroe vs Florida Atlantic (FAWA)",
+        "[NCAA American Football] LSU vs Texas A-M (FAWA)",
         "[NCAA American Football] Marshall vs Gardner-Webb (FAWA)",
-        "[NCAA American Football] Miami FL vs Central Michigan (FAWA)",
         "[NCAA American Football] Michigan vs Iowa (FAWA)",
+        "[NCAA American Football] Mississippi vs St Missouri (FAWA)",
+        "[NCAA American Football] Nevada vs Air Force (FAWA)",
         "[NCAA American Football] New Mexico State vs New Mexico (FAWA)",
+        "[NCAA American Football] North Carolina State vs Appalachian State (FAWA)",
+        "[NCAA American Football] North Texas vs Houston Baptist (FAWA)",
         "[NCAA American Football] Ohio vs Stonehill (FAWA)",
-        "[NCAA American Football] Old Dominion vs James Madison (FAWA)",
-        "[NCAA American Football] Purdue vs Notre Dame (FAWA)",
-        "[NCAA American Football] Texas State Bobcats vs Incarnate Word (FAWA)",
+        "[NCAA American Football] Southern Methodist vs Missouri State (FAWA)",
+        "[NCAA American Football] Stanford vs Georgia Tech (FAWA)",
         "[NCAA American Football] Tulane vs Southern Miss (FAWA)",
         "[NCAA American Football] UCF vs TCU (FAWA)",
-        "[NCAA American Football] Virginia vs Delaware Fightin (FAWA)",
+        "[NCAA American Football] USC vs Oregon (FAWA)",
+        "[NCAA American Football] Utah State vs Troy (FAWA)",
+        "[NCAA American Football] UTEP vs Oregon State (FAWA)",
+        "[NCAA American Football] Washington Huskies vs Minnesota (FAWA)",
+        "[NCAA American Football] Washington State vs Arizona (FAWA)",
         "[NCAA American Football] West Virginia vs Oklahoma State (FAWA)",
         "[NCAA American Football] Western Kentucky vs Mercyhurst (FAWA)",
-        "[NCAA American Football] Western Michigan vs Boise State (FAWA)",
         "[NCAA American Football] Wyoming vs Hawaii (FAWA)"
       ],
       "countries": [],
@@ -166729,6 +167317,29 @@
       "not_24_7": false,
       "excluded_by": "country:DO"
     },
+    "nfl-app-state-mountaineers-nc-state-wolfpack-reed": {
+      "name": "[NFL] App State Mountaineers - NC State Wolfpack (REED)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] App State Mountaineers - NC State Wolfpack (REED)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Football.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "nfl-bengals-vs-steelers-webcast": {
       "name": "[NFL] Bengals vs Steelers (WEBCAST)",
       "quality_height": null,
@@ -166751,6 +167362,54 @@
       "logo": "",
       "enabled": true,
       "english": null
+    },
+    "nfl-buffalo-bills-vs-los-angeles-chargers-espn-5-strmxhd": {
+      "name": "[NFL] Buffalo Bills vs Los Angeles Chargers | ESPN 5 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Buffalo Bills vs Los Angeles Chargers | ESPN 5 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
+    },
+    "nfl-buffalo-bills-vs-los-angeles-chargers-fox-sports-2-ar-strmxhd": {
+      "name": "[NFL] Buffalo Bills vs Los Angeles Chargers | Fox Sports 2 AR (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Buffalo Bills vs Los Angeles Chargers | Fox Sports 2 AR (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
     },
     "nfl-cardinals-vs-49ers-webcast": {
       "name": "[NFL] Cardinals vs 49ers (WEBCAST)",
@@ -166850,6 +167509,198 @@
       "enabled": true,
       "english": null
     },
+    "nfl-cincinnati-bengals-vs-pittsburgh-steelers-fox-one-2-strmxhd": {
+      "name": "[NFL] Cincinnati Bengals vs Pittsburgh Steelers | FOX One 2 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Cincinnati Bengals vs Pittsburgh Steelers | FOX One 2 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bpittsburgh\\b"
+    },
+    "nfl-cincinnati-bengals-vs-pittsburgh-steelers-sportv-1-strmxhd": {
+      "name": "[NFL] Cincinnati Bengals vs Pittsburgh Steelers | SporTV 1 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Cincinnati Bengals vs Pittsburgh Steelers | SporTV 1 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bpittsburgh\\b"
+    },
+    "nfl-dallas-cowboys-vs-baltimore-ravens-espn-5-strmxhd": {
+      "name": "[NFL] Dallas Cowboys vs Baltimore Ravens | ESPN 5 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Dallas Cowboys vs Baltimore Ravens | ESPN 5 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bdallas\\b"
+    },
+    "nfl-dallas-cowboys-vs-baltimore-ravens-sportv-1-strmxhd": {
+      "name": "[NFL] Dallas Cowboys vs Baltimore Ravens | SporTV 1 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Dallas Cowboys vs Baltimore Ravens | SporTV 1 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bdallas\\b"
+    },
+    "nfl-denver-broncos-vs-los-angeles-rams-espn-2-strmxhd": {
+      "name": "[NFL] Denver Broncos vs Los Angeles Rams | ESPN 2 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Denver Broncos vs Los Angeles Rams | ESPN 2 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
+    },
+    "nfl-denver-broncos-vs-los-angeles-rams-espn-mx-strmxhd": {
+      "name": "[NFL] Denver Broncos vs Los Angeles Rams | Espn MX (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Denver Broncos vs Los Angeles Rams | Espn MX (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
+    },
+    "nfl-denver-broncos-vs-los-angeles-rams-sportv-1-strmxhd": {
+      "name": "[NFL] Denver Broncos vs Los Angeles Rams | SporTV 1 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Denver Broncos vs Los Angeles Rams | SporTV 1 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
+    },
+    "nfl-denver-broncos-vs-los-angeles-rams-universo-strmxhd": {
+      "name": "[NFL] Denver Broncos vs Los Angeles Rams | Universo (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Denver Broncos vs Los Angeles Rams | Universo (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blos\\s+angeles\\b"
+    },
     "nfl-jets-vs-lions-webcast": {
       "name": "[NFL] Jets vs Lions (WEBCAST)",
       "quality_height": null,
@@ -166872,6 +167723,30 @@
       "logo": "",
       "enabled": true,
       "english": null
+    },
+    "nfl-minnesota-vikings-vs-tampa-bay-buccaneers-fox-one-3-strmxhd": {
+      "name": "[NFL] Minnesota Vikings vs Tampa Bay Buccaneers | FOX One 3 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Minnesota Vikings vs Tampa Bay Buccaneers | FOX One 3 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\btampa\\b"
     },
     "nfl-network": {
       "name": "NFL Network",
@@ -167022,6 +167897,54 @@
       "enabled": true,
       "english": null
     },
+    "nfl-san-francisco-49ers-vs-arizona-cardinals-espn-7-strmxhd": {
+      "name": "[NFL] San Francisco 49ers vs Arizona Cardinals | ESPN 7 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] San Francisco 49ers vs Arizona Cardinals | ESPN 7 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+francisco\\b"
+    },
+    "nfl-san-francisco-49ers-vs-arizona-cardinals-fox-sports-3-ar-strmxhd": {
+      "name": "[NFL] San Francisco 49ers vs Arizona Cardinals | Fox Sports 3 AR (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] San Francisco 49ers vs Arizona Cardinals | Fox Sports 3 AR (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bsan\\s+francisco\\b"
+    },
     "nfl-seahawks-vs-commanders-webcast": {
       "name": "[NFL] Seahawks vs Commanders (WEBCAST)",
       "quality_height": null,
@@ -167113,6 +168036,54 @@
       "logo": "",
       "enabled": true,
       "english": null
+    },
+    "nfl-washington-commanders-vs-seattle-seahawks-espn-7-strmxhd": {
+      "name": "[NFL] Washington Commanders vs Seattle Seahawks | ESPN 7 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Washington Commanders vs Seattle Seahawks | ESPN 7 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bseattle\\b"
+    },
+    "nfl-washington-commanders-vs-seattle-seahawks-fox-sports-3-ar-strmxhd": {
+      "name": "[NFL] Washington Commanders vs Seattle Seahawks | Fox Sports 3 AR (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[NFL] Washington Commanders vs Seattle Seahawks | Fox Sports 3 AR (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nfl"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "NFL.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bseattle\\b"
     },
     "ng-federal-720p": {
       "name": "NG Federal",
@@ -179395,29 +180366,6 @@
       "enabled": true,
       "english": null
     },
-    "paraguay-copa-sportivo-trinidense-vs-cerro-porteno-fawa": {
-      "name": "[Paraguay Copa] Sportivo Trinidense vs Cerro Porteno (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Paraguay Copa] Sportivo Trinidense vs Cerro Porteno (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "paraguay-tv-1080p": {
       "name": "Paraguay TV",
       "aliases": [
@@ -180289,23 +181237,31 @@
       "aliases": [
         "PBC Tapesh TV (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "PBCTapeshTV.us.SD"
+        ],
+        "tvivu": [
+          "PBCTapeshTV.us"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/PBC%20Tapesh%20TV.png",
-      "enabled": true,
+      "enabled": false,
       "english": null,
       "quality_height": 720,
-      "not_24_7": false
+      "not_24_7": false,
+      "excluded_by": "quality:720p"
     },
     "pbc-tv-channel-20-720p": {
       "name": "PBC TV Channel 20",
@@ -195978,24 +196934,18 @@
       "aliases": [
         "PRIDEtv LATAM (1080p)"
       ],
-      "countries": [
-        "CL"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/PRIDEtv%20LATAM.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "PRIDEtvLATAM.cl.HD"
-        ],
-        "tvivu": [
-          "PRIDEtvLATAM.cl"
         ]
       },
       "english": null,
@@ -200141,32 +201091,6 @@
       "quality_height": null,
       "not_24_7": false
     },
-    "qtv-gambia": {
-      "name": "QTV Gambia",
-      "aliases": [
-        "QTV Gambia (HD)"
-      ],
-      "countries": [
-        "GM"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "QTVGambia.gm"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/QTV%20Gambia.png",
-      "enabled": false,
-      "english": null,
-      "quality_height": null,
-      "not_24_7": false,
-      "excluded_by": "country:GM"
-    },
     "qtv-gambia-720p-not-24-7": {
       "name": "QTV Gambia [Not 24/7]",
       "aliases": [
@@ -202933,24 +203857,18 @@
       "aliases": [
         "Radio JND (1080p)"
       ],
-      "countries": [
-        "NL"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20JND.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "RadioJND.nl.SD"
-        ],
-        "tvivu": [
-          "RadioJND.nl"
         ]
       },
       "english": null,
@@ -227764,32 +228682,6 @@
       "quality_height": 1080,
       "not_24_7": false
     },
-    "sky-folk-tv": {
-      "name": "Sky Folk TV",
-      "aliases": [
-        "Sky Folk TV (HD)"
-      ],
-      "countries": [
-        "MK"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "SkyFolkTV.mk"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Sky%20Folk%20TV.png",
-      "enabled": false,
-      "english": null,
-      "quality_height": null,
-      "not_24_7": false,
-      "excluded_by": "country:MK"
-    },
     "sky-folk-tv-720p-not-24-7": {
       "name": "Sky Folk TV [Not 24/7]",
       "aliases": [
@@ -237865,24 +238757,18 @@
       "aliases": [
         "Stingray Holiday Hits (1080p)"
       ],
-      "countries": [
-        "CA"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Holiday%20Hits.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "StingrayHolidayHits.ca.SD"
-        ],
-        "tvivu": [
-          "StingrayHolidayHits.ca"
         ]
       },
       "english": null,
@@ -243424,24 +244310,18 @@
       "aliases": [
         "Tarang Music (720p)"
       ],
-      "countries": [
-        "IN"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Tarang%20Music.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "TarangMusic.in.SD"
-        ],
-        "tvivu": [
-          "TarangMusic.in"
         ]
       },
       "epg_id": "TARANG.MUSIC.in",
@@ -267702,32 +268582,6 @@
       "not_24_7": false,
       "excluded_by": "country:PK"
     },
-    "tv-opoja": {
-      "name": "TV Opoja",
-      "aliases": [
-        "TV Opoja (HD)"
-      ],
-      "countries": [
-        "XK"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "TVOpoja.xk"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Opoja.png",
-      "enabled": false,
-      "english": null,
-      "quality_height": null,
-      "not_24_7": false,
-      "excluded_by": "country:XK"
-    },
     "tv-opoja-720p-not-24-7": {
       "name": "TV Opoja [Not 24/7]",
       "aliases": [
@@ -280371,30 +281225,6 @@
       "not_24_7": false,
       "excluded_by": "country:ES"
     },
-    "uruguay-liga-auf-penarol-vs-boston-river-fawa": {
-      "name": "[Uruguay Liga AUF] Penarol vs Boston River (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Uruguay Liga AUF] Penarol vs Boston River (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bboston\\b"
-    },
     "usa-network": {
       "name": "USA Network",
       "aliases": [
@@ -284989,22 +285819,16 @@
       "aliases": [
         "Vintage Music (720p)"
       ],
-      "countries": [
-        "CR"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "VintageMusic.cr.SD"
-        ],
-        "tvivu": [
-          "VintageMusic.cr"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Vintage%20Music.png",
