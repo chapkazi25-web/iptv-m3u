@@ -5,47 +5,47 @@ https://m3m8.gradetv.net/api/s/DodomaTV.tz%3ASD%3A5752.m3u8
 https://m3m8.gradetv.net/api/s/IBNTV.tz%3ASD%3A7531.m3u8
 #EXTINF:-1 tvg-id="IBNTVAfrica.tz" tvg-name="IBN TV Africa" tvg-logo="https://gradetv.net/logos/IBNTVAfrica.tz" tvg-country="TZ" group-title="documentary",IBN TV Africa
 https://m3m8.gradetv.net/api/s/IBNTVAfrica.tz%3ASD%3A7532.m3u8
-#EXTINF:-1 tvg-id="MahaasinTV.tz" tvg-name="Mahaasin TV" tvg-logo="https://gradetv.net/logos/MahaasinTV.tz" tvg-country="TZ" group-title="documentary",Mahaasin TV
+#EXTINF:-1 tvg-id="MahaasinTV.tz" tvg-name="Mahaasin TV" tvg-country="TZ" group-title="documentary",Mahaasin TV
 https://m3m8.gradetv.net/api/s/MahaasinTV.tz%3ASD%3A8838.m3u8
-#EXTINF:-1 tvg-id="TBC2.tz" tvg-name="TBC2" tvg-logo="https://gradetv.net/logos/TBC2.tz" tvg-country="TZ" group-title="entertainment",TBC2
+#EXTINF:-1 tvg-id="TBC2.tz" tvg-name="TBC2" tvg-country="TZ" group-title="entertainment",TBC2
 https://m3m8.gradetv.net/api/s/TBC2.tz%3ASD%3A14266.m3u8
-#EXTINF:-1 tvg-id="TraceAfrica.fr" tvg-name="Trace Africa" tvg-logo="https://gradetv.net/logos/TraceAfrica.fr" tvg-country="FR" group-title="music",Trace Africa
+#EXTINF:-1 tvg-id="TraceAfrica.fr" tvg-name="Trace Africa" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Africa.png" tvg-country="FR" group-title="music",Trace Africa
 https://m3m8.gradetv.net/api/s/TraceAfrica.fr%3ASD%3A15060.m3u8
-#EXTINF:-1 tvg-id="TraceAfrikora.fr" tvg-name="Trace Afrikora" tvg-logo="https://gradetv.net/logos/TraceAfrikora.fr" tvg-country="FR" group-title="music",Trace Afrikora
+#EXTINF:-1 tvg-id="TraceAfrikora.fr" tvg-name="Trace Afrikora" tvg-country="FR" group-title="music",Trace Afrikora
 https://m3m8.gradetv.net/api/s/TraceAfrikora.fr%3ASD%3A15061.m3u8
-#EXTINF:-1 tvg-id="TraceAyiti.fr" tvg-name="Trace Ayiti" tvg-logo="https://gradetv.net/logos/TraceAyiti.fr" tvg-country="FR" group-title="music",Trace Ayiti
+#EXTINF:-1 tvg-id="TraceAyiti.fr" tvg-name="Trace Ayiti" tvg-country="FR" group-title="music",Trace Ayiti
 https://m3m8.gradetv.net/api/s/TraceAyiti.fr%3ASD%3A15062.m3u8
-#EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-name="Trace Brazuca" tvg-logo="https://gradetv.net/logos/TraceBrazuca.fr" tvg-country="FR" group-title="music",Trace Brazuca
+#EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-name="Trace Brazuca" tvg-country="FR" group-title="music",Trace Brazuca
 https://m3m8.gradetv.net/api/s/TraceBrazuca.fr%3ASD%3A15065.m3u8
-#EXTINF:-1 tvg-id="TraceCaribbean.fr" tvg-name="Trace Caribbean" tvg-logo="https://gradetv.net/logos/TraceCaribbean.fr" tvg-country="FR" group-title="music",Trace Caribbean
+#EXTINF:-1 tvg-id="TraceCaribbean.fr" tvg-name="Trace Caribbean" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Caribbean.png" tvg-country="FR" group-title="music",Trace Caribbean
 https://m3m8.gradetv.net/api/s/TraceCaribbean.fr%3ASD%3A15066.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr" tvg-name="Trace Gospel" tvg-logo="https://gradetv.net/logos/TraceGospel.fr" tvg-country="FR" group-title="music",Trace Gospel
+#EXTINF:-1 tvg-id="TraceGospel.fr" tvg-name="Trace Gospel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Gospel.png" tvg-country="FR" group-title="music",Trace Gospel
 https://m3m8.gradetv.net/api/s/TraceGospel.fr%3ANigeriaandEastAfrica%3A15067.m3u8
-#EXTINF:-1 tvg-id="TraceIvoire.fr" tvg-name="Trace Ivoire" tvg-logo="https://gradetv.net/logos/TraceIvoire.fr" tvg-country="FR" group-title="music",Trace Ivoire
+#EXTINF:-1 tvg-id="TraceIvoire.fr" tvg-name="Trace Ivoire" tvg-country="FR" group-title="music",Trace Ivoire
 https://m3m8.gradetv.net/api/s/TraceIvoire.fr%3ASD%3A15070.m3u8
-#EXTINF:-1 tvg-id="TraceJama.fr" tvg-name="Trace Jama" tvg-logo="https://gradetv.net/logos/TraceJama.fr" tvg-country="FR" group-title="music",Trace Jama
+#EXTINF:-1 tvg-id="TraceJama.fr" tvg-name="Trace Jama" tvg-country="FR" group-title="music",Trace Jama
 https://m3m8.gradetv.net/api/s/TraceJama.fr%3ASD%3A15071.m3u8
-#EXTINF:-1 tvg-id="TraceKitoko.fr" tvg-name="Trace Kitoko" tvg-logo="https://gradetv.net/logos/TraceKitoko.fr" tvg-country="FR" group-title="music",Trace Kitoko
+#EXTINF:-1 tvg-id="TraceKitoko.fr" tvg-name="Trace Kitoko" tvg-country="FR" group-title="music",Trace Kitoko
 https://m3m8.gradetv.net/api/s/TraceKitoko.fr%3ASD%3A15072.m3u8
-#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-name="Trace Latina" tvg-logo="https://gradetv.net/logos/TraceLatina.fr" tvg-country="FR" group-title="music",Trace Latina
+#EXTINF:-1 tvg-id="TraceLatina.fr" tvg-name="Trace Latina" tvg-country="FR" group-title="music",Trace Latina
 https://m3m8.gradetv.net/api/s/TraceLatina.fr%3ASD%3A15073.m3u8
-#EXTINF:-1 tvg-id="TraceMboa.fr" tvg-name="Trace Mboa" tvg-logo="https://gradetv.net/logos/TraceMboa.fr" tvg-country="FR" group-title="music",Trace Mboa
+#EXTINF:-1 tvg-id="TraceMboa.fr" tvg-name="Trace Mboa" tvg-country="FR" group-title="music",Trace Mboa
 https://m3m8.gradetv.net/api/s/TraceMboa.fr%3ASD%3A15078.m3u8
-#EXTINF:-1 tvg-id="TraceMuzika.fr" tvg-name="Trace Muzika" tvg-logo="https://gradetv.net/logos/TraceMuzika.fr" tvg-country="FR" group-title="music",Trace Muzika
+#EXTINF:-1 tvg-id="TraceMuzika.fr" tvg-name="Trace Muzika" tvg-country="FR" group-title="music",Trace Muzika
 https://m3m8.gradetv.net/api/s/TraceMuzika.fr%3ASD%3A15079.m3u8
-#EXTINF:-1 tvg-id="TraceMziki.fr" tvg-name="Trace Mziki" tvg-logo="https://gradetv.net/logos/TraceMziki.fr" tvg-country="FR" group-title="music",Trace Mziki
+#EXTINF:-1 tvg-id="TraceMziki.fr" tvg-name="Trace Mziki" tvg-country="FR" group-title="music",Trace Mziki
 https://m3m8.gradetv.net/api/s/TraceMziki.fr%3ASD%3A15080.m3u8
-#EXTINF:-1 tvg-id="TraceNaija.fr" tvg-name="Trace Naija" tvg-logo="https://gradetv.net/logos/TraceNaija.fr" tvg-country="FR" group-title="music",Trace Naija
+#EXTINF:-1 tvg-id="TraceNaija.fr" tvg-name="Trace Naija" tvg-country="FR" group-title="music",Trace Naija
 https://m3m8.gradetv.net/api/s/TraceNaija.fr%3ASD%3A15081.m3u8
-#EXTINF:-1 tvg-id="TraceNgoma.fr" tvg-name="Trace Ngoma" tvg-logo="https://gradetv.net/logos/TraceNgoma.fr" tvg-country="FR" group-title="music",Trace Ngoma
+#EXTINF:-1 tvg-id="TraceNgoma.fr" tvg-name="Trace Ngoma" tvg-country="FR" group-title="music",Trace Ngoma
 https://m3m8.gradetv.net/api/s/TraceNgoma.fr%3ASD%3A15082.m3u8
-#EXTINF:-1 tvg-id="TraceSportStars.fr" tvg-name="Trace Sport Stars" tvg-logo="https://gradetv.net/logos/TraceSportStars.fr" tvg-country="FR" group-title="sports",Trace Sport Stars
+#EXTINF:-1 tvg-id="TraceSportStars.fr" tvg-name="Trace Sport Stars" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Sport%20Stars.png" tvg-country="FR" group-title="sports",Trace Sport Stars
 https://m3m8.gradetv.net/api/s/TraceSportStars.fr%3AHD%3A15083.m3u8
-#EXTINF:-1 tvg-id="TraceToca.fr" tvg-name="Trace Toca" tvg-logo="https://gradetv.net/logos/TraceToca.fr" tvg-country="FR" group-title="music",Trace Toca
+#EXTINF:-1 tvg-id="TraceToca.fr" tvg-name="Trace Toca" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Toca.png" tvg-country="FR" group-title="music",Trace Toca
 https://m3m8.gradetv.net/api/s/TraceToca.fr%3ASD%3A15091.m3u8
-#EXTINF:-1 tvg-id="TraceUK.uk" tvg-name="Trace UK" tvg-logo="https://gradetv.net/logos/TraceUK.uk" tvg-country="UK" group-title="music",Trace UK
+#EXTINF:-1 tvg-id="TraceUK.uk" tvg-name="Trace UK" tvg-country="UK" group-title="music",Trace UK
 https://m3m8.gradetv.net/api/s/TraceUK.uk%3AHD%3A15093.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-name="Trace Urban" tvg-logo="https://gradetv.net/logos/TraceUrban.fr" tvg-country="FR" group-title="music",Trace Urban
+#EXTINF:-1 tvg-id="TraceUrban.fr" tvg-name="Trace Urban" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Urban.png" tvg-country="FR" group-title="music",Trace Urban
 https://m3m8.gradetv.net/api/s/TraceUrban.fr%3AAfricaFranco%3A15094.m3u8
-#EXTINF:-1 tvg-id="TraceVanillaIslands.fr" tvg-name="Trace Vanilla Islands" tvg-logo="https://gradetv.net/logos/TraceVanillaIslands.fr" tvg-country="FR" group-title="music",Trace Vanilla Islands
+#EXTINF:-1 tvg-id="TraceVanillaIslands.fr" tvg-name="Trace Vanilla Islands" tvg-country="FR" group-title="music",Trace Vanilla Islands
 https://m3m8.gradetv.net/api/s/TraceVanillaIslands.fr%3ASD%3A15109.m3u8
