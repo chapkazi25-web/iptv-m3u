@@ -29641,16 +29641,21 @@
         "GB"
       ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "documentary"
       ],
       "sources": [
-        "cdn"
+        "cdn",
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20Four.png",
       "enabled": true,
       "source_refs": {
         "cdn": [
           "BBC_Four"
+        ],
+        "iptv-org": [
+          "BBCFour.uk.UK"
         ]
       },
       "languages": [
@@ -29659,32 +29664,6 @@
       "english": true,
       "quality_height": null,
       "not_24_7": false
-    },
-    "bbc-four-720p-geo-blocked": {
-      "name": "BBC Four",
-      "aliases": [
-        "BBC Four"
-      ],
-      "countries": [],
-      "categories": [
-        "documentary"
-      ],
-      "sources": [
-        "iptv-org"
-      ],
-      "source_refs": {
-        "iptv-org": [
-          "BBCFour.uk.UK"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": true,
-      "quality_height": null,
-      "not_24_7": false,
-      "languages": [
-        "eng"
-      ]
     },
     "bbc-four-cbeebies-720p": {
       "name": "BBC Four/CBeebies",
@@ -30030,7 +30009,8 @@
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20One.png",
       "sources": [
         "cdn",
-        "core"
+        "core",
+        "iptv-org"
       ],
       "manual": true,
       "enabled": true,
@@ -30040,37 +30020,14 @@
         ],
         "core": [
           "BBC.One.Lon.HD.uk"
+        ],
+        "iptv-org": [
+          "BBCOne.uk.London"
         ]
       },
       "epg_id": "BBC.One.Lon.HD.uk",
       "quality_height": null,
       "not_24_7": false
-    },
-    "bbc-one-720p-geo-blocked": {
-      "name": "BBC One",
-      "aliases": [
-        "BBC One"
-      ],
-      "countries": [],
-      "categories": [
-        "entertainment"
-      ],
-      "sources": [
-        "iptv-org"
-      ],
-      "source_refs": {
-        "iptv-org": [
-          "BBCOne.uk.London"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": true,
-      "quality_height": null,
-      "not_24_7": false,
-      "languages": [
-        "eng"
-      ]
     },
     "bbc-one-channel-islands-720p-geo-blocked": {
       "name": "BBC One Channel Islands [Geo-blocked]",
@@ -98488,13 +98445,17 @@
         "entertainment"
       ],
       "sources": [
-        "core"
+        "core",
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/FX.png",
       "enabled": true,
       "source_refs": {
         "core": [
           "FX.HD.us2"
+        ],
+        "iptv-org": [
+          "FX.ru.SD"
         ]
       },
       "epg_id": "FX.HD.us2",
@@ -98503,7 +98464,7 @@
         "rus"
       ],
       "english": true,
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "fx-1": {
@@ -98660,34 +98621,6 @@
       "epg_id": "FX.Movie.Channel.HD.us2",
       "english": null,
       "quality_height": null,
-      "not_24_7": false
-    },
-    "fx-russia-1080p": {
-      "name": "FX",
-      "aliases": [
-        "FX (1080p)"
-      ],
-      "countries": [],
-      "categories": [
-        "entertainment"
-      ],
-      "sources": [
-        "iptv-org"
-      ],
-      "source_refs": {
-        "iptv-org": [
-          "FX.ru.SD"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "languages": [
-        "eng",
-        "rus"
-      ],
-      "english": true,
-      "excluded_by": "country:RU",
-      "quality_height": 1080,
       "not_24_7": false
     },
     "fxx": {
