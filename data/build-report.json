@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total_channels": 1807,
+  "total_channels": 1809,
   "source_channels": {
     "cdn": 181,
     "core": 486,
@@ -11,7 +11,7 @@
   },
   "category_channels": {
     "bein-sports": 7,
-    "documentary": 262,
+    "documentary": 263,
     "entertainment": 805,
     "kids": 146,
     "movies": 197,
@@ -23,19 +23,19 @@
     "soccer": 136,
     "sports": 111,
     "stan-sports": 16,
-    "tanzania": 2,
+    "tanzania": 3,
     "tnt-sports": 17,
     "tsn": 6,
     "ufc": 3
   },
   "country_channels": {
-    "AU": 47,
+    "AU": 46,
     "CA": 58,
     "FR": 3,
-    "GB": 125,
+    "GB": 126,
     "NZ": 15,
-    "TZ": 2,
-    "US": 1551
+    "TZ": 3,
+    "US": 1552
   },
   "international_channels": 6,
   "unresolved_channels": []
