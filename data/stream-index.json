@@ -1,10 +1,10 @@
 {
   "version": 1,
   "counts": {
-    "channels": 1710,
+    "channels": 1738,
     "sources": {
       "cdn": 181,
-      "core": 287,
+      "core": 303,
       "gradetv": 25,
       "iptv-org": 10985,
       "pluto-tv": 421,
@@ -17,24 +17,24 @@
       "GB": 124,
       "NZ": 15,
       "TZ": 4,
-      "US": 1453
+      "US": 1481
     },
     "categories": {
-      "bein-sports": 6,
+      "bein-sports": 9,
       "documentary": 262,
       "entertainment": 803,
       "kids": 146,
       "movies": 192,
       "music": 17,
-      "nba": 2,
+      "nba": 13,
       "news": 125,
-      "nfl": 7,
+      "nfl": 3,
       "sky-sports": 21,
-      "soccer": 75,
+      "soccer": 89,
       "sports": 109,
       "stan-sports": 16,
       "tanzania": 4,
-      "tnt-sports": 7,
+      "tnt-sports": 11,
       "tsn": 6,
       "ufc": 3
     },
@@ -1463,156 +1463,640 @@
         }
       ]
     },
-    "brazil-serie-b-america-mg-vs-juventude-fawa": {
-      "name": "[Brazil Serie B] America MG vs Juventude (FAWA)",
+    "basketball-eurocup-le-mans-vs-aris-fawa": {
+      "name": "[Basketball Eurocup] Le Mans vs Aris (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "94c8263e1c4596dadf62",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/UDDDAAAA.m3u8",
+          "stream_id": "94c8263e1c4596dadf62",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-anadolu-efes-vs-real-madrid-1-fawa": {
+      "name": "[Basketball Euroleague] Anadolu Efes vs Real Madrid 1 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "1accb48bd65eefb7be8b",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/ZRRRAAA.m3u8",
+          "stream_id": "1accb48bd65eefb7be8b",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-anadolu-efes-vs-real-madrid-2-fawa": {
+      "name": "[Basketball Euroleague] Anadolu Efes vs Real Madrid 2 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "adb64e44d1122d669c84",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://www.rtmpcdn.com/live/af6fb94b-6322-4c1b-a092-0af930dac6a9.m3u8",
+          "stream_id": "adb64e44d1122d669c84",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-crvena-zvezda-vs-hapoel-tel-aviv-fawa": {
+      "name": "[Basketball Euroleague] Crvena Zvezda vs Hapoel Tel Aviv (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "58ac9f98b2f3ac37ef2d",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/UDDDAAAAA.m3u8",
+          "stream_id": "58ac9f98b2f3ac37ef2d",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-fenerbahce-vs-bayern-munchen-1-fawa": {
+      "name": "[Basketball Euroleague] Fenerbahce vs Bayern Munchen 1 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "fefb074061d3b109b8a1",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/UDDDAAA.m3u8",
+          "stream_id": "fefb074061d3b109b8a1",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-fenerbahce-vs-bayern-munchen-2-fawa": {
+      "name": "[Basketball Euroleague] Fenerbahce vs Bayern Munchen 2 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "ef5d9da4174739fc435d",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://www.rtmpcdn.com/live/e4581200-ff1d-4694-8776-0e865c175bfc.m3u8",
+          "stream_id": "ef5d9da4174739fc435d",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-olimpia-milano-vs-virtus-bologna-1-fawa": {
+      "name": "[Basketball Euroleague] Olimpia Milano vs Virtus Bologna 1 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "cec878f92b8cfc78afb0",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/NYYY.m3u8",
+          "stream_id": "cec878f92b8cfc78afb0",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-paris-vs-partizan-1-fawa": {
+      "name": "[Basketball Euroleague] Paris vs Partizan 1 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "f1ac0e709647bc72a62d",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/NYYYAA.m3u8",
+          "stream_id": "f1ac0e709647bc72a62d",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-valencia-vs-baskonia-1-fawa": {
+      "name": "[Basketball Euroleague] Valencia vs Baskonia 1 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "287616fb3cd8ad68ab6d",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/NYYYA.m3u8",
+          "stream_id": "287616fb3cd8ad68ab6d",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-zalgiris-kaunas-vs-olympiacos-1-fawa": {
+      "name": "[Basketball Euroleague] Zalgiris Kaunas vs Olympiacos 1 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "5dfd242be76e465913fb",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "http://193.47.62.55/hls/ZRRRAAAAX.m3u8",
+          "stream_id": "5dfd242be76e465913fb",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "basketball-euroleague-zalgiris-kaunas-vs-olympiacos-2-fawa": {
+      "name": "[Basketball Euroleague] Zalgiris Kaunas vs Olympiacos 2 (FAWA)",
+      "country": "US",
+      "categories": [
+        "nba"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "4d70e0c6d6ee8c78d011",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://www.rtmpcdn.com/live/b29c00fa-1ec4-4310-a9f7-aecfcc108a00.m3u8",
+          "stream_id": "4d70e0c6d6ee8c78d011",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "bolivia-copa-universitario-de-vinto-vs-guabira-fawa": {
+      "name": "[Bolivia Copa] Universitario de Vinto vs Guabira (FAWA)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "427aab3c3e97f3c43b28",
+      "selected_stream_id": "31c07e75311648e8ae5b",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "http://193.47.62.50/hls/DDDDQQQ.m3u8",
-          "stream_id": "427aab3c3e97f3c43b28",
-          "status": "unstable",
+          "url": "http://193.47.62.55/hls/TATATA.m3u8",
+          "stream_id": "31c07e75311648e8ae5b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 3,
-          "response_time_ms": 590,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "clasificacion-para-la-copa-africana-de-naciones-botsuana-vs-tunez-bein-sports-n-tvf90": {
-      "name": "[Clasificación para la Copa Africana de Naciones] Botsuana vs Túnez | BeIN Sports Ñ (TVF90)",
+    "clasificacion-para-la-copa-africana-de-naciones-gabon-vs-niger-bein-sports-n-tvf90": {
+      "name": "[Clasificación para la Copa Africana de Naciones] Gabón vs Níger | BeIN Sports Ñ (TVF90)",
       "country": "US",
       "categories": [
         "bein-sports"
       ],
       "selected_source": "core",
-      "selected_stream_id": "fe1e6d17b4c40ddd4022",
+      "selected_stream_id": "eefcc3b8de8f9a2d819d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://dglvz29s.fubo18.com:443/beinsportes/mono.m3u8?token=e9c4a61e2a0d125854ba1b0485b5d7f8aeea80ac-49-1790662536-1790644536",
-          "stream_id": "fe1e6d17b4c40ddd4022",
-          "status": "degraded",
+          "url": "https://bmF0aw9u.fubo18.com:443/beinsportes/mono.m3u8?token=c073dbe8be0aba29d1fa4023e03cd085e3da54e3-5f-1790720144-1790702144",
+          "stream_id": "eefcc3b8de8f9a2d819d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 834,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "colombia-primera-b-quindio-vs-bogota-fawa": {
-      "name": "[Colombia Primera B] Quindio vs Bogota (FAWA)",
+    "clasificacion-para-la-copa-africana-de-naciones-islas-de-cabo-verde-vs-ruanda-bein-sports-n-tvf90": {
+      "name": "[Clasificación para la Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda | BeIN Sports Ñ (TVF90)",
+      "country": "US",
+      "categories": [
+        "bein-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "65439ef340336e1929d5",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://Ym9yZQ.fubo18.com:443/beinsportes/mono.m3u8?token=6b7293ee03c05070e96fef16f306c82f9fb9362d-e0-1790720136-1790702136",
+          "stream_id": "65439ef340336e1929d5",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "clasificacion-para-la-copa-africana-de-naciones-somalia-vs-costa-de-marfil-bein-sports-n-tvf90": {
+      "name": "[Clasificación para la Copa Africana de Naciones] Somalia vs Costa de Marfil | BeIN Sports Ñ (TVF90)",
+      "country": "US",
+      "categories": [
+        "bein-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "5bbf5c0507fa81b43aa9",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://bgvnzw5k.fubo18.com:443/beinsportes/mono.m3u8?token=e1895cedf43267d28e1f8c4036c82bd68650ab28-3c-1790720137-1790702137",
+          "stream_id": "5bbf5c0507fa81b43aa9",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "clasificacion-para-la-copa-africana-de-naciones-sudan-del-sur-vs-egipto-bein-sports-n-tvf90": {
+      "name": "[Clasificación para la Copa Africana de Naciones] Sudán del Sur vs Egipto | BeIN Sports Ñ (TVF90)",
+      "country": "US",
+      "categories": [
+        "bein-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "5ff4a8457c06e74d1970",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://dw5pdGVk.fubo18.com:443/beinsportes/mono.m3u8?token=099087f5d06ce2e7ae0c007d20b20cb06ebff3cc-89-1790720143-1790702143",
+          "stream_id": "5ff4a8457c06e74d1970",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "copa-africana-de-naciones-islas-de-cabo-verde-vs-ruanda-1-plibre": {
+      "name": "[Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda 1 (PLIBRE)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "090edca57b705b68388a",
+      "selected_stream_id": "c56ebc8f57f58100ce4b",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "http://193.47.62.50/hls/YBBB.m3u8",
-          "stream_id": "090edca57b705b68388a",
-          "status": "degraded",
+          "url": "https://b2ZmaWNpYWw.fubo18.com:443/beinsportes/mono.m3u8?token=6fd5aaf80788c7e25de29e3eb8183c0a2318a876-31-1790723734-1790705734",
+          "stream_id": "c56ebc8f57f58100ce4b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 165,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "copa-de-primera-libertad-vs-olimpia-1-stp": {
-      "name": "[Copa de Primera] Libertad vs Olimpia 1 (STP)",
+    "copa-africana-de-naciones-somalia-vs-costa-de-marfil-1-plibre": {
+      "name": "[Copa Africana de Naciones] Somalia vs Costa de Marfil 1 (PLIBRE)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "9320930adde28ed31c29",
+      "selected_stream_id": "074c6fa8f5b735e86e2d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/tigopy/index.m3u8?token=759a585bda60467ac3a900b45dddc4eeadcba63a-42-1790690434-1790636434",
-          "stream_id": "9320930adde28ed31c29",
-          "status": "degraded",
+          "url": "https://dglvz29s.fubo18.com:443/beinsportes/mono.m3u8?token=adf6e4957086d956dffa4e57610217ac7e60b86c-85-1790723734-1790705734",
+          "stream_id": "074c6fa8f5b735e86e2d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 1158,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "copa-de-primera-sportivo-san-lorenzo-vs-deportivo-recoleta-1-stp": {
-      "name": "[Copa de Primera] Sportivo San Lorenzo vs Deportivo Recoleta 1 (STP)",
+    "copa-chile-d-puerto-montt-vs-colo-colo-1-stp": {
+      "name": "[Copa Chile] D. Puerto Montt vs Colo Colo 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "f3710fd158a6d07067a0",
+      "selected_stream_id": "511c4c5295d280ff9fc8",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/tigopy/index.m3u8?token=230dc991aa1f0fa3bb70d5a8597e2b56e5720092-4e-1790690434-1790636434",
-          "stream_id": "f3710fd158a6d07067a0",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/tntsportscl/index.m3u8?token=afd2566e5a96b908a4cc00f0708c9d3d650f1876-c2-1790748034-1790694034",
+          "stream_id": "511c4c5295d280ff9fc8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 719,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "laliga-2-leganes-vs-cd-castellon-1-stp": {
-      "name": "[LaLiga 2] Leganés vs CD Castellon 1 (STP)",
+    "copa-chile-d-puerto-montt-vs-colo-colo-tnt-sports-cl-strmxhd": {
+      "name": "[Copa Chile] D. Puerto Montt vs Colo Colo | TNT Sports CL (STRMXHD)",
+      "country": "US",
+      "categories": [
+        "tnt-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "788033469f381d0c9f36",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://khala.futlivehd.com/global/tntsporschile/index.m3u8?token=c4fee7255ee4f467c03b905844e0b28662422896-97-1790751633-1790697633",
+          "stream_id": "788033469f381d0c9f36",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "copa-chile-puerto-montt-vs-colo-colo-1-plibre": {
+      "name": "[Copa Chile] Puerto Montt vs Colo-Colo 1 (PLIBRE)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "34e3ca6cf8db51a6342a",
+      "selected_stream_id": "6bbbb828501995b9d00c",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/hyper1/index.m3u8?token=0fb7dc89a1f947de423dd0c104d243ce0d794b92-d7-1790690434-1790636434",
-          "stream_id": "34e3ca6cf8db51a6342a",
-          "status": "degraded",
+          "url": "https://dglvz29s.fubo18.com:443/tntsportschile/mono.m3u8?token=7336cbe754d79c93df844e0e84f9d5696e5e043c-81-1790723734-1790705734",
+          "stream_id": "6bbbb828501995b9d00c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 682,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "laliga-smartbank-leganes-vs-cd-castellon-laliga-tv-hypermotion-tvf90": {
-      "name": "[LaLiga SmartBank] Leganés vs CD Castellon | LaLiga TV Hypermotion (TVF90)",
+    "copa-chile-puerto-montt-vs-colo-colo-tnt-sports-premiun-cl-tvf90": {
+      "name": "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL (TVF90)",
+      "country": "US",
+      "categories": [
+        "tnt-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "fce92949b4e71e22c8ab",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://am91cm5leQ.fubo18.com:443/tntsportschile/mono.m3u8?token=475cd5c225cc109084e20f67cfcdebc0f23b8efb-7e-1790720137-1790702137",
+          "stream_id": "fce92949b4e71e22c8ab",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "copa-chile-puerto-montt-vs-colo-colo-tnt-sports-premiun-cl-hd-tvf90": {
+      "name": "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL HD (TVF90)",
+      "country": "US",
+      "categories": [
+        "tnt-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "6a5eb463830619ab21e4",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://YXdlc29tZQ.fubo18.com:443/tntsportschile/mono.m3u8?token=044f5bb918eda116f03040c65d4525c7a5bb9ec3-66-1790720137-1790702137",
+          "stream_id": "6a5eb463830619ab21e4",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "copa-chile-puerto-montt-vs-colo-colo-tnt-sports-premiun-cl-op2-tvf90": {
+      "name": "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL OP2 (TVF90)",
+      "country": "US",
+      "categories": [
+        "tnt-sports"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "b7bc7a5c62bdad8a9c4d",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://10.ftlly.com:443/tntsportschile/mono.m3u8?token=c187794d2c221a172406464dad3d95bb6bc7a298-6e-1790720137-1790702137",
+          "stream_id": "b7bc7a5c62bdad8a9c4d",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "copa-de-la-division-profesional-real-potosi-vs-abb-entel-tv-plus-tvf90": {
+      "name": "[Copa de la División Profesional] Real Potosí vs ABB | Entel TV PLUS+ (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "743feedfd5b1b5a6bf8f",
+      "selected_stream_id": "cb7d921cac780cdda90d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://b2ZmaWNpYWw.fubo18.com:443/hypermotion1/mono.m3u8?token=91ef9c47d2c8cc864bf0ca4e9f54a5ec00564a12-54-1790662539-1790644539",
-          "stream_id": "743feedfd5b1b5a6bf8f",
-          "status": "degraded",
+          "url": "https://3.ftlly.com:443/even1/mono.m3u8?token=8b400af7de7ac13bde3b74e816293486bf8dd7e6-63-1790720144-1790702144",
+          "stream_id": "cb7d921cac780cdda90d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 527,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "copa-de-la-division-profesional-universitario-de-vinto-vs-guabira-entel-tv-plus-tvf90": {
+      "name": "[Copa de la División Profesional] Universitario de Vinto vs Guabirá | Entel TV PLUS+ (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "660bb1c37f832c4c6515",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://2.ftlly.com:443/even1/mono.m3u8?token=ee5652d75c83e0bff8a7388466429861a1ec6829-d0-1790720137-1790702137",
+          "stream_id": "660bb1c37f832c4c6515",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "liga-betplay-deportivo-pereira-vs-santa-fe-1-stp": {
+      "name": "[Liga BetPlay] Deportivo Pereira vs Santa Fe 1 (STP)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "387091afe843690a5c8c",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://s1.envivoslatam99.sbs:443/global/winplus/index.m3u8?token=7d763cb773eaae2531683d8a70f52eee7c1ff93d-a1-1790748034-1790694034",
+          "stream_id": "387091afe843690a5c8c",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "liga-betplay-medellin-vs-millonarios-1-stp": {
+      "name": "[Liga BetPlay] Medellín vs Millonarios 1 (STP)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "a9fb88ffe91737df909a",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://s2.envivoslatam99.sbs:443/global/winplus/index.m3u8?token=bb59ccb712990c966f9f3e4d05bacd655faa1efc-62-1790748035-1790694035",
+          "stream_id": "a9fb88ffe91737df909a",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "liga-colombia-deportivo-pereira-vs-santa-fe-win-sports-strmxhd": {
+      "name": "[Liga Colombia] Deportivo Pereira vs Santa Fe | Win Sports + (STRMXHD)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "5b777af31a4dd047a5e1",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://khala.futlivehd.com/global/winplus/index.m3u8?token=0d664818b9ef2dfb887a9a58c783224ee6fcc945-0d-1790748035-1790694035",
+          "stream_id": "5b777af31a4dd047a5e1",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -1624,1095 +2108,1139 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "9e150b4847a2094f9079",
+      "selected_stream_id": "91b3d12afc6572fc9fd3",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/winplus/index.m3u8?token=95b8c691c6adc7bca935e60b2bfc03763f3dea85-96-1790685034-1790631034",
-          "stream_id": "9e150b4847a2094f9079",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/winplus/index.m3u8?token=a822245a3d76b8c31c48efa7942ef3a09ceb0834-a2-1790748035-1790694035",
+          "stream_id": "91b3d12afc6572fc9fd3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 801,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-concacaf-guatemala-vs-el-salvador-tudn-usa-strmxhd": {
-      "name": "[Liga de Naciones CONCACAF] Guatemala vs El Salvador | Tudn USA (STRMXHD)",
+    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-stp": {
+      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "b02f5d1b3545969b2086",
+      "selected_stream_id": "58ed059557366218baa5",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/tudn_usa/index.m3u8?token=79c14597983023ccd72f10fdf6c6bba1b0c0f2eb-06-1790690434-1790636434",
-          "stream_id": "b02f5d1b3545969b2086",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/fox2usa/index.m3u8?token=2f68335d29389d808bc00c9001f9b23a8035c682-d6-1790748034-1790694034",
+          "stream_id": "58ed059557366218baa5",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 799,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-concacaf-guatemala-vs-el-salvador-vix-strmxhd": {
-      "name": "[Liga de Naciones CONCACAF] Guatemala vs El Salvador | Vix + (STRMXHD)",
+    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-fox-sports-2-usa-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "77c4a911447de0b3779b",
+      "selected_stream_id": "99ee1b594f17b8e771f7",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/vix8/index.m3u8?token=8edb52d7434fe633669ec407aa74b3c3f28790b8-41-1790690434-1790636434",
-          "stream_id": "77c4a911447de0b3779b",
-          "status": "degraded",
+          "url": "https://Ym9yZQ.fubo18.com:443/foxsports2_usa/mono.m3u8?token=af39525e6659d6c873e146e48b14f137bd4615e2-2f-1790720145-1790702145",
+          "stream_id": "99ee1b594f17b8e771f7",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 795,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-concacaf-jamaica-vs-honduras-vix-strmxhd": {
-      "name": "[Liga de Naciones CONCACAF] Jamaica vs Honduras | Vix + (STRMXHD)",
+    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-fox-sports-2-usa-op2-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA | OP2 (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "c5f6e0d72ee668d8862b",
+      "selected_stream_id": "349e2252771e16e2624b",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/vix5/index.m3u8?token=319c0a6b2d179f5f7aee9aea4cfaef911512fe61-70-1790690434-1790636434",
-          "stream_id": "c5f6e0d72ee668d8862b",
-          "status": "degraded",
+          "url": "https://4.ftlly.com:443/foxsports2_usa/mono.m3u8?token=bc24ccf66b14b61566de95dd933b4d4360a9758f-6b-1790720145-1790702145",
+          "stream_id": "349e2252771e16e2624b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 834,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-concacaf-st-kitts-and-nevis-vs-granada-vix-strmxhd": {
-      "name": "[Liga de Naciones CONCACAF] St. Kitts and Nevis vs Granada | Vix + (STRMXHD)",
+    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-1-stp": {
+      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "78bba87d3338906eb5fd",
+      "selected_stream_id": "f93621fd75fa55d6d028",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/vix6/index.m3u8?token=38ee48f440202834af431a1e2c43c73932b06c8f-e2-1790690434-1790636434",
-          "stream_id": "78bba87d3338906eb5fd",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/fox2usa/index.m3u8?token=79cb1cae67b4a3d76f0a5152281f05ddae3767db-d3-1790748035-1790694035",
+          "stream_id": "f93621fd75fa55d6d028",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 754,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-concacaf-st-lucia-vs-bermudas-vix-strmxhd": {
-      "name": "[Liga de Naciones CONCACAF] St. Lucia vs Bermudas | Vix + (STRMXHD)",
+    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-fox-sports-2-usa-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas | Fox Sports 2 USA (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "4ec3f0bd4be7ccb389bb",
+      "selected_stream_id": "fec5ed39a60c2dc31ad2",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/vix7/index.m3u8?token=b06e378b503556e0787e9247476e4e405626a0a3-06-1790690434-1790636434",
-          "stream_id": "4ec3f0bd4be7ccb389bb",
-          "status": "degraded",
+          "url": "https://dw5pdGVk.fubo18.com:443/foxsports2_usa/mono.m3u8?token=171e5280fd9edc52973aa894fe9e3abe871947a1-f-1790720145-1790702145",
+          "stream_id": "fec5ed39a60c2dc31ad2",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 720,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-concacaf-surinam-vs-martinica-vix-strmxhd": {
-      "name": "[Liga de Naciones CONCACAF] Surinam vs Martinica | Vix + (STRMXHD)",
+    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-fox-sports-2-usa-op2-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas | Fox Sports 2 USA | OP2 (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "9176ae91226f568cb695",
+      "selected_stream_id": "b06ae6b1a57f5e4b8d5a",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/vix4/index.m3u8?token=380a96cb9bc7d14d21c841c31c3abcbf1e4e2747-01-1790690434-1790636434",
-          "stream_id": "9176ae91226f568cb695",
-          "status": "degraded",
+          "url": "https://3.ftlly.com:443/foxsports2_usa/mono.m3u8?token=fcc9ceb8ba93b13f4fef8cfe5bdf6f4a7d19b8e9-9-1790720146-1790702146",
+          "stream_id": "b06ae6b1a57f5e4b8d5a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 689,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-cuba-vs-bonaire-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Cuba vs Bonaire 1 (STP)",
+    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-stp": {
+      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "7d1db13bd55245719a77",
+      "selected_stream_id": "ed037ca20f470c87a08b",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/vix9/index.m3u8?token=f139b8b615798d072c6f8e15d4c0a2773a06a4f6-57-1790690434-1790636434",
-          "stream_id": "7d1db13bd55245719a77",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/fox2usa/index.m3u8?token=84bdbd3f8e2a7bf7eb4f381e3e161bf2e2e10274-51-1790748034-1790694034",
+          "stream_id": "ed037ca20f470c87a08b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 686,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-cuba-vs-bonaire-2-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Cuba vs Bonaire 2 (STP)",
+    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-fox-sports-2-usa-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "a1608e3df76a9619b9c0",
+      "selected_stream_id": "f72ec76b3b1c226b6a43",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/foxsoccerplus/index.m3u8?token=bc614909dd8cb3cf8bef780cb5ddae1c5ee24c96-9c-1790690434-1790636434",
-          "stream_id": "a1608e3df76a9619b9c0",
-          "status": "degraded",
+          "url": "https://am91cm5leQ.fubo18.com:443/foxsports2_usa/mono.m3u8?token=b879e3bfa20c57fbcbdbb0e3ba7ef6b93c8ae07d-51-1790720140-1790702140",
+          "stream_id": "f72ec76b3b1c226b6a43",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 699,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-cuba-vs-bonaire-fox-soccer-plus-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Cuba vs Bonaire | Fox Soccer Plus (TVF90)",
+    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-fox-sports-2-usa-op2-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA | OP2 (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "fe1f044b668f28e4635a",
+      "selected_stream_id": "03e646cb31bd6f8e7df2",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://y2fzdGxl.fubo18.com:443/foxsoccerplus/mono.m3u8?token=30e7e39f83eafaabf6d4ba6a6af8086eec1a6439-b5-1790662534-1790644534",
-          "stream_id": "fe1f044b668f28e4635a",
-          "status": "degraded",
+          "url": "https://7.ftlly.com:443/foxsports2_usa/mono.m3u8?token=4aeea8866d128c4dbc6c6cbbbd1e2b7c8c06d3cd-d6-1790720140-1790702140",
+          "stream_id": "03e646cb31bd6f8e7df2",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 523,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador 1 (PLIBRE)",
+    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (PLIBRE)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "8eb006769c4e0e9adde7",
+      "selected_stream_id": "794cc5678bc09fbeb4c5",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://YXdlc29tZQ.fubo18.com:443/foxsports2_usa/mono.m3u8?token=6bfbf4915c3152442619ba10ca4677c609272006-95-1790662534-1790644534",
-          "stream_id": "8eb006769c4e0e9adde7",
-          "status": "degraded",
+          "url": "https://b2ZmaWNpYWw.fubo18.com:443/foxsoccerplus/mono.m3u8?token=1b7227aa2251fd89ae06d6ac331b229e073f1516-76-1790723734-1790705734",
+          "stream_id": "794cc5678bc09fbeb4c5",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 522,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador 1 (STP)",
+    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-1-stp": {
+      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "62c9f73c9b42466b6add",
+      "selected_stream_id": "971ae764f5ac89af5f3e",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/tudnus/index.m3u8?token=f2c5e17f81308852c8ee364eb8a9f5952cf62293-2f-1790690435-1790636435",
-          "stream_id": "62c9f73c9b42466b6add",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/foxsoccerplus/index.m3u8?token=24a9df8824553e4d012cbe43cffe8180f2e3cf40-fc-1790748034-1790694034",
+          "stream_id": "971ae764f5ac89af5f3e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 944,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-2-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador 2 (PLIBRE)",
+    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-fox-soccer-plus-tvf90": {
+      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos | Fox Soccer Plus (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "c475ece201347ad218db",
+      "selected_stream_id": "7c9058dabeea338a2628",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://bgvnzw5k.fubo18.com:443/tudn/mono.m3u8?token=5fcea5ca1ec43c73208794e90c3586c1480ce242-cd-1790662534-1790644534",
-          "stream_id": "c475ece201347ad218db",
-          "status": "degraded",
+          "url": "https://dw5pdGVk.fubo18.com:443/foxsoccerplus/mono.m3u8?token=5bc480af8afbefccdc98769987a9f8c16e020d0f-6d-1790720145-1790702145",
+          "stream_id": "7c9058dabeea338a2628",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 512,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-2-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador 2 (STP)",
+    "liga-de-naciones-de-la-uefa-bulgaria-vs-estonia-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Bulgaria vs Estonia 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "f4cb3914661554e1e5f1",
+      "selected_stream_id": "b50112834789ad1aa226",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/vix2/index.m3u8?token=02f7b5a44d826d2d0a1d0b4a0afdca8954850478-89-1790690435-1790636435",
-          "stream_id": "f4cb3914661554e1e5f1",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/disney7/index.m3u8?token=5c65e22f95ba6778af1a98cc5cc50f4a13614074-92-1790748034-1790694034",
+          "stream_id": "b50112834789ad1aa226",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 759,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-3-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador 3 (STP)",
+    "liga-de-naciones-de-la-uefa-bulgaria-vs-estonia-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] Bulgaria vs Estonia 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "d93c457cd41515adbac0",
+      "selected_stream_id": "2e2f6973e20954d4193e",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/fox2usa/index.m3u8?token=07ec569ea20d4f46c81c2d2c4292b21b1bd594fc-41-1790690435-1790636435",
-          "stream_id": "d93c457cd41515adbac0",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/vix5/index.m3u8?token=910556eae0574cb3f476d19b9c208a7dd4121a5f-35-1790748034-1790694034",
+          "stream_id": "2e2f6973e20954d4193e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 725,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-fox-sports-2-usa-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador | Fox Sports 2 USA (TVF90)",
+    "liga-de-naciones-de-la-uefa-escocia-vs-suiza-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Escocia vs Suiza 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "8f56efc1b0bfaea685a7",
+      "selected_stream_id": "65db69fc1533f8ab2458",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://dw5pdGVk.fubo18.com:443/foxsports2_usa/mono.m3u8?token=aa8cda677e170efd01d01c9fedd014d3c4cf7945-fe-1790662538-1790644538",
-          "stream_id": "8f56efc1b0bfaea685a7",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/disney9/index.m3u8?token=3e62efad3bcb6d89f396962e475bb77bf2b5fc44-8e-1790748034-1790694034",
+          "stream_id": "65db69fc1533f8ab2458",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 338,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-guatemala-vs-el-salvador-fox-sports-2-usa-op2-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Guatemala vs El Salvador | Fox Sports 2 USA | OP2 (TVF90)",
+    "liga-de-naciones-de-la-uefa-escocia-vs-suiza-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] Escocia vs Suiza 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "e4ca19c6a9cd22cc8538",
+      "selected_stream_id": "364ea8ae5b444449892a",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://7.ftlly.com:443/foxsports2_usa/mono.m3u8?token=cca4dfa907c186fa0734fbb741a170a40ddd65c2-22-1790662538-1790644538",
-          "stream_id": "e4ca19c6a9cd22cc8538",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/vix7/index.m3u8?token=024ac1f48997d0655f44c76b71725766cc0180ca-c6-1790748034-1790694034",
+          "stream_id": "364ea8ae5b444449892a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 572,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-jamaica-vs-honduras-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Jamaica vs Honduras 1 (PLIBRE)",
+    "liga-de-naciones-de-la-uefa-eslovaquia-vs-kazajstan-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Eslovaquia vs Kazajstán 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "c66a0ce9ba0b9274ce87",
+      "selected_stream_id": "88619062a883dfdc3f4d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://eWVz.fubo18.com:443/vix1/mono.m3u8?token=461440ce738fe7e5af195e587caedc0062274d03-8-1790662534-1790644534",
-          "stream_id": "c66a0ce9ba0b9274ce87",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/disney10/index.m3u8?token=b49f878117a878cd0398e873433aa0f4c1402739-52-1790748034-1790694034",
+          "stream_id": "88619062a883dfdc3f4d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 540,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-jamaica-vs-honduras-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Jamaica vs Honduras 1 (STP)",
+    "liga-de-naciones-de-la-uefa-eslovaquia-vs-kazajstan-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] Eslovaquia vs Kazajstán 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "4924004aa010d3f0434c",
+      "selected_stream_id": "2b6925062083618bb320",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/vix1/index.m3u8?token=25fbe5adc4d7486ff50a26d92144632e1b75f0f1-b0-1790690434-1790636434",
-          "stream_id": "4924004aa010d3f0434c",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/vix8/index.m3u8?token=f2aab910ad7313c1b677ea88e5ce0c54b91a7af4-4a-1790748034-1790694034",
+          "stream_id": "2b6925062083618bb320",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 719,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-jamaica-vs-honduras-2-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Jamaica vs Honduras 2 (PLIBRE)",
+    "liga-de-naciones-de-la-uefa-eslovenia-vs-macedonia-del-norte-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "0939d905dde9a47b7ddf",
+      "selected_stream_id": "6c0dd5cabb95b20a29f8",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://bgvnzw5k.fubo18.com:443/foxsports2_usa/mono.m3u8?token=d41051a83b758b57c94029f0c442218fbcd88803-66-1790662534-1790644534",
-          "stream_id": "0939d905dde9a47b7ddf",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/disney8/index.m3u8?token=d4d840f88d6d0e3448487e5817557575182ab2e7-2d-1790748034-1790694034",
+          "stream_id": "6c0dd5cabb95b20a29f8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 371,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-jamaica-vs-honduras-2-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Jamaica vs Honduras 2 (STP)",
+    "liga-de-naciones-de-la-uefa-eslovenia-vs-macedonia-del-norte-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "ace0ff827ac6907f9780",
+      "selected_stream_id": "d779346455437787da8b",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/fox2usa/index.m3u8?token=7b41e7d608fe50889c12cf8e765839fe88e704c8-79-1790690434-1790636434",
-          "stream_id": "ace0ff827ac6907f9780",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/vix6/index.m3u8?token=9cdd3e16945ae46e533c616aa0041c591d6f5207-50-1790748034-1790694034",
+          "stream_id": "d779346455437787da8b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 739,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-jamaica-vs-honduras-fox-sports-2-usa-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Jamaica vs Honduras | Fox Sports 2 USA (TVF90)",
+    "liga-de-naciones-de-la-uefa-eslovenia-vs-macedonia-del-norte-3-stp": {
+      "name": "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 3 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "7ae251bb14f1b9a242ba",
+      "selected_stream_id": "a47aa9535a402ea0f283",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://bgvnzw5k.fubo18.com:443/foxsports2_usa/mono.m3u8?token=1ba0099c118ed0edfe8c514cba14904634b7505a-c3-1790662535-1790644535",
-          "stream_id": "7ae251bb14f1b9a242ba",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/sportv2/index.m3u8?token=049a189cc3ffbda329cbe07928dba05c7109878f-a4-1790748034-1790694034",
+          "stream_id": "a47aa9535a402ea0f283",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 419,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-jamaica-vs-honduras-fox-sports-2-usa-op2-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Jamaica vs Honduras | Fox Sports 2 USA | OP2 (TVF90)",
+    "liga-de-naciones-de-la-uefa-espana-vs-croacia-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] España vs Croacia 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "7794d75167ef7f14e3fd",
+      "selected_stream_id": "fbc86ec7bcf3bdb5e706",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://7.ftlly.com:443/foxsports2_usa/mono.m3u8?token=fb907ae7d399350b1f105a794bbe5c00a975107d-27-1790662535-1790644535",
-          "stream_id": "7794d75167ef7f14e3fd",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/disney3/index.m3u8?token=c7d9698a56a7f9e0c626954ac51ef570ab4fb3b6-7c-1790748033-1790694033",
+          "stream_id": "fbc86ec7bcf3bdb5e706",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 385,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-st-kitts-and-nevis-vs-granada-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] St. Kitts and Nevis vs Granada 1 (PLIBRE)",
+    "liga-de-naciones-de-la-uefa-espana-vs-croacia-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] España vs Croacia 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "3334f43a6a3f6a4bfc1b",
+      "selected_stream_id": "863269297256d225c06f",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://am91cm5leQ.fubo18.com:443/foxsoccerplus/mono.m3u8?token=5e549d47ea6e16dce2fbb42c271f445646e8b75f-6f-1790662534-1790644534",
-          "stream_id": "3334f43a6a3f6a4bfc1b",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/vix1/index.m3u8?token=cf1e4ceab4799ee57f17ced04df067632e0b96f6-23-1790748033-1790694033",
+          "stream_id": "863269297256d225c06f",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 491,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-st-kitts-and-nevis-vs-granada-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] St. Kitts and Nevis vs Granada 1 (STP)",
+    "liga-de-naciones-de-la-uefa-espana-vs-croacia-3-stp": {
+      "name": "[Liga de Naciones de la UEFA] España vs Croacia 3 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "b941a907165ea128cbd1",
+      "selected_stream_id": "990fd46b68e23529f540",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/foxsoccerplus/index.m3u8?token=9737174a979b588fbecd7cceb6de3bc149cf4b4e-e6-1790690434-1790636434",
-          "stream_id": "b941a907165ea128cbd1",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/espn/index.m3u8?token=25e33d75b00d2cd7be5076a2c995c2c5a757d9ba-05-1790748033-1790694033",
+          "stream_id": "990fd46b68e23529f540",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 698,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-st-kitts-and-nevis-vs-granada-fox-soccer-plus-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] St. Kitts and Nevis vs Granada | Fox Soccer Plus (TVF90)",
+    "liga-de-naciones-de-la-uefa-espana-vs-croacia-4-stp": {
+      "name": "[Liga de Naciones de la UEFA] España vs Croacia 4 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "049d8e044ec087132fd5",
+      "selected_stream_id": "308c60d2e27e3d4124ce",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://eWVz.fubo18.com:443/foxsoccerplus/mono.m3u8?token=825d8773ddd63c7877b61dc28b15333d0307428a-d7-1790662535-1790644535",
-          "stream_id": "049d8e044ec087132fd5",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/sportv1/index.m3u8?token=c051769da41734f14e96da743db34f07fdb78e67-3a-1790748033-1790694033",
+          "stream_id": "308c60d2e27e3d4124ce",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 431,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-surinam-vs-martinica-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Surinam vs Martinica 1 (STP)",
+    "liga-de-naciones-de-la-uefa-finlandia-vs-bielorrusia-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Finlandia vs Bielorrusia 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "d3ffd6f027ea62d8bfe2",
+      "selected_stream_id": "400afd26653b237f393d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/fox2usa/index.m3u8?token=40e0e41010991c1ab4cc94ac3196dc014e2fdb24-1a-1790690434-1790636434",
-          "stream_id": "d3ffd6f027ea62d8bfe2",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/disney2/index.m3u8?token=52049c6c0bcec72f168511fde3f194cd10c4a90d-2e-1790748033-1790694033",
+          "stream_id": "400afd26653b237f393d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 764,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-surinam-vs-martinica-fox-sports-2-usa-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Surinam vs Martinica | Fox Sports 2 USA (TVF90)",
+    "liga-de-naciones-de-la-uefa-finlandia-vs-bielorrusia-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] Finlandia vs Bielorrusia 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "914e77d3fccc3ee6d549",
+      "selected_stream_id": "cd25dcf73d0e354c4833",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://y2fzdGxl.fubo18.com:443/foxsports2_usa/mono.m3u8?token=b342fdc5e456e768320e6c84e3f2c382c70f38ea-d6-1790662535-1790644535",
-          "stream_id": "914e77d3fccc3ee6d549",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/espn2/index.m3u8?token=b80fab389f07fab86b51573d679bfd7394d8990d-d7-1790748033-1790694033",
+          "stream_id": "cd25dcf73d0e354c4833",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 444,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-concacaf-surinam-vs-martinica-fox-sports-2-usa-op2-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Surinam vs Martinica | Fox Sports 2 USA | OP2 (TVF90)",
+    "liga-de-naciones-de-la-uefa-luxemburgo-vs-islandia-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "95d619eb325763122c86",
+      "selected_stream_id": "2d402f57374bfbfa457a",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://7.ftlly.com:443/foxsports2_usa/mono.m3u8?token=8915e28dc778f570cbe74402f54678ce65672d85-67-1790662535-1790644535",
-          "stream_id": "95d619eb325763122c86",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/disney6/index.m3u8?token=19e0a973c65d7cab93e5b4e69b446036f2a05c85-2c-1790748034-1790694034",
+          "stream_id": "2d402f57374bfbfa457a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 345,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-armenia-vs-montenegro-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Armenia vs Montenegro 1 (STP)",
+    "liga-de-naciones-de-la-uefa-luxemburgo-vs-islandia-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "51afb8bcc1783e729250",
+      "selected_stream_id": "cde1ca617bf0af4f3e7c",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/disney2/index.m3u8?token=d2c5e3554f7d0ea64fc20d3ff8f40e4e232b9a3b-4e-1790690433-1790636433",
-          "stream_id": "51afb8bcc1783e729250",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/vix4/index.m3u8?token=0dd2882caaf5c4293dd318326eb17820f6235610-e8-1790748034-1790694034",
+          "stream_id": "cde1ca617bf0af4f3e7c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 709,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-armenia-vs-montenegro-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Armenia vs Montenegro 2 (STP)",
+    "liga-de-naciones-de-la-uefa-luxemburgo-vs-islandia-3-stp": {
+      "name": "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 3 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "e6262f7b249072dd5fab",
+      "selected_stream_id": "ff58d5f84d7f695499f9",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/vix2/index.m3u8?token=bff7a1908791c3f97df023ad5e06eda507de168d-22-1790690433-1790636433",
-          "stream_id": "e6262f7b249072dd5fab",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/sportv3/index.m3u8?token=71004eb052ad6a4e2e2566430fa8d8c8b5b00603-41-1790748034-1790694034",
+          "stream_id": "ff58d5f84d7f695499f9",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 739,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-belgica-vs-francia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Bélgica vs Francia 1 (STP)",
+    "liga-de-naciones-de-la-uefa-moldavia-vs-islas-feroe-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] Moldavia vs Islas Feroe 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "8a71b0ceb613a0c4df21",
+      "selected_stream_id": "ae40f880b1098dce7bcb",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/disney5/index.m3u8?token=4449bf7cf0e4963ee7594fe23d1fdffbba014514-fa-1790690434-1790636434",
-          "stream_id": "8a71b0ceb613a0c4df21",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/disney1/index.m3u8?token=670bae77c2a36ff4c06294b4266bbf99d95d48b9-ae-1790748033-1790694033",
+          "stream_id": "ae40f880b1098dce7bcb",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 708,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-belgica-vs-francia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Bélgica vs Francia 2 (STP)",
+    "liga-de-naciones-de-la-uefa-republica-checa-vs-inglaterra-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "437ce2c6dae633d5761d",
+      "selected_stream_id": "b556461f758406fcfe2d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/vix5/index.m3u8?token=67db116be84bccfa879dce26a4dbb94a84516312-1c-1790690434-1790636434",
-          "stream_id": "437ce2c6dae633d5761d",
-          "status": "degraded",
+          "url": "https://s1.envivoslatam99.sbs:443/global/disney4/index.m3u8?token=094e53fdd7b7a5e77011f6c19ae3a0ef93dba800-4e-1790748034-1790694034",
+          "stream_id": "b556461f758406fcfe2d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 696,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-belgica-vs-francia-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] Bélgica vs Francia 3 (STP)",
+    "liga-de-naciones-de-la-uefa-republica-checa-vs-inglaterra-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "c220e9b1b7700ccd9cef",
+      "selected_stream_id": "d9b0bcdbe8592dfad237",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/espn/index.m3u8?token=a8a3f711af172040385aeba23b51e5b5c3c5ddaf-c9-1790690434-1790636434",
-          "stream_id": "c220e9b1b7700ccd9cef",
-          "status": "degraded",
+          "url": "https://s3.envivoslatam99.sbs:443/global/vix2/index.m3u8?token=da5ff4939e24b3892f4597fe3bdcf0a5f669689c-d5-1790748034-1790694034",
+          "stream_id": "d9b0bcdbe8592dfad237",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 703,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-georgia-vs-ucrania-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Georgia vs Ucrania 1 (STP)",
+    "liga-de-naciones-de-la-uefa-republica-checa-vs-inglaterra-3-stp": {
+      "name": "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 3 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "a71e9b023a93248df9b5",
+      "selected_stream_id": "f5dd42f7fa6806af7925",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/disney1/index.m3u8?token=e15ffa88df1106d2b1e2ff4366353ac301ce38ff-3f-1790690433-1790636433",
-          "stream_id": "a71e9b023a93248df9b5",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/espn2/index.m3u8?token=196261ed372965741b55cae7abafb6d93afc2f35-30-1790748034-1790694034",
+          "stream_id": "f5dd42f7fa6806af7925",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 689,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-georgia-vs-ucrania-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Georgia vs Ucrania 2 (STP)",
+    "liga-de-naciones-de-la-uefa-san-marino-vs-albania-1-stp": {
+      "name": "[Liga de Naciones de la UEFA] San Marino vs Albania 1 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "e80497362baa62d5f42a",
+      "selected_stream_id": "ff5d4a78e2a915b6a82b",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/vix1/index.m3u8?token=7eaac9b6f247730c33bae457f82e3e98468d86dd-3d-1790690433-1790636433",
-          "stream_id": "e80497362baa62d5f42a",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/disney5/index.m3u8?token=499ee3ddc98524bbc340bd61ebabc403f27c338f-83-1790748034-1790694034",
+          "stream_id": "ff5d4a78e2a915b6a82b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 706,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-georgia-vs-ucrania-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] Georgia vs Ucrania 3 (STP)",
+    "liga-de-naciones-de-la-uefa-san-marino-vs-albania-2-stp": {
+      "name": "[Liga de Naciones de la UEFA] San Marino vs Albania 2 (STP)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "f44292522350eef63c42",
+      "selected_stream_id": "3c2c53b62204aff4994f",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/espn2/index.m3u8?token=2730d453df4ca461e84b2a4d5e16550314331a1c-11-1790690433-1790636433",
-          "stream_id": "f44292522350eef63c42",
-          "status": "degraded",
+          "url": "https://s2.envivoslatam99.sbs:443/global/vix3/index.m3u8?token=09d26d21b705bbd1a738555e70840ebb7c0f938f-f8-1790748034-1790694034",
+          "stream_id": "3c2c53b62204aff4994f",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 711,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-georgia-vs-ucrania-4-stp": {
-      "name": "[Liga de Naciones de la UEFA] Georgia vs Ucrania 4 (STP)",
+    "liga-de-naciones-bulgaria-vs-estonia-disney-strmxhd": {
+      "name": "[Liga de Naciones] Bulgaria vs Estonia | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "41f2cea9cc77395e5056",
+      "selected_stream_id": "bafdf65250ab6fb43f29",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/sportv2/index.m3u8?token=755146fbafed8452440abc1b7a6d46396807b2e2-8a-1790690433-1790636433",
-          "stream_id": "41f2cea9cc77395e5056",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney8/index.m3u8?token=05d655499d554a75033dccf02b9a0485d1ecc842-80-1790748035-1790694035",
+          "stream_id": "bafdf65250ab6fb43f29",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 733,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-irlanda-del-norte-vs-hungria-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Irlanda del Norte vs Hungría 1 (STP)",
+    "liga-de-naciones-escocia-vs-suiza-disney-strmxhd": {
+      "name": "[Liga de Naciones] Escocia vs Suiza | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "2be10d5049b13ad6ad18",
+      "selected_stream_id": "0253575d41d5122be37e",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/disney8/index.m3u8?token=309cbd184ea766dc4de3d3447471c287921d9746-8f-1790690434-1790636434",
-          "stream_id": "2be10d5049b13ad6ad18",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney7/index.m3u8?token=3b53713682730e9f11f26395d8ae6b4c7af55996-de-1790748035-1790694035",
+          "stream_id": "0253575d41d5122be37e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 727,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-irlanda-del-norte-vs-hungria-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Irlanda del Norte vs Hungría 2 (STP)",
+    "liga-de-naciones-eslovaquia-vs-kazajistan-disney-strmxhd": {
+      "name": "[Liga de Naciones] Eslovaquia vs Kazajistán | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "0edcaed27b40bf89cf93",
+      "selected_stream_id": "b38e8235920c90a5caee",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/vix8/index.m3u8?token=6aa7d8c747ec37213b7628bbf061aa7f8eb59fb6-a0-1790690434-1790636434",
-          "stream_id": "0edcaed27b40bf89cf93",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney10/index.m3u8?token=42759f50d1ecd539c57d09cf239e7e1a753f5264-07-1790748035-1790694035",
+          "stream_id": "b38e8235920c90a5caee",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 707,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-irlanda-del-norte-vs-hungria-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] Irlanda del Norte vs Hungría 3 (STP)",
+    "liga-de-naciones-eslovenia-vs-macedonia-del-norte-disney-strmxhd": {
+      "name": "[Liga de Naciones] Eslovenia vs Macedonia del Norte | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "d051537ea22ac4b1aff1",
+      "selected_stream_id": "e5b287ecc5438d100ccb",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/sportv2/index.m3u8?token=e7000c8248a8f271b149bb866f6ba596b464afb9-7a-1790690434-1790636434",
-          "stream_id": "d051537ea22ac4b1aff1",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney6/index.m3u8?token=15c821d7ac2cb0760f9561c368f1e9d8757b2083-9f-1790748034-1790694034",
+          "stream_id": "e5b287ecc5438d100ccb",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 708,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-letonia-vs-chipre-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Letonia vs Chipre 1 (STP)",
+    "liga-de-naciones-eslovenia-vs-macedonia-del-norte-sportv-2-strmxhd": {
+      "name": "[Liga de Naciones] Eslovenia vs Macedonia del Norte | SporTV 2 (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "24dfb68b228f3a240437",
+      "selected_stream_id": "8e4fc0acb80fca257641",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/disney3/index.m3u8?token=2a48019f7011a0b956fac0b8e4757b2c01c2cc5a-05-1790690433-1790636433",
-          "stream_id": "24dfb68b228f3a240437",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/sporttvbr2/index.m3u8?token=8040975021ee251da0a637706be91ebb1c65c09d-f5-1790748034-1790694034",
+          "stream_id": "8e4fc0acb80fca257641",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 682,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-letonia-vs-chipre-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Letonia vs Chipre 2 (STP)",
+    "liga-de-naciones-espana-vs-croacia-disney-strmxhd": {
+      "name": "[Liga de Naciones] España vs Croacia | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "5ad2bee541f48846b7d8",
+      "selected_stream_id": "fc10887f215fa4d10cc4",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/vix3/index.m3u8?token=595e467d3fd04522c2a8133bb1ca47f78e435ff3-91-1790690434-1790636434",
-          "stream_id": "5ad2bee541f48846b7d8",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney4/index.m3u8?token=0c68478fcca1b9477a120ab002064adffcbb4212-2c-1790748034-1790694034",
+          "stream_id": "fc10887f215fa4d10cc4",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 726,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-rumania-vs-bosnia-herzegovina-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Rumania vs Bosnia-Herzegovina 1 (STP)",
+    "liga-de-naciones-espana-vs-croacia-espn-strmxhd": {
+      "name": "[Liga de Naciones] España vs Croacia | ESPN (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "03ce729b1735c647396a",
+      "selected_stream_id": "f846f9d436bd4db47b80",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s1.envivoslatam99.sbs:443/global/disney7/index.m3u8?token=cc8801eee62714297c7596b99e28c451e236f1d7-76-1790690434-1790636434",
-          "stream_id": "03ce729b1735c647396a",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/espn/index.m3u8?token=b7599ca602c24c77c64d1aebd8d18829c3aaaeff-ac-1790748034-1790694034",
+          "stream_id": "f846f9d436bd4db47b80",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 709,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-rumania-vs-bosnia-herzegovina-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Rumania vs Bosnia-Herzegovina 2 (STP)",
+    "liga-de-naciones-espana-vs-croacia-espn-ar-strmxhd": {
+      "name": "[Liga de Naciones] España vs Croacia | ESPN AR (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "2c65649ea5484dc36dbb",
+      "selected_stream_id": "bd734f695ff09795dd95",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/vix7/index.m3u8?token=4839ff7bc06d3f6c535fe121add98b2269180087-df-1790690434-1790636434",
-          "stream_id": "2c65649ea5484dc36dbb",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/espnar/index.m3u8?token=79f4082a929bf6569e1f927e21809ce6380b8ea8-1a-1790748034-1790694034",
+          "stream_id": "bd734f695ff09795dd95",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 696,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-suecia-vs-polonia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Suecia vs Polonia 1 (STP)",
+    "liga-de-naciones-espana-vs-croacia-sportv-1-strmxhd": {
+      "name": "[Liga de Naciones] España vs Croacia | SporTV 1 (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "f406695658a906982d29",
+      "selected_stream_id": "8479913239741ab7016a",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/disney6/index.m3u8?token=283b61f70f9f2c8727b57d20c6cba6f6a97eb33f-87-1790690434-1790636434",
-          "stream_id": "f406695658a906982d29",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/sporttvbr1/index.m3u8?token=7e875019f1b997a47bb8c5b63243af9d4dd16eb4-ea-1790748034-1790694034",
+          "stream_id": "8479913239741ab7016a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 873,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-suecia-vs-polonia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Suecia vs Polonia 2 (STP)",
+    "liga-de-naciones-espana-vs-croacia-vix-strmxhd": {
+      "name": "[Liga de Naciones] España vs Croacia | Vix (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "28dd30aff949b34d8955",
+      "selected_stream_id": "0f2e8f813bb73a5d54b2",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/vix6/index.m3u8?token=f305e1439dc1ad67f85418be20f1f7e62526fde4-6b-1790690434-1790636434",
-          "stream_id": "28dd30aff949b34d8955",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/vix1/index.m3u8?token=447b0a55945cea61f7ee02bf997dda9647b23030-61-1790748034-1790694034",
+          "stream_id": "0f2e8f813bb73a5d54b2",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 680,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-turquia-vs-italia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Turquía vs Italia 1 (STP)",
+    "liga-de-naciones-finlandia-vs-bielorrusia-disney-strmxhd": {
+      "name": "[Liga de Naciones] Finlandia vs Bielorrusia | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "bde2250e939a1e802ca7",
+      "selected_stream_id": "3e4e16d064de6baef01d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/disney4/index.m3u8?token=a79bd3ad5fda52d717ca9738782732b509a531c8-c7-1790690434-1790636434",
-          "stream_id": "bde2250e939a1e802ca7",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney1/index.m3u8?token=6342d4cbedd5bcd6b006197eaf11f7240406eaac-6c-1790748033-1790694033",
+          "stream_id": "3e4e16d064de6baef01d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 699,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-turquia-vs-italia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Turquía vs Italia 2 (STP)",
+    "liga-de-naciones-finlandia-vs-bielorrusia-espn-2-strmxhd": {
+      "name": "[Liga de Naciones] Finlandia vs Bielorrusia | ESPN 2 (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "49e0bff8442fa70be022",
+      "selected_stream_id": "615c6558ab263738b5db",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/vix4/index.m3u8?token=f84790d20f77b9a398cb067dca5fe6851f7760a7-f1-1790690434-1790636434",
-          "stream_id": "49e0bff8442fa70be022",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/espn2/index.m3u8?token=4f617ff6cfb9aa874bfa755852e48d76314a6adb-35-1790748033-1790694033",
+          "stream_id": "615c6558ab263738b5db",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 698,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-de-naciones-de-la-uefa-turquia-vs-italia-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] Turquía vs Italia 3 (STP)",
+    "liga-de-naciones-luxemburgo-vs-islandia-disney-strmxhd": {
+      "name": "[Liga de Naciones] Luxemburgo vs Islandia | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "bfde467a01d38d28ad26",
+      "selected_stream_id": "dd581a1dbe50ea3b6b47",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/sportv1/index.m3u8?token=db67ab77a027756fb759658b324c79d82a7c72da-e9-1790690434-1790636434",
-          "stream_id": "bfde467a01d38d28ad26",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney9/index.m3u8?token=2c249d63e8e73c3613b232e6e7dcf85a9d8fdc20-ce-1790748035-1790694035",
+          "stream_id": "dd581a1dbe50ea3b6b47",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 728,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "liga-de-naciones-luxemburgo-vs-islandia-sportv-3-strmxhd": {
+      "name": "[Liga de Naciones] Luxemburgo vs Islandia | SporTV 3 (STRMXHD)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "034b43a7ce032dccd7fb",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://khala.futlivehd.com/global/sporttvbr3/index.m3u8?token=375ac5b577043762ca0d6c6f2656edd54adcadea-b5-1790748035-1790694035",
+          "stream_id": "034b43a7ce032dccd7fb",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "liga-de-naciones-moldavia-vs-islas-feroe-disney-strmxhd": {
+      "name": "[Liga de Naciones] Moldavia vs Islas Feroe | Disney + (STRMXHD)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "cc8aa1b3d63d539a4426",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://khala.futlivehd.com/global/disney2/index.m3u8?token=e50a85ab4736cd8f54f8dd8fe31576033d268465-fe-1790748034-1790694034",
+          "stream_id": "cc8aa1b3d63d539a4426",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2724,17 +3252,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "585925f88f58c3954f57",
+      "selected_stream_id": "acba033ba54f858f3c7a",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/disney5/index.m3u8?token=e7a1bcc15578117b191cb0e2f6d893b4dcce681c-e9-1790685033-1790631033",
-          "stream_id": "585925f88f58c3954f57",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney5/index.m3u8?token=194d0b602137234b987fe20735c831ca92d312d2-48-1790748035-1790694035",
+          "stream_id": "acba033ba54f858f3c7a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 747,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2746,17 +3274,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "6b183080d6ec51bd6c6a",
+      "selected_stream_id": "7936a738d13720305333",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/espn2/index.m3u8?token=2db05e4627d2ecd998024810a8c509448996740c-69-1790685034-1790631034",
-          "stream_id": "6b183080d6ec51bd6c6a",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/espn2/index.m3u8?token=38cdb57829fa59df5d9b396e7eb058a994c0c2e9-dd-1790748035-1790694035",
+          "stream_id": "7936a738d13720305333",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 711,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2768,457 +3296,556 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "f0fef3f7b01c21e562c9",
+      "selected_stream_id": "773017f08814a1088133",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/vix2/index.m3u8?token=24162688eba9057d435e5112a25a3153ec36a0dc-68-1790685034-1790631034",
-          "stream_id": "f0fef3f7b01c21e562c9",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/vix2/index.m3u8?token=46de0106a1bd9f57af9b4facf63479d4176f2f92-5c-1790748035-1790694035",
+          "stream_id": "773017f08814a1088133",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 734,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-mx-femenil-leon-vs-america-fox-one-4-strmxhd": {
-      "name": "[Liga MX Femenil] León vs América | FOX One 4 (STRMXHD)",
+    "liga-de-naciones-san-marino-vs-albania-disney-strmxhd": {
+      "name": "[Liga de Naciones] San Marino vs Albania | Disney + (STRMXHD)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "cd66702f1f6cfcb0325f",
+      "selected_stream_id": "fb072bea1ff9d2528149",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/foxone4/index.m3u8?token=f7ff207120b40930ff46e84aa0cac411bb6b1e99-36-1790690434-1790636434",
-          "stream_id": "cd66702f1f6cfcb0325f",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney3/index.m3u8?token=852d111625c3f609ce7f94aa64e752746a921077-68-1790748034-1790694034",
+          "stream_id": "fb072bea1ff9d2528149",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 689,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "liga-mx-femenil-necaxa-vs-toluca-1-plibre": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca 1 (PLIBRE)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "85c33a759ee21bd93a88",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://bgvnzw5k.fubo18.com:443/foxdeportes/mono.m3u8?token=5d1adf0344af5340380e33a451343019f6bf1ec2-df-1790662533-1790644533",
-          "stream_id": "85c33a759ee21bd93a88",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 347,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-mx-femenil-necaxa-vs-toluca-fox-deportes-tvf90": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca | FOX Deportes (TVF90)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "604a4f7a657d6eb2b0f8",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://am91cm5leQ.fubo18.com:443/foxdeportes/mono.m3u8?token=b0ffad81d011928312c108c2d9a1fa770b85bea3-c3-1790662539-1790644539",
-          "stream_id": "604a4f7a657d6eb2b0f8",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 341,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-mx-femenil-necaxa-vs-toluca-fox-deportes-usa-strmxhd": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca | FOX Deportes USA (STRMXHD)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "ea2a5fec8e15e8b14cba",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/fox_deportes_usa/index.m3u8?token=a318131f38056a21a68eaef02001f9a825b9a1be-1f-1790690434-1790636434",
-          "stream_id": "ea2a5fec8e15e8b14cba",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 708,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-mx-femenil-necaxa-vs-toluca-fox-deportes-hd-tvf90": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca | FOX Deportes | HD (TVF90)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "86d48e6383820e3ac155",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://y2fzdGxl.fubo18.com:443/foxdeportes/mono.m3u8?token=bc92d7117403f781118747255e130f9dbec16619-d3-1790662539-1790644539",
-          "stream_id": "86d48e6383820e3ac155",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 360,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-mx-femenil-necaxa-vs-toluca-fox-deportes-op2-tvf90": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca | FOX Deportes | OP2 (TVF90)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "e91b790ff56e1f18a79f",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://11.ftlly.com:443/foxdeportes/mono.m3u8?token=88cd79e82182fae06f2d142f21fbd74cb33dc7c9-d6-1790662539-1790644539",
-          "stream_id": "e91b790ff56e1f18a79f",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 517,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-mx-femenil-necaxa-vs-toluca-fox-deportes-op3-tvf90": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca | FOX Deportes | OP3 (TVF90)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "6e7f7fe2f0f90113c37f",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://9.ftlly.com:443/foxdeportes/mono.m3u8?token=89671fdafcc175df9b23a46c1dddcd3433b03910-74-1790662539-1790644539",
-          "stream_id": "6e7f7fe2f0f90113c37f",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 461,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-mx-femenil-necaxa-vs-toluca-fox-one-4-strmxhd": {
-      "name": "[Liga MX Femenil] Necaxa vs Toluca | FOX One 4 (STRMXHD)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "fb6b7e9f39a748eb4636",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/foxone4/index.m3u8?token=7c632f91500cbde97843f917ba2bf01ed520c63c-75-1790690434-1790636434",
-          "stream_id": "fb6b7e9f39a748eb4636",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 719,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-paraguay-libertad-vs-olimpia-tigo-sports-strmxhd": {
-      "name": "[Liga Paraguay] Libertad vs Olimpia | Tigo Sports (STRMXHD)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "0dddd355abb01ca9b320",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/tigo1/index.m3u8?token=f59f7b2aad98065b57db30e624baba2c8f09012a-ab-1790690434-1790636434",
-          "stream_id": "0dddd355abb01ca9b320",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 690,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-uruguay-wanderers-vs-albion-disney-strmxhd": {
-      "name": "[Liga Uruguay] Wanderers vs Albion | Disney + (STRMXHD)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "2d19c2b3c0af2d67bfb3",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/disney9/index.m3u8?token=89da1c376d1e1728a0863c75ec2c18cce323690d-0b-1790690433-1790636433",
-          "stream_id": "2d19c2b3c0af2d67bfb3",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 827,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "nfl-eagles-bears-main-feed-futbolx": {
-      "name": "[NFL] Eagles @ Bears | Main Feed (FUTBOLX)",
+    "nfl-steelers-vs-browns-webcast": {
+      "name": "[NFL] Steelers vs Browns (WEBCAST)",
       "country": "US",
       "categories": [
         "nfl"
       ],
       "selected_source": "core",
-      "selected_stream_id": "6d563cb08b46fffb8581",
+      "selected_stream_id": "cd41e0173b0553643cfa",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://you.futbol-tv.online/eag/index.m3u8",
-          "stream_id": "6d563cb08b46fffb8581",
-          "status": "degraded",
+          "url": "https://webcast-origin.b-cdn.net/bcdn_token=A2sTZ8A5ckE-sid94xTGI4Y5rDPQdk9TSynFXwFobrY&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGY9Rc2aFtXHSNWREWFuVLy%2F&expires=1790710358/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGY9Rc2aFtXHSNWREWFuVLy/227.m3u8",
+          "stream_id": "cd41e0173b0553643cfa",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 303,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "nfl-eagles-vs-bears-webcast": {
-      "name": "[NFL] Eagles vs Bears (WEBCAST)",
-      "country": "US",
-      "categories": [
-        "nfl"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "b2f83e7f5959d2b47fa5",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://webcast-origin.b-cdn.net/bcdn_token=GHjiU1Kn6PqGPnRclPInhUO-1HJnkLP8gCO1QnCyLNs&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFPMvpDqXJhuiARO0LO8B26%2F&expires=1790643755/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhFPMvpDqXJhuiARO0LO8B26/51.m3u8",
-          "stream_id": "b2f83e7f5959d2b47fa5",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 64,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "nfl-eagles-vs-bears-1-stp": {
-      "name": "[NFL] Eagles vs Bears 1 (STP)",
-      "country": "US",
-      "categories": [
-        "nfl"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "efc0c115181637dfc557",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/espn2/index.m3u8?token=0ea1b6679af7768bfde4dbe27ecef5d7f3f394f5-77-1790690434-1790636434",
-          "stream_id": "efc0c115181637dfc557",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 855,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "nfl-eagles-vs-bears-2-stp": {
-      "name": "[NFL] Eagles vs Bears 2 (STP)",
-      "country": "US",
-      "categories": [
-        "nfl"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "cced2d877f0a7fc7dc3e",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://s2.envivoslatam99.sbs:443/global/espndeportes/index.m3u8?token=ee881c3720891e013bf25f511a335363fef7cb50-b1-1790690435-1790636435",
-          "stream_id": "cced2d877f0a7fc7dc3e",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 694,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "nfl-nfl-network-damitv": {
-      "name": "[NFL] NFL Network (DAMITV)",
-      "country": "US",
-      "categories": [
-        "nfl"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "f014f55c8d0895ddcd76",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://messi.damitv.st/live-hls/channel/nfl-network/playlist.m3u8?tk=zftBrCoW__3GcoBySGZKtA&e=1790685537",
-          "stream_id": "f014f55c8d0895ddcd76",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 1,
-          "response_time_ms": 489,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "paraguay-copa-libertad-asuncion-vs-olimpia-asuncion-fawa": {
-      "name": "[Paraguay Copa] Libertad Asuncion vs Olimpia Asuncion (FAWA)",
+    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-tvf90": {
+      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "49882b68b854cdd39b08",
+      "selected_stream_id": "570d3a6c2b551bda1c9c",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "http://193.47.62.50/hls/DDDDQQ.m3u8",
-          "stream_id": "49882b68b854cdd39b08",
-          "status": "unstable",
+          "url": "https://dglvz29s.fubo18.com:443/winsports2/mono.m3u8?token=558f94f44fca5cabbdd71ff3688ff63905901c4c-3b-1790720140-1790702140",
+          "stream_id": "570d3a6c2b551bda1c9c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 3,
-          "response_time_ms": 165,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "primera-division-sportivo-san-lorenzo-vs-deportivo-recoleta-fanatiz-01-tvf90": {
-      "name": "[Primera División] Sportivo San Lorenzo vs Deportivo Recoleta | fanatiz 01 (TVF90)",
+    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-hd-tvf90": {
+      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | HD (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "82c15957d1decb2b96ec",
+      "selected_stream_id": "79dae6a418195b51af9d",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://eWVz.fubo18.com:443/fanatiz1/mono.m3u8?token=ecdd0ecc3c70c407732235832a0ee2952639925b-f5-1790662537-1790644537",
-          "stream_id": "82c15957d1decb2b96ec",
-          "status": "degraded",
+          "url": "https://eWVz.fubo18.com:443/winsports2/mono.m3u8?token=e5439244befeb2db695bcaa61c99437cd8776187-cf-1790720141-1790702141",
+          "stream_id": "79dae6a418195b51af9d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 362,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "primera-division-wanderers-vs-albion-1-plibre": {
-      "name": "[Primera División] Wanderers vs Albion 1 (PLIBRE)",
+    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-op2-tvf90": {
+      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | OP2 (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "88b502665e88c596ed36",
+      "selected_stream_id": "77bcc3d5567b358f99a3",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://Ym9yZQ.fubo18.com:443/disney10/mono.m3u8?token=da5d209023e70fe1dcfd2d16e37bfdc394b547b6-5a-1790662534-1790644534",
-          "stream_id": "88b502665e88c596ed36",
-          "status": "degraded",
+          "url": "https://3.ftlly.com:443/winsports2/mono.m3u8?token=3a5c96101588596884bd00e0824faf2df38c0c2b-d7-1790720141-1790702141",
+          "stream_id": "77bcc3d5567b358f99a3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 448,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "primera-division-wanderers-vs-albion-1-stp": {
-      "name": "[Primera División] Wanderers vs Albion 1 (STP)",
+    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-op3-tvf90": {
+      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | OP3 (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "df773bed4c7f2f80c6bb",
+      "selected_stream_id": "0e0e2e1c8860aac7d923",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://s3.envivoslatam99.sbs:443/global/disney9/index.m3u8?token=33f40a759ea7625839882dfc64a9ae06bd8cc5ed-6d-1790690434-1790636434",
-          "stream_id": "df773bed4c7f2f80c6bb",
-          "status": "degraded",
+          "url": "https://5.ftlly.com:443/winsports2/mono.m3u8?token=d607c2812448910c5cab91dc3c64bfc063150a93-e5-1790720141-1790702141",
+          "stream_id": "0e0e2e1c8860aac7d923",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 701,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
     },
-    "uruguay-liga-auf-wanderers-vs-albion-fawa": {
-      "name": "[Uruguay Liga AUF] Wanderers vs Albion (FAWA)",
+    "primera-a-medellin-vs-millonarios-win-sports-tvf90": {
+      "name": "[Primera A] Medellín vs Millonarios | Win Sports + (TVF90)",
       "country": "US",
       "categories": [
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "45d65bb7c10d1cb15cb3",
+      "selected_stream_id": "bdb2a66deb0857cfc5ef",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "http://193.47.62.50/hls/YBBBA.m3u8",
-          "stream_id": "45d65bb7c10d1cb15cb3",
-          "status": "degraded",
+          "url": "https://bmF0aw9u.fubo18.com:443/winsports2/mono.m3u8?token=4e48428f8d424659e130da5491c98dc06ff44967-ad-1790720146-1790702146",
+          "stream_id": "bdb2a66deb0857cfc5ef",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 167,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-a-medellin-vs-millonarios-win-sports-hd-tvf90": {
+      "name": "[Primera A] Medellín vs Millonarios | Win Sports + | HD (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "6f03968c106e0a9fce85",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://a2lja3m.fubo18.com:443/winsports2/mono.m3u8?token=03e72487e1c2547a1a32c1992218bebe683f6bb4-f1-1790720146-1790702146",
+          "stream_id": "6f03968c106e0a9fce85",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-a-medellin-vs-millonarios-win-sports-op2-tvf90": {
+      "name": "[Primera A] Medellín vs Millonarios | Win Sports + | OP2 (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "54c5ed22497fdc47d326",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://10.ftlly.com:443/winsports2/mono.m3u8?token=dc7c45afcc10de5a070d647cd3efea3963515a1c-57-1790720146-1790702146",
+          "stream_id": "54c5ed22497fdc47d326",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-a-medellin-vs-millonarios-win-sports-op3-tvf90": {
+      "name": "[Primera A] Medellín vs Millonarios | Win Sports + | OP3 (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "ecdb117274785377b7ff",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://6.ftlly.com:443/winsports2/mono.m3u8?token=71a236f64cf8db9a2caf9355c2efd8a1406d8f03-c0-1790720146-1790702146",
+          "stream_id": "ecdb117274785377b7ff",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-win-sports-tvf90": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "7ee399fdaf143e1f977e",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://a2lja3m.fubo18.com:443/winsports2/mono.m3u8?token=d417035ff72aa2ba538a655ab147796dec57abc4-77-1790720141-1790702141",
+          "stream_id": "7ee399fdaf143e1f977e",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        },
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://9.ftlly.com:443/winsports/mono.m3u8?token=085143271b8c78fcb78179d12fc525c91b21531d-2f-1790720142-1790702142",
+          "stream_id": "eb061147a38862d5c6c9",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-win-sports-hd-tvf90": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | HD (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "a571a4f7df60cd26bf82",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://dw5pdGVk.fubo18.com:443/winsports2/mono.m3u8?token=4f755e98c572cf93e05fffda08e40a5afcb25582-b8-1790720142-1790702142",
+          "stream_id": "a571a4f7df60cd26bf82",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-win-sports-op2-tvf90": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | OP2 (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "2a19897c4f460abf6594",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://10.ftlly.com:443/winsports2/mono.m3u8?token=73a98ea57cfc792c5c4a665799cb3703e4531d31-ea-1790720141-1790702141",
+          "stream_id": "2a19897c4f460abf6594",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-win-sports-op3-tvf90": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | OP3 (TVF90)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "703b5c33ff7ff6623687",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://5.ftlly.com:443/winsports2/mono.m3u8?token=07fde957aefaa222da78ad6641e42fda235c3e8d-7b-1790720142-1790702142",
+          "stream_id": "703b5c33ff7ff6623687",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-bulgaria-vs-estonia-xyz": {
+      "name": "[Soccer] Bulgaria vs Estonia (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "54e8c1185801c4f31a06",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://hlss2.b-cdn.net/fubosn4/mono.ts.m3u8?token=fb83f190c84dc958ba60be59018418c1",
+          "stream_id": "54e8c1185801c4f31a06",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-czech-republic-vs-england-xyz": {
+      "name": "[Soccer] Czech Republic vs England (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "1a6d62ae54c52cd8c451",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://us2-hlss2.b-cdn.net/unlppv3/mono.ts.m3u8?token=7aa5660d7edb1acd244519094b495463",
+          "stream_id": "1a6d62ae54c52cd8c451",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-finland-vs-belarus-xyz": {
+      "name": "[Soccer] Finland vs Belarus (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "8173c34dade0d50349aa",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://hlss2.b-cdn.net/fs2/mono.ts.m3u8?token=fb83f190c84dc958ba60be59018418c1",
+          "stream_id": "8173c34dade0d50349aa",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-luxembourg-vs-iceland-xyz": {
+      "name": "[Soccer] Luxembourg vs Iceland (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "4880eccf3ceb53bd7b78",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://eu-hlss2.b-cdn.net/fubosn2/mono.ts.m3u8?token=e6ec08ffb4a48d893f879f73ddac1871",
+          "stream_id": "4880eccf3ceb53bd7b78",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-moldova-vs-faroe-islands-xyz": {
+      "name": "[Soccer] Moldova vs Faroe Islands (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "589d0899a1db0abed20e",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://us2-hlss2.b-cdn.net/fsp/mono.ts.m3u8?token=7aa5660d7edb1acd244519094b495463",
+          "stream_id": "589d0899a1db0abed20e",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-san-marino-vs-albania-xyz": {
+      "name": "[Soccer] San Marino vs Albania (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "6191cff5d21682c7c816",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://us2-hlss2.b-cdn.net/fubosn3/mono.ts.m3u8?token=7aa5660d7edb1acd244519094b495463",
+          "stream_id": "6191cff5d21682c7c816",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-scotland-vs-switzerland-xyz": {
+      "name": "[Soccer] Scotland vs Switzerland (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "75d9bf51c478fa7721af",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://eu-hlss2.b-cdn.net/fubosn/mono.ts.m3u8?token=e6ec08ffb4a48d893f879f73ddac1871",
+          "stream_id": "75d9bf51c478fa7721af",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-slovakia-vs-kazakhstan-xyz": {
+      "name": "[Soccer] Slovakia vs Kazakhstan (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "a2a5d81aba3d0d910796",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://hlss2.b-cdn.net/fubosn5/mono.ts.m3u8?token=fb83f190c84dc958ba60be59018418c1",
+          "stream_id": "a2a5d81aba3d0d910796",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-slovenia-vs-north-macedonia-xyz": {
+      "name": "[Soccer] Slovenia vs North Macedonia (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "9c1d3eaeaa423e3696e1",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://hlss2.b-cdn.net/fs2/mono.ts.m3u8?token=fb83f190c84dc958ba60be59018418c1",
+          "stream_id": "9c1d3eaeaa423e3696e1",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "soccer-spain-vs-croatia-xyz": {
+      "name": "[Soccer] Spain vs Croatia (XYZ)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "c77f11f500237524d171",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://us2-hlss2.b-cdn.net/fs1/mono.ts.m3u8?token=7aa5660d7edb1acd244519094b495463",
+          "stream_id": "c77f11f500237524d171",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -9714,8 +10341,8 @@
         "news",
         "entertainment"
       ],
-      "selected_source": "core",
-      "selected_stream_id": "d7d15e70bf85c016454e",
+      "selected_source": "cdn",
+      "selected_stream_id": "ebebb34447003a905dd4",
       "streams": [
         {
           "source": "cdn",
@@ -9731,12 +10358,12 @@
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://p7.usnlive.com/stream/cnn.m3u8",
-          "stream_id": "d7d15e70bf85c016454e",
-          "status": "online",
+          "url": "https://p10.usnlive.com/stream/cnn.m3u8",
+          "stream_id": "6e7adcd5e32b4fbf62bc",
+          "status": "unknown",
           "enabled": true,
           "failures": 0,
-          "response_time_ms": 795,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13660,8 +14287,8 @@
       "categories": [
         "entertainment"
       ],
-      "selected_source": "core",
-      "selected_stream_id": "b416871caedd76b53268",
+      "selected_source": "cdn",
+      "selected_stream_id": "f47ac12eb0e65a03cfed",
       "streams": [
         {
           "source": "cdn",
@@ -13677,12 +14304,12 @@
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://p7.usnlive.com/stream/foxnews.m3u8",
-          "stream_id": "b416871caedd76b53268",
-          "status": "online",
+          "url": "https://p10.usnlive.com/stream/foxnews.m3u8",
+          "stream_id": "f54c07785e3d1b1c4723",
+          "status": "unknown",
           "enabled": true,
           "failures": 0,
-          "response_time_ms": 320,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -20233,17 +20860,17 @@
         "entertainment"
       ],
       "selected_source": "core",
-      "selected_stream_id": "caf809daf4dd18345b71",
+      "selected_stream_id": "e39c0e80e5c4202069ed",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://p7.usnlive.com/stream/msnbc.m3u8",
-          "stream_id": "caf809daf4dd18345b71",
-          "status": "online",
+          "url": "https://p10.usnlive.com/stream/msnbc.m3u8",
+          "stream_id": "e39c0e80e5c4202069ed",
+          "status": "unknown",
           "enabled": true,
           "failures": 0,
-          "response_time_ms": 376,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]

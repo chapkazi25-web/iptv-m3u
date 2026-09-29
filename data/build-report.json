@@ -1,30 +1,30 @@
 {
   "version": 1,
-  "total_channels": 1710,
+  "total_channels": 1738,
   "source_channels": {
     "cdn": 181,
-    "core": 287,
+    "core": 303,
     "gradetv": 25,
     "iptv-org": 10985,
     "pluto-tv": 421,
     "tvivu": 571
   },
   "category_channels": {
-    "bein-sports": 6,
+    "bein-sports": 9,
     "documentary": 262,
     "entertainment": 803,
     "kids": 146,
     "movies": 192,
     "music": 17,
-    "nba": 2,
+    "nba": 13,
     "news": 125,
-    "nfl": 7,
+    "nfl": 3,
     "sky-sports": 21,
-    "soccer": 75,
+    "soccer": 89,
     "sports": 109,
     "stan-sports": 16,
     "tanzania": 4,
-    "tnt-sports": 7,
+    "tnt-sports": 11,
     "tsn": 6,
     "ufc": 3
   },
@@ -35,7 +35,7 @@
     "GB": 124,
     "NZ": 15,
     "TZ": 4,
-    "US": 1453
+    "US": 1481
   },
   "international_channels": 6,
   "unresolved_channels": []
