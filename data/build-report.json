@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "total_channels": 1721,
+  "total_channels": 1709,
   "source_channels": {
     "cdn": 181,
-    "core": 291,
+    "core": 287,
     "gradetv": 23,
     "iptv-org": 10985,
     "pluto-tv": 421,
@@ -18,9 +18,9 @@
     "music": 17,
     "nba": 2,
     "news": 125,
-    "nfl": 6,
+    "nfl": 7,
     "sky-sports": 21,
-    "soccer": 88,
+    "soccer": 75,
     "sports": 109,
     "stan-sports": 16,
     "tanzania": 3,
@@ -29,13 +29,13 @@
     "ufc": 3
   },
   "country_channels": {
-    "AU": 47,
+    "AU": 46,
     "CA": 58,
     "FR": 3,
     "GB": 124,
     "NZ": 15,
     "TZ": 3,
-    "US": 1465
+    "US": 1454
   },
   "international_channels": 6,
   "unresolved_channels": []
