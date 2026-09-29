@@ -9059,19 +9059,26 @@
       "aliases": [
         "Adinkra TV (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "GH"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "AdinkraTV.gh.SD"
+        ],
+        "tvivu": [
+          "AdinkraTV.gh"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Adinkra%20TV.png",
       "enabled": false,
       "languages": [
         "eng"
@@ -9079,7 +9086,7 @@
       "english": true,
       "quality_height": 1080,
       "not_24_7": false,
-      "excluded_by": "country:GH"
+      "excluded_by": "quality:1080p"
     },
     "adjarasport-1": {
       "name": "Adjarasport 1",
@@ -11338,23 +11345,16 @@
       "aliases": [
         "Aksu TV (720p)"
       ],
-      "countries": [
-        "TR"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "AksuTV.tr.SD"
-        ],
-        "tvivu": [
-          "AksuTV.tr"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Aksu%20TV.png",
@@ -55189,6 +55189,36 @@
       "quality_height": 540,
       "not_24_7": false
     },
+    "channel-24": {
+      "name": "Channel 24",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Channel 24 (FHD)"
+      ],
+      "countries": [
+        "IL"
+      ],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "tvivu"
+      ],
+      "source_refs": {
+        "tvivu": [
+          "Channel24.il"
+        ]
+      },
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Channel%2024.png",
+      "enabled": false,
+      "languages": [
+        "heb",
+        "ukr"
+      ],
+      "english": false,
+      "excluded_by": "language:heb,ukr"
+    },
     "channel-24-israel-1080p": {
       "name": "Channel 24 (Israel)",
       "aliases": [
@@ -89946,24 +89976,18 @@
       "aliases": [
         "Farra Play (576p)"
       ],
-      "countries": [
-        "PY"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Farra%20Play.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "FarraPlay.py.SD"
-        ],
-        "tvivu": [
-          "FarraPlay.py"
         ]
       },
       "languages": [
@@ -93396,18 +93420,24 @@
       "aliases": [
         "FM Mundo (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "EC"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/FM%20Mundo.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "FMMundo.ec.SD"
+        ],
+        "tvivu": [
+          "FMMundo.ec"
         ]
       },
       "languages": [
@@ -93824,24 +93854,18 @@
       "aliases": [
         "FON Music (576p)"
       ],
-      "countries": [
-        "RU"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fon%20Music.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "FONMusic.ru.SD"
-        ],
-        "tvivu": [
-          "FonMusic.ru"
         ]
       },
       "languages": [
@@ -136820,32 +136844,6 @@
       "not_24_7": false,
       "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
     },
-    "love-tv": {
-      "name": "Love TV",
-      "aliases": [
-        "Love TV (FHD)"
-      ],
-      "countries": [
-        "MK"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Love%20TV.png",
-      "enabled": false,
-      "source_refs": {
-        "tvivu": [
-          "LoveTV.mk"
-        ]
-      },
-      "english": null,
-      "quality_height": null,
-      "not_24_7": false,
-      "excluded_by": "country:MK"
-    },
     "love-tv-1080p-not-24-7": {
       "name": "Love TV [Not 24/7]",
       "aliases": [
@@ -138783,6 +138781,7 @@
         "Magic TV (HD)"
       ],
       "countries": [
+        "BG",
         "RO"
       ],
       "categories": [
@@ -138795,6 +138794,7 @@
       "enabled": false,
       "source_refs": {
         "tvivu": [
+          "MagicTV.bg",
           "MagicTV.ro"
         ]
       },
@@ -155707,24 +155707,31 @@
       "aliases": [
         "Narodna TV (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "RS"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "NarodnaTV.rs.SD"
+        ],
+        "tvivu": [
+          "NarodnaTV.rs"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Narodna%20TV.png",
       "enabled": false,
       "english": null,
       "quality_height": 720,
       "not_24_7": false,
-      "excluded_by": "country:RS"
+      "excluded_by": "quality:720p"
     },
     "naruto": {
       "name": "Naruto",
@@ -175324,24 +175331,18 @@
       "aliases": [
         "Patagonia Radio TV (720p)"
       ],
-      "countries": [
-        "CL"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Patagonia%20Radio%20TV.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "PatagoniaRadioTV.cl.SD"
-        ],
-        "tvivu": [
-          "PatagoniaRadioTV.cl"
         ]
       },
       "english": null,
@@ -197550,32 +197551,6 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "radio-gente": {
-      "name": "Radio Gente",
-      "aliases": [
-        "Radio Gente (HD)"
-      ],
-      "countries": [
-        "BO"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "RadioGente.bo"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Gente.png",
-      "enabled": false,
-      "english": null,
-      "quality_height": null,
-      "not_24_7": false,
-      "excluded_by": "radio"
-    },
     "radio-guaira-tv": {
       "name": "Radio Guaira TV",
       "aliases": [
@@ -198613,29 +198588,22 @@
       "aliases": [
         "Radio Rancagua FM (720p)"
       ],
-      "countries": [
-        "CL"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "RadioRancaguaFM.cl.SD"
-        ],
-        "tvivu": [
-          "RadioRancaguaFM.cl"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Rancagua%20FM.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "quality:720p",
+      "excluded_by": "country:CL",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -198798,16 +198766,23 @@
       "aliases": [
         "Radio Rossii (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "RU"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "RadioRossii.ru.HD"
+        ],
+        "tvivu": [
+          "RadioRossii.ru"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Rossii.png",
@@ -232850,18 +232825,24 @@
       "aliases": [
         "Stingray Rock Alternative (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "CA"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Stingray%20Rock%20Alternative.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "StingrayRockAlternative.ca.SD"
+        ],
+        "tvivu": [
+          "StingrayRockAlternative.ca"
         ]
       },
       "english": null,
@@ -253846,7 +253827,8 @@
       ],
       "sources": [
         "gradetv",
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Latina.png",
       "enabled": false,
@@ -253856,6 +253838,9 @@
         ],
         "iptv-org": [
           "TraceLatina.fr.SD"
+        ],
+        "tvivu": [
+          "TraceLatina.fr"
         ]
       },
       "epg_id": "Trace.Latina.fr",
@@ -260096,24 +260081,18 @@
       "aliases": [
         "TV Exitos (720p)"
       ],
-      "countries": [
-        "DO"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Exitos.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "TVExitos.do.SD"
-        ],
-        "tvivu": [
-          "TVExitos.do"
         ]
       },
       "english": null,
@@ -275196,29 +275175,22 @@
       "aliases": [
         "Urban Mix (720p)"
       ],
-      "countries": [
-        "AR"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "UrbanMix.ar.SD"
-        ],
-        "tvivu": [
-          "UrbanMix.ar"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Urban%20Mix.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "quality:720p",
+      "excluded_by": "country:AR",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -277324,18 +277296,24 @@
       "aliases": [
         "Venus Media (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "PY"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Venus%20Media.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "VenusMedia.py.SD"
+        ],
+        "tvivu": [
+          "VenusMedia.py"
         ]
       },
       "english": null,
@@ -286333,29 +286311,22 @@
       "aliases": [
         "XHFGL-TDT (1080p)"
       ],
-      "countries": [
-        "MX"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "XHFGLTDT.mx.SD"
-        ],
-        "tvivu": [
-          "XHFGL-TDT.mx"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XHFGL-TDT.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "quality:1080p",
+      "excluded_by": "country:MX",
       "quality_height": 1080,
       "not_24_7": false
     },

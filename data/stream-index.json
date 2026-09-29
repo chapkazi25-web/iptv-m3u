@@ -8,7 +8,7 @@
       "gradetv": 23,
       "iptv-org": 10985,
       "pluto-tv": 421,
-      "tvivu": 572
+      "tvivu": 571
     },
     "countries": {
       "AU": 46,
@@ -3810,12 +3810,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb355/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU1OjE3OTA2NTUwODI2NTQ6Y2RubGl2ZXR2LnR2OjM0ZTUxZDhjZjlkOTViYzcuYjUzYjRjNTExNjFkNTNjYmY5YjkwYWFhMmM2ZTQxYWQ4MjY1MDI0ZDJlM2YwNjk5MmY3OGQ2YzRmZDUyNmFiMg",
-          "stream_id": "ac8c438e7684e7afc970",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb355/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU1OjE3OTA2OTE4NzY1MjI6Y2RubGl2ZXR2LnR2OjJlODBmNDlkOWNkOTdiNzkuNzMyNDZjZTQxYTk0ZDU3YmEyMWIyNDJmNTkyM2I2ZTcxNzdmZTRjYTI5NzI2ZTg0NzhlNTIxNThiOGEyZjE2ZQ",
+          "stream_id": "002a4ab380d3dd876301",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10235,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -4410,17 +4410,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "3f4ff0d378a9b39e4fa6",
+      "selected_stream_id": "37dd3443cc7394223b4f",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3OTA2NTUwODM3MDI6Y2RubGl2ZXR2LnR2OmM5ZDcyM2QzZjQwMDE4YmIuNTk2MWI4NTBjNTg3OWQwNjJjZWM3YTFkNjQ0NTY4ZDQyMTJkZjI1MTdiOWQwYzFjNmE4MmE2MTU0Yjg5ZmI1Ng",
-          "stream_id": "3f4ff0d378a9b39e4fa6",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3OTA2OTE4Nzc1NTc6Y2RubGl2ZXR2LnR2OjcxZWJkODg5ODZhYjE1NjcuZTY1ODdlYzA1MDQ5Mjg0YWNjZDMxYjIxMDc0Zjc0MGVlMzJmZmE5YzJiMTI3YmQ2OTBmNTg3MjgxMDMxMmJkMw",
+          "stream_id": "37dd3443cc7394223b4f",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10236,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -4939,17 +4939,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "297e5bff55f00965da98",
+      "selected_stream_id": "0cbc079ef4ce290e25a5",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb630/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjMwOjE3OTA2NTUwODQ3NDg6Y2RubGl2ZXR2LnR2OmQwMGJmYTQxMWM2NmI4ZmIuMmI4ZjBlYTExNDY1M2Y4ZjgwNDI2ZTI3OGZhNTI0NTg5Yjc5Yjk3MDliNWQxOTA0Zjg0MTY4Yzc3ZDg1M2JkMQ",
-          "stream_id": "297e5bff55f00965da98",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb630/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjMwOjE3OTA2OTE4Nzg1OTQ6Y2RubGl2ZXR2LnR2Ojk0ZGZhNDcyY2E5MTc0YjcuZjY2MWNlNjkzNTQ5OTdmYjNhN2UwNDQxM2RmZWJlMTk2ZThiZmQyYjYwODkxMTNhMmIzMDJjNGM0YjFkM2MyYw",
+          "stream_id": "0cbc079ef4ce290e25a5",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10224,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -5049,17 +5049,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "666463411f5003be1521",
+      "selected_stream_id": "c5c1fd4f76b9ead0d686",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf242/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjQyOjE3OTA2NTUwODU3ODE6Y2RubGl2ZXR2LnR2OmY3YjA1NTBhMGY0YzQwMzkuMWFjNTkxNTE3MDc3OWRkYjkwN2I4ZWY4NzZjZWUyOWUxYWU5ZmUzNjA0MDZlYTQ0NmVlNThkZjU2MWRjYzBhYg",
-          "stream_id": "666463411f5003be1521",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf242/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjQyOjE3OTA2OTE4Nzk2Mjg6Y2RubGl2ZXR2LnR2OjVlZTUzZTM1OTgxNTk3NGIuOGU2OTFiZTRjZTI1NmNjZjlmNTAzNDkxOTRjZGIxNTA3OWYzMGM2ZWE5NTNiMWU0NDIzZjNmNjhjMWFhZDExMA",
+          "stream_id": "c5c1fd4f76b9ead0d686",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10245,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -5825,12 +5825,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc3cf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjM2NmOjE3OTA2NTUwODg5MjY6Y2RubGl2ZXR2LnR2Ojc0Y2M4NmRkY2E3YWEwY2MuZTBmZTYwMzFhZTFjNTdjZDg1ZWRlNGJmOGQwYWE5YWRmNjc3Zjc5N2I0YjdkZjdlYjVhZTU2Nzg0YmZkMzg2NQ",
-          "stream_id": "ddf5b6dff864e066d7bf",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc3cf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjM2NmOjE3OTA2OTE4ODI3NTY6Y2RubGl2ZXR2LnR2OjE4NWNhZmNkMDhlYjJjMjYuNTZlNDMxMjJjMzA4MGI3NDA3MDRmNjQ3YjQxMWVkZjFkNDg4NzM4NzljMDIwZmE3ZTdkNjQ3MTM1M2Y4OGJiYg",
+          "stream_id": "4ac035a9c7fad2852ae4",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10236,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -5957,12 +5957,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc379/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc5OjE3OTA2NTUwODk5Njk6Y2RubGl2ZXR2LnR2OjE2YmNlMzkyMWQzNGQ5ODIuYjVlYzdlNDFmNzYyODM2MTBkMjNiZjY2NDhiZmU5NGY2MDQyNzhiMWZkMjNjMWVmNjhmNWNhNjEwZGIwMjE3Yw",
-          "stream_id": "f6e16a49ded506dc9dc3",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc379/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc5OjE3OTA2OTE4ODM4MjI6Y2RubGl2ZXR2LnR2OjA4YjA2NTlhZGIyN2QwMjcuZTI5M2RmOWQ3NTE3OTY0ZWQyZDkwZTdlYTI5ZmRmYWIwMjQ1MWM5MTkzYjI3NjdlMzE4MGM3M2FjMjQyMmZlNw",
+          "stream_id": "1feb51ee944b4b7da165",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -6045,12 +6045,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc3cc/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjM2NjOjE3OTA2NTUwOTEwMDY6Y2RubGl2ZXR2LnR2OmJlZTc2ZjdiYzYwMzlhOWEuOTljN2E2MWQ2OTE5ZDBlN2M3YTE4N2QyMmE1OGM3OWUyNjNkZmZiODJhNWIyNjUxNmJjODcxMDBkYWI1ZTI0MQ",
-          "stream_id": "7916be05e0a8ac85eb41",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc3cc/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjM2NjOjE3OTA2OTE4ODQ4NjE6Y2RubGl2ZXR2LnR2OjhiMDZmYTcwNTA0NTA4ZjEuMGUzOTkzMjE2Yjg5YjAyOWZiZGQxN2UzMjhhZmY3YTZkZWEyYmE1ZjYwNmY3ZDA2MmNjN2QyMWRkOGZiMzk2MQ",
+          "stream_id": "3147e2e9598ba677a9e1",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -6073,17 +6073,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "774ce92cbe92e4fb5819",
+      "selected_stream_id": "b3fb74c8f6f3c6f920f4",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc37d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzdkOjE3OTA2NTUwOTIwNDY6Y2RubGl2ZXR2LnR2OjQwY2Y0N2JjMjA2MzQyM2EuNDQ1MTkyOTA4MjE3YzhjN2YzNDczNjk2MmRjY2RmMzc2ZmYxY2M3MGRlNTU2ZjRmMzc3NzYxZjAwMTNjOWM1YQ",
-          "stream_id": "774ce92cbe92e4fb5819",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc37d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzdkOjE3OTA2OTE4ODU4OTM6Y2RubGl2ZXR2LnR2OmFmMzA5Y2Y5MzFlNTE5ODkuODBmMzlkN2RhNWFjMDUwNjg4MjhmYzEyMTc2YWFiNzQ1MjNmMWI1MmM1NWE4NjNjNjA2NWU0ZTgzNWI4Y2Q3Zg",
+          "stream_id": "b3fb74c8f6f3c6f920f4",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10242,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -6238,28 +6238,28 @@
         "bein-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a74f30ec513146cdf1ec",
+      "selected_stream_id": "08460fa3103949e186bb",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab63/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjYzOjE3OTA2NTUyNjUyNDc6Y2RubGl2ZXR2LnR2OjQ5MzE0MjBiOTdkYzM3YmEuMTgwMTlmZDg4ZWM1MWQzM2MxODU5ZmNmODI4ZTRmZTA5ZGZkNmJmYTQwNTRlYzVlNzgxM2U3YzZmMzdiMGJjYQ",
-          "stream_id": "a74f30ec513146cdf1ec",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab63/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjYzOjE3OTA2OTIwNTgyNDg6Y2RubGl2ZXR2LnR2OjU5NjI2OTAxMjI1ZjVjYjQuOTMyNzgzOTk0OGFlNmE4NGIzMzMxMDBkNzI0NjE5MTkzNTk1NmNiOGNiZjgzYjMxZjkyNDc4NTQyNzdmYjY5Mg",
+          "stream_id": "08460fa3103949e186bb",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1a7/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWE3OjE3OTA2NTUyNjYyOTM6Y2RubGl2ZXR2LnR2OmUyZTU3NGQ3ZWM5YTJlYmMuYWNlNTYzMThjNzdlZDkwZjQ4MjlkNWVhZTM0NWU5ZmEwYzNmZGE1NzI1YzZjOTk4ZTIxNGIwM2U0NGYxZDNlZQ",
-          "stream_id": "f31be3e45a0ddb872b6f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1a7/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWE3OjE3OTA2OTIwNTkyODU6Y2RubGl2ZXR2LnR2OjcxODYxZGU0ZDg1MWUxNzEuMDJlNDM2MTY0MzRhYTczZmQ0NmJiY2QwNmFiYzE0YmM2YzI2MGFjYzc2MDUwZWNiYWVmNmQ5OGI1ZDBlZjBlMg",
+          "stream_id": "d8cfd923e35b62a52d40",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10239,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -6271,17 +6271,17 @@
         "bein-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "b63f086f959c43cdc635",
+      "selected_stream_id": "668f6475289d05138c49",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab65/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjY1OjE3OTA2NTUyNjczMzM6Y2RubGl2ZXR2LnR2OjllZTJiNWYyMDRlNWZmMzAuMDE1OGRmMmY4YmM0NjhkNGM2NDU0MDAzMWExNzQ3OGIyYzQ4NmYwMGI1YzJkOTE3ZGQwOWJkODBlM2RkZDdiMw",
-          "stream_id": "b63f086f959c43cdc635",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab65/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjY1OjE3OTA2OTIwNjAzMjA6Y2RubGl2ZXR2LnR2OmZiNDE4OTk4ZmU0YjExZGQuMWY3ZTYzZmM2NmJkNWQ5MDVhZDhiYzI0NTFjMzI3ZWRlM2VjODhhMjZjMjlkMjBhMTk0YTMzYzgzODAxNmYxYg",
+          "stream_id": "668f6475289d05138c49",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -6293,17 +6293,17 @@
         "bein-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6a276782b60cca129deb",
+      "selected_stream_id": "94daf24258d91921f04c",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab67/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjY3OjE3OTA2NTUyNjgzODA6Y2RubGl2ZXR2LnR2OmEyZmMyYzFhN2MyOTY0OGMuMTU4NWFmZmVkYWZlZWY4NjM5YTUwMTMwOGY2YzA1ZjNkMDU2OTRiODUzNzNiZDZiZjY2YmY3NWRhZDQzY2UyMw",
-          "stream_id": "6a276782b60cca129deb",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab67/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjY3OjE3OTA2OTIwNjEzNDc6Y2RubGl2ZXR2LnR2OjdlOWU5YzRhYjJkNWIyYjMuNmRjMTNiNTI5ZDBlNTY0NDdhNmI2NGFiOTE1N2UzMjViMjBmNDhlNzRiMTdiOTgxOTQ5NmNhMDc3Y2EwMmIzMQ",
+          "stream_id": "94daf24258d91921f04c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10220,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -6348,17 +6348,17 @@
         "bein-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "5f6e6981fbe70cf3616c",
+      "selected_stream_id": "5b511359f1f5bfda601e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3OTA2NTUyNjQyMjE6Y2RubGl2ZXR2LnR2OjJkMTcwMTU0MWQyYWQ2YmMuNWE5MGE5MzMzODhlZWM3OGNlMDQzZjdmZWMwYTFmM2M5MWVmZGM3NDEyYjgzMWYyMDhkYjZlNmYwZmViNmQwMQ",
-          "stream_id": "5f6e6981fbe70cf3616c",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3OTA2OTIwNTcyMTU6Y2RubGl2ZXR2LnR2OmI2YTg2YWIwMDdmN2NlYzQuZjc5YTdlNTA5MTQwNTgzZmFjNzBjNjkzYTZlZDY4NmY0NDc4NTg2ZTE1MjBhOWRlNzRiMWQ4ZmUzMDk1ZWFkOQ",
+          "stream_id": "5b511359f1f5bfda601e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -6826,12 +6826,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb200/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjAwOjE3OTA2NTUwOTMwOTk6Y2RubGl2ZXR2LnR2OjQ3MDdkZDAyMWNmYTM1ZDYuZTFhMzljYmI0MWEwOTY1NzcwZGQyMzI4MDFmYmRlMTI4YTY3ZmZjYTY3ZmMyOWE5M2VjM2JiZGYxZTIwMWNhOQ",
-          "stream_id": "74880e54651b7a747bb7",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb200/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjAwOjE3OTA2OTE4ODY5MzU6Y2RubGl2ZXR2LnR2Ojk3YWQ1MDIxMTA5YTIzNzMuZTZiNWE2OTdkNTNhODQwNTI0ZmM0NDZhMWM1ZDJkODM3ZjU2YzVjN2U3ODYzMjVjZDFjMTdjZmMxNWI5YTQxNQ",
+          "stream_id": "ece647ba026699eff035",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10248,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -8192,17 +8192,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "63454dcbda5a631dc673",
+      "selected_stream_id": "9af4a37bcb8c0a888301",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb598/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTk4OjE3OTA2NTUwOTcyOTE6Y2RubGl2ZXR2LnR2OmNmOGUxZDVmOWYwYjA3ZDUuZjYwOTcxMjlmZjljZTk5OWQ4ODYxMmE4MzFiMDdkYzZhMzBlMTFkZDc5ZjBjMDI4NmFhODJiNDU5MTJjMzE4YQ",
-          "stream_id": "63454dcbda5a631dc673",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb598/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTk4OjE3OTA2OTE4OTEwODQ6Y2RubGl2ZXR2LnR2Ojk5NjBmMjMyYzUxMzY0OTAuYmJkNzQzMjgxNTI2ZjhhYTE3NWZlMmFiY2M0NmM4OThiZGI1ZmY0ZDEzMzY1NTU1YWUxODk1ODU1N2EyYzE2Mg",
+          "stream_id": "9af4a37bcb8c0a888301",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10235,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -8401,17 +8401,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "170d1045ba962bc40443",
+      "selected_stream_id": "7f1bf2e42b1d5f46684e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc383/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzgzOjE3OTA2NTUxMDI1MDU6Y2RubGl2ZXR2LnR2OjI2NWNjMTZiODNiMTY1MmUuZTQ1ODJmZTQ2MGJiODhmZmRlYWJlOTNiNzFkYTI1NDRhNjY2ZmQwMmU2ZjFjNDAzNjFhNDZhMTEzZmQ4ZjFiYQ",
-          "stream_id": "170d1045ba962bc40443",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc383/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzgzOjE3OTA2OTE4OTYyNTg6Y2RubGl2ZXR2LnR2OjE0ZGJkZjRiNTAxMDZkNjMuNzkwOGQ0NGVmMDgzMzkzYzQzZDVhNWY2YzBkMDk4MGU3YmJiNzBiMmNkNzNkNjViYWQwM2VkZWRhYTIxM2ZlZA",
+          "stream_id": "7f1bf2e42b1d5f46684e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -8699,17 +8699,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ef4d39a8ce832c231079",
+      "selected_stream_id": "a3c595b3c00277fa57ce",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb617/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE3OjE3OTA2NTUxMDY3NjM6Y2RubGl2ZXR2LnR2OmE3ODhjZjc2ZDNiZTZlNDguNzRmMDk4ZmJjMDg1YWIzYzIzNmY5ODA3N2Y3N2U1MGY2NWQyNTc3YWQxYzAzOWJmZTFkNGM0YTVkNzhkOGQxOA",
-          "stream_id": "ef4d39a8ce832c231079",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb617/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE3OjE3OTA2OTE5MDA0MTk6Y2RubGl2ZXR2LnR2OjM0YmJjNDQwOTJlMmFlNmUuMWMzOGY4NmQ1YzVmNjllZDYzYzI1ZDJhYmZlZTFjZTkyNGNhMGRkOWNiMGUyZGI0OGM0MTI0NDhiOGEwNTZjNQ",
+          "stream_id": "a3c595b3c00277fa57ce",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -9013,12 +9013,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd314/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkMzE0OjE3OTA2NTUxMDc3OTQ6Y2RubGl2ZXR2LnR2Ojk5ZTcyMWU3MmY3MzcwOTIuMzMyNmJhNmE0Njc3ZGMxZTNiMzJjM2IwMDNjMmQyNDllY2EwZGQ0ZjU2ZGQwYTFmYWZmYTAwNTNiMjI0ZTQ4YQ",
-          "stream_id": "e1844993244f60b1b0aa",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd314/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkMzE0OjE3OTA2OTE5MDE0NTQ6Y2RubGl2ZXR2LnR2OmU2NmVjOWFmODNlYjc4NzMuYzJiZGM3YTViZGMxNzc1MzViYzk0NDM5YzI3NWVhODUzNGI2ZTJlNTBmMDVjMjVhYzEwNjBlZmJlMTIzYmY4Mg",
+          "stream_id": "7a5e640347ee9ecb6770",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -9720,12 +9720,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb490/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDkwOjE3OTA2NTUwOTkzODM6Y2RubGl2ZXR2LnR2OjRlNTY3NjU1MDUyOGU1OTcuMDdjMDI5OWUyZmQ4OTQ1YTI2ZDBjMTFmZWY5OWU2MzBlYWY1MzJjNzgxMzdmYTM1MTU3ODQ0MzEwZDIwMzlhOQ",
-          "stream_id": "3b662eb3ba840f63e5d9",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb490/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDkwOjE3OTA2OTE4OTMxNTE6Y2RubGl2ZXR2LnR2OmQ4OGZmOGZhMzVlNzU5MTAuYjBhOTg5MDg3ODhlNTBkMGYyMzUxNzhhMzA2OGI5MmMzOTFlNTMxOGQzNGRhN2U5NjllYjVjNmZjYTdkZTU4Yw",
+          "stream_id": "91ffa9602964a0f3234f",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 2170,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -9792,17 +9792,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "b225c9bd02221c45fba8",
+      "selected_stream_id": "623e3e7e57a47cd14018",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62a/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJhOjE3OTA2NTUxMDk4ODk6Y2RubGl2ZXR2LnR2OjU3N2ZkMDc1YzMxNjdlYzEuNjRlZDBlZDc3OWE1Yzg1YzcyZGZkOTE5NGZmNTAzZDI4MTZlZWY2ZGRmYzAzMWRkMTYwODM2ZjQzYWM5MDFkMQ",
-          "stream_id": "b225c9bd02221c45fba8",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62a/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJhOjE3OTA2OTE5MDM1MTY6Y2RubGl2ZXR2LnR2Ojk1NThjOTkzZjg4NGQ0OTQuZGNiOTYyYmUxNGEwNDI4Y2JjMmZjMGE5NWMzOGM4ZDBhY2JhMWE3ZTQwOGJiNTdkN2MzYzY2ZWExMWFkNWU3OA",
+          "stream_id": "623e3e7e57a47cd14018",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10235,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -10196,12 +10196,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc0bf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMGJmOjE3OTA2NTUxMDA0MTE6Y2RubGl2ZXR2LnR2OjY1NGRiNDczZjY5NTk5YTUuM2E3MGNmODg1ZjJiNTExMGI2N2IzMDFhMzFhZDMyOGM5NjUzYzQ4YTVkMzY0OWE5M2E2N2I2MzYzYzIxNjNmZQ",
-          "stream_id": "b85e2d0a25d76d59d3ea",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc0bf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMGJmOjE3OTA2OTE4OTQxODM6Y2RubGl2ZXR2LnR2OjEyYzU1YWI0ODU3MWNjODMuNjI5YzE0MGY0MWEwYmRlNWI5YzViOTM0NmVjNGY4MjZkNTZhYzdmN2QyODc0YmVhZTNiNjMzYTViMjgxMzI5MA",
+          "stream_id": "9a4c49a96285eeea6614",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10262,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -10885,17 +10885,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ceef7cfa002de8588290",
+      "selected_stream_id": "2096712567b6e58ea4c3",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd447/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkNDQ3OjE3OTA2NTUxMTA5MzU6Y2RubGl2ZXR2LnR2Ojk4NjQxNzdhOGZjYmQwNWIuOWYyNGJlZjMyZWMwMTRmZmIzZDc1ZGQ1NjMxNGE5OTQ0MzljZWYwOTMyYTlmOGViZTkyNjMxMTNmMmJiZGI5Ng",
-          "stream_id": "ceef7cfa002de8588290",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd447/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkNDQ3OjE3OTA2OTE5MDQ1NTA6Y2RubGl2ZXR2LnR2OmU2YmE5ZmEwY2M3ZjExZGEuYzBlNzM0MWFhODFmNzA0ODgyNWEyYTFiNzRmYjQ0NDMxYzU1ZDhlZDUzNzdmZTMzMDRjYjFmOWQ0YTI5YTBjNQ",
+          "stream_id": "2096712567b6e58ea4c3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10236,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -11397,12 +11397,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb415/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDE1OjE3OTA2NTUxMTQwNzE6Y2RubGl2ZXR2LnR2OmY0ZWI0M2I5ZGRmNGVlNzUuODgyNGNiZDZmNjdmZmIwZjFlNDNmY2VjMWUzOTYzODdhMDFhZWUxMzBjN2ExMTE2OWE4ZGUxNDg1ZGM3M2JmNQ",
-          "stream_id": "0179b25e48022194a071",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb415/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDE1OjE3OTA2OTE5MDc2NTA6Y2RubGl2ZXR2LnR2OjU3NDhlYzFmY2YwZTlkMmIuZGU5NTIwNTY5OWE5ZmIzNjc0MWE0YjE0ZDY5MWY5ZWY1M2RkN2RlMWQ3MTdhYWFiYzAwYWRkMzFkZTc0N2I2YQ",
+          "stream_id": "30d638a2bf0cfc6265ba",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -12361,17 +12361,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ee34496647a98dcba15d",
+      "selected_stream_id": "152985a07158960efdee",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTljOjE3OTA2NTUxMTUxMDE6Y2RubGl2ZXR2LnR2OjU0ZDQyMjRkNDNhYTMwMWMuNGY4YWVlOGEzMDE5Njg5ZTY1NzZlMTFiMzY5NDhkYzQ0YTE1NDhjYzIzNjIxMTkzY2Y4MDdlNjBlMjA2NmE4NA",
-          "stream_id": "ee34496647a98dcba15d",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTljOjE3OTA2OTE5MDg2OTc6Y2RubGl2ZXR2LnR2OjFlMmVlNTFhNWY0OWU0OGYuMDAyNTlhMDljNmM5NTc1NjQ2NDE5ZDZlZDk2MDNjOTdhNzQzNzY0NGI5NDAwNjExOGM5Njk0N2I1Y2IwYjQwZg",
+          "stream_id": "152985a07158960efdee",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10219,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -12383,17 +12383,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "f11316dede32b18e17e8",
+      "selected_stream_id": "2cf67c10be7bfa96ce26",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5a0/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWEwOjE3OTA2NTUxMTcxOTk6Y2RubGl2ZXR2LnR2OjMxODJmYzFiNDI0YzdiYTUuZjk3OWQ3NzczNzUzMDdjODg2MmQxN2E2MmZlYjU1NDlhNDU1NWFkNDA1ZDg1NDZjMjQ4ZTEyODc3NjYxMjliMw",
-          "stream_id": "f11316dede32b18e17e8",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5a0/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWEwOjE3OTA2OTE5MTEwNjQ6Y2RubGl2ZXR2LnR2OmIzZDliOTY5MjIzOWM2YjguNDdkOGIyY2ViMTAyNjAwZjdkNTg1Mzg4NzEwMDMzMGVjMGFlZDNmNzM4ZjY0NjUxNTAzODBmOWNkMDQ0OTBmYw",
+          "stream_id": "2cf67c10be7bfa96ce26",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -12405,17 +12405,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "9bd09db5efb9ce6300d4",
+      "selected_stream_id": "4fbb9d7b26b816f347de",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5a2/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWEyOjE3OTA2NTUxMTgyMjk6Y2RubGl2ZXR2LnR2OmQwZGRmODg5Mzg4YjJkMDIuMmJmMTgxM2JhNGZlZDM2NTRlYjU2MzE0YzY1MmViMzA5ZTUwNzYzNjkwMDUwOWE2YTlkNTk1MWZlNjMyMzQ4NA",
-          "stream_id": "9bd09db5efb9ce6300d4",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5a2/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWEyOjE3OTA2OTE5MTIxMTA6Y2RubGl2ZXR2LnR2OmRiZjIyZTM1YzQ3NjlmZDMuZTc4YWRjMTY1M2RlOTYyNzIzNmYyMTI1NDRmNzU0YjE4ZGU4Y2ZhYjYxMDM3MmVhNDNhYjk3Y2Y3MmNmNzRiYw",
+          "stream_id": "4fbb9d7b26b816f347de",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10231,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -12427,17 +12427,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "2b4e890a50d75e2be464",
+      "selected_stream_id": "65574fbc58ab1ff2d094",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTlmOjE3OTA2NTUxMTkyODI6Y2RubGl2ZXR2LnR2OjE4ODQxNzM2NWM2MTVjNmEuZTQ5MzZjOWI4MmQwN2U5NWNkNWRjOTE1ZWQ0MmZkY2UwOTkxOTFmMTBjODYzOTkzOTA3ZTYwMzk2NGI5ZmNmMw",
-          "stream_id": "2b4e890a50d75e2be464",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTlmOjE3OTA2OTE5MTMxNDc6Y2RubGl2ZXR2LnR2OjczMGU2NGI3NGE5ZjJhN2UuMmVjY2ZhOWIxOGJjY2RmNmExYTk1MWQxNTk5NGE4YzdmY2M5MDE0OTJjY2U0OTUyZjNlYjhiOGY2Y2NlNzRlOA",
+          "stream_id": "65574fbc58ab1ff2d094",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10219,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -12626,17 +12626,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a69b14cf310c952f893e",
+      "selected_stream_id": "b8f147b249118402d544",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVhOjE3OTA2NTUxMjAzMjk6Y2RubGl2ZXR2LnR2OjVhY2YwOTFiNWE1MzJhOWQuZDFmYTcxYzhmNTIxZGJlOTFmZGFmMDVhZDBiNjkzY2UyNGYzOWE4NmM1OTM2ZTcyMjkyNjkyMzRmZjQyOWU5OQ",
-          "stream_id": "a69b14cf310c952f893e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVhOjE3OTA2OTE5MTQxODU6Y2RubGl2ZXR2LnR2OjEyYWI2Yzg1YjhiMTk5NzEuZjZiMmJmOTEwZTEwOTJhM2I0YmYwMjRjMDgxNDc0YTM3MDk0MDdkNzczZmMxOTU1YTRiYTcxNmZlNjY3YjhiNw",
+          "stream_id": "b8f147b249118402d544",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -12648,17 +12648,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "7c991ede91cdce6b1ac9",
+      "selected_stream_id": "d5ca1e1869ce9d6fe0b6",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzViOjE3OTA2NTUxMjEzNjM6Y2RubGl2ZXR2LnR2OjgxYzg1NjkxNWE3NTRjODAuYzk0NzczNjIzNjkwMzc5ZTM0NzlmMTFiMmI1YTA3MDcxNDQ1NWE2YjdlMDM4MDJmZmMyNzJkZTBjNTkzMmQ5ZA",
-          "stream_id": "7c991ede91cdce6b1ac9",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzViOjE3OTA2OTE5MTUyMTI6Y2RubGl2ZXR2LnR2OmI5NGZmNTA1NWY1OWUwNjIuZjUyMTNjN2I1NjViN2ZkOTVhZTYzZjIwZWEwYmIzNjRkZTFlZTcxMzAyYWNmYjYwYWNmMGYyNjU2N2UwZDc4OA",
+          "stream_id": "d5ca1e1869ce9d6fe0b6",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10220,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13556,12 +13556,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c1/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMxOjE3OTA2NTUxMjM0NTQ6Y2RubGl2ZXR2LnR2OmQ1ZDE1NzhmYjhiNzQ3ZDYuYTViYWIzNTEyMGU2ZDVlN2ZkMTU4ZWE0MDRjYTQzNmJjZmYzZmFmMzhiYzQzOWIyMjBmMDg4ZDhhZGIzMDFlMA",
-          "stream_id": "199571280a572778c900",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c1/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMxOjE3OTA2OTE5MTcyOTY6Y2RubGl2ZXR2LnR2Ojg4OWFhZjM3ODM4Mjg5NWYuMzExMDQ0ODM1ZmE5NjcyMTdiYWI2ZmQ2ZWE4OTAyN2EwMjY4M2Q3MTU1Mjk1ZjEyYjJkMzZiYWMyYmZmODlkYw",
+          "stream_id": "005503ccb3835255b601",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -13644,12 +13644,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb224/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjI0OjE3OTA2NTUxMjQ0ODQ6Y2RubGl2ZXR2LnR2OmI5YmY2ZWEyMzYwOTNkODYuZGM0N2I3MTBjNmUwZjZkYjE4MWJjM2JkOGM5YzU0OWZlMThjOWQ1Yjg4NDVkZDNiMGQzMDI2YjkyNjk2ZmMzZg",
-          "stream_id": "a11773dd818b5b1fa182",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb224/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjI0OjE3OTA2OTE5MTgzMzA6Y2RubGl2ZXR2LnR2OjIxNDU1ZjcxNGZhNzRhMzEuY2JkMWMyZjg2ZTNjZjJhYmY1MzQwYmY3NzViMDVkY2FmYTgzOWE5ZTE3MDk3M2M2NDkxNzhkMTkzYjYxYTBlZg",
+          "stream_id": "d21eaafc2314b28f6f72",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -13672,17 +13672,17 @@
         "soccer"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "007e023d2adab119fab7",
+      "selected_stream_id": "d1bb754180566957ad3d",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3OTA2NTUxMjU1Mjk6Y2RubGl2ZXR2LnR2OjNkYmE4NDcxMjFhMGRhZDMuMDViZjc4OTQwNjllZDQ4NTAwYTA0YzRlNWZjNDMwYjYyZjY3ZjBiMmIzOTY4OGVhZDQ2ZDJmOWMxOTg4YThkMA",
-          "stream_id": "007e023d2adab119fab7",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3OTA2OTE5MTkzNjU6Y2RubGl2ZXR2LnR2OjQ3Yjk2Zjg2Y2YzODlhYzguYTQ3OTI0YWY1YzQyMmVjZWQ3OTZhZDUzNzAzOTNkZDMyMTE0MWIxOGU4OGE4NTRkMGJmY2YwMDFkZTQwMzA5Mg",
+          "stream_id": "d1bb754180566957ad3d",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10237,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -13733,12 +13733,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c3/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMzOjE3OTA2NTUxMjY1NjA6Y2RubGl2ZXR2LnR2OjljOWM5OGYwODczNjQ4ZWQuMWIwOWZkNTMxN2VkN2E3MGI0YzlkYjRmNzY1MWU3YTM3ZmE4OGQzZTY0ODhjNmFhZDQxN2Y5OGEyYzA0NzU5Yw",
-          "stream_id": "c2a313d280383c2e9b30",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c3/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMzOjE3OTA2OTE5MjAzOTQ6Y2RubGl2ZXR2LnR2OjZmYjVkNWY0NDkwNjMxYzEuODA2MmUwYjRiNDNmMDEyOTUzZjA5OWQ0YzBkNzNjMDljMTQ0ZDUzN2IzZDBlNzE1M2MxYmRjMmE3N2I4YzQ4Mw",
+          "stream_id": "3ba1c2cac691a778df95",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -13794,17 +13794,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "fb1ddfdc0b36bdc9d212",
+      "selected_stream_id": "24d8e29cceb6119e8be5",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf203/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjAzOjE3OTA2NTUxMjg2MzA6Y2RubGl2ZXR2LnR2OjdkOWM1NjYwODhjNzI4MGIuZTgxMzczYWUzZmZhMTdmY2ZkNjE4ZTExNDFjNjBlNTkyNjliMzM1M2FmODJhMmUxNTI5NmM2Njg5NTQ5MzZkOA",
-          "stream_id": "fb1ddfdc0b36bdc9d212",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf203/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjAzOjE3OTA2OTE5MjI0Nzg6Y2RubGl2ZXR2LnR2OjZkZmFjYjQ0YzU3YzE3Y2EuYjAwM2ZmNGRlZTEyYTFiMmVmYTg1NmE3NTU1YjdjZGZjMWNjMjA5YWU5NThmMTAwYjA3ZjI1YTlhNmI1OWJjMQ",
+          "stream_id": "24d8e29cceb6119e8be5",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10236,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13816,17 +13816,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ed6f889236c2608c00aa",
+      "selected_stream_id": "d13d21e3caa39e4578da",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f8/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWY4OjE3OTA2NTUxMjc2MDU6Y2RubGl2ZXR2LnR2OmJkOTc2ZjE1YTczYWU4YTQuNDg5ZjRiOTgwOTJlNDcyZWFiNmUwYTAxNTZkNGIzNzhhMmM2NDc4MWRhYWM4NDIwZDAwYWVjNDg4MWU4Y2FkMw",
-          "stream_id": "ed6f889236c2608c00aa",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f8/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWY4OjE3OTA2OTE5MjE0NDM6Y2RubGl2ZXR2LnR2OjVjNDMzMmM1YzMyMjhkMWUuNzZlYzU0NzU0MjBmMmQ1ZGNmODgxZmQzYTY1ODc2ZGM5MGFlZmQzYTg2MjUyM2FlNDJkZDNhODNkMTk3ZDJlYQ",
+          "stream_id": "d13d21e3caa39e4578da",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13838,17 +13838,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "3799d7b50661572158aa",
+      "selected_stream_id": "02687ed5bc33d24c2a03",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf20e/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjBlOjE3OTA2NTUxMjk2ODE6Y2RubGl2ZXR2LnR2OmM0OWExYmM5NDljM2Y5Y2QuYTQ1MDdmNzYwYWJlMGJhYWEzMTRmMTQ5YWNiM2FlNWY4OGY0NjU3MjQzMDcxNDljMjY5ZjRhOTNjOWFjZTJjNQ",
-          "stream_id": "3799d7b50661572158aa",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf20e/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjBlOjE3OTA2OTE5MjM1MDQ6Y2RubGl2ZXR2LnR2Ojk1NmFhOWE4NzE5ZTc1MzcuNTI1MGVhOGY4MGViMWEzNWIwMWU0OGYwN2ZjNDgyYTY2Yjc0YjE1MTFlMmRjZGNmOTRkOWM3NzdjYTcxN2I3MA",
+          "stream_id": "02687ed5bc33d24c2a03",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10239,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13860,17 +13860,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "4b62f5c34a3a5e8369b3",
+      "selected_stream_id": "3cda0d47557441b3d478",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22f/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJmOjE3OTA2NTUxMzA3MjU6Y2RubGl2ZXR2LnR2OjkzNzdhOGRhZDhhZmMyYjMuMjlhMDM0M2RjNjkxMGZhYWY0M2RmMjdmMTEzYWQzYzVkMDQ3YjE5MzQwOWE5OGRkODQ0MzgwYTFjN2JlYmUzOQ",
-          "stream_id": "4b62f5c34a3a5e8369b3",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22f/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJmOjE3OTA2OTE5MjQ1NDE6Y2RubGl2ZXR2LnR2OjkzZDRmMDFmMWU3ZGIxODAuNDZhMjA4NjhhZmVkNjIzYjQ5MzJlMzk3YmY0MjQzZjdkNTA5OTE0MDQxNjdmMWRlYTg0YTQ0ZThhYWU0MDk2Yw",
+          "stream_id": "3cda0d47557441b3d478",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13882,17 +13882,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "8832ebc9675bb950f36c",
+      "selected_stream_id": "2842d7451d350bf69994",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf25c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjVjOjE3OTA2NTUxMzE3Nzk6Y2RubGl2ZXR2LnR2OmEzMzU2NDYwMDQ3M2U2ZmIuNDNmMmUxNTA1ZTRlM2Y5Y2ZhMjY4ZjliN2NmY2Y3MTc4MzU2YmE3YmEzMDViMTA0YzM0YzNhMmUzYmY1NTNkZA",
-          "stream_id": "8832ebc9675bb950f36c",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf25c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjVjOjE3OTA2OTE5MjU1ODU6Y2RubGl2ZXR2LnR2OmE3ZjdhZjcyMDYzYjk1MWMuNjEwZjcwNjU5NWFlN2Y2ODgzMjUyMjA2Mjc1Njk3ZjA5OTE0MTY4OWY3ZWRmODY2ZWIyNzYxYmU4MGQ4Yzk5Ng",
+          "stream_id": "2842d7451d350bf69994",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13904,17 +13904,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "edf30014f3b0fd2d8e59",
+      "selected_stream_id": "236c0b39cd4004311cc6",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf272/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjcyOjE3OTA2NTUxMzI4MjY6Y2RubGl2ZXR2LnR2OmYxNWYwNmU2ODMxOTUxYTQuZjdlYjJjNTk0MThmYmUwZGRkMzJjMTA3NDQzNmM3MTQ5ZDY4YjE5NDc4ZDNmNzc4MjM5ZjM0NmNlMDE1NDg0OQ",
-          "stream_id": "edf30014f3b0fd2d8e59",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf272/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjcyOjE3OTA2OTE5MjY2MTY6Y2RubGl2ZXR2LnR2OmJiNjM5YzUzMzM1Y2Q5ZDkuMmJhZTlmNGFkMGJiYzQyYzQ2ODM3MzJkZmM0ZjY5OGJjODg3ZTdjYWUyMjBiNjllMWMxMjA1OTRmZjgzZWI4NQ",
+          "stream_id": "236c0b39cd4004311cc6",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13926,17 +13926,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "984c9affef4cb7f190f1",
+      "selected_stream_id": "c7dcd9e58ae62800c265",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf288/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjg4OjE3OTA2NTUxMzM4NTU6Y2RubGl2ZXR2LnR2OjY0ZWIzYmFhZTZjYTlhZjMuOTcwMmI2YTRhMzgwYjFiMGI1NzUxZTc1NjlmMTY5ZWIwOTFiNzFhZGMzZWJjYjU0NTRkOTUzZmU3MWFiNTE1OQ",
-          "stream_id": "984c9affef4cb7f190f1",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf288/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjg4OjE3OTA2OTE5Mjc2NTA6Y2RubGl2ZXR2LnR2OjM1NTk5ZWExODQ3OTcyYjkuYWM5Yjc3Mzk0M2M1MDZkYTU1MTZkNjBiNjZiOTBmZGJlNWI1NDM0ZDk0MDY1OWVhYTQ5N2VhZmNiM2VjYjExYQ",
+          "stream_id": "c7dcd9e58ae62800c265",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -13948,17 +13948,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "eee800cbf25bd4a52f3e",
+      "selected_stream_id": "3573eed06c8b1e042371",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf29e/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjllOjE3OTA2NTUxMzQ4OTk6Y2RubGl2ZXR2LnR2OjQ0NjIxNWUwY2EzNzVlMGEuYTRlZTY2MDUwZjNmZmNlZDlkMDRlMGY0MGI2NzU3Mjg2ZmJjYjI2NmQ3NmZiYTQzZWE3MTAyOGViMWQwMGU1Mw",
-          "stream_id": "eee800cbf25bd4a52f3e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf29e/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjllOjE3OTA2OTE5Mjg2NzY6Y2RubGl2ZXR2LnR2OmI5MTM0ZWZhN2RkYTUxNjMuYjRkZmE1NzEwOGFiYWNmY2Y0ZGVhMjc3MTgwYzM1OTIxYmEyMDE0YjE2OTEwMTU5NTU5MGY0MmQ2ZGNkM2FmYg",
+          "stream_id": "3573eed06c8b1e042371",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -14982,17 +14982,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "aa541176901a33dd10ab",
+      "selected_stream_id": "e39b46a5d1ef2639ae03",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNjOjE3OTA2NTUxMzU5Mjk6Y2RubGl2ZXR2LnR2OmMzZTNlNWU2ODYzMjJkMDcuNTk0NDI0MzQyMGM0ZWRlMTAxYTNmZTI1MjIwOWZhOWU1YjliNWRkM2RiNzM3OTI1N2U2YTA4MmRkNWU0NGU4OA",
-          "stream_id": "aa541176901a33dd10ab",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNjOjE3OTA2OTE5Mjk3MTk6Y2RubGl2ZXR2LnR2OjM1ZmJjZDk1YjJiY2M5ZjMuZTA1MGI5YmQyMWQ4NmE2Nzc5OTIzOWE1YTM3ZjI2OWZhNmMzNWE1ZGUwZWU1NjhjN2EyMzU2YjNjYWZlYmM5NQ",
+          "stream_id": "e39b46a5d1ef2639ae03",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10227,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -15403,17 +15403,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6c783b921a0c085d710f",
+      "selected_stream_id": "3f23bf7bcdcf1f2b0cdb",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb232/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjMyOjE3OTA2NTUxMzgwMDA6Y2RubGl2ZXR2LnR2OjA5MzFiNzQ1NWNjYjQ2MDQuNTM0YTQ5MWEyN2ZlZDNmNTVhNmZiZTRmOTI5YjY3NjAzMGFkZDc3ZTFhZjI3ZjRmOGQxOWUzN2EyZjdmN2QyNg",
-          "stream_id": "6c783b921a0c085d710f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb232/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjMyOjE3OTA2OTE5MzE3OTc6Y2RubGl2ZXR2LnR2OjQxMTg5Y2QyZTg0MDY3YmEuMGVmYmU3ZGE5YzFlNTlhMjU5NTg2M2YyNTc3YTg3YjZjOTc2NWM5OTVmMGU5OTg5ZTc1MmI3YjE3MmRjZWE4NQ",
+          "stream_id": "3f23bf7bcdcf1f2b0cdb",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -15607,12 +15607,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd347/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkMzQ3OjE3OTA2NTUxMzY5NTY6Y2RubGl2ZXR2LnR2OjBkYTljYWQ4MDIxY2MzOTAuYzgzYzZmMDkxNzdiNmYyMWU1ZjhkNjdjNzQwZjA4NjZkNTk2NGUxNTI5ZDdlY2VjY2MyODBlYmY4NWI2OTU5OQ",
-          "stream_id": "add6722c699e5d967bec",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd347/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkMzQ3OjE3OTA2OTE5MzA3Njc6Y2RubGl2ZXR2LnR2Ojg3NTNmNDJkYzJhMjg3NmMuMDdhZmRjMDMzNDc4NjEzZmQxMDYyNDAxYjdiNmVlNjkyZmUzMWVmZmY3NzRlY2Q5ZmFiYjM3ZmMyNDhmZTdiMA",
+          "stream_id": "796d63ceb8538afe7531",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10241,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -15789,17 +15789,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "0378a670eb42423432f1",
+      "selected_stream_id": "d7c066e8646581eaba85",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3a7/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2E3OjE3OTA2NTUxMzkwNzQ6Y2RubGl2ZXR2LnR2OmYzMTIxNWI3ZmZjZWY5MGMuN2EwNWI1OWQwZjc4NjEzMDVlNTZhOGZmY2FiYjQ0MzI4YzZiZDczZGFhODIwNmU3OGMxMjg4ZDRiY2Q3NmE4Yw",
-          "stream_id": "0378a670eb42423432f1",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3a7/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2E3OjE3OTA2OTE5MzI4MzI6Y2RubGl2ZXR2LnR2OjEyMWJmNGUwN2ZlMDNiZDMuZDI1ZTQ3MTZiOGU4MjcwNGY3MmU0MDMzNTNkYzRjYmVmYjRlZTIxNWZjYWJlMGY0YTY2ZjBlNGE0MjQxMmViOQ",
+          "stream_id": "d7c066e8646581eaba85",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -16838,17 +16838,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "632d2796fb4445be2eb6",
+      "selected_stream_id": "f0e0c7888f40f46c8694",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc387/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzg3OjE3OTA2NTUxNDExNzI6Y2RubGl2ZXR2LnR2OjEzMmE1YWU5ZTU5NjAxYWMuODlkNDNmMGE1MTk2NzU0ZWYzNDU4MDk0YTY0ZDc1MTYwODRlYjExODZhYWNiNzRkNTlmMzljZjIxMTJkY2FkMw",
-          "stream_id": "632d2796fb4445be2eb6",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc387/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzg3OjE3OTA2OTE5MzQ4OTM6Y2RubGl2ZXR2LnR2OjIwOTZmNjUzNjc3ZGYxYjMuZGQ4ZDA3MjU1ZGZkMTM3NjM3YjdjYWEwNTA5N2NkNmVmZjVhMzY4Mzg1ZjQ0MDQ3NzYxNmYwMGMyZjk1NWU0Zg",
+          "stream_id": "f0e0c7888f40f46c8694",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -16860,17 +16860,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ab238aa777d70a069555",
+      "selected_stream_id": "0ba1e41f583283d7d344",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc38a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzhhOjE3OTA2NTUxNDIyMTk6Y2RubGl2ZXR2LnR2OmU0ZTllZGE1YTA2ZjI3NTMuMzllMDk2MTkzMGY0YzE2OTkyZjY1MGZjYmEzNTliYTJhZTljMDk2ZjM4ZWQ5Y2Q1ZmMxNjY0ZWM3ZjdhMDI2Ng",
-          "stream_id": "ab238aa777d70a069555",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc38a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzhhOjE3OTA2OTE5MzU5MjE6Y2RubGl2ZXR2LnR2Ojc2MTQyYTRhMjc4MTg5MjQuYmEwZTdkY2UyMGUxMjgxYzU3MGRjMjljNmU0NTFkMmVhZWQ5NGQyODc4MTVkNzBlZWZiNTljMDAyMWI1NjQ2YQ",
+          "stream_id": "0ba1e41f583283d7d344",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10239,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -16882,17 +16882,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "b5df5c8d061a6c0d4294",
+      "selected_stream_id": "406f98ae0ae9dc519d1e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc38d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzhkOjE3OTA2NTUxNDMyNjU6Y2RubGl2ZXR2LnR2OmI2YWY4M2FjZjgxN2FlN2EuOWZiYjg5NjQwOWMxOWRhZjcwOGQyOGJiZjMwNThkZjMzZmVmODFmNGM5OTE1ZDI0Yjc3ZGY3MDYyYmYzZmY0MA",
-          "stream_id": "b5df5c8d061a6c0d4294",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc38d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzhkOjE3OTA2OTE5MzY5Njg6Y2RubGl2ZXR2LnR2OmQ2YWY3ZGE1N2MzYTcwZmQuYWQyMTkzOTdlZTBkY2I3MWJkNDMxNWE5MzQ0ZjIzZmVlYTMzMGUzNDIzNzNjNmMyODUwYWFlYTAzYjBkNzlhNQ",
+          "stream_id": "406f98ae0ae9dc519d1e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -16904,17 +16904,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "393db080a334f14eeaa1",
+      "selected_stream_id": "48170551e38edee42354",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc391/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzkxOjE3OTA2NTUxNDQyOTQ6Y2RubGl2ZXR2LnR2OjM0YzgyN2MyMGI0Yzk5MDkuNDdlZWY5Nzc4Nzk5NzdlY2Y4ZTFhYTRjYjU5Y2FkMDk1NGM0N2IwMzNmNGIxZDg4OTlhZDE5NDc3OTZkNGJiMg",
-          "stream_id": "393db080a334f14eeaa1",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc391/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzkxOjE3OTA2OTE5Mzc5OTU6Y2RubGl2ZXR2LnR2OmE0ZTJiNzcwZTMyYzFhZWUuY2YyOGI2ZTcxMjczMDg1Y2UwNjA0ZWMwMjk5ZjY2Yzk5ODAzNGY3ZDRlNzZjNTdlOTYxM2ZmYjIzMjBiYTcwZA",
+          "stream_id": "48170551e38edee42354",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10243,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -17642,17 +17642,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "943ac557b19a08c43435",
+      "selected_stream_id": "3ff5bfb5ac17e6a171d7",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc375/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc1OjE3OTA2NTUxNDYzNjU6Y2RubGl2ZXR2LnR2OjEyY2FhYTllMjBjNjYwOTEuNjliMGY5NWY1ZTdlNzQ3YjM3MTY2ZWJmZDczMzUyYjE1MDU4YWQ4NDkyMTY2ZGVhMGY1NjIyODk3OWQwMzkxMg",
-          "stream_id": "943ac557b19a08c43435",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc375/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc1OjE3OTA2OTE5NDAwNjM6Y2RubGl2ZXR2LnR2OjE4MjE0OGRmM2YzZTQ3YTcuMDJhZTVkMTdmZjM2MDAxODgzOTk2NmU5NWRlYjlmOWZjZjBlOWI4NmY3MzEwZjkyZTg1MTg1ZTYwZmE2MTI2NQ",
+          "stream_id": "3ff5bfb5ac17e6a171d7",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -18067,12 +18067,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb247/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjQ3OjE3OTA2NTUxNDczOTU6Y2RubGl2ZXR2LnR2OjcyZmEyNjliOTY3NWQ5NWMuNDhlZTZhNmZjNjIxZjVhMzJhZWM3NTgzNmYwM2Q3Yzg4ZTgzZDJhYTEwNjA0MjE2ODdhNzE3OTA1ZGE3M2YzMg",
-          "stream_id": "ee8e246459d8533bef7b",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb247/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjQ3OjE3OTA2OTE5NDEwOTA6Y2RubGl2ZXR2LnR2OjZhOTFjYzc2NjczYmQ1NDUuODhhMThhYjBjYjc1OTRjNjM4Nzg5YTc2NTIyOTUwMWQ5NzYyYmEwOWEyMTg5MjFjYWY2NjBhMDdjNmVlMDk2Mg",
+          "stream_id": "075b7452eb69ba4c82ff",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10238,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -18899,17 +18899,17 @@
         "sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "57c7edec726c9c3efc25",
+      "selected_stream_id": "0f29463aa4b94cd53583",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3OTA2NTUxNTQ3MDQ6Y2RubGl2ZXR2LnR2OjlmZjE4NzgyNGQ4OTFjY2EuMzY3Yjc1YTA1NjE0NTMzM2FiNTcyODQ0M2M4YzI2ZTA5N2NiZWY3YzZjZjVlN2UwNmYzODkxMTUyYzg0MGU3YQ",
-          "stream_id": "57c7edec726c9c3efc25",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3OTA2OTE5NDgzMjk6Y2RubGl2ZXR2LnR2OjgwZmQ2ODBkMTZiZmFhNjUuNGYxYjQ4YTA3MzFmMmNhYjExMDZiY2VmNmMwYjE3MGNkMzE3YTA2MTA1Mjc1ODA5MWNjYmIzMDA1MDMxOGRmOQ",
+          "stream_id": "0f29463aa4b94cd53583",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -18954,17 +18954,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a03999b6c023c2c9af5f",
+      "selected_stream_id": "19163b9724b2ec1576a2",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb4dc/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNGRjOjE3OTA2NTUxNTA1NTc6Y2RubGl2ZXR2LnR2OmM2MTZiOGU0NDliZTdjMWEuZmFlYmQ3NmFiMGY2ZTQzM2UzNzc0YTdkNjRlZTY0MGQyMDJiYmU4NjZmZDAwZGZlMmYzZGI0ZWM3MDVjMWNiYg",
-          "stream_id": "a03999b6c023c2c9af5f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb4dc/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNGRjOjE3OTA2OTE5NDQxODA6Y2RubGl2ZXR2LnR2OmU2OGFiNWNiNjQ0NGM3NzEuYWU2ZTU4MmI5ODBiNGU4NTkzZmQyYjJlZjliZGE0YjNjNjBiNjZlNzZlMzQ3NzVmNDkyOTU0ZTE1Y2EzNDcwZg",
+          "stream_id": "19163b9724b2ec1576a2",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10237,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -19065,17 +19065,17 @@
         "movies"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "c3ae3e4671a2697fe070",
+      "selected_stream_id": "58471cca1c96a182b88b",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce74b/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNzRiOjE3OTA2NTUxNTE1ODU6Y2RubGl2ZXR2LnR2OjZlMDFkNDMwNjMwMjY0ODcuNTg5ODIyYTg2NTcyODFhOTJhMmIzZDY2OGY1ZTgzNTg5NDIzZWIxYmUzODE1MzQ2YTc4OTk1YmFmOTZjZjRlMA",
-          "stream_id": "c3ae3e4671a2697fe070",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce74b/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNzRiOjE3OTA2OTE5NDUyMTY6Y2RubGl2ZXR2LnR2Ojk4Yzk1N2MwMjdjZjA3YjMuZjMxZDFhZDI2ZWUyYThlMWI2NTYxMGU1OGRkNjFiZTQ3YjBlMTExZDNlMDI3YWYxMjVhODVmZTM1YTYzYmU2Ng",
+          "stream_id": "58471cca1c96a182b88b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -19671,17 +19671,17 @@
         "sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "8717fb7e13bd69013098",
+      "selected_stream_id": "2fcc748d8ca292dbb811",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3OTA2NTUxNTI2MTM6Y2RubGl2ZXR2LnR2OjE3N2E4OGNlMThhODhmMjcuMGZhMjAxZGNhZWRlNTBlMmNmYTVjYjM4ODg5YjMyOTQ5M2Q3MTg1OWMyOTBhMzAyZDcwOTkyMDY0NTQ1ZDNiYQ",
-          "stream_id": "8717fb7e13bd69013098",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3OTA2OTE5NDYyNTk6Y2RubGl2ZXR2LnR2Ojg4OTUzM2UyMTAxMWI5ZmEuYTY0NDYyNzRjNTgyYWMxZTRkZWQ0ZmRiNWE2MDhiYThiNTA2NmYyMWY2OTIxOWM4ZmM1NjE0ZGJjYTZhZTE1OQ",
+          "stream_id": "2fcc748d8ca292dbb811",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10231,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -19858,17 +19858,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "447df9c99991e8f29add",
+      "selected_stream_id": "d6d12c68a9b62ef0e21b",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb509/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTA5OjE3OTA2NTUxNTg4NzQ6Y2RubGl2ZXR2LnR2Ojg1NGE1ZGUxODBmMGJiZTIuNzNiNjFiMzhjZmE1YjIxOTJhNGUwYTgwNjdjOGQ3NjNlYjcwYWE3NGRmZjM3YTUxOTBjNjliMTAyMWUwZWViNA",
-          "stream_id": "447df9c99991e8f29add",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb509/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTA5OjE3OTA2OTE5NTI0NjQ6Y2RubGl2ZXR2LnR2OjVlMWYxOTcwOTNkYzM0ZjUuNDg0NDQyOGE3NjA1MzlkYTBhZGZmNWU0NzlkZTY5MmY5Nzk1MGY1Yjk2YTM2NGVlOTc2ODE0Yjk1OTY3NmIxYQ",
+          "stream_id": "d6d12c68a9b62ef0e21b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -20228,12 +20228,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5d1/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWQxOjE3OTA2NTUxNTM2NTg6Y2RubGl2ZXR2LnR2OjM5NDU4NWM0ZWU5ZDM2OGIuYWY1YThkZThlMGUzNzc0OGI0YTg1NzNlNjBlZTEyNTdjNjZiOTVkODFmMzdiOGNhNzlmY2NkMDE3YzBhNTUyYQ",
-          "stream_id": "5801f9975e3fe8e3a73e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5d1/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWQxOjE3OTA2OTE5NDcyOTQ6Y2RubGl2ZXR2LnR2OjU0OGM4M2JhNjFiZTc4MDkuM2IwYWE0NDhmMzJmZjMxNjBiMDk0ODZmMmVhZWQ4NjUwOTJhZTY1ZWI3ZmJiNmJlMjcxNmQ3NmMzYzk3MTU0Zg",
+          "stream_id": "dfc1533b073001b09098",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10237,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -21780,12 +21780,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5d3/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWQzOjE3OTA2NTUxNTk5MDc6Y2RubGl2ZXR2LnR2Ojk0MDFkYmY5NzEyMjkwMjcuODc2NzQzODY0ZjYyMzJmMTA1NDZlOTYxNzllNGIzYzFkNzBkM2Q1MGJiN2JjZTQ4NTRmYjQ0MTk0NjAxMjcwOQ",
-          "stream_id": "31ffc56950ff1fe8ad09",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5d3/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWQzOjE3OTA2OTE5NTM0OTg6Y2RubGl2ZXR2LnR2OjViMDg2YzMyNmIwMjIwNGUuNGFlYzIyYTM2YjlhMzYxZGEzZDE1NWEwMjQyYjZmYzNmMjBkNGEzMzE2YWM1Y2UyMGI2YmY0NWZiNDMxZDVhZQ",
+          "stream_id": "06a57067e406f129897c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10241,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -21974,17 +21974,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "52da3b91315b8bd17c38",
+      "selected_stream_id": "331aa2ec4dd8a5073678",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb25a/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjVhOjE3OTA2NTUxNjE5Nzc6Y2RubGl2ZXR2LnR2OjdjYmEzOGJjMGY0Yzk2OTkuZjRiMDkzNmNhOGI4ZDliM2U1NDEzOTVlNWY2OTAyOTM5ZjhmOTlhYTRiYzVkZTdjMjQ3YWIyMWI3ZDZkYjkzNA",
-          "stream_id": "52da3b91315b8bd17c38",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb25a/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjVhOjE3OTA2OTE5NTU1Nzg6Y2RubGl2ZXR2LnR2OmFlNzczZTFhNjhjMGUzMmUuMTU2ZGRmMWEwYzBjNDgzOThjNGRmZTJkZDUxYzBlNjQ2OWY3YmEyMmRiMzY4OTJkMDQ2OTZlNjhiYWZiOWMxZA",
+          "stream_id": "331aa2ec4dd8a5073678",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -22107,17 +22107,17 @@
         "sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "879e978d6f54e49c73d4",
+      "selected_stream_id": "ec1a2136c712caa5b1a3",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3OTA2NTUxNjMwMjU6Y2RubGl2ZXR2LnR2OjQxMDcxYTg4NjZmZTE0YWEuM2FkZTJjMGFlMDVhOTU1MzBkMjAyZGM1MDk3M2I0YmJmYThjNjdhNDRkYmJmNjk3YTE1ZTMyMjBiMThlNTMwMw",
-          "stream_id": "879e978d6f54e49c73d4",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3OTA2OTE5NTY2MTE6Y2RubGl2ZXR2LnR2OjUwMDQzOTRlMWJmOThhYmUuMzM1YzViMjI5MzdkMGFkZjQ4Y2ZmODc4ODUyOTY1OWZjNGYwZThhYWZjY2M2NWY2MjJmOTQ4Mzg3MzMxNTNkOA",
+          "stream_id": "ec1a2136c712caa5b1a3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -22461,17 +22461,17 @@
         "nfl"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "4f42363ec6fdcec37c85",
+      "selected_stream_id": "e3ee0d9fc202f879afdf",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb65d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjVkOjE3OTA2NTUxNjQwNTM6Y2RubGl2ZXR2LnR2OjFlNDA0OGM3MDUzMzMzNzQuYWYyYjhkMGViMmJkMzRmOGE3MzVkNGZmODAwNzQ4MWZkYjhkNDMwMDEyMDI4YzU4ZjJmZDJhZjRkZDk1ZjAxNg",
-          "stream_id": "4f42363ec6fdcec37c85",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb65d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjVkOjE3OTA2OTE5NTc2Mzk6Y2RubGl2ZXR2LnR2OjJhY2Y0ZTVmMDY2MjFiMjAuMWVlOWJhOGZhNTgwYzcxOTY4MmYwMTRmYmQ4MzgxZGMxNGYyY2M3ZjlmYTQ1NjYwNjQ5Yjg1NjYzYzU2M2E2MQ",
+          "stream_id": "e3ee0d9fc202f879afdf",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -22500,12 +22500,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb69d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjlkOjE3OTA2NTUxNjUwOTk6Y2RubGl2ZXR2LnR2OjFmN2M4NmNhZjcyN2EwMDAuODEzMTFkY2I3ZjNkNTM1MGQyZjc1OTc1OGZiMWQzNjBkZmI1NTYzZGFkMmM0NTljNDMxYmUyODYxZmNjMGU0Mw",
-          "stream_id": "61af705aabaa99c3c919",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb69d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjlkOjE3OTA2OTE5NTg2Nzc6Y2RubGl2ZXR2LnR2OmJkZWRhZDc4YmU5ZjhiODMuMzMxYzY0N2YyMDdlZjEzNWIwY2U4ZTJkNDU1MDQ5YWFiNjA3YTYwMmI5ZDJjNWMxNGNiOGQ2NDBmM2M2Mzg1NA",
+          "stream_id": "a437c7ec270716bcade8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -22913,17 +22913,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a4798cc0b20956231b7f",
+      "selected_stream_id": "6d22825861ed0ee6f6c6",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb413/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDEzOjE3OTA2NTUxNjkyNjU6Y2RubGl2ZXR2LnR2OjQwZGY5OTU2ODc4NDdjMGYuNWU2YjYxOWYwZjY2NzEyZDhmNjhiYzMzNDA0NjUzNDQ4NjdiMWYzYTcyNDQ1MTRhMGRkZWZhZWQ5ZWU4MmE5ZA",
-          "stream_id": "a4798cc0b20956231b7f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb413/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDEzOjE3OTA2OTE5NjI4Mjc6Y2RubGl2ZXR2LnR2OmE4NjU1YjliNDhhNTEzMGUuNzc3N2U5MTJlNThjN2UzNDIzZTQyNjFkZjZmMTI5ZTBkYjkxODBmNTc2MTAxY2ExMzgyNTdjYjczNDJiMDcwYw",
+          "stream_id": "6d22825861ed0ee6f6c6",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -23386,17 +23386,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "138c8ade2dcccb511086",
+      "selected_stream_id": "11b4946b16149a016851",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb622/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjIyOjE3OTA2NTUxNzAzMTI6Y2RubGl2ZXR2LnR2OmQwZmNhMDYzMGY3MWI1MDAuZGYwYzgyMzdkYWQ5ZjUzODEwYzliZmE3ODZkZWZlNjMwODUxZWNjOTNlNzFmNjY3NWU3ZDgxZTc5NjkxYmI0ZA",
-          "stream_id": "138c8ade2dcccb511086",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb622/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjIyOjE3OTA2OTE5NjM4NjY6Y2RubGl2ZXR2LnR2OjU5MTBkY2UwYTFmNWQ0NDQuNDExNjNmODUwOWEwNzg3MWFkM2NkODllMDY1OGQyYTZhMzBlNTk5Mzc1YjM0OGVhNTRmMzM3YTY1YzY3NWIzNQ",
+          "stream_id": "11b4946b16149a016851",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10237,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -28998,17 +28998,17 @@
         "sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "841030afae103b72eab5",
+      "selected_stream_id": "11c63ff461badd249b0a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3OTA2NTUxNzM0MzM6Y2RubGl2ZXR2LnR2OjdiM2FhNmI2NzdkYWIzODAuNmY3MmUyZWYwMDRiMjI4M2JhMTBmYjljZDlmMDYyODNhMDk4NzcwMjNmNDhlYzJhOTQyMmMwNmZhNmU3ODI5Yg",
-          "stream_id": "841030afae103b72eab5",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3OTA2OTE5NjcwMjA6Y2RubGl2ZXR2LnR2OjUwYTM4NjUwMzNhY2YzMjEuOTA3MzAwMzFlYTE4YzZhN2I1OWNkMDc0NTY3OTllNWViMTVjMjgyNTE0MGI3ZjI5NDllOWE4NGE4NjM2ZTNiYw",
+          "stream_id": "11c63ff461badd249b0a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10239,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -29031,17 +29031,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "70b3537509ea356e98e4",
+      "selected_stream_id": "675e3356a3e62b53a2c8",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3OTA2NTUxNzQ0Nzg6Y2RubGl2ZXR2LnR2OmFmYTZjNTQ1ZjBhNjAwYzYuZmYxZTFiZmM5ZmE0NTMyOTJiMzFjZmU4NGQ0ODlkNDBhMzdjOTk5YTRiZGE5YjcwM2M2MzFhODhhZWQ4ZDJkMA",
-          "stream_id": "70b3537509ea356e98e4",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3OTA2OTE5NjgwNTk6Y2RubGl2ZXR2LnR2OmVkMTM0NGJmNjBhM2U5ZmYuNTI4ZGIzNTBjOTdjMWI1YTllODJkMjk2NjVlMWY0ZDk3Njc1ZGY1MTQyNGE3MzQ4YTQ1NzVmYWU1ZmE0Zjg5Mw",
+          "stream_id": "675e3356a3e62b53a2c8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -29780,17 +29780,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a0fe5647528cf48f7c80",
+      "selected_stream_id": "22b6d99554e0cff331e5",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc162/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTYyOjE3OTA2NTUxNzU1Mjc6Y2RubGl2ZXR2LnR2OjIyOGQ2ZmFiNWRhMzNjMTIuMDQxNzNiMDA0YTczYTMzZWIxNzM1ZTdmODkzODRlYjkxMGQyZDRlMDY5NTFkN2MyOWYyYTQ5NmNhYTQwMWFjMw",
-          "stream_id": "a0fe5647528cf48f7c80",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc162/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTYyOjE3OTA2OTE5NjkwOTE6Y2RubGl2ZXR2LnR2OmI5YTAxY2UxOGY1N2VlODQuNjRmMjk2ZjNhNTNkMjY5ZTlkOTlkNWQ3MjJmZWFiN2IyMWM4NGZhNTA3M2Q1OWVmZjU4NmZlZWQ5OGUyODA2ZA",
+          "stream_id": "22b6d99554e0cff331e5",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -29846,17 +29846,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "92a63e7300796ab28348",
+      "selected_stream_id": "845e05baff39ec6a60d9",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc374/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc0OjE3OTA2NTUxNzY1NzE6Y2RubGl2ZXR2LnR2Ojk0MmJkNDc5ZTdjNTc1NzcuZjgyM2JiZDU4NTllOGM0ZTVjMTcyMGFhMGIyMmQ5NzU1NzM4ZDlkN2JjZGI5ZTViNTI2MDI4ZDQyMGJiNjAxMg",
-          "stream_id": "92a63e7300796ab28348",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc374/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc0OjE3OTA2OTE5NzAxMjk6Y2RubGl2ZXR2LnR2OmM4ODhkYzZlYmE3MGY0YzAuNjUzYTQ2ZjE2YTQwNzE2YmU3MGRlMTJjN2FmMmQyZmJmYmIyZTQ5M2UwZGZmODhiZTNhMGJkNGFmNWRmOGMxMQ",
+          "stream_id": "845e05baff39ec6a60d9",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10231,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31030,12 +31030,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3bb/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2JiOjE3OTA2NTUxNzc1OTg6Y2RubGl2ZXR2LnR2OmUyNmU4MDQ5OGRmNTRiYjMuZDExZjlkY2U3MGQ4MmVhMDc3ZWFlMmI2YmM2NzQ0YzYxYTVjMGIwNjZmOGUyZDkyYjEwM2UyZjIxZDRiMGY0Ng",
-          "stream_id": "641ca77c1546740ff545",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3bb/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2JiOjE3OTA2OTE5NzExNjE6Y2RubGl2ZXR2LnR2OmVjNTg2MzdiZDFlNGRlMDUuMjQ1NmYzYjBjMTk2ZmE5NGEyOTk4NDZlN2YyYWExNTMwM2QzNGM2NjUyYzMzZjJmNTVkMDRhZDdiZDA0NGZhYQ",
+          "stream_id": "bd73f4adf1f85870f2a0",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -31440,12 +31440,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb465/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDY1OjE3OTA2NTUxODE3NTE6Y2RubGl2ZXR2LnR2OmM5YTgxMjhmMGVlNWQxY2EuZDQ2MTljMjNmODY2OTdkNTliZmM0ZDMwOWI1NjVmNzQ1ZmVmNDE1ZTM2ZDZhMTkxZmM1NzRhMGFlZmVmMDhmZg",
-          "stream_id": "f00f4e39e3f98e0086cd",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb465/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDY1OjE3OTA2OTE5NzUzMTQ6Y2RubGl2ZXR2LnR2OjM1MzNlNzQxNmM0YTM5NGQuMWM1MTI3MmY5NWE3ODVkZTM2NWU1OTZkMWMxMTMyMzU4NDFiYjhmZTI4ZWQyZjg5ZWFkMzlkNjQwZWFhNmU3OQ",
+          "stream_id": "0d48f6a539d577020109",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10231,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -31744,17 +31744,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "e6f209c808eb7379459e",
+      "selected_stream_id": "5d5c92fdb0454f632c8c",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf222/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjIyOjE3OTA2NTUxODI3OTQ6Y2RubGl2ZXR2LnR2OmZkZTU2M2I5ZmY4MGRiY2YuMjUzMmM0NDE5ZGY5NDk0ZmUyNGNmNTRjNjA0NWVjODE2MzMxNGQ3ODBiMDJjOGZlNzc0MjQ2YjUzZTJlNWM5Mg",
-          "stream_id": "e6f209c808eb7379459e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf222/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjIyOjE3OTA2OTE5NzYzNDk6Y2RubGl2ZXR2LnR2Ojg2MTE1YzExYzIzNzYxMjAuZjZhMGU1ODJlOTdhZmIxZTgzOGM0ZjU4Nzc4ZTg3MGJiZTE5Zjg3YjM1MmZjMTJiZTRmMzBlNTZmODhiNDYzYQ",
+          "stream_id": "5d5c92fdb0454f632c8c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31766,17 +31766,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "4358f97f9b2f65c0358d",
+      "selected_stream_id": "797284f87ae00a17698a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf223/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjIzOjE3OTA2NTUxODM4NDQ6Y2RubGl2ZXR2LnR2OjllMDc1ZDUyZWE5NWVlYTMuMzk3N2Q0NTNkZmIxYTkzNWE4MTU5N2M3ZTA3MzVlM2U4MjdlYjUxZTY4OGY4MGIwNWI0ZDJjNDliYjU0NDBmMg",
-          "stream_id": "4358f97f9b2f65c0358d",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf223/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjIzOjE3OTA2OTE5NzczODU6Y2RubGl2ZXR2LnR2OjViZmM5OTM1MGY0MGNkMTYuMDcxNjYyZDBhOGY4NWZlMWJjMmYyMmZhNzI4ODY5YWMyZWNlNDE5YzExYmU1YzU2MjE0YWFmZDA4MDY4NzFkNQ",
+          "stream_id": "797284f87ae00a17698a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31788,17 +31788,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "5d4f23ba295498364157",
+      "selected_stream_id": "d47c87818ef376eba46e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf225/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI1OjE3OTA2NTUxODQ4ODc6Y2RubGl2ZXR2LnR2Ojk2YWExMGU3MmUxYTZiMjIuNWNlYTM5YzVhMGI2YzAzYjIyZTFlY2I0MTAzZDJjMGRkZmFjYmFjM2Y3NWFjYTkzYzhiNjQ2OTFjN2JmODViNg",
-          "stream_id": "5d4f23ba295498364157",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf225/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI1OjE3OTA2OTE5Nzg0MTE6Y2RubGl2ZXR2LnR2OjFhNGJkMWI2YjJiNGNjYzQuYjZkODM4ZDBhNDc0N2YxYjE5OThmNDI5ZjhhYWI2MTEyMGE0NzRlOWE4OTkxNWNkMjVhNzAyMmUxMjc1YTQ0Mw",
+          "stream_id": "d47c87818ef376eba46e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10219,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31810,17 +31810,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "cca33b1df87517154718",
+      "selected_stream_id": "395fb77250ec0bcec3ee",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf226/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI2OjE3OTA2NTUxODU5MzM6Y2RubGl2ZXR2LnR2OmYzYTUxYzk2NGQyMTRhNGYuNGNlNDdiN2MxZjZmNGQ1Y2E5MGZkMDRjOGRlMjBiZmY1MTg1N2EwMDA3ZmYwMzZhMWEwZTdjZmZhZDA1MjNhZA",
-          "stream_id": "cca33b1df87517154718",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf226/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI2OjE3OTA2OTE5Nzk0NDQ6Y2RubGl2ZXR2LnR2OjQ2ZWUzYTg5NzQ3MTU3NjIuNzQ3Y2VmZmZlMzI1NTUzMWEwZGIyMWQxYjk0YzNlZThkNjE0YmU5NjRlOTcyOTVjYjA3Njk2MjQyZTdjYThlNw",
+          "stream_id": "395fb77250ec0bcec3ee",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10238,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31832,17 +31832,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6284d622cec8e959a578",
+      "selected_stream_id": "28148468f17e821cb284",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf227/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI3OjE3OTA2NTUxODY5NjM6Y2RubGl2ZXR2LnR2OjQ0ZDlkMjQ2NWUwZjFjODkuMzlmNjIzZTc5ZDQzNGM2NzQwNDIyZGNjYjVlODEwMTZlYjYzMjg1MWRlMTA1OTUzNTVjYWYxMmU0NzEyZjRmNQ",
-          "stream_id": "6284d622cec8e959a578",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf227/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI3OjE3OTA2OTE5ODA1MDA6Y2RubGl2ZXR2LnR2OjNmNDVjMzZhZWNkYTMwNDguNDM1ZDQ0Mzk3ZTVmZGQ5MDRlYzNkODc2MmE4OGNiOTQzOTI2YzA2NzU2ODJhYzc5ZmYzODI2Yjc3ZDNkZWQ3OQ",
+          "stream_id": "28148468f17e821cb284",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10243,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31854,17 +31854,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6faea5eb7b4ceb066c21",
+      "selected_stream_id": "ffbfbb4f0a5c5c1e3c9a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf228/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI4OjE3OTA2NTUxODgwMDk6Y2RubGl2ZXR2LnR2OjU4MzFhYmFlNDgyYjQ1ZjAuMDk5OTJkYjYyYWNiNzljYjEwMTY0NTY1MmJhMmQ5ZWNjNjQwYmY3MzBjOTE3NTllY2E3OGMzNDY0OTExMzNiOA",
-          "stream_id": "6faea5eb7b4ceb066c21",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf228/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI4OjE3OTA2OTE5ODE1NTM6Y2RubGl2ZXR2LnR2OmI0Y2VlMWJkNWM2YjQwZmUuOWZjZmJlMTFjMTg0Y2VkYTU3NDlkOTQ3MzE4ZjUzMzRjN2Q4MDNkOGJkMTljYzhiZTg2YjVmYjUzODg2YzU3Yw",
+          "stream_id": "ffbfbb4f0a5c5c1e3c9a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10235,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31876,17 +31876,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "b78bf9a9e9856dc4c751",
+      "selected_stream_id": "ed3cec4b13226fb199a4",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf229/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI5OjE3OTA2NTUxODkwMzY6Y2RubGl2ZXR2LnR2OjQ4Nzk3YmEwYzcxOTZiMmQuNDg4YjdlMzdlODhkZWM4OTIyNjU3ZWJhOTkzZTE2NDVhMjg3ZThhODY5ODQwYjA5YjljZTM3MDMxNTRiOWU1Yg",
-          "stream_id": "b78bf9a9e9856dc4c751",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf229/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI5OjE3OTA2OTE5ODI1OTI6Y2RubGl2ZXR2LnR2OmYwM2VhNTA5MjEyOWRkYzIuNjE1NmQ1M2M1NjMzZDJhMjY0MmVjNTYxYjE3MDEyN2EyOTgxNTZjYTJiYjM5Y2U1OWJiOGY3NTA2OGM1MDdkOQ",
+          "stream_id": "ed3cec4b13226fb199a4",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31898,17 +31898,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "4fd2df8b33ffffd6cdb3",
+      "selected_stream_id": "6dd4a68e52c64b43b412",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22a/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJhOjE3OTA2NTUxOTAwNjQ6Y2RubGl2ZXR2LnR2OjU0YmUxNDQyMGYyNzJmZjQuMWI1MzY3YmIzNzRjNDcyZTBhMzA5M2NmZjhhNzI5NmQ0NjI2Y2I0ZDY2ZjM3NWMyMDM1ZmI1YzA5NzE0NmFkNw",
-          "stream_id": "4fd2df8b33ffffd6cdb3",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22a/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJhOjE3OTA2OTE5ODM2MTk6Y2RubGl2ZXR2LnR2OjZlOGJlYzA4ZjlhOWI5YWQuMTEwNzkxMjk5NWUxYzBlODBhOTNmNzg1NDZiMGQ3MzJkMTI3MzZiOTNmZjUxNjJjYmM1Y2U1YzU1NjA0ODc2Nw",
+          "stream_id": "6dd4a68e52c64b43b412",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31920,17 +31920,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "2f24be608d4ecc853793",
+      "selected_stream_id": "b9825dcc76d5c044abb1",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22b/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJiOjE3OTA2NTUxOTExMTI6Y2RubGl2ZXR2LnR2OjVhNDgxMzlmNzMwMmEzZmIuMzZmOTM5MTYyOTdhMDU1NmIzNmEwYTQ5ZTIxZjk0YjZmNzQ0NzRlNmIwZTY3MzhlZjBjMzcxYWQzZmI2NzZmZg",
-          "stream_id": "2f24be608d4ecc853793",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22b/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJiOjE3OTA2OTE5ODQ2NzA6Y2RubGl2ZXR2LnR2OmNmZmQ3OGFlNmI5NjM3MmMuZTlhNDVhY2RlOWRlMDBkN2JhMzRlYmQ3ZjMwYzY4NmRiOTNjZGJlMTg0MWZmODdiZmQ1N2Y2NWJhYTU0ZjljMQ",
+          "stream_id": "b9825dcc76d5c044abb1",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10237,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31942,17 +31942,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "565ec60f7ec46fd1ce7e",
+      "selected_stream_id": "ac1c8f0670205e1a410f",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJjOjE3OTA2NTUxOTIxNTk6Y2RubGl2ZXR2LnR2OjkwMzVlNmEwMmFlMzE1MjIuZDNjNDM1OTg1NTI4MDlmMmEwOGZjZmJjYjFjZTYxYTYyNTk5MmQ2NGI4YzFlMjVmYTJiMTE3ZGQ5OTQ4MDBjMg",
-          "stream_id": "565ec60f7ec46fd1ce7e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJjOjE3OTA2OTE5ODU3MDM6Y2RubGl2ZXR2LnR2OjZmYjVlZmJjOTk2ODJiNjIuMzI0MWZkZTZlNGVhMTNiNzFmZGFlMTVkZThiODY1MjU5ZjcwZWY2ZTJjNTgwY2U3Nzk4YWQ4YzBiODVlNzY3MA",
+          "stream_id": "ac1c8f0670205e1a410f",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10244,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -31969,12 +31969,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc327/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzI3OjE3OTA2NTUxOTMyMDU6Y2RubGl2ZXR2LnR2Ojk3ZDNhYmFmZjg1OTQ4YjcuZWRlNWM5YzllZWI3OTNmZjFhYWRhYjg1N2VkYjk1ZTA2ZjkwZDZkY2YyYmUwMWRlNWQzZDUyZDkyZDY3NDcyNA",
-          "stream_id": "b13a5a962bbbb2d02e49",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc327/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzI3OjE3OTA2OTE5ODY3Mzg6Y2RubGl2ZXR2LnR2OmI2MDQ1M2MzYmJhNWUzOTQuOTcxMDZkNTRiOGFjYjNmYTNjZDVhMDRlMTY1ZjZjNGRjMDk1NDg2Mjk3NmQ3YjQ2NWVhYmQwOTI3NGI2NDBiNQ",
+          "stream_id": "66e30ed4adfe731773b3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10236,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -31997,17 +31997,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "fb614578fa36cb2259a8",
+      "selected_stream_id": "3a4334201a062ea5a0aa",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc324/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzI0OjE3OTA2NTUxOTQyNTM6Y2RubGl2ZXR2LnR2OmI2MmMyZjI5YTIzODVkZDEuYjY3MDk5MzlhZDE2Nzc2YmI3MjFjNGE1NmY4OGQ3ZmRmOTg2MDhjMGNlN2QxMGM2ZTYyNTcxODIxMTM3OGViMg",
-          "stream_id": "fb614578fa36cb2259a8",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc324/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzI0OjE3OTA2OTE5ODc3Njc6Y2RubGl2ZXR2LnR2OjcwZWVkM2NiZDQxMGM4ODMuMDI1OWYxMDNiZjFmYjIxMjRmZWQ4YzBkOTI0YmJkYjZjMzBiM2JkYzY3NmNkMWNmMmI0OGMyZjhiNmRjNTJmOA",
+          "stream_id": "3a4334201a062ea5a0aa",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -32019,17 +32019,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "3e978245413da699781a",
+      "selected_stream_id": "9e24f7cb5b57e12808f2",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3OTA2NTUxOTUzMDM6Y2RubGl2ZXR2LnR2OjNkYzdlM2EzMDNlNzBiZjIuMDBlNTc5ZmJkM2VmZTI2NjI5ZGNhM2M3NjYzMTdmMTkwMWNjMWI3NzgyMTVlMGIzMjNjNTdjMjM5ODRiYTdlNg",
-          "stream_id": "3e978245413da699781a",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3OTA2OTE5ODg4MTk6Y2RubGl2ZXR2LnR2OmJkOWYyYmI5OGNiZDIyOTYuOTg1ZDE0YzNjMDdiYTAwNTIzMzdlNWM1NDI3OGQwZTg4MGRmM2MwZjgyMDkxN2Y0YTMyYWZiYWNmNGNiMmYxYg",
+          "stream_id": "9e24f7cb5b57e12808f2",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 330,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -32046,12 +32046,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc315/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzE1OjE3OTA2NTUxOTYzMzE6Y2RubGl2ZXR2LnR2OmQzNmQ5OGQxZjEwYjhhMTUuYjQzYjk5NzRmNTJkNzk3MGJjY2YwODE4NmE3MjAxODcxMjNlYzMxNTc0MDNhY2NlZWQ2YjA2NjI4MjFhNjY0OQ",
-          "stream_id": "114eba75de13b075f906",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc315/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzE1OjE3OTA2OTE5ODk4NDg6Y2RubGl2ZXR2LnR2OjYxOGM3Njk5MzkwMjZjMTMuMzdmMjg3OThmNTdmNWY5YmJhNmRlOWFmN2YxMTMxODQ1ZDcxYTQ1MTBjNWQ4ZWY1MWIxYWU1NjQ4MWE5YzRmOA",
+          "stream_id": "bd4c7d6575ff1fdf3d9b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -32085,17 +32085,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "dbb4937b1527f6336e3e",
+      "selected_stream_id": "6d4d0850deeeb7c52b70",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc340/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQwOjE3OTA2NTUxOTc0ODM6Y2RubGl2ZXR2LnR2OjkzZDExOWY5MmU0YjUwZGIuNzVmZGExOTY1NGNjM2VhN2E0ZDA1MjI5M2JkMTQwNzYzYjFhNWU0ZTU1Y2IyMmZlYjAwMjNjNzM2YjE5NWNjNg",
-          "stream_id": "dbb4937b1527f6336e3e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc340/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQwOjE3OTA2OTE5OTA4Nzk6Y2RubGl2ZXR2LnR2OmQwMzljNTM0ZjE3Mjc4NjYuZmRhYWQ5OGNhNjljOWRjZGQ4ZmZkMzQ5YjNkYmNkODY1OWJiNWVkNmVlMGQ0YTk3MTY4NmU4NTI4ZjBmMDYyZQ",
+          "stream_id": "6d4d0850deeeb7c52b70",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10241,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -32118,17 +32118,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "2b349d014aac7cd92384",
+      "selected_stream_id": "78d9f233cf66c352b631",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFkOjE3OTA2NTUxOTg2Njc6Y2RubGl2ZXR2LnR2OjZkZjUyYTQ1OTBjMTYxZjUuMWI2NzI2MTUzYzVkMDI0YTE2ZmU2M2U5N2I4YTdiMTA2NzM4Mjg5MWRiYmEwNzNjYjY2M2MxZDdhOWFhM2ZjYw",
-          "stream_id": "2b349d014aac7cd92384",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFkOjE3OTA2OTE5OTE5MTU6Y2RubGl2ZXR2LnR2Ojg1NmJjNDMyZDBmZmZkYjEuZWRmMzk0ZjlkNmQ5OWIzMDAxMmVhNWQwM2JhYTY0NzVmNjNkMDljNjc0NWViMTA2MmNiNDY4YTYwODkzMDAwZQ",
+          "stream_id": "78d9f233cf66c352b631",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10232,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -32151,17 +32151,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ace42f81c86e9fecd32d",
+      "selected_stream_id": "d4907ac34cf8208e8847",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3OTA2NTUxOTk3MTM6Y2RubGl2ZXR2LnR2OmJhOGQxNWEwN2E2NmM4MWEuYjI2M2I3MjIzNjNkMGY0OWRkNjExMjE0NWY3M2QwYWIyYzMwMjUyODIyYjQ3MjI4MjY0MjkyZDdkMzA4N2ExOA",
-          "stream_id": "ace42f81c86e9fecd32d",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3OTA2OTE5OTI5NjU6Y2RubGl2ZXR2LnR2Ojk2ZmQwMDAxOWQzMDY3YTguOGU3MjMyNWZhNzY4MTI5ODBhNDM5YzA2ODQ4ZDUyYjQxY2VkOThkY2E1OGI5ODI0MzVkMzM2NTY3ZWQ4YTgxMA",
+          "stream_id": "d4907ac34cf8208e8847",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10244,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -32173,17 +32173,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "46d5fc0f58aed469a64e",
+      "selected_stream_id": "1a7ec4f62d1054be46df",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3OTA2NTUyMDA3NjA6Y2RubGl2ZXR2LnR2OmRmOTA2NGRjNmIwYmU5MDYuNzFlM2FjNWI0NjY4ZGU4OWU1ZGVkOWQzOWEwYjQ0ZGQ2Y2NlNjdkZDdlNDJlMTI3M2M5ODEwZTcxZWVkZDk5Mw",
-          "stream_id": "46d5fc0f58aed469a64e",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3OTA2OTE5OTQwMDA6Y2RubGl2ZXR2LnR2OmUzNDZmYmM2Yjc4MTQyNWEuZDJhMWM5N2E2MTViZmFjMDAyMWZjZWJlN2Q2OTAyZDQzMjQzNWViOTk5MzU4OWI2NDcwNWQ1OGJiZDRiZjg5Yw",
+          "stream_id": "1a7ec4f62d1054be46df",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -32200,12 +32200,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc33d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzNkOjE3OTA2NTUyMDE4MDY6Y2RubGl2ZXR2LnR2OjE3MzRiMTY2ODJjYWQ1NWYuZDMyNGJmYWUwNjVlMGFhYmY3OGIwYzBkOTk4MzJkODEyNjYxMDRmNzJkOTI2MDA3NjYwMWJhZTUzOGQ4YzFkMw",
-          "stream_id": "707bbd87b7bb9b719e5b",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc33d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzNkOjE3OTA2OTE5OTUwMzM6Y2RubGl2ZXR2LnR2Ojg0YzhkYzk4MzViZGQzMDYuMmFjYjc0YTJjNjA3NGY2NmQ3NWNjNGU3MzQzYjIzYjgwOTczYWQ1NTExNDI3YTJmNDczMGIxMTE4ZWFiNzQ0Ng",
+          "stream_id": "4b00a3aae2fabcd4ec32",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -32228,17 +32228,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "4c1c552b769a34a2b9fc",
+      "selected_stream_id": "2fb94cc32b03ec580eea",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3OTA2NTUyMDI4NTQ6Y2RubGl2ZXR2LnR2OjM2ZDNiNzdiNDhjYTgzMGIuMTY4Y2MzMzBjY2U0YTk4MjdkNzExMGIyNGNlNzFiZDM4ZDIzOWJlMTk2N2ExM2E4NDkxOThmYTQzNzFmNDBhNA",
-          "stream_id": "4c1c552b769a34a2b9fc",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3OTA2OTE5OTYwNjU6Y2RubGl2ZXR2LnR2OjBjZTk5NzdiNDVjZmMwZGMuNzZjYmYxNDVlYThkOGIzODMzMGZjYjIwNTkyMTI0ZGZkYmZiNjE5ZjM3YjNjMjE0NjhlZDlkODZlY2QxYWUyYw",
+          "stream_id": "2fb94cc32b03ec580eea",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -32250,17 +32250,17 @@
         "sky-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "62eaccfedc38bee2aefc",
+      "selected_stream_id": "7c08c34045212407205e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3OTA2NTUyMDM4ODI6Y2RubGl2ZXR2LnR2OmRkOGM5YzA5ZmRlMDA2NTMuY2QzMjJjY2U3NDk2OWNjMDUwOTI4NGIwZjBkNzk0YzY5YzYyZmE2ODFiOTQwYTM1NzA2OTk5YTAwMTJlZDI3Nw",
-          "stream_id": "62eaccfedc38bee2aefc",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3OTA2OTE5OTcxMDA6Y2RubGl2ZXR2LnR2OjRmZTEzNzAzN2MzNjExNTkuZWJlOTUzYjUxNTBmZTZiYTVlZDUyYzQ0MTBkNTNjMjQ4YTc3MWMxNDI0ZGJiMjJlN2VkMjI5NzZiZjBjYWY3Ng",
+          "stream_id": "7c08c34045212407205e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 333,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33004,12 +33004,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJjOjE3OTA2NTUyMDQ5MTA6Y2RubGl2ZXR2LnR2OjI4MGU0NGJjMDJmYzUzMmQuOGE3Nzg3MWYyYzFjMDBhMGEyNTNlMGFlODI4NmMyZmQyOWFkMTA1NzE0ZjQxYmE5MDRjOWY2MDljMTM0NjNlMA",
-          "stream_id": "bd681c52a719bacb260f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJjOjE3OTA2OTE5OTgxNDE6Y2RubGl2ZXR2LnR2OjFhNDIwZTZkMjFmN2UzMDkuOGQ1ZGIzYTg1NGEwYTExYTAyNjkzMjRjMWM1ODI1YTZhOTVkMDVlMTMzN2U4YzYxMjk3OTM2MmRkMTkwYzEzOA",
+          "stream_id": "979106b0bfe83e6928e0",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10237,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -33282,12 +33282,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3OTA2NTUyMDY5ODc6Y2RubGl2ZXR2LnR2OjBmOGJlN2Y3NjhkYjdmZDYuYjc5YzRmNmQ1MDJlMWQyY2Q5ZGE3OTNiMzhiZTUxYWNmMGM3MDM4OTMzNGI1ODA4ODI0M2M2NTQzYWU5MDIxYQ",
-          "stream_id": "0a23c49c057b2a502f5f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3OTA2OTIwMDAyMDQ6Y2RubGl2ZXR2LnR2OjYwMDgyNWZmNmJlMWRjYzYuZmRiYWEwZDMxZmU3YzY4NDIxZjFlMGQ2NGEwZjQ2MTI3MjM2Nzc2NjA3NTliMzczZjUzNmZmNzY5OTBlMWQ0NA",
+          "stream_id": "841e6411ea0a1a8368a3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -33316,12 +33316,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3OTA2NTUyMDgwMzU6Y2RubGl2ZXR2LnR2OjUzNzkzMzhhNDk1ZWM3MjEuZWQzZjFiNTAyNWE3MzgxZjdhMDMzMWU0ZWU1NmVlNzYwMTdlZGJjZTg5Y2UwMTFlMjhiOGIzYjEzZDU2ZjAxOA",
-          "stream_id": "296fa710904c7975e9d3",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3OTA2OTIwMDEyNjA6Y2RubGl2ZXR2LnR2OjhhZDQwYWM5NTkyMDJjMmUuYjAwYTQ3Mjk3YTFmYjk5MGQ2NmQ5ZGE0M2EzOTVjNjJkNDk4MTZkNGJhZTA2NzA0ODc3ZGRjOTEwODc0NGQ2ZQ",
+          "stream_id": "6561759d781f69faaac8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -33345,17 +33345,17 @@
         "sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "dc8101afe4b970004921",
+      "selected_stream_id": "7434af1d352cca3ccf9c",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3OTA2NTUyMDkwODE6Y2RubGl2ZXR2LnR2OjY2Yzc2YTFjNmM2ZjU1NzUuNTJlNjJiMzBjNjMxODJlMTdlNmY1Yjk5MWZhOGViOGJhMTUzYzIwYzdhNGEyODQyODY0MDMwMzU2YzIzOWIyZg",
-          "stream_id": "dc8101afe4b970004921",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3OTA2OTIwMDIyODc6Y2RubGl2ZXR2LnR2OjAyZWRlOTQ2NjczNDEzODIuY2RjMjNkNGEwYTA1NDk0Y2U3NjFhMzk5MWQ4ZGQ0MGZkZjRhMTZhZmU3N2RmYjM5ODE3MmNhMDk4NTYyMDA1ZQ",
+          "stream_id": "7434af1d352cca3ccf9c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 331,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -33378,17 +33378,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "cc297fe04fcf4b20f761",
+      "selected_stream_id": "7bded66a3547164e92fe",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2bc/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJjOjE3OTA2NTUyMTAxMzA6Y2RubGl2ZXR2LnR2OjExNTU3MjQzNDU1MWZiZTEuMDdkYTJhMzg2M2EzOTgzYzA5YzkzMjVmOGI0ZTkzNGMxZjhkNDM3YWRkYWViMTlmZjg2ZTUxZTM4M2UyOTU0Mg",
-          "stream_id": "cc297fe04fcf4b20f761",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2bc/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJjOjE3OTA2OTIwMDMzMzQ6Y2RubGl2ZXR2LnR2OjFmNWVkODMxNzI0NWEyYTUuNWQ1MWJhMWVlYzliZmM5ZGJjNjAwYTcyMTY3MjQ3OWMyMjEwODFhZGQ4MWRmNTRjMDY3ZjQyNzBhNjlmOWZiMQ",
+          "stream_id": "7bded66a3547164e92fe",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10227,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33400,17 +33400,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "05db9a9745929e66ac9b",
+      "selected_stream_id": "a5a849b52090f1dc2769",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2be/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJlOjE3OTA2NTUyMTExNTg6Y2RubGl2ZXR2LnR2OjBjMTRmNjU4ODQ4OTkwNGIuNzViMGQ2MjA5NThmOGU2ZjFkOTYyNGIzODQ4MmJmNzZhY2JkMmI0MWU0N2ExMzI0ODFkMDQ2Njg1NmFjNDVhMg",
-          "stream_id": "05db9a9745929e66ac9b",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2be/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJlOjE3OTA2OTIwMDQzODI6Y2RubGl2ZXR2LnR2OmIwM2Q3Yzk3NmQyZjNhYjcuODlhNWExZDE0MzE0Y2E3ZmNlOGE1OTgxNTUyYmVkMWNjMzlmNGI3OTc4ZjZjNWNmYmQ2MWRiYTAwNTMyZTQ3Mw",
+          "stream_id": "a5a849b52090f1dc2769",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10242,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33422,17 +33422,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "177bd5ba81093dd1afd2",
+      "selected_stream_id": "63df2351ef98a6c72912",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2bf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJmOjE3OTA2NTUyMTIyMDM6Y2RubGl2ZXR2LnR2OjA0NWJlNDZkNWVjOTNlM2EuODk3N2EzYzUwOGExNWQ3MDFhM2NiMzgyNTZmZGY3MDQ1OGJhYjM4ODQwY2Q0NjExZThhZDUyMWUzODdmMDJmZA",
-          "stream_id": "177bd5ba81093dd1afd2",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2bf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJmOjE3OTA2OTIwMDU0MjA6Y2RubGl2ZXR2LnR2OjA5MWE2YjU5NjA0YWRhZWIuMDg2N2U3NDNiMzdmMDE3MWRmNGNjYjBhYzExNjAzNDRmMmU2MjdmOTFiZTQ1ODI3ZTUyZTkxMDgyYTMzOTZkOQ",
+          "stream_id": "63df2351ef98a6c72912",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 324,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33466,17 +33466,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "63a4bb26237de6be3db8",
+      "selected_stream_id": "6c376343758ee762c41e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3db/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RiOjE3OTA2NTUyMTQyNjA6Y2RubGl2ZXR2LnR2OjE4YTIyNTYwNzIwMDBjN2EuYjJmNDE5ZWMzYzdjNDZlZjZlN2UxYmUyODJhZWMyOWU5ZWExZDM2Njg1NDBiNDkzN2EyODMyMGNjNGQ2ZjdhZg",
-          "stream_id": "63a4bb26237de6be3db8",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3db/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RiOjE3OTA2OTIwMDc0ODA6Y2RubGl2ZXR2LnR2OmZjODY5N2Q5NzBkZDQzMTcuMjBlNjYyMmFkYzNlZjY5ODdkYTNhMjY1MjA1NGIxMzNhMGU5MWZiNmFmMzZlMWM2OTU1NzJmNTY1ZmM5ZWYyYQ",
+          "stream_id": "6c376343758ee762c41e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 326,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33488,17 +33488,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a27d54e86dd1a6265c7a",
+      "selected_stream_id": "b815cd7a1f7f07738780",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3dc/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RjOjE3OTA2NTUyMTUzMDg6Y2RubGl2ZXR2LnR2OjJiNmQ3MGQ5ZDllNWJjNWIuNDE4MDY4OTQ0MWFmMjRjYWE1NDQ5OWVhMWU1OTRlNzI3ZWM5NWE2OTU3NDk3OWQ4NjE2M2JhMGY5MGE0YzdmNQ",
-          "stream_id": "a27d54e86dd1a6265c7a",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3dc/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RjOjE3OTA2OTIwMDg1Mjk6Y2RubGl2ZXR2LnR2OjFkYWVkNDk2Y2Q0NjczY2IuOTM5MWM3ZTVhY2Y3MDA3Nzk1NWRmMDEzYTA4YTUyNjg0MzRhODEyNDI3Yjg1NzI5MWFmODM4ZjNkMjQ0YmViMg",
+          "stream_id": "b815cd7a1f7f07738780",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10225,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33510,17 +33510,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "df55950eef0ed9b52452",
+      "selected_stream_id": "ef0ebf610ef31450fd12",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3dd/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RkOjE3OTA2NTUyMTYzNTM6Y2RubGl2ZXR2LnR2OmQ2YzE2Y2IzYTAyZGFlYWYuOTdjZjMxODVhN2U4MmE1ZTZlOTAzZjk1YzBhNDkxNmFlMjNiM2UxOWE5MjQyMDEyNWUzMmUwZjFiZWYwMGY1ZA",
-          "stream_id": "df55950eef0ed9b52452",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3dd/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RkOjE3OTA2OTIwMDk1NjM6Y2RubGl2ZXR2LnR2OjcyNmJmMWIxMTM5YjM0MWUuOGEwMmExOTRlZTMwMzMwYzFmNzFiMWQwYzM5YzI0MzI1YmIwNzQ5YTVhODMyMmE5YWU4MzkzYzE5ZGNmYTk5Nw",
+          "stream_id": "ef0ebf610ef31450fd12",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33532,17 +33532,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "98ba5c28e99ecda74c24",
+      "selected_stream_id": "cce8f97ecd0ec11cb397",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3de/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RlOjE3OTA2NTUyMTczOTk6Y2RubGl2ZXR2LnR2OjQ5N2U1Y2EwOTgwZjAwYzcuMjNjNzUxNjkyOWE2MmVkNTRkOGRlNGJlNmEyNTNkNjhiMjUzMDU1MjU2YmNiNDAxNGNhYjQwNDg0MDdjYjVhNg",
-          "stream_id": "98ba5c28e99ecda74c24",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3de/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RlOjE3OTA2OTIwMTA1OTE6Y2RubGl2ZXR2LnR2OjU2YjFlNTU0YzUxMjg0MWYuN2E4MWFiNmU0NjA0YWQ3Y2U5MDQxYWRhYjAyZmRlYWRmOWFmM2M1MDY5NTNkOTI3M2YyYTM2MzVhNTcyZGMxYQ",
+          "stream_id": "cce8f97ecd0ec11cb397",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10227,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33554,17 +33554,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "be4e24074ab62f785c85",
+      "selected_stream_id": "91088dd370c43158a77a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1ee/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWVlOjE3OTA2NTUyMTg0Mjc6Y2RubGl2ZXR2LnR2OjlkOTgwNWQ1Njc1ZjAzNzUuZGFjNmUzNDMzNDJmNmU1ZmQwOGIxMzZkNzIxMTUxM2FhY2U1Yjc4ODAwNTAxYWY1ZDFkYzMzMWIyMDE0MTgwMQ",
-          "stream_id": "be4e24074ab62f785c85",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1ee/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWVlOjE3OTA2OTIwMTE2MzY6Y2RubGl2ZXR2LnR2OjZmMzA2NDZmNjg5MTk2M2UuMTlhNTI4MDg5ODRlN2VkN2ExMTk1M2U1ZDg2ZWQ1MmFiM2FjMGQ2MjNhYjlhYzNmZmVkNWFiYjdmZWM0ZWVlNQ",
+          "stream_id": "91088dd370c43158a77a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10244,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33576,17 +33576,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "99c0d3a13f9c701beb20",
+      "selected_stream_id": "062906c415330508b028",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1ef/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWVmOjE3OTA2NTUyMTk0NzE6Y2RubGl2ZXR2LnR2OjVlMjM4YmYwYWZhNzhlN2IuOTZjZWY0M2I5MjgxNmRlMGExNGNjMTg1MzQzYmUxNGNkNTg0MWRjOTc1ZDdkYWZkYzFmMmQ2OGJjMTI4NzRkMg",
-          "stream_id": "99c0d3a13f9c701beb20",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1ef/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWVmOjE3OTA2OTIwMTI2Nzc6Y2RubGl2ZXR2LnR2OmMzN2NhNzE2MzRjODk2NWQuNjJjM2IwYjFhMjE1MDVjMTE2OGZjNjEyYmQ5M2ZjNmJiMzQ0YTdiZTI4MGUxZWFjNDZkMDVkZGFhNTg3M2UxOA",
+          "stream_id": "062906c415330508b028",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10243,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33598,17 +33598,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6d483df1cddcfae442ee",
+      "selected_stream_id": "54051fb913a561285bb3",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f0/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYwOjE3OTA2NTUyMjA0OTk6Y2RubGl2ZXR2LnR2OmZhZWIwNGNhZWE0M2M3NTEuZmU4MGZiNTZmYzVlZTBmYjI4MjMxNjJjOGIzMDRjZmFlZDQxNTIyYTgwZmExOWM2ZmQwZDU5OWI1MzlhZmRmZg",
-          "stream_id": "6d483df1cddcfae442ee",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f0/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYwOjE3OTA2OTIwMTM3MTI6Y2RubGl2ZXR2LnR2OjI4ODViNzk2YjlhZGUwODIuNWUxMjcxYzc0MGU4NmRhZWIxYTExNjdkNjI1M2JiODc2OGNjYmJhZjc0NDU2OTUxMzQ3MDRmMzFjNmU5MzIzZA",
+          "stream_id": "54051fb913a561285bb3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10250,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33620,17 +33620,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "55d10aa2c645520c18f8",
+      "selected_stream_id": "fc5a0e02d070b8b3d6a4",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f2/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYyOjE3OTA2NTUyMjE1Mjk6Y2RubGl2ZXR2LnR2OjUwNDI1NWFiZTk1YzU4NDIuNWUzMmViMGM3YTY3ZjE0OGIzZTJhMTJhZWVjM2NlMTY1YWY5ZjNmMDEwMjA3MzVmZTY3YzRmNGE4ZjllNDU4Ng",
-          "stream_id": "55d10aa2c645520c18f8",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f2/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYyOjE3OTA2OTIwMTQ3NDA6Y2RubGl2ZXR2LnR2OjI3ZDgyZjJiMWVmZmJjZjkuODdlYWE0YzE4NWU4NjkxM2U3Yzc0NGQ1NDgzZWEyM2ZmOTJkNDAzMGUzODRkYTBmMDgxYjg1MTU0YmQ1NzE5Zg",
+          "stream_id": "fc5a0e02d070b8b3d6a4",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33642,17 +33642,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "ba5802219abba229c670",
+      "selected_stream_id": "16488b17ad9b11a6f62a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f3/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYzOjE3OTA2NTUyMjI1NzY6Y2RubGl2ZXR2LnR2OmQwYTYzZDVkZmY3ODAwMGIuZTVjMDBiZDM3NDBkODFjNTBkN2MxMTk3NDM5NWNmMjUzNWU5NjcxMGYyODc5OTJlMzc5YzhlZDA0MmUwMGQ3OA",
-          "stream_id": "ba5802219abba229c670",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f3/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYzOjE3OTA2OTIwMTU3NjY6Y2RubGl2ZXR2LnR2OmEyNjFlMDcyNGE1ZDFmOTcuNjE3NGJiMTgxMWE3ZGVhMWQyYjYxMDRkMzljZjBlMGNhMzFmZDg3Zjg4NzQxZGNiYjBmOTU0ZjFjMTVmMDIwNg",
+          "stream_id": "16488b17ad9b11a6f62a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33664,17 +33664,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "9b312ab486a68e466969",
+      "selected_stream_id": "0b0853f60e358388c156",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d7181d8192bb76f76fb/playlist.m3u8?token=NmEyODhkNzE4MWQ4MTkyYmI3NmY3NmZiOjE3OTA2NTUyMjM2MjI6Y2RubGl2ZXR2LnR2OmRmMWU1MzE0OWY1Zjk4N2EuOGM5MTA4Y2NiOWJhZjc5Y2UwMjAxZTZiOTUyYzI3NWUwMGFjNTYzMDY5ZDRmZTgxM2IwNjkyMzA0MGM2M2EwMw",
-          "stream_id": "9b312ab486a68e466969",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d7181d8192bb76f76fb/playlist.m3u8?token=NmEyODhkNzE4MWQ4MTkyYmI3NmY3NmZiOjE3OTA2OTIwMTY4MDE6Y2RubGl2ZXR2LnR2OmI5Njg2NDBhNDdiMDI0YTIuYTMzY2E2ZDU4MzViOTE1M2ZiZWU0M2Y4ZjJlYjQyNjg0ZmQxZjNmZDZiMjA2YzFiYWU0ZmI1NDdiYTFjNTY3Yg",
+          "stream_id": "0b0853f60e358388c156",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33686,17 +33686,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "18937ba2ae42640184e9",
+      "selected_stream_id": "478ad67c4bdfabf017b6",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d7181d8192bb76f76fa/playlist.m3u8?token=NmEyODhkNzE4MWQ4MTkyYmI3NmY3NmZhOjE3OTA2NTUyMjQ2Njg6Y2RubGl2ZXR2LnR2OmI0NzlmZDg3NGI2YTliOWQuMTQwYmU2OGY3ODRlNmJhZTJjMTkwZGVhN2FiODE1ODk4ZjVjNGRiNGM3MjA4YTQyOTJiYWY2Yzc1ZTYwYTM2Ng",
-          "stream_id": "18937ba2ae42640184e9",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d7181d8192bb76f76fa/playlist.m3u8?token=NmEyODhkNzE4MWQ4MTkyYmI3NmY3NmZhOjE3OTA2OTIwMTc4NDI6Y2RubGl2ZXR2LnR2OjM1NDQ4MmEzZmI4MDQ5OWQuOWJhYTgzZTgxOTJlMTRjNWZmMjgzOGYxMjI5Y2EwMWE2NDMzZDcxYWU1OWExNTkzNjE3YTI0MTFjOWVmNzIyOQ",
+          "stream_id": "478ad67c4bdfabf017b6",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10240,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33708,17 +33708,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "00d1a3eeed3a53ec2717",
+      "selected_stream_id": "2d6b2567bc45469853ac",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d5/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q1OjE3OTA2NTUyMjU2OTg6Y2RubGl2ZXR2LnR2OjdiYzA5NzhiZGJkNWY4NWQuMmY1NDhlNTExYmU3OTgzNDE3ZTk4NWMxMzYyYzI2MDZmYWM2NGEzNTFkZTc5NzZiY2YyMDY3MDc5ODcyZjQxMg",
-          "stream_id": "00d1a3eeed3a53ec2717",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d5/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q1OjE3OTA2OTIwMTg4ODM6Y2RubGl2ZXR2LnR2OjJjM2VhZDZhNzMxMWVjM2EuMjRhZTg5YzQwYzBhZjg5NTA1NzEyOThhNGJmZWU3NmU0MzIxNzcyOGUzOGY1MDUzOTcyYzAwZmIxNjIzNGY5ZQ",
+          "stream_id": "2d6b2567bc45469853ac",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10238,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33730,17 +33730,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "eca0e971460e91738742",
+      "selected_stream_id": "46762354c227686a6ef8",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d6/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q2OjE3OTA2NTUyMjY3NDI6Y2RubGl2ZXR2LnR2OmI4ZWNhOTcxYWRiMzU3OTIuYmZkMzMxNDI5NWFhMjNhZTNjNmQ2ZTllNTQ3NTZiYzBjMjM4YmUyMTYzYjkzNzAzZTg0NDcxOWQ1OTg2YTYxYw",
-          "stream_id": "eca0e971460e91738742",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d6/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q2OjE3OTA2OTIwMTk5MTA6Y2RubGl2ZXR2LnR2OmRhZTJmMmZmNGJkMzQzZmMuMzQ3NGIxMDIxYWI1YWI5MWRhZWI4NjZlMGQwZGMzYzQ1MzFmNTA5NmE5Y2JhMjM5NmI0Njg1MTdiMjI0M2E5Ng",
+          "stream_id": "46762354c227686a6ef8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10239,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33752,17 +33752,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "96e86acc099a6b92df47",
+      "selected_stream_id": "c86d55bd09a64605c401",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d7/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q3OjE3OTA2NTUyMjc3NzA6Y2RubGl2ZXR2LnR2OjA0ODU0NjM1OWY3ODkzN2IuZjAyMmEzZWYxNGNiOGY5YjRkOWNjYmE2MTdlYmE3ODdkNjU1Njk0Njk0ZGY2ZGE3ZWNmYzFkOTg2YzI3YzIwYw",
-          "stream_id": "96e86acc099a6b92df47",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d7/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q3OjE3OTA2OTIwMjA5NTg6Y2RubGl2ZXR2LnR2OjA3ODJjN2UwYWE2YTIyNzcuYmIwZGU1OTQ1YWM0NTFlY2VhYTI1MjFiODgzMTUyNjhlZTI3NDhjNDI0NjFjYjdiMzc3OGEyNmY3N2IzNWNkOA",
+          "stream_id": "c86d55bd09a64605c401",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10241,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33774,17 +33774,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a603b06262b226a9c03d",
+      "selected_stream_id": "d1a7740c0bb317dc4571",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d8/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q4OjE3OTA2NTUyMjg4MTY6Y2RubGl2ZXR2LnR2OjFhMmI0MjE5NmMzY2ZiMGUuZjg0ZjBkZjAzNjdhOThmYmM0MWI1NDQxMDgxOThlNzk0ZjdlNTJjYTQ4ODMyMDY4OTdjYzI5YjE3NTdhMmE0NA",
-          "stream_id": "a603b06262b226a9c03d",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d8/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q4OjE3OTA2OTIwMjE5OTg6Y2RubGl2ZXR2LnR2OjIwZmRiMjI4M2FhMzRlZWQuZWUwNWY0YWE1MzhmOGZjODY4MjIzYTU3MmEzNjNmMDc5MmEwM2IzMDA5MjlhZWI2ZDI5MDhiNGVkODA5NmIwYQ",
+          "stream_id": "d1a7740c0bb317dc4571",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10235,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -33796,17 +33796,17 @@
         "stan-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "fc3787011aa486a02f9a",
+      "selected_stream_id": "b96096a746a92bac251b",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3da/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RhOjE3OTA2NTUyMjk4NjI6Y2RubGl2ZXR2LnR2OmFmYzRmY2JlYjBmMTA4MWIuMGRmZjI1MGExNjM1ODE0MTk1YTI5ODY2MGNiYWM5NDg4M2RkN2E2N2Q4ODY1N2RlZmJmZTJiM2U1ODlkYjc3Yw",
-          "stream_id": "fc3787011aa486a02f9a",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3da/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RhOjE3OTA2OTIwMjMwMzQ6Y2RubGl2ZXR2LnR2OjljZTc3OGMxMzcyMzJkOGMuOTQxMzlhNTQ3MmI0M2Y1NWIzNWE0OWQ1OWU3M2E1N2QzZmM2Mjg0ZmExNDdkYjUzNzU2NzI0YTJkZDQ5NjhmZg",
+          "stream_id": "b96096a746a92bac251b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10231,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -35212,12 +35212,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb294/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjk0OjE3OTA2NTUyMzA5MDY6Y2RubGl2ZXR2LnR2OjIwMzcxN2ViNjQ5ZGEzMTAuNWExOWI0ZWQzMmUxYTFkZDFmMzEzYTA1ZWY0NGRhNGY2MGE3YjhmZjE4Y2ZlZmFmYjMwNWI0MTYzNGZjZTliNQ",
-          "stream_id": "87fbfc8cfb296d43948a",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb294/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjk0OjE3OTA2OTIwMjQwNjI6Y2RubGl2ZXR2LnR2Ojc2YTFhZjhhOGYxOTAwOWQuZmNkODNmYjY5M2M1ZmFhY2NiYTVmMDY0MWZkODU1MmRkOWYzYTg2MWU2OGE5ZTM2NmM0MWNmN2JlY2Y3ZGVhMQ",
+          "stream_id": "2fc2b0ab849e4c30d7d1",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10238,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -35520,12 +35520,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf029/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMDI5OjE3OTA2NTUyNTA2NzQ6Y2RubGl2ZXR2LnR2OjJlNjU3MDRmYmZmMmEzM2UuNTY2NTYwZDM5ZDQ2N2ViMGU0NGU4MGRmNjc4NTU1Zjk3YWU2NmJiNzk3YTYwNzA2NWZhYzhjNjZlYjg0ZTE0MA",
-          "stream_id": "839bc79b1e3e06f4241d",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf029/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMDI5OjE3OTA2OTIwNDM3MjI6Y2RubGl2ZXR2LnR2OjEzZjg0MWVmYWY5ODBiODYuYWJiZGQ2ZTIwN2EwMTU2NzNkM2I5NmU0OTFlOTFmMDJlZDJhNjFiMGZkZjQzODVhMDc4YTFlMGMxYTY1YjE3Zg",
+          "stream_id": "28c9995e6cb78ae183fb",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -35653,12 +35653,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ee/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWVlOjE3OTA2NTUyNTE3MTk6Y2RubGl2ZXR2LnR2OjIzYWU5MzE2ZDNmNjQ2MjUuMDE5NzZmMzVhYmFkZjk0ZjZlMGU4NzFhNDg1NjMwODAzZmVhYzkyNDA3ZGNiM2Q2MWNmNjk1OTJkY2M2NjE0Mw",
-          "stream_id": "fff71decfca3bca7d2d6",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ee/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWVlOjE3OTA2OTIwNDQ3NzU6Y2RubGl2ZXR2LnR2OjU1NDY2MGIzNTQ2MzIyMGIuY2IyZTRkOGRjMGJjNTU4ZDdjY2E5MmVjNzRmOTg3OTRlMjVkYWU3ZWI4YTYxMTJlMDZkMTY3ZTc4ZjYxNWUzOQ",
+          "stream_id": "99b4fb2a87e47e71a870",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10227,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -35714,17 +35714,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "30003c0a506d2919d8ed",
+      "selected_stream_id": "45caca6b5e95ada027eb",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb619/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE5OjE3OTA2NTUyNTI3NjQ6Y2RubGl2ZXR2LnR2OjQ5NTZiYzA3ZTM1ZWI3OGUuYWYyMjNiN2EwMDljYWY0NjcwNjljMzg5ZjNkZjU0MjEwZTM2NjAxNGNmMDIxYjkwZjM2MzE3N2ZiMzE4OGMxOA",
-          "stream_id": "30003c0a506d2919d8ed",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb619/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE5OjE3OTA2OTIwNDU4Mjc6Y2RubGl2ZXR2LnR2OjE0NTExMjBiMDRmMDYxZTguZjdjZTgwYmJmOTI0NTQ5YjFjOWQ0ZGFkZjViNTk1ZDFlNjAxMDI1MTZiNDM4MmY0ZjBiNWNkNWM3YWU5ZWQyYg",
+          "stream_id": "45caca6b5e95ada027eb",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37181,17 +37181,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "37dac3df15f981e41bb7",
+      "selected_stream_id": "f991f00dd324ee79fdc0",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc344/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ0OjE3OTA2NTUyMzQwMTE6Y2RubGl2ZXR2LnR2OjJjMTM0ZDQ2ZDNmNGIyOTEuNTk5MWNlZDU4NTRjMjc0YTJkYmRiMGJkMThlYjllN2ZhZDk5MTMyNzQ1MmFiMzQ5YTkyZDU2NTEyODdkNjAxNg",
-          "stream_id": "37dac3df15f981e41bb7",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc344/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ0OjE3OTA2OTIwMjcxNTI6Y2RubGl2ZXR2LnR2OjBkMjg4NTRkZmUxYTY2YzUuYzVmNTlhMGYwODAzYzY1MTgxZGRlODU1OGYzOTBkOWY5NzM2NTYwY2NhNzlmYzE1NjAyMTY5ZmMyZDllNjBkMw",
+          "stream_id": "f991f00dd324ee79fdc0",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 332,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37203,17 +37203,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "67904a69f2923013e3fe",
+      "selected_stream_id": "4427ca0b8bb5e4dce6c3",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc347/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ3OjE3OTA2NTUyMzUwNjg6Y2RubGl2ZXR2LnR2OjljZTNjZTFlNmYxOTA2MTguNTgyNjZlZWM4NDNhZGJjNzMzOGQ0NWY0OGM1NDMzYzg2Yzk1NzcwZDc0YTM5ODgyMjI2NDlhNmJkNDgyYzEzYw",
-          "stream_id": "67904a69f2923013e3fe",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc347/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ3OjE3OTA2OTIwMjgxOTI6Y2RubGl2ZXR2LnR2Ojc2ZGRiOGZhMmRmOWIzY2YuZDU0NDNhMjI1NmU0NGIwMzE5ODc4MmE4ODU0ODk3MDg1ZjM4NGEyZDdjZjM1MDlkZjBjMjU5N2E5ODA1MGZjNg",
+          "stream_id": "4427ca0b8bb5e4dce6c3",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10229,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37225,17 +37225,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "7b64a9a0e294df9506b3",
+      "selected_stream_id": "2ca8bf3a016e4d61399c",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRhOjE3OTA2NTUyMzYwOTY6Y2RubGl2ZXR2LnR2OjVkNTk4NDI5YWU0NjQ5ZTAuZjZjNWFiODBjOGU4OThiM2FlZTMyNWM5MTRmNjIzZDRlMzUyNDlmMDU4Y2YyZjdhY2RjYzcyOWNkYmU0NWY2NA",
-          "stream_id": "7b64a9a0e294df9506b3",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRhOjE3OTA2OTIwMjkyMzg6Y2RubGl2ZXR2LnR2OmQ5OGM2MDBkZTA4N2ViOWQuOGI0ZjAxZjFiNDEyMThkNjRiMGU4OGUxNTExZGVmZjEyOTk2ZTg1YTJhOGU0MDE0MThiYjQyNDRkZGM1NWU5Zg",
+          "stream_id": "2ca8bf3a016e4d61399c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10221,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37247,17 +37247,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "1f6147d3160a82ffa4b2",
+      "selected_stream_id": "13e66fd0d69ca8bd6155",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3OTA2NTUyMzcxNDI6Y2RubGl2ZXR2LnR2OjAzNzZmODM3ZWVlNzMzNzEuZTcyOWJkODEwNDczZmVjZjA2N2Y5MTQwZGRjMjIzNDNlZDhhMWMwZGE4M2ZmMDExZmMzZDYyM2IyMGEwM2NlZA",
-          "stream_id": "1f6147d3160a82ffa4b2",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3OTA2OTIwMzAyNzE6Y2RubGl2ZXR2LnR2Ojc1MjM0MzU0NDA5MTY2NzEuNGQ2YTMzMjIzZTM5YmE5YThhYWQ1NGU0NjZkNTMzZDI2NDMwM2E1ODBkNzE1MmU5ODQyMTYxNzIwOGI0YzI0Ng",
+          "stream_id": "13e66fd0d69ca8bd6155",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10230,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37269,17 +37269,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "a36c073ca79eca7fa0af",
+      "selected_stream_id": "1f416e80ad19bd27f1c0",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc350/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUwOjE3OTA2NTUyMzgxOTE6Y2RubGl2ZXR2LnR2OjUwZDc4NWVhOWQ1MDk0OGIuNjBiOGIwN2FkNDAyYjljNjU4Yjk4ZmRiMDEwODBiMGEyZWQzNDc5NGRjMzM2NzcyMjk1ZmE4ZjdmNzRmNTFlYg",
-          "stream_id": "a36c073ca79eca7fa0af",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc350/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUwOjE3OTA2OTIwMzEzMDY6Y2RubGl2ZXR2LnR2OjVjYWQzYjk3MjQ1NmJhMDYuMGJhMDkxOWQwYjY1YTZjNDQyNDViMDhjMTI4NDVlNjhkZGI4MTk0ZmFmZGJkOWI0MDk2YTJhZDI4NzU3ZTZlNQ",
+          "stream_id": "1f416e80ad19bd27f1c0",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10228,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37291,17 +37291,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "7b6731cc3f4ebce0138b",
+      "selected_stream_id": "a0533335d9fc4b404ad0",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc351/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUxOjE3OTA2NTUyMzkyMzg6Y2RubGl2ZXR2LnR2OjBkOGY5YWJmNTk1ZDJiMWMuODY2YjI5NzhlODZkYzlmNGMyZGM0NDBiMGZlNGY4MjVhNGJmMjI2ODk3MzhlOThmYmU5ZTYwZjBiM2QzZTlhYQ",
-          "stream_id": "7b6731cc3f4ebce0138b",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc351/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUxOjE3OTA2OTIwMzIzMzk6Y2RubGl2ZXR2LnR2OmUyYTk4MjU1MmVlNzhkYmMuM2VlNmYxMjg1NzlhZWE4OTUwODAxNGQwYjZkYmY5YmVkM2Q5ZmE0NTgyMDM2MDdhM2I3MWEyNTlhNmU1MWNlNA",
+          "stream_id": "a0533335d9fc4b404ad0",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10222,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37313,17 +37313,17 @@
         "tnt-sports"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "87c7055f5aaa1629420a",
+      "selected_stream_id": "c6cc65dcc855ed7ae07a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc353/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUzOjE3OTA2NTUyNDAyODU6Y2RubGl2ZXR2LnR2OjVmNDJlNDgxZjIxZTFlMjEuNjAzNTg3OWFjZmQzNGI3NWFjNzIyMDMxNTkzZmUzOWNhMjIwY2Y5NmVmOGEzMzkzMTczNGYzYzcyYjhhYzkzNA",
-          "stream_id": "87c7055f5aaa1629420a",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc353/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUzOjE3OTA2OTIwMzMzNzI6Y2RubGl2ZXR2LnR2OmQzY2FlNWEwMjA3Y2IyN2IuZGMwMTJhNjRkYmIxY2E2ZjU0ZTk1MzAzZTQ3NDE1MmE5Y2JmYTE1OTc0NjY2ZTIyMWU5NzNhN2NlZDcyYjUwOQ",
+          "stream_id": "c6cc65dcc855ed7ae07a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10234,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37555,17 +37555,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "c0c5b3ca8f397c98a3b5",
+      "selected_stream_id": "b159c6f0621cba86df87",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb618/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE4OjE3OTA2NTUyNTM4MDg6Y2RubGl2ZXR2LnR2Ojc4MjAyOWRkMjk5MWQyNTAuMjMwMTIzZmQzNzliMDYyYWY2MWRiYzkxYjhjN2I5MzZiM2E0YjcxMTIyYjhiZTU4NmNiZmViNDk5OWI5NmE1MA",
-          "stream_id": "c0c5b3ca8f397c98a3b5",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb618/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE4OjE3OTA2OTIwNDY4NjE6Y2RubGl2ZXR2LnR2OmY1YjQ1OTRjZGIzN2EwOTkuYWYyMDY4ZTEyMzUwMWRmMGI3YjAxNmFlZGVlZDhiZWE4Y2M2ZGZkMTdlMTk4NTc2Njk5MmEzNGNmMTRmMjdjMQ",
+          "stream_id": "b159c6f0621cba86df87",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10235,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -37808,17 +37808,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "f012a4a6c9631037bc1f",
+      "selected_stream_id": "540aa7a61e5bb8f66538",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6c6/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmM2OjE3OTA2NTUyNTQ4NTQ6Y2RubGl2ZXR2LnR2OjkyOWY5ZDU3ZWNkNTIyODYuZGIwOTk5MTgxOTA2NjFjYjQ2OWJiM2NiMGQyNmM3NjdhZGQxMWE0YTVlM2YzNDE4YWFmNDJmODU2MTgzYTYzNw",
-          "stream_id": "f012a4a6c9631037bc1f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6c6/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmM2OjE3OTA2OTIwNDc4OTU6Y2RubGl2ZXR2LnR2OmQzNGY5MmU5NzA0YWU3MmQuODFiYTQ2Y2M0YTc1YTc4YmVlZDY3YWUwYjE5NmYzYzZkZTQyODQyNTE4NGJhYjk5YjhmZTQ4MTJhNjRiMmQ2Yw",
+          "stream_id": "540aa7a61e5bb8f66538",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10226,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -37934,12 +37934,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb2a1/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMmExOjE3OTA2NTUyNjk0MzU6Y2RubGl2ZXR2LnR2OjNmNDczOTEzNTkzMzM5ZGEuODBjNzlmNWE2NzY5MGJmNDdiN2M2ODkxNjBhMzUzZjdmMWVmZDgzYTIyM2VmOGE3MzE3NTNlYzYyMWIzZTQxNg",
-          "stream_id": "a89977f450d55fd49818",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb2a1/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMmExOjE3OTA2OTIwNjIzNzc6Y2RubGl2ZXR2LnR2OmEyMWVlODhhNjNjMzBkN2MuMmNmMjYzNDZjZWU3NWRjMWRmZTE3NGU4OGZiNjViZDA1YzQyNDM2YjdiOWM5NjA2OGRhZTJmMDU4M2U3YjljMg",
+          "stream_id": "c580ed2b409d46da995b",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -37984,17 +37984,17 @@
         "tsn"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "c3b8ef69336a88682958",
+      "selected_stream_id": "2a9804492931a03a78cd",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc172/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcyOjE3OTA2NTUyNDEzMjA6Y2RubGl2ZXR2LnR2OmYzMDUyZjMzMmRkNzJmNzMuZDJlN2RkMzY3YWE3OGNjNDBhNzcxZTA2MmMxNTE0NDc3YTMwNjY3ZTk4NWM1YWRlOTY1NmUyZDRmM2E0Y2YyMw",
-          "stream_id": "c3b8ef69336a88682958",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc172/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcyOjE3OTA2OTIwMzQzOTk6Y2RubGl2ZXR2LnR2OjBiZDFiMGZkMGMxNzM2MjcuOGU1NzQyZGFlZmE2ODcyODM1MzY1ZDJjZWVlYTVhYjc4N2M1YTM5ZDcyMTJmMTIxNDMxMWU5YzE2NzEwOWU2ZQ",
+          "stream_id": "2a9804492931a03a78cd",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 332,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38022,12 +38022,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc173/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTczOjE3OTA2NTUyNDIzNTI6Y2RubGl2ZXR2LnR2OjBlNTNkNjk1NzNjNjRmYzIuMDE4NDcwZTM2OTFkY2I2ZDA2YTljNDllYjNkZTVjMDliOGJlNWMzMTc2YTg4MmY0NmZlOTQxNjQwYTk2ZWNkYQ",
-          "stream_id": "c54bfe555bd62060f419",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc173/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTczOjE3OTA2OTIwMzU0NDU6Y2RubGl2ZXR2LnR2OmM3NzM3MzczZjE1MThjNWQuMGNjZGZjY2M2ZmM5NmFhNzlmNzdjZDA4ZjhmOWRhM2YzM2JhMTQ4ZDlhNWU3Mzc4MTRjNDYyOTgyOTU3M2QwZg",
+          "stream_id": "66692c98249faae68702",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 328,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38050,17 +38050,17 @@
         "tsn"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "27f7a3948cb9dd7b931f",
+      "selected_stream_id": "3fc33ecccccc7c13314a",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc176/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc2OjE3OTA2NTUyNDMzODI6Y2RubGl2ZXR2LnR2OjU5NGJkMmM3NGYzYmZlOWYuMjhjNzQwYjZkMDBiNDkxZTRjNWE5NDM0NzBmZmI2MDEwZmJmMjE4MTIyZjY1Zjk0ZjZhMDY2OGQ1MzFlNDY3OQ",
-          "stream_id": "27f7a3948cb9dd7b931f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc176/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc2OjE3OTA2OTIwMzY0Nzk6Y2RubGl2ZXR2LnR2OjIwZTAyYWNkN2ViY2ViN2MuZjNiODRlNGI0ZTZhMGIyYTk0YmVmMjNlMDNlYTQ2NDc4Yjc5YTM2ZGEwM2Y5NmQxYzU1MTJiNWM4NThiM2VjNw",
+          "stream_id": "3fc33ecccccc7c13314a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 330,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38083,17 +38083,17 @@
         "tsn"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "dd19db9d75180011502a",
+      "selected_stream_id": "c93fa79778656a40fcbc",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc177/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc3OjE3OTA2NTUyNDQ0MzQ6Y2RubGl2ZXR2LnR2Ojg4YzkxYzY2NmM3ZTgzMWUuMDg0Y2MzOWQwODFhOTI1NzkwNTQ2MTdmYzNkMGU4YTEzMmM3NTE5MTljNzhhYzYyMGI0NTYyNWY5N2JlZWFhOQ",
-          "stream_id": "dd19db9d75180011502a",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc177/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc3OjE3OTA2OTIwMzc1MTc6Y2RubGl2ZXR2LnR2OjI1YmEzMDQxMjdiMTU1ZDguMjc1NDdlOTZkYTE4YzM5MWQ3YzU4OTdmMjU3ZjE0NTA1ZjcxOTJmZTM1MTE5MzljN2QzYzA2MDY3MmUxYzNhYg",
+          "stream_id": "c93fa79778656a40fcbc",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 331,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38116,17 +38116,17 @@
         "tsn"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6f8ad39d720bf0b26eec",
+      "selected_stream_id": "beec698219873d89c76c",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc5OjE3OTA2NTUyNDU0NzA6Y2RubGl2ZXR2LnR2OmE0YTQ0ZDVkYWJmYWJjZTIuZDU2ZjM5NTI0OTMzNTJlZGZkNTc4MTgzZWU4NTk5NDEzMzllZGU5ZGZmNmEyNWMzZDQ3MzFkMmNhODdmYjIwMw",
-          "stream_id": "6f8ad39d720bf0b26eec",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc5OjE3OTA2OTIwMzg1NDY6Y2RubGl2ZXR2LnR2OmY0ZjA4NWFmMTk3YWNkNTAuOTZiYjAwM2ExOTk2ZWE5YjI1OTNlYzk3ZTYwMGNiZDUzNWQ5MjQ1ZDQ4MjNiNjhkM2Q0YWQ5NGYwZDZkZmYyMQ",
+          "stream_id": "beec698219873d89c76c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38199,12 +38199,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb2a2/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMmEyOjE3OTA2NTUyNDY1MTk6Y2RubGl2ZXR2LnR2OmFmZTAyM2ZlMjVmMTZhYzguNjkzNjFlYWY4ZDBmMTY0Yzc1MjBkMGJhNDBlYzZmNTFkZTBmZTFlYmMwNzJiMTM0YTQ3YjhlN2FjYzE5Y2I4Yg",
-          "stream_id": "ccb9666bf0381154c0b0",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb2a2/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMmEyOjE3OTA2OTIwMzk1OTM6Y2RubGl2ZXR2LnR2OjRmNjczYWNjYjYzMzNkMDQuMDUyNGY1MDY4YTkxZDRkMGIyZGFlNzU0ZGQwNjIzMTNhODRmNWI2ZjQyZmE0ZmM2YmEyMDkzMTg5ODIyNzU4MQ",
+          "stream_id": "91700cf898e941a9ec64",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 335,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38409,12 +38409,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb406/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDA2OjE3OTA2NTUyNDc1Njc6Y2RubGl2ZXR2LnR2OjY1NDU5MmI5MjVkMDkzOTAuMzJjNzA2YzIyYjYwYzM2ZDQ3ZDhiZjlmYzBjNzM2YzIyOWE4ZTEzZWJjZTI1MjU5YzE5MGU3NzJkNDM3ZWZjYw",
-          "stream_id": "a0e27a80ad73405f2f72",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb406/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDA2OjE3OTA2OTIwNDA2MTk6Y2RubGl2ZXR2LnR2OmFmYjkyY2JjYTUwNWZlNDEuZDUwNTZiZjYzZDZiZDIwZTgwM2Q1NzgwYjk0OTNhMjNlMzZjYThiYTlmMzdmMTVjZTk4YmUxYzZkMTczOGIyNw",
+          "stream_id": "c69da1393193b292ae9f",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10227,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -38492,17 +38492,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6f175fe1ca11bf99dee9",
+      "selected_stream_id": "8a71961f3cf3d3f1467e",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc159/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTU5OjE3OTA2NTUyNDg2MTY6Y2RubGl2ZXR2LnR2OmZkYzcxODNmNTM4NDE0MmIuOWM5ZjJhYTY1ZDI1MWMwNGQ5ZmI4MWU4ZjkyOWVjMWE4MzhkMGM4YjEzMmU0MWY3ZTNkOWZkZjU3M2NkZGVjNA",
-          "stream_id": "6f175fe1ca11bf99dee9",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc159/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTU5OjE3OTA2OTIwNDE2NjQ6Y2RubGl2ZXR2LnR2OmQ5OGViMzMyZDUxNDA4NGMuZjBmNTQ4ZDEwYWVjMTQ3NmU0YjIyMmQyYzhiM2VjMGEzYzhjMTQ2OGQ3NTI3NWNiYjE2MjMyNDczM2JhNjUwMA",
+          "stream_id": "8a71961f3cf3d3f1467e",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 328,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -39493,17 +39493,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "4bc37f61520ccaec8972",
+      "selected_stream_id": "82a55f9e7de17cadb1af",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb41c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDFjOjE3OTA2NTUyNTY5MzY6Y2RubGl2ZXR2LnR2OjIxMGQ0ZGJlOTViYWQ3OGYuYjdkYzY0ODZjY2UzNjVhMTIyYjIyNDg4YTljNDMwOGMwZDZhZTQ0ZWIyZGFhNTU1MzM0NGY1YzNiOGE3NjdmMA",
-          "stream_id": "4bc37f61520ccaec8972",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb41c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDFjOjE3OTA2OTIwNDk5NTk6Y2RubGl2ZXR2LnR2OmZjOTlkZmMyZjIxZDNkZTUuNzkxYjdlYzU1OTE3ZmNkNGYwZDYzMzNjZTZjYTEwOTMyMjc3MzYxYzI3NmZhMmU0MGNkYWUwMDY1NWExNzdlZA",
+          "stream_id": "82a55f9e7de17cadb1af",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10233,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -39564,12 +39564,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc04b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMDRiOjE3OTA2NTUyNTc5NjM6Y2RubGl2ZXR2LnR2OjJhNjAxNTExNWM4NzZiNDEuYjVlNjE2YzU1YmIxYjg0NWUxNWJlZDFlYmEwNjc4MjA1YWUzMmZjZGMwYTNmZDExNDRiYmFkMGI3ZWI1YWRiMQ",
-          "stream_id": "97fca6576bccf1a43736",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc04b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMDRiOjE3OTA2OTIwNTA5ODQ6Y2RubGl2ZXR2LnR2OmJmZDdiZWZiYTVkYzA3NjIuMzEwZWNlMTA4MjNhMzc2MzEzZjAzOTlmZTIxZGM0YjViNzRiODI5NjNkMGVhMjA0YmI0ZDBjNjFhOGZhMjIxMw",
+          "stream_id": "bb5ab7f07518b745eaa1",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 338,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -39648,17 +39648,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "048ffbd0b9a9b8369ad2",
+      "selected_stream_id": "91c72790bc170de4a871",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRlOjE3OTA2NTUyNTU5MDE6Y2RubGl2ZXR2LnR2OjdjMDYzZGViNzFmYTUyZGMuYjQ3MGE0YjA1YzA2YTM0MWQ1MTM4NTlhYzdkMWUzMWQ2ZGM2OTZhZDI1NDQ0MDkzZTA3OTRjNzQxNzM1MjEzNg",
-          "stream_id": "048ffbd0b9a9b8369ad2",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRlOjE3OTA2OTIwNDg5MjQ6Y2RubGl2ZXR2LnR2OmUyZWYxYjI0MmIzOTU3OTYuOWQ2NzZiYzVhZmMxZjVmNzllOWVkM2IxYTYzMzBlNzNlNjc3ZjM4YjdkOWMzNzM1YWUwZjljNjQwYTVhZDIzMA",
+          "stream_id": "91c72790bc170de4a871",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 342,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
@@ -39945,17 +39945,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "3c48209801c903b1ce8f",
+      "selected_stream_id": "6a7685850b0defb818ff",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc369/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzY5OjE3OTA2NTUyNTkwMTc6Y2RubGl2ZXR2LnR2OjYyNTA0OGQ2OTEwNjY4YzUuNDRkYWI3OTQzNWFlYWM4ZmQxMDhlNmIwZDE0N2I4Mjc0ZmUzZDI0OGExNmViODA1M2FkOWE1MDViZjZhM2QwYg",
-          "stream_id": "3c48209801c903b1ce8f",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc369/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzY5OjE3OTA2OTIwNTIwMTg6Y2RubGl2ZXR2LnR2OmViY2NhM2VhYjQ4MzVlZmMuYTMzYWI4MmY3M2YyNjEwYjRiMzA1YTljMDQ1YmE1MTY0ZTAzN2IxZmYzYTg2MTFhNGQ0MmIzODNmZTZjMTNmYg",
+          "stream_id": "6a7685850b0defb818ff",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10242,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -39967,17 +39967,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "3191c1802edaeed6ed6c",
+      "selected_stream_id": "de78f53106c80752cce6",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc36b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzZiOjE3OTA2NTUyNjAwNTA6Y2RubGl2ZXR2LnR2OjEyYjgwNDM0MjE1YjMwMjguYzIzNTc2YzM2MTY3Njc1YzFmNDdhOGNmOGZmZDQxZDIzMDc2MzJiODQ0MWRlMTQ4NzE0ZTk5MzE0YTI0Y2NmMw",
-          "stream_id": "3191c1802edaeed6ed6c",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc36b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzZiOjE3OTA2OTIwNTMwNTE6Y2RubGl2ZXR2LnR2OjM1NDJlZjBlZGU1N2IxYTEuOGQ0Yjk5ZWEyNWVhYTEwYWNhZWE3MmNhZmMzMTMyZWM3NGY0NmVmOGZjNjcxODZhYTQ0NjJmNWRiMjg4MGYwNg",
+          "stream_id": "de78f53106c80752cce6",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 330,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -40706,17 +40706,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "5d643040dc0c053f4670",
+      "selected_stream_id": "8aa6504cb3b83d67429c",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5f4/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWY0OjE3OTA2NTUyNjIxNDI6Y2RubGl2ZXR2LnR2OjE4MWQ1YjI1MzdhNjc5NGEuMWIwOTZkOGQzY2NjNjEyZTJlYmYxYWQ3M2Y0Y2YxZmQ4YzNhYTczNmFiZDJkYjk4OTMzYjVmZTg5MmVlMjEyMA",
-          "stream_id": "5d643040dc0c053f4670",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5f4/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWY0OjE3OTA2OTIwNTUxMjY6Y2RubGl2ZXR2LnR2Ojc4ODRkYjg3MGMzZjBjYjMuMDQ4NzVmYmVmZTFlYmFjM2E3YmU0YjZjODNkNTZlYWU5NDEwMmE3ZGVlNTkyNTFlZmQ3ZTBjOGM4MTJhZTYyMw",
+          "stream_id": "8aa6504cb3b83d67429c",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 10243,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -40970,17 +40970,17 @@
         "entertainment"
       ],
       "selected_source": "cdn",
-      "selected_stream_id": "6eb7c8e4acbfd34721f0",
+      "selected_stream_id": "e441c68ab20519f268f4",
       "streams": [
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5f7/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWY3OjE3OTA2NTUyNjEwOTQ6Y2RubGl2ZXR2LnR2OjExY2NiMGE3OWZmMjNmMGUuNDI0NGJiMTE4ZDQxN2I1ZmQyYTczNzIyNTk3NDI4YmVjNjIwNjNjMDA1OTFkM2IzYTJmMDEzMDljN2YyNTZkYQ",
-          "stream_id": "6eb7c8e4acbfd34721f0",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5f7/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWY3OjE3OTA2OTIwNTQxMDA6Y2RubGl2ZXR2LnR2Ojg1YTQ3MDVkYzNhNzFjZWYuYzUzNjdjMmQ1OTQ2YjE5YjBlMTQ0Y2E4ZWNhOWQyZjE5YTY1M2Q0NGMyMTg5MmZhODc0NGUwMDVlN2I0YTQ0YQ",
+          "stream_id": "e441c68ab20519f268f4",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 325,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -41119,12 +41119,12 @@
         {
           "source": "cdn",
           "source_priority": 1,
-          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb538/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTM4OjE3OTA2NTUyNjMxOTM6Y2RubGl2ZXR2LnR2OjRhMjNiM2EwMGU4OGI2MTcuNzBlYjFmZTU5YzEzZmM4M2RiZWY1YjUwMTliZDJiMjg4YjQxMjg1N2E0NDVjZmRjN2I4MTNkNTA3YzM3OGU4ZQ",
-          "stream_id": "72463eba62f99d4e24cb",
-          "status": "degraded",
+          "url": "https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb538/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTM4OjE3OTA2OTIwNTYxNzg6Y2RubGl2ZXR2LnR2OjQ4MzZjMGIxOGJmZTY1MGYuOWIxZjE5OWI2ZjRmOWI3ZDUzOTY2MmQzMTk2ZTg3MGEyYTBjMDA0MWY2YTA2Y2E3ZGYwZWFkMTJkODliZWIxOQ",
+          "stream_id": "05e2151bb4b9afa647ca",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 331,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         },
         {
