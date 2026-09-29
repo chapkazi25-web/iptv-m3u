@@ -77195,6 +77195,34 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "dodoma-tv": {
+      "name": "Dodoma TV",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Dodoma TV"
+      ],
+      "countries": [
+        "TZ"
+      ],
+      "categories": [
+        "tanzania"
+      ],
+      "sources": [
+        "gradetv"
+      ],
+      "source_refs": {
+        "gradetv": [
+          "DodomaTV.tz"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "languages": [
+        "swa"
+      ],
+      "english": false
+    },
     "dodoma-tv-360p-not-24-7": {
       "name": "Dodoma TV [Not 24/7]",
       "aliases": [
@@ -139124,14 +139152,20 @@
       "aliases": [
         "Mahaasin TV"
       ],
-      "countries": [],
+      "countries": [
+        "TZ"
+      ],
       "categories": [
         "tanzania"
       ],
       "sources": [
+        "gradetv",
         "iptv-org"
       ],
       "source_refs": {
+        "gradetv": [
+          "MahaasinTV.tz"
+        ],
         "iptv-org": [
           "MahaasinTV.tz.SD"
         ]
