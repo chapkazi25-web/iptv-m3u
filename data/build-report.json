@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "total_channels": 1709,
+  "total_channels": 1710,
   "source_channels": {
     "cdn": 181,
     "core": 287,
-    "gradetv": 23,
+    "gradetv": 25,
     "iptv-org": 10985,
     "pluto-tv": 421,
     "tvivu": 571
@@ -23,19 +23,19 @@
     "soccer": 75,
     "sports": 109,
     "stan-sports": 16,
-    "tanzania": 3,
+    "tanzania": 4,
     "tnt-sports": 7,
     "tsn": 6,
     "ufc": 3
   },
   "country_channels": {
-    "AU": 46,
+    "AU": 47,
     "CA": 58,
     "FR": 3,
     "GB": 124,
     "NZ": 15,
-    "TZ": 3,
-    "US": 1454
+    "TZ": 4,
+    "US": 1453
   },
   "international_channels": 6,
   "unresolved_channels": []
