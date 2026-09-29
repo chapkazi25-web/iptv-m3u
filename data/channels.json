@@ -4464,7 +4464,7 @@
     "8xm-hd": {
       "name": "8XM",
       "aliases": [
-        "8XM (576p)"
+        "8XM HD"
       ],
       "countries": [],
       "categories": [
@@ -4475,8 +4475,7 @@
       ],
       "source_refs": {
         "iptv-org": [
-          "8XM.pk.HD",
-          "8XM.pk.SD"
+          "8XM.pk.HD"
         ]
       },
       "logo": "",
@@ -6448,30 +6447,6 @@
       "not_24_7": false,
       "excluded_by": "local"
     },
-    "abc-krca-720p": {
-      "name": "ABC KRCA",
-      "aliases": [
-        "ABC KRCA (720p)"
-      ],
-      "countries": [],
-      "categories": [
-        "entertainment"
-      ],
-      "sources": [
-        "iptv-org"
-      ],
-      "source_refs": {
-        "iptv-org": [
-          "ABC.us.KRCA"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "quality_height": 720,
-      "not_24_7": false,
-      "excluded_by": "local"
-    },
     "abc-krgv-tv": {
       "name": "ABC KRGV-TV",
       "aliases": [
@@ -6968,6 +6943,30 @@
       "quality_height": 720,
       "not_24_7": false,
       "excluded_by": "local"
+    },
+    "abc-tv-paraguay": {
+      "name": "ABC-TV Paraguay",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "ABC-TV Paraguay (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "ABCTVParaguay.py.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PY"
     },
     "abc-tv-plus-720p": {
       "name": "ABC TV Plus",
@@ -19015,7 +19014,7 @@
     "antena-3-internacional": {
       "name": "Antena 3 Internacional",
       "aliases": [
-        "Antena 3 Internacional"
+        "Antena 3 Internacional (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -19036,7 +19035,7 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "antena-7-480p": {
@@ -25849,6 +25848,29 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "axn-latin-america-andes": {
+      "name": "AXN Latin America Andes",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "AXN Latin America Andes (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "AXNLatinAmerica.us.Andes"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "axn-latin-america-chile-1080p": {
       "name": "AXN Latin America Chile",
       "aliases": [
@@ -26209,6 +26231,30 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "aym-sports": {
+      "name": "AyM Sports",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "AyM Sports (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "AyMSports.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:MX"
+    },
     "ayni-tv": {
       "name": "AYNI TV",
       "aliases": [
@@ -26323,6 +26369,30 @@
       "excluded_by": "language:spa",
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "az-clic": {
+      "name": "Az Clic",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Az Clic (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "AzClic.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:MX"
     },
     "az-star-tv-1080p": {
       "name": "Az Star TV",
@@ -35403,6 +35473,30 @@
       "not_24_7": false,
       "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
     },
+    "billiards-tv-geo-blocked": {
+      "name": "Billiards TV [Geo-blocked]",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Billiards TV [Geo-blocked]"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "BilliardsTV.kr.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": false,
+      "excluded_by": "language:non-english"
+    },
     "bilyonaryo-news-channel-1080p-geo-blocked": {
       "name": "Bilyonaryo News Channel [Geo-blocked]",
       "aliases": [
@@ -37307,9 +37401,9 @@
       "excluded_by": "country:SE"
     },
     "bolivia-tv-1080p": {
-      "name": "Bolivia TV [Not 24/7]",
+      "name": "Bolivia TV",
       "aliases": [
-        "Bolivia TV (720p) [Not 24/7]"
+        "Bolivia TV (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -37330,8 +37424,8 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": 720,
-      "not_24_7": true
+      "quality_height": 1080,
+      "not_24_7": false
     },
     "bolivision-1080p": {
       "name": "Bolivision",
@@ -38541,6 +38635,30 @@
       "excluded_by": "language:spa",
       "quality_height": null,
       "not_24_7": false
+    },
+    "brain-tv": {
+      "name": "Brain TV",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Brain TV"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "BrainTV.kr.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": false,
+      "excluded_by": "language:non-english"
     },
     "brat-tv-1080p": {
       "name": "Brat TV",
@@ -42317,7 +42435,7 @@
     "canal-1-colombia-576p": {
       "name": "Canal 1 (Colombia)",
       "aliases": [
-        "Canal 1 (Colombia) (576p)"
+        "Canal 1 (Colombia) (720p)"
       ],
       "countries": [],
       "categories": [
@@ -42338,7 +42456,7 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": 576,
+      "quality_height": 720,
       "not_24_7": false
     },
     "canal-1-costa-rica-720p-not-24-7": {
@@ -44894,6 +45012,30 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "canal-5-mexico-xet-tdt": {
+      "name": "Canal 5 (Mexico) XET-TDT",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Canal 5 (Mexico) XET-TDT (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Canal5.mx.XETTDT"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:MX"
+    },
     "canal-5-puerto-montt": {
       "name": "Canal 5 Puerto Montt",
       "aliases": [
@@ -46084,6 +46226,30 @@
       "excluded_by": "language:spa",
       "quality_height": null,
       "not_24_7": false
+    },
+    "canal-9-la-union": {
+      "name": "Canal 9 La Union",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Canal 9 La Union (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Canal9LaUnion.sv.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:SV"
     },
     "canal-9-link": {
       "name": "Canal 9 Link",
@@ -47697,7 +47863,7 @@
     "canal-n-576p": {
       "name": "Canal N",
       "aliases": [
-        "Canal N (576p)"
+        "Canal N (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -47718,7 +47884,7 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": 576,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "canal-nets-720p-not-24-7": {
@@ -51906,26 +52072,20 @@
     "cbs-news-chicago": {
       "name": "CBS News Chicago",
       "aliases": [
-        "CBS News Chicago"
+        "CBS News Chicago (720p)"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
         "news"
       ],
       "sources": [
-        "iptv-org",
-        "pluto-tv"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%20-%20Chicago.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "CBSNewsChicago.us.SD"
-        ],
-        "pluto-tv": [
-          "cbs-news-chicago-ptv1"
         ]
       },
       "languages": [
@@ -52059,20 +52219,26 @@
     "cbs-news-minnesota": {
       "name": "CBS News Minnesota",
       "aliases": [
-        "CBS News Minnesota (720p)"
+        "CBS News Minnesota"
       ],
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "categories": [
         "news"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "pluto-tv"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%20-%20Minnesota.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "CBSNewsMinnesota.us.SD"
+        ],
+        "pluto-tv": [
+          "cbs-news-minnesota-ptv1"
         ]
       },
       "languages": [
@@ -61093,6 +61259,30 @@
       "english": false,
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "class-tv-moda": {
+      "name": "Class TV Moda",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Class TV Moda"
+      ],
+      "countries": [],
+      "categories": [
+        "documentary"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "ClassTVModa.it.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:IT"
     },
     "classic-arts-showcase-720p": {
       "name": "Classic Arts Showcase",
@@ -78422,7 +78612,7 @@
     "dsports-720p": {
       "name": "DSports",
       "aliases": [
-        "DSports (720p)"
+        "DSports (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -78443,7 +78633,7 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": 720,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "dstv-bulgaria-614p-not-24-7": {
@@ -82937,9 +83127,9 @@
       "not_24_7": true
     },
     "elim-tv-480p-not-24-7": {
-      "name": "Elim TV [Not 24/7]",
+      "name": "Elim TV",
       "aliases": [
-        "Elim TV (480p) [Not 24/7]"
+        "Elim TV (576p)"
       ],
       "countries": [],
       "categories": [
@@ -82960,8 +83150,8 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": 480,
-      "not_24_7": true
+      "quality_height": 576,
+      "not_24_7": false
     },
     "elive-tv-brescia-720p-not-24-7": {
       "name": "Elive TV Brescia [Not 24/7]",
@@ -85132,6 +85322,29 @@
       "excluded_by": "language:pus",
       "quality_height": 720,
       "not_24_7": false
+    },
+    "esne-tv": {
+      "name": "ESNE TV",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "ESNE TV (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "documentary"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "ESNETV.us.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "espace-tv-1080p": {
       "name": "Espace TV",
@@ -101409,6 +101622,30 @@
       "excluded_by": "language:yue",
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "golden-plus": {
+      "name": "Golden Plus",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Golden Plus (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "GoldenPlus.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:MX"
     },
     "golden-premier-1080p": {
       "name": "Golden Premier",
@@ -123189,6 +123426,30 @@
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
+    "kanal-zero-tv": {
+      "name": "Kanal ZERO TV",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Kanal ZERO TV"
+      ],
+      "countries": [],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "KanalZEROTV.pl.HD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "kanal12-spremberg-tv-404p-not-24-7": {
       "name": "Kanal12 Spremberg TV [Not 24/7]",
       "aliases": [
@@ -143031,6 +143292,30 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "mc": {
+      "name": "MC",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "MC (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "MC.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:MX"
+    },
     "mc-tv-720p": {
       "name": "MC TV",
       "aliases": [
@@ -147549,6 +147834,30 @@
       "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:IQ"
+    },
+    "mizpa-tv": {
+      "name": "Mizpa TV",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Mizpa TV (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "documentary"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "MizpaTV.sv.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:SV"
     },
     "mk-six-576p": {
       "name": "MK Six",
@@ -162040,8 +162349,7 @@
       ],
       "sources": [
         "cdn",
-        "core",
-        "iptv-org"
+        "core"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NFL%20Network.png",
       "enabled": true,
@@ -162051,14 +162359,11 @@
         ],
         "core": [
           "NFL.Network.HD.us2"
-        ],
-        "iptv-org": [
-          "NFLNetwork.us.SD"
         ]
       },
       "epg_id": "NFL.Network.HD.us2",
       "english": null,
-      "quality_height": 720,
+      "quality_height": null,
       "not_24_7": false
     },
     "nfl-nfl-network-damitv": {
@@ -171991,6 +172296,54 @@
       "not_24_7": false,
       "excluded_by": "country:CL"
     },
+    "oplot-2-geo-blocked": {
+      "name": "Oplot 2 [Geo-blocked]",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Oplot 2 (720p) [Geo-blocked]"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Oplot2.ru.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
+    },
+    "oplot-tv-geo-blocked": {
+      "name": "Oplot TV [Geo-blocked]",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Oplot TV (1080p) [Geo-blocked]"
+      ],
+      "countries": [],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "OplotTV.ru.Khartsyzsk"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
+    },
     "oplot-tv-sd-1080p-geo-blocked": {
       "name": "Oplot TV SD [Geo-blocked]",
       "aliases": [
@@ -174522,26 +174875,21 @@
       ],
       "countries": [],
       "categories": [
-        "movies",
-        "entertainment"
+        "movies"
       ],
       "sources": [
-        "core",
-        "iptv-org"
+        "core"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Paramount%20Network.png",
       "enabled": true,
       "source_refs": {
         "core": [
           "Paramount.Network.HD.us2"
-        ],
-        "iptv-org": [
-          "ParamountNetwork.us.East"
         ]
       },
       "epg_id": "Paramount.Network.HD.us2",
       "english": null,
-      "quality_height": 720,
+      "quality_height": null,
       "not_24_7": false
     },
     "paramount-picks": {
@@ -177669,6 +178017,30 @@
       "logo": "",
       "enabled": true,
       "english": null
+    },
+    "picosa-tv": {
+      "name": "Picosa TV",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Picosa TV (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "PicosaTV.hn.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "quality:720p"
     },
     "piera-tv-720p-not-24-7": {
       "name": "Piera TV [Not 24/7]",
@@ -189364,6 +189736,30 @@
       "english": null,
       "excluded_by": "country:PL"
     },
+    "polsat-film-2": {
+      "name": "Polsat Film 2",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Polsat Film 2 (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "PolsatFilm2.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "polsat-games-hd-1080p": {
       "name": "Polsat Games",
       "aliases": [
@@ -189508,6 +189904,30 @@
       "english": null,
       "excluded_by": "country:PL"
     },
+    "polsat-reality": {
+      "name": "Polsat Reality",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Polsat Reality (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "PolsatReality.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "polsat-sport-1-1080p-geo-blocked": {
       "name": "Polsat Sport 1 [Geo-blocked]",
       "aliases": [
@@ -189554,6 +189974,30 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false,
+      "excluded_by": "country:PL"
+    },
+    "polsat-x": {
+      "name": "Polsat X",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Polsat X (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "PolsatX.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
       "excluded_by": "country:PL"
     },
     "pomona-internet-streaming-channel-720p": {
@@ -193947,6 +194391,30 @@
       "quality_height": 720,
       "not_24_7": false,
       "excluded_by": "country:HU"
+    },
+    "px-sports": {
+      "name": "PX Sports",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "PX Sports (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "PXSports.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:MX"
     },
     "q-hubo-tv-410p-not-24-7": {
       "name": "Q'hubo TV [Not 24/7]",
@@ -220792,8 +221260,7 @@
       ],
       "sources": [
         "cdn",
-        "core",
-        "iptv-org"
+        "core"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Showtime.png",
       "enabled": true,
@@ -220803,14 +221270,11 @@
         ],
         "core": [
           "Paramount+.with.Showtime.HD.us2"
-        ],
-        "iptv-org": [
-          "Showtime.us.East"
         ]
       },
       "epg_id": "Paramount+.with.Showtime.HD.us2",
       "english": null,
-      "quality_height": 1080,
+      "quality_height": null,
       "not_24_7": false
     },
     "showtime-2": {
@@ -223755,6 +224219,30 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "smithsonian-channel-asia-geo-blocked": {
+      "name": "Smithsonian Channel Asia [Geo-blocked]",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Smithsonian Channel Asia [Geo-blocked]"
+      ],
+      "countries": [],
+      "categories": [
+        "documentary"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "SmithsonianChannelAsia.us.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
+    },
     "smithsonian-channel-pluto-tv": {
       "name": "Smithsonian Channel Pluto TV",
       "aliases": [
@@ -225317,7 +225805,7 @@
     "sony-movies-latin-america-720p": {
       "name": "Sony Movies Latin America",
       "aliases": [
-        "Sony Movies Latin America (720p)"
+        "Sony Movies Latin America (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -225334,7 +225822,7 @@
       "logo": "",
       "enabled": true,
       "english": null,
-      "quality_height": 720,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "sony-one-blacklist-1080p": {
@@ -229937,6 +230425,30 @@
       "not_24_7": false,
       "excluded_by": "country:CL"
     },
+    "star-channel-colombia": {
+      "name": "Star Channel (Colombia)",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Star Channel (Colombia) (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "StarChannel.co.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:CO"
+    },
     "star-channel-greece-1080p": {
       "name": "Star Channel (Greece)",
       "aliases": [
@@ -231666,30 +232178,6 @@
       "epg_id": "Starz.Comedy.HD.us2",
       "english": null,
       "quality_height": 1080,
-      "not_24_7": false
-    },
-    "starz-edge": {
-      "name": "Starz Edge",
-      "aliases": [
-        "Starz Edge (720p)"
-      ],
-      "countries": [],
-      "categories": [
-        "entertainment"
-      ],
-      "sources": [
-        "iptv-org"
-      ],
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Starz%20Edge.png",
-      "enabled": true,
-      "source_refs": {
-        "iptv-org": [
-          "StarzEdge.us.East"
-        ]
-      },
-      "epg_id": "Starz.Edge.HD.us2",
-      "english": null,
-      "quality_height": 720,
       "not_24_7": false
     },
     "starz-encore-spanish-720p": {
@@ -241760,9 +242248,9 @@
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
     "teleislas-486p-not-24-7": {
-      "name": "Teleislas [Not 24/7]",
+      "name": "Teleislas",
       "aliases": [
-        "Teleislas (486p) [Not 24/7]"
+        "Teleislas (720p)"
       ],
       "countries": [],
       "categories": [
@@ -241779,9 +242267,9 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "quality_height": 486,
-      "not_24_7": true,
-      "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
+      "quality_height": 720,
+      "not_24_7": false,
+      "excluded_by": "country:CO"
     },
     "telejato-720p": {
       "name": "Telejato",
@@ -243908,7 +244396,7 @@
     "telesur-720p": {
       "name": "Telesur",
       "aliases": [
-        "Telesur (720p)"
+        "Telesur (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -244245,7 +244733,7 @@
     "televen-576p": {
       "name": "Televen",
       "aliases": [
-        "Televen (576p)"
+        "Televen (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -244262,7 +244750,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "quality_height": 576,
+      "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:VE"
     },
@@ -253014,6 +253502,30 @@
       "not_24_7": false,
       "excluded_by": "country:DE"
     },
+    "town-tv": {
+      "name": "Town TV",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Town TV"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "TownTV.kh.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:KH"
+    },
     "tr-sport-480p": {
       "name": "TR Sport",
       "aliases": [
@@ -254262,7 +254774,7 @@
     "trece-colombia-720p": {
       "name": "Trece (Colombia)",
       "aliases": [
-        "Trece (Colombia) (720p)"
+        "Trece (Colombia) (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -254279,7 +254791,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "quality_height": 720,
+      "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:CO"
     },
@@ -272016,6 +272528,30 @@
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
+    "twentyseven-hd-geo-blocked": {
+      "name": "Twentyseven HD [Geo-blocked]",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Twentyseven HD (1080p) [Geo-blocked]"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Twentyseven.it.HD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
+    },
     "twoja-tv-1080p": {
       "name": "Twoja.TV",
       "aliases": [
@@ -274904,13 +275440,11 @@
         "US"
       ],
       "categories": [
-        "entertainment",
-        "sports"
+        "entertainment"
       ],
       "sources": [
         "cdn",
-        "core",
-        "iptv-org"
+        "core"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/USA%20Network.png",
       "enabled": true,
@@ -274920,14 +275454,11 @@
         ],
         "core": [
           "USA.Network.HD.us2"
-        ],
-        "iptv-org": [
-          "USANetwork.us.East"
         ]
       },
       "epg_id": "USA.Network.HD.us2",
       "english": null,
-      "quality_height": 1080,
+      "quality_height": null,
       "not_24_7": false
     },
     "usa-network-latin-america-1080p": {
@@ -276274,6 +276805,30 @@
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
+    "ve-plus": {
+      "name": "Ve Plus",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Ve Plus (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "VePlus.ve.Venezuela"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:VE"
+    },
     "ve-plus-panregional": {
       "name": "Ve Plus Panregional",
       "quality_height": 1080,
@@ -277495,24 +278050,19 @@
         "music"
       ],
       "sources": [
-        "core",
-        "iptv-org"
+        "core"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/VH1.png",
-      "enabled": false,
+      "enabled": true,
       "source_refs": {
         "core": [
           "VH1.HD.us2"
-        ],
-        "iptv-org": [
-          "VH1.us.East"
         ]
       },
       "epg_id": "VH1.HD.us2",
       "english": null,
-      "quality_height": 720,
-      "not_24_7": false,
-      "excluded_by": "quality:720p"
+      "quality_height": null,
+      "not_24_7": false
     },
     "vh1-queens-of-reality": {
       "name": "VH1 Queens of Reality",
@@ -283406,13 +283956,17 @@
       "aliases": [
         "WeatherNation"
       ],
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "news"
       ],
       "sources": [
         "core",
-        "iptv-org"
+        "iptv-org",
+        "pluto-tv"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/WeatherNation.png",
       "enabled": false,
@@ -283422,6 +283976,9 @@
         ],
         "iptv-org": [
           "WeatherNation.us.SD"
+        ],
+        "pluto-tv": [
+          "weather-nation"
         ]
       },
       "epg_id": "Weather.Nation.TV.HD.us2",
@@ -283429,32 +283986,6 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
-    },
-    "weathernation-chicago": {
-      "name": "WeatherNation Chicago",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "WeatherNation Chicago"
-      ],
-      "countries": [
-        "US"
-      ],
-      "categories": [
-        "news"
-      ],
-      "sources": [
-        "pluto-tv"
-      ],
-      "source_refs": {
-        "pluto-tv": [
-          "weathernation-chicago"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bweather\\w*"
     },
     "weathernews-720p": {
       "name": "Weathernews",
@@ -284789,7 +285320,7 @@
     "wkaq-tv-2-2-720p": {
       "name": "WKAQ-TV 2.2",
       "aliases": [
-        "WKAQ-TV 2.2 (720p)"
+        "WKAQ-TV 2.2 (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -284806,7 +285337,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "quality_height": 720,
+      "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:PR"
     },
