@@ -28661,8 +28661,12 @@
         ]
       },
       "logo": "",
-      "enabled": true,
-      "english": null
+      "enabled": false,
+      "english": null,
+      "event_start": "2026-09-29T17:00:00+00:00",
+      "event_fixture": "Anadolu Efes SK vs Real Madrid Baloncesto",
+      "event_sport": "Basketball",
+      "excluded_by": "event-ended:2026-09-29T17:00:00+00:00"
     },
     "basketball-euroleague-anadolu-efes-vs-real-madrid-2-fawa": {
       "name": "[Basketball Euroleague] Anadolu Efes vs Real Madrid 2 (FAWA)",
@@ -28684,8 +28688,12 @@
         ]
       },
       "logo": "",
-      "enabled": true,
-      "english": null
+      "enabled": false,
+      "english": null,
+      "event_start": "2026-09-29T17:00:00+00:00",
+      "event_fixture": "Anadolu Efes SK vs Real Madrid Baloncesto",
+      "event_sport": "Basketball",
+      "excluded_by": "event-ended:2026-09-29T17:00:00+00:00"
     },
     "basketball-euroleague-crvena-zvezda-vs-hapoel-tel-aviv-fawa": {
       "name": "[Basketball Euroleague] Crvena Zvezda vs Hapoel Tel Aviv (FAWA)",
