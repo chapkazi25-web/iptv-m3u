@@ -26250,7 +26250,7 @@
           "AyMSports.mx.SD"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/AYM%20Sports.png",
       "enabled": false,
       "english": null,
       "excluded_by": "country:MX"
@@ -85342,7 +85342,7 @@
           "ESNETV.us.SD"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESNE%20TV.png",
       "enabled": true,
       "english": null
     },
@@ -276824,7 +276824,7 @@
           "VePlus.ve.Venezuela"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Ve%20Plus.png",
       "enabled": false,
       "english": null,
       "excluded_by": "country:VE"
