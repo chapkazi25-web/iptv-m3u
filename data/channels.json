@@ -52356,26 +52356,20 @@
     "cbs-news-colorado": {
       "name": "CBS News Colorado",
       "aliases": [
-        "CBS News Colorado"
+        "CBS News Colorado (720p)"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
         "news"
       ],
       "sources": [
-        "iptv-org",
-        "pluto-tv"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%20-%20Colorado.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "CBSNewsColorado.us.SD"
-        ],
-        "pluto-tv": [
-          "cbs-news-colorado-ptv1"
         ]
       },
       "languages": [
@@ -77810,34 +77804,6 @@
       "english": true,
       "quality_height": 1080,
       "not_24_7": false
-    },
-    "dodoma-tv": {
-      "name": "Dodoma TV",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "Dodoma TV"
-      ],
-      "countries": [
-        "TZ"
-      ],
-      "categories": [
-        "tanzania"
-      ],
-      "sources": [
-        "gradetv"
-      ],
-      "source_refs": {
-        "gradetv": [
-          "DodomaTV.tz"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "languages": [
-        "swa"
-      ],
-      "english": false
     },
     "dodoma-tv-360p-not-24-7": {
       "name": "Dodoma TV [Not 24/7]",
@@ -284335,13 +284301,17 @@
       "aliases": [
         "WeatherNation"
       ],
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "news"
       ],
       "sources": [
         "core",
-        "iptv-org"
+        "iptv-org",
+        "pluto-tv"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/WeatherNation.png",
       "enabled": false,
@@ -284351,6 +284321,9 @@
         ],
         "iptv-org": [
           "WeatherNation.us.SD"
+        ],
+        "pluto-tv": [
+          "weather-nation"
         ]
       },
       "epg_id": "Weather.Nation.TV.HD.us2",
@@ -284358,32 +284331,6 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
-    },
-    "weathernation-phoenix": {
-      "name": "WeatherNation Phoenix",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "WeatherNation Phoenix"
-      ],
-      "countries": [
-        "US"
-      ],
-      "categories": [
-        "news"
-      ],
-      "sources": [
-        "pluto-tv"
-      ],
-      "source_refs": {
-        "pluto-tv": [
-          "weathernation-phoenix"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bweather\\w*"
     },
     "weathernews-720p": {
       "name": "Weathernews",
