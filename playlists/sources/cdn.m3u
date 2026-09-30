@@ -1,37 +1,37 @@
 #EXTM3U
-#EXTINF:-1 tvg-id=":NHL__11" tvg-name=":NHL  11" tvg-logo="" tvg-country="US" group-title="US TV",:NHL  11
+#EXTINF:-1 tvg-id=":NHL__11" tvg-name=":NHL  11" tvg-country="US" group-title="US TV",:NHL  11
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6e9/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmU5OjE3OTA3OTM0NjQ5Njg6Y2RubGl2ZXR2LnR2OjJjY2RlN2ViZjNkZWE2NDkuZDUxMmM4ZTdlMmUxZTUyMGFhOGQyMzI5YmMyNjUxMGU5MzE4YTJjMjkwMjAzOGJhMWQ5ZGU1ZTA3NDExNmFkYQ
 #EXTINF:-1 tvg-id="ABC" tvg-name="ABC" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ABC.png" tvg-country="US" group-title="US TV",ABC
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb354/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU0OjE3OTA3OTM0NjYwNzI6Y2RubGl2ZXR2LnR2OmYzMzVlYjA1YTZjNzBkYWEuMTFkOGE2YTQ1YzFjMWI5YzEzZTgxYzhhNmFlODc4YTg5ZDkxZDRmZTlkNzJhNzM0N2Q3ZGI1ZjY1MjM1OTYzOA
-#EXTINF:-1 tvg-id="ACC_Network" tvg-name="ACC Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ACC Network.png" tvg-country="US" group-title="US TV",ACC Network
+#EXTINF:-1 tvg-id="ACC_Network" tvg-name="ACC Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ACC%20Network.png" tvg-country="US" group-title="US TV",ACC Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb355/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzU1OjE3OTA3OTM0NjcyMDc6Y2RubGl2ZXR2LnR2OjIzMzUxZGVmOTM1N2ZjY2EuN2E2N2M1MTM1ZDg3N2JjMmQyZmIwNmYxMjhmMWIwOTZhMTE1MmY2ZGJhY2IwZjBhM2MyYWEzZWJiNDhkOThmOQ
-#EXTINF:-1 tvg-id="Altitude" tvg-name="Altitude" tvg-logo="" tvg-country="US" group-title="US TV",Altitude
+#EXTINF:-1 tvg-id="Altitude" tvg-name="Altitude" tvg-country="US" group-title="US TV",Altitude
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb57f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTdmOjE3OTA3OTM0NjgzNDM6Y2RubGl2ZXR2LnR2OjNlYjM0MWMzY2U1MWFmNmYuYzNmOTcwZmMxODBjNGViOWQ0M2VhNmUzYmEyMDRhMWU3MTI2N2E3MWQxOTJjZjkzMTQyY2I1MmI3MTM0ZDZlMg
-#EXTINF:-1 tvg-id="Arizona_Diamondbacks" tvg-name="Arizona Diamondbacks" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Arizona Diamondbacks.png" tvg-country="US" group-title="US TV",Arizona Diamondbacks
+#EXTINF:-1 tvg-id="Arizona_Diamondbacks" tvg-name="Arizona Diamondbacks" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Arizona%20Diamondbacks.png" tvg-country="US" group-title="US TV",Arizona Diamondbacks
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb630/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjMwOjE3OTA3OTM0Njk0NjA6Y2RubGl2ZXR2LnR2OmU3OTljYTMyNDBmYWFmZDUuOTU2MDUwOGFiYzM4NzY3OGViM2VmMWE0NmNiNWQ5YWNlYzQ5NjY0NDdkMTQxNGNhYzM4Y2I3ZmNjZDA1NWJkYQ
-#EXTINF:-1 tvg-id="Astro_Cricket" tvg-name="Astro Cricket" tvg-logo="" tvg-country="US" group-title="US TV",Astro Cricket
+#EXTINF:-1 tvg-id="Astro_Cricket" tvg-name="Astro Cricket" tvg-country="US" group-title="US TV",Astro Cricket
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf242/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjQyOjE3OTA3OTM0NzA1NDU6Y2RubGl2ZXR2LnR2OmRlMGQxZGRkY2RlNjYxMDEuMzExNDYzYTAzMWQwOTAxOWI0Y2I4MDM4YWM0OTVmNGZkNTgxYTY5ZDczMmM5OWVmZjdlZDFhZThmMWE5NTE1Mg
-#EXTINF:-1 tvg-id="Atlanta_Braves" tvg-name="Atlanta Braves" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Atlanta Braves.png" tvg-country="US" group-title="US TV",Atlanta Braves
+#EXTINF:-1 tvg-id="Atlanta_Braves" tvg-name="Atlanta Braves" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Atlanta%20Braves.png" tvg-country="US" group-title="US TV",Atlanta Braves
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb612/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjEyOjE3OTA3OTM0NzE2MzQ6Y2RubGl2ZXR2LnR2OjllNWQ0OGEyNGNkNmE3MmUuZjI2MThiNjhjZWExOGU2NGM1YTMxZTU5NjBlOTM4ZjA3YjM5MWYyNTYwMWRlNDcyMWIxZDEyYTE5ZGI2ODc2Ng
-#EXTINF:-1 tvg-id="BBC" tvg-name="BBC" tvg-logo="" tvg-country="US" group-title="US TV",BBC
+#EXTINF:-1 tvg-id="BBC" tvg-name="BBC" tvg-country="US" group-title="US TV",BBC
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb49b/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDliOjE3OTA3OTM0NzI3MjE6Y2RubGl2ZXR2LnR2OjI1OWI0ZjY0NWIxMWYzNWMuMjYyMjFiNmUzNWVmYzYzYjExZmJjNjI2Yjg2ODViMDAwODJmZWU5MTVlMGVlODU2ZmViMzMxMWRkNjMxM2JkYQ
-#EXTINF:-1 tvg-id="BBC_Four" tvg-name="BBC Four" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC Four.png" tvg-country="GB" group-title="GB TV",BBC Four
+#EXTINF:-1 tvg-id="BBC_Four" tvg-name="BBC Four" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20Four.png" tvg-country="GB" group-title="GB TV",BBC Four
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc3cf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjM2NmOjE3OTA3OTM0NzM4MDk6Y2RubGl2ZXR2LnR2Ojk3ZTlmMjdlMTBmMjk1ZTQuOWM4OWVhOTQ4ZWRjNGMwZWMxYmUyNDY4NTViNzBhN2NkY2E4ZTVhYWExN2VhMmFhNmZhYmU2YTQ0OGRmNDA0ZA
-#EXTINF:-1 tvg-id="BBC_One" tvg-name="BBC One" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC One.png" tvg-country="GB" group-title="GB TV",BBC One
+#EXTINF:-1 tvg-id="BBC_One" tvg-name="BBC One" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20One.png" tvg-country="GB" group-title="GB TV",BBC One
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc379/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc5OjE3OTA3OTM0NzQ5MjQ6Y2RubGl2ZXR2LnR2OjBjZjE4M2M5OTcxZTE2MjIuMjJkODU5NTEzODdlY2Q2NThhMTc2MWVhNDgwM2RmODc0NzI0ZmU5YjFhYzIwNzNmMGFmZGU2OGFhNGNkODdjYw
-#EXTINF:-1 tvg-id="BBC_Three" tvg-name="BBC Three" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC Three.png" tvg-country="GB" group-title="GB TV",BBC Three
+#EXTINF:-1 tvg-id="BBC_Three" tvg-name="BBC Three" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20Three.png" tvg-country="GB" group-title="GB TV",BBC Three
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc3cc/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjM2NjOjE3OTA3OTM0NzYwMTQ6Y2RubGl2ZXR2LnR2OmY0MGQzYzc0MDFjNTg1NWEuMDQ4MzczOGMyYjc3MTRiNjdjOGM2ZGZiMjgwZmQ5M2Q1NDg4NTc4ZTU2MmIyNzE5MmMzNTFjNzA0ODZlY2E3YQ
-#EXTINF:-1 tvg-id="BBC_Two" tvg-name="BBC Two" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC Two.png" tvg-country="GB" group-title="GB TV",BBC Two
+#EXTINF:-1 tvg-id="BBC_Two" tvg-name="BBC Two" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20Two.png" tvg-country="GB" group-title="GB TV",BBC Two
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc37d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzdkOjE3OTA3OTM0NzcxMDc6Y2RubGl2ZXR2LnR2OjM1MDlhZDAzMGI1Yjc1MDYuMDI1NDBkMTEyYTA5OTNkOGNjMzhkMTM0MjFkZjM0NmZlZGNlNzk5MTI0NzFkNzRjMDViYmQzZDRhZDAyYmE3OA
 #EXTINF:-1 tvg-id="BET" tvg-name="BET" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/BET.png" tvg-country="US" group-title="US TV",BET
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb200/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjAwOjE3OTA3OTM0NzgyNDU6Y2RubGl2ZXR2LnR2OjAyY2Y5M2NkY2EyMTg4N2EuNzNlODkxY2U3NGEzMDM2OTU1MGNiYTIyZjhiMDJjMTY4NTczNmQwNjEwMTI3MTFmMWU5NjI1ZDgyNzgwN2ViNQ
-#EXTINF:-1 tvg-id="Baltimore_Orioles" tvg-name="Baltimore Orioles" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Baltimore Orioles.png" tvg-country="US" group-title="US TV",Baltimore Orioles
+#EXTINF:-1 tvg-id="Baltimore_Orioles" tvg-name="Baltimore Orioles" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Baltimore%20Orioles.png" tvg-country="US" group-title="US TV",Baltimore Orioles
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJmOjE3OTA3OTM0NzkzMjg6Y2RubGl2ZXR2LnR2OjRjNmQ5Y2JiNDQ1ZmI2YjcuZjUzMDgwN2UxODFiYzMxNzVhZTgyMjBjMWJhYmU3M2NkMzk0NmZmYWFlYzA1ZDJiMTUwMDRhZTFmNmQ0NWU2ZQ
-#EXTINF:-1 tvg-id="Boston_Red_Sox" tvg-name="Boston Red Sox" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Boston Red Sox.png" tvg-country="US" group-title="US TV",Boston Red Sox
+#EXTINF:-1 tvg-id="Boston_Red_Sox" tvg-name="Boston Red Sox" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Boston%20Red%20Sox.png" tvg-country="US" group-title="US TV",Boston Red Sox
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJlOjE3OTA3OTM0ODA0Mzg6Y2RubGl2ZXR2LnR2OjhhNmQyNjllYjUyZDI2MTEuYmM2MTU0MTU3NjNhN2ZhMDYyMzg0Zjk4YjMxNTlhYWNmZGVmNDc5YmRkOTg3ZmNhZjBhYmY2MzdhODcyZDk2OA
 #EXTINF:-1 tvg-id="CBS" tvg-name="CBS" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS.png" tvg-country="US" group-title="US TV",CBS
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb375/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzc1OjE3OTA3OTM0ODE1Mjc6Y2RubGl2ZXR2LnR2OjdhMGYwMjZiOTI0ZWVmNzYuZGE3ZGY1NWU5ZGM1MzRkMzZiMDczNjEzYzAyZjk3NjRkYTE3YjJiNDI5MmZjMTNhZjhiNDNlZGQ1NjQxNjdlNQ
-#EXTINF:-1 tvg-id="CBS_Sports_Golazo" tvg-name="CBS Sports Golazo" tvg-logo="" tvg-country="US" group-title="US TV",CBS Sports Golazo
+#EXTINF:-1 tvg-id="CBS_Sports_Golazo" tvg-name="CBS Sports Golazo" tvg-country="US" group-title="US TV",CBS Sports Golazo
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb598/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTk4OjE3OTA3OTM0ODI2MTc6Y2RubGl2ZXR2LnR2OjE4MGM0OWVmNGNjZGRmZjEuZGEwNjhhZDVlYTJmMDgwMjU5YWRiYTM3YjczYTE4ZjVjMDU0NDgzM2U3YWYyMTFjNDYxNWZmNzBlZTUyMDUyMw
 #EXTINF:-1 tvg-id="CNBC" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CNBC.png" tvg-country="US" group-title="US TV",CNBC
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb492/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDkyOjE3OTA3OTM0ODM3MTI6Y2RubGl2ZXR2LnR2OjA2Yjc2YTU0MDEwZGM2YTIuYTljOTU5Mzk1YzRlNDAyY2U3MmE3Y2RkMTJkNTY2NDA4ZTc1YTU3MTI4OTBjMDdiZGI1MTQzMTgyNGU3NDFlZg
@@ -39,257 +39,257 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb492/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb490/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDkwOjE3OTA3OTM0ODQ4MDA6Y2RubGl2ZXR2LnR2OjQ4ODUyZTE5N2M1MWZmNjEuZTM4YTZmYzIyYjRmMDkwZDQ0MjhlYzNmMTY2YzQ1ODYwMjZhZTlhMWQ4OGRmMjA2OGQ3ODdhMjdlZmY3NzdhMQ
 #EXTINF:-1 tvg-id="CP24" tvg-name="CP24" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/CP24.png" tvg-country="CA" group-title="CA TV",CP24
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc0bf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMGJmOjE3OTA3OTM0ODU4ODk6Y2RubGl2ZXR2LnR2OjM0NDMzNTM3ZWI1OTQ3NzcuM2Y3NDE1NzViZjM0OGE2ODI1ZmQ1YWNlNzYyMzg5ZWRiYThkNjllOGQwNWYzZDYyNTJmMmUzMmI5YzQ5OTVjOQ
-#EXTINF:-1 tvg-id="Channel_4" tvg-name="Channel 4" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Channel 4.png" tvg-country="GB" group-title="GB TV",Channel 4
+#EXTINF:-1 tvg-id="Channel_4" tvg-name="Channel 4" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Channel%204.png" tvg-country="GB" group-title="GB TV",Channel 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc380/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzgwOjE3OTA3OTM0ODY5NzI6Y2RubGl2ZXR2LnR2OmI4MGM0MTIxNGU2NGQ2NWYuMmVjYWM0NWJjM2QxMmYxM2RiZDdlNzUyM2Q1ZmZjZTZmYWQwYWNjNjQ2NTk1ZmEzM2NmMjc1OWNmNmExMWQyMg
-#EXTINF:-1 tvg-id="Channel_5" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Channel 5.png" tvg-country="GB" group-title="GB TV",Channel 5
+#EXTINF:-1 tvg-id="Channel_5" tvg-name="Channel 5" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Channel%205.png" tvg-country="GB" group-title="GB TV",Channel 5
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc383/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzgzOjE3OTA3OTM0ODgwODY6Y2RubGl2ZXR2LnR2OjEzY2ZhOGY4NTQwNGZlNTguNzRjN2RkZDIzYTUyMzIyMGQyMWI3ZTVkOTc0MGIwNDIxMDI4YzRkNzgzOGI0NGYwOTA4YmI5MTA2N2ZiMzgxNA
-#EXTINF:-1 tvg-id="Chicago_Cubs" tvg-name="Chicago Cubs" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Chicago Cubs.png" tvg-country="US" group-title="US TV",Chicago Cubs
+#EXTINF:-1 tvg-id="Chicago_Cubs" tvg-name="Chicago Cubs" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Chicago%20Cubs.png" tvg-country="US" group-title="US TV",Chicago Cubs
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb631/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjMxOjE3OTA3OTM0ODkxNjY6Y2RubGl2ZXR2LnR2OjZkMjQ2ZGUyMDYyMzBlYTMuOTgwNGE3YTcyYzY0NjhiYzU0NjNjN2ZlYjA1ZDQ3MDgzYjFkZGUwZGNmNzU1ZmRjOGU4ZjczNzJmNDE0YTNjNQ
-#EXTINF:-1 tvg-id="Chicago_Sports_Network" tvg-name="Chicago Sports Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Chicago Sports Network.png" tvg-country="US" group-title="US TV",Chicago Sports Network
+#EXTINF:-1 tvg-id="Chicago_Sports_Network" tvg-name="Chicago Sports Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Chicago%20Sports%20Network.png" tvg-country="US" group-title="US TV",Chicago Sports Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb311/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzExOjE3OTA3OTM0OTAyNjA6Y2RubGl2ZXR2LnR2OjEyM2Q2ZTU2NzQwMDg3NWIuNDYyNGY0ZTQyNmMzYmMyMTMzMmNlOTE5NjNkZTgxMDNhNWYwNzhkMDAxOWE2MjVhMGI1MDdmZTdkZGJmNDEzMg
-#EXTINF:-1 tvg-id="Chicago_White_Sox" tvg-name="Chicago White Sox" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Chicago White Sox.png" tvg-country="US" group-title="US TV",Chicago White Sox
+#EXTINF:-1 tvg-id="Chicago_White_Sox" tvg-name="Chicago White Sox" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Chicago%20White%20Sox.png" tvg-country="US" group-title="US TV",Chicago White Sox
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJkOjE3OTA3OTM0OTEzNDk6Y2RubGl2ZXR2LnR2OjI2Y2QwOGUxOTgzYTE3ZWQuM2NhODhiNjJhNmExZGIzNTU2N2Q2OTYxMDE3YWExNjRmOTdiOTlkMWYzNGQ3MDZiZDE4ZWViYjJhMWQzZTkwZA
-#EXTINF:-1 tvg-id="Cincinnati_Reds" tvg-name="Cincinnati Reds" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Cincinnati Reds.png" tvg-country="US" group-title="US TV",Cincinnati Reds
+#EXTINF:-1 tvg-id="Cincinnati_Reds" tvg-name="Cincinnati Reds" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Cincinnati%20Reds.png" tvg-country="US" group-title="US TV",Cincinnati Reds
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb617/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE3OjE3OTA3OTM0OTI0Mzc6Y2RubGl2ZXR2LnR2OjRlYTJlNzQwZjY0NjJiOGYuNTk1NDdhYzMwNTU4MTcxYTYyN2RjN2NiODdiMmMzZjEzZDE2NmM5ZWJmNjg2OWFkZjE0MDViOTJlZjk1MTVkYg
 #EXTINF:-1 tvg-id="Cinemax" tvg-name="Cinemax" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Cinemax.png" tvg-country="US" group-title="US TV",Cinemax
 https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd314/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkMzE0OjE3OTA3OTM0OTM1MjI6Y2RubGl2ZXR2LnR2OjE0NmQ2ZDY2OTQ4NGIzNTIuOGNlNGM3NGQ2MmI4MDY5YzIzYzc5NzBkYzJhYTdhZmE0NGVmMTE4ZDU1YTFkNDA2NzRmMjQxNWVkOTE2OGU3NA
-#EXTINF:-1 tvg-id="Cleveland_Guardians" tvg-name="Cleveland Guardians" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Cleveland Guardians.png" tvg-country="US" group-title="US TV",Cleveland Guardians
+#EXTINF:-1 tvg-id="Cleveland_Guardians" tvg-name="Cleveland Guardians" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Cleveland%20Guardians.png" tvg-country="US" group-title="US TV",Cleveland Guardians
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJjOjE3OTA3OTM0OTQ2MDc6Y2RubGl2ZXR2LnR2OjZkMjA5YWIzY2MyZDkzYWMuNmZlYzcyNzEyZTQxMmVmMGY4YTgyY2QzMWViOTAzY2Y2MmIzY2ZmNTAwMGY5MzA2MzVhMTdhMjZjYWY0MDYyNg
-#EXTINF:-1 tvg-id="Colorado_Rockies" tvg-name="Colorado Rockies" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Colorado Rockies.png" tvg-country="US" group-title="US TV",Colorado Rockies
+#EXTINF:-1 tvg-id="Colorado_Rockies" tvg-name="Colorado Rockies" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Colorado%20Rockies.png" tvg-country="US" group-title="US TV",Colorado Rockies
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb62a/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjJhOjE3OTA3OTM0OTU2OTc6Y2RubGl2ZXR2LnR2OjRlNzkwODc1NTg2OGVmYzYuZTNmNzQyM2JkNWQ3MzNkM2Q0ZDcyZmUzNWI0ZDZmYmEzZDM0ZTZjNTdkNjEzODkwNmVmYjEzM2QxMjhkODI4ZQ
-#EXTINF:-1 tvg-id="DAZN_1" tvg-name="DAZN 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/DAZN 1.png" tvg-country="GB" group-title="GB TV",DAZN 1
+#EXTINF:-1 tvg-id="DAZN_1" tvg-name="DAZN 1" tvg-country="GB" group-title="GB TV",DAZN 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd447/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkNDQ3OjE3OTA3OTM0OTY3Nzc6Y2RubGl2ZXR2LnR2OmJhNjQ2M2VmNWUzNjQwOWEuMmUyOGNlZTg3ZDg4YjE2ZTNiZmFlMDA1MDU1NmZkMGY3Mzg1NTk5YTRkOWNkZWU4OTJhNTk5MDQ3YWVlNWMzMw
-#EXTINF:-1 tvg-id="Detroit_Tigers" tvg-name="Detroit Tigers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Detroit Tigers.png" tvg-country="US" group-title="US TV",Detroit Tigers
+#EXTINF:-1 tvg-id="Detroit_Tigers" tvg-name="Detroit Tigers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Detroit%20Tigers.png" tvg-country="US" group-title="US TV",Detroit Tigers
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb629/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI5OjE3OTA3OTM0OTc4Njg6Y2RubGl2ZXR2LnR2OjE4NzNkNzA5ZWI3YmQ3MjIuN2NkZDhiYWFkZTBhNTQwYzcwNmVlOGRmMmYzMGVkN2MyOGY1NWIxZDcxZWJlYzMwN2UwNzc0NTdlZGY1MDNmOQ
-#EXTINF:-1 tvg-id="Discovery_Channel" tvg-name="Discovery Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Discovery Channel.png" tvg-country="US" group-title="US TV",Discovery Channel
+#EXTINF:-1 tvg-id="Discovery_Channel" tvg-name="Discovery Channel" tvg-country="US" group-title="US TV",Discovery Channel
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc485/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjNDg1OjE3OTA3OTM0OTg5NTY6Y2RubGl2ZXR2LnR2OjY5NjVmNTYwZWM4NzBlNTQuMzYyOGEyZjc2ZjRmOTI0OThlZGI2NGI4MzZjNzhhNTE5NTdiYTJkYjUwMDBjODBlNjM4YWZkYmYyYWYyZTY4MA
-#EXTINF:-1 tvg-id="Disney_Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Disney Channel.png" tvg-country="US" group-title="US TV",Disney Channel
+#EXTINF:-1 tvg-id="Disney_Channel" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Disney%20Channel.png" tvg-country="US" group-title="US TV",Disney Channel
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb415/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDE1OjE3OTA3OTM1MDAwNDQ6Y2RubGl2ZXR2LnR2OjZmNmEwZTA0NzU4ZjQwMzUuMWVkMTJmZDk3YmNlOThlYjM4MDA0YTI3M2U3NjcxOWQ0OTYwN2UzNTg5ZWRjNjdlYmVhYWFiOTIxNTljYjAxZA
-#EXTINF:-1 tvg-id="ESPN_2" tvg-name="ESPN 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN 2.png" tvg-country="US" group-title="US TV",ESPN 2
+#EXTINF:-1 tvg-id="ESPN_2" tvg-name="ESPN 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN%202.png" tvg-country="US" group-title="US TV",ESPN 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTljOjE3OTA3OTM1MDExMzE6Y2RubGl2ZXR2LnR2OjUwMDA3MmQ1MjI5NTk3ZGQuNjNhZDIxZjFiODc4MWFkYTk3NTY3NTg3ODEyMGY3YzJjMDFjYWY0M2FjMzMxNDY0YTIyZWQ2NWU3MjQ5ODAyYQ
-#EXTINF:-1 tvg-id="ESPN_Deportes" tvg-name="ESPN Deportes" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN Deportes.png" tvg-country="US" group-title="US TV",ESPN Deportes
+#EXTINF:-1 tvg-id="ESPN_Deportes" tvg-name="ESPN Deportes" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN%20Deportes.png" tvg-country="US" group-title="US TV",ESPN Deportes
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRjOjE3OTA3OTM1MDIyMTY6Y2RubGl2ZXR2LnR2OmY3NWY0MDNhNmViMWU4ZWIuNDliOGVhZDA5MmI1ZjZjNThjMDc2M2E3Yjk3MjhjMmY1ZDA5NzkyMjkzZjExNzkwMmY3OTQ2YTE2OWVhNGRiOA
-#EXTINF:-1 tvg-id="ESPN_News" tvg-name="ESPN News" tvg-logo="" tvg-country="US" group-title="US TV",ESPN News
+#EXTINF:-1 tvg-id="ESPN_News" tvg-name="ESPN News" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/ESPN%20News%20HD.png" tvg-country="US" group-title="US TV",ESPN News
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5a0/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWEwOjE3OTA3OTM1MDMzMDU6Y2RubGl2ZXR2LnR2OjUxOTUzNjRjY2RmOWZkNzguMGVmZDQ3NTliOGU2MjdhMTc2ZDEzNWNjZDY1OWQxNjUzYzkyMjM4ODlmNDMwNzhhMDUyOGFhNTg4OGIyZThhMg
-#EXTINF:-1 tvg-id="ESPN_U" tvg-name="ESPN U" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN U.png" tvg-country="US" group-title="US TV",ESPN U
+#EXTINF:-1 tvg-id="ESPN_U" tvg-name="ESPN U" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESPN%20U.png" tvg-country="US" group-title="US TV",ESPN U
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5a2/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWEyOjE3OTA3OTM1MDQzOTM6Y2RubGl2ZXR2LnR2OjAxMGYwNzlkM2U4ZTExODEuNGQ5ZGQ3M2Q1NDQyODU5MjA0NzQxYTY3MzY3YmVkNjZjNjU4MTU5ZWQ0MzA4MzJlMjhkYjNmNWNmMjYyNTFjOQ
-#EXTINF:-1 tvg-id="ESPN+_USA" tvg-name="ESPN+ USA" tvg-logo="" tvg-country="US" group-title="US TV",ESPN+ USA
+#EXTINF:-1 tvg-id="ESPN+_USA" tvg-name="ESPN+ USA" tvg-country="US" group-title="US TV",ESPN+ USA
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb59f/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTlmOjE3OTA3OTM1MDU0ODE6Y2RubGl2ZXR2LnR2Ojk1NGQ5NTRiNzQwNmIyMzEuYzY4YjJjN2JhYWI5NDc2NmI2ZDZhMGVlYWJlNzg1ZTk2OTE3MmQ4MjNhYmE0NWM0YTU3YTkyZWQxZjQ1ZTIwYQ
-#EXTINF:-1 tvg-id="Euro_Sport_1" tvg-name="Euro Sport 1" tvg-logo="" tvg-country="GB" group-title="GB TV",Euro Sport 1
+#EXTINF:-1 tvg-id="Euro_Sport_1" tvg-name="Euro Sport 1" tvg-country="GB" group-title="GB TV",Euro Sport 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVhOjE3OTA3OTM1MDY1Njk6Y2RubGl2ZXR2LnR2OmMzZDk1YWRjZDE3NWY2ZmIuMzYyZWIyNmM1NDBlNjdmZTAzODIwYWJiNzkzNGM4YTdmMTA5ZDAwMjFmNmI5NTRiMGQ0ZjBiMmRlY2YzMzZlMg
-#EXTINF:-1 tvg-id="Euro_Sport_2" tvg-name="Euro Sport 2" tvg-logo="" tvg-country="GB" group-title="GB TV",Euro Sport 2
+#EXTINF:-1 tvg-id="Euro_Sport_2" tvg-name="Euro Sport 2" tvg-country="GB" group-title="GB TV",Euro Sport 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzViOjE3OTA3OTM1MDc2NTI6Y2RubGl2ZXR2LnR2OmQ4OWFlMTE1ZjNmMzhjY2QuNDFmMDRmZTVjM2ZiMGVkODM5ZDU2N2UyNTMyMjM1ZjhjNDJiNjVjNjAwNTc0OTkyNDI4MWFiY2IwNzY5YTZkYw
 #EXTINF:-1 tvg-id="FOX" tvg-name="FOX" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox.png" tvg-country="US" group-title="US TV",FOX
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb38e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzhlOjE3OTA3OTM1MDg3NDE6Y2RubGl2ZXR2LnR2OjAwNjUwOThkODdhNDhkMmIuYmIyYWUxMWY5MWIxZmExYjU4NDY4MjA3YzQ1YWQ5ODNlMGYzNDgxYjFjOGVkMTI1OTk0NWY2NTFhYWZkYjY0Yw
-#EXTINF:-1 tvg-id="FOX_Deportes" tvg-name="FOX Deportes" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox Deportes.png" tvg-country="US" group-title="US TV",FOX Deportes
+#EXTINF:-1 tvg-id="FOX_Deportes" tvg-name="FOX Deportes" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox%20Deportes.png" tvg-country="US" group-title="US TV",FOX Deportes
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c1/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMxOjE3OTA3OTM1MDk4MjY6Y2RubGl2ZXR2LnR2OjEwYzhiNDk2NGEwZjg0ZDAuODI1ZGVmMGRlNDQ3MGEyOGNjYzMzMmFlNDc5NGZhNDU1YmI5ZWI3ZmU4YzE5ZTg5OTliNGI4YTdmNjgxNWRjNg
-#EXTINF:-1 tvg-id="FOX_News" tvg-name="FOX News" tvg-logo="" tvg-country="US" group-title="US TV",FOX News
+#EXTINF:-1 tvg-id="FOX_News" tvg-name="FOX News" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox%20News%20HD.png" tvg-country="US" group-title="US TV",FOX News
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb224/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjI0OjE3OTA3OTM1MTA5MTI6Y2RubGl2ZXR2LnR2OmJhOTNmYThkYzkyODZkMzYuYjgzNjQ3YmY5ZmM1NTlmZGE0YjI2NmViNGQ5OGMzMDc4Y2Q3ZTI3NzUwMzgzMjVhMWY5NGI4OGY1MjYyNTI3MQ
-#EXTINF:-1 tvg-id="FOX_Soccer_Plus" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox Soccer Plus.png" tvg-country="US" group-title="US TV",FOX Soccer Plus
+#EXTINF:-1 tvg-id="FOX_Soccer_Plus" tvg-name="FOX Soccer Plus" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Fox%20Soccer%20Plus.png" tvg-country="US" group-title="US TV",FOX Soccer Plus
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cbe68/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNiZTY4OjE3OTA3OTM1MTIwMTE6Y2RubGl2ZXR2LnR2Ojg2ODVjODhjMDM1OTdkNTYuNmY3M2RlOWNkNGI1NTk4Y2M0ZDliNWI5OTJkYTRlZjcwOGZjOGIzNDRiOTIzODVkZjE5YTA0ZThlNTUxN2Q4MQ
-#EXTINF:-1 tvg-id="FOX_Sports_1" tvg-name="FOX Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Fox Sports 1.png" tvg-country="US" group-title="US TV",FOX Sports 1
+#EXTINF:-1 tvg-id="FOX_Sports_1" tvg-name="FOX Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Fox%20Sports%201.png" tvg-country="US" group-title="US TV",FOX Sports 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5c3/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWMzOjE3OTA3OTM1MTMxMDA6Y2RubGl2ZXR2LnR2OmNiNzkyMDZlODdkNWJhYzcuNzIxZTZkYTE4ZTZlODc2YWYzNjI1MWQ1MGQyNDJjY2U2MjkzMTZmZmNjZTQwMzZlOGNjOWIwYjlkNDAyOTJiZg
-#EXTINF:-1 tvg-id="Fox_Sports_501" tvg-name="Fox Sports 501" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 501
+#EXTINF:-1 tvg-id="Fox_Sports_501" tvg-name="Fox Sports 501" tvg-country="AU" group-title="AU TV",Fox Sports 501
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f8/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWY4OjE3OTA3OTM1MTQxODc6Y2RubGl2ZXR2LnR2OjdkNGNhOTljNDk0M2Y2ZGUuZDI3ZTk0NjVmMmM0ZDMyMDdiZThlMWNhYjAwOTY0ZDYyMDVmODBkNjA5NWRlNjMzZmZjOTMyMzI5YzlkMDI2ZQ
-#EXTINF:-1 tvg-id="Fox_Sports_501_Cricket" tvg-name="Fox Sports 501 Cricket" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 501 Cricket
+#EXTINF:-1 tvg-id="Fox_Sports_501_Cricket" tvg-name="Fox Sports 501 Cricket" tvg-country="AU" group-title="AU TV",Fox Sports 501 Cricket
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf203/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjAzOjE3OTA3OTM1MTUyNzU6Y2RubGl2ZXR2LnR2OmQ4MmE5ODFmNjM1NTZhNjYuNTg2OTViNTBmNzg0OThiMzQzYTU2ZGI4Mjg2MWVlYmIzMjA2YzgyYTRkMzljM2RlZmEwMzdhNzViOTQwYzlmMg
-#EXTINF:-1 tvg-id="Fox_Sports_502" tvg-name="Fox Sports 502" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 502
+#EXTINF:-1 tvg-id="Fox_Sports_502" tvg-name="Fox Sports 502" tvg-country="AU" group-title="AU TV",Fox Sports 502
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf20e/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjBlOjE3OTA3OTM1MTYzNjQ6Y2RubGl2ZXR2LnR2OmMxYTczM2UxZWJkZjgwMzguZTU2MjY5N2Q4YjRhZWZhZTI1YjZjMzI0ZGUyMWZkOGNkYTQ0NjYyNzU2MDllZWU5ZjYyOTZiY2RkNTZmYWEwNA
-#EXTINF:-1 tvg-id="Fox_Sports_503" tvg-name="Fox Sports 503" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 503
+#EXTINF:-1 tvg-id="Fox_Sports_503" tvg-name="Fox Sports 503" tvg-country="AU" group-title="AU TV",Fox Sports 503
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22f/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJmOjE3OTA3OTM1MTc0NDc6Y2RubGl2ZXR2LnR2Ojc2MTIyYzBhZWZmYjhmNDYuNGUyY2VhMmY1ZDQ2ODkwM2YyYzc3ZjIwZjcyYmNmMjhlMTNmZDBjNzI0YWIyODE4ZWQyYTZiMzU1MTYzZjc0Mw
-#EXTINF:-1 tvg-id="Fox_Sports_505" tvg-name="Fox Sports 505" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 505
+#EXTINF:-1 tvg-id="Fox_Sports_505" tvg-name="Fox Sports 505" tvg-country="AU" group-title="AU TV",Fox Sports 505
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf25c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjVjOjE3OTA3OTM1MTg1MzI6Y2RubGl2ZXR2LnR2OjVjODhlMWRiMWM4Yjk2OTcuYTAzNTAxNTU2OWE5OGY4ZmUwMzI4NzkwNDMyNDRhMmQwMjc4ZjgyOGIzNmEwZTEzNDFhZTdmMjQ4NzMzODUwMw
-#EXTINF:-1 tvg-id="Fox_Sports_506" tvg-name="Fox Sports 506" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 506
+#EXTINF:-1 tvg-id="Fox_Sports_506" tvg-name="Fox Sports 506" tvg-country="AU" group-title="AU TV",Fox Sports 506
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf272/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjcyOjE3OTA3OTM1MTk2MTk6Y2RubGl2ZXR2LnR2OjU0ODU3OGM5NjlkNGMzOTMuYjgzZWRiZDk1MDY3NzBkYzRlMjgxNTFjZjk0OWU2NDllMWUyZWYyYzI0NmFmN2U2M2I2ODZmNDdjOWRlZTUzZg
-#EXTINF:-1 tvg-id="Fox_Sports_507" tvg-name="Fox Sports 507" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports 507
+#EXTINF:-1 tvg-id="Fox_Sports_507" tvg-name="Fox Sports 507" tvg-country="AU" group-title="AU TV",Fox Sports 507
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf288/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjg4OjE3OTA3OTM1MjA3MDc6Y2RubGl2ZXR2LnR2OjU0MWI1MWI0NGQ0ODI0ODcuNjk3NjFkYTYxODJhOTRjMjMyMTUxOTJiNTQ2NDQ4YzYyNzcwMTUwYjU4MDkyYzEyOGVkMDA1M2NjODNlZWVkOA
-#EXTINF:-1 tvg-id="Fox_Sports_News" tvg-name="Fox Sports News" tvg-logo="" tvg-country="AU" group-title="AU TV",Fox Sports News
+#EXTINF:-1 tvg-id="Fox_Sports_News" tvg-name="Fox Sports News" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Fox_Sports_wordmark_logo.svg/330px-Fox_Sports_wordmark_logo.svg.png" tvg-country="AU" group-title="AU TV",Fox Sports News
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf29e/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjllOjE3OTA3OTM1MjE3OTE6Y2RubGl2ZXR2LnR2OjgyMThlMzNkZjFjOTU5NGQuNzA1ZDhkZDA5ZDZiNjRjZDY5NTEwZTQxOTVkNzU2NjhiMTgwMDNjZDNhMDY5YWI4MTI0OGYzMWUyNGI5Y2RkNg
-#EXTINF:-1 tvg-id="GOLF_TV" tvg-name="GOLF TV" tvg-logo="" tvg-country="US" group-title="US TV",GOLF TV
+#EXTINF:-1 tvg-id="GOLF_TV" tvg-name="GOLF TV" tvg-country="US" group-title="US TV",GOLF TV
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNjOjE3OTA3OTM1MjI4ODA6Y2RubGl2ZXR2LnR2OmM1ZjhjZjQ0ZmU1NGEwMGIuYWZjMDI0ZTEyZWNmNDE0NmE4Y2Y0MDJhN2RjYzQxYTBlNzZiNzAyMWI0ZWNmY2ViOTE5NzRhNDJhNjE3YWI3Mw
 #EXTINF:-1 tvg-id="HBO" tvg-name="HBO" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/HBO.png" tvg-country="US" group-title="US TV",HBO
 https://cdnlivetv.tv/secure/api/v1/6a288d2c81d8192bb76cd347/playlist.m3u8?token=NmEyODhkMmM4MWQ4MTkyYmI3NmNkMzQ3OjE3OTA3OTM1MjM5Njk6Y2RubGl2ZXR2LnR2OjkzMTc5MjI5Y2U1ZGU0NDkuMjhhMDQwNmVhYTA4MzNkYmE2MTg5MDZhOTBmMGE3ODk1Y2FkOWMyYjE2ODZhNzJlNTU0ZDQwMDNkZGYwMDZkNA
-#EXTINF:-1 tvg-id="Hallmark" tvg-name="Hallmark" tvg-logo="" tvg-country="US" group-title="US TV",Hallmark
+#EXTINF:-1 tvg-id="Hallmark" tvg-name="Hallmark" tvg-country="US" group-title="US TV",Hallmark
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb232/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjMyOjE3OTA3OTM1MjUwNTc6Y2RubGl2ZXR2LnR2OjA4NzM5MjgzOWEzMjMzNmUuNzBjYWE1YzMxYjYzMjczZjk2YTYyZGVjZGNmYTZlYzhiNWUzODdmZDIyYWM1OTIyOGVmZDE1MmM2MDdmM2FhZQ
 #EXTINF:-1 tvg-id="History" tvg-name="History" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/History.png" tvg-country="US" group-title="US TV",History
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3a7/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2E3OjE3OTA3OTM1MjYxNDQ6Y2RubGl2ZXR2LnR2OjFhMGE2YTcyOWUxNzMxODIuYWRjNmY4MDhmMzE5MGExMDM4OTQ1M2Y1YWRmOTQ1NDgyY2Y2ZmE4ZjQyNzRhYzRkMWUzZDMwZTkzNWY1MjViNw
-#EXTINF:-1 tvg-id="Houston_Astros" tvg-name="Houston Astros" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Houston Astros.png" tvg-country="US" group-title="US TV",Houston Astros
+#EXTINF:-1 tvg-id="Houston_Astros" tvg-name="Houston Astros" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Houston%20Astros.png" tvg-country="US" group-title="US TV",Houston Astros
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb627/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI3OjE3OTA3OTM1MjcyMzU6Y2RubGl2ZXR2LnR2OjVmZDgyM2E3OTdjZTU2ZTcuODg3MTRiMzk2NjgxNzM1OTZhOGUxNjNjNmI1OTVhNTE1OWM1MDE4MDkyNzA2NjlhOTcxZjA4N2VhZTI2ZTE4OQ
-#EXTINF:-1 tvg-id="ITV_1" tvg-name="ITV 1" tvg-logo="" tvg-country="GB" group-title="GB TV",ITV 1
+#EXTINF:-1 tvg-id="ITV_1" tvg-name="ITV 1" tvg-country="GB" group-title="GB TV",ITV 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc387/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzg3OjE3OTA3OTM1MjgzNzA6Y2RubGl2ZXR2LnR2Ojk0MTE0MzE0OGRiNWUxNDYuM2I3NTZiZjdlN2YwOTc0NWZkZTJkMWI2YTBjYWM0ZTk3ZjQ5MmU5MjUyMWQ4ZDdhODQ4OWYxMGZiOWRmYzI2NQ
-#EXTINF:-1 tvg-id="ITV_2" tvg-name="ITV 2" tvg-logo="" tvg-country="GB" group-title="GB TV",ITV 2
+#EXTINF:-1 tvg-id="ITV_2" tvg-name="ITV 2" tvg-country="GB" group-title="GB TV",ITV 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc38a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzhhOjE3OTA3OTM1Mjk0NTY6Y2RubGl2ZXR2LnR2OjMwNmUyMjJkYjBiZDExMDAuYjM4NDNjZDMzZmMyYzJhOTZiZTIxMWY5ZDQxNGJiYmZlNTBjZmExOTA5ZWQ4MDUwNjgyZmQ1NzY3NDk2N2NmZQ
-#EXTINF:-1 tvg-id="ITV_3" tvg-name="ITV 3" tvg-logo="" tvg-country="GB" group-title="GB TV",ITV 3
+#EXTINF:-1 tvg-id="ITV_3" tvg-name="ITV 3" tvg-country="GB" group-title="GB TV",ITV 3
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc38d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzhkOjE3OTA3OTM1MzA1NDc6Y2RubGl2ZXR2LnR2OmNmZjZhMDE4ZjY5N2Q4YzMuY2JlMjE1NDZkN2M0Y2I1YzQwZWQxZTVmN2E3ZTE2Y2JjNDYxNWU2MTEwOTkzMjg0MjM5MTUwNzM5NDc0NTJhZg
-#EXTINF:-1 tvg-id="ITV_4" tvg-name="ITV 4" tvg-logo="" tvg-country="GB" group-title="GB TV",ITV 4
+#EXTINF:-1 tvg-id="ITV_4" tvg-name="ITV 4" tvg-country="GB" group-title="GB TV",ITV 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc391/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzkxOjE3OTA3OTM1MzE2Mjk6Y2RubGl2ZXR2LnR2OmJmOGM1YmMyNGU0NjY5MDAuOGIzMGZkOWM3YzI4NGE5YzcwMTIwMjE3NWY3N2EyNzI0YTFiZDc4NjJkZTEyYjc5MTFhMjM2NWUzMzdlY2E0Mg
-#EXTINF:-1 tvg-id="Kansas_City_Royals" tvg-name="Kansas City Royals" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Kansas City Royals.png" tvg-country="US" group-title="US TV",Kansas City Royals
+#EXTINF:-1 tvg-id="Kansas_City_Royals" tvg-name="Kansas City Royals" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Kansas%20City%20Royals.png" tvg-country="US" group-title="US TV",Kansas City Royals
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb615/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE1OjE3OTA3OTM1MzI3MTc6Y2RubGl2ZXR2LnR2OjEwODUyYzE3ZWI4ZjY4NGMuZTNlNzc5NWUwMjRiY2UwNmIzMmZmOGRjN2IyYmMwMDA2YmI1YTAwMGRjN2MxNjVlZWU3NmNmYTQ4ZDZmMzY0Zg
-#EXTINF:-1 tvg-id="LaLiga_TV" tvg-name="LaLiga TV" tvg-logo="" tvg-country="GB" group-title="GB TV",LaLiga TV
+#EXTINF:-1 tvg-id="LaLiga_TV" tvg-name="LaLiga TV" tvg-country="GB" group-title="GB TV",LaLiga TV
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc375/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc1OjE3OTA3OTM1MzM4MDY6Y2RubGl2ZXR2LnR2OjFlZDI4MjdhYjAzYTM5ODguNTI4ODAzZGVlNTk2MzJlNWEwOTFlMDcwZjhmMzdhNGY1ODQ4OWViYTVjNjRhYWM4ZDRkNDVmZWEyM2IzMGIxOQ
 #EXTINF:-1 tvg-id="Lifetime" tvg-name="Lifetime" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Lifetime.png" tvg-country="US" group-title="US TV",Lifetime
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb247/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjQ3OjE3OTA3OTM1MzQ4OTg6Y2RubGl2ZXR2LnR2OmIzYmFmYzJhMWM0Yzc2OTMuMjJjZjZiZjVhODJiYzAyMzkxYTQ0Y2YzYjdmMmMwYjY5MjY0MTJlMWNjOWM1MDNhNzY0YmQ4MTFmZjQzOWE0Nw
-#EXTINF:-1 tvg-id="Los_Angeles_Angels" tvg-name="Los Angeles Angels" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Los Angeles Angels.png" tvg-country="US" group-title="US TV",Los Angeles Angels
+#EXTINF:-1 tvg-id="Los_Angeles_Angels" tvg-name="Los Angeles Angels" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Los%20Angeles%20Angels.png" tvg-country="US" group-title="US TV",Los Angeles Angels
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb632/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjMyOjE3OTA3OTM1MzU5ODY6Y2RubGl2ZXR2LnR2OjQ4NDQwMjIyMjNlNzZhMjAuOWUzMGFmYmU0NDI2YWRiYjc3ZmI4MTY2M2JlYWYyYjZjN2MwN2RmNzMwMDY1MTI1YTliMGQ2NGE5YTAxMDQ3NA
-#EXTINF:-1 tvg-id="Los_Angeles_Dodgers" tvg-name="Los Angeles Dodgers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Los Angeles Dodgers.png" tvg-country="US" group-title="US TV",Los Angeles Dodgers
+#EXTINF:-1 tvg-id="Los_Angeles_Dodgers" tvg-name="Los Angeles Dodgers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Los%20Angeles%20Dodgers.png" tvg-country="US" group-title="US TV",Los Angeles Dodgers
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb626/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI2OjE3OTA3OTM1MzcwODU6Y2RubGl2ZXR2LnR2OjVlYTU2MDhjM2YyNDQxMTcuZjdiZWQ5ODViYmFhYjE5NTM1OTZkYTg1OTRmOWEyNmYxNGY0OGYxN2QwOGZjN2JkYjc3YTY3MGQ5Mjg0N2ZhZg
 #EXTINF:-1 tvg-id="MASN" tvg-name="MASN" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MASN.png" tvg-country="US" group-title="US TV",MASN
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb4dc/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNGRjOjE3OTA3OTM1MzgxNzI6Y2RubGl2ZXR2LnR2OmEwNTliNTJhMGI0ZDY5ZWEuMjM4NWMwMDY4ZTM0MDA1MWMzZjg2ZjBkMmI5ZDIyZGFlNjJiYjQxMjM4NGNhYjEwOWZhYmUwZDQ0ZDM1N2JlNA
-#EXTINF:-1 tvg-id="MAX" tvg-name="MAX" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Max.png" tvg-country="US" group-title="US TV",MAX
+#EXTINF:-1 tvg-id="MAX" tvg-name="MAX" tvg-country="US" group-title="US TV",MAX
 https://cdnlivetv.tv/secure/api/v1/6a288d2e81d8192bb76ce74b/playlist.m3u8?token=NmEyODhkMmU4MWQ4MTkyYmI3NmNlNzRiOjE3OTA3OTM1MzkyNjE6Y2RubGl2ZXR2LnR2OmRmM2RiOTg0ZjFhYTk1MDkuNWJmMmVlNWNmNjE3ZmI4ZWJjNTA3NGZhMGFkMzhlYmE0NDY4M2FlNTliZTc4ODk1MWJiYzQ4ZTRmNzY5NTliOQ
-#EXTINF:-1 tvg-id="MLB_Network" tvg-name="MLB Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Network.png" tvg-country="US" group-title="US TV",MLB Network
+#EXTINF:-1 tvg-id="MLB_Network" tvg-name="MLB Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Network.png" tvg-country="US" group-title="US TV",MLB Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5cf/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNmOjE3OTA3OTM1NDAzNDk6Y2RubGl2ZXR2LnR2OjBlNmU1YzBhZTIwMzcwNGQuMmQxNWM1YzMxMTEyMTU2YTEyM2UxM2M0ZWQzMmU2NzdmYmJlZjZjNzk0MWM0MzBhMmY0OTRlODcyZTlhYjk0OQ
-#EXTINF:-1 tvg-id="MSG" tvg-name="MSG" tvg-logo="" tvg-country="US" group-title="US TV",MSG
+#EXTINF:-1 tvg-id="MSG" tvg-name="MSG" tvg-country="US" group-title="US TV",MSG
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5d1/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWQxOjE3OTA3OTM1NDE0MzE6Y2RubGl2ZXR2LnR2OmI1NGJkNzc4MjVkYzMyODAuZDQ3MDk5MjAxNmYyYTRiNzA1NWRhNTY1YjZiNGRjOWZlZmY4NjUzMGUzYTczYTQ1ZGRjYzZkNjRiMDA5MDlhOA
-#EXTINF:-1 tvg-id="Marquee_Sports_Network" tvg-name="Marquee Sports Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Marquee Sports Network.png" tvg-country="US" group-title="US TV",Marquee Sports Network
+#EXTINF:-1 tvg-id="Marquee_Sports_Network" tvg-name="Marquee Sports Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Marquee%20Sports%20Network.png" tvg-country="US" group-title="US TV",Marquee Sports Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ce/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWNlOjE3OTA3OTM1NDI1MTU6Y2RubGl2ZXR2LnR2OjRhNjFlNGFmOWUwMDM0MmIuOTIxYThkNTRlZDE5YzEyNGRlYWQ1ZWNmNjE4NDhkZTI3ZjdiZDAyNjcxMDVmNzliNzQyYTQxZWZlM2Y1MjYyOQ
-#EXTINF:-1 tvg-id="Miami_Marlins" tvg-name="Miami Marlins" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Miami Marlins.png" tvg-country="US" group-title="US TV",Miami Marlins
+#EXTINF:-1 tvg-id="Miami_Marlins" tvg-name="Miami Marlins" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Miami%20Marlins.png" tvg-country="US" group-title="US TV",Miami Marlins
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb628/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI4OjE3OTA3OTM1NDM2MDI6Y2RubGl2ZXR2LnR2OjUxNDM1YzY3MDExZTQyZTMuNzQ5ODQ2YzU0N2M5MWY2ODFmMDdiOGZlODkxMjY2MDY0MDU3NWQxMWRjZTljZjMxNjAzNDRmNjYxYjM0ZjUzNA
-#EXTINF:-1 tvg-id="Milwaukee_Brewers" tvg-name="Milwaukee Brewers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Milwaukee Brewers.png" tvg-country="US" group-title="US TV",Milwaukee Brewers
+#EXTINF:-1 tvg-id="Milwaukee_Brewers" tvg-name="Milwaukee Brewers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Milwaukee%20Brewers.png" tvg-country="US" group-title="US TV",Milwaukee Brewers
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb613/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjEzOjE3OTA3OTM1NDQ2ODk6Y2RubGl2ZXR2LnR2OjNkYTNlMmJkNmVjMWVkYjYuZGU3MzVhM2IxNWY1ZDU3MWE0MzNlZWI0OTc5ZjM3N2EzYzI2NTcxMDhjNTlhMGQ2ZjJjYTA2MmZmOTNmN2ZkYg
-#EXTINF:-1 tvg-id="Minnesota_Twins" tvg-name="Minnesota Twins" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Minnesota Twins.png" tvg-country="US" group-title="US TV",Minnesota Twins
+#EXTINF:-1 tvg-id="Minnesota_Twins" tvg-name="Minnesota Twins" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Minnesota%20Twins.png" tvg-country="US" group-title="US TV",Minnesota Twins
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb624/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI0OjE3OTA3OTM1NDU3ODA6Y2RubGl2ZXR2LnR2Ojc5M2RkMzdmMzFiN2RmZTYuZTc3MWNhYTBlNjZkZmZlM2VkYTNmYjQzNmIyNDEwM2Q3NWE0YjMzNmE5ZjczMDJlZjE2MjcwZTA0ZDBkNTZmMQ
-#EXTINF:-1 tvg-id="Monumental_Sports_Network" tvg-name="Monumental Sports Network" tvg-logo="" tvg-country="US" group-title="US TV",Monumental Sports Network
+#EXTINF:-1 tvg-id="Monumental_Sports_Network" tvg-name="Monumental Sports Network" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/e/e1/Monumental_Sports_Network_Logo.png/330px-Monumental_Sports_Network_Logo.png" tvg-country="US" group-title="US TV",Monumental Sports Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb509/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTA5OjE3OTA3OTM1NDY4Njk6Y2RubGl2ZXR2LnR2OjY5MWFlZGIyNmY1ZjQ0NGEuMjhkYjA1MTRjOTQyZDhjOGNlNjU3ZTkyYjc4MzRmNjk0ZjVmZmZhNTE5ZjVhN2Q5YzY0ZGI3MDg5ZDRiMThiMA
-#EXTINF:-1 tvg-id="NBA_TV" tvg-name="NBA TV" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NBA TV.png" tvg-country="US" group-title="US TV",NBA TV
+#EXTINF:-1 tvg-id="NBA_TV" tvg-name="NBA TV" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NBA%20TV.png" tvg-country="US" group-title="US TV",NBA TV
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5d3/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWQzOjE3OTA3OTM1NDc5NTc6Y2RubGl2ZXR2LnR2OjkwY2JlMmU5MTI0NTZmNzkuODJlOGE3ZTE2NWIwNmJmOTI4YTM0ODU5MWVmMzdhN2UwZjJiMDNiOGI5MDE5YWM1Zjk0YTM5ZWUxODdkYjlmNQ
 #EXTINF:-1 tvg-id="NBC" tvg-name="NBC" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NBC.png" tvg-country="US" group-title="US TV",NBC
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3d1/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2QxOjE3OTA3OTM1NDkwNDg6Y2RubGl2ZXR2LnR2OjlmMmM4YTc3OWYyMjc3ZTQuMDQyMDRlMmNmNDFlY2I4MGU0Njc0MjVhZTI3ZWQ3ZTEwM2Y5YzgwYTY1MTdjNDMzY2JmODNkZTkzMjNhMTIxMw
-#EXTINF:-1 tvg-id="NBC_Universo" tvg-name="NBC Universo" tvg-logo="" tvg-country="US" group-title="US TV",NBC Universo
+#EXTINF:-1 tvg-id="NBC_Universo" tvg-name="NBC Universo" tvg-country="US" group-title="US TV",NBC Universo
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb25a/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjVhOjE3OTA3OTM1NTAxMzA6Y2RubGl2ZXR2LnR2OjM2ZDZjYzk5NDgzOTJkMzQuZWNmMmZlZmJmZDY5YTc5MmE5Y2EzNzFmZGEyNzBjYTc1OGFlNGFkMDZjOTRlOGVjOTE3YjBjMDE2YmRiYmQ0ZQ
 #EXTINF:-1 tvg-id="NESN" tvg-name="NESN" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NESN.png" tvg-country="US" group-title="US TV",NESN
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5dc/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWRjOjE3OTA3OTM1NTEyMTc6Y2RubGl2ZXR2LnR2OjBlNWJiOGVjZWE0Y2UxMjguM2Q0MGI1YTgzYzc1N2M2NDUyMGZhNjMwNzRmNjNhZGYzYzJiZTIzNjA1ODdkZDAyNjgxNzhkNDRiY2YxMDVjOQ
-#EXTINF:-1 tvg-id="NFL_Network" tvg-name="NFL Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NFL Network.png" tvg-country="US" group-title="US TV",NFL Network
+#EXTINF:-1 tvg-id="NFL_Network" tvg-name="NFL Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NFL%20Network.png" tvg-country="US" group-title="US TV",NFL Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb65d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjVkOjE3OTA3OTM1NTIzMDQ6Y2RubGl2ZXR2LnR2OmE2OTg3YmIwNWIxZjMzNGMuNzYyZTc5Zjc5NzI2OTFhZmZjOTk5ZjljMDlkZjQ4MTg5YzAwNmQ2N2Q5NmM4OTc3NjVkY2UyZmMwODM2NDNmZQ
-#EXTINF:-1 tvg-id="NHL_Network" tvg-name="NHL Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NHL Network.png" tvg-country="US" group-title="US TV",NHL Network
+#EXTINF:-1 tvg-id="NHL_Network" tvg-name="NHL Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/NHL%20Network.png" tvg-country="US" group-title="US TV",NHL Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb69d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjlkOjE3OTA3OTM1NTMzOTM6Y2RubGl2ZXR2LnR2OmViZTVlM2ZlMGE0Yzg3ZDQuOTY0NzkwMDRlODhiZWJmNzBhN2M1OGUwYTQwNDE5YzM5OTBlMDYyMWNjNmY3MmRkZWQxMzEzOWNiMGRiZmJiYw
-#EXTINF:-1 tvg-id="NHL_UHD_US" tvg-name="NHL UHD US" tvg-logo="" tvg-country="US" group-title="US TV",NHL UHD US
+#EXTINF:-1 tvg-id="NHL_UHD_US" tvg-name="NHL UHD US" tvg-country="US" group-title="US TV",NHL UHD US
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb260/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjYwOjE3OTA3OTM1NTQ0ODE6Y2RubGl2ZXR2LnR2OjhlNDkyZjQyYjAxY2ViNmIuNWU3OGJjMzU5OTAyNmM5NzU1Y2U5NzM3NjQ3ZjUyMzEyZjk4Y2VmYWJiYzU4MGY0MGQ0MTAzMGRmMTdiYjE0Ng
-#EXTINF:-1 tvg-id="NHL_|_ANAHEIM_DUCKS" tvg-name="NHL | ANAHEIM DUCKS" tvg-logo="" tvg-country="US" group-title="US TV",NHL | ANAHEIM DUCKS
+#EXTINF:-1 tvg-id="NHL_|_ANAHEIM_DUCKS" tvg-name="NHL | ANAHEIM DUCKS" tvg-country="US" group-title="US TV",NHL | ANAHEIM DUCKS
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6c0/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmMwOjE3OTA3OTM1NTU1Njk6Y2RubGl2ZXR2LnR2OjBmZGEyYjczOTI2OWU4NjcuOTViZGRjMjE2NjhlNzIwYTEwZDEwYjFmMDQ2ZTFiNGM0YzU1OGFhYzMyYzYzNTY3YThiMDNmZTlkZjAzYTcwMA
-#EXTINF:-1 tvg-id="National_Geographic" tvg-name="National Geographic" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/National Geographic.png" tvg-country="US" group-title="US TV",National Geographic
+#EXTINF:-1 tvg-id="National_Geographic" tvg-name="National Geographic" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/National%20Geographic.png" tvg-country="US" group-title="US TV",National Geographic
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc47e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjNDdlOjE3OTA3OTM1NTY2NTg6Y2RubGl2ZXR2LnR2OjUxODcyOWY2NGExNjJjMGMuZjcyMWYxYzU0MThkMWM3MjA2ZjM0OGI1ZDVmYWI5OTMxNTYwZWU3ZDQ5NTgwM2ZkMTE1NWNhZTJjOGJhM2ZlZA
-#EXTINF:-1 tvg-id="New_York_Mets" tvg-name="New York Mets" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/New York Mets.png" tvg-country="US" group-title="US TV",New York Mets
+#EXTINF:-1 tvg-id="New_York_Mets" tvg-name="New York Mets" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/New%20York%20Mets.png" tvg-country="US" group-title="US TV",New York Mets
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb625/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjI1OjE3OTA3OTM1NTc3NDc6Y2RubGl2ZXR2LnR2OmQzYzIwNGY5ODg5OTM5YTIuODkyMDcyMTIwYzg3OWU4Yjc1MzA2MTNkZDVjMzMxYTQyOTU5MWEwMTVjODQ5MTJkN2VmYmI5NDJlMmQwMGIyYQ
-#EXTINF:-1 tvg-id="New_York_Yankees" tvg-name="New York Yankees" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/New York Yankees.png" tvg-country="US" group-title="US TV",New York Yankees
+#EXTINF:-1 tvg-id="New_York_Yankees" tvg-name="New York Yankees" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/New%20York%20Yankees.png" tvg-country="US" group-title="US TV",New York Yankees
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb623/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjIzOjE3OTA3OTM1NTg4MzU6Y2RubGl2ZXR2LnR2OjBkYzk4YTdiZTExZmJlMDMuMDZmYzlhNGQ5ODQ5MTIxZDVhYjZmODZkMWE2OTRkYjE0ODBmMGNmMjdjZTMwMmMwYmExNzk0ZTk5NDgyMjcyNg
-#EXTINF:-1 tvg-id="Nickelodeon_TV" tvg-name="Nickelodeon TV" tvg-logo="" tvg-country="US" group-title="US TV",Nickelodeon TV
+#EXTINF:-1 tvg-id="Nickelodeon_TV" tvg-name="Nickelodeon TV" tvg-country="US" group-title="US TV",Nickelodeon TV
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb413/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDEzOjE3OTA3OTM1NTk5MjY6Y2RubGl2ZXR2LnR2OjdhODk1YTE0ZjAyZWQyNmMuYjFmOGUyMmRhMGIzMDQzNzQ5MTcwMDliY2JiNTI0ZmU2MmQ3YzEyMjQ3Zjg4YTA2MWI3MGZiZDU5ZDdmNDAyNQ
-#EXTINF:-1 tvg-id="Oakland_Athletics" tvg-name="Oakland Athletics" tvg-logo="" tvg-country="US" group-title="US TV",Oakland Athletics
+#EXTINF:-1 tvg-id="Oakland_Athletics" tvg-name="Oakland Athletics" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Oakland_A%27s_logo.svg/330px-Oakland_A%27s_logo.svg.png" tvg-country="US" group-title="US TV",Oakland Athletics
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb622/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjIyOjE3OTA3OTM1NjEwMTI6Y2RubGl2ZXR2LnR2OmMyMDE4ZTIxN2M3ODZkODEuNWE1NmQwZDQ2NTViMGZiYWIxNjU2MTI0Y2Y2NDg1MDk2MjQ0ODI1MDIzZDE1OGZmZThlODU4MGY1OTdjOGEzZg
-#EXTINF:-1 tvg-id="Philadelphia_Phillies" tvg-name="Philadelphia Phillies" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Philadelphia Phillies.png" tvg-country="US" group-title="US TV",Philadelphia Phillies
+#EXTINF:-1 tvg-id="Philadelphia_Phillies" tvg-name="Philadelphia Phillies" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Philadelphia%20Phillies.png" tvg-country="US" group-title="US TV",Philadelphia Phillies
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb616/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE2OjE3OTA3OTM1NjIxMDI6Y2RubGl2ZXR2LnR2OjE0YWY3NTlkZmIxZmNiODcuMGM4Y2ZhYWJkMzU0ZTA2M2U3MDUzMWFiMzNlY2EyNGNmMGNlNWI3MzNlZTg2YTBmMDEwMTkyOWVhZGI5Y2MwNQ
-#EXTINF:-1 tvg-id="Pittsburgh_Pirates" tvg-name="Pittsburgh Pirates" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/Pittsburgh Pirates.png" tvg-country="US" group-title="US TV",Pittsburgh Pirates
+#EXTINF:-1 tvg-id="Pittsburgh_Pirates" tvg-name="Pittsburgh Pirates" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/Pittsburgh%20Pirates.png" tvg-country="US" group-title="US TV",Pittsburgh Pirates
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb621/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjIxOjE3OTA3OTM1NjMxODY6Y2RubGl2ZXR2LnR2OjI4Y2YwYjNiN2E2ZTA2YzYuYWVjY2EwOGY3YTgxZjE0YWRiNzFmYzE3OTVlYTgxOGNlMTI1Yjk5NmMxOGM2NmYwMTAzZGRlNzQzYzRkODNlMQ
-#EXTINF:-1 tvg-id="Premier_Sports_1" tvg-name="Premier Sports 1" tvg-logo="" tvg-country="GB" group-title="GB TV",Premier Sports 1
+#EXTINF:-1 tvg-id="Premier_Sports_1" tvg-name="Premier Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Premier%20Sports%201%20HD.png" tvg-country="GB" group-title="GB TV",Premier Sports 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc35e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzVlOjE3OTA3OTM1NjQyNzc6Y2RubGl2ZXR2LnR2OjM0YWJkYTY5NjE1ZWVhOTYuODQzOGZmNTY3N2Q1MGUxMjNiNzhjYTc5NjA0YjMyNWEzYjdmNzZlNzI0ZGM2ZjIzM2JhOTJiNjNmYTg3MTM1OA
-#EXTINF:-1 tvg-id="Premier_Sports_2" tvg-name="Premier Sports 2" tvg-logo="" tvg-country="GB" group-title="GB TV",Premier Sports 2
+#EXTINF:-1 tvg-id="Premier_Sports_2" tvg-name="Premier Sports 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Premier%20Sports%202%20HD.png" tvg-country="GB" group-title="GB TV",Premier Sports 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc361/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzYxOjE3OTA3OTM1NjUzNjU6Y2RubGl2ZXR2LnR2OjQ1NGE2MGYyYjUxZTJkYTUuYzBkY2I1NzdkMjZkMjNkOGY1NDllNmQyNTc5NmMyZjFmZDEyNmFhZjc0NzYxYjUwMmQ1NTNjZjBkNTNhNzBmNw
 #EXTINF:-1 tvg-id="RDS" tvg-name="RDS" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/RDS.png" tvg-country="CA" group-title="CA TV",RDS
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc162/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTYyOjE3OTA3OTM1NjY0NTU6Y2RubGl2ZXR2LnR2OjljNWZiYmQwMmE0NDBlNjguMDU3YmQ3OGRkMDQ4OGNiYzI4N2RiYWEwN2IzODU5MzM2ODQ3YmQ5YjRlMThjZDQzZjJkMGEwNjE5MmQ0ZWRlNA
-#EXTINF:-1 tvg-id="Red_Bull" tvg-name="Red Bull" tvg-logo="" tvg-country="US" group-title="US TV",Red Bull
+#EXTINF:-1 tvg-id="Red_Bull" tvg-name="Red Bull" tvg-country="US" group-title="US TV",Red Bull
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc374/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzc0OjE3OTA3OTM1Njc1NDM6Y2RubGl2ZXR2LnR2OjFiMjg2MTNlYTM3OTk1MzQuOWUyNjJlMGEyNmZjMzdmY2I2NDk2ZGMwNzIzNzhhMGJkNGZjYjM4YjU5YzBlMmRjZmI4YjY2ZGMxOTE3M2EwMg
-#EXTINF:-1 tvg-id="SEC_Network" tvg-name="SEC Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/SEC Network.png" tvg-country="US" group-title="US TV",SEC Network
+#EXTINF:-1 tvg-id="SEC_Network" tvg-name="SEC Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/SEC%20Network.png" tvg-country="US" group-title="US TV",SEC Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb3bb/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiM2JiOjE3OTA3OTM1Njg2MzE6Y2RubGl2ZXR2LnR2OmZiNWE1MmIwNmJiM2Q0NGEuMWI5YThiM2VhOTAxZDE4NzJmNmUyYzA0NWIyYTYzMjU5NmUyNmViODE5NDgyZDJhN2NkMzcxYjFhNzU2YTEwYg
-#EXTINF:-1 tvg-id="San_Diego_Padres" tvg-name="San Diego Padres" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/San Diego Padres.png" tvg-country="US" group-title="US TV",San Diego Padres
+#EXTINF:-1 tvg-id="San_Diego_Padres" tvg-name="San Diego Padres" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/San%20Diego%20Padres.png" tvg-country="US" group-title="US TV",San Diego Padres
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb61e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjFlOjE3OTA3OTM1Njk3MTI6Y2RubGl2ZXR2LnR2OjNmODRjNGEzNjZmMzEzNGUuNmM5YTczY2MzYWFiZTE5ZmU0YWE1NmEzZDUyYjk2MThlYzkyZTdhMDRlNzQyNzFjMGU2YjVlMzhiYTFmZTk2OQ
-#EXTINF:-1 tvg-id="San_Francisco_Giants" tvg-name="San Francisco Giants" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/San Francisco Giants.png" tvg-country="US" group-title="US TV",San Francisco Giants
+#EXTINF:-1 tvg-id="San_Francisco_Giants" tvg-name="San Francisco Giants" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/San%20Francisco%20Giants.png" tvg-country="US" group-title="US TV",San Francisco Giants
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb61d/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjFkOjE3OTA3OTM1NzA3OTk6Y2RubGl2ZXR2LnR2OjBhYzY0MjkzODgyMTJmNWUuZjhkZTI4YWIwNzU0N2QwMmMwMzE1MDZjYjZmNThmZjA2NzQxNmQzNjY4OTk1YTUwODJiYmRhZjlmNDgxNmZkYQ
-#EXTINF:-1 tvg-id="Seattle_Mariners" tvg-name="Seattle Mariners" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Seattle Mariners.png" tvg-country="US" group-title="US TV",Seattle Mariners
+#EXTINF:-1 tvg-id="Seattle_Mariners" tvg-name="Seattle Mariners" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Seattle%20Mariners.png" tvg-country="US" group-title="US TV",Seattle Mariners
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb61c/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjFjOjE3OTA3OTM1NzE4ODk6Y2RubGl2ZXR2LnR2OjA5MmY0NmVjMGI2ZWM3NzUuMGRiODZmYmE4ZDZjNjQ0NTkyM2JmMGE3MWEzMDMyZmFiMTI0MzhkMDVjOTBjYmYwOWQxNTI3NTJhYWZmOTEyYw
 #EXTINF:-1 tvg-id="Showtime" tvg-name="Showtime" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Showtime.png" tvg-country="US" group-title="US TV",Showtime
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb465/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDY1OjE3OTA3OTM1NzI5Nzc6Y2RubGl2ZXR2LnR2OmY4ZWYzZTg4Mzk0NWFmMTAuYmJhNDk1ZDdjNDk4MGU5MDlkNTc4MGI4NTM0OTQ3ZTU1Yzc5YzdmNGE2NTA0YWYxNjM5YWU1YmQ2MGQ5ZmM3MA
-#EXTINF:-1 tvg-id="Sky_Sport_1" tvg-name="Sky Sport 1" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 1
+#EXTINF:-1 tvg-id="Sky_Sport_1" tvg-name="Sky Sport 1" tvg-country="NZ" group-title="NZ TV",Sky Sport 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf222/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjIyOjE3OTA3OTM1NzQwNjQ6Y2RubGl2ZXR2LnR2OjdiMTQ3NmZmMDI0MzczM2QuMzYzYjZiZjE2MjhlZDA1ZDNjZWEzNzAwNmM5MWYzMGE0NDgyNmI1MDhhNDVhYjNhMmM3NGNhMjM2ZTNmOTA3ZA
-#EXTINF:-1 tvg-id="Sky_Sport_2" tvg-name="Sky Sport 2" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 2
+#EXTINF:-1 tvg-id="Sky_Sport_2" tvg-name="Sky Sport 2" tvg-country="NZ" group-title="NZ TV",Sky Sport 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf223/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjIzOjE3OTA3OTM1NzUxNTQ6Y2RubGl2ZXR2LnR2OjBmZGQ1NTAwZDAxYzY2MzQuYzczNWZjMTAxNjJmZDA3YjFiZGQ0MjFlY2U3M2NjNTY0YzYxZGQ4ZTMxZjIyYzNjYjhhNzlkZTJlYTk2NTkxNQ
-#EXTINF:-1 tvg-id="Sky_Sport_3" tvg-name="Sky Sport 3" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 3
+#EXTINF:-1 tvg-id="Sky_Sport_3" tvg-name="Sky Sport 3" tvg-country="NZ" group-title="NZ TV",Sky Sport 3
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf225/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI1OjE3OTA3OTM1NzYyNDM6Y2RubGl2ZXR2LnR2OjNmZDkxYWVmOWZmZjBiMzMuNzg3MzUwNmViYWNiZDIwZGE3MDU3Mjg2NGJkN2ZjZTc2YTI2ZWE5MTZjZTZlY2U3NmRlYWE1YWY4ZWY3YzkwZg
-#EXTINF:-1 tvg-id="Sky_Sport_4" tvg-name="Sky Sport 4" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 4
+#EXTINF:-1 tvg-id="Sky_Sport_4" tvg-name="Sky Sport 4" tvg-country="NZ" group-title="NZ TV",Sky Sport 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf226/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI2OjE3OTA3OTM1NzczMzE6Y2RubGl2ZXR2LnR2OmExMWY3MjNjNWI0YjBkMmQuYThjMWYzMjAxMjNiYjZjYmNjZGU2NThiMzY1N2Q1N2EwMDVjZDU3NThlZjVmOWZkOTMzNmE1ODU3NTYyN2IwNQ
-#EXTINF:-1 tvg-id="Sky_Sport_5" tvg-name="Sky Sport 5" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 5
+#EXTINF:-1 tvg-id="Sky_Sport_5" tvg-name="Sky Sport 5" tvg-country="NZ" group-title="NZ TV",Sky Sport 5
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf227/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI3OjE3OTA3OTM1Nzg0MTM6Y2RubGl2ZXR2LnR2OmVkZGM2YjcwMmMyNWY3YmIuNWRkYTJkYWVhYzUxZGI3Mjg2ZGE5NmI5MmI5YWJmODVhMGQ4OTY2YmNhNjlhMzI1OWJkN2Q0MDRlZTgxMTkyMQ
-#EXTINF:-1 tvg-id="Sky_Sport_6" tvg-name="Sky Sport 6" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 6
+#EXTINF:-1 tvg-id="Sky_Sport_6" tvg-name="Sky Sport 6" tvg-country="NZ" group-title="NZ TV",Sky Sport 6
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf228/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI4OjE3OTA3OTM1Nzk0OTg6Y2RubGl2ZXR2LnR2OmI3MzE3MDNlYjZlN2JkYmMuYjQ3NWI3ZWQ3OGU4YTFkODkzMDMyNzI2ZTE0ZDQyY2U4MWVhZGQ2NDA1NmZlMDM5NmI3MzE0MDY4YjJlNDRmZg
-#EXTINF:-1 tvg-id="Sky_Sport_7" tvg-name="Sky Sport 7" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 7
+#EXTINF:-1 tvg-id="Sky_Sport_7" tvg-name="Sky Sport 7" tvg-country="NZ" group-title="NZ TV",Sky Sport 7
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf229/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjI5OjE3OTA3OTM1ODA1ODY6Y2RubGl2ZXR2LnR2OjEwMWMwOTQzMTk3OTI0ZGQuNjJkMmEyMGQ0ZjUyYjBkNTlkYzI0NzM5MmE5ZmM5NGVkMWZhNDlkZTdhMmU2ODEwOTg3OTk4Y2Y2YTJjYjg1NQ
-#EXTINF:-1 tvg-id="Sky_Sport_8" tvg-name="Sky Sport 8" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 8
+#EXTINF:-1 tvg-id="Sky_Sport_8" tvg-name="Sky Sport 8" tvg-country="NZ" group-title="NZ TV",Sky Sport 8
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22a/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJhOjE3OTA3OTM1ODE2NzA6Y2RubGl2ZXR2LnR2OmRiNjQ4ODViMWMwZGQ5M2UuOWQ1ZjBhN2UyM2ZiNmY3YmMzMjcyNzg1Mjg1NDVhY2JmY2RmZWIwZGQzYzlhZDk2Yzg4YzkxYjU2YTU5NzY0MQ
-#EXTINF:-1 tvg-id="Sky_Sport_9" tvg-name="Sky Sport 9" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport 9
+#EXTINF:-1 tvg-id="Sky_Sport_9" tvg-name="Sky Sport 9" tvg-country="NZ" group-title="NZ TV",Sky Sport 9
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22b/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJiOjE3OTA3OTM1ODI3NjA6Y2RubGl2ZXR2LnR2OjIzN2E5MjkwNzAzMGVhN2UuMWIxM2FhNTNmZWQ1ZThlODE5YjQwNmUyZTg4M2RmNDgwODk0NGM0MTc2MmI0ODA4ZWI5NDI4Nzc1ZjNiZTkzMA
-#EXTINF:-1 tvg-id="Sky_Sport_Select" tvg-name="Sky Sport Select" tvg-logo="" tvg-country="NZ" group-title="NZ TV",Sky Sport Select
+#EXTINF:-1 tvg-id="Sky_Sport_Select" tvg-name="Sky Sport Select" tvg-country="NZ" group-title="NZ TV",Sky Sport Select
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf22c/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMjJjOjE3OTA3OTM1ODM4NTA6Y2RubGl2ZXR2LnR2OmFmN2ZiZWZmMmY4OWY5NDEuZjg1NDQwODFkZWVlZDFkZWY1NzgwOGRmOTVkYTU2MDk1MmMxMzQ5NDY5OWFjNTE4MjZmMDM0ZDM1YWE0OWEwYQ
-#EXTINF:-1 tvg-id="Sky_Sports_Action" tvg-name="Sky Sports Action" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Action.png" tvg-country="GB" group-title="GB TV",Sky Sports Action
+#EXTINF:-1 tvg-id="Sky_Sports_Action" tvg-name="Sky Sports Action" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Action.png" tvg-country="GB" group-title="GB TV",Sky Sports Action
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc327/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzI3OjE3OTA3OTM1ODQ5NDI6Y2RubGl2ZXR2LnR2OmQwMDUwZTRjYWFmZmM0NTEuY2Y3YmEyMGMwZmViZTI1MmRkNTE3MjhlM2U0Yzg0NmU2ZjhkY2JjNDBlMjE5ZGNkYTU1Nzg4YzcyN2JhZWExOA
-#EXTINF:-1 tvg-id="Sky_Sports_Arena" tvg-name="Sky Sports Arena" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Arena.png" tvg-country="GB" group-title="GB TV",Sky Sports Arena
+#EXTINF:-1 tvg-id="Sky_Sports_Arena" tvg-name="Sky Sports Arena" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Arena.png" tvg-country="GB" group-title="GB TV",Sky Sports Arena
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc324/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzI0OjE3OTA3OTM1ODYwMjc6Y2RubGl2ZXR2LnR2OmY2N2FhYzQyZTQ0MGQzNjUuZjM4OWVmOTMzMjViNWY4ZjEyZDQwNzAzMDEwZmE4MDA0Mzg0Nzg1ZTZmZjJkMTNiZjliZmYxOTgwZTc5NjAzMw
-#EXTINF:-1 tvg-id="Sky_Sports_Cricket" tvg-name="Sky Sports Cricket" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Cricket.png" tvg-country="GB" group-title="GB TV",Sky Sports Cricket
+#EXTINF:-1 tvg-id="Sky_Sports_Cricket" tvg-name="Sky Sports Cricket" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Cricket.png" tvg-country="GB" group-title="GB TV",Sky Sports Cricket
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFhOjE3OTA3OTM1ODcxMTI6Y2RubGl2ZXR2LnR2OjkxZmY3MzYzYWVlMzJkNGMuNDJlODZmZWE2ZmM3YmNiM2JhNTZhNDdhMjA1YmI0MDg0ODllNjNjZTM4MTNkY2M4Mjg2NjNlYzc1NWU5YTVmOA
-#EXTINF:-1 tvg-id="Sky_Sports_F1" tvg-name="Sky Sports F1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports F1.png" tvg-country="GB" group-title="GB TV",Sky Sports F1
+#EXTINF:-1 tvg-id="Sky_Sports_F1" tvg-name="Sky Sports F1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20F1.png" tvg-country="GB" group-title="GB TV",Sky Sports F1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc315/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzE1OjE3OTA3OTM1ODgyMDA6Y2RubGl2ZXR2LnR2OjM1NTdhZDI1YmNkNmExZDMuN2RhZmQyMjdmMDJmMDMxM2RiZWQ5YjQ1ZjA0YTllYmI3N2JlY2NiNTA3N2U3YTEzYjNmZTlkZTg1YjU1MTY5Nw
-#EXTINF:-1 tvg-id="Sky_Sports_Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Football.png" tvg-country="GB" group-title="GB TV",Sky Sports Football
+#EXTINF:-1 tvg-id="Sky_Sports_Football" tvg-name="Sky Sports Football" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Football.png" tvg-country="GB" group-title="GB TV",Sky Sports Football
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc340/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQwOjE3OTA3OTM1ODkyODk6Y2RubGl2ZXR2LnR2OjYxNDZhM2YxYWFiMWJhODguMzM5NTRjOTAyZDQ5NWMzYzVhMTg3YjkxZmUyYjYyZTJjZjJjZjM3NWI5YTJhYTI4NjVlMDE0NWUwMmFiNDNjZQ
-#EXTINF:-1 tvg-id="Sky_Sports_Golf" tvg-name="Sky Sports Golf" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Golf.png" tvg-country="GB" group-title="GB TV",Sky Sports Golf
+#EXTINF:-1 tvg-id="Sky_Sports_Golf" tvg-name="Sky Sports Golf" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Golf.png" tvg-country="GB" group-title="GB TV",Sky Sports Golf
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc31d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzFkOjE3OTA3OTM1OTAzODA6Y2RubGl2ZXR2LnR2OjA2NjNmMTg2ZDM0ZTIzNTEuZDM5YWQ2ZGJkOGUyODA4YTk2NzM5OTU0MTkxNzE0NTNlZjE0ZjVhYmYwNWQ0NzJlMWY3ZThmOTU2MzMzZWQwZg
-#EXTINF:-1 tvg-id="Sky_Sports_Main_Event" tvg-name="Sky Sports Main Event" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Main Event.png" tvg-country="GB" group-title="GB TV",Sky Sports Main Event
+#EXTINF:-1 tvg-id="Sky_Sports_Main_Event" tvg-name="Sky Sports Main Event" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Main%20Event.png" tvg-country="GB" group-title="GB TV",Sky Sports Main Event
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc30f/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzBmOjE3OTA3OTM1OTE0NzE6Y2RubGl2ZXR2LnR2OjZlMDliMDJjMDRmZGRhZTkuYTYyODVjMTgyN2UzNGMzNTI2ZDU3OWY5NzJmZmUzNDVkYmRmNTdjYjE3ZTRkM2Y3YzBhYzM0MTIxZGFkYjAwNg
-#EXTINF:-1 tvg-id="Sky_Sports_Mix" tvg-name="Sky Sports Mix" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Mix.png" tvg-country="GB" group-title="GB TV",Sky Sports Mix
+#EXTINF:-1 tvg-id="Sky_Sports_Mix" tvg-name="Sky Sports Mix" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Mix.png" tvg-country="GB" group-title="GB TV",Sky Sports Mix
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc32d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzJkOjE3OTA3OTM1OTI1NTU6Y2RubGl2ZXR2LnR2OjM3MmY2ZjgwZDlhMDI1ZTIuMTA1YTFhM2M1ZjZlM2E4MjA2YjE2NzQ5ODE3YmVhNGY3MTc2MDU4MWEzMmM2NGFlM2Q5MDg3MDZmNzJmNGJkMw
-#EXTINF:-1 tvg-id="Sky_Sports_Premier_League" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Premier League.png" tvg-country="GB" group-title="GB TV",Sky Sports Premier League
+#EXTINF:-1 tvg-id="Sky_Sports_Premier_League" tvg-name="Sky Sports Premier League" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Premier%20League.png" tvg-country="GB" group-title="GB TV",Sky Sports Premier League
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc33d/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzNkOjE3OTA3OTM1OTM2NDk6Y2RubGl2ZXR2LnR2OmRkOTczNTQwYTFkMmFlOTYuNThkMTY4NTQzM2IxN2YwMWIxYWI4NTU3MWNlNTYzYmVkZGJiNDExNGIxZDBkN2M3NzFiNTQyMGExOWViYmQyYg
-#EXTINF:-1 tvg-id="Sky_Sports_Racing" tvg-name="Sky Sports Racing" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Racing.png" tvg-country="GB" group-title="GB TV",Sky Sports Racing
+#EXTINF:-1 tvg-id="Sky_Sports_Racing" tvg-name="Sky Sports Racing" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Racing.png" tvg-country="GB" group-title="GB TV",Sky Sports Racing
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc333/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzMzOjE3OTA3OTM1OTQ3MzQ6Y2RubGl2ZXR2LnR2OjBlMDA1OTBjYzRiM2Y4MmQuODdlMjg1NzA1OTdmM2YzNjIzY2YxZDNiZjNkN2VlZjZjNDRhZDgwODI5OWIyYzVlYmUwYmIzNzA4N2RjM2VhOA
-#EXTINF:-1 tvg-id="Sky_Sports_Tennis" tvg-name="Sky Sports Tennis" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky Sports Tennis.png" tvg-country="GB" group-title="GB TV",Sky Sports Tennis
+#EXTINF:-1 tvg-id="Sky_Sports_Tennis" tvg-name="Sky Sports Tennis" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Sky%20Sports%20Tennis.png" tvg-country="GB" group-title="GB TV",Sky Sports Tennis
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc320/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzIwOjE3OTA3OTM1OTU4MjQ6Y2RubGl2ZXR2LnR2OjIyNTNjMjk2YTAzM2Q5MmIuMTcwNDgzYmYwYTI4MTAzYmM4MmRiNzlhNDY3ZmNhMWNmZmFiNzc3OWQ3MTQ5YWNhZGE4MWE5OGFlMjY2YTUwNQ
-#EXTINF:-1 tvg-id="Space_City_Home_Network" tvg-name="Space City Home Network" tvg-logo="" tvg-country="US" group-title="US TV",Space City Home Network
+#EXTINF:-1 tvg-id="Space_City_Home_Network" tvg-name="Space City Home Network" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/a/ad/Space_City_Home_Network_Logo.png/330px-Space_City_Home_Network_Logo.png" tvg-country="US" group-title="US TV",Space City Home Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJjOjE3OTA3OTM1OTY5MTI6Y2RubGl2ZXR2LnR2OmQ0MDc5ZDM0ZjFhZWJkNTIuZDEzNWI5ZDQ3M2JmOTIwYTAwZTViYzhjODdkYWMxNzhmNWNlYzcxZmU5ZGRiZTc5NjVlNjU5YzRmMThjNDAyYQ
-#EXTINF:-1 tvg-id="SportsNet_New_York" tvg-name="SportsNet New York" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet New York.png" tvg-country="US" group-title="US TV",SportsNet New York
+#EXTINF:-1 tvg-id="SportsNet_New_York" tvg-name="SportsNet New York" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Sportsnet%20New%20York.png" tvg-country="US" group-title="US TV",SportsNet New York
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb52e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNTJlOjE3OTA3OTM1OTgwMDQ6Y2RubGl2ZXR2LnR2OjVhODc0ODQ2M2ZlY2VjOTUuY2M2NGRmNGMwMjMwNjQ4ZThlMDIxY2VmOWQxZTI1YmMzMTFhOThjNDMzYjAyMGZiZjU4OWMzZjg3YWFiMjY0OQ
-#EXTINF:-1 tvg-id="Sportsnet_360" tvg-name="Sportsnet 360" tvg-logo="" tvg-country="CA" group-title="CA TV",Sportsnet 360
+#EXTINF:-1 tvg-id="Sportsnet_360" tvg-name="Sportsnet 360" tvg-country="CA" group-title="CA TV",Sportsnet 360
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2a5/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmE1OjE3OTA3OTM1OTkwOTI6Y2RubGl2ZXR2LnR2OjRjY2Y2NTVjNWYxZWYzZTYuNWNiYzM2Mzk4OTQ3ZWVmZjA0NGFlYzFmM2ZkNjk2YzBmMDBlYTBiNmMzNDA5MGI4MDI1NTRlZTk4ZjQ1YzIwMQ
-#EXTINF:-1 tvg-id="Sportsnet_East" tvg-name="Sportsnet East" tvg-logo="" tvg-country="CA" group-title="CA TV",Sportsnet East
+#EXTINF:-1 tvg-id="Sportsnet_East" tvg-name="Sportsnet East" tvg-country="CA" group-title="CA TV",Sportsnet East
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc168/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTY4OjE3OTA3OTM2MDAxODE6Y2RubGl2ZXR2LnR2OmI5Y2UxOGFhZmQzMjM4ZjcuMGJhYWUyNzY3NWRlNjViNzFmZmYzY2QyZGQ0NDQxYjNkZDA1ZDJlM2I0OGU2NjcyMDRhZjE0Mzc2ZTZmNjk1Mw
-#EXTINF:-1 tvg-id="Sportsnet_One" tvg-name="Sportsnet One" tvg-logo="" tvg-country="CA" group-title="CA TV",Sportsnet One
+#EXTINF:-1 tvg-id="Sportsnet_One" tvg-name="Sportsnet One" tvg-country="CA" group-title="CA TV",Sportsnet One
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2b0/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmIwOjE3OTA3OTM2MDEyNjk6Y2RubGl2ZXR2LnR2OjQ3YmIxNTcyZThhY2VhMTQuYWViNzdhZWZiOGYzZmNlMTM4NDYwN2IwYjI2ZDUxMzI5NDc1ODk4NWFiNzI1ZjZmNGY5MTliNjY5MjFkYmY4Zg
-#EXTINF:-1 tvg-id="Sportsnet_Ontario" tvg-name="Sportsnet Ontario" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Sportsnet Ontario.png" tvg-country="CA" group-title="CA TV",Sportsnet Ontario
+#EXTINF:-1 tvg-id="Sportsnet_Ontario" tvg-name="Sportsnet Ontario" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/Sportsnet%20Ontario.png" tvg-country="CA" group-title="CA TV",Sportsnet Ontario
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2bc/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJjOjE3OTA3OTM2MDIzNjE6Y2RubGl2ZXR2LnR2OmJmYTllM2EyMDhlNTNlYTIuNTFjN2M3MGRhMGE2YzdjYzI3OTRmY2JmMzU4Zjk4OTY2NjM2ODhhNjY4NjBhODc2MjFkNThhOGUwMTUyY2I2ZQ
-#EXTINF:-1 tvg-id="Sportsnet_West" tvg-name="Sportsnet West" tvg-logo="" tvg-country="CA" group-title="CA TV",Sportsnet West
+#EXTINF:-1 tvg-id="Sportsnet_West" tvg-name="Sportsnet West" tvg-country="CA" group-title="CA TV",Sportsnet West
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2be/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJlOjE3OTA3OTM2MDM0NDk6Y2RubGl2ZXR2LnR2Ojk4OWVhMjJkMWQzNTFhMTQuMGNkY2VmNjRmMWE2MTg3YTg3ZjI1NDkwMWQ1MzJlZDcxNTMzYTkwM2Y3NjgxNzc1MzYzOGE0Mzc5Zjk1NWJiNg
-#EXTINF:-1 tvg-id="Sportsnet_World" tvg-name="Sportsnet World" tvg-logo="" tvg-country="CA" group-title="CA TV",Sportsnet World
+#EXTINF:-1 tvg-id="Sportsnet_World" tvg-name="Sportsnet World" tvg-country="CA" group-title="CA TV",Sportsnet World
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc2bf/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMmJmOjE3OTA3OTM2MDQ1Mzc6Y2RubGl2ZXR2LnR2OmQ0OGM4MzI5YWY3OThlYzIuZmNkODM4ODE1ZGRmNGQ1NjczOWZhNmFmNGJkM2VlMzYwNGVhOWFhOTZhNmEwMDlhZjEwOTJmMjRkMzU4NWNlZQ
-#EXTINF:-1 tvg-id="St._Louis_Cardinals" tvg-name="St. Louis Cardinals" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/National/St. Louis Cardinals.png" tvg-country="US" group-title="US TV",St. Louis Cardinals
+#EXTINF:-1 tvg-id="St._Louis_Cardinals" tvg-name="St. Louis Cardinals" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/National/St.%20Louis%20Cardinals.png" tvg-country="US" group-title="US TV",St. Louis Cardinals
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb61b/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjFiOjE3OTA3OTM2MDU2MTk6Y2RubGl2ZXR2LnR2OjBhMGI4NmM1NGM0ZWM2MWUuYjM5MzI1NzRkNjQ2MjhkZTMwZTY4N2ViMTg0YzE2ZWY5MDgyYjQ3NTAxNTBiMmFjZDI3NDY1ZDI1YTg3Y2YwZQ
-#EXTINF:-1 tvg-id="Stan_Sport_10" tvg-name="Stan Sport 10" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 10
+#EXTINF:-1 tvg-id="Stan_Sport_10" tvg-name="Stan Sport 10" tvg-country="AU" group-title="AU TV",Stan Sport 10
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3db/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RiOjE3OTA3OTM2MDY3MDk6Y2RubGl2ZXR2LnR2OjBlMzg5ODIyZDQxNTcwNzAuNjRhZGQ3YWVkYWIwNzY4ZDc5Yjk0ODM2N2NkZDE4M2ZmODU5OWYwNGRhMjUwY2E1ZmE0NzZkNDM1ODcwNDVmNA
-#EXTINF:-1 tvg-id="Stan_Sport_11" tvg-name="Stan Sport 11" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 11
+#EXTINF:-1 tvg-id="Stan_Sport_11" tvg-name="Stan Sport 11" tvg-country="AU" group-title="AU TV",Stan Sport 11
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3dc/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RjOjE3OTA3OTM2MDc3OTU6Y2RubGl2ZXR2LnR2OjUzNzg1Y2QzOTcwYmVmN2IuZDYxMWMwM2Y0ZWYzNTVkZWQ2MDM4MTI1OWY4MGQxMzIwYTAyZmEwOGE2NjM5NzkxMTdkMmIzZTA4ZDMzY2QyNw
-#EXTINF:-1 tvg-id="Stan_Sport_12" tvg-name="Stan Sport 12" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 12
+#EXTINF:-1 tvg-id="Stan_Sport_12" tvg-name="Stan Sport 12" tvg-country="AU" group-title="AU TV",Stan Sport 12
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3dd/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RkOjE3OTA3OTM2MDg4ODY6Y2RubGl2ZXR2LnR2OmRjZDI3ZTUxMmRhNTQzOGUuODllODU3ZjhlNzUwMTM1ZjlmMGY0YmU2NDQyYzIyMWU1YThjOTZjZWYxNmYxYjQyNWJmYjdlN2ZmZmY3NDBlOA
-#EXTINF:-1 tvg-id="Stan_Sport_13" tvg-name="Stan Sport 13" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 13
+#EXTINF:-1 tvg-id="Stan_Sport_13" tvg-name="Stan Sport 13" tvg-country="AU" group-title="AU TV",Stan Sport 13
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3de/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RlOjE3OTA3OTM2MDk5NzM6Y2RubGl2ZXR2LnR2OjE2ZjFmMjBjZTQ3MGQ4ZjEuMGFjNzQyOGYyZGMzMmVlZDU2YmI5ZDc2NDA1ODYyMmFmYzBlZjcwZGFkOGZhYWFlOGFiYWQ3NDFkM2UwYjZhMw
-#EXTINF:-1 tvg-id="Stan_Sport_14" tvg-name="Stan Sport 14" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 14
+#EXTINF:-1 tvg-id="Stan_Sport_14" tvg-name="Stan Sport 14" tvg-country="AU" group-title="AU TV",Stan Sport 14
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1ee/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWVlOjE3OTA3OTM2MTEwNjE6Y2RubGl2ZXR2LnR2OmJiNTI5ZGQxMGJjODdmMGIuYjU4ZWI5NDJhNGI4ZDNjYTJiZWU3YmQ2NDUyMDZjYWYxNmRmYzFlZDA0ZjUzODI1ZjE2ZjQ4ZDg4OWM5ZmE4Mg
-#EXTINF:-1 tvg-id="Stan_Sport_15" tvg-name="Stan Sport 15" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 15
+#EXTINF:-1 tvg-id="Stan_Sport_15" tvg-name="Stan Sport 15" tvg-country="AU" group-title="AU TV",Stan Sport 15
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1ef/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWVmOjE3OTA3OTM2MTIxNTA6Y2RubGl2ZXR2LnR2OmI1NzM4ODRiZTgyZGNmZTQuNjU1MWExMWVmNGM4N2Q1MGFmMjllNzJkNGExYzhkYmVhNWJlMzc3MDllZTAyM2I0NDQwNDM1NzNlNDdkYTFiOQ
-#EXTINF:-1 tvg-id="Stan_Sport_16" tvg-name="Stan Sport 16" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 16
+#EXTINF:-1 tvg-id="Stan_Sport_16" tvg-name="Stan Sport 16" tvg-country="AU" group-title="AU TV",Stan Sport 16
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f0/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYwOjE3OTA3OTM2MTMyMzg6Y2RubGl2ZXR2LnR2OmQ1MzdjYjMxNTg1NzhmNDQuZDI0OTI2YzQ5NDc5ZTYyOTM1MzFkZGMzYzM3ZDI4ZGFiYjY1OThiNjAwMzJmOGM4ZTIzYWQ4NDFlZTg4OWY3ZA
-#EXTINF:-1 tvg-id="Stan_Sport_18" tvg-name="Stan Sport 18" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 18
+#EXTINF:-1 tvg-id="Stan_Sport_18" tvg-name="Stan Sport 18" tvg-country="AU" group-title="AU TV",Stan Sport 18
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f2/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYyOjE3OTA3OTM2MTQzMjc6Y2RubGl2ZXR2LnR2OjFkNzY1MDQyNTNlZjgyNTkuMjhkOTFiMDUzMmI0MDkxZDQ1MjgyNzU2NjM3NTQ0MWJjOGU0NzJmOWQ5ZTE1NGFlMjMyMDliYTE1NmVlZmMyYw
-#EXTINF:-1 tvg-id="Stan_Sport_19" tvg-name="Stan Sport 19" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 19
+#EXTINF:-1 tvg-id="Stan_Sport_19" tvg-name="Stan Sport 19" tvg-country="AU" group-title="AU TV",Stan Sport 19
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1f3/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWYzOjE3OTA3OTM2MTU0MTU6Y2RubGl2ZXR2LnR2OjMzNWYxYjFhNjkyODM3MDguMDc1ZDQ5OWM5ZjdhZTYwNDc5NTIxYmI4MjNiMDQyY2FmMjczNmYzMDQ0MGFhODQ3OWU0NDQxZDQ4YTQ5NDNlZg
-#EXTINF:-1 tvg-id="Stan_Sport_2" tvg-name="Stan Sport 2" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 2
+#EXTINF:-1 tvg-id="Stan_Sport_2" tvg-name="Stan Sport 2" tvg-country="AU" group-title="AU TV",Stan Sport 2
 https://cdnlivetv.tv/secure/api/v1/6a288d7181d8192bb76f76fb/playlist.m3u8?token=NmEyODhkNzE4MWQ4MTkyYmI3NmY3NmZiOjE3OTA3OTM2MTY1MDA6Y2RubGl2ZXR2LnR2OjgzNzQ0ZmNiYTY5OWQ4NzIuZGYyZmI4MjhlNDA2MTI0NmQ3NDk2ZDk5Zjc5YWRlM2UyZjhjY2RkZTdlNTU5MmQzNDBmODAxN2IxMmUwNzdhYg
-#EXTINF:-1 tvg-id="Stan_Sport_3" tvg-name="Stan Sport 3" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 3
+#EXTINF:-1 tvg-id="Stan_Sport_3" tvg-name="Stan Sport 3" tvg-country="AU" group-title="AU TV",Stan Sport 3
 https://cdnlivetv.tv/secure/api/v1/6a288d7181d8192bb76f76fa/playlist.m3u8?token=NmEyODhkNzE4MWQ4MTkyYmI3NmY3NmZhOjE3OTA3OTM2MTc1ODI6Y2RubGl2ZXR2LnR2OjdmZWRlYjY2MWU2ZTE1NmYuMDUwYjRmOTFlYTBjNDgzOTgzMzBlZjQwZWVjZTZjNzIxNjgwNzFmOTdiMDc0OWE5MjIzNzkxNGZlZWJhOGUxMA
-#EXTINF:-1 tvg-id="Stan_Sport_4" tvg-name="Stan Sport 4" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 4
+#EXTINF:-1 tvg-id="Stan_Sport_4" tvg-name="Stan Sport 4" tvg-country="AU" group-title="AU TV",Stan Sport 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d5/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q1OjE3OTA3OTM2MTg2NzA6Y2RubGl2ZXR2LnR2OmMwNWI0NTZlYWYzN2MwZmQuNzAwY2E5ZDlmYjlkNjUxYzkzNDg5YmUzMjUxZjQyMmJhM2QyMzBjZTYzZTk0MDI1YjJjZTE0ZjlmZTE2MWZjMQ
-#EXTINF:-1 tvg-id="Stan_Sport_5" tvg-name="Stan Sport 5" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 5
+#EXTINF:-1 tvg-id="Stan_Sport_5" tvg-name="Stan Sport 5" tvg-country="AU" group-title="AU TV",Stan Sport 5
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d6/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q2OjE3OTA3OTM2MTk3NTc6Y2RubGl2ZXR2LnR2OmFiZTQ1MGMwZjE2OGRjZWYuN2NlNDE0MzJjM2FmMDNlMjEzNTcyMGVlMGI3MTQxZDYyZjJhNTc2MjZlYzJkZmE1ZmE0NWNhYWE3YzQ4ZWYyOA
-#EXTINF:-1 tvg-id="Stan_Sport_6" tvg-name="Stan Sport 6" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 6
+#EXTINF:-1 tvg-id="Stan_Sport_6" tvg-name="Stan Sport 6" tvg-country="AU" group-title="AU TV",Stan Sport 6
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d7/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q3OjE3OTA3OTM2MjA4NDY6Y2RubGl2ZXR2LnR2OjZjMGVkNjJlNTFkOTBiNGMuMzIwYmRmZmFlYWM4N2Q5NGUzMDM4NTU3NjAwZGMwMzdiNzU5MjgxNGQwYzBjNzk2ZDUwMDQwNzJkODUyOWNhNg
-#EXTINF:-1 tvg-id="Stan_Sport_7" tvg-name="Stan Sport 7" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 7
+#EXTINF:-1 tvg-id="Stan_Sport_7" tvg-name="Stan Sport 7" tvg-country="AU" group-title="AU TV",Stan Sport 7
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3d8/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2Q4OjE3OTA3OTM2MjE5NDA6Y2RubGl2ZXR2LnR2OjI3MzYxOTUwNTI3MzRiMDEuOTIyMGZiNTJmZWY5YWE4Njg0OTdhMTBkMzEyYzQ4MTNmYzg1MGQwZjlmYmRmNGYwYTIyMjE3MDcyNmI0ZTZkNw
-#EXTINF:-1 tvg-id="Stan_Sport_9" tvg-name="Stan Sport 9" tvg-logo="" tvg-country="AU" group-title="AU TV",Stan Sport 9
+#EXTINF:-1 tvg-id="Stan_Sport_9" tvg-name="Stan Sport 9" tvg-country="AU" group-title="AU TV",Stan Sport 9
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf3da/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmM2RhOjE3OTA3OTM2MjMwMjg6Y2RubGl2ZXR2LnR2Ojk1MGUyZDA1NDhmZGFlMDYuYTk2MzQzOTcwN2FjMDBmODQ4MTJjMTRmY2QxYWM5ODk1MGNkZTU4ZGJkZWI5ZDg3ODZmZDAzNjAyNjU0ODhkYg
 #EXTINF:-1 tvg-id="TBS" tvg-name="TBS" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TBS.png" tvg-country="US" group-title="US TV",TBS
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb294/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjk0OjE3OTA3OTM2MjQxMTU6Y2RubGl2ZXR2LnR2OjM4YTBlMTljNjZjNDFlZjguZjM1ZjA5YzIxYjBiNjU1MGJiMzZhOGI2Y2U1ZWRkZTJjODllZDU5NzBiNzM5NjFlNTEwMzBjNjY2NDY3MzJjNA
@@ -297,73 +297,73 @@ https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb294/playlist.m3u8?token=
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb29d/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMjlkOjE3OTA3OTM2MjUyMDM6Y2RubGl2ZXR2LnR2OjgxNzllNTg2NWYwMWJmOTEuYmIxMmZlYTJhNWUwYTRhMWIxOTNkYzNmNTA3OGNiMWIwY2RjOGM3NjYwYTdhODQ1ODc2MTU0MzJiNzU5NTFkYg
 #EXTINF:-1 tvg-id="TNT" tvg-name="TNT" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TNT.png" tvg-country="US" group-title="US TV",TNT
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb402/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDAyOjE3OTA3OTM2MjYyOTE6Y2RubGl2ZXR2LnR2OjQ2NTdkZjZhNjBiYzFhZmUuZDNkOGExNjY0YjQxOGE1NTJjZWJkZjRmMWJkYWQwYmM3Yjg4NzFmODZkOTRkZDg5NjA2MzNkMDNmOGQyMjkzZQ
-#EXTINF:-1 tvg-id="TNT_Sports_1" tvg-name="TNT Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 1.png" tvg-country="GB" group-title="GB TV",TNT Sports 1
+#EXTINF:-1 tvg-id="TNT_Sports_1" tvg-name="TNT Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%201.png" tvg-country="GB" group-title="GB TV",TNT Sports 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc344/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ0OjE3OTA3OTM2MjczNzY6Y2RubGl2ZXR2LnR2OjRlODY5MmRlOWY3OGRlNjMuODI3MzJmYjNhNGZiN2E3M2QyNjUwZmVhNWRiMWY2ZWZhNWQwNzRiYWZmN2FjMGUxY2ZlMDJmMWE0MzY3NzA1NA
-#EXTINF:-1 tvg-id="TNT_Sports_2" tvg-name="TNT Sports 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 2.png" tvg-country="GB" group-title="GB TV",TNT Sports 2
+#EXTINF:-1 tvg-id="TNT_Sports_2" tvg-name="TNT Sports 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%202.png" tvg-country="GB" group-title="GB TV",TNT Sports 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc347/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzQ3OjE3OTA3OTM2Mjg0NjE6Y2RubGl2ZXR2LnR2OjM1YTNiYTUxYTU1OGM4ZmQuNzczNmM0ZGFmZTVmM2FiZWMwNGMzYzQzYzg3NGVkMDFhMmY2NGNhOWVjOWVjMGUzODI1ZmM1MjUxOWM0OWVkOA
-#EXTINF:-1 tvg-id="TNT_Sports_3" tvg-name="TNT Sports 3" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 3.png" tvg-country="GB" group-title="GB TV",TNT Sports 3
+#EXTINF:-1 tvg-id="TNT_Sports_3" tvg-name="TNT Sports 3" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%203.png" tvg-country="GB" group-title="GB TV",TNT Sports 3
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34a/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRhOjE3OTA3OTM2Mjk1NDY6Y2RubGl2ZXR2LnR2OmZhNmY1NWYwNTI2ZWRmMjkuYzcwZWNmMDI0YTM0ZjY1ZWI0YTAyZmRjMjEwYTcyMWMwMDMzNjA5YmI1MGVkMmE3Mzc5MTg0ZTIxYmZmMGUxZg
-#EXTINF:-1 tvg-id="TNT_Sports_4" tvg-name="TNT Sports 4" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 4.png" tvg-country="GB" group-title="GB TV",TNT Sports 4
+#EXTINF:-1 tvg-id="TNT_Sports_4" tvg-name="TNT Sports 4" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%204.png" tvg-country="GB" group-title="GB TV",TNT Sports 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc34e/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzRlOjE3OTA3OTM2MzA2MzU6Y2RubGl2ZXR2LnR2OmQyNWQzZGJmZWJhNGE0Y2QuNDA5OGM5YzhhZTFiMTVhZWZmYzQyYzViZjg4NDhjMGEwYWM4ZGNkNThjYWRjNTRkM2ZmMjhmMTk5OWUyZTk5YQ
-#EXTINF:-1 tvg-id="TNT_Sports_5" tvg-name="TNT Sports 5" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 5.png" tvg-country="GB" group-title="GB TV",TNT Sports 5
+#EXTINF:-1 tvg-id="TNT_Sports_5" tvg-name="TNT Sports 5" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%205.png" tvg-country="GB" group-title="GB TV",TNT Sports 5
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc350/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUwOjE3OTA3OTM2MzE3MjM6Y2RubGl2ZXR2LnR2OjljNmFkNmU2ODAxODlmY2MuNDc2ZjI0YjEyMTdlYzZmYTg1ZmZkYWRjMjA4Mzk3ZTg1YjVlYzk5OTM4ZDI5MDM3N2IxZGUxNWEwYTg3YmJiYQ
-#EXTINF:-1 tvg-id="TNT_Sports_6" tvg-name="TNT Sports 6" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 6.png" tvg-country="GB" group-title="GB TV",TNT Sports 6
+#EXTINF:-1 tvg-id="TNT_Sports_6" tvg-name="TNT Sports 6" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%206.png" tvg-country="GB" group-title="GB TV",TNT Sports 6
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc351/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUxOjE3OTA3OTM2MzI4MTE6Y2RubGl2ZXR2LnR2OmM3ZmY1YTVkYTVkODg2ZTAuMGRhMjRhMzU0NDE3MGUyMjc5OWI2ZWRjZDgxZGI4NTE3MGZmNDlhM2JjMmEyMGIyYzQxNTgwYWFkMTY5NTcwYg
-#EXTINF:-1 tvg-id="TNT_Sports_8" tvg-name="TNT Sports 8" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT Sports 8.png" tvg-country="GB" group-title="GB TV",TNT Sports 8
+#EXTINF:-1 tvg-id="TNT_Sports_8" tvg-name="TNT Sports 8" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/TNT%20Sports%208.png" tvg-country="GB" group-title="GB TV",TNT Sports 8
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc353/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzUzOjE3OTA3OTM2MzM5MDA6Y2RubGl2ZXR2LnR2OmI5MDQ3Y2M5Y2E0N2NiNjIuYzQ3Nzk2MTJkMjliODU4OGRhN2JiNmU1NTEyZjhmYzc3ZmU0MTQyZWZiMDE4ZmQxODBjZGRlYWM3NzRjYTkyMg
-#EXTINF:-1 tvg-id="TSN_1" tvg-name="TSN 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN 1.png" tvg-country="CA" group-title="CA TV",TSN 1
+#EXTINF:-1 tvg-id="TSN_1" tvg-name="TSN 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN%201.png" tvg-country="CA" group-title="CA TV",TSN 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc172/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTcyOjE3OTA3OTM2MzQ5ODc6Y2RubGl2ZXR2LnR2OjQ1ZjIxYmViNTU1NDc3OTkuOTMyYmI1MzFhYTAwOWY5OTdhMzFkNzY0ZjMzODk1YzhjNDY5ZTU1YzMxZTllNmEwZTM0ZWI2OGVjNDExOWViMw
-#EXTINF:-1 tvg-id="TSN_2" tvg-name="TSN 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN 2.png" tvg-country="CA" group-title="CA TV",TSN 2
+#EXTINF:-1 tvg-id="TSN_2" tvg-name="TSN 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN%202.png" tvg-country="CA" group-title="CA TV",TSN 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc173/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTczOjE3OTA3OTM2MzYwNjg6Y2RubGl2ZXR2LnR2OjkxYWZhNjZlZWU0ZGJiYWIuYzQ1YzA1ZDMzNzc3MDI2NjMyZTNkMjRmYjM0YmM3M2Y0OTBmMjQ4MjYyM2FlNmRiMDg5NDgzNWFlOWUyMDViNA
-#EXTINF:-1 tvg-id="TSN_3" tvg-name="TSN 3" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN 3.png" tvg-country="CA" group-title="CA TV",TSN 3
+#EXTINF:-1 tvg-id="TSN_3" tvg-name="TSN 3" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN%203.png" tvg-country="CA" group-title="CA TV",TSN 3
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc176/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc2OjE3OTA3OTM2MzcxNTI6Y2RubGl2ZXR2LnR2OjYzYWYwYTYyNDY0ODI4MTkuMTUwNjEwNmZkN2NhMTk1ZjRmMmQ1ZDgyZjg1YTM0YTE5ZjgxYTI5ZDdkYmQzMTFkNTRmYzc1NjMzNDUxMjljZg
-#EXTINF:-1 tvg-id="TSN_4" tvg-name="TSN 4" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN 4.png" tvg-country="CA" group-title="CA TV",TSN 4
+#EXTINF:-1 tvg-id="TSN_4" tvg-name="TSN 4" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN%204.png" tvg-country="CA" group-title="CA TV",TSN 4
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc177/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc3OjE3OTA3OTM2MzgyNDI6Y2RubGl2ZXR2LnR2OjFlMWMxOWE0N2M1YzRiMDYuZjQ2ZjU1YTQ5YTRkOWUzMmEwMjJiOGNhN2U1MjhiYzgwOWNkM2MxZDIxNGFlNGQ3ZGJjM2I1ZGI2NjViMWU4Zg
-#EXTINF:-1 tvg-id="TSN_5" tvg-name="TSN 5" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN 5.png" tvg-country="CA" group-title="CA TV",TSN 5
+#EXTINF:-1 tvg-id="TSN_5" tvg-name="TSN 5" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TSN%205.png" tvg-country="CA" group-title="CA TV",TSN 5
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc179/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTc5OjE3OTA3OTM2MzkzMjk6Y2RubGl2ZXR2LnR2OmNlNmJiNDYyNTc0Yzk3MjEuMzM1OTRlMWJjNDQ4MjY0MDQzZTJmZTYzNDZlZjljZjc3YTNkOTVlNWIzODk5NjM4NzdlZjhjMTBmZWJiMDEzOQ
 #EXTINF:-1 tvg-id="TUDN" tvg-name="TUDN" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TUDN.png" tvg-country="US" group-title="US TV",TUDN
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb2a2/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMmEyOjE3OTA3OTM2NDA0MTg6Y2RubGl2ZXR2LnR2OjY5NzliM2ExOTc5Y2NkYmUuYWRiNzBkZDYwMDg0MGJjNTMxODg1ZWU0N2U1MzhmODA4Yjk0NzExYzU2NzAyMzUyNWIxNDkwMGRhZWEwNjBjNA
-#EXTINF:-1 tvg-id="TV_ONE" tvg-name="TV ONE" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TV One.png" tvg-country="US" group-title="US TV",TV ONE
+#EXTINF:-1 tvg-id="TV_ONE" tvg-name="TV ONE" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TV%20One.png" tvg-country="US" group-title="US TV",TV ONE
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb406/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDA2OjE3OTA3OTM2NDE1MTA6Y2RubGl2ZXR2LnR2OmJjODRlNDg0ZTc0M2FiZjMuZmNmODI5NGYyMWRiY2Q4Mzc2ODgwOTFmNTUxZDI1NDg1MDYxMzdmZWI0NjJjOTAwYzY5ODkwN2ZhYzJiOTA5NA
-#EXTINF:-1 tvg-id="TVA_Sports" tvg-name="TVA Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TVA Sports.png" tvg-country="CA" group-title="CA TV",TVA Sports
+#EXTINF:-1 tvg-id="TVA_Sports" tvg-name="TVA Sports" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/TVA%20Sports.png" tvg-country="CA" group-title="CA TV",TVA Sports
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc159/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMTU5OjE3OTA3OTM2NDI1OTg6Y2RubGl2ZXR2LnR2Ojg5Yjk3MjQxMWMyMTBmZDYuYmRiZmM0MTRhYjdmMzc0ODY4NjQ3ZjZmNzA2ZWFmMTI5ODVhOTg3OTNhMWIwMzdjYTEzNjY4MmY5NjU4YjRjNA
-#EXTINF:-1 tvg-id="Tampa_Bay_Rays" tvg-name="Tampa Bay Rays" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Tampa Bay Rays.png" tvg-country="US" group-title="US TV",Tampa Bay Rays
+#EXTINF:-1 tvg-id="Tampa_Bay_Rays" tvg-name="Tampa Bay Rays" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Tampa%20Bay%20Rays.png" tvg-country="US" group-title="US TV",Tampa Bay Rays
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb61a/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjFhOjE3OTA3OTM2NDM2ODg6Y2RubGl2ZXR2LnR2OmU4ZjM0ZjhiYzRjNDQ3YjUuODdiNmY2MWU4M2E5ZTc3NGM0ZjZkOTI4ZDhlNjg2NDI1MGNlOGZmMGZjYTA5ZjYzNjk4MDNmNmE4NTQwMmM5Zg
 #EXTINF:-1 tvg-id="Telemundo" tvg-name="Telemundo" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Telemundo.png" tvg-country="US" group-title="US TV",Telemundo
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf029/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMDI5OjE3OTA3OTM2NDQ3NzI6Y2RubGl2ZXR2LnR2OjczMDljM2EyYWFkZjU3YzEuZmFjNDE5YTAyNTA2NDY5N2E2ZjYxNGY0MWExZWY4MzFlMDk3NjhiN2JkZjE0ZjYyMWJhYTg3NTkxMGZkMWQ0OA
-#EXTINF:-1 tvg-id="Tennis_Channel" tvg-name="Tennis Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Tennis Channel.png" tvg-country="US" group-title="US TV",Tennis Channel
+#EXTINF:-1 tvg-id="Tennis_Channel" tvg-name="Tennis Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Tennis%20Channel.png" tvg-country="US" group-title="US TV",Tennis Channel
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5ee/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWVlOjE3OTA3OTM2NDU4NTM6Y2RubGl2ZXR2LnR2OjUwMTBhMTQ4MzhmZTgzOTcuN2ZiNTE4ZDMzZWU4OTMyODcxYWI5YTFiMmNhNGQxNzMwNDQwYTcyNWE5OTM3MDllMjU3NmQzNGNjNDcyOWIxMQ
-#EXTINF:-1 tvg-id="Texas_Rangers" tvg-name="Texas Rangers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Texas Rangers.png" tvg-country="US" group-title="US TV",Texas Rangers
+#EXTINF:-1 tvg-id="Texas_Rangers" tvg-name="Texas Rangers" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Texas%20Rangers.png" tvg-country="US" group-title="US TV",Texas Rangers
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb619/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE5OjE3OTA3OTM2NDY5Mzg6Y2RubGl2ZXR2LnR2OjY2MDVmYTQ3MmU2ZDQ0MWUuYjIzMzZhODQzZWFmZTkyYjAwYmFmY2Y3YjYyOTUyZTU2NDRjYzE0ZTM4NmQzNDZjZDA4ZmJhMjU5ZWE1YTI4Zg
-#EXTINF:-1 tvg-id="Toronto_Blue_Jays" tvg-name="Toronto Blue Jays" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB Teams/American/Toronto Blue Jays.png" tvg-country="US" group-title="US TV",Toronto Blue Jays
+#EXTINF:-1 tvg-id="Toronto_Blue_Jays" tvg-name="Toronto Blue Jays" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MLB%20Teams/American/Toronto%20Blue%20Jays.png" tvg-country="US" group-title="US TV",Toronto Blue Jays
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb618/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNjE4OjE3OTA3OTM2NDgwMzI6Y2RubGl2ZXR2LnR2OmVlY2M2ZjFkMmUxNjUzZmYuM2Q1MGNjZTZkMDhhNWYwNjBlMjRjMTc5OTM3ZjZkOGQ3MGE5YmRhNWRjZGVhNzQ3MjYzYmEwOTliYTNhZTE5Ng
-#EXTINF:-1 tvg-id="Travel_Channel" tvg-name="Travel Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Travel Channel.png" tvg-country="US" group-title="US TV",Travel Channel
+#EXTINF:-1 tvg-id="Travel_Channel" tvg-name="Travel Channel" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Travel%20Channel.png" tvg-country="US" group-title="US TV",Travel Channel
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb6c6/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNmM2OjE3OTA3OTM2NDkxMjE6Y2RubGl2ZXR2LnR2OjY4ZmFkNTJhMzIzMGYzMTUuOWYyYzQxYjI5ZDRmMTE0YTFjMTRkMTFmNDZhMjEzMWI0ZTkwM2E4MjAxNGY5YWFjMzg1MWM5YzFmMWEzYzRjNA
-#EXTINF:-1 tvg-id="USA_Network" tvg-name="USA Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/USA Network.png" tvg-country="US" group-title="US TV",USA Network
+#EXTINF:-1 tvg-id="USA_Network" tvg-name="USA Network" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/USA%20Network.png" tvg-country="US" group-title="US TV",USA Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb34e/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMzRlOjE3OTA3OTM2NTAyMTk6Y2RubGl2ZXR2LnR2OmJjNTU5NDc3ZTAwNjI2ZmYuMWFhMGJiN2ZlMzNmM2VlODUzZjUxNTg0MjhjNmYwNGFkN2U4ODYwNzMxM2ZkY2VlZmJmYjM5ZGUzOTA1YjJlOA
-#EXTINF:-1 tvg-id="Universal_Kids" tvg-name="Universal Kids" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Universal Kids.png" tvg-country="US" group-title="US TV",Universal Kids
+#EXTINF:-1 tvg-id="Universal_Kids" tvg-name="Universal Kids" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Universal%20Kids.png" tvg-country="US" group-title="US TV",Universal Kids
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb41c/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiNDFjOjE3OTA3OTM2NTEzMDc6Y2RubGl2ZXR2LnR2OjE1MmMzMTMxZDJkN2Y5NTQuYWFjZWE4NDcwNTNhZjAyOWRjNjg4Mjc4OGRjNzY0MGEzZjRkMWQxYTZjYTFhNDc5NDI4YTYxNTFkMGQ3OGUzYw
 #EXTINF:-1 tvg-id="Univision" tvg-name="Univision" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Univision.png" tvg-country="US" group-title="US TV",Univision
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc04b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMDRiOjE3OTA3OTM2NTIzOTk6Y2RubGl2ZXR2LnR2OmI0YzM0OTJlM2Q0NDQ0YWMuNzllZTg0Nzc1YjJmZjliYWQ1NmRlYWFiMTI5ZmRkZTk3MjRhZTYwMzkzYjQ4YzgwNjQ1YzJjZjRiMTQxNjYzOA
-#EXTINF:-1 tvg-id="Viaplay_Sports_1" tvg-name="Viaplay Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Viaplay Sports 1.png" tvg-country="GB" group-title="GB TV",Viaplay Sports 1
+#EXTINF:-1 tvg-id="Viaplay_Sports_1" tvg-name="Viaplay Sports 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Viaplay%20Sports%201.png" tvg-country="GB" group-title="GB TV",Viaplay Sports 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc369/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzY5OjE3OTA3OTM2NTM0ODU6Y2RubGl2ZXR2LnR2OjlmNzg2ZmNkNjZkOGVkYWEuOTllMTM5ZjQ1YTNlMThmZjQ1OTUyYzgyMjQwMDgzZTI5MjExNmU0OWVlM2U1YTA2MjU3MGY5MTYyNWZhNWFlNQ
-#EXTINF:-1 tvg-id="Viaplay_Sports_2" tvg-name="Viaplay Sports 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Viaplay Sports 2.png" tvg-country="GB" group-title="GB TV",Viaplay Sports 2
+#EXTINF:-1 tvg-id="Viaplay_Sports_2" tvg-name="Viaplay Sports 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Viaplay%20Sports%202.png" tvg-country="GB" group-title="GB TV",Viaplay Sports 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2a81d8192bb76cc36b/playlist.m3u8?token=NmEyODhkMmE4MWQ4MTkyYmI3NmNjMzZiOjE3OTA3OTM2NTQ1NzM6Y2RubGl2ZXR2LnR2OjAyNDQ5OTUzOGQ1ODZjZDMuY2FlYWQ2NDY4ZWEyYmE0N2JkZTJhOTYwMThhMjlmNGQ5ZjE1N2M5ODZlNzhhYjA2YWY1ZmIwM2QzZjJjNzQ2Mw
-#EXTINF:-1 tvg-id="WWE" tvg-name="WWE" tvg-logo="" tvg-country="US" group-title="US TV",WWE
+#EXTINF:-1 tvg-id="WWE" tvg-name="WWE" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/WWE_official_logo.svg/330px-WWE_official_logo.svg.png" tvg-country="US" group-title="US TV",WWE
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5f7/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWY3OjE3OTA3OTM2NTU2NTQ6Y2RubGl2ZXR2LnR2OjBhNzE5ZTk5MDA2OGM0N2MuMzQ0NTc1N2M4ZTU2NDU3YmEyNDNmZTEzZjgzOWE2YjM0NmU3ZjcxMmI5NDM2NjQwOWZhNWIxYWY5OWI2ZmIwNA
-#EXTINF:-1 tvg-id="Willow_Cricket" tvg-name="Willow Cricket" tvg-logo="" tvg-country="US" group-title="US TV",Willow Cricket
+#EXTINF:-1 tvg-id="Willow_Cricket" tvg-name="Willow Cricket" tvg-country="US" group-title="US TV",Willow Cricket
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb5f4/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNWY0OjE3OTA3OTM2NTY3Mzg6Y2RubGl2ZXR2LnR2OjhmZmJlMjRiZDliMzQxNTEuM2ZiZWZkYzg0NWJlN2RlOGU3N2VmMDc2ZjQwMDI3MmMyZGJmMzU0NjJmOTc2YzE4NmQzZTg1NjVhOWUwNWIzNg
-#EXTINF:-1 tvg-id="Yes_Network" tvg-name="Yes Network" tvg-logo="" tvg-country="US" group-title="US TV",Yes Network
+#EXTINF:-1 tvg-id="Yes_Network" tvg-name="Yes Network" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/YES_Network_logo.svg/330px-YES_Network_logo.svg.png" tvg-country="US" group-title="US TV",Yes Network
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb538/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNTM4OjE3OTA3OTM2NTc4MjY6Y2RubGl2ZXR2LnR2OmIyOWYzMGVjYWJmNDdkOGEuOGZiNzJhMjlkMGIzMjYyNjg1ZjdjMDQ0ODdlZTFmM2M1NTI3OGY2ODhkNGY1NjI1NmQ5MDEyODE1NGM0YzQ1NA
-#EXTINF:-1 tvg-id="beIN_SPORTS" tvg-name="beIN SPORTS" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Bein Sports.png" tvg-country="US" group-title="US TV",beIN SPORTS
+#EXTINF:-1 tvg-id="beIN_SPORTS" tvg-name="beIN SPORTS" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Bein%20Sports.png" tvg-country="US" group-title="US TV",beIN SPORTS
 https://cdnlivetv.tv/secure/api/v1/6a288d2881d8192bb76cb58e/playlist.m3u8?token=NmEyODhkMjg4MWQ4MTkyYmI3NmNiNThlOjE3OTA3OTM2NTg5MTQ6Y2RubGl2ZXR2LnR2OjA3YmJjOGQ1N2NkMTk0OTYuOTkzNGJhMDgyZmJhMTVmYzU1OTU4NWM5YWYyMzVmNTc2ZTNkODA2ZDQxMDgyNzVmOTYyMGEzNTQ4YzdkNTlmYQ
-#EXTINF:-1 tvg-id="beIN_SPORTS_1" tvg-name="beIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/beIN Sports 1.png" tvg-country="US" group-title="US TV",beIN SPORTS 1
+#EXTINF:-1 tvg-id="beIN_SPORTS_1" tvg-name="beIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Bein%20Sports%201.png" tvg-country="US" group-title="US TV",beIN SPORTS 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab63/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjYzOjE3OTA3OTM2NjAwMDI6Y2RubGl2ZXR2LnR2OmM0OGUyYWZhNzFjOTMzM2MuZDE3N2U0OWFlOGJiNzE0OWYwNDQ1OTg4NWM2MGY4YjgyN2NhZTMyNzkxYThhOTY5ZGQ5Y2RkMjQyY2MyZTlkZg
-#EXTINF:-1 tvg-id="beIN_SPORTS_1" tvg-name="beIN SPORTS 1" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/beIN Sports 1.png" tvg-country="AU" group-title="AU TV",beIN SPORTS 1
+#EXTINF:-1 tvg-id="beIN_SPORTS_1" tvg-name="beIN SPORTS 1" tvg-country="AU" group-title="AU TV",beIN SPORTS 1
 https://cdnlivetv.tv/secure/api/v1/6a288d2f81d8192bb76cf1a7/playlist.m3u8?token=NmEyODhkMmY4MWQ4MTkyYmI3NmNmMWE3OjE3OTA3OTM2NjEwOTA6Y2RubGl2ZXR2LnR2OjQ4N2FhZjEyYmQ1MTMyZjEuMzMwNjc0ZmE0M2M5ODZiYjdiNDQ1ZGVmZDMzMDRmMDA0MTNiOTdmZGIyZGVkOGFkMWM3OWQ5NzhhMTBmNzU0ZQ
-#EXTINF:-1 tvg-id="beIN_SPORTS_2" tvg-name="beIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/beIN Sports 2.png" tvg-country="US" group-title="US TV",beIN SPORTS 2
+#EXTINF:-1 tvg-id="beIN_SPORTS_2" tvg-name="beIN SPORTS 2" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Bein%20Sports%202.png" tvg-country="US" group-title="US TV",beIN SPORTS 2
 https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab65/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjY1OjE3OTA3OTM2NjIxNzQ6Y2RubGl2ZXR2LnR2OmNmMWVhNzA4ZjkwMDkyOWQuYWE2ODk1OTUyNWE2ODczNWE0NDAwYzJmNDNmZTk4ZjFiNGVmYmIwY2I1ODhmYTlkYjljMWM4M2NmMTkxOTExMg
-#EXTINF:-1 tvg-id="beIN_SPORTS_3" tvg-name="beIN SPORTS 3" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/beIN Sports 3.png" tvg-country="US" group-title="US TV",beIN SPORTS 3
+#EXTINF:-1 tvg-id="beIN_SPORTS_3" tvg-name="beIN SPORTS 3" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/Bein%20Sports%203.png" tvg-country="US" group-title="US TV",beIN SPORTS 3
 https://cdnlivetv.tv/secure/api/v1/6a288d2681d8192bb76cab67/playlist.m3u8?token=NmEyODhkMjY4MWQ4MTkyYmI3NmNhYjY3OjE3OTA3OTM2NjMyNjM6Y2RubGl2ZXR2LnR2OmY1M2IzOTI4MGZhOTg3ZjYuMGRkNmFhN2E3YTYxZWU0ZmZiYTYzM2UzMGE3OTVkZmY0OGM1MzAxOGZhNjhlODAzM2I0MTZiY2U1ZDVlNWMyZg
 #EXTINF:-1 tvg-id="truTV" tvg-name="truTV" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/TruTV.png" tvg-country="US" group-title="US TV",truTV
 https://cdnlivetv.tv/secure/api/v1/6a288d2781d8192bb76cb2a1/playlist.m3u8?token=NmEyODhkMjc4MWQ4MTkyYmI3NmNiMmExOjE3OTA3OTM2NjQzNDU6Y2RubGl2ZXR2LnR2OjRkYmY5MWY3ZTNjZjNmZjcuMTMxNmUxOGY3MmRjYjUzZGY1MWFmYjhjZTMzZDJiNWE5MmUyYjVmZDBjZTFiOTI0MWM4OGQzZWNhYTNiYTc4MQ

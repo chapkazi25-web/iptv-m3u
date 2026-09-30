@@ -4,9 +4,9 @@
   "source_channels": {
     "cdn": 184,
     "core": 280,
-    "gradetv": 25,
+    "gradetv": 24,
     "iptv-org": 11014,
-    "pluto-tv": 421,
+    "pluto-tv": 420,
     "tvivu": 571
   },
   "category_channels": {
@@ -15,7 +15,7 @@
     "entertainment": 809,
     "kids": 146,
     "movies": 194,
-    "music": 17,
+    "music": 18,
     "nba": 2,
     "news": 127,
     "nfl": 3,
@@ -23,7 +23,7 @@
     "soccer": 71,
     "sports": 109,
     "stan-sports": 16,
-    "tanzania": 4,
+    "tanzania": 3,
     "tnt-sports": 11,
     "tsn": 6,
     "ufc": 3
@@ -32,9 +32,9 @@
     "AU": 47,
     "CA": 58,
     "FR": 3,
-    "GB": 127,
+    "GB": 128,
     "NZ": 15,
-    "TZ": 4,
+    "TZ": 3,
     "US": 1456
   },
   "international_channels": 5,
