@@ -29196,7 +29196,7 @@
           "bbc-earth"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/BBC%20Earth.png",
       "enabled": true,
       "languages": [
         "cze",
@@ -31256,7 +31256,7 @@
           "BBCTwo.uk.Wales"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/BBC%20Two%20Wales.png",
       "enabled": false,
       "english": null,
       "quality_height": null,
@@ -75634,7 +75634,7 @@
           "DiscoveryTurbo.us.SD"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Discovery%20Turbo.png",
       "enabled": true,
       "english": null
     },
