@@ -1,10 +1,10 @@
 {
   "version": 1,
   "counts": {
-    "channels": 1712,
+    "channels": 1713,
     "sources": {
       "cdn": 184,
-      "core": 277,
+      "core": 280,
       "gradetv": 25,
       "iptv-org": 11014,
       "pluto-tv": 421,
@@ -17,12 +17,12 @@
       "GB": 127,
       "NZ": 15,
       "TZ": 4,
-      "US": 1454
+      "US": 1456
     },
     "categories": {
       "bein-sports": 5,
       "documentary": 262,
-      "entertainment": 810,
+      "entertainment": 809,
       "kids": 146,
       "movies": 194,
       "music": 17,
@@ -30,7 +30,7 @@
       "news": 127,
       "nfl": 3,
       "sky-sports": 21,
-      "soccer": 69,
+      "soccer": 71,
       "sports": 107,
       "stan-sports": 16,
       "tanzania": 4,
@@ -1529,28 +1529,6 @@
         }
       ]
     },
-    "bolivia-copa-universitario-de-vinto-vs-guabira-fawa": {
-      "name": "[Bolivia Copa] Universitario de Vinto vs Guabira (FAWA)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "31c07e75311648e8ae5b",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "http://193.47.62.55/hls/TATATA.m3u8",
-          "stream_id": "31c07e75311648e8ae5b",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 2,
-          "response_time_ms": 225,
-          "quality_rank": 0
-        }
-      ]
-    },
     "brazil-serie-b-botafogo-sp-vs-ponte-preta-fawa": {
       "name": "[Brazil Serie B] Botafogo SP vs Ponte Preta (FAWA)",
       "country": "US",
@@ -1639,50 +1617,6 @@
         }
       ]
     },
-    "copa-africana-de-naciones-islas-de-cabo-verde-vs-ruanda-1-plibre": {
-      "name": "[Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda 1 (PLIBRE)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "c56ebc8f57f58100ce4b",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://b2ZmaWNpYWw.fubo18.com:443/beinsportes/mono.m3u8?token=6fd5aaf80788c7e25de29e3eb8183c0a2318a876-31-1790723734-1790705734",
-          "stream_id": "c56ebc8f57f58100ce4b",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 2,
-          "response_time_ms": 505,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "copa-africana-de-naciones-somalia-vs-costa-de-marfil-1-plibre": {
-      "name": "[Copa Africana de Naciones] Somalia vs Costa de Marfil 1 (PLIBRE)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "074c6fa8f5b735e86e2d",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://dglvz29s.fubo18.com:443/beinsportes/mono.m3u8?token=adf6e4957086d956dffa4e57610217ac7e60b86c-85-1790723734-1790705734",
-          "stream_id": "074c6fa8f5b735e86e2d",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 2,
-          "response_time_ms": 497,
-          "quality_rank": 0
-        }
-      ]
-    },
     "copa-chile-d-puerto-montt-vs-colo-colo-1-stp": {
       "name": "[Copa Chile] D. Puerto Montt vs Colo Colo 1 (STP)",
       "country": "US",
@@ -1712,39 +1646,17 @@
         "tnt-sports"
       ],
       "selected_source": "core",
-      "selected_stream_id": "788033469f381d0c9f36",
+      "selected_stream_id": "5caed6760e63d30531c9",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/tntsporschile/index.m3u8?token=c4fee7255ee4f467c03b905844e0b28662422896-97-1790751633-1790697633",
-          "stream_id": "788033469f381d0c9f36",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/tntsporschile/index.m3u8?token=b0d3be072af87f679402f4121c53598bde9bd7f5-c0-1790771434-1790717434",
+          "stream_id": "5caed6760e63d30531c9",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 442,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "copa-chile-puerto-montt-vs-colo-colo-1-plibre": {
-      "name": "[Copa Chile] Puerto Montt vs Colo-Colo 1 (PLIBRE)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "6bbbb828501995b9d00c",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://dglvz29s.fubo18.com:443/tntsportschile/mono.m3u8?token=7336cbe754d79c93df844e0e84f9d5696e5e043c-81-1790723734-1790705734",
-          "stream_id": "6bbbb828501995b9d00c",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 2,
-          "response_time_ms": 438,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -1844,17 +1756,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "7c0ea7fa80bf6457889c",
+      "selected_stream_id": "e76cbfbe6f28a3dc8877",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/tigo1/index.m3u8?token=10d403510ad6fb035e6a821fd46aefe29e9fb46d-88-1790764234-1790710234",
-          "stream_id": "7c0ea7fa80bf6457889c",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/tigo1/index.m3u8?token=aff6b4373f056bbe02e91aa8d6b63fda3e717ee9-96-1790784035-1790730035",
+          "stream_id": "e76cbfbe6f28a3dc8877",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 958,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -1866,17 +1778,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "2f2634b52167126b024e",
+      "selected_stream_id": "96607defceab22566d77",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/tigo1/index.m3u8?token=53f4c4a8dfbb5b8b602433486c157d35add027e2-8e-1790764234-1790710234",
-          "stream_id": "2f2634b52167126b024e",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/tigo1/index.m3u8?token=e8783d316e5cccb14eaf1f14f43b54352e166438-71-1790784035-1790730035",
+          "stream_id": "96607defceab22566d77",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 952,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -1888,17 +1800,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "ae105429694ab0b5ac6b",
+      "selected_stream_id": "95431715f2c3edce0162",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/l1max/index.m3u8?token=2d76d7adfa07227e32b329085fb576bc60f1ea1e-eb-1790764234-1790710234",
-          "stream_id": "ae105429694ab0b5ac6b",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/l1max/index.m3u8?token=d9b6c63f268bbfbef00d5c1a691dcb601e6d0e56-46-1790784035-1790730035",
+          "stream_id": "95431715f2c3edce0162",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 917,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -1954,17 +1866,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "acf016de0f49cf6d4f11",
+      "selected_stream_id": "c22a045e423fc17f10bf",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/winplus/index.m3u8?token=689cb4f00fdb757a8a622e015a4a5a5f6fd6c2c3-70-1790764234-1790710234",
-          "stream_id": "acf016de0f49cf6d4f11",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/winplus/index.m3u8?token=1f4f6433403f67014ac60f8a67b36c7520a6e53b-64-1790784034-1790730034",
+          "stream_id": "c22a045e423fc17f10bf",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 942,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2009,6 +1921,28 @@
           "enabled": true,
           "failures": 1,
           "response_time_ms": 962,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "b8ec1ebba35af5703648",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://Ym9yZQ.fubo18.com:443/foxsports2_usa/mono.m3u8?token=589f72b7f05c6dec0536fb5211d000e7435420bb-76-1790743534-1790725534",
+          "stream_id": "b8ec1ebba35af5703648",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2079,6 +2013,28 @@
         }
       ]
     },
+    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "c81dd4b13764e1281d35",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://b2ZmaWNpYWw.fubo18.com:443/foxsports2_usa/mono.m3u8?token=6d999688505ac69a89495ca8b43ee971929383d9-a1-1790743535-1790725535",
+          "stream_id": "c81dd4b13764e1281d35",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
     "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-1-stp": {
       "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (STP)",
       "country": "US",
@@ -2145,6 +2101,28 @@
         }
       ]
     },
+    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "d2b0e9f6a2449cf92b6c",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://eWVz.fubo18.com:443/foxsports2_usa/mono.m3u8?token=b181eb839cf1cd80833e8f36af1d8e99834d66b7-74-1790743534-1790725534",
+          "stream_id": "d2b0e9f6a2449cf92b6c",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
     "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-stp": {
       "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (STP)",
       "country": "US",
@@ -2207,28 +2185,6 @@
           "enabled": true,
           "failures": 1,
           "response_time_ms": 435,
-          "quality_rank": 0
-        }
-      ]
-    },
-    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (PLIBRE)",
-      "country": "US",
-      "categories": [
-        "soccer"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "794cc5678bc09fbeb4c5",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://b2ZmaWNpYWw.fubo18.com:443/foxsoccerplus/mono.m3u8?token=1b7227aa2251fd89ae06d6ac331b229e073f1516-76-1790723734-1790705734",
-          "stream_id": "794cc5678bc09fbeb4c5",
-          "status": "degraded",
-          "enabled": true,
-          "failures": 2,
-          "response_time_ms": 473,
           "quality_rank": 0
         }
       ]
@@ -2790,17 +2746,17 @@
         "soccer"
       ],
       "selected_source": "core",
-      "selected_stream_id": "db6682791dd22147b6a0",
+      "selected_stream_id": "b1ca82d84039a22180d8",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://khala.futlivehd.com/global/disney7/index.m3u8?token=f10718de844b9d3c5d6324962332129e132a3758-0b-1790764233-1790710233",
-          "stream_id": "db6682791dd22147b6a0",
-          "status": "degraded",
+          "url": "https://khala.futlivehd.com/global/disney7/index.m3u8?token=a309dd9c4efe912491fe8d756444cdc351db4cc8-cd-1790784034-1790730034",
+          "stream_id": "b1ca82d84039a22180d8",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 904,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2812,17 +2768,17 @@
         "nfl"
       ],
       "selected_source": "core",
-      "selected_stream_id": "2977b91df46eab11c328",
+      "selected_stream_id": "69313b742f9ac51d32da",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "https://webcast-origin.b-cdn.net/bcdn_token=w1AVn-spqNyFp2Jf0xNhhv3Ltp305TYNDJlfItZIMBE&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGY9Rc2aFtXHSNWREWFuVLy%2F&expires=1790722956/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGY9Rc2aFtXHSNWREWFuVLy/227.m3u8",
-          "stream_id": "2977b91df46eab11c328",
-          "status": "degraded",
+          "url": "https://webcast-origin.b-cdn.net/bcdn_token=ASYCy2Z9u5fjSN-4IhvFB9dCVpQFLahOYbv_3gxCbPo&token_path=%2Fplay%2FAtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGY9Rc2aFtXHSNWREWFuVLy%2F&expires=1790735556/play/AtZ1azAZy6Iwi58XP64ADLesJLryilHoIej8sPT4yhGY9Rc2aFtXHSNWREWFuVLy/227.m3u8",
+          "stream_id": "69313b742f9ac51d32da",
+          "status": "unknown",
           "enabled": true,
-          "failures": 1,
-          "response_time_ms": 116,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -2915,6 +2871,50 @@
         }
       ]
     },
+    "primera-a-medellin-vs-millonarios-1-plibre": {
+      "name": "[Primera A] Medellín vs Millonarios 1 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "7120651dd149e7d467e3",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://y2fzdgxl.fubo18.com:443/winplus/mono.m3u8?token=f609514d071f154848b4710d75f3471cb6354cfa-cd-1790743535-1790725535",
+          "stream_id": "7120651dd149e7d467e3",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-a-medellin-vs-millonarios-2-plibre": {
+      "name": "[Primera A] Medellín vs Millonarios 2 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "57b083e4a8e6beb27cea",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://YXdlc29tZQ.fubo18.com:443/winsportsplus/mono.m3u8?token=e761307e53855cc5731542fcd7a685850de9004c-60-1790743535-1790725535",
+          "stream_id": "57b083e4a8e6beb27cea",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
     "primera-a-medellin-vs-millonarios-win-sports-tvf90": {
       "name": "[Primera A] Medellín vs Millonarios | Win Sports + (TVF90)",
       "country": "US",
@@ -2999,6 +2999,50 @@
           "enabled": true,
           "failures": 1,
           "response_time_ms": 471,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-1-plibre": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena 1 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "fbbf03c5539337107deb",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://YXdlc29tZQ.fubo18.com:443/winplus/mono.m3u8?token=b0f3fc3d71d2f03bc881ca0d7e8ed60707db9bf6-9b-1790743534-1790725534",
+          "stream_id": "fbbf03c5539337107deb",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
+          "quality_rank": 0
+        }
+      ]
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-2-plibre": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena 2 (PLIBRE)",
+      "country": "US",
+      "categories": [
+        "soccer"
+      ],
+      "selected_source": "core",
+      "selected_stream_id": "5f72d0ce9a8df7b5004b",
+      "streams": [
+        {
+          "source": "core",
+          "source_priority": 2,
+          "url": "https://bgvnzw5k.fubo18.com:443/winsportsplus/mono.m3u8?token=335b84fae9bdcbc4eb00735b9f9cb2a3aa838fd0-63-1790743534-1790725534",
+          "stream_id": "5f72d0ce9a8df7b5004b",
+          "status": "unknown",
+          "enabled": true,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]
@@ -14238,39 +14282,6 @@
         }
       ]
     },
-    "fx": {
-      "name": "FX",
-      "country": null,
-      "categories": [
-        "entertainment"
-      ],
-      "selected_source": "core",
-      "selected_stream_id": "b3a79942141904c89cb6",
-      "streams": [
-        {
-          "source": "core",
-          "source_priority": 2,
-          "url": "https://cache0.wonvt.st/live/00l0xp41smdo1b07fldzv/master.m3u8",
-          "stream_id": "b3a79942141904c89cb6",
-          "status": "online",
-          "enabled": true,
-          "failures": 0,
-          "response_time_ms": 453,
-          "quality_rank": 0
-        },
-        {
-          "source": "iptv-org",
-          "source_priority": 5,
-          "url": "http://str2.iptvhd.ru:8080/FOX_HD/index.m3u8",
-          "stream_id": "aabdd99732d5f6ae751a",
-          "status": "offline",
-          "enabled": false,
-          "failures": 7,
-          "response_time_ms": 309,
-          "quality_rank": 0
-        }
-      ]
-    },
     "fxx": {
       "name": "FXX",
       "country": "US",
@@ -16992,17 +17003,17 @@
         "entertainment"
       ],
       "selected_source": "core",
-      "selected_stream_id": "9d83a98219a560f4198d",
+      "selected_stream_id": "7bde0521a53b1d4da22a",
       "streams": [
         {
           "source": "core",
           "source_priority": 2,
-          "url": "http://176.65.153.4:4004/play/a07n/index.m3u8",
-          "stream_id": "9d83a98219a560f4198d",
-          "status": "degraded",
+          "url": "http://176.65.153.4:4004/play/a07k/index.m3u8",
+          "stream_id": "7bde0521a53b1d4da22a",
+          "status": "unknown",
           "enabled": true,
-          "failures": 2,
-          "response_time_ms": 241,
+          "failures": 0,
+          "response_time_ms": null,
           "quality_rank": 0
         }
       ]

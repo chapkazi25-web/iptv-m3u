@@ -5,9 +5,9 @@
   "iptv-org": true
  },
  "counts": {
-  "keys": 13664,
-  "english": 2191,
-  "non_english": 11473
+  "keys": 13674,
+  "english": 2182,
+  "non_english": 11492
  },
  "channels": {
   "00s replay": {
@@ -319,6 +319,12 @@
    ],
    "english": false
   },
+  "13 ulica": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
   "13c": {
    "languages": [
     "spa"
@@ -370,6 +376,18 @@
   "13t.cl": {
    "languages": [
     "spa"
+   ],
+   "english": false
+  },
+  "13th street": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "13ulica.pl": {
+   "languages": [
+    "pol"
    ],
    "english": false
   },
@@ -628,6 +646,7 @@
     "ara",
     "bel",
     "eng",
+    "heb",
     "kir",
     "rus",
     "slk",
@@ -3279,6 +3298,12 @@
    ],
    "english": true
   },
+  "abc tv paraguay": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "abc tv plus": {
    "languages": [
     "eng"
@@ -3406,6 +3431,12 @@
   },
   "abctv.jp": {
    "languages": [],
+   "english": false
+  },
+  "abctvparaguay.py": {
+   "languages": [
+    "spa"
+   ],
    "english": false
   },
   "abctvplus.au": {
@@ -4572,11 +4603,23 @@
    ],
    "english": true
   },
+  "adventure tv": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
   "adventureearth.de": {
    "languages": [
     "eng"
    ],
    "english": true
+  },
+  "adventuretv.pl": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
   },
   "advocate broadcasting network": {
    "languages": [
@@ -9059,6 +9102,12 @@
    ],
    "english": false
   },
+  "andalucia tv": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "andes television": {
    "languages": [
     "spa"
@@ -9943,6 +9992,7 @@
   "antv": {
    "languages": [
     "ind",
+    "spa",
     "vie"
    ],
    "english": false
@@ -9950,6 +10000,12 @@
   "antv.id": {
    "languages": [
     "ind"
+   ],
+   "english": false
+  },
+  "antv.ve": {
+   "languages": [
+    "spa"
    ],
    "english": false
   },
@@ -10444,6 +10500,24 @@
    ],
    "english": false
   },
+  "arena sport premium m1": {
+   "languages": [
+    "mak"
+   ],
+   "english": false
+  },
+  "arena sport premium m2": {
+   "languages": [
+    "mak"
+   ],
+   "english": false
+  },
+  "arena sport premium m3": {
+   "languages": [
+    "mak"
+   ],
+   "english": false
+  },
   "arenasport1.sk": {
    "languages": [
     "ces",
@@ -10460,6 +10534,24 @@
   "arenasport5premium.rs": {
    "languages": [
     "srp"
+   ],
+   "english": false
+  },
+  "arenasportpremiumm1.mk": {
+   "languages": [
+    "mak"
+   ],
+   "english": false
+  },
+  "arenasportpremiumm2.mk": {
+   "languages": [
+    "mak"
+   ],
+   "english": false
+  },
+  "arenasportpremiumm3.mk": {
+   "languages": [
+    "mak"
    ],
    "english": false
   },
@@ -11235,6 +11327,12 @@
    "languages": [],
    "english": false
   },
+  "asia express nonstop": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
   "asia music channel": {
    "languages": [
     "pus"
@@ -11259,6 +11357,12 @@
   },
   "asiadramatictv.jp": {
    "languages": [],
+   "english": false
+  },
+  "asiaexpressnonstop.ro": {
+   "languages": [
+    "ron"
+   ],
    "english": false
   },
   "asian culture tv": {
@@ -12882,6 +12986,13 @@
    "languages": [],
    "english": false
   },
+  "axn poland": {
+   "languages": [
+    "pol",
+    "ron"
+   ],
+   "english": false
+  },
   "axn portugal": {
    "languages": [
     "por"
@@ -12979,6 +13090,13 @@
    "languages": [],
    "english": false
   },
+  "axnpoland.pl": {
+   "languages": [
+    "pol",
+    "ron"
+   ],
+   "english": false
+  },
   "axnspin.hu": {
    "languages": [
     "hrv",
@@ -13022,6 +13140,18 @@
    ],
    "english": false
   },
+  "aym sports": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "aymsports.mx": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "ayni tv": {
    "languages": [
     "spa"
@@ -13059,6 +13189,12 @@
    "english": false
   },
   "az cinema": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "az clic": {
    "languages": [
     "spa"
    ],
@@ -13126,6 +13262,12 @@
    ],
    "english": false
   },
+  "azclic.mx": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "azerbaijan news tv": {
    "languages": [
     "aze"
@@ -13156,6 +13298,12 @@
    ],
    "english": false
   },
+  "azteca 7": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "azteca deportes network": {
    "languages": [
     "spa"
@@ -13169,6 +13317,12 @@
    "english": false
   },
   "azteca internacional": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "azteca7.mx": {
    "languages": [
     "spa"
    ],
@@ -13886,6 +14040,18 @@
    ],
    "english": false
   },
+  "bandamax": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "bandamax.mx": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "bandnews": {
    "languages": [
     "por"
@@ -14356,6 +14522,12 @@
    ],
    "english": false
   },
+  "bbc brit": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "bbc drama": {
    "languages": [
     "eng",
@@ -14715,6 +14887,12 @@
     "ara"
    ],
    "english": false
+  },
+  "bbcbrit.uk": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
   },
   "bbcdrama.uk": {
    "languages": [
@@ -15880,6 +16058,12 @@
    ],
    "english": true
   },
+  "bet.ca": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "bet.se": {
    "languages": [
     "dan",
@@ -16665,11 +16849,15 @@
    "english": true
   },
   "billiards tv": {
-   "languages": [],
+   "languages": [
+    "kor"
+   ],
    "english": false
   },
   "billiardstv.kr": {
-   "languages": [],
+   "languages": [
+    "kor"
+   ],
    "english": false
   },
   "billiardtv.us": {
@@ -17638,6 +17826,12 @@
    ],
    "english": false
   },
+  "bombaska telewizja boza": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
   "bomchannel.it": {
    "languages": [
     "ita"
@@ -17995,11 +18189,15 @@
    "english": false
   },
   "brain tv": {
-   "languages": [],
+   "languages": [
+    "kor"
+   ],
    "english": false
   },
   "braintv.kr": {
-   "languages": [],
+   "languages": [
+    "kor"
+   ],
    "english": false
   },
   "brat tv": {
@@ -18732,6 +18930,12 @@
    ],
    "english": false
   },
+  "btb": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
   "btb 2": {
    "languages": [
     "pol"
@@ -18752,6 +18956,12 @@
    "english": true
   },
   "btb music": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "btb.pl": {
    "languages": [
     "pol"
    ],
@@ -20722,6 +20932,12 @@
    ],
    "english": false
   },
+  "canal 9 la union": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "canal 9 link": {
    "languages": [
     "spa"
@@ -20787,6 +21003,12 @@
    "english": false
   },
   "canal capital": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "canal caribe": {
    "languages": [
     "spa"
    ],
@@ -21287,6 +21509,12 @@
   "canal start": {
    "languages": [
     "por"
+   ],
+   "english": false
+  },
+  "canal sur": {
+   "languages": [
+    "spa"
    ],
    "english": false
   },
@@ -22283,6 +22511,12 @@
    ],
    "english": false
   },
+  "canal9launion.sv": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "canal9link.ar": {
    "languages": [
     "spa"
@@ -22320,6 +22554,12 @@
    "english": false
   },
   "canalcapital.co": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "canalcaribe.cu": {
    "languages": [
     "spa"
    ],
@@ -22935,6 +23175,12 @@
    "english": false
   },
   "canalsur noticias": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "canalsur.es": {
    "languages": [
     "spa"
    ],
@@ -23886,18 +24132,6 @@
    ],
    "english": false
   },
-  "cazetv": {
-   "languages": [
-    "por"
-   ],
-   "english": false
-  },
-  "cazetv.br": {
-   "languages": [
-    "por"
-   ],
-   "english": false
-  },
   "cb tv michoacan": {
    "languages": [
     "spa"
@@ -23998,7 +24232,15 @@
   },
   "cbeebies": {
    "languages": [
-    "eng"
+    "eng",
+    "pol"
+   ],
+   "english": true
+  },
+  "cbeebies.pl": {
+   "languages": [
+    "eng",
+    "pol"
    ],
    "english": true
   },
@@ -25722,12 +25964,6 @@
    ],
    "english": false
   },
-  "channel 17": {
-   "languages": [
-    "spa"
-   ],
-   "english": false
-  },
   "channel 18 gac": {
    "languages": [
     "eng"
@@ -26443,7 +26679,9 @@
    "english": false
   },
   "chaozhou public channel": {
-   "languages": [],
+   "languages": [
+    "zho"
+   ],
    "english": false
   },
   "chaozhoucomprehensivechannel.cn": {
@@ -26451,7 +26689,9 @@
    "english": false
   },
   "chaozhoupublicchannel.cn": {
-   "languages": [],
+   "languages": [
+    "zho"
+   ],
    "english": false
   },
   "chappelle s show": {
@@ -27745,6 +27985,18 @@
    "languages": [],
    "english": false
   },
+  "cinemaraton plus": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
+  "cinemaratonplus.ro": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
   "cinemaworld": {
    "languages": [
     "eng",
@@ -27761,6 +28013,13 @@
    ],
    "english": true
   },
+  "cinemax action": {
+   "languages": [
+    "eng",
+    "spa"
+   ],
+   "english": true
+  },
   "cinemax classics": {
    "languages": [
     "eng"
@@ -27768,6 +28027,13 @@
    "english": true
   },
   "cinemax hits": {
+   "languages": [
+    "eng",
+    "spa"
+   ],
+   "english": true
+  },
+  "cinemaxaction.us": {
    "languages": [
     "eng",
     "spa"
@@ -28714,6 +28980,12 @@
    ],
    "english": false
   },
+  "class tv moda": {
+   "languages": [
+    "ita"
+   ],
+   "english": false
+  },
   "classcnbc.it": {
    "languages": [
     "ita"
@@ -28872,6 +29144,12 @@
    ],
    "english": false
   },
+  "classtvmoda.it": {
+   "languages": [
+    "ita"
+   ],
+   "english": false
+  },
   "clergy tv": {
    "languages": [
     "eng"
@@ -28883,6 +29161,12 @@
     "eng"
    ],
    "english": true
+  },
+  "clic": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
   },
   "clicktv chile": {
    "languages": [
@@ -31037,6 +31321,12 @@
    ],
    "english": true
   },
+  "crime investigation polsat": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
   "crime360.us": {
    "languages": [
     "eng"
@@ -31108,6 +31398,12 @@
     "eng"
    ],
    "english": true
+  },
+  "crimeplusinvestigationpolsat.pl": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
   },
   "cristo tv": {
    "languages": [
@@ -31773,7 +32069,19 @@
    ],
    "english": false
   },
+  "cubavision": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "cubavision internacional": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "cubavision.cu": {
    "languages": [
     "spa"
    ],
@@ -32438,15 +32746,11 @@
    "english": true
   },
   "damascus radio": {
-   "languages": [
-    "ara"
-   ],
+   "languages": [],
    "english": false
   },
   "damascusradio.sy": {
-   "languages": [
-    "ara"
-   ],
+   "languages": [],
    "english": false
   },
   "danangtv1.vn": {
@@ -33507,6 +33811,12 @@
    ],
    "english": false
   },
+  "de pelicula plus": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "de pelicula us": {
    "languages": [
     "spa"
@@ -33997,6 +34307,12 @@
    "english": true
   },
   "depeliculalatinamerica.mx": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "depeliculaplus.mx": {
    "languages": [
     "spa"
    ],
@@ -34759,6 +35075,12 @@
    ],
    "english": false
   },
+  "digi life": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
   "digi news": {
    "languages": [
     "ron"
@@ -34789,7 +35111,19 @@
    ],
    "english": false
   },
+  "digi world": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
   "digi24.ro": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
+  "digilife.ro": {
    "languages": [
     "ron"
    ],
@@ -34866,6 +35200,12 @@
   "digitalvision63.do": {
    "languages": [
     "spa"
+   ],
+   "english": false
+  },
+  "digiworld.ro": {
+   "languages": [
+    "ron"
    ],
    "english": false
   },
@@ -35094,9 +35434,21 @@
    "languages": [],
    "english": false
   },
+  "discovery turbo": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "discoverychannel.bg": {
    "languages": [],
    "english": false
+  },
+  "discoveryturbo.us": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
   },
   "disha tv": {
    "languages": [
@@ -37418,7 +37770,8 @@
   },
   "e": {
    "languages": [
-    "eng"
+    "eng",
+    "pol"
    ],
    "english": true
   },
@@ -37506,6 +37859,12 @@
   "e vidya 9": {
    "languages": [
     "hin"
+   ],
+   "english": false
+  },
+  "e.pl": {
+   "languages": [
+    "pol"
    ],
    "english": false
   },
@@ -38677,6 +39036,12 @@
    ],
    "english": false
   },
+  "el trece internacional latin america": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "el tv": {
    "languages": [
     "aze"
@@ -39223,6 +39588,12 @@
    ],
    "english": false
   },
+  "eltreceinternacionallatinamerica.ar": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "eltv.az": {
    "languages": [
     "aze"
@@ -39431,6 +39802,18 @@
    "languages": [],
    "english": false
   },
+  "encuentro": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
+  "encuentro.ar": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "enelpuntodemira.us": {
    "languages": [
     "spa"
@@ -39519,6 +39902,12 @@
    ],
    "english": true
   },
+  "english club global": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "english club tv": {
    "languages": [
     "eng"
@@ -39526,6 +39915,12 @@
    "english": true
   },
   "englishclass.ru": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
+  "englishclubglobal.uk": {
    "languages": [
     "eng"
    ],
@@ -39691,7 +40086,8 @@
   },
   "entertainment": {
    "languages": [
-    "eng"
+    "eng",
+    "pol"
    ],
    "english": true
   },
@@ -40241,6 +40637,42 @@
    ],
    "english": false
   },
+  "eska rock tv": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "eska tv": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "eska tv extra": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "eskarocktv.pl": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "eskatv.pl": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
+  "eskatvextra.pl": {
+   "languages": [
+    "pol"
+   ],
+   "english": false
+  },
   "eslah tv": {
    "languages": [
     "pus"
@@ -40252,6 +40684,20 @@
     "pus"
    ],
    "english": false
+  },
+  "esne tv": {
+   "languages": [
+    "eng",
+    "spa"
+   ],
+   "english": true
+  },
+  "esnetv.us": {
+   "languages": [
+    "eng",
+    "spa"
+   ],
+   "english": true
   },
   "espansione tv": {
    "languages": [
@@ -42196,6 +42642,20 @@
    ],
    "english": false
   },
+  "falak tv": {
+   "languages": [
+    "pan",
+    "urd"
+   ],
+   "english": false
+  },
+  "falaktv.pk": {
+   "languages": [
+    "pan",
+    "urd"
+   ],
+   "english": false
+  },
   "falalitoral.br": {
    "languages": [
     "por"
@@ -43319,6 +43779,12 @@
    ],
    "english": true
   },
+  "filmbox action": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "filmbox comedy": {
    "languages": [
     "cze",
@@ -43375,6 +43841,12 @@
     "pol",
     "ron",
     "rus"
+   ],
+   "english": true
+  },
+  "filmboxplusaction.pl": {
+   "languages": [
+    "eng"
    ],
    "english": true
   },
@@ -44475,6 +44947,12 @@
    "languages": [],
    "english": false
   },
+  "fox.pl": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "fox.us": {
    "languages": [
     "eng"
@@ -44761,18 +45239,6 @@
     "rus"
    ],
    "english": false
-  },
-  "freeform": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "freeform.us": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
   },
   "freeom": {
    "languages": [
@@ -45424,10 +45890,9 @@
   },
   "fx": {
    "languages": [
-    "eng",
     "rus"
    ],
-   "english": true
+   "english": false
   },
   "fx 1": {
    "languages": [
@@ -45459,12 +45924,6 @@
     "rus"
    ],
    "english": false
-  },
-  "fx.us": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
   },
   "fx1.ir": {
    "languages": [
@@ -47236,6 +47695,12 @@
    ],
    "english": false
   },
+  "golden plus": {
+   "languages": [
+    "spa"
+   ],
+   "english": false
+  },
   "golden premier": {
    "languages": [
     "spa"
@@ -47269,6 +47734,12 @@
   "goldenjade.hk": {
    "languages": [
     "yue"
+   ],
+   "english": false
+  },
+  "goldenplus.mx": {
+   "languages": [
+    "spa"
    ],
    "english": false
   },
@@ -49532,24 +50003,6 @@
    ],
    "english": false
   },
-  "hatos csatorna": {
-   "languages": [
-    "hun"
-   ],
-   "english": false
-  },
-  "hatoscsatorna": {
-   "languages": [
-    "hun"
-   ],
-   "english": false
-  },
-  "hatoscsatorna.hu": {
-   "languages": [
-    "hun"
-   ],
-   "english": false
-  },
   "hau giang": {
    "languages": [
     "vie"
@@ -49582,6 +50035,13 @@
    "languages": [],
    "english": false
   },
+  "hbo drama": {
+   "languages": [
+    "eng",
+    "spa"
+   ],
+   "english": true
+  },
   "hbo hits": {
    "languages": [
     "eng",
@@ -49604,6 +50064,13 @@
    "english": true
   },
   "hbo2": {
+   "languages": [
+    "eng",
+    "spa"
+   ],
+   "english": true
+  },
+  "hbodrama.us": {
    "languages": [
     "eng",
     "spa"
@@ -50604,6 +51071,12 @@
    "languages": [],
    "english": false
   },
+  "history.pl": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
+  },
   "history.si": {
    "languages": [
     "slv"
@@ -50633,6 +51106,12 @@
     "cze"
    ],
    "english": false
+  },
+  "history2.pl": {
+   "languages": [
+    "eng"
+   ],
+   "english": true
   },
   "history2latinamerica.us": {
    "languages": [
@@ -53812,6 +54291,12 @@
    ],
    "english": false
   },
+  "impact tv 2": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
   "impact tv dance": {
    "languages": [
     "ron"
@@ -53855,6 +54340,12 @@
    "english": false
   },
   "impacttv.ro": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
+  "impacttv2.ro": {
    "languages": [
     "ron"
    ],
@@ -54491,6 +54982,18 @@
   "institucional": {
    "languages": [
     "spa"
+   ],
+   "english": false
+  },
+  "insula non stop": {
+   "languages": [
+    "ron"
+   ],
+   "english": false
+  },
+  "insulanonstop.ro": {
+   "languages": [
+    "ron"
    ],
    "english": false
   },
@@ -55829,100 +56332,20 @@
    "english": true
   },
   "jahanbin tv": {
-   "languages": [
-    "fas"
-   ],
+   "languages": [],
    "english": false
   },
   "jahanbintv.ir": {
-   "languages": [
-    "fas"
-   ],
-   "english": false
-  },
-  "jahonnamo": {
-   "languages": [
-    "tgk"
-   ],
-   "english": false
-  },
-  "jahonnamo.tj": {
-   "languages": [
-    "tgk"
-   ],
-   "english": false
-  },
-  "jai maharashtra": {
-   "languages": [
-    "mar"
-   ],
-   "english": false
-  },
-  "jaihind tv": {
-   "languages": [
-    "mal"
-   ],
-   "english": false
-  },
-  "jaihindtv.in": {
-   "languages": [
-    "mal"
-   ],
-   "english": false
-  },
-  "jail": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jail.uk": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jaimaharashtra.in": {
-   "languages": [
-    "mar"
-   ],
-   "english": false
-  },
-  "jak tv": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
-  "jaktv.id": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
-  "jalisco tv": {
-   "languages": [
-    "spa"
-   ],
-   "english": false
-  },
-  "jaliscotv.mx": {
-   "languages": [
-    "spa"
-   ],
+   "languages": [],
    "english": false
   },
   "jalwa tv": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
+   "languages": [],
+   "english": false
   },
   "jalwatv.pk": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
+   "languages": [],
+   "english": false
   },
   "jamahiriya tv": {
    "languages": [],
@@ -55930,54 +56353,6 @@
   },
   "jamahiriyatv.ly": {
    "languages": [],
-   "english": false
-  },
-  "jamaica online tv": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jamaica travel channel": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jamaicaonlinetv.jm": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jamaicatravelchannel.jm": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jambi tv": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
-  "jambitv.id": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
-  "jambyl": {
-   "languages": [
-    "kaz"
-   ],
-   "english": false
-  },
-  "jambyl.kz": {
-   "languages": [
-    "kaz"
-   ],
    "english": false
   },
   "jamuna tv": {
@@ -55988,72 +56363,12 @@
    "languages": [],
    "english": false
   },
-  "jan tv": {
-   "languages": [
-    "hin"
-   ],
-   "english": false
-  },
-  "janam tv": {
-   "languages": [
-    "mal"
-   ],
-   "english": false
-  },
-  "janamtv.in": {
-   "languages": [
-    "mal"
-   ],
-   "english": false
-  },
-  "janta tv": {
-   "languages": [
-    "hin"
-   ],
-   "english": false
-  },
-  "jantantra tv": {
-   "languages": [
-    "hin"
-   ],
-   "english": false
-  },
-  "jantantratv.in": {
-   "languages": [
-    "hin"
-   ],
-   "english": false
-  },
-  "jantatv.in": {
-   "languages": [
-    "hin"
-   ],
-   "english": false
-  },
-  "jantv.in": {
-   "languages": [
-    "hin"
-   ],
-   "english": false
-  },
   "japan tv": {
    "languages": [
     "eng",
     "jpn"
    ],
    "english": true
-  },
-  "japanimtv": {
-   "languages": [
-    "fra"
-   ],
-   "english": false
-  },
-  "japanimtv.be": {
-   "languages": [
-    "fra"
-   ],
-   "english": false
   },
   "jarabacoa tv": {
    "languages": [
@@ -56073,76 +56388,12 @@
    ],
    "english": false
   },
-  "jaszsagi tersegi tv": {
-   "languages": [
-    "hun"
-   ],
-   "english": false
-  },
-  "jaszsagitersegitv.hu": {
-   "languages": [
-    "hun"
-   ],
-   "english": false
-  },
-  "jawa pos tv": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
-  "jawapostv.id": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
   "jawhara tv": {
-   "languages": [
-    "ara"
-   ],
+   "languages": [],
    "english": false
   },
   "jawharatv.tn": {
-   "languages": [
-    "ara"
-   ],
-   "english": false
-  },
-  "jaya plus": {
-   "languages": [
-    "tam"
-   ],
-   "english": false
-  },
-  "jaya tv": {
-   "languages": [
-    "sin"
-   ],
-   "english": false
-  },
-  "jayaplus.in": {
-   "languages": [
-    "tam"
-   ],
-   "english": false
-  },
-  "jayatv.lk": {
-   "languages": [
-    "sin"
-   ],
-   "english": false
-  },
-  "jazz tv": {
-   "languages": [
-    "mkd"
-   ],
-   "english": false
-  },
-  "jazztv.mk": {
-   "languages": [
-    "mkd"
-   ],
+   "languages": [],
    "english": false
   },
   "jbn": {
@@ -56209,30 +56460,6 @@
    "languages": [],
    "english": false
   },
-  "jeddah radio": {
-   "languages": [
-    "ara"
-   ],
-   "english": false
-  },
-  "jeddahradio.sa": {
-   "languages": [
-    "ara"
-   ],
-   "english": false
-  },
-  "jednotka": {
-   "languages": [
-    "slk"
-   ],
-   "english": false
-  },
-  "jednotka.sk": {
-   "languages": [
-    "slk"
-   ],
-   "english": false
-  },
   "jeel dz tv": {
    "languages": [],
    "english": false
@@ -56249,42 +56476,6 @@
    "languages": [],
    "english": false
   },
-  "jeevan tv": {
-   "languages": [
-    "mal"
-   ],
-   "english": false
-  },
-  "jeevantv.in": {
-   "languages": [
-    "mal"
-   ],
-   "english": false
-  },
-  "jehova nissi": {
-   "languages": [
-    "spa"
-   ],
-   "english": false
-  },
-  "jehova tv": {
-   "languages": [
-    "spa"
-   ],
-   "english": false
-  },
-  "jehovanissi.gt": {
-   "languages": [
-    "spa"
-   ],
-   "english": false
-  },
-  "jehovatv.hn": {
-   "languages": [
-    "spa"
-   ],
-   "english": false
-  },
   "jei talent tv": {
    "languages": [],
    "english": false
@@ -56299,77 +56490,11 @@
    ],
    "english": false
   },
-  "jek tv": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
-  "jektv.id": {
-   "languages": [
-    "ind"
-   ],
-   "english": false
-  },
   "jeonju mbc tv": {
    "languages": [
     "kor"
    ],
    "english": false
-  },
-  "jeremiah tv": {
-   "languages": [
-    "urd"
-   ],
-   "english": false
-  },
-  "jeremiahtv.pk": {
-   "languages": [
-    "urd"
-   ],
-   "english": false
-  },
-  "jersey shore": {
-   "languages": [
-    "dan",
-    "eng",
-    "nor",
-    "swe"
-   ],
-   "english": true
-  },
-  "jersey shore family vacation": {
-   "languages": [
-    "dan",
-    "eng",
-    "nor",
-    "swe"
-   ],
-   "english": true
-  },
-  "jerseyshore.se": {
-   "languages": [
-    "dan",
-    "eng",
-    "nor",
-    "swe"
-   ],
-   "english": true
-  },
-  "jerseyshore.us": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jerseyshorefamilyvacation.se": {
-   "languages": [
-    "dan",
-    "eng",
-    "nor",
-    "swe"
-   ],
-   "english": true
   },
   "jet tv": {
    "languages": [],
@@ -56378,58 +56503,6 @@
   "jettv.sg": {
    "languages": [],
    "english": false
-  },
-  "jewellery maker": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jewellerymaker.uk": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jewelry tv": {
-   "languages": [
-    "eng",
-    "spa",
-    "zho"
-   ],
-   "english": true
-  },
-  "jewelry tv 2": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jewelrytv.us": {
-   "languages": [
-    "eng",
-    "spa",
-    "zho"
-   ],
-   "english": true
-  },
-  "jewelrytv2.us": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jewish life television": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
-  },
-  "jewishlifetelevision.us": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
   },
   "jfv tv": {
    "languages": [
@@ -56448,15 +56521,11 @@
    "english": false
   },
   "jiangsu city channel": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsu educational channel": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsu international channel": {
@@ -56464,33 +56533,23 @@
    "english": false
   },
   "jiangsu movie channel": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsu public and news channel": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsu satellite tv": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsu sports and leisure channel": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsu variety channel": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsubeautymakeupchannel.cn": {
@@ -56498,15 +56557,11 @@
    "english": false
   },
   "jiangsucitychannel.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsueducationalchannel.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsuinternationalchannel.cn": {
@@ -56514,33 +56569,23 @@
    "english": false
   },
   "jiangsumoviechannel.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsupublicnewschannel.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsusatellitetv.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsusportsleisurechannel.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangsuvarietychannel.cn": {
-   "languages": [
-    "zho"
-   ],
+   "languages": [],
    "english": false
   },
   "jiangxi ceramic channel": {
@@ -56915,12 +56960,6 @@
    ],
    "english": true
   },
-  "jttv": {
-   "languages": [
-    "hun"
-   ],
-   "english": false
-  },
   "jtv": {
    "languages": [
     "ind",
@@ -56939,12 +56978,6 @@
     "kor"
    ],
    "english": false
-  },
-  "jtv2": {
-   "languages": [
-    "eng"
-   ],
-   "english": true
   },
   "junior tv": {
    "languages": [
@@ -61054,24 +61087,6 @@
     "ita"
    ],
    "english": false
-  },
-  "mtv jersey shore": {
-   "languages": [
-    "dan",
-    "eng",
-    "nor",
-    "swe"
-   ],
-   "english": true
-  },
-  "mtv jersey shore family vacation": {
-   "languages": [
-    "dan",
-    "eng",
-    "nor",
-    "swe"
-   ],
-   "english": true
   },
   "mtv volgograd": {
    "languages": [],
@@ -68718,6 +68733,12 @@
   },
   "televsesvit.ua": {
    "languages": [],
+   "english": false
+  },
+  "telewizja btb": {
+   "languages": [
+    "pol"
+   ],
    "english": false
   },
   "telplus": {

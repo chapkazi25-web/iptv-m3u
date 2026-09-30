@@ -622,8 +622,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": false,
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "13c-1080p": {
       "name": "13C",
@@ -1216,6 +1219,7 @@
         "ara",
         "bel",
         "eng",
+        "heb",
         "kir",
         "rus",
         "slk",
@@ -6989,8 +6993,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PY"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "abc-tv-plus-720p": {
       "name": "ABC TV Plus",
@@ -9469,8 +9476,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": false,
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "ae-radio-tv": {
       "name": "AE Radio TV",
@@ -19734,8 +19744,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:VE"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "anwar-tv2-720p": {
       "name": "Anwar TV2",
@@ -20734,8 +20747,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MK"
+      "english": false,
+      "excluded_by": "language:mak",
+      "languages": [
+        "mak"
+      ]
     },
     "arena-sport-premium-m2": {
       "name": "Arena Sport Premium M2",
@@ -20758,8 +20774,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MK"
+      "english": false,
+      "excluded_by": "language:mak",
+      "languages": [
+        "mak"
+      ]
     },
     "arena-sport-premium-m3": {
       "name": "Arena Sport Premium M3",
@@ -20782,8 +20801,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MK"
+      "english": false,
+      "excluded_by": "language:mak",
+      "languages": [
+        "mak"
+      ]
     },
     "argentinisima-satelital-540p": {
       "name": "Argentinisima Satelital",
@@ -22302,8 +22324,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:RO"
+      "english": false,
+      "excluded_by": "language:ron",
+      "languages": [
+        "ron"
+      ]
     },
     "asia-tv-720p": {
       "name": "Asia TV",
@@ -26012,8 +26037,12 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": false,
+      "excluded_by": "language:pol,ron",
+      "languages": [
+        "pol",
+        "ron"
+      ]
     },
     "axn-portugal": {
       "name": "AXN (Portugal)",
@@ -26300,8 +26329,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/AYM%20Sports.png",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MX"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "ayni-tv": {
       "name": "AYNI TV",
@@ -26439,8 +26471,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MX"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "az-star-tv-1080p": {
       "name": "Az Star TV",
@@ -26631,8 +26666,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/World%20Cup/Azteca%207.png",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MX"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "azteca-deportes-network-1080p": {
       "name": "Azteca Deportes Network",
@@ -28137,8 +28175,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Bandamax.png",
       "enabled": false,
-      "english": null,
-      "excluded_by": "quality:1080p"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "bandnews-1080p": {
       "name": "BandNews",
@@ -29141,7 +29182,10 @@
       },
       "logo": "",
       "enabled": true,
-      "english": null
+      "english": true,
+      "languages": [
+        "eng"
+      ]
     },
     "bbc-drama-1080p": {
       "name": "BBC Drama",
@@ -33659,8 +33703,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "duplicate-of:bet"
+      "english": true,
+      "excluded_by": "duplicate-of:bet",
+      "languages": [
+        "eng"
+      ]
     },
     "bet-cinema": {
       "name": "BET Cinema",
@@ -35666,7 +35713,10 @@
       "logo": "",
       "enabled": false,
       "english": false,
-      "excluded_by": "language:non-english"
+      "excluded_by": "language:kor",
+      "languages": [
+        "kor"
+      ]
     },
     "bilyonaryo-news-channel-1080p-geo-blocked": {
       "name": "Bilyonaryo News Channel [Geo-blocked]",
@@ -37617,29 +37667,6 @@
       "enabled": true,
       "english": null
     },
-    "bolivia-copa-universitario-de-vinto-vs-guabira-fawa": {
-      "name": "[Bolivia Copa] Universitario de Vinto vs Guabira (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Bolivia Copa] Universitario de Vinto vs Guabira (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "bolivia-tv-1080p": {
       "name": "Bolivia TV",
       "aliases": [
@@ -38898,7 +38925,10 @@
       "logo": "",
       "enabled": false,
       "english": false,
-      "excluded_by": "language:non-english"
+      "excluded_by": "language:kor",
+      "languages": [
+        "kor"
+      ]
     },
     "brat-tv-1080p": {
       "name": "Brat TV",
@@ -40073,8 +40103,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": false,
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "btb-2-1080p": {
       "name": "BTB 2",
@@ -40183,35 +40216,6 @@
       "quality_height": null,
       "not_24_7": false,
       "excluded_by": "country:PL"
-    },
-    "btb-music": {
-      "name": "BTB Music",
-      "aliases": [
-        "BTB Music (FHD)"
-      ],
-      "countries": [
-        "PL"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/BTB%20Music.png",
-      "enabled": false,
-      "source_refs": {
-        "tvivu": [
-          "BTBMusic.pl"
-        ]
-      },
-      "languages": [
-        "pol"
-      ],
-      "english": false,
-      "excluded_by": "language:pol",
-      "quality_height": null,
-      "not_24_7": false
     },
     "btl-tv-720p-not-24-7": {
       "name": "BTL TV [Not 24/7]",
@@ -46488,8 +46492,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:SV"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "canal-9-link": {
       "name": "Canal 9 Link",
@@ -46803,8 +46810,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:CU"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "canal-catorce-1080p-not-24-7": {
       "name": "Canal Catorce [Not 24/7]",
@@ -48769,8 +48779,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/Canal%20Sur.png",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:ES"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "canal-sur-2-720p": {
       "name": "Canal Sur 2",
@@ -51819,8 +51832,12 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": true,
+      "excluded_by": "country:PL",
+      "languages": [
+        "eng",
+        "pol"
+      ]
     },
     "cbeebies-united-kingdom": {
       "name": "CBeebies (United Kingdom)",
@@ -56662,7 +56679,10 @@
       "logo": "",
       "enabled": false,
       "english": false,
-      "excluded_by": "language:non-english"
+      "excluded_by": "language:zho",
+      "languages": [
+        "zho"
+      ]
     },
     "chappelle-s-show": {
       "name": "Chappelle's Show",
@@ -59674,8 +59694,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:RO"
+      "english": false,
+      "excluded_by": "language:ron",
+      "languages": [
+        "ron"
+      ]
     },
     "cinemaworld-720p": {
       "name": "CinemaWorld",
@@ -61597,8 +61620,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:IT"
+      "english": false,
+      "excluded_by": "language:ita",
+      "languages": [
+        "ita"
+      ]
     },
     "classic-arts-showcase-720p": {
       "name": "Classic Arts Showcase",
@@ -65859,52 +65885,6 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "copa-africana-de-naciones-islas-de-cabo-verde-vs-ruanda-1-plibre": {
-      "name": "[Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "copa-africana-de-naciones-somalia-vs-costa-de-marfil-1-plibre": {
-      "name": "[Copa Africana de Naciones] Somalia vs Costa de Marfil 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Copa Africana de Naciones] Somalia vs Costa de Marfil 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "copa-chile-d-puerto-montt-vs-colo-colo-1-stp": {
       "name": "[Copa Chile] D. Puerto Montt vs Colo Colo 1 (STP)",
       "quality_height": null,
@@ -65938,29 +65918,6 @@
       "countries": [],
       "categories": [
         "tnt-sports"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "copa-chile-puerto-montt-vs-colo-colo-1-plibre": {
-      "name": "[Copa Chile] Puerto Montt vs Colo-Colo 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Copa Chile] Puerto Montt vs Colo-Colo 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
       ],
       "sources": [
         "core"
@@ -67302,8 +67259,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": false,
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "crimea-24": {
       "name": "Crimea 24",
@@ -68779,8 +68739,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:CU"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "cubavision-internacional": {
       "name": "Cubavision Internacional",
@@ -72343,8 +72306,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/De%20Pelicula%20Plus.png",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MX"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "de-pelicula-us-720p": {
       "name": "De Pelicula US",
@@ -74926,8 +74892,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:RO"
+      "english": false,
+      "excluded_by": "language:ron",
+      "languages": [
+        "ron"
+      ]
     },
     "digi-sport-1": {
       "name": "Digi Sport 1",
@@ -75060,8 +75029,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:RO"
+      "english": false,
+      "excluded_by": "language:ron",
+      "languages": [
+        "ron"
+      ]
     },
     "digital-15-1080p": {
       "name": "Digital 15",
@@ -75636,7 +75608,10 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Discovery%20Turbo.png",
       "enabled": true,
-      "english": null
+      "english": true,
+      "languages": [
+        "eng"
+      ]
     },
     "discovery-turbo-tv": {
       "name": "Discovery Turbo TV",
@@ -80737,8 +80712,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": false,
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "e-tv-news-and-sport-720p": {
       "name": "e.tv News & Sport",
@@ -83452,8 +83430,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:AR"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "el-tv": {
       "name": "EL TV",
@@ -84363,8 +84344,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:AR"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "energeek-fan-1080p": {
       "name": "EnerGeek FAN",
@@ -84557,7 +84541,10 @@
       },
       "logo": "",
       "enabled": true,
-      "english": null
+      "english": true,
+      "languages": [
+        "eng"
+      ]
     },
     "english-club-tv-576i": {
       "name": "English Club TV",
@@ -85930,10 +85917,13 @@
         ]
       },
       "epg_id": "Eska.Rock.TV.pl",
-      "english": null,
+      "english": false,
       "quality_height": null,
       "not_24_7": false,
-      "excluded_by": "country:PL"
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "eska-tv": {
       "name": "Eska TV",
@@ -85961,10 +85951,13 @@
         ]
       },
       "epg_id": "Eska.TV.pl",
-      "english": null,
+      "english": false,
       "quality_height": 1080,
       "not_24_7": false,
-      "excluded_by": "quality:1080p"
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "eska-tv-extra": {
       "name": "Eska TV Extra",
@@ -85992,10 +85985,13 @@
         ]
       },
       "epg_id": "Eska.TV.Extra.pl",
-      "english": null,
+      "english": false,
       "quality_height": 1080,
       "not_24_7": false,
-      "excluded_by": "quality:1080p"
+      "excluded_by": "language:pol",
+      "languages": [
+        "pol"
+      ]
     },
     "eslah-tv-720p": {
       "name": "Eslah TV",
@@ -86045,7 +86041,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/ESNE%20TV.png",
       "enabled": true,
-      "english": null
+      "english": true,
+      "languages": [
+        "eng",
+        "spa"
+      ]
     },
     "espace-tv-1080p": {
       "name": "Espace TV",
@@ -90096,8 +90096,12 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PK"
+      "english": false,
+      "excluded_by": "language:pan,urd",
+      "languages": [
+        "pan",
+        "urd"
+      ]
     },
     "falastini-tv": {
       "name": "Falastini TV",
@@ -90693,18 +90697,24 @@
       "aliases": [
         "Farra Play (576p)"
       ],
-      "countries": [],
+      "countries": [
+        "PY"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Farra%20Play.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "FarraPlay.py.SD"
+        ],
+        "tvivu": [
+          "FarraPlay.py"
         ]
       },
       "languages": [
@@ -92664,8 +92674,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": true,
+      "excluded_by": "country:PL",
+      "languages": [
+        "eng"
+      ]
     },
     "filmbox-comedy": {
       "name": "FILMBOX+ Comedy",
@@ -94571,18 +94584,24 @@
       "aliases": [
         "FON Music (576p)"
       ],
-      "countries": [],
+      "countries": [
+        "RU"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Fon%20Music.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "FONMusic.ru.SD"
+        ],
+        "tvivu": [
+          "FonMusic.ru"
         ]
       },
       "languages": [
@@ -95487,8 +95506,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": true,
+      "excluded_by": "country:PL",
+      "languages": [
+        "eng"
+      ]
     },
     "fox-russia-576p": {
       "name": "Fox (Russia)",
@@ -97998,7 +98020,7 @@
         "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/FX.png",
-      "enabled": true,
+      "enabled": false,
       "source_refs": {
         "core": [
           "FX.HD.us2"
@@ -98009,12 +98031,12 @@
       },
       "epg_id": "FX.HD.us2",
       "languages": [
-        "eng",
         "rus"
       ],
-      "english": true,
+      "english": false,
       "quality_height": 1080,
-      "not_24_7": false
+      "not_24_7": false,
+      "excluded_by": "language:rus"
     },
     "fx-1": {
       "name": "FX 1",
@@ -102363,8 +102385,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:MX"
+      "english": false,
+      "excluded_by": "language:spa",
+      "languages": [
+        "spa"
+      ]
     },
     "golden-premier-1080p": {
       "name": "Golden Premier",
@@ -106655,7 +106680,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/HBO%20Drama.png",
       "enabled": true,
-      "english": null
+      "english": true,
+      "languages": [
+        "eng",
+        "spa"
+      ]
     },
     "hbo-drama-west": {
       "name": "HBO Drama West",
@@ -108444,8 +108473,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": true,
+      "excluded_by": "country:PL",
+      "languages": [
+        "eng"
+      ]
     },
     "history-asia-720p": {
       "name": "History Asia",
@@ -108694,8 +108726,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:PL"
+      "english": true,
+      "excluded_by": "country:PL",
+      "languages": [
+        "eng"
+      ]
     },
     "history-slovenia-1080p": {
       "name": "History (Slovenia)",
@@ -115281,8 +115316,11 @@
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Impact%20TV%202.png",
       "enabled": false,
-      "english": null,
-      "excluded_by": "quality:1080p"
+      "english": false,
+      "excluded_by": "language:ron",
+      "languages": [
+        "ron"
+      ]
     },
     "impact-tv-burkina-faso": {
       "name": "Impact TV (Burkina Faso)",
@@ -116546,8 +116584,11 @@
       },
       "logo": "",
       "enabled": false,
-      "english": null,
-      "excluded_by": "country:RO"
+      "english": false,
+      "excluded_by": "language:ron",
+      "languages": [
+        "ron"
+      ]
     },
     "insync-576p": {
       "name": "Insync",
@@ -119411,7 +119452,7 @@
         "fas"
       ],
       "english": false,
-      "excluded_by": "language:fas",
+      "excluded_by": "language:non-english",
       "quality_height": null,
       "not_24_7": false
     },
@@ -119437,8 +119478,8 @@
       "languages": [
         "tgk"
       ],
-      "english": false,
-      "excluded_by": "language:tgk",
+      "english": null,
+      "excluded_by": "country:TJ",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -119464,8 +119505,8 @@
       "languages": [
         "mar"
       ],
-      "english": false,
-      "excluded_by": "language:mar",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -119491,8 +119532,8 @@
       "languages": [
         "mal"
       ],
-      "english": false,
-      "excluded_by": "language:mal",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -119518,8 +119559,8 @@
       "languages": [
         "ind"
       ],
-      "english": false,
-      "excluded_by": "language:ind",
+      "english": null,
+      "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]",
       "quality_height": null,
       "not_24_7": false
     },
@@ -119545,8 +119586,8 @@
       "languages": [
         "spa"
       ],
-      "english": false,
-      "excluded_by": "language:spa",
+      "english": null,
+      "excluded_by": "country:MX",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -119572,10 +119613,10 @@
       "languages": [
         "eng"
       ],
-      "english": true,
+      "english": false,
       "quality_height": null,
       "not_24_7": false,
-      "excluded_by": "country:PK"
+      "excluded_by": "language:non-english"
     },
     "jamaica-online-tv-1080p-not-24-7": {
       "name": "Jamaica Online TV [Not 24/7]",
@@ -119599,7 +119640,7 @@
       "languages": [
         "eng"
       ],
-      "english": true,
+      "english": null,
       "quality_height": 1080,
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
@@ -119626,7 +119667,7 @@
       "languages": [
         "eng"
       ],
-      "english": true,
+      "english": null,
       "quality_height": 720,
       "not_24_7": false,
       "excluded_by": "country:JM"
@@ -119653,8 +119694,8 @@
       "languages": [
         "ind"
       ],
-      "english": false,
-      "excluded_by": "language:ind",
+      "english": null,
+      "excluded_by": "country:ID",
       "quality_height": null,
       "not_24_7": false
     },
@@ -119680,8 +119721,8 @@
       "languages": [
         "kaz"
       ],
-      "english": false,
-      "excluded_by": "language:kaz",
+      "english": null,
+      "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]",
       "quality_height": 360,
       "not_24_7": true
     },
@@ -119707,8 +119748,8 @@
       "languages": [
         "hin"
       ],
-      "english": false,
-      "excluded_by": "language:hin",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -119734,8 +119775,8 @@
       "languages": [
         "mal"
       ],
-      "english": false,
-      "excluded_by": "language:mal",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -119786,8 +119827,8 @@
       "languages": [
         "hin"
       ],
-      "english": false,
-      "excluded_by": "language:hin",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -119813,8 +119854,8 @@
       "languages": [
         "hin"
       ],
-      "english": false,
-      "excluded_by": "language:hin",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -119840,8 +119881,8 @@
       "languages": [
         "fra"
       ],
-      "english": false,
-      "excluded_by": "language:fra",
+      "english": null,
+      "excluded_by": "country:BE",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -119894,8 +119935,8 @@
       "languages": [
         "hun"
       ],
-      "english": false,
-      "excluded_by": "language:hun",
+      "english": null,
+      "excluded_by": "country:HU",
       "quality_height": 440,
       "not_24_7": false
     },
@@ -119946,7 +119987,7 @@
         "ara"
       ],
       "english": false,
-      "excluded_by": "language:ara",
+      "excluded_by": "language:non-english",
       "quality_height": 720,
       "not_24_7": true
     },
@@ -119972,8 +120013,8 @@
       "languages": [
         "tam"
       ],
-      "english": false,
-      "excluded_by": "language:tam",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -119999,8 +120040,8 @@
       "languages": [
         "sin"
       ],
-      "english": false,
-      "excluded_by": "language:sin",
+      "english": null,
+      "excluded_by": "country:LK",
       "quality_height": 480,
       "not_24_7": false
     },
@@ -120028,8 +120069,8 @@
       "languages": [
         "mkd"
       ],
-      "english": false,
-      "excluded_by": "language:mkd",
+      "english": null,
+      "excluded_by": "country:MK",
       "quality_height": null,
       "not_24_7": false
     },
@@ -120055,8 +120096,8 @@
       "languages": [
         "mkd"
       ],
-      "english": false,
-      "excluded_by": "language:mkd",
+      "english": null,
+      "excluded_by": "quality:1080p",
       "quality_height": 1080,
       "not_24_7": true
     },
@@ -120222,8 +120263,8 @@
       "languages": [
         "ara"
       ],
-      "english": false,
-      "excluded_by": "language:ara",
+      "english": null,
+      "excluded_by": "quality:1080p",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -120249,8 +120290,8 @@
       "languages": [
         "slk"
       ],
-      "english": false,
-      "excluded_by": "language:slk",
+      "english": null,
+      "excluded_by": "country:SK",
       "quality_height": null,
       "not_24_7": false
     },
@@ -120276,8 +120317,8 @@
       "languages": [
         "mal"
       ],
-      "english": false,
-      "excluded_by": "language:mal",
+      "english": null,
+      "excluded_by": "country:IN",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -120303,8 +120344,8 @@
       "languages": [
         "spa"
       ],
-      "english": false,
-      "excluded_by": "language:spa",
+      "english": null,
+      "excluded_by": "country:GT",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -120330,8 +120371,8 @@
       "languages": [
         "spa"
       ],
-      "english": false,
-      "excluded_by": "language:spa",
+      "english": null,
+      "excluded_by": "country:HN",
       "quality_height": null,
       "not_24_7": false
     },
@@ -120357,8 +120398,8 @@
       "languages": [
         "ind"
       ],
-      "english": false,
-      "excluded_by": "language:ind",
+      "english": null,
+      "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]",
       "quality_height": 720,
       "not_24_7": true
     },
@@ -120384,8 +120425,8 @@
       "languages": [
         "urd"
       ],
-      "english": false,
-      "excluded_by": "language:urd",
+      "english": null,
+      "excluded_by": "country:PK",
       "quality_height": null,
       "not_24_7": false
     },
@@ -120418,7 +120459,7 @@
         "nor",
         "swe"
       ],
-      "english": true
+      "english": null
     },
     "jersey-shore-family-vacation": {
       "name": "Jersey Shore Family Vacation",
@@ -120445,7 +120486,7 @@
         "nor",
         "swe"
       ],
-      "english": true,
+      "english": null,
       "quality_height": null,
       "not_24_7": false,
       "excluded_by": "country:SE"
@@ -120592,7 +120633,7 @@
       "languages": [
         "eng"
       ],
-      "english": true,
+      "english": null,
       "quality_height": null,
       "not_24_7": false,
       "excluded_by": "duplicate-of:jersey-shore"
@@ -120619,7 +120660,7 @@
       "languages": [
         "eng"
       ],
-      "english": true,
+      "english": null,
       "quality_height": 720,
       "not_24_7": false
     },
@@ -120647,7 +120688,7 @@
         "spa",
         "zho"
       ],
-      "english": true,
+      "english": null,
       "quality_height": 720,
       "not_24_7": false
     },
@@ -120673,7 +120714,7 @@
       "languages": [
         "eng"
       ],
-      "english": true,
+      "english": null,
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -120727,7 +120768,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -120754,7 +120795,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -120781,7 +120822,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -120808,7 +120849,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -120835,7 +120876,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -120862,7 +120903,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 576,
       "not_24_7": false
     },
@@ -120889,7 +120930,7 @@
         "zho"
       ],
       "english": false,
-      "excluded_by": "language:zho",
+      "excluded_by": "language:non-english",
       "quality_height": 576,
       "not_24_7": true
     },
@@ -132372,24 +132413,18 @@
       "aliases": [
         "Lausitzwelle (1080p)"
       ],
-      "countries": [
-        "DE"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Lausitzwelle.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "Lausitzwelle.de.SD"
-        ],
-        "tvivu": [
-          "Lausitzwelle.de"
         ]
       },
       "english": null,
@@ -134149,6 +134184,29 @@
       "not_24_7": false,
       "excluded_by": "country:ES"
     },
+    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-stp": {
       "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (STP)",
       "quality_height": null,
@@ -134201,6 +134259,29 @@
       "not_24_7": false,
       "aliases": [
         "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA (TVF90)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (PLIBRE)"
       ],
       "countries": [],
       "categories": [
@@ -134287,6 +134368,29 @@
       "enabled": true,
       "english": null
     },
+    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-plibre": {
+      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-stp": {
       "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (STP)",
       "quality_height": null,
@@ -134339,29 +134443,6 @@
       "not_24_7": false,
       "aliases": [
         "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (PLIBRE)"
       ],
       "countries": [],
       "categories": [
@@ -142094,32 +142175,6 @@
       "not_24_7": false,
       "excluded_by": "country:ID"
     },
-    "matur-tv": {
-      "name": "Matur TV",
-      "aliases": [
-        "Matur TV (FHD)"
-      ],
-      "countries": [
-        "RU"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Matur%20TV.png",
-      "enabled": false,
-      "source_refs": {
-        "tvivu": [
-          "MaturTV.ru"
-        ]
-      },
-      "english": false,
-      "excluded_by": "language:non-english",
-      "quality_height": null,
-      "not_24_7": false
-    },
     "maverick-black-cinema-1080p": {
       "name": "Maverick Black Cinema",
       "aliases": [
@@ -142711,24 +142766,18 @@
       "aliases": [
         "MBC America (1080p)"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/MBC%20America.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "MBCAmerica.us.SD"
-        ],
-        "tvivu": [
-          "MBCAmerica.us"
         ]
       },
       "epg_id": "MBC.America.us2",
@@ -152381,7 +152430,7 @@
         "nor",
         "swe"
       ],
-      "english": true,
+      "english": null,
       "quality_height": null,
       "not_24_7": false
     },
@@ -167661,29 +167710,22 @@
       "aliases": [
         "Nueva Vida FM (720p)"
       ],
-      "countries": [
-        "PR"
-      ],
+      "countries": [],
       "categories": [
-        "documentary",
-        "music"
+        "documentary"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Nueva%20Vida%20FM.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "NuevaVidaFM.pr.SD"
-        ],
-        "tvivu": [
-          "NuevaVidaFM.pr"
         ]
       },
       "english": null,
-      "excluded_by": "quality:720p",
+      "excluded_by": "country:PR",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -175267,18 +175309,24 @@
       "aliases": [
         "Patagonia Radio TV (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "CL"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Patagonia%20Radio%20TV.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "PatagoniaRadioTV.cl.SD"
+        ],
+        "tvivu": [
+          "PatagoniaRadioTV.cl"
         ]
       },
       "english": null,
@@ -177855,19 +177903,25 @@
       "aliases": [
         "Picosa TV (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "HN"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "PicosaTV.hn.SD"
+        ],
+        "tvivu": [
+          "PicosaTV.hn"
         ]
       },
-      "logo": "",
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Picosa%20TV.png",
       "enabled": false,
       "english": null,
       "excluded_by": "quality:720p"
@@ -192126,6 +192180,52 @@
       "enabled": true,
       "english": null
     },
+    "primera-a-medellin-vs-millonarios-1-plibre": {
+      "name": "[Primera A] Medellín vs Millonarios 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Primera A] Medellín vs Millonarios 1 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "primera-a-medellin-vs-millonarios-2-plibre": {
+      "name": "[Primera A] Medellín vs Millonarios 2 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Primera A] Medellín vs Millonarios 2 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "primera-a-medellin-vs-millonarios-win-sports-hd-tvf90": {
       "name": "[Primera A] Medellín vs Millonarios | Win Sports + | HD (TVF90)",
       "quality_height": 720,
@@ -192201,6 +192301,52 @@
       "not_24_7": false,
       "aliases": [
         "[Primera A] Medellín vs Millonarios | Win Sports + (TVF90)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-1-plibre": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Primera B] Unión Magdalena vs Real Cartagena 1 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "primera-b-union-magdalena-vs-real-cartagena-2-plibre": {
+      "name": "[Primera B] Unión Magdalena vs Real Cartagena 2 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Primera B] Unión Magdalena vs Real Cartagena 2 (PLIBRE)"
       ],
       "countries": [],
       "categories": [
@@ -197427,24 +197573,18 @@
       "aliases": [
         "RADIO DISCOunt TV (1080p)"
       ],
-      "countries": [
-        "CH"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/RADIO%20DISCOunt%20TV.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "RADIODISCOuntTV.ch.SD"
-        ],
-        "tvivu": [
-          "RADIODISCOuntTV.ch"
         ]
       },
       "english": null,
@@ -197717,6 +197857,32 @@
       "excluded_by": "quality:720p",
       "quality_height": 720,
       "not_24_7": false
+    },
+    "radio-gente": {
+      "name": "Radio Gente",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "Radio Gente (HD)"
+      ],
+      "countries": [
+        "BO"
+      ],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "tvivu"
+      ],
+      "source_refs": {
+        "tvivu": [
+          "RadioGente.bo"
+        ]
+      },
+      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Gente.png",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "radio"
     },
     "radio-guaira-tv": {
       "name": "Radio Guaira TV",
@@ -198755,22 +198921,29 @@
       "aliases": [
         "Radio Rancagua FM (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "CL"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "RadioRancaguaFM.cl.SD"
+        ],
+        "tvivu": [
+          "RadioRancaguaFM.cl"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Rancagua%20FM.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "country:CL",
+      "excluded_by": "quality:720p",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -199312,24 +199485,18 @@
       "aliases": [
         "Radio Suyai TV (1080p)"
       ],
-      "countries": [
-        "CL"
-      ],
+      "countries": [],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Radio%20Suyai%20TV.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "RadioSuyaiTV.cl.HD"
-        ],
-        "tvivu": [
-          "RadioSuyaiTV.cl"
         ]
       },
       "english": null,
@@ -245088,29 +245255,22 @@
       "aliases": [
         "Television Caribbean (1080p)"
       ],
-      "countries": [
-        "KN"
-      ],
+      "countries": [],
       "categories": [
-        "entertainment",
-        "music"
+        "entertainment"
       ],
       "sources": [
-        "iptv-org",
-        "tvivu"
+        "iptv-org"
       ],
       "source_refs": {
         "iptv-org": [
           "TelevisionCaribbean.kn.SD"
-        ],
-        "tvivu": [
-          "TelevisionCaribbean.kn"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Television%20Caribbean.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "quality:1080p",
+      "excluded_by": "country:KN",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -260392,18 +260552,24 @@
       "aliases": [
         "TV Exitos (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "DO"
+      ],
       "categories": [
         "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/TV%20Exitos.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "TVExitos.do.SD"
+        ],
+        "tvivu": [
+          "TVExitos.do"
         ]
       },
       "english": null,
@@ -275510,22 +275676,29 @@
       "aliases": [
         "Urban Mix (720p)"
       ],
-      "countries": [],
+      "countries": [
+        "AR"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "UrbanMix.ar.SD"
+        ],
+        "tvivu": [
+          "UrbanMix.ar"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Urban%20Mix.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "country:AR",
+      "excluded_by": "quality:720p",
       "quality_height": 720,
       "not_24_7": false
     },
@@ -285686,12 +285859,36 @@
       "english": null,
       "excluded_by": "name:\\blas\\s+vegas\\b"
     },
-    "wnba-basketball-new-york-liberty-w-vs-minnesota-lynx-w-fawa": {
-      "name": "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W (FAWA)",
+    "wnba-basketball-new-york-liberty-w-vs-minnesota-lynx-w-1-fawa": {
+      "name": "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 1 (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W (FAWA)"
+        "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 1 (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "wnba-basketball-new-york-liberty-w-vs-minnesota-lynx-w-2-fawa": {
+      "name": "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 2 (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 2 (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -285734,12 +285931,12 @@
       "english": null,
       "excluded_by": "name:\\bdallas\\b"
     },
-    "wnba-indiana-fever-vs-las-vegas-aces-istrmeast": {
-      "name": "[WNBA] Indiana Fever vs Las Vegas Aces (iSTRMEAST)",
+    "wnba-minnesota-lynx-vs-new-york-liberty-strmfree": {
+      "name": "[WNBA] Minnesota Lynx vs New York Liberty (STRMFREE)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA] Indiana Fever vs Las Vegas Aces (iSTRMEAST)"
+        "[WNBA] Minnesota Lynx vs New York Liberty (STRMFREE)"
       ],
       "countries": [],
       "categories": [
@@ -285756,14 +285953,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\blas\\s+vegas\\b"
+      "excluded_by": "name:\\bnew\\s+york\\b"
     },
-    "wnba-las-vegas-aces-vs-indiana-fever-damitv": {
-      "name": "[WNBA] Las Vegas Aces vs. Indiana Fever (DAMITV)",
+    "wnba-new-york-liberty-vs-minnesota-lynx-flyembd": {
+      "name": "[WNBA] New York Liberty vs Minnesota Lynx (FLYEMBD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA] Las Vegas Aces vs. Indiana Fever (DAMITV)"
+        "[WNBA] New York Liberty vs Minnesota Lynx (FLYEMBD)"
       ],
       "countries": [],
       "categories": [
@@ -285780,14 +285977,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\blas\\s+vegas\\b"
+      "excluded_by": "name:\\bnew\\s+york\\b"
     },
-    "wnba-las-vegas-aces-vs-indiana-fever-strmfree": {
-      "name": "[WNBA] Las Vegas Aces vs Indiana Fever (STRMFREE)",
+    "wnba-new-york-liberty-vs-minnesota-lynx-watchfty": {
+      "name": "[WNBA] New York Liberty vs Minnesota Lynx (WATCHFTY)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA] Las Vegas Aces vs Indiana Fever (STRMFREE)"
+        "[WNBA] New York Liberty vs Minnesota Lynx (WATCHFTY)"
       ],
       "countries": [],
       "categories": [
@@ -285804,7 +286001,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\blas\\s+vegas\\b"
+      "excluded_by": "name:\\bnew\\s+york\\b"
     },
     "women-s-sports-network": {
       "name": "Women's Sports Network",
@@ -286834,22 +287031,29 @@
       "aliases": [
         "XHFGL-TDT (1080p)"
       ],
-      "countries": [],
+      "countries": [
+        "MX"
+      ],
       "categories": [
-        "entertainment"
+        "entertainment",
+        "music"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "tvivu"
       ],
       "source_refs": {
         "iptv-org": [
           "XHFGLTDT.mx.SD"
+        ],
+        "tvivu": [
+          "XHFGL-TDT.mx"
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/XHFGL-TDT.png",
       "enabled": false,
       "english": null,
-      "excluded_by": "country:MX",
+      "excluded_by": "quality:1080p",
       "quality_height": 1080,
       "not_24_7": false
     },
@@ -287922,32 +288126,6 @@
       "quality_height": 720,
       "not_24_7": false,
       "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
-    },
-    "yaban-tv": {
-      "name": "Yaban TV",
-      "aliases": [
-        "Yaban TV (FHD)"
-      ],
-      "countries": [
-        "TR"
-      ],
-      "categories": [
-        "music"
-      ],
-      "sources": [
-        "tvivu"
-      ],
-      "source_refs": {
-        "tvivu": [
-          "YabanTV.tr"
-        ]
-      },
-      "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/MISC/Yaban%20TV.png",
-      "enabled": false,
-      "english": null,
-      "quality_height": null,
-      "not_24_7": false,
-      "excluded_by": "country:TR"
     },
     "yachting-tv-1080p": {
       "name": "Yachting TV",
