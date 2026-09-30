@@ -601,6 +601,30 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "13-ulica": {
+      "name": "13 Ulica",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "13 Ulica (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "13Ulica.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "13c-1080p": {
       "name": "13C",
       "aliases": [
@@ -5316,7 +5340,7 @@
     "a24-720p": {
       "name": "A24",
       "aliases": [
-        "A24 (720p)"
+        "A24 (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -5337,7 +5361,7 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": 720,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "a2i-music": {
@@ -9423,6 +9447,30 @@
       "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:DE"
+    },
+    "adventure-tv": {
+      "name": "Adventure TV",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Adventure TV (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "AdventureTV.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
     },
     "ae-radio-tv": {
       "name": "AE Radio TV",
@@ -25943,6 +25991,30 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "axn-poland": {
+      "name": "AXN Poland",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "AXN Poland"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "AXNPoland.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "axn-portugal": {
       "name": "AXN (Portugal)",
       "aliases": [
@@ -28618,267 +28690,6 @@
       "quality_height": 1080,
       "not_24_7": false
     },
-    "basketball-eurocup-le-mans-vs-aris-fawa": {
-      "name": "[Basketball Eurocup] Le Mans vs Aris (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Eurocup] Le Mans vs Aris (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Live.Event.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-anadolu-efes-vs-real-madrid-1-fawa": {
-      "name": "[Basketball Euroleague] Anadolu Efes vs Real Madrid 1 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Anadolu Efes vs Real Madrid 1 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "event_start": "2026-09-29T17:00:00+00:00",
-      "event_fixture": "Anadolu Efes SK vs Real Madrid Baloncesto",
-      "event_sport": "Basketball",
-      "excluded_by": "event-ended:2026-09-29T17:00:00+00:00"
-    },
-    "basketball-euroleague-anadolu-efes-vs-real-madrid-2-fawa": {
-      "name": "[Basketball Euroleague] Anadolu Efes vs Real Madrid 2 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Anadolu Efes vs Real Madrid 2 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "event_start": "2026-09-29T17:00:00+00:00",
-      "event_fixture": "Anadolu Efes SK vs Real Madrid Baloncesto",
-      "event_sport": "Basketball",
-      "excluded_by": "event-ended:2026-09-29T17:00:00+00:00"
-    },
-    "basketball-euroleague-crvena-zvezda-vs-hapoel-tel-aviv-fawa": {
-      "name": "[Basketball Euroleague] Crvena Zvezda vs Hapoel Tel Aviv (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Crvena Zvezda vs Hapoel Tel Aviv (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-fenerbahce-vs-bayern-munchen-1-fawa": {
-      "name": "[Basketball Euroleague] Fenerbahce vs Bayern Munchen 1 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Fenerbahce vs Bayern Munchen 1 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-fenerbahce-vs-bayern-munchen-2-fawa": {
-      "name": "[Basketball Euroleague] Fenerbahce vs Bayern Munchen 2 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Fenerbahce vs Bayern Munchen 2 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-olimpia-milano-vs-virtus-bologna-1-fawa": {
-      "name": "[Basketball Euroleague] Olimpia Milano vs Virtus Bologna 1 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Olimpia Milano vs Virtus Bologna 1 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-paris-vs-partizan-1-fawa": {
-      "name": "[Basketball Euroleague] Paris vs Partizan 1 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Paris vs Partizan 1 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-valencia-vs-baskonia-1-fawa": {
-      "name": "[Basketball Euroleague] Valencia vs Baskonia 1 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Valencia vs Baskonia 1 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-zalgiris-kaunas-vs-olympiacos-1-fawa": {
-      "name": "[Basketball Euroleague] Zalgiris Kaunas vs Olympiacos 1 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Zalgiris Kaunas vs Olympiacos 1 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "basketball-euroleague-zalgiris-kaunas-vs-olympiacos-2-fawa": {
-      "name": "[Basketball Euroleague] Zalgiris Kaunas vs Olympiacos 2 (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Basketball Euroleague] Zalgiris Kaunas vs Olympiacos 2 (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Basketball.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "basketball-las-vegas-aces-vs-indiana-fever-english-strmcntr": {
       "name": "[Basketball] Las Vegas Aces vs. Indiana Fever | English (STRMCNTR)",
       "quality_height": null,
@@ -29309,6 +29120,29 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "bbc-brit": {
+      "name": "BBC Brit",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "BBC Brit (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "BBCBrit.uk.Poland"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "bbc-drama-1080p": {
       "name": "BBC Drama",
       "aliases": [
@@ -29339,7 +29173,7 @@
     },
     "bbc-earth": {
       "name": "BBC Earth",
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false,
       "aliases": [
         "BBC Earth"
@@ -29351,9 +29185,13 @@
         "documentary"
       ],
       "sources": [
+        "iptv-org",
         "pluto-tv"
       ],
       "source_refs": {
+        "iptv-org": [
+          "BBCEarth.uk.Poland"
+        ],
         "pluto-tv": [
           "bbc-earth"
         ]
@@ -29691,6 +29529,29 @@
       "english": null,
       "quality_height": 720,
       "not_24_7": false
+    },
+    "bbc-lifestyle-poland": {
+      "name": "BBC Lifestyle Poland",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "BBC Lifestyle Poland (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "documentary"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "BBCLifestyle.uk.Poland"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "bbc-news": {
       "name": "BBC News",
@@ -31379,9 +31240,9 @@
       "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
     },
     "bbc-two-wales-720p-geo-blocked": {
-      "name": "BBC Two Wales [Geo-blocked]",
+      "name": "BBC Two Wales",
       "aliases": [
-        "BBC Two Wales (720p) [Geo-blocked]"
+        "BBC Two Wales"
       ],
       "countries": [],
       "categories": [
@@ -31398,9 +31259,9 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "quality_height": 720,
+      "quality_height": null,
       "not_24_7": false,
-      "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
+      "excluded_by": "duplicate-of:bbc-two"
     },
     "bbc-uhd-1-1080p": {
       "name": "BBC UHD 1",
@@ -33739,7 +33600,8 @@
     "bet": {
       "name": "BET",
       "aliases": [
-        "BET"
+        "BET",
+        "BET (Sweden)"
       ],
       "countries": [
         "US"
@@ -33775,6 +33637,30 @@
       "english": true,
       "quality_height": null,
       "not_24_7": false
+    },
+    "bet-canada": {
+      "name": "BET (Canada)",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "BET (Canada) (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "BET.ca.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "duplicate-of:bet"
     },
     "bet-cinema": {
       "name": "BET Cinema",
@@ -33895,9 +33781,9 @@
       "not_24_7": false
     },
     "bet-dk": {
-      "name": "BET DK",
+      "name": "BET (Sweden) DK",
       "aliases": [
-        "BET DK"
+        "BET (Sweden) DK"
       ],
       "countries": [],
       "categories": [
@@ -33919,9 +33805,9 @@
       "excluded_by": "country:SE"
     },
     "bet-no": {
-      "name": "BET NO",
+      "name": "BET (Sweden) NO",
       "aliases": [
-        "BET NO"
+        "BET (Sweden) NO"
       ],
       "countries": [],
       "categories": [
@@ -37685,6 +37571,52 @@
       "not_24_7": false,
       "excluded_by": "country:SE"
     },
+    "bolivia-copa-aurora-vs-sa-bulo-bulo-fawa": {
+      "name": "[Bolivia Copa] Aurora vs SA Bulo Bulo (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Bolivia Copa] Aurora vs SA Bulo Bulo (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "bolivia-copa-real-potosi-vs-academia-del-balompie-fawa": {
+      "name": "[Bolivia Copa] Real Potosi vs Academia del Balompie (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Bolivia Copa] Real Potosi vs Academia del Balompie (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "bolivia-copa-universitario-de-vinto-vs-guabira-fawa": {
       "name": "[Bolivia Copa] Universitario de Vinto vs Guabira (FAWA)",
       "quality_height": null,
@@ -39125,6 +39057,29 @@
       "source_refs": {
         "pluto-tv": [
           "bravo-vault"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "brazil-serie-b-botafogo-sp-vs-ponte-preta-fawa": {
+      "name": "[Brazil Serie B] Botafogo SP vs Ponte Preta (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Brazil Serie B] Botafogo SP vs Ponte Preta (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
         ]
       },
       "logo": "",
@@ -52357,26 +52312,20 @@
     "cbs-news-chicago": {
       "name": "CBS News Chicago",
       "aliases": [
-        "CBS News Chicago"
+        "CBS News Chicago (720p)"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
         "news"
       ],
       "sources": [
-        "iptv-org",
-        "pluto-tv"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%20-%20Chicago.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "CBSNewsChicago.us.SD"
-        ],
-        "pluto-tv": [
-          "cbs-news-chicago-ptv1"
         ]
       },
       "languages": [
@@ -52390,20 +52339,26 @@
     "cbs-news-colorado": {
       "name": "CBS News Colorado",
       "aliases": [
-        "CBS News Colorado (720p)"
+        "CBS News Colorado"
       ],
-      "countries": [],
+      "countries": [
+        "US"
+      ],
       "categories": [
         "news"
       ],
       "sources": [
-        "iptv-org"
+        "iptv-org",
+        "pluto-tv"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%20-%20Colorado.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "CBSNewsColorado.us.SD"
+        ],
+        "pluto-tv": [
+          "cbs-news-colorado-ptv1"
         ]
       },
       "languages": [
@@ -52477,26 +52432,20 @@
     "cbs-news-miami": {
       "name": "CBS News Miami",
       "aliases": [
-        "CBS News Miami"
+        "CBS News Miami (720p)"
       ],
-      "countries": [
-        "US"
-      ],
+      "countries": [],
       "categories": [
         "news"
       ],
       "sources": [
-        "iptv-org",
-        "pluto-tv"
+        "iptv-org"
       ],
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/CBS/CBS%20News%20-%20Miami.png",
       "enabled": false,
       "source_refs": {
         "iptv-org": [
           "CBSNewsMiami.us.SD"
-        ],
-        "pluto-tv": [
-          "cbs-news-miami-ptv1"
         ]
       },
       "languages": [
@@ -52647,6 +52596,31 @@
       "quality_height": 720,
       "not_24_7": false,
       "excluded_by": "name:\\bsacramento\\b"
+    },
+    "cbs-news-texas": {
+      "name": "CBS News Texas",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "CBS News Texas"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "pluto-tv"
+      ],
+      "source_refs": {
+        "pluto-tv": [
+          "cbs-news-texas"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "cbs-sports-golazo": {
       "name": "CBS Sports Golazo",
@@ -57686,6 +57660,29 @@
       "not_24_7": false,
       "excluded_by": "country:CL"
     },
+    "chile-copa-d-puerto-montt-vs-colo-colo-fawa": {
+      "name": "[Chile Copa] D Puerto Montt vs Colo Colo (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Chile Copa] D Puerto Montt vs Colo Colo (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "chilevision-1080p": {
       "name": "ChileVision",
       "aliases": [
@@ -58566,6 +58563,33 @@
       "excluded_by": "language:spa",
       "quality_height": null,
       "not_24_7": false
+    },
+    "cine-ar": {
+      "name": "Cine.Ar",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Cine.Ar (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "CineAr.ar.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "languages": [
+        "spa"
+      ],
+      "english": false,
+      "excluded_by": "language:spa"
     },
     "cine-aventura": {
       "name": "Cine aventura",
@@ -59712,6 +59736,29 @@
       "english": null,
       "quality_height": null,
       "not_24_7": false
+    },
+    "cinemax-action-east": {
+      "name": "Cinemax Action East",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Cinemax Action East HD (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "CinemaxAction.us.EastHD"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "cinemax-classics": {
       "name": "Cinemax Classics",
@@ -61501,98 +61548,6 @@
       "excluded_by": "language:spa",
       "quality_height": 720,
       "not_24_7": false
-    },
-    "clasificacion-para-la-copa-africana-de-naciones-gabon-vs-niger-bein-sports-n-tvf90": {
-      "name": "[Clasificación para la Copa Africana de Naciones] Gabón vs Níger | BeIN Sports Ñ (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Clasificación para la Copa Africana de Naciones] Gabón vs Níger | BeIN Sports Ñ (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "bein-sports"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "clasificacion-para-la-copa-africana-de-naciones-islas-de-cabo-verde-vs-ruanda-bein-sports-n-tvf90": {
-      "name": "[Clasificación para la Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda | BeIN Sports Ñ (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Clasificación para la Copa Africana de Naciones] Islas de Cabo Verde vs Ruanda | BeIN Sports Ñ (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "bein-sports"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "clasificacion-para-la-copa-africana-de-naciones-somalia-vs-costa-de-marfil-bein-sports-n-tvf90": {
-      "name": "[Clasificación para la Copa Africana de Naciones] Somalia vs Costa de Marfil | BeIN Sports Ñ (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Clasificación para la Copa Africana de Naciones] Somalia vs Costa de Marfil | BeIN Sports Ñ (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "bein-sports"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "clasificacion-para-la-copa-africana-de-naciones-sudan-del-sur-vs-egipto-bein-sports-n-tvf90": {
-      "name": "[Clasificación para la Copa Africana de Naciones] Sudán del Sur vs Egipto | BeIN Sports Ñ (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Clasificación para la Copa Africana de Naciones] Sudán del Sur vs Egipto | BeIN Sports Ñ (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "bein-sports"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
     },
     "class-cnbc-1080p-geo-blocked": {
       "name": "Class CNBC",
@@ -63904,6 +63859,52 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "colombia-primera-a-ind-medellin-vs-millonarios-fawa": {
+      "name": "[Colombia Primera A] Ind Medellin vs Millonarios (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Colombia Primera A] Ind Medellin vs Millonarios (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "colombia-primera-b-u-magdalena-vs-cartagena-fawa": {
+      "name": "[Colombia Primera B] U Magdalena vs Cartagena (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Colombia Primera B] U Magdalena vs Cartagena (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "colome-tv-not-24-7": {
       "name": "Colome TV [Not 24/7]",
       "aliases": [
@@ -66065,12 +66066,35 @@
       "enabled": true,
       "english": null
     },
-    "copa-de-la-division-profesional-universitario-de-vinto-vs-guabira-entel-tv-plus-tvf90": {
-      "name": "[Copa de la División Profesional] Universitario de Vinto vs Guabirá | Entel TV PLUS+ (TVF90)",
+    "copa-paraguay-cerro-porteno-vs-rubio-nu-tigo-sports-strmxhd": {
+      "name": "[Copa Paraguay] Cerro Porteño vs Rubio Ñú | Tigo Sports (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Copa de la División Profesional] Universitario de Vinto vs Guabirá | Entel TV PLUS+ (TVF90)"
+        "[Copa Paraguay] Cerro Porteño vs Rubio Ñú | Tigo Sports (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-paraguay-independiente-fbc-vs-nacional-asuncion-tigo-sports-strmxhd": {
+      "name": "[Copa Paraguay] Independiente FBC vs Nacional Asunción | Tigo Sports (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Paraguay] Independiente FBC vs Nacional Asunción | Tigo Sports (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -67257,6 +67281,30 @@
       "quality_height": null,
       "not_24_7": false
     },
+    "crime-investigation-polsat": {
+      "name": "Crime + Investigation Polsat",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Crime + Investigation Polsat (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "CrimePlusInvestigationPolsat.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "crimea-24": {
       "name": "Crimea 24",
       "aliases": [
@@ -67500,6 +67548,33 @@
       "excluded_by": "language:spa",
       "quality_height": 1080,
       "not_24_7": true
+    },
+    "cronica-tv": {
+      "name": "Cronica TV",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Cronica TV (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "news"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "CronicaTV.ar.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "languages": [
+        "spa"
+      ],
+      "english": false,
+      "excluded_by": "language:spa"
     },
     "crtv-cameroon-576p": {
       "name": "CRTV (Cameroon)",
@@ -73391,6 +73466,33 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "deportv": {
+      "name": "DeporTV",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "DeporTV (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "DeporTV.ar.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "languages": [
+        "spa"
+      ],
+      "english": false,
+      "excluded_by": "language:spa"
+    },
     "der-tv": {
       "name": "Der TV",
       "aliases": [
@@ -75513,6 +75615,29 @@
       "quality_height": null,
       "not_24_7": false
     },
+    "discovery-turbo": {
+      "name": "Discovery Turbo",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Discovery Turbo (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "movies"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "DiscoveryTurbo.us.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "discovery-turbo-tv": {
       "name": "Discovery Turbo TV",
       "quality_height": null,
@@ -75951,6 +76076,7 @@
       ],
       "source_refs": {
         "iptv-org": [
+          "DisneyChannel.nl.HD",
           "DisneyChannel.nl.SD"
         ]
       },
@@ -75961,7 +76087,7 @@
       ],
       "english": false,
       "excluded_by": "language:nld",
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "disney-channel-poland-hd-1080p": {
@@ -79112,7 +79238,7 @@
     "dsports-2": {
       "name": "DSports 2",
       "aliases": [
-        "DSports 2"
+        "DSports 2 (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -79133,7 +79259,7 @@
       ],
       "english": false,
       "excluded_by": "language:spa",
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false
     },
     "dsports-720p": {
@@ -80419,9 +80545,9 @@
       "not_24_7": false
     },
     "e-east-1080p": {
-      "name": "E! East",
+      "name": "E! (United States) East",
       "aliases": [
-        "E! East (1080p)"
+        "E! (United States) East (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -80589,6 +80715,30 @@
       "english": null,
       "quality_height": 720,
       "not_24_7": false
+    },
+    "e-poland": {
+      "name": "E! (Poland)",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "E! (Poland) (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "E.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
     },
     "e-tv-news-and-sport-720p": {
       "name": "e.tv News & Sport",
@@ -84191,6 +84341,30 @@
       "excluded_by": "language:ell",
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "encuentro": {
+      "name": "Encuentro",
+      "quality_height": 720,
+      "not_24_7": false,
+      "aliases": [
+        "Encuentro (720p)"
+      ],
+      "countries": [],
+      "categories": [
+        "documentary"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Encuentro.ar.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:AR"
     },
     "energeek-fan-1080p": {
       "name": "EnerGeek FAN",
@@ -95291,6 +95465,30 @@
       "english": true,
       "quality_height": 720,
       "not_24_7": false
+    },
+    "fox-poland": {
+      "name": "Fox (Poland)",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Fox (Poland) (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "Fox.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
     },
     "fox-russia-576p": {
       "name": "Fox (Russia)",
@@ -106456,6 +106654,52 @@
         ]
       },
       "logo": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/HBO%20Drama.png",
+      "enabled": true,
+      "english": null
+    },
+    "hbo-drama-west": {
+      "name": "HBO Drama West",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "HBO Drama West (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "HBODrama.us.West"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "hbo-hits-west": {
+      "name": "HBO Hits West",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "HBO Hits West HD (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "HBOHits.us.WestHD"
+        ]
+      },
+      "logo": "",
       "enabled": true,
       "english": null
     },
@@ -126297,10 +126541,10 @@
     },
     "kino-polska": {
       "name": "Kino Polska",
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false,
       "aliases": [
-        "Kino Polska"
+        "Kino Polska (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -126321,10 +126565,10 @@
     },
     "kino-polska-muzyka": {
       "name": "Kino Polska Muzyka",
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false,
       "aliases": [
-        "Kino Polska Muzyka"
+        "Kino Polska Muzyka (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -126341,7 +126585,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "country:PL"
+      "excluded_by": "quality:1080p"
     },
     "kino-tv-720p": {
       "name": "Kino TV",
@@ -133743,6 +133987,29 @@
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
+    "liga-1-cienciano-vs-los-chankas-l1-max-strmxhd": {
+      "name": "[Liga 1] Cienciano vs Los Chankas | L1 Max (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga 1] Cienciano vs Los Chankas | L1 Max (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-betplay-deportivo-pereira-vs-santa-fe-1-stp": {
       "name": "[Liga BetPlay] Deportivo Pereira vs Santa Fe 1 (STP)",
       "quality_height": null,
@@ -133772,6 +134039,29 @@
       "not_24_7": false,
       "aliases": [
         "[Liga BetPlay] Medellín vs Millonarios 1 (STP)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-colombia-atletico-nacional-vs-junior-win-sports-strmxhd": {
+      "name": "[Liga Colombia] Atlético Nacional vs Junior | Win Sports + (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga Colombia] Atlético Nacional vs Junior | Win Sports + (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -133858,29 +134148,6 @@
       "quality_height": null,
       "not_24_7": false,
       "excluded_by": "country:ES"
-    },
-    "liga-de-naciones-bulgaria-vs-estonia-disney-strmxhd": {
-      "name": "[Liga de Naciones] Bulgaria vs Estonia | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Bulgaria vs Estonia | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
     },
     "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-stp": {
       "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (STP)",
@@ -134118,29 +134385,6 @@
       "not_24_7": false,
       "aliases": [
         "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-fox-soccer-plus-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos | Fox Soccer Plus (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos | Fox Soccer Plus (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -134710,403 +134954,12 @@
       "enabled": true,
       "english": null
     },
-    "liga-de-naciones-escocia-vs-suiza-disney-strmxhd": {
-      "name": "[Liga de Naciones] Escocia vs Suiza | Disney + (STRMXHD)",
+    "liga-uruguay-torque-vs-penarol-disney-strmxhd": {
+      "name": "[Liga Uruguay] Torque vs Peñarol | Disney + (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Liga de Naciones] Escocia vs Suiza | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-eslovaquia-vs-kazajistan-disney-strmxhd": {
-      "name": "[Liga de Naciones] Eslovaquia vs Kazajistán | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Eslovaquia vs Kazajistán | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-eslovenia-vs-macedonia-del-norte-disney-strmxhd": {
-      "name": "[Liga de Naciones] Eslovenia vs Macedonia del Norte | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Eslovenia vs Macedonia del Norte | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-eslovenia-vs-macedonia-del-norte-sportv-2-strmxhd": {
-      "name": "[Liga de Naciones] Eslovenia vs Macedonia del Norte | SporTV 2 (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Eslovenia vs Macedonia del Norte | SporTV 2 (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-espana-vs-croacia-disney-strmxhd": {
-      "name": "[Liga de Naciones] España vs Croacia | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] España vs Croacia | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-espana-vs-croacia-espn-ar-strmxhd": {
-      "name": "[Liga de Naciones] España vs Croacia | ESPN AR (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] España vs Croacia | ESPN AR (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-espana-vs-croacia-espn-strmxhd": {
-      "name": "[Liga de Naciones] España vs Croacia | ESPN (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] España vs Croacia | ESPN (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-espana-vs-croacia-sportv-1-strmxhd": {
-      "name": "[Liga de Naciones] España vs Croacia | SporTV 1 (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] España vs Croacia | SporTV 1 (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-espana-vs-croacia-vix-strmxhd": {
-      "name": "[Liga de Naciones] España vs Croacia | Vix (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] España vs Croacia | Vix (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-finlandia-vs-bielorrusia-disney-strmxhd": {
-      "name": "[Liga de Naciones] Finlandia vs Bielorrusia | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Finlandia vs Bielorrusia | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-finlandia-vs-bielorrusia-espn-2-strmxhd": {
-      "name": "[Liga de Naciones] Finlandia vs Bielorrusia | ESPN 2 (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Finlandia vs Bielorrusia | ESPN 2 (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-luxemburgo-vs-islandia-disney-strmxhd": {
-      "name": "[Liga de Naciones] Luxemburgo vs Islandia | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Luxemburgo vs Islandia | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-luxemburgo-vs-islandia-sportv-3-strmxhd": {
-      "name": "[Liga de Naciones] Luxemburgo vs Islandia | SporTV 3 (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Luxemburgo vs Islandia | SporTV 3 (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-moldavia-vs-islas-feroe-disney-strmxhd": {
-      "name": "[Liga de Naciones] Moldavia vs Islas Feroe | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] Moldavia vs Islas Feroe | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-republica-checa-vs-inglaterra-disney-strmxhd": {
-      "name": "[Liga de Naciones] República Checa vs Inglaterra | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] República Checa vs Inglaterra | Disney + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-republica-checa-vs-inglaterra-espn-2-strmxhd": {
-      "name": "[Liga de Naciones] República Checa vs Inglaterra | ESPN 2 (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] República Checa vs Inglaterra | ESPN 2 (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-republica-checa-vs-inglaterra-vix-strmxhd": {
-      "name": "[Liga de Naciones] República Checa vs Inglaterra | Vix (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] República Checa vs Inglaterra | Vix (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-san-marino-vs-albania-disney-strmxhd": {
-      "name": "[Liga de Naciones] San Marino vs Albania | Disney + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones] San Marino vs Albania | Disney + (STRMXHD)"
+        "[Liga Uruguay] Torque vs Peñarol | Disney + (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -148150,6 +148003,30 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "mls-new-york-rb-vs-st-louis-city-apple-tv-espanol-strmxhd": {
+      "name": "[MLS] New York RB vs St. Louis City | Apple TV Español (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] New York RB vs St. Louis City | Apple TV Español (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
     "mma-tv-576p": {
       "name": "MMA TV",
       "aliases": [
@@ -154072,6 +153949,30 @@
       "excluded_by": "language:non-english",
       "quality_height": 480,
       "not_24_7": true
+    },
+    "music-box-80s": {
+      "name": "Music Box 80s",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Music Box 80s (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "MusicBox80s.cz.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "quality:1080p"
     },
     "music-box-brazil-720p": {
       "name": "Music Box Brazil",
@@ -162586,6 +162487,56 @@
       "not_24_7": false,
       "excluded_by": "country:JP"
     },
+    "nhl-11": {
+      "name": ":NHL 11",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        ":NHL  11"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "cdn"
+      ],
+      "source_refs": {
+        "cdn": [
+          ":NHL__11"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "nhl-anaheim-ducks": {
+      "name": "NHL | ANAHEIM DUCKS",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "NHL | ANAHEIM DUCKS"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "cdn"
+      ],
+      "source_refs": {
+        "cdn": [
+          "NHL_|_ANAHEIM_DUCKS"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "nhl-network": {
       "name": "NHL Network",
       "aliases": [
@@ -162620,6 +162571,31 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false
+    },
+    "nhl-uhd-us": {
+      "name": "NHL UHD US",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "NHL UHD US"
+      ],
+      "countries": [
+        "US"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "cdn"
+      ],
+      "source_refs": {
+        "cdn": [
+          "NHL_UHD_US"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
     },
     "nhra-tv-1080p": {
       "name": "NHRA TV",
@@ -173898,7 +173874,7 @@
     "pakapaka": {
       "name": "Pakapaka",
       "aliases": [
-        "Pakapaka"
+        "Pakapaka (1080p)"
       ],
       "countries": [],
       "categories": [
@@ -173915,7 +173891,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "quality_height": null,
+      "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:AR"
     },
@@ -189590,6 +189566,30 @@
       "english": null,
       "excluded_by": "country:PL"
     },
+    "polsat-comedy-central-extra": {
+      "name": "Polsat Comedy Central Extra",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Polsat Comedy Central Extra (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "PolsatComedyCentralExtra.pl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:PL"
+    },
     "polsat-film-2": {
       "name": "Polsat Film 2",
       "quality_height": 720,
@@ -198927,6 +198927,54 @@
       "excluded_by": "quality:720p",
       "quality_height": 720,
       "not_24_7": true
+    },
+    "radio-romania-oltenia-craiova-not-24-7": {
+      "name": "Radio Romania Oltenia-Craiova [Not 24/7]",
+      "quality_height": 576,
+      "not_24_7": true,
+      "aliases": [
+        "Radio Romania Oltenia-Craiova (576p) [Not 24/7]"
+      ],
+      "countries": [],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "RadioRomaniaOlteniaCraiova.ro.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "not-24/7"
+    },
+    "radio-romania-targu-mures": {
+      "name": "Radio Romania Targu Mures",
+      "quality_height": 576,
+      "not_24_7": false,
+      "aliases": [
+        "Radio Romania Targu Mures (576p)"
+      ],
+      "countries": [],
+      "categories": [
+        "music"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "RadioRomaniaTarguMures.ro.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "radio"
     },
     "radio-rossii": {
       "name": "Radio Rossii",
@@ -224801,236 +224849,6 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "soccer-bulgaria-vs-estonia-xyz": {
-      "name": "[Soccer] Bulgaria vs Estonia (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Bulgaria vs Estonia (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-czech-republic-vs-england-xyz": {
-      "name": "[Soccer] Czech Republic vs England (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Czech Republic vs England (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-finland-vs-belarus-xyz": {
-      "name": "[Soccer] Finland vs Belarus (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Finland vs Belarus (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-luxembourg-vs-iceland-xyz": {
-      "name": "[Soccer] Luxembourg vs Iceland (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Luxembourg vs Iceland (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-moldova-vs-faroe-islands-xyz": {
-      "name": "[Soccer] Moldova vs Faroe Islands (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Moldova vs Faroe Islands (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-san-marino-vs-albania-xyz": {
-      "name": "[Soccer] San Marino vs Albania (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] San Marino vs Albania (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-scotland-vs-switzerland-xyz": {
-      "name": "[Soccer] Scotland vs Switzerland (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Scotland vs Switzerland (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-slovakia-vs-kazakhstan-xyz": {
-      "name": "[Soccer] Slovakia vs Kazakhstan (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Slovakia vs Kazakhstan (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-slovenia-vs-north-macedonia-xyz": {
-      "name": "[Soccer] Slovenia vs North Macedonia (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Slovenia vs North Macedonia (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "soccer-spain-vs-croatia-xyz": {
-      "name": "[Soccer] Spain vs Croatia (XYZ)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Soccer] Spain vs Croatia (XYZ)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "sochi-live": {
       "name": "Sochi Live",
       "aliases": [
@@ -229786,6 +229604,30 @@
       "english": null,
       "quality_height": null,
       "not_24_7": false
+    },
+    "sportv": {
+      "name": "SporTV",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "SporTV (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "SporTV.br.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:BR"
     },
     "sportv-3-720p": {
       "name": "SporTV 3",
@@ -250114,6 +249956,30 @@
       "not_24_7": false,
       "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
     },
+    "tigo-sports-el-salvador": {
+      "name": "Tigo Sports (El Salvador)",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Tigo Sports (El Salvador) (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "TigoSports.sv.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:SV"
+    },
     "tigo-sports-guatemala-1080p": {
       "name": "Tigo Sports (Guatemala)",
       "aliases": [
@@ -250137,6 +250003,30 @@
       "quality_height": 1080,
       "not_24_7": false,
       "excluded_by": "country:GT"
+    },
+    "tigo-sports-honduras": {
+      "name": "Tigo Sports (Honduras)",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Tigo Sports (Honduras) (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "sports"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "TigoSports.hn.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "country:HN"
     },
     "tigo-sports-paraguay-1080p": {
       "name": "Tigo Sports (Paraguay)",
@@ -251042,6 +250932,30 @@
       "english": null,
       "quality_height": 1080,
       "not_24_7": false,
+      "excluded_by": "country:MX"
+    },
+    "tlnovelas-mexico": {
+      "name": "Tlnovelas Mexico",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Tlnovelas Mexico (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "TlnovelasMexico.mx.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
       "excluded_by": "country:MX"
     },
     "tlt-molise-1080p": {
@@ -274446,6 +274360,30 @@
       "quality_height": 1080,
       "not_24_7": false
     },
+    "unimas-wami-dt": {
+      "name": "UniMas WAMI-DT",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "UniMas WAMI-DT (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "UniMas.us.WAMIDT"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "local"
+    },
     "unimas-wfut-dt-1080p": {
       "name": "UniMas WFUT-DT",
       "aliases": [
@@ -284248,12 +284186,12 @@
       "quality_height": 1080,
       "not_24_7": false
     },
-    "weathernation-chicago": {
-      "name": "WeatherNation Chicago",
+    "weathernation-phoenix": {
+      "name": "WeatherNation Phoenix",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "WeatherNation Chicago"
+        "WeatherNation Phoenix"
       ],
       "countries": [
         "US"
@@ -284266,7 +284204,7 @@
       ],
       "source_refs": {
         "pluto-tv": [
-          "weathernation-chicago"
+          "weathernation-phoenix"
         ]
       },
       "logo": "",
@@ -285675,6 +285613,198 @@
       "quality_height": 410,
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
+    },
+    "wnba-atlanta-dream-vs-washington-mystics-espn-2-strmxhd": {
+      "name": "[WNBA] Atlanta Dream vs Washington Mystics | ESPN 2 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA] Atlanta Dream vs Washington Mystics | ESPN 2 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\batlanta\\b"
+    },
+    "wnba-basketball-indiana-fever-w-vs-las-vegas-aces-w-1-fawa": {
+      "name": "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 1 (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 1 (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blas\\s+vegas\\b"
+    },
+    "wnba-basketball-indiana-fever-w-vs-las-vegas-aces-w-2-fawa": {
+      "name": "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 2 (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 2 (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blas\\s+vegas\\b"
+    },
+    "wnba-basketball-new-york-liberty-w-vs-minnesota-lynx-w-fawa": {
+      "name": "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "wnba-golden-state-valkyries-vs-dallas-wings-espn-2-strmxhd": {
+      "name": "[WNBA] Golden State Valkyries vs Dallas Wings | ESPN 2 (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA] Golden State Valkyries vs Dallas Wings | ESPN 2 (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bdallas\\b"
+    },
+    "wnba-indiana-fever-vs-las-vegas-aces-istrmeast": {
+      "name": "[WNBA] Indiana Fever vs Las Vegas Aces (iSTRMEAST)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA] Indiana Fever vs Las Vegas Aces (iSTRMEAST)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blas\\s+vegas\\b"
+    },
+    "wnba-las-vegas-aces-vs-indiana-fever-damitv": {
+      "name": "[WNBA] Las Vegas Aces vs. Indiana Fever (DAMITV)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA] Las Vegas Aces vs. Indiana Fever (DAMITV)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blas\\s+vegas\\b"
+    },
+    "wnba-las-vegas-aces-vs-indiana-fever-strmfree": {
+      "name": "[WNBA] Las Vegas Aces vs Indiana Fever (STRMFREE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA] Las Vegas Aces vs Indiana Fever (STRMFREE)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\blas\\s+vegas\\b"
     },
     "women-s-sports-network": {
       "name": "Women's Sports Network",
@@ -291155,6 +291285,30 @@
       "english": null,
       "quality_height": 720,
       "not_24_7": false,
+      "excluded_by": "country:CL"
+    },
+    "zona-sur-tv": {
+      "name": "Zona Sur TV",
+      "quality_height": 1080,
+      "not_24_7": false,
+      "aliases": [
+        "Zona Sur TV (1080p)"
+      ],
+      "countries": [],
+      "categories": [
+        "entertainment"
+      ],
+      "sources": [
+        "iptv-org"
+      ],
+      "source_refs": {
+        "iptv-org": [
+          "ZonaSurTV.cl.SD"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
       "excluded_by": "country:CL"
     },
     "zonavision-tv-not-24-7": {
