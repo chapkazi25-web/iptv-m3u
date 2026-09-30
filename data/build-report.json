@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "total_channels": 1713,
+  "total_channels": 1715,
   "source_channels": {
     "cdn": 184,
     "core": 280,
@@ -21,7 +21,7 @@
     "nfl": 3,
     "sky-sports": 21,
     "soccer": 71,
-    "sports": 107,
+    "sports": 109,
     "stan-sports": 16,
     "tanzania": 4,
     "tnt-sports": 11,
@@ -29,7 +29,7 @@
     "ufc": 3
   },
   "country_channels": {
-    "AU": 45,
+    "AU": 47,
     "CA": 58,
     "FR": 3,
     "GB": 127,
