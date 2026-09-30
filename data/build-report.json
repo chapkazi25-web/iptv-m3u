@@ -11,7 +11,7 @@
   },
   "category_channels": {
     "bein-sports": 5,
-    "documentary": 263,
+    "documentary": 262,
     "entertainment": 810,
     "kids": 146,
     "movies": 194,
@@ -23,7 +23,7 @@
     "soccer": 69,
     "sports": 107,
     "stan-sports": 16,
-    "tanzania": 3,
+    "tanzania": 4,
     "tnt-sports": 11,
     "tsn": 6,
     "ufc": 3
@@ -34,8 +34,8 @@
     "FR": 3,
     "GB": 127,
     "NZ": 15,
-    "TZ": 3,
-    "US": 1455
+    "TZ": 4,
+    "US": 1454
   },
   "international_channels": 6,
   "unresolved_channels": []
