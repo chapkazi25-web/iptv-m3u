@@ -17,8 +17,12 @@ https://b.jsrdn.com/strm/channels/9xjalwa/master.m3u8
 https://amg01281-9xmediapvtltd-9xtashan-samsungin-xz1sd.amagi.tv/playlist/amg01281-9xmediapvtltd-9xtashan-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="A2iMusic.sn" tvg-country="SN" group-title="Music",A2i Music (HD)
 https://stream.sen-gt.com/A2iMusic/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="AaryaaTV.in" tvg-country="IN" group-title="Music",Aaryaa TV (FHD)
+https://stream.ottlive.co.in/aryatvtamil/index.m3u8
 #EXTINF:-1 tvg-id="ActivaTV.es" tvg-country="ES" group-title="Music",Activa TV (HD)
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
+#EXTINF:-1 tvg-id="AdinkraTV.gh" tvg-logo="https://gradetv.net/logos/AdinkraTV.gh" tvg-country="GH" group-title="Music",Adinkra TV (FHD)
+https://59d39900ebfb8.streamlock.net/adinkratvny/adinkratvny/playlist.m3u8
 #EXTINF:-1 tvg-id="AERadioTV.cl" tvg-country="CL" group-title="Music",AE Radio TV (HD)
 https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AfrobeatTVEntertainment.uk" tvg-country="UK" group-title="Music",Afrobeat TV Entertainment (FHD)
@@ -27,14 +31,10 @@ https://stream.ecable.tv/afrobeats/index.m3u8
 https://edge.socialsmart.tv/naturaltv/bant1/playlist.m3u8
 #EXTINF:-1 tvg-id="AghaniAghaniTV.lb" tvg-country="LB" group-title="Music",Aghani Aghani TV (FHD)
 https://cdn.streamlane.tv/hls/aghanitv/index.m3u8
-#EXTINF:-1 tvg-id="AIONTV.do" tvg-country="DO" group-title="Music",AION TV (FHD)
-https://edge.essastream.com/aiontelevision/playlist.m3u8
 #EXTINF:-1 tvg-id="AiquilenaRadioyTelevision.bo" tvg-country="BO" group-title="Music",Aiquilena Radio y Television (HD)
 https://streamlov.alsolnet.com/grupocentrobo/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AISTTV.ru" tvg-country="RU" group-title="Music",AIST TV (FHD)
 http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="AksuTV.tr" tvg-country="TR" group-title="Music",Aksu TV (HD)
-https://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlanyaPostaTV.tr" tvg-country="TR" group-title="Music",Alanya Posta TV (FHD)
 https://api-tv3.yayin.com.tr/postatv/postatv/playlist.m3u8
 #EXTINF:-1 tvg-id="AlbdreamsTV.us" tvg-country="US" group-title="Music",Albdreams TV (HD)
@@ -66,7 +66,7 @@ https://live-evg8.tv360.bitel.com.pe/bitel/andinatvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AngelTVNepal.np" tvg-country="NP" group-title="Music",Angel TV Nepal (HD)
 https://janya-digimix.akamaized.net/vglive-sk-234616/indonesia/ngrp:angelindonesia_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenaSUR.pe" tvg-country="PE" group-title="Music",Antena SUR (HD)
-https://live-evg8.tv360.bitel.com.pe/bitel/antenasurtv/playlist.m3u8
+https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at" tvg-country="AT" group-title="Music",Antenne Kaernten (HD)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at" tvg-country="AT" group-title="Music",Antenne Steiermark (HD)
@@ -100,6 +100,8 @@ https://streamyes.alsolnet.com/azaharesfm/live/playlist.m3u8
 https://cdn-2.pishow.tv/live/415/master.m3u8
 #EXTINF:-1 tvg-id="BalleBalle.in" tvg-country="IN" group-title="Music",Balle Balle (HD)
 https://mcncdndigital.com/balleballetv/index.m3u8
+#EXTINF:-1 tvg-id="Bandamax.mx" tvg-country="MX" group-title="Music",Bandamax (FHD)
+http://181.78.106.127:5000/play/ca064/index.m3u8
 #EXTINF:-1 tvg-id="BarazaTVDeepHouse.gr" tvg-country="GR" group-title="Music",Baraza TV Deep House (HD)
 https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8
 #EXTINF:-1 tvg-id="BarazaTVRelaxing.gr" tvg-country="GR" group-title="Music",Baraza TV Relaxing (HD)
@@ -118,12 +120,10 @@ https://bibint01.iptv-playoutcenter.de/bibint01/bibint01.stream_all/playlist.m3u
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="BIZMusic.uz" tvg-country="UZ" group-title="Music",BIZ Music (FHD)
 https://fl.biztv.media/music_720_QAKpGmVUjaPApCNjpsgBxrdqNihAkl/index.m3u8
-#EXTINF:-1 tvg-id="BiznetAdventure.id" tvg-country="ID" group-title="Music",Biznet Adventure (FHD)
-http://livestream.biznetvideo.net/biznet_adventure/smil:adventure.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Black.ua" tvg-country="UA" group-title="Music",Black (FHD)
 http://stream.mcquack.net/283/index.m3u8
 #EXTINF:-1 tvg-id="BLKRegionalTV.de" tvg-country="DE" group-title="Music",BLK Regional TV (FHD)
-https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/BLKonline_high/playlist.m3u8
+https://58bd5b7a98e04.streamlock.net/medienasa-live/_definst_/mp4:BLKonline_high/playlist.m3u8
 #EXTINF:-1 tvg-id="BocaChicaTV.do" tvg-country="DO" group-title="Music",Boca Chica TV (HD)
 https://fox.hostlagarto.com:8081/bocachicatv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="BOKTV.za" tvg-logo="https://gradetv.net/logos/BOKTV.za" tvg-country="ZA" group-title="Music",BOKTV (HD)
@@ -143,14 +143,12 @@ http://str2.iptvhd.ru:8080/Bridge_TV_HD/index.m3u8
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 #EXTINF:-1 tvg-id="BTBInternational.pl" tvg-country="PL" group-title="Music",BTB International (FHD)
 https://emisja.btb.j00r.us/iptv/session/2/hls.m3u8
-#EXTINF:-1 tvg-id="BTBMusic.pl" tvg-country="PL" group-title="Music",BTB Music (FHD)
-https://panel.btb.j00r.us/memfs/ebaffae6-0086-49d7-843d-57f2c561de86.m3u8
 #EXTINF:-1 tvg-id="CableNobsaTV.co" tvg-country="CO" group-title="Music",Cable Nobsa TV (HD)
 https://eu1.servers10.com:8081/8164/index.m3u8
 #EXTINF:-1 tvg-id="CadenaElite.es" tvg-country="ES" group-title="Music",Cadena Elite (HD)
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-id="CaliforniaMusicChannel.us" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US/California%20Music%20Channel.png" tvg-country="US" group-title="Music",California Music Channel (FHD)
-https://cmc-cmctv-cineverse.amagi.tv/playlist.m3u8
+https://cmc-kowdtv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal21Huancayo.pe" tvg-country="PE" group-title="Music",Canal 21 Huancayo (HD)
 https://live-evg11.tv360.bitel.com.pe/bitel/tvwanka/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3KMKTV.cr" tvg-country="CR" group-title="Music",Canal 3 KMK TV (HD)
@@ -190,6 +188,8 @@ https://hwlive.streamingmediahosting.com/14215-live/0_obd393sh/playlist.m3u8
 https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/costamesa/G0075_002/playlist.m3u8
 #EXTINF:-1 tvg-id="CNCValledupar.co" tvg-country="CO" group-title="Music",CNC Valledupar (HD)
 https://live20.bozztv.com/akamaissh101/ssh101/cncvalledupar1/playlist.m3u8
+#EXTINF:-1 tvg-id="ConcertChannel.us" tvg-country="US" group-title="Music",Concert Channel (HD)
+http://45.167.1.138:8000/play/a04i
 #EXTINF:-1 tvg-id="ConectaTV.mx" tvg-country="MX" group-title="Music",Conecta TV (HD)
 https://stream8.mexiserver.com:19360/conectatvx/conectatvx.m3u8
 #EXTINF:-1 tvg-id="ConecTVBrasil.br" tvg-country="BR" group-title="Music",ConecTV Brasil (HD)
@@ -231,7 +231,7 @@ https://cdn.pishow.tv/ott/live/1456/master.m3u8
 #EXTINF:-1 tvg-id="Digital809TV.do" tvg-country="DO" group-title="Music",Digital809 TV (HD)
 https://stream.inliveserver.com:19360/8146/8146.m3u8
 #EXTINF:-1 tvg-id="DiscoPoloMusic.pl" tvg-country="PL" group-title="Music",Disco Polo Music (FHD)
-http://185.227.34.179:8080/disco-polo-music/index.m3u8
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19169/index.m3u8
 #EXTINF:-1 tvg-id="DismarRadioTV.py" tvg-country="PY" group-title="Music",Dismar Radio TV (HD)
 https://rds3.desdeparaguay.net/dismartv/dismartv/playlist.m3u8
 #EXTINF:-1 tvg-id="Dushevnoe.ru" tvg-country="RU" group-title="Music",Dushevnoe (FHD)
@@ -267,8 +267,10 @@ http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19174/index.m3u8
 http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19173/index.m3u8
 #EXTINF:-1 tvg-id="EstacionTV.cl" tvg-country="CL" group-title="Music",Estacion TV (HD)
 https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="ETV.gp" tvg-country="GP" group-title="Music",ETV (FHD)
+https://edge12.vedge.infomaniak.com/livecast/ik:etvgp/manifest.m3u8
 #EXTINF:-1 tvg-id="ETVBeats.in" tvg-country="IN" group-title="Music",ETV Beats (FHD)
-https://cc-szivnms4rlah6.akamaized.net/WWBI/Amagi/ETV_Music_IN/playlist.m3u8
+https://jmp2.uk/stvp-IN4900002RV
 #EXTINF:-1 tvg-id="ExtraTV.hr" tvg-country="HR" group-title="Music",Extra TV (FHD)
 https://streaming.social3.hr/ExtraTVudzdhr5/uUankWqpXD/1.m3u8
 #EXTINF:-1 tvg-id="FabulosaEstereo100.5FM.pa" tvg-country="PA" group-title="Music",Fabulosa Estereo 100.5 FM (HD)
@@ -284,7 +286,7 @@ http://valashop.online:8090/fieritv.m3u8
 #EXTINF:-1 tvg-id="FirstMusicChannel.by" tvg-country="BY" group-title="Music",First Music Channel (FHD)
 http://rtmp.one.by:1300
 #EXTINF:-1 tvg-id="FirstMusicChannelRussia.by" tvg-country="BY" group-title="Music",First Music Channel Russia (FHD)
-http://rtmp.one.by:2300
+http://hls127.freeott.top:8080/1muz_HD/video.m3u8
 #EXTINF:-1 tvg-id="FMITALIA.it" tvg-country="IT" group-title="Music",FM ITALIA (FHD)
 https://stream2.xdevel.com/video0s975817-1183/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="FMMundo.ec" tvg-country="EC" group-title="Music",FM Mundo (FHD)
@@ -301,7 +303,7 @@ https://stream.nasatv.com.mk/folktv/hls/folktv_live.m3u8
 #EXTVLCOPT:http-referrer=https://www.fomix.nl
 https://stream.fomixmedia.nl/FomixTV/video.m3u8
 #EXTINF:-1 tvg-id="FonMusic.ru" tvg-country="RU" group-title="Music",Fon Music (FHD)
-http://hls127.freeott.top:8080/TNT_MUSIC_HD/video.m3u8
+https://cdn-01.bonus-tv.ru/tntmusic/playlist.m3u8
 #EXTINF:-1 tvg-id="FortunaTV.ve" tvg-country="VE" group-title="Music",Fortuna TV (FHD)
 https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
 #EXTINF:-1 tvg-id="FUSIONTV.mq" tvg-country="MQ" group-title="Music",FUSION TV (FHD)
@@ -332,8 +334,6 @@ https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
 https://stream.panet.com/edge/halaTV/playlist.m3u8
 #EXTINF:-1 tvg-id="HappyRadioTV.ua" tvg-country="UA" group-title="Music",Happy Radio TV (FHD)
 https://tv.mediacp.eu:8081/happyradio/index.m3u8
-#EXTINF:-1 tvg-id="HarmonyGospelMusicTV.us" tvg-country="US" group-title="Music",Harmony Gospel Music TV (FHD)
-https://tgn.bozztv.com/watc57/watc57-harmony/watc57-harmony/index.m3u8
 #EXTINF:-1 tvg-id="HEiNow.py" tvg-country="PY" group-title="Music",HEi Now (FHD)
 #EXTVLCOPT:http-referrer=https://www.heinow.com.py/
 https://copacogen.desdeparaguay.net/heitv/heitv_py_alta/playlist.m3u8?admin=nacion
@@ -356,6 +356,8 @@ https://streaming.imagenfm105-1.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ImpactTV.ro" tvg-country="RO" group-title="Music",Impact TV (FHD)
 #EXTVLCOPT:http-referrer=https://tvimpact.ro/
 https://live.tvimpact.ro:8088/hevc/index.m3u8
+#EXTINF:-1 tvg-id="ImpactTV2.ro" tvg-country="RO" group-title="Music",Impact TV 2 (FHD)
+https://online.tvimpact.live/hls/impact_tv2.m3u8
 #EXTINF:-1 tvg-id="ImpactTVDance.ro" tvg-country="RO" group-title="Music",Impact TV Dance (FHD)
 https://online.tvimpact.live/hls/dancetv.m3u8
 #EXTINF:-1 tvg-id="ImpactTVManele.ro" tvg-country="RO" group-title="Music",Impact TV Manele (FHD)
@@ -385,6 +387,8 @@ https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
 https://k100streymi.mbl.is/beint/k100/index.m3u8
 #EXTINF:-1 tvg-id="KalacTV.gn" tvg-country="GN" group-title="Music",Kalac TV (FHD)
 https://edge13.vedge.infomaniak.com/livecast/ik:kalactv/chunklist_w280736538.m3u8
+#EXTINF:-1 tvg-id="Kanal35.az" tvg-country="AZ" group-title="Music",Kanal 35 (HD)
+https://str2.yodacdn.net/kanal35/index.m3u8
 #EXTINF:-1 tvg-id="KayhanTV.af" tvg-country="AF" group-title="Music",Kayhan TV (HD)
 https://playout395.livestreamingcdn.com/live/Stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="KissKissNapoliTV.it" tvg-country="IT" group-title="Music",Kiss Kiss Napoli TV (HD)
@@ -395,6 +399,8 @@ https://58f12ffd2447a.streamlock.net/KKMulti/livestream/playlist.m3u8
 https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
 #EXTINF:-1 tvg-id="KlapeiTambureTV.hr" tvg-country="HR" group-title="Music",Klape i Tambure TV (FHD)
 https://stream.cmctv.hr:49998/kit/live.m3u8
+#EXTINF:-1 tvg-id="Klara.be" tvg-country="BE" group-title="Music",Klara (HD)
+https://live.vrtcdn.be/groupb/live/9c429b62-e160-417a-b438-cdf985bcd352/live.isml/.mpd
 #EXTINF:-1 tvg-id="KosTV.gr" tvg-country="GR" group-title="Music",Kos TV (HD)
 https://eu1.streams.gr:8081/kostv/index.m3u8
 #EXTINF:-1 tvg-id="KpopMix.ar" tvg-country="AR" group-title="Music",Kpop Mix (HD)
@@ -431,8 +437,6 @@ https://cdn.streamingcpanel.com:3784/live/latinzonetvlive.m3u8
 https://59d39900ebfb8.streamlock.net/top102/top102/playlist.m3u8
 #EXTINF:-1 tvg-id="LaTop107.7.hn" tvg-country="HN" group-title="Music",La Top 107.7 (HD)
 https://59d39900ebfb8.streamlock.net/top107/top107/playlist.m3u8
-#EXTINF:-1 tvg-id="Lausitzwelle.de" tvg-country="DE" group-title="Music",Lausitzwelle (FHD)
-https://h056.video-stream-hosting.de/easycast11-live/_definst_/mp4:livestreamhd2/playlist.m3u8?ref=
 #EXTINF:-1 tvg-id="LiraTV.es" tvg-country="ES" group-title="Music",LiraTV (HD)
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="LittleGuyanaTV.us" tvg-country="US" group-title="Music",Little Guyana TV (FHD)
@@ -447,8 +451,6 @@ https://livestream.liveone.com/lc1/p1.m3u8
 https://5ca3e84a76d30.streamlock.net/tvlobo/videotvlobo/playlist.m3u8
 #EXTINF:-1 tvg-id="LookThoongTV.la" tvg-country="LA" group-title="Music",Look Thoong TV (HD)
 https://livefta.malimarcdn.com/ftaedge00/lookthoongtv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="LoveTV.mk" tvg-country="MK" group-title="Music",Love TV (FHD)
-https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
 #EXTINF:-1 tvg-id="M1.ua" tvg-country="UA" group-title="Music",M1 (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/218/index.m3u8
@@ -480,17 +482,13 @@ https://ffs.gulfsat.com/Marina-TV-HD/index.m3u8
 #EXTINF:-1 tvg-id="MasFM.ar" tvg-country="AR" group-title="Music",Mas FM (HD)
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MasMusicaFM.co" tvg-country="CO" group-title="Music",MasMusica FM (HD)
-https://movil.ejeserver.com/live/masmusica.m3u8
-#EXTINF:-1 tvg-id="MaturTV.ru" tvg-country="RU" group-title="Music",Matur TV (FHD)
-https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-#EXTINF:-1 tvg-id="MBCAmerica.us" tvg-country="US" group-title="Music",MBC America (FHD)
-https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/624ff8f9-db18-da92-4d42-896fa2ff3eb3/source/index.m3u8
+https://video.ejeserver.com/live/masmusica.m3u8
 #EXTINF:-1 tvg-id="MBCFM.ae" tvg-country="AE" group-title="Music",MBC FM (FHD)
 https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/index.m3u8
 #EXTINF:-1 tvg-id="MBCLoud.sa" tvg-country="SA" group-title="Music",MBC Loud (FHD)
 https://d2lfa0y84k5bwn.cloudfront.net/out/v1/86dd4506a70c4d7fb35e2ab50296d9a3/index.m3u8
 #EXTINF:-1 tvg-id="MBCMood.sa" tvg-country="SA" group-title="Music",MBC Mood (FHD)
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-wanasah/13e82ea6232fa647c43b26e8a41f173d/index.m3u8
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-mood/78367bf48ccdba501d0d014a10c21031/index.m3u8
 #EXTINF:-1 tvg-id="MCN6MusicChannel.us" tvg-country="US" group-title="Music",MCN6 Music Channel (FHD)
 https://d18fcxaqfnwjhj.cloudfront.net/CDN_Ingest/MCN6_MUSIC.smil/Playlist.m3u8
 #EXTINF:-1 tvg-id="MelodyFM.jo" tvg-country="JO" group-title="Music",Melody FM (HD)
@@ -508,11 +506,19 @@ http://stream.mcquack.net/276/index.m3u8
 #EXTINF:-1 tvg-id="Mh1Music.in" tvg-country="IN" group-title="Music",Mh 1 Music (HD)
 https://livestream.jswk.online/playlisttest/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MielTV.pe" tvg-country="PE" group-title="Music",Miel TV (HD)
-https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
+https://7.innovatestream.pe:19360/mieltv/mieltv.m3u8
 #EXTINF:-1 tvg-id="MiGenteTV.co" tvg-country="CO" group-title="Music",Mi Gente TV (HD)
 https://byecableiptvnew3.ddns.net/ENVIVOMIGENTE/video.m3u8
 #EXTINF:-1 tvg-id="Mijas3.40TV.es" tvg-country="ES" group-title="Music",Mijas 3.40TV (HD)
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
+#EXTINF:-1 tvg-id="MiMusicaReggaeton.us" tvg-country="US" group-title="Music",Mi Musica Reggaeton (FHD)
+http://181.78.12.119:16123/play/ch53/index.m3u8
+#EXTINF:-1 tvg-id="MiMusicaRomantica.us" tvg-country="US" group-title="Music",Mi Musica Romantica (FHD)
+http://181.78.12.119:16123/play/ch54/index.m3u8
+#EXTINF:-1 tvg-id="MiMusicaSalsa.us" tvg-country="US" group-title="Music",Mi Musica Salsa (FHD)
+http://181.78.12.119:16123/play/ch55/index.m3u8
+#EXTINF:-1 tvg-id="MNM.be" tvg-country="BE" group-title="Music",MNM (HD)
+https://live.vrtcdn.be/groupa/live/1718328a-5c53-410d-87ec-d8db68124cfc/live.isml/.mpd
 #EXTINF:-1 tvg-id="MontonesTV.do" tvg-country="DO" group-title="Music",Montones TV (FHD)
 https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
 #EXTINF:-1 tvg-id="MosaiqueFM.tn" tvg-country="TN" group-title="Music",Mosaique FM (FHD)
@@ -534,12 +540,14 @@ https://cloudvideo.servers10.com:8081/8032/index.m3u8
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
 #EXTINF:-1 tvg-id="myx.ph" tvg-country="PH" group-title="Music",myx (FHD)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01006-abs-cbn-myxnola-dash-abscbnono/index.mpd
+#EXTINF:-1 tvg-id="NarodnaTV.rs" tvg-country="RS" group-title="Music",Narodna TV (HD)
+https://edge8.pink.rs/narodnatv/index.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi" tvg-country="FI" group-title="Music",Navahang TV (HD)
 https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NavarreteTelevision.do" tvg-country="DO" group-title="Music",Navarrete Television (FHD)
 https://cnn.hostlagarto.com/ntvnavarrete/index.m3u8
 #EXTINF:-1 tvg-id="NEWK-POP.us" tvg-country="US" group-title="Music",NEW K-POP (FHD)
-https://ads.its-newid.net/api/manifest.m3u8?ads.service_id=GB17000088V&channel_id=newid_086&tp=samsung_tvplus
+https://ads.its-newid.net/api/manifest.m3u8?tp=samsung_tvplus&channel_id=newid_086&ads.service_id=GB17000088V
 #EXTINF:-1 tvg-id="NgheAnTV.vn" tvg-country="VN" group-title="Music",Nghe An TV (FHD)
 https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/chunklist.m3u8
 #EXTINF:-1 tvg-id="NidaeAlIslamRadio.sa" tvg-country="SA" group-title="Music",Nidae AlIslam Radio (FHD)
@@ -551,11 +559,11 @@ https://lightningnow80-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Now90s00s.uk" tvg-country="UK" group-title="Music",Now 90s00s (FHD)
 https://amg01076-amg01076c19-samsung-gb-6683.playouts.now.amagi.tv/playlist/amg01076-lightning-now90s00s-samsunggb/playlist.m3u8
 #EXTINF:-1 tvg-id="NOWRock.uk" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/Now%20Rock.png" tvg-country="UK" group-title="Music",NOW Rock (FHD)
-https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+https://lightning-now90s-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-lightning-now90s-rakuten/CDN/playlist.m3u8
+#EXTINF:-1 tvg-id="NRG91.gr" tvg-country="GR" group-title="Music",NRG 91 (HD)
+http://tv.nrg91.gr:1935/onweb/live/master.m3u8
 #EXTINF:-1 tvg-id="NSTV.co" tvg-country="CO" group-title="Music",NSTV (FHD)
 https://sistemastr.tropicalmoonmedia.com/live/2C7CA6CECC9B8F8C3A07315FDA110936/21.m3u8
-#EXTINF:-1 tvg-id="NuevaVidaFM.pr" tvg-country="PR" group-title="Music",Nueva Vida FM (HD)
-https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8
 #EXTINF:-1 tvg-id="Number1Ask.tr" tvg-country="TR" group-title="Music",Number 1 Ask (HD)
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e18f9cea15_1/playlist.m3u8
 #EXTINF:-1 tvg-id="Number1Damar.tr" tvg-country="TR" group-title="Music",Number 1 Damar (HD)
@@ -592,8 +600,12 @@ https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl" tvg-country="CL" group-title="Music",Pauta (FHD)
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-country="US" group-title="Music",PBC Tapesh TV (HD)
+https://iptv.tapesh.tv/tapesh/playlist.m3u8
 #EXTINF:-1 tvg-id="PeppersTV.in" tvg-country="IN" group-title="Music",Peppers TV (HD)
 https://cdn.pishow.tv/ott/live/1383/master.m3u8
+#EXTINF:-1 tvg-id="PicosaTV.hn" tvg-country="HN" group-title="Music",Picosa TV (HD)
+http://45.167.2.101:8000/play/a0sd/index.m3u8
 #EXTINF:-1 tvg-id="Planet100.9FM.pa" tvg-country="PA" group-title="Music",Planet 100.9 FM (FHD)
 https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PlayTV.cm" tvg-country="CM" group-title="Music",Play TV (HD)
@@ -622,8 +634,6 @@ https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 https://livetv.tarangplus.in/prarthana-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PravasiChannel.in" tvg-country="IN" group-title="Music",Pravasi Channel (FHD)
 https://m6gdavepdn93-hls-live.5centscdn.com/pravasi/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PRIDEtvLATAM.cl" tvg-country="CL" group-title="Music",PRIDEtv LATAM (FHD)
-https://backend.energeek.cl/webtv/pridetvweb/index.m3u8?token=ZZDemoIPTVGH
 #EXTINF:-1 tvg-id="PTCChakde.in" tvg-country="IN" group-title="Music",PTC Chakde (HD)
 https://cdn.pishow.tv/ott/live/449/master.m3u8
 #EXTINF:-1 tvg-id="PTCMusic.in" tvg-country="IN" group-title="Music",PTC Music (HD)
@@ -637,7 +647,7 @@ https://stream.ottlive.co.in/punjabihits/index.m3u8
 #EXTINF:-1 tvg-id="Qaraqalpaqstan.uz" tvg-country="UZ" group-title="Music",Qaraqalpaqstan (HD)
 https://stream8.cinerama.uz/1467/playlist.m3u8
 #EXTINF:-1 tvg-id="QelloConcertsbyStingray.ca" tvg-country="CA" group-title="Music",Qello Concerts by Stingray (FHD)
-https://lotus.stingray.com/manifest/qello-qello001-montreal/samsungtvplus/master.m3u8
+https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883052
 #EXTINF:-1 tvg-id="Qmusic.nl" tvg-country="NL" group-title="Music",Qmusic (HD)
 https://stream.qmusic.nl/qmusic/videohls.m3u8
 #EXTINF:-1 tvg-id="QollasuyoTV.pe" tvg-country="PE" group-title="Music",Qollasuyo TV (HD)
@@ -645,15 +655,19 @@ https://live-evg5.tv360.bitel.com.pe/bitel/qollasuyotv/playlist.m3u8
 #EXTINF:-1 tvg-id="QTVGambia.gm" tvg-country="GM" group-title="Music",QTV Gambia (HD)
 https://player.qtv.gm/hls/live.stream.m3u8
 #EXTINF:-1 tvg-id="QwestTV.fr" tvg-country="FR" group-title="Music",Qwest TV (FHD)
-https://amg00447-qwesttv-qwestjazz-cineverse-ve12d.amagi.tv/playlist/amg00447-qwesttv-qwestjazz-cineverse/playlist.m3u8
+https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr" tvg-country="FR" group-title="Music",Qwest TV Jazz & Beyond (FHD)
 https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RabehSaqer.sa" tvg-country="SA" group-title="Music",Rabeh Saqer (FHD)
 https://shd-amg-fast.edgenextcdn.net/tx004/playlist.m3u8
 #EXTINF:-1 tvg-id="RadarTasikmalayaTV.id" tvg-country="ID" group-title="Music",Radar Tasikmalaya TV (HD)
 https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Radio1.be" tvg-country="BE" group-title="Music",Radio 1 (HD)
+https://live.vrtcdn.be/groupa/live/3c3a12b5-093d-4a19-ae1f-3e775433286e/live.isml/.mpd
 #EXTINF:-1 tvg-id="Radio10.nl" tvg-country="NL" group-title="Music",Radio 10 (HD)
 https://radio10.prd1.talpatvcdn.nl/2b725bc7c93f477eaf0e43955ea8a6c1/index.m3u8
+#EXTINF:-1 tvg-id="Radio2.be" tvg-country="BE" group-title="Music",Radio 2 (HD)
+https://live.vrtcdn.be/groupa/live/66a9668e-b37b-4de2-878e-0218563b2dd2/live.isml/.mpd
 #EXTINF:-1 tvg-id="Radio3i.ch" tvg-country="CH" group-title="Music",Radio 3i (HD)
 https://vstream-cdn.ch/hls/radio3i.m3u8
 #EXTINF:-1 tvg-id="RadioAalsmeerTV.nl" tvg-country="NL" group-title="Music",Radio Aalsmeer TV (HD)
@@ -680,8 +694,6 @@ https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8
 https://tv.arkeo.cl:19360/8046/8046.m3u8
 #EXTINF:-1 tvg-id="RadioCuencaEstereo.ec" tvg-country="EC" group-title="Music",Radio Cuenca Estereo (HD)
 https://eu1.servers10.com:8081/8074/index.m3u8
-#EXTINF:-1 tvg-id="RADIODISCOuntTV.ch" tvg-country="CH" group-title="Music",RADIO DISCOunt TV (FHD)
-https://585b674743bbb.streamlock.net/9030/9030/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioDuna.cl" tvg-country="CL" group-title="Music",Radio Duna (HD)
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
 #EXTINF:-1 tvg-id="RadioEdelweiss.cl" tvg-country="CL" group-title="Music",Radio Edelweiss (HD)
@@ -707,7 +719,7 @@ https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9
 #EXTINF:-1 tvg-id="RadioKollasuyo.bo" tvg-country="BO" group-title="Music",Radio Kollasuyo (HD)
 https://azura2.bitstreaming.net/hls/kollasuyo3/live.m3u8
 #EXTINF:-1 tvg-id="RadioLaSerenaTV.cl" tvg-country="CL" group-title="Music",Radio La Serena TV (HD)
-https://5ff3d9babae13.streamlock.net/chrgkqgkyb/chrgkqgkyb/playlist.m3u8
+https://5ff3d9babae13.streamlock.net:443/chrgkqgkyb/chrgkqgkyb/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioLasNieves.cl" tvg-country="CL" group-title="Music",Radio Las Nieves (HD)
 https://v2.tustreaming.cl/rln/index.m3u8
 #EXTINF:-1 tvg-id="RadioLolaTV.rs" tvg-country="RS" group-title="Music",Radio Lola TV (HD)
@@ -750,8 +762,6 @@ http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioStudioDeltaTV.it" tvg-country="IT" group-title="Music",Radio Studio Delta TV (FHD)
 https://5ce9406b73c33.streamlock.net/RSD/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioSuyaiTV.cl" tvg-country="CL" group-title="Music",Radio Suyai TV (FHD)
-https://cl-2.backend.energeek.cl/RadioSuyai-Neo/index.m3u8
 #EXTINF:-1 tvg-id="RadioSWHTV.lv" tvg-country="LV" group-title="Music",Radio SWH TV (FHD)
 https://00ff00.latnet.media/edge/swh_tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioTaorminaSicilia.it" tvg-country="IT" group-title="Music",Radio Taormina Sicilia (HD)
@@ -827,7 +837,7 @@ https://rtlradio-streaming.rtl.lu/rtlradiowebtv/smil:rtlradiowebtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVVida.es" tvg-country="ES" group-title="Music",RTV Vida (FHD)
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 #EXTINF:-1 tvg-id="RU.TV.ru" tvg-country="RU" group-title="Music",RU.TV (FHD)
-https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?s=d-E-bxKy2v3EEJ94RQX9CA&e=2069285076&scheme=https
 #EXTINF:-1 tvg-id="RumbaMixTV.pe" tvg-country="PE" group-title="Music",RumbaMix TV (HD)
 https://live-evg5.tv360.bitel.com.pe/bitel/mixtvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Ruta66TV.do" tvg-country="DO" group-title="Music",Ruta 66 TV (HD)
@@ -864,8 +874,6 @@ https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8
 https://cdnbarinas.tvzamora.com/showven/index.m3u8
 #EXTINF:-1 tvg-id="SiembraTV.do" tvg-country="DO" group-title="Music",Siembra TV (HD)
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
-#EXTINF:-1 tvg-id="SkyFolkTV.mk" tvg-country="MK" group-title="Music",Sky Folk TV (HD)
-https://skyfolk.mk/live.m3u8
 #EXTINF:-1 tvg-id="SochiLive.ru" tvg-country="RU" group-title="Music",Sochi Live (HD)
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="SonataTV.ua" tvg-country="UA" group-title="Music",Sonata TV (FHD)
@@ -877,9 +885,9 @@ https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="SpiritTV.us" tvg-country="US" group-title="Music",Spirit TV (HD)
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
-#EXTINF:-1 tvg-id="StarTV.mn" tvg-country="MN" group-title="Music",Star TV (HD)
+#EXTINF:-1 tvg-id="StarTV.mn" tvg-country="MN" group-title="Music",Star TV (FHD)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://cdn4.skygo.mn/live/disk1/Star/HLSv3-FTA/Star.m3u8
+https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd
 #EXTINF:-1 tvg-id="SteelbirdMusic.in" tvg-country="IN" group-title="Music",Steelbird Music (HD)
 https://cdn2.in/SteelbirdMusicTVhls/live.m3u8
 #EXTINF:-1 tvg-id="StingrayCityscapes.ca" tvg-country="CA" group-title="Music",Stingray Cityscapes (FHD)
@@ -891,7 +899,7 @@ https://aka-live1050.delivery.roku.com/372c813e-1fb9-41d4-a4d0-5fbd803659c5/t2-o
 #EXTINF:-1 tvg-id="StingrayEverything80s.ca" tvg-country="CA" group-title="Music",Stingray Everything '80s (FHD)
 https://lotus.stingray.com/manifest/ose-128ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHitList.ca" tvg-country="CA" group-title="Music",Stingray Hit List (FHD)
-https://lotus.stingray.com/manifest/ose-107ads-montreal/samsungtvplus/master.m3u8
+https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883054
 #EXTINF:-1 tvg-id="StingrayHolidayHits.ca" tvg-country="CA" group-title="Music",Stingray Holiday Hits (FHD)
 https://lotus.stingray.com/manifest/ose-155ads-montreal/samsungtvplus/master.m3u8
 #EXTINF:-1 tvg-id="StingrayHolidayscapes.ca" tvg-country="CA" group-title="Music",Stingray Holidayscapes (FHD)
@@ -918,6 +926,8 @@ https://lotus.stingray.com/manifest/ose-133ads-montreal/samsungtvplus/master.m3u
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="StrykTV.us" tvg-country="US" group-title="Music",Stryk TV (FHD)
 https://fffffff110156200.tvustream.com:8298/ryfy.m3u8
+#EXTINF:-1 tvg-id="StuBru.be" tvg-country="BE" group-title="Music",StuBru (FHD)
+https://live.vrtcdn.be/groupb/live/450aa9d1-7173-47f3-aaaa-9701426f8ddd/live.isml/.mpd
 #EXTINF:-1 tvg-id="Superhitz.in" tvg-country="IN" group-title="Music",Superhitz (HD)
 https://live-evg5.tv360.bitel.com.pe/bitel/fillka/playlist.m3u8
 #EXTINF:-1 tvg-id="SupermusicaTV.co" tvg-country="CO" group-title="Music",Supermusica TV (HD)
@@ -932,7 +942,7 @@ https://swrswr3vr-hls.akamaized.net/hls/live/2018683/swr3vr/master.m3u8
 #EXTINF:-1 tvg-id="SyrosTV1.gr" tvg-country="GR" group-title="Music",Syros TV1 (HD)
 https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8
 #EXTINF:-1 tvg-id="Tarab.sa" tvg-country="SA" group-title="Music",Tarab (FHD)
-https://shd-amg-fast-btpls.shahid.net/tx002/playlist.m3u8
+https://shd-amg-fast.edgenextcdn.net/tx002/playlist.m3u8
 #EXTINF:-1 tvg-id="TarangMusic.in" tvg-country="IN" group-title="Music",Tarang Music (HD)
 https://livetv.tarangplus.in/tarangmusic-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Telecaribe.co" tvg-country="CO" group-title="Music",Telecaribe (FHD)
@@ -946,8 +956,6 @@ https://vdopanel.jlahozconsulting.com/p/3417/hybrid/play.m3u8
 https://edge20.vedge.infomaniak.com/livecast/ik:33dm06/manifest.m3u8
 #EXTINF:-1 tvg-id="Teleritmo.mx" tvg-country="MX" group-title="Music",Teleritmo (HD)
 https://mdstrm.com/live-stream-playlist/57b4dc126338448314449d0c.m3u8
-#EXTINF:-1 tvg-id="TelevisionCaribbean.kn" tvg-country="KN" group-title="Music",Television Caribbean (FHD)
-https://live.kingdom-tv.com:3545/stream/play.m3u8
 #EXTINF:-1 tvg-id="TelevisionEspoir47.tg" tvg-country="TG" group-title="Music",Television Espoir 47 (HD)
 https://cdn140m.panaccess.com/HLS/Espoir47/index.m3u8
 #EXTINF:-1 tvg-id="TenarensesTV.do" tvg-country="DO" group-title="Music",Tenarenses TV (FHD)
@@ -977,9 +985,9 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_en
 #EXTINF:-1 tvg-id="TotalmusicDance.uk" tvg-country="UK" group-title="Music",Totalmusic Dance (HD)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-country="FR" group-title="Music",Trace Brazuca (FHD)
-https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
+https://channels.trace.plus/Traceprod/BRAZIL_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Gospel.png" tvg-country="FR" group-title="Music",Trace Gospel (FHD)
-https://channels.trace.plus/Traceprod/GOSPEL_FR/.m3u8
+https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceIvoire.fr" tvg-country="FR" group-title="Music",Trace Ivoire (FHD)
 https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceJama.fr" tvg-country="FR" group-title="Music",Trace Jama (FHD)
@@ -991,7 +999,7 @@ https://channels.trace.plus/Traceprod/AFRICA_EN_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceUK.uk" tvg-country="UK" group-title="Music",Trace UK (FHD)
 https://channels.trace.plus/Traceprod/UK_FAST_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceUrban.fr" tvg-logo="https://raw.githubusercontent.com/K-yzu/Logos/main/TV:FR/Trace%20Urban.png" tvg-country="FR" group-title="Music",Trace Urban (FHD)
-https://channels.trace.plus/Traceprod/URBAN_INTER_hd/index.m3u8
+https://channels.trace.plus/Traceprod/URBAN_FR/.m3u8
 #EXTINF:-1 tvg-id="TraVinhTV.vn" tvg-country="VN" group-title="Music",Tra Vinh TV (FHD)
 https://freem3u.xyz/api/live/play.m3u8?vid=91
 #EXTINF:-1 tvg-id="TropiQ99.7FM.pa" tvg-country="PA" group-title="Music",Tropi Q 99.7 FM (FHD)
@@ -1034,7 +1042,7 @@ https://streamtv.onliv3.online:1936/karibtv/karibtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TVZimbo.ao" tvg-country="AO" group-title="Music",TV Zimbo (FHD)
 https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="UAMusic.ua" tvg-country="UA" group-title="Music",UA Music (FHD)
-http://stream.mcquack.net/281/index.m3u8
+https://iptv.prosto.tv/ch133/tracks-v2a1/1.m3u8?live=1&ip=178.136.40.86&id=921233&secret=9szoe89y&ses=222194235acf2898&uid=9szoe89y&cs_track=false&e=1783247230&st=uVQZwetlK44ZjJhTBpFGiQ
 #EXTINF:-1 tvg-id="UltimateTV.in" tvg-country="IN" group-title="Music",Ultimate TV (FHD)
 https://stream.ottlive.co.in/utvtamil/index.m3u8
 #EXTINF:-1 tvg-id="UltraTVPuebla.mx" tvg-country="MX" group-title="Music",Ultra TV Puebla (HD)
@@ -1135,8 +1143,6 @@ https://amg01243-xite-amg01243c21-tcl-us-6483.playouts.now.amagi.tv/playlist.m3u
 https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 #EXTINF:-1 tvg-id="XtremoChannel.do" tvg-country="DO" group-title="Music",Xtremo Channel (HD)
 https://ss2.tvrdomi.com:1936/xtremochannel/xtremochannel/playlist.m3u8
-#EXTINF:-1 tvg-id="YabanTV.tr" tvg-country="TR" group-title="Music",Yaban TV (FHD)
-http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6868/index.m3u8
 #EXTINF:-1 tvg-id="YETMax.in" tvg-country="IN" group-title="Music",YET Max (HD)
 https://live.yettelevision.com:5443/LiveApp/streams/yettv2.m3u8
 #EXTINF:-1 tvg-id="Yoshlar.uz" tvg-country="UZ" group-title="Music",Yoshlar (FHD)

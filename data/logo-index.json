@@ -30725,6 +30725,14 @@
       "extension": ".png"
     },
     {
+      "name": "NCAA College Football",
+      "path": "TV:US2/NCAA College Football.png",
+      "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/NCAA%20College%20Football.png",
+      "country": "US",
+      "kind": "channel",
+      "extension": ".png"
+    },
+    {
       "name": "NCAA Division I FCS",
       "path": "TV:US2/NCAA Division I FCS.png",
       "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:US2/NCAA%20Division%20I%20FCS.png",
