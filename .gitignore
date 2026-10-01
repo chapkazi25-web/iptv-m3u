@@ -15,3 +15,6 @@ data/raw/*
 # Atomic write and test artifacts.
 *.tmp
 *.log
+
+# Local TV guide allowlist (not published)
+tv_guide_USA_UK_CA_Australia.txt

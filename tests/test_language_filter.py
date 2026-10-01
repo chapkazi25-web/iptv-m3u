@@ -23,13 +23,13 @@ class LanguageFilterTests(unittest.TestCase):
         return language_exclusion_reason(cid, "Some Channel", cats, languages, english, self.rules)
 
     def test_non_english_is_removed_from_listed_categories(self) -> None:
-        for category in ("documentary", "entertainment", "kids", "movies", "music", "news", "sports"):
+        for category in ("usa", "uk", "canada", "australia", "entertainment", "kids", "movies", "news", "sports", "nfl", "nba", "soccer"):
             with self.subTest(category=category):
                 reason = self._reason("some-id", [category], ["rus"], False)
                 self.assertTrue(reason.startswith("language:"))
 
     def test_english_is_kept(self) -> None:
-        for category in ("documentary", "entertainment", "kids", "movies", "music", "news", "sports"):
+        for category in ("usa", "uk", "canada", "australia", "entertainment", "kids", "movies", "news", "sports", "nfl", "nba", "soccer"):
             with self.subTest(category=category):
                 self.assertEqual(self._reason("some-id", [category], ["eng"], True), "")
 
@@ -42,19 +42,14 @@ class LanguageFilterTests(unittest.TestCase):
         self.assertEqual(self._reason("some-id", ["news"], [], None), "")
 
     def test_categories_outside_the_filter_are_untouched(self) -> None:
-        for category in ("soccer", "nfl", "nba", "ufc", "sky-sports", "tsn"):
+        for category in ("music", "tanzania"):
             with self.subTest(category=category):
                 self.assertEqual(self._reason("some-id", [category], ["rus"], False), "")
 
-    def test_bein_sports_is_excepted(self) -> None:
-        # beIN is Arabic/French but was explicitly requested as a keeper.
-        self.assertEqual(self._reason("bein-1", ["bein-sports"], ["ara"], False), "")
-
-    def test_named_channels_are_excepted(self) -> None:
-        for channel_id in ("tbc1", "tbc2", "dodoma-tv"):
-            with self.subTest(channel_id=channel_id):
-                # Swahili, and entertainment is a filtered category.
-                self.assertEqual(self._reason(channel_id, ["entertainment"], ["swa"], False), "")
+    def test_no_brand_or_channel_exceptions_in_txt_rebuild(self) -> None:
+        # beIN/Tanzania exceptions were removed with the old categories.
+        self.assertEqual(self._reason("bein-1", ["sports"], ["ara"], False).startswith("language:"), True)
+        self.assertEqual(self._reason("tbc1", ["entertainment"], ["swa"], False).startswith("language:"), True)
 
     def test_reason_names_the_language(self) -> None:
         self.assertEqual(self._reason("x", ["news"], ["rus"], False), "language:rus")
@@ -72,25 +67,26 @@ class QualityFilterTests(unittest.TestCase):
         record = {"quality_height": height, "not_24_7": not_247}
         return quality_exclusion_reason(record, cats, self.rules)
 
-    def test_high_definition_music_is_dropped(self) -> None:
+    def test_quality_filter_is_disabled_for_txt_rebuild(self) -> None:
+        # No music category in the txt rebuild; HD and not-24/7 are kept.
         for name in ("30A Music (720p)", "360TuneBox (1080p)", "Some Channel (2160p)"):
             with self.subTest(name=name):
-                self.assertTrue(self._reason(name, ["music"]).startswith("quality:"))
+                self.assertEqual(self._reason(name, ["entertainment"]), "")
 
     def test_standard_definition_music_is_kept(self) -> None:
         for name in ("ACW UG TV (480p)", "Some Radio (360p)", "Unlabelled Music"):
             with self.subTest(name=name):
-                self.assertEqual(self._reason(name, ["music"]), "")
+                self.assertEqual(self._reason(name, ["entertainment"]), "")
 
-    def test_not_24_7_music_is_dropped(self) -> None:
-        self.assertEqual(self._reason("4 Fun TV (576i) [Not 24/7]", ["music"]), "not-24/7")
+    def test_not_24_7_is_kept_for_txt_rebuild(self) -> None:
+        self.assertEqual(self._reason("4 Fun TV (576i) [Not 24/7]", ["entertainment"]), "")
 
     def test_rule_only_applies_to_configured_categories(self) -> None:
-        # An HD news channel is not affected by the music quality rule.
+        # Quality filter has no configured categories, so nothing is dropped.
         self.assertEqual(self._reason("CNN HD (1080p)", ["news"]), "")
 
     def test_unknown_resolution_is_not_assumed_to_be_hd(self) -> None:
-        self.assertEqual(self._reason("Unlabelled Music", ["music"]), "")
+        self.assertEqual(self._reason("Unlabelled Music", ["entertainment"]), "")
 
     def test_name_quality_parsing(self) -> None:
         self.assertEqual(name_quality("Channel (1080p)"), (1080, False))

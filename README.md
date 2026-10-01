@@ -70,11 +70,11 @@ make test
 Useful individual commands:
 
 ```bash
-python3 scripts/discover/build_catalog.py
+python3 scripts/discover/rebuild_from_tvguide.py [--date YYYY-MM-DD]
 python3 scripts/epg/import_epgshare.py
 python3 scripts/logos/remote_index.py
 python3 scripts/logos/apply_logos.py
-python3 scripts/build/merge_playlists.py
+python3 scripts/build/merge_playlists.py --allow-unmapped
 python3 scripts/validate/validate_m3u.py
 python3 scripts/validate/check_streams.py --limit 50
 python3 -m unittest discover -v
@@ -146,31 +146,42 @@ upstream are worth reporting to them as well as opening one here.
 
 ## Categories
 
-`data/categories.json` is the single source of truth. Live events are split
-into `soccer`, `nfl`, `nba` and `ufc`, sports broadcasters get their own
-groups: `sky-sports`, `tsn`, `tnt-sports`, `stan-sports` and `bein-sports`,
-and the Tanzanian national channels are collected under `tanzania`.
+`data/categories.json` is the single source of truth. It currently mirrors
+`tv_guide_USA_UK_CA_Australia.txt` exactly: one category per top-level
+section — `usa`, `uk`, `canada`, `australia`, `nfl` (NFL Sunday Ticket),
+`nba` (NBA League Pass), `entertainment`, `movies`, `news`, `kids`,
+`sports` — plus `soccer` for live games from the core source, which has no
+txt section of its own. A channel listed under a live section belongs to its
+league first, so shared carriers (NFL Network, NBA TV) publish under the
+live group. In the playlist the base guide stays alphabetical and the live
+leagues are appended last (`nfl`, `nba`, `soccer`), each with its match games
+in kickoff order.
 
-Because broadcasters publish their channels under a generic `Sports` group,
-categories are matched on the channel name first (`name_patterns`) and only
-then on the source `group-title`. Order in the config decides precedence, so
-brand rules win over the broad sport patterns.
+Rebuild with:
 
-The same file carries an `exclude` block. Channels matching a name pattern, a
-category, or an explicit ID are kept in the catalog as disabled records — they
-keep their identity and source references across rebuilds but never reach the
-public playlist. `group_patterns` drops a whole source group before catalog
-resolution, which is how the unwanted live-event groups (baseball, hockey,
-racing, tennis, other events) are removed. The group pattern for `Local News`
-is what removes Pluto's city-level news feeds.
+```bash
+python3 scripts/discover/rebuild_from_tvguide.py
+python3 scripts/build/merge_playlists.py --allow-unmapped
+```
+
+The rebuild is a full wipe: only txt channels plus ingested source games are
+kept. Channels with at least one source stream are enabled; the rest stay as
+disabled `no-source` placeholders so they return automatically when a source
+arrives. `make catalog` runs this rebuild (not the legacy `build_catalog.py`).
+
+The same file carries an `exclude` block reduced to `[Geo-blocked]` and
+`[Not 24/7]`. Business, weather, city-name and Big Brother patterns were
+removed because the txt guide lists those channels explicitly. Source groups
+`Live - Soccer` and `Live - American Football` are ingested as games; the
+remaining live groups (baseball, hockey, racing, tennis, basketball,
+other events) stay dropped via `group_patterns`, and `event_filter` is
+disabled.
 
 ## Language filtering
 
 `data/categories.json` also carries a `language_filter` and a `quality_filter`.
-The language filter keeps English channels in documentary, entertainment, kids,
-movies, music, news and sports, with beIN Sports excepted and the Tanzanian
-channels named in `except_channels` protected explicitly. The quality filter
-limits music to standard definition, 24/7 channels.
+The language filter keeps English channels across all 12 txt categories;
+the quality filter is disabled for the txt rebuild.
 
 The catalog carries no language data of its own, so `data/languages.json` is
 built by `scripts/languages/build_index.py` from the two public sources that
@@ -263,20 +274,26 @@ reads, so the filter still works after the name is cleaned.
 
 ## Live events
 
-Live-event channels are named after the match they carry, for example
-`[Liga MX] América vs Monterrey`. No EPG in the project covers them: EPGShare
-maps none of them and Grade TV does not carry them. Instead,
-`scripts/events/fixture_schedule.py` resolves the fixture from TheSportsDB, a
-free open schedule API, by parsing the sport from the `[...]` prefix and the
-two teams from the `X vs Y` part. The kickoff time is stored on the record as
-`event_start`, and the `event_filter` block in `data/categories.json` drops the
-channel once the window for its sport has passed — so an event is removed on the
-next scheduled run rather than when its stream happens to time out.
+Three separate categories: `nfl` (Sunday Ticket + core football games),
+`nba` (League Pass), `soccer` (core live games). The core source's
+`Live - Soccer` and `Live - American Football` groups are ingested; every
+feed of one match collapses into a single `[League] Home vs Away` channel so
+feeds become failover stream candidates (baseball, hockey, racing, tennis
+and other-events stay excluded).
 
-A channel whose fixture cannot be resolved is never removed, because a missing
-fixture is not evidence that the event finished. The schedule API is sparse on
-its free tier and rate limits aggressively, so fetched days are cached and
-matching is deliberately conservative: both team names have to match.
+The guide is today-only. Kickoffs resolve against the current UTC day's
+cached fixtures (`--date YYYY-MM-DD` overrides for backfills); a game dated
+on another day is disabled as `event-not-today` and returns on its own day's
+rebuild, while a game with no resolved kickoff is kept — the source lists it
+today, and an unknown date is not evidence it already played. The daily
+`update-events` workflow (00:30 UTC) fetches today's fixture cache and
+rebuilds, so new-day games appear automatically; the 6-hourly playlist build
+picks up intraday core refreshes too. TheSportsDB expiry (`event_filter`)
+stays off: nothing is ever dropped for a missing fixture.
+
+Note: txt-only entries (Sunday Ticket slots, team feeds, PPV slots, replays)
+are disabled `no-source` placeholders until the epgenius M3U
+(`api/public/m3u/6`) is added as a source.
 
 ## Stream selection and health
 
@@ -297,9 +314,9 @@ A single failed check does not remove a stream. Repeated failures mark it degrad
 | `update-logos.yml` | Refresh the metadata-only K-yzu raw artwork index |
 | `update-logo-fallbacks.yml` | Refresh the Grade TV and Wikipedia artwork fallbacks |
 | `update-languages.yml` | Refresh the per-channel language index and reapply filters |
-| `update-events.yml` | Resolve live-event kickoff times and drop finished events |
+| `update-events.yml` | Daily today-only live games refresh (fixture cache + guide rebuild) |
 | `update-epg.yml` | Refresh EPGShare XMLTV channel ID mappings |
-| `discover-channels.yml` | Rebuild the canonical channel catalog |
+| `discover-channels.yml` | Rebuild the guide channel catalog from the txt allowlist |
 | `test-streams.yml` | Update stream health with failure hysteresis |
 | `build-playlists.yml` | Build the single canonical `playlists/all.m3u` |
 | `validate.yml` | Run tests and playlist integrity checks |

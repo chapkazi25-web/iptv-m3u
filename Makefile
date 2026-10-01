@@ -4,7 +4,7 @@ PYTHON ?= python3
         health sample refresh sources-gradetv sources-iptv-org
 
 catalog:
-	$(PYTHON) scripts/discover/build_catalog.py
+	$(PYTHON) scripts/discover/rebuild_from_tvguide.py
 
 epg:
 	$(PYTHON) scripts/epg/import_epgshare.py
@@ -19,13 +19,13 @@ languages:
 	$(PYTHON) scripts/languages/build_index.py
 
 events:
-	$(PYTHON) scripts/events/fixture_schedule.py --days 7
+	$(PYTHON) scripts/events/fixture_schedule.py --days 0 --back 0
 
 apply-logos:
 	$(PYTHON) scripts/logos/apply_logos.py
 
 build:
-	$(PYTHON) scripts/build/merge_playlists.py
+	$(PYTHON) scripts/build/merge_playlists.py --allow-unmapped
 
 validate:
 	$(PYTHON) scripts/validate/validate_m3u.py

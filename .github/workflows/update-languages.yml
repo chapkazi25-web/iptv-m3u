@@ -32,10 +32,10 @@ jobs:
       - name: Build per-channel language index
         run: python scripts/languages/build_index.py
 
-      - name: Reapply the language and quality filters
+      - name: Reapply the guide filters
         run: >-
-          python scripts/discover/build_catalog.py
-          && python scripts/build/merge_playlists.py
+          python scripts/discover/rebuild_from_tvguide.py
+          && python scripts/build/merge_playlists.py --allow-unmapped
           && python scripts/logos/apply_logos.py
 
       - name: Validate playlists
@@ -44,5 +44,5 @@ jobs:
       - name: Commit language index
         run: >-
           python scripts/ci/commit_changes.py 'data: refresh channel language index' --push
-          --regenerate "python scripts/languages/build_index.py && python scripts/discover/build_catalog.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
+          --regenerate "python scripts/languages/build_index.py && python scripts/discover/rebuild_from_tvguide.py && python scripts/build/merge_playlists.py --allow-unmapped && python scripts/logos/apply_logos.py"
           data/languages.json data/channels.json data/stream-index.json data/build-report.json playlists

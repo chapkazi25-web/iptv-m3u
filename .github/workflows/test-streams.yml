@@ -39,8 +39,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh canonical channel catalog
-        run: python scripts/discover/build_catalog.py
+      - name: Refresh guide channel catalog
+        run: python scripts/discover/rebuild_from_tvguide.py
 
       - name: Probe source streams
         run: >-
@@ -52,5 +52,5 @@ jobs:
       - name: Commit health state
         run: >-
           python scripts/ci/commit_changes.py 'data: update stream health' --push
-          --regenerate "python scripts/discover/build_catalog.py && python scripts/validate/check_streams.py --workers $PROBE_WORKERS --timeout $PROBE_TIMEOUT --max-per-host $PROBE_MAX_PER_HOST"
+          --regenerate "python scripts/discover/rebuild_from_tvguide.py && python scripts/validate/check_streams.py --workers $PROBE_WORKERS --timeout $PROBE_TIMEOUT --max-per-host $PROBE_MAX_PER_HOST"
           data/channels.json data/stream-health.json

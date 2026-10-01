@@ -20,40 +20,27 @@ ROOT = "."
 
 
 class CategoryNameRuleTests(unittest.TestCase):
-    """Brand and sport channels are published under generic groups such as
-    "Sports", so the display name is the only reliable grouping signal."""
+    """Txt rebuild uses 11 exact guide sections with no brand name_patterns."""
 
     @classmethod
     def setUpClass(cls) -> None:
         cls.patterns = load_name_patterns(ROOT)
 
-    def test_sports_brand_names_map_to_own_category(self) -> None:
-        cases = {
-            "Sky Sports Football": "sky-sports",
-            "Sky Sport 1": "sky-sports",
-            "TSN 2": "tsn",
-            "TNT Sports 4": "tnt-sports",
-            "Stan Sport 9": "stan-sports",
-            "beIN SPORTS 1": "bein-sports",
-            "beIN Sports USA": "bein-sports",
-        }
-        for name, expected in cases.items():
-            with self.subTest(name=name):
-                self.assertEqual(match_name_category(name, self.patterns), expected)
+    def test_txt_rebuild_has_no_brand_name_patterns(self) -> None:
+        # USA/UK/CA/AU + Entertainment/Movies/News/Kids/Sports are assigned
+        # from the txt allowlist, not from name regexes.
+        self.assertEqual(self.patterns, [])
 
-    def test_live_event_sports_split_into_own_categories(self) -> None:
-        cases = {
-            "Fox Soccer Plus": "soccer",
-            "Futbol TV": "soccer",
-            "NFL Network": "nfl",
-            "[NFL] Falcons vs Packers": "nfl",
-            "NBA TV": "nba",
-            "UFC": "ufc",
-            "Bellator MMA": "ufc",
-        }
-        for name, expected in cases.items():
+    def test_former_brand_names_are_not_recategorized(self) -> None:
+        for name in ("Sky Sports Football", "TSN 2", "TNT Sports 4", "beIN SPORTS 1"):
             with self.subTest(name=name):
-                self.assertEqual(match_name_category(name, self.patterns), expected)
+                self.assertEqual(match_name_category(name, self.patterns), "")
+
+    def test_live_event_names_are_not_split(self) -> None:
+        # Live events are excluded until told otherwise; no soccer/nfl/nba/ufc.
+        for name in ("Fox Soccer Plus", "NFL Network", "NBA TV", "UFC", "[NFL] Falcons vs Packers"):
+            with self.subTest(name=name):
+                self.assertEqual(match_name_category(name, self.patterns), "")
 
     def test_unrelated_channels_are_not_recategorized(self) -> None:
         for name in ("CNN", "Trace Mziki", "Sky News"):
@@ -61,34 +48,24 @@ class CategoryNameRuleTests(unittest.TestCase):
                 self.assertEqual(match_name_category(name, self.patterns), "")
 
     def test_tanzanian_channels_get_their_own_category(self) -> None:
-        cases = {
-            "TBC1": "tanzania",
-            "TBC2": "tanzania",
-            "TBCN": "tanzania",
-            "Dodoma TV": "tanzania",
-            "IBN TV": "tanzania",
-            "Mahaasin TV": "tanzania",
-            "Tanzania Safari Channel": "tanzania",
-        }
-        for name, expected in cases.items():
+        # Tanzania category was removed in the txt rebuild; these names now
+        # resolve to no special category.
+        for name in ("TBC1", "Dodoma TV", "Tanzania Safari Channel"):
             with self.subTest(name=name):
-                self.assertEqual(match_name_category(name, self.patterns), expected)
+                self.assertEqual(match_name_category(name, self.patterns), "")
 
     def test_a_tournament_name_is_not_treated_as_tanzanian(self) -> None:
         # "[Clasificacion] Tanzania vs Guinea-Bissau" names the country but is
         # a football event, not a Tanzanian channel.
         name = "[Clasificación para la Copa Africana de Naciones] Tanzania vs Guinea-Bissau | BeIN Sports Ñ"
-        self.assertNotEqual(match_name_category(name, self.patterns), "tanzania")
+        self.assertEqual(match_name_category(name, self.patterns), "")
 
-    def test_brand_rules_win_over_generic_sport_names(self) -> None:
-        # "Sky Sports Cricket" is both a Sky channel and a sport; the brand
-        # rule is listed first and must win.
-        self.assertEqual(match_name_category("Sky Sports Cricket", self.patterns), "sky-sports")
+    def test_no_brand_rule_to_win(self) -> None:
+        self.assertEqual(match_name_category("Sky Sports Cricket", self.patterns), "")
 
 
 class GroupCategoryTests(unittest.TestCase):
-    """Live-event group titles map to the split categories even when the
-    channel name itself carries no sport keyword."""
+    """Txt rebuild: live-event groups are excluded, so they fall back to default."""
 
     @classmethod
     def setUpClass(cls) -> None:
@@ -98,13 +75,20 @@ class GroupCategoryTests(unittest.TestCase):
         entry = M3UEntry(duration="-1", attrs={"group-title": group}, title=name, url="http://x/y")
         return canonical_category(entry, self.aliases, self.default)
 
-    def test_live_event_groups_map_to_split_categories(self) -> None:
+    def test_txt_guide_groups_map_to_new_categories(self) -> None:
         cases = {
-            "Live - Soccer": "soccer",
-            "Live - American Football": "nfl",
-            "Live - Basketball": "nba",
-            "Music": "music",
             "News": "news",
+            "Sports": "sports",
+            "Entertainment": "entertainment",
+            "Movies": "movies",
+            "Kids": "kids",
+            "NFL Sunday Ticket": "nfl",
+            "Sunday Ticket": "nfl",
+            "Live - American Football": "nfl",
+            "NBA League Pass": "nba",
+            "League Pass": "nba",
+            "Live - Soccer": "soccer",
+            "Soccer": "soccer",
         }
         for group, expected in cases.items():
             with self.subTest(group=group):
@@ -113,9 +97,11 @@ class GroupCategoryTests(unittest.TestCase):
     def test_removed_live_event_groups_fall_back_to_default(self) -> None:
         # These groups are excluded upstream, so they must never resolve to a
         # live-events category that no longer exists.
-        for group in ("Live - Baseball", "Live - Hockey", "Live - Other Events"):
+        for group in ("Live - Baseball", "Live - Hockey", "Live - Other Events",
+                      "Live - Racing", "Live - Tennis", "Live - Basketball",
+                      "Music"):
             with self.subTest(group=group):
-                self.assertNotEqual(self._category(group), "live-events")
+                self.assertEqual(self._category(group), self.default)
 
     def test_bracket_prefixed_entries_do_not_use_removed_category(self) -> None:
         entry = M3UEntry(
@@ -143,38 +129,33 @@ class ExclusionRuleTests(unittest.TestCase):
             with self.subTest(name=name):
                 self.assertTrue(is_excluded("some-id", name, [category], self.rules))
 
-    def test_weather_channels_are_excluded(self) -> None:
-        for name in ("The Weather Channel", "WeatherSpy (India)", "Fox Weather", "AccuWeather NOW"):
+    def test_weather_channels_are_kept_for_txt_rebuild(self) -> None:
+        # Txt News Networks explicitly lists weather/business channels.
+        for name in ("The Weather Channel", "Fox Weather", "AccuWeather NOW"):
             with self.subTest(name=name):
-                self.assertTrue(is_excluded("some-id", name, ["news"], self.rules))
+                self.assertFalse(is_excluded("some-id", name, ["news"], self.rules))
 
-    def test_business_channels_are_excluded(self) -> None:
+    def test_business_channels_are_kept_for_txt_rebuild(self) -> None:
         for name in ("CNBC", "CNBC (720p)", "Bloomberg TV Asia", "Fox Business Network"):
             with self.subTest(name=name):
-                self.assertTrue(is_excluded("some-id", name, ["news"], self.rules))
+                self.assertFalse(is_excluded("some-id", name, ["news"], self.rules))
 
-    def test_big_brother_camera_feeds_are_excluded(self) -> None:
-        for name in ("Big Brother Camera 1", "Big Brother Quad View"):
+    def test_big_brother_feeds_are_kept_for_txt_rebuild(self) -> None:
+        for name in ("Big Brother Camera 1", "Big Brother Quad View", "Big Brother"):
             with self.subTest(name=name):
-                self.assertTrue(is_excluded("some-id", name, ["entertainment"], self.rules))
+                self.assertFalse(is_excluded("big-brother", name, ["entertainment"], self.rules))
 
-    def test_main_big_brother_channel_is_kept(self) -> None:
-        self.assertFalse(is_excluded("big-brother", "Big Brother", ["entertainment"], self.rules))
-
-    def test_regional_category_channels_are_excluded(self) -> None:
-        self.assertTrue(is_excluded("some-id", "Local Channel", ["regional"], self.rules))
-
-    def test_local_market_news_channels_are_excluded(self) -> None:
+    def test_local_market_news_channels_are_kept_for_txt_rebuild(self) -> None:
+        # Txt lists local networks explicitly (NBC [Chicago], CTV Vancouver...).
         for name in (
             "CBS News Bay Area",
             "CBS News Colorado",
             "CBS News Minnesota",
-            "CBS News Philly",
-            "CBS News Sacramento",
-            "Access Sacramento Channel 17",
+            "NBC [Chicago]",
+            "CTV Vancouver",
         ):
             with self.subTest(name=name):
-                self.assertTrue(is_excluded("some-id", name, ["news"], self.rules))
+                self.assertFalse(is_excluded("some-id", name, ["news"], self.rules))
 
     def test_national_news_channels_survive(self) -> None:
         for name in ("CBS News 24/7", "ABC News Live", "ABC News Live 7", "NBC News NOW", "BBC News"):
@@ -199,14 +180,173 @@ class ExcludedGroupTests(unittest.TestCase):
             "Live - Hockey",
             "Live - Racing",
             "Live - Tennis",
+            "Live - Basketball",
         ):
             with self.subTest(group=group):
                 self.assertTrue(is_excluded_group(group, self.rules))
 
-    def test_kept_live_event_groups_survive(self) -> None:
-        for group in ("Live - Soccer", "Live - American Football", "Live - Basketball", "Sports"):
+    def test_kept_groups_survive(self) -> None:
+        for group in ("Sports", "News", "Entertainment", "Movies", "Kids",
+                      "Live - Soccer", "Live - American Football"):
             with self.subTest(group=group):
                 self.assertFalse(is_excluded_group(group, self.rules))
+
+
+class LiveKickoffTests(unittest.TestCase):
+    """Live games are ordered by the kickoff printed in the txt guide."""
+
+    def test_start_timestamp_becomes_event_start(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import parse_kickoff
+
+        start, hint = parse_kickoff(
+            "NBA 02: Knicks (NYK) x Timberwolves (MIN) "
+            "start:2025-01-18 00:20:00 stop:2025-01-18 04:20:00"
+        )
+        self.assertEqual(start, "2025-01-18T00:20:00+00:00")
+        self.assertIsNone(hint)
+
+    def test_month_day_becomes_hint_without_invented_year(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import parse_kickoff
+
+        start, hint = parse_kickoff("NBA Summer League Lakers vs. Bulls jul 16 :NBA 03")
+        self.assertIsNone(start)
+        self.assertEqual(hint, "07-16")
+
+    def test_entry_without_a_date_has_no_kickoff(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import parse_kickoff
+
+        self.assertEqual(parse_kickoff("Pittsburgh @ Cleveland"), (None, None))
+        self.assertEqual(parse_kickoff("No Game Today"), (None, None))
+
+    def test_bracketed_quality_is_stripped_whole(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import clean_display
+
+        self.assertEqual(clean_display("[4K] Pittsburgh @ Cleveland"), "Pittsburgh @ Cleveland")
+        self.assertNotIn("[ ]", clean_display("[4K] Pittsburgh @ Cleveland"))
+
+    def test_live_sort_key_orders_league_then_kickoff_then_guide(self) -> None:
+        from scripts.build.merge_playlists import live_sort_key
+
+        catalog = {
+            "nfl-game": {
+                "name": "Pittsburgh @ Cleveland",
+                "live_league": "nfl",
+                "live_suborder": 1,
+                "live_order": 5,
+            },
+            "nba-timed": {
+                "name": "NBA 02",
+                "live_league": "nba",
+                "live_suborder": 2,
+                "live_order": 9,
+                "event_start": "2025-01-18T00:20:00+00:00",
+            },
+            "nba-hint": {
+                "name": "NBA 01",
+                "live_league": "nba",
+                "live_suborder": 2,
+                "live_order": 8,
+                "event_hint": "07-16",
+            },
+            "nba-plain": {
+                "name": "NBA 06 :",
+                "live_league": "nba",
+                "live_suborder": 2,
+                "live_order": 10,
+            },
+        }
+        ordered = sorted(catalog, key=lambda cid: live_sort_key(cid, catalog))
+        self.assertEqual(ordered, ["nfl-game", "nba-timed", "nba-hint", "nba-plain"])
+
+    def test_live_sort_key_groups_competitions_before_kickoff(self) -> None:
+        from scripts.build.merge_playlists import live_sort_key
+
+        catalog = {
+            "mls": {
+                "name": "[MLS] Dallas vs Los Angeles FC",
+                "live_league": "soccer",
+                "live_suborder": 0,
+                "live_order": 3,
+                "league_group": "mls",
+            },
+            "copa": {
+                "name": "[Copa Chile] Colo-Colo vs Audax Italiano",
+                "live_league": "soccer",
+                "live_suborder": 0,
+                "live_order": 1,
+                "league_group": "copa chile",
+            },
+        }
+        ordered = sorted(catalog, key=lambda cid: live_sort_key(cid, catalog))
+        self.assertEqual(ordered, ["copa", "mls"])
+
+
+class LiveGameIngestTests(unittest.TestCase):
+    """Source feeds collapse into one channel per game."""
+
+    def test_feeds_of_one_game_share_a_key(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import canonical_live_game
+
+        feeds = [
+            "[Copa Chile] Colo-Colo vs Audax Italiano 1 (PLIBRE)",
+            "[Copa Chile] Colo-Colo vs Audax Italiano | TNT Sports Premiun CL (TVF90)",
+            "[Copa Chile] Colo-Colo vs Audax Italiano | TNT Sports Premiun CL HD (TVF90)",
+        ]
+        games = [canonical_live_game(feed) for feed in feeds]
+        self.assertTrue(all(game is not None for game in games))
+        self.assertEqual({game["key"] for game in games}, {"copa-chile-colo-colo-vs-audax-italiano"})
+        self.assertEqual(games[0]["league"], "soccer")
+        self.assertEqual(games[0]["display"], "[Copa Chile] Colo-Colo vs Audax Italiano")
+
+    def test_non_event_titles_are_ignored(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import canonical_live_game
+
+        self.assertIsNone(canonical_live_game("CNN"))
+        self.assertIsNone(canonical_live_game("Pittsburgh @ Cleveland"))
+
+    def test_nickname_subset_matches_a_fixture(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import match_live_game
+
+        events = [
+            {"strHomeTeam": "Buffalo Bills", "strAwayTeam": "Los Angeles Chargers"},
+            {"strHomeTeam": "Cleveland Browns", "strAwayTeam": "Carolina Panthers"},
+        ]
+        parsed = {"sport": "American Football", "home": "Chargers", "away": "Bills"}
+        matched = match_live_game(parsed, events)
+        self.assertIsNotNone(matched)
+        self.assertEqual(matched["strHomeTeam"], "Buffalo Bills")
+
+    def test_swapped_home_away_still_matches(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import match_live_game
+
+        events = [{"strHomeTeam": "Temple", "strAwayTeam": "Army"}]
+        parsed = {"sport": "American Football", "home": "Army Black Knights", "away": "Temple Owls"}
+        matched = match_live_game(parsed, events)
+        self.assertIsNotNone(matched)
+
+    def test_unrelated_teams_do_not_match(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import match_live_game
+
+        events = [{"strHomeTeam": "Buffalo Bills", "strAwayTeam": "Los Angeles Chargers"}]
+        parsed = {"sport": "American Football", "home": "Colo-Colo", "away": "Audax Italiano"}
+        self.assertIsNone(match_live_game(parsed, events))
+
+    def test_today_game_rule(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import game_is_today
+
+        # Dated on the guide day: listed. Dated elsewhere: dropped.
+        self.assertTrue(game_is_today("2026-10-01T17:00:00+00:00", "2026-10-01"))
+        self.assertFalse(game_is_today("2026-09-27T17:00:00+00:00", "2026-10-01"))
+        self.assertFalse(game_is_today("2025-01-18T00:20:00+00:00", "2026-10-01"))
+        # No kickoff: kept, since the source lists it today and an unknown
+        # date is not evidence it already played.
+        self.assertTrue(game_is_today(None, "2026-10-01"))
+
+    def test_fixture_date_prefers_date_event(self) -> None:
+        from scripts.discover.rebuild_from_tvguide import fixture_date
+
+        self.assertEqual(fixture_date({"dateEvent": "2026-10-01", "strTime": "17:00:00"}), "2026-10-01")
+        self.assertEqual(fixture_date({}), "")
 
 
 class QualitySuffixTests(unittest.TestCase):

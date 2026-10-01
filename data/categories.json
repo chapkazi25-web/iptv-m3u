@@ -1,136 +1,228 @@
 {
-  "version": 3,
+  "version": 6,
   "default": "entertainment",
   "categories": {
-    "news": {
-      "name": "News",
-      "aliases": ["news", "news + opinion", "local news", "current affairs"]
+    "usa": {
+      "name": "USA",
+      "aliases": [
+        "usa",
+        "united states",
+        "america",
+        "local networks"
+      ]
     },
-    "sports": {
-      "name": "Sports",
-      "aliases": ["sports", "sport", "outdoor;sports", "public;sports", "news;sports", "general;sports", "kids;sports", "culture;sports", "entertainment;sports"]
+    "uk": {
+      "name": "UK",
+      "aliases": [
+        "uk",
+        "united kingdom",
+        "britain",
+        "national networks",
+        "sky networks"
+      ]
     },
-    "sky-sports": {
-      "name": "Sky Sports",
-      "aliases": ["sky sports"],
-      "name_patterns": ["\\bsky\\s*sports?\\b", "\\bsky\\s*mix\\b"]
+    "canada": {
+      "name": "Canada",
+      "aliases": [
+        "canada",
+        "canadian"
+      ]
     },
-    "tsn": {
-      "name": "TSN",
-      "aliases": ["tsn"],
-      "name_patterns": ["\\btsn\\b", "\\bteletoon\\b"]
-    },
-    "tnt-sports": {
-      "name": "TNT Sports",
-      "aliases": ["tnt sports", "tnt sport"],
-      "name_patterns": ["\\btnt\\s*sports?\\b", "\\btnt\\s*go\\b"]
-    },
-    "stan-sports": {
-      "name": "Stan Sports",
-      "aliases": ["stan sports", "stan sport"],
-      "name_patterns": ["\\bstan\\s*sport\\b", "\\b10\\s*stan\\s*sport\\b"]
-    },
-    "bein-sports": {
-      "name": "beIN Sports",
-      "aliases": ["bein sports", "beinsports", "bein sport"],
-      "name_patterns": ["\\bbein\\s*sports?\\b", "\\bbeinsports\\b"]
-    },
-    "soccer": {
-      "name": "Soccer",
-      "aliases": ["live - soccer", "soccer", "football"],
-      "name_patterns": ["\\blive\\s*-\\s*soccer\\b", "\\bsoccer\\b", "\\bfutbol\\b", "\\bfussball\\b"]
+    "australia": {
+      "name": "Australia",
+      "aliases": [
+        "australia",
+        "australian",
+        "au"
+      ]
     },
     "nfl": {
-      "name": "NFL",
-      "aliases": ["live - american football", "american football", "nfl"],
-      "name_patterns": ["\\blive\\s*-\\s*american\\s*football\\b", "\\bnfl\\b", "\\bamerican\\s*football\\b"]
+      "name": "NFL Sunday Ticket",
+      "aliases": [
+        "nfl",
+        "nfl sunday ticket",
+        "sunday ticket",
+        "american football",
+        "live - american football"
+      ]
     },
     "nba": {
-      "name": "NBA",
-      "aliases": ["live - basketball", "basketball", "nba"],
-      "name_patterns": ["\\blive\\s*-\\s*basketball\\b", "\\bnba\\b"]
-    },
-    "ufc": {
-      "name": "UFC",
-      "aliases": ["ufc", "mma"],
-      "name_patterns": ["\\bufc\\b", "\\bmma\\b", "\\bbellator\\b", "\\bpfl\\b"]
+      "name": "NBA League Pass",
+      "aliases": [
+        "nba",
+        "nba league pass",
+        "league pass",
+        "basketball"
+      ]
     },
     "entertainment": {
       "name": "Entertainment",
-      "aliases": ["entertainment", "general", "classic tv", "comedy", "drama", "reality", "series", "competition reality", "variety", "culture", "interactive"]
+      "aliases": [
+        "entertainment",
+        "general",
+        "entertainment channels"
+      ]
     },
     "movies": {
-      "name": "Movies & Premium",
-      "aliases": ["movies", "movies & premium", "movie channels", "westerns", "true crime", "film"]
+      "name": "Movies",
+      "aliases": [
+        "movies",
+        "movie networks",
+        "movies & premium",
+        "film"
+      ]
     },
-    "music": {
-      "name": "Music",
-      "aliases": ["music", "music videos", "radio"]
+    "news": {
+      "name": "News",
+      "aliases": [
+        "news",
+        "news networks"
+      ]
     },
     "kids": {
-      "name": "Kids & Family",
-      "aliases": ["kids", "kids & family", "anime", "children", "animation", "family", "education"]
+      "name": "Kids",
+      "aliases": [
+        "kids",
+        "kids channels",
+        "kids & family",
+        "children",
+        "animation",
+        "family"
+      ]
     },
-    "documentary": {
-      "name": "Documentary & Reality",
-      "aliases": ["documentary", "documentary & reality", "animals + nature", "history + science", "science + nature", "home + food", "cooking", "travel", "outdoor", "lifestyle", "religious", "science"]
+    "sports": {
+      "name": "Sports",
+      "aliases": [
+        "sports",
+        "sport",
+        "sport networks"
+      ]
     },
-    "tanzania": {
-      "name": "Tanzania",
-      "aliases": ["tanzania"],
-      "name_patterns": ["^\\s*TBC(?:\\s*\\d+|N)?\\s*$", "\\bDodoma\\b", "\\bIBN\\s*TV\\b", "\\bMahaasin\\b", "^Tanzania\\b"]
+    "soccer": {
+      "name": "Soccer",
+      "aliases": [
+        "soccer",
+        "football",
+        "live - soccer",
+        "live soccer"
+      ]
     }
   },
   "language_filter": {
-    "comment": "Keep English-language channels in the listed categories. A channel is only removed when a source positively identifies a non-English language; unknown is kept, because a missing language record is not evidence of anything. Regenerate the index with scripts/languages/build_index.py.",
-    "keep": ["eng"],
+    "comment": "Keep English-language channels. Unknown is kept.",
+    "keep": [
+      "eng"
+    ],
     "categories": [
-      "documentary",
+      "usa",
+      "uk",
+      "canada",
+      "australia",
+      "nfl",
+      "nba",
       "entertainment",
-      "kids",
       "movies",
-      "music",
       "news",
-      "sports"
+      "kids",
+      "sports",
+      "soccer"
     ],
-    "except_categories": ["bein-sports"],
-    "except_channels": [
-      "tbc1",
-      "tbc2",
-      "dodoma-tv"
-    ],
+    "except_categories": [],
+    "except_channels": [],
     "unknown": "keep"
   },
   "quality_filter": {
-    "comment": "Music is limited to SD, 24/7 channels. SD means below 720, so 480p and 576p are kept and 720p and above are dropped. An unknown resolution is kept rather than assumed to be HD.",
-    "categories": ["music"],
-    "max_height": 719,
-    "require_247": true
+    "comment": "Disabled for txt rebuild.",
+    "categories": [],
+    "max_height": null,
+    "require_247": false
   },
   "country_filter": {
-    "comment": "The list is meant to be watchable, so only channels published for Canada, the United States, the United Kingdom, New Zealand and Australia are listed. A country is read from tvg-country first, then from the source id, because iptv-org encodes it as Name.CC.variant (PlutoTVParanormal.de.ES) while Grade TV and TVivu use Name.CC (DodomaTV.tz), and finally from a country name in the display name (Pluto TV Paranormal (Germany)). An unknown country is dropped: a feed with no geography at all is nearly always a regional stream that is dead outside its own market. Brands that publish one worldwide feed under a single name, and the Tanzania category, are excepted.",
-    "allow": ["CA", "US", "GB", "NZ", "AU"],
+    "comment": "USA/UK/CA/AU/NZ only. Unknown is dropped.",
+    "allow": [
+      "CA",
+      "US",
+      "GB",
+      "NZ",
+      "AU"
+    ],
     "unknown": "drop",
-    "except_categories": ["tanzania"],
-    "except_brands": ["bein", "trace", "xite", "vevo"]
+    "except_categories": [],
+    "except_brands": [
+      "bein",
+      "trace",
+      "xite",
+      "vevo"
+    ]
   },
   "region_filter": {
     "comment": "One channel is published under one name, so the same feed repeated once per region is collapsed to a single entry. A record is only ever folded into a record that already exists under the unqualified name, which is what keeps 'Trace Africa' and 'Trace Naija' apart while collapsing 'Angel TV Arabia' into 'Angel TV'. The winner is the unqualified name, then a record from an allowed country, then the lowest id. The bare words below are the region and language qualifiers sources append; a country in brackets and a trailing country code are recognised without being listed here.",
     "words": [
-      "africa", "america", "arabia", "arabic", "asia", "australia", "balkans",
-      "brazil", "britain", "china", "chinese", "croatia", "cyprus", "czech",
-      "denmark", "dutch", "england", "europe", "fareast", "far east", "finnish",
-      "france", "germany", "greek", "hebrew", "hindi", "india", "indo china",
-      "indonesia", "ireland", "italian", "italy", "japan", "japanese", "korea",
-      "latin", "mexico", "netherlands", "norway", "poland", "portugal",
-      "portuguese", "romania", "russia", "russian", "scandinavia", "scotland",
-      "serbia", "spain", "spanish", "sweden", "swiss", "turkey", "turkiye",
-      "ukraine", "vietnam", "wales"
+      "africa",
+      "america",
+      "arabia",
+      "arabic",
+      "asia",
+      "australia",
+      "balkans",
+      "brazil",
+      "britain",
+      "china",
+      "chinese",
+      "croatia",
+      "cyprus",
+      "czech",
+      "denmark",
+      "dutch",
+      "england",
+      "europe",
+      "fareast",
+      "far east",
+      "finnish",
+      "france",
+      "germany",
+      "greek",
+      "hebrew",
+      "hindi",
+      "india",
+      "indo china",
+      "indonesia",
+      "ireland",
+      "italian",
+      "italy",
+      "japan",
+      "japanese",
+      "korea",
+      "latin",
+      "mexico",
+      "netherlands",
+      "norway",
+      "poland",
+      "portugal",
+      "portuguese",
+      "romania",
+      "russia",
+      "russian",
+      "scandinavia",
+      "scotland",
+      "serbia",
+      "spain",
+      "spanish",
+      "sweden",
+      "swiss",
+      "turkey",
+      "turkiye",
+      "ukraine",
+      "vietnam",
+      "wales"
     ]
   },
   "local_filter": {
     "comment": "A local station is the affiliate feed of one city or one region, or a municipal and community-access channel, so it is of no use to a list shared between viewers in different places. Every pattern here is matched case sensitively: case insensitively a call sign would swallow ordinary words such as 'Warner' and 'West', and the state suffix is anchored to the end of the name so a leading 'SA' still reads as the Bolivian football club SA Bulo Bulo. A call sign is only read as one for a channel published for a country that uses them: a KQSL is a US station even where iptv-org files it under Canada, while 'Terra Mater WILD' and 'TV-WEST' are not stations at all. A source id ending in 'locals' marks the same kind of station even when the display name carries no call sign.",
-    "call_sign_countries": ["US", "CA"],
+    "call_sign_countries": [
+      "US",
+      "CA"
+    ],
     "name_patterns": [
       "\\bcity\\s+of\\b",
       "\\bcounty\\b",
@@ -140,105 +232,43 @@
       "\\bkey\\s+west\\b",
       "\\bflorida\\s+keys\\b"
     ],
-    "call_sign_patterns": ["\\b[KW][A-Z]{3}(?:-(?:TV|DT|LD))?\\b"],
-    "case_sensitive_name_patterns": ["(?:^|\\s)(?:NSW|QLD|TAS|VIC|WA|ACT|NT|SA)\\s*$"],
-    "reference_patterns": ["(?:^|[._])locals?\\d*\\b"]
+    "call_sign_patterns": [
+      "\\b[KW][A-Z]{3}(?:-(?:TV|DT|LD))?\\b"
+    ],
+    "case_sensitive_name_patterns": [
+      "(?:^|\\s)(?:NSW|QLD|TAS|VIC|WA|ACT|NT|SA)\\s*$"
+    ],
+    "reference_patterns": [
+      "(?:^|[._])locals?\\d*\\b"
+    ]
   },
   "radio_filter": {
-    "comment": "The music category is for music video channels, so a station that broadcasts audio only is dropped instead of being republished as an ordinary channel. The case-sensitive patterns catch the conventional upper-case station suffix; a case-insensitive 'am' would match the English word in a title.",
-    "categories": ["music"],
-    "name_patterns": ["\\bradio\\b", "\\b\\d{2,3}(?:[.,]\\d)?\\s*fm\\b"],
-    "case_sensitive_name_patterns": ["\\bFM\\b", "\\bAM\\b"]
+    "comment": "Disabled for txt rebuild (no music category).",
+    "categories": [],
+    "name_patterns": [],
+    "case_sensitive_name_patterns": []
   },
   "event_filter": {
-    "comment": "Live-event channels are named after the match they carry. scripts/events/fixture_schedule.py resolves the kickoff time from TheSportsDB and stores it as event_start, and a channel is dropped once its fixture window has passed. A channel with no resolved kickoff is never removed, because a missing fixture is not evidence that the event finished.",
-    "enabled": true,
-    "durations": {
-      "Soccer": 2.0,
-      "Basketball": 2.5,
-      "American Football": 3.5,
-      "Motorsport": 3.0,
-      "Ice Hockey": 2.5,
-      "Fighting": 3.0
-    },
+    "comment": "TheSportsDB expiry stays off: live games are ordered by cached fixture kickoffs (event_start) and txt date hints, not by an external fixture lookup.",
+    "enabled": false,
+    "durations": {},
     "default_duration": 2.5
   },
   "exclude": {
-    "categories": ["regional", "business", "weather"],
+    "categories": [],
     "group_patterns": [
       "^live\\s*-\\s*baseball$",
       "^live\\s*-\\s*hockey$",
       "^live\\s*-\\s*racing$",
       "^live\\s*-\\s*tennis$",
       "^live\\s*-\\s*other\\s*events$",
+      "^live\\s*-\\s*basketball$",
       "^local\\s*news$"
     ],
     "name_patterns": [
       "\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]",
-      "\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]",
-      "\\bweather\\w*",
-      "\\baccuweather\\b",
-      "\\bmeteo\\b",
-      "\\bstorm\\s*team\\b",
-      "\\bfirst\\s*alert\\b",
-      "\\bbig\\s*brother\\s*(camera|quad|feed|house)\\b",
-      "\\bbb\\s*camera\\b",
-      "\\bbusiness\\b",
-      "\\bcnbc\\b",
-      "\\bbloomberg\\b",
-      "\\bnew\\s+york\\b",
-      "\\blos\\s+angeles\\b",
-      "\\bchicago\\b",
-      "\\bhouston\\b",
-      "\\bphoenix\\b",
-      "\\bphiladelphia\\b",
-      "\\bsan\\s+antonio\\b",
-      "\\bsan\\s+diego\\b",
-      "\\bdallas\\b",
-      "\\bsan\\s+jose\\b",
-      "\\baustin\\b",
-      "\\bjacksonville\\b",
-      "\\bcolumbus\\b",
-      "\\bcharlotte\\b",
-      "\\bindianapolis\\b",
-      "\\bseattle\\b",
-      "\\bdenver\\b",
-      "\\bboston\\b",
-      "\\bnashville\\b",
-      "\\bbaltimore\\b",
-      "\\bmiami\\b",
-      "\\batlanta\\b",
-      "\\bmilwaukee\\b",
-      "\\bportland\\b",
-      "\\blas\\s+vegas\\b",
-      "\\bdetroit\\b",
-      "\\bmemphis\\b",
-      "\\blouisville\\b",
-      "\\bsan\\s+francisco\\b",
-      "\\bminneapolis\\b",
-      "\\bnew\\s+orleans\\b",
-      "\\bpittsburgh\\b",
-      "\\bcleveland\\b",
-      "\\bst\\.?\\s*louis\\b",
-      "\\bkansas\\s+city\\b",
-      "\\btampa\\b",
-      "\\borlando\\b",
-      "\\bcharlotte\\b",
-      "\\blittleton\\b",
-      "\\bcerritos\\b",
-      "\\bphilly\\b",
-      "\\bsacramento\\b",
-      "\\bbay\\s+area\\b",
-      "\\bminnesota\\b",
-      "\\bcbs\\s+news\\s+colorado\\b"
+      "\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     ],
-    "channels": [
-      "fox-business",
-      "cnbc",
-      "cnbc-world",
-      "bloomberg-tv",
-      "al-arabiya-business",
-      "al-arabia-business"
-    ]
+    "channels": []
   }
 }

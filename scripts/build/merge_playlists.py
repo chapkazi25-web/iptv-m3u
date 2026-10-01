@@ -35,6 +35,11 @@ RAW_BASE_URL = "https://raw.githubusercontent.com/K-yzu/Logos/main"
 EPG_URL = "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 REPOSITORY = "https://github.com/chapkazi25-web/iptv-m3u"
 
+# Live leagues are listed after the base guide, grouped by league with each
+# league's match games in kickoff order (competition, real start time, then
+# txt date hint, then guide order). All other live entries keep lineup order.
+LIVE_CATEGORY_ORDER = ("nfl", "nba", "soccer")
+
 # A playlist URL is often the only thing a user ever sees, so the attribution
 # travels with the file rather than living only in the README. These are the
 # upstreams that actually publish the streams; this project only chooses which
@@ -77,6 +82,28 @@ class Candidate:
             "response_time_ms": health.response_time(self.identifier),
             "quality_rank": quality_rank(self.entry),
         }
+
+
+def live_sort_key(channel_id: str, catalog: ChannelCatalog) -> tuple[Any, ...]:
+    """Order a live-league channel: league, sub-block, kickoff, guide order."""
+    record = catalog.get(channel_id) or {}
+    league = str(record.get("live_league") or "")
+    return (
+        LIVE_CATEGORY_ORDER.index(league) if league in LIVE_CATEGORY_ORDER else len(LIVE_CATEGORY_ORDER),
+        int(record.get("live_suborder") or 0),
+        str(record.get("league_group") or ""),
+        str(record.get("event_start") or "~~~"),
+        str(record.get("event_hint") or "~~"),
+        int(record.get("live_order") or 0),
+        str(record.get("name", channel_id)).casefold(),
+        channel_id,
+    )
+
+
+def is_live_channel(channel_id: str, catalog: ChannelCatalog, default_category: str) -> bool:
+    record = catalog.get(channel_id) or {}
+    primary = str((record.get("categories") or [default_category])[0])
+    return primary in LIVE_CATEGORY_ORDER
 
 
 def entry_country(record: dict[str, Any], candidate: Candidate) -> str:
@@ -171,13 +198,20 @@ def build(root: Path, *, strict: bool = True) -> dict[str, Any]:
     selected_countries: dict[str, str] = {}
     index_channels: dict[str, Any] = {}
 
-    ordered_ids = sorted(
-        candidates_by_channel,
+    # Live leagues go last, grouped by league with games in kickoff order;
+    # the base guide keeps its alphabetical order and stable numbering.
+    base_ids = sorted(
+        (cid for cid in candidates_by_channel if not is_live_channel(cid, catalog, default_category)),
         key=lambda channel_id: (
             str(catalog.get(channel_id) or {}.get("name", channel_id)).casefold(),
             channel_id,
         ),
     )
+    live_ids = sorted(
+        (cid for cid in candidates_by_channel if is_live_channel(cid, catalog, default_category)),
+        key=lambda channel_id: live_sort_key(channel_id, catalog),
+    )
+    ordered_ids = base_ids + live_ids
     for channel_id in ordered_ids:
         record = catalog.get(channel_id)
         if record is None or not record.get("enabled", True):

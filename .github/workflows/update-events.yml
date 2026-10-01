@@ -2,10 +2,11 @@ name: Update Live Events
 
 on:
   schedule:
-    # Every 3 hours. The fixture schedule is resolved before each build so an
-    # event is dropped shortly after it finishes rather than when its stream
-    # happens to time out.
-    - cron: "25 */3 * * *"
+    # Daily, shortly after midnight UTC. Live games are a today-only guide:
+    # this refreshes the core source games, resolves today's fixture cache
+    # and rebuilds the catalog so new-day games appear and finished ones
+    # leave on the next pass.
+    - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,15 +31,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Resolve live-event kickoff times
-        # The schedule API rate limits aggressively, so the fetched days are
-        # cached and only the new ones are requested.
-        run: python scripts/events/fixture_schedule.py --days 7
+      - name: Fetch today's fixture cache
+        # Warms data/event-schedule.json for the current UTC day only. The
+        # schedule API rate limits aggressively, so only missing days are
+        # requested; the rebuild below matches games against today alone.
+        run: python scripts/events/fixture_schedule.py --days 0 --back 0
 
-      - name: Drop events that have finished
+      - name: Rebuild guide for today
         run: >-
-          python scripts/discover/build_catalog.py
-          && python scripts/build/merge_playlists.py
+          python scripts/discover/rebuild_from_tvguide.py
+          && python scripts/build/merge_playlists.py --allow-unmapped
           && python scripts/logos/apply_logos.py
 
       - name: Validate playlists
@@ -46,6 +48,6 @@ jobs:
 
       - name: Commit event state
         run: >-
-          python scripts/ci/commit_changes.py 'data: expire finished live events' --push
-          --regenerate "python scripts/discover/build_catalog.py && python scripts/build/merge_playlists.py && python scripts/logos/apply_logos.py"
-          data/channels.json data/event-schedule.json data/stream-index.json data/build-report.json playlists
+          python scripts/ci/commit_changes.py 'data: refresh today live games' --push
+          --regenerate "python scripts/discover/rebuild_from_tvguide.py && python scripts/build/merge_playlists.py --allow-unmapped && python scripts/logos/apply_logos.py"
+          data/channels.json data/categories.json data/event-schedule.json data/stream-index.json data/build-report.json playlists

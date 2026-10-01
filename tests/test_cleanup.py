@@ -37,6 +37,8 @@ class DisplayNameTests(unittest.TestCase):
 
 
 class EventExpiryTests(unittest.TestCase):
+    """Event filter is disabled for the txt rebuild (live events excluded)."""
+
     @classmethod
     def setUpClass(cls) -> None:
         cls.rules = load_event_filter(ROOT)
@@ -45,27 +47,14 @@ class EventExpiryTests(unittest.TestCase):
         start = datetime(2026, 9, 25, 20, 0, tzinfo=timezone.utc)
         return start + timedelta(hours=hours_from_start)
 
-    def test_event_is_kept_before_kickoff(self) -> None:
-        record = {"event_start": "2026-09-25T20:00:00+00:00", "event_sport": "Soccer"}
-        self.assertEqual(event_exclusion_reason(record, self.rules, self._at(-1)), "")
+    def test_filter_is_disabled(self) -> None:
+        self.assertFalse(self.rules.get("enabled"))
 
-    def test_event_is_kept_during_play(self) -> None:
+    def test_events_are_never_dropped_while_disabled(self) -> None:
         record = {"event_start": "2026-09-25T20:00:00+00:00", "event_sport": "Soccer"}
-        # Soccer window is 2 hours, so 1.5h in is still live.
-        self.assertEqual(event_exclusion_reason(record, self.rules, self._at(1.5)), "")
-
-    def test_event_is_dropped_after_its_window(self) -> None:
-        record = {"event_start": "2026-09-25T20:00:00+00:00", "event_sport": "Soccer"}
-        reason = event_exclusion_reason(record, self.rules, self._at(3))
-        self.assertTrue(reason.startswith("event-ended:"))
-
-    def test_american_football_gets_a_longer_window(self) -> None:
-        record = {"event_start": "2026-09-25T20:00:00+00:00", "event_sport": "American Football"}
-        # 3h in: past a soccer window, still inside the 3.5h football one.
-        self.assertEqual(event_exclusion_reason(record, self.rules, self._at(3)), "")
-        self.assertTrue(
-            event_exclusion_reason(record, self.rules, self._at(4)).startswith("event-ended:")
-        )
+        for hours in (-1, 1.5, 3, 99):
+            with self.subTest(hours=hours):
+                self.assertEqual(event_exclusion_reason(record, self.rules, self._at(hours)), "")
 
     def test_unresolved_event_is_never_removed(self) -> None:
         """No kickoff means no evidence the event finished."""
@@ -77,9 +66,9 @@ class EventExpiryTests(unittest.TestCase):
         record = {"event_start": "not-a-timestamp"}
         self.assertEqual(event_exclusion_reason(record, self.rules, self._at(99)), "")
 
-    def test_naive_timestamp_is_treated_as_utc(self) -> None:
+    def test_naive_timestamp_is_ignored_while_disabled(self) -> None:
         record = {"event_start": "2026-09-25T20:00:00", "event_sport": "Soccer"}
-        self.assertTrue(event_exclusion_reason(record, self.rules, self._at(3)).startswith("event-ended:"))
+        self.assertEqual(event_exclusion_reason(record, self.rules, self._at(3)), "")
 
 
 class FixtureParsingTests(unittest.TestCase):

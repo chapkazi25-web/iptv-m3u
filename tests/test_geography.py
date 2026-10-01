@@ -126,9 +126,7 @@ class CountryFilterTests(unittest.TestCase):
     def test_a_brand_word_inside_another_name_is_not_an_exemption(self) -> None:
         self.assertEqual(self._reason("Tracing the News", "de"), "country:DE")
 
-    def test_tanzania_is_excepted(self) -> None:
-        self.assertEqual(self._reason("TBC1", "tz", categories=["tanzania"]), "")
-        # The same channel outside its own category is not protected.
+    def test_tanzania_exception_removed_in_txt_rebuild(self) -> None:
         self.assertEqual(self._reason("TBC1", "tz", categories=["entertainment"]), "country:TZ")
 
     def test_the_reason_names_the_country(self) -> None:
@@ -290,6 +288,8 @@ class LocalFilterTests(unittest.TestCase):
 
 
 class RadioFilterTests(unittest.TestCase):
+    """Radio filter is disabled for the txt rebuild (no music category)."""
+
     @classmethod
     def setUpClass(cls) -> None:
         cls.rules = load_radio_filter(ROOT)
@@ -297,19 +297,19 @@ class RadioFilterTests(unittest.TestCase):
     def _reason(self, name, categories):
         return radio_exclusion_reason(name, categories, self.rules)
 
-    def test_radio_stations_are_removed_from_music(self) -> None:
+    def test_radio_filter_is_disabled(self) -> None:
         for name in ("Power Hit Radio", "Radio Italia Trend TV", "Melody FM", "CKNO-FM", "X 102.7 FM"):
             with self.subTest(name=name):
-                self.assertEqual(self._reason(name, ["music"]), "radio")
+                self.assertEqual(self._reason(name, ["entertainment"]), "")
 
     def test_music_video_channels_survive(self) -> None:
         for name in ("Vevo Rock", "Music Box Hits", "Clubbing TV", "MCM Top", "Trace Muzika"):
             with self.subTest(name=name):
-                self.assertEqual(self._reason(name, ["music"]), "")
+                self.assertEqual(self._reason(name, ["entertainment"]), "")
 
     def test_the_station_suffix_is_matched_case_sensitively(self) -> None:
         # "I Am ..." must not be read as an AM station.
-        self.assertEqual(self._reason("I Am Famous", ["music"]), "")
+        self.assertEqual(self._reason("I Am Famous", ["entertainment"]), "")
 
     def test_other_categories_are_untouched(self) -> None:
         self.assertEqual(self._reason("Power Hit Radio", ["news"]), "")
