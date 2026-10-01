@@ -28731,12 +28731,12 @@
       "quality_height": 1080,
       "not_24_7": false
     },
-    "basketball-las-vegas-aces-vs-indiana-fever-english-strmcntr": {
-      "name": "[Basketball] Las Vegas Aces vs. Indiana Fever | English (STRMCNTR)",
+    "basketball-atlanta-dream-vs-washington-mystics-english-strmcntr": {
+      "name": "[Basketball] Atlanta Dream vs. Washington Mystics | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Basketball] Las Vegas Aces vs. Indiana Fever | English (STRMCNTR)"
+        "[Basketball] Atlanta Dream vs. Washington Mystics | English (STRMCNTR)"
       ],
       "countries": [],
       "categories": [
@@ -28753,14 +28753,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\blas\\s+vegas\\b"
+      "excluded_by": "name:\\batlanta\\b"
     },
-    "basketball-minnesota-lynx-vs-new-york-liberty-english-strmcntr": {
-      "name": "[Basketball] Minnesota Lynx vs. New York Liberty | English (STRMCNTR)",
+    "basketball-golden-state-valkyries-vs-dallas-wings-english-strmcntr": {
+      "name": "[Basketball] Golden State Valkyries vs. Dallas Wings | English (STRMCNTR)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Basketball] Minnesota Lynx vs. New York Liberty | English (STRMCNTR)"
+        "[Basketball] Golden State Valkyries vs. Dallas Wings | English (STRMCNTR)"
       ],
       "countries": [],
       "categories": [
@@ -28777,7 +28777,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "excluded_by": "name:\\bdallas\\b"
     },
     "batam-tv-480p-not-24-7": {
       "name": "Batam TV [Not 24/7]",
@@ -37621,12 +37621,12 @@
       "not_24_7": false,
       "excluded_by": "country:SE"
     },
-    "bolivia-copa-aurora-vs-sa-bulo-bulo-fawa": {
-      "name": "[Bolivia Copa] Aurora vs SA Bulo Bulo (FAWA)",
+    "bolivia-copa-oriente-petrolero-vs-the-strongest-fawa": {
+      "name": "[Bolivia Copa] Oriente Petrolero vs The Strongest (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Bolivia Copa] Aurora vs SA Bulo Bulo (FAWA)"
+        "[Bolivia Copa] Oriente Petrolero vs The Strongest (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -37644,12 +37644,12 @@
       "enabled": true,
       "english": null
     },
-    "bolivia-copa-real-potosi-vs-academia-del-balompie-fawa": {
-      "name": "[Bolivia Copa] Real Potosi vs Academia del Balompie (FAWA)",
+    "bolivia-copa-tomayapo-vs-nacional-potosi-fawa": {
+      "name": "[Bolivia Copa] Tomayapo vs Nacional Potosi (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Bolivia Copa] Real Potosi vs Academia del Balompie (FAWA)"
+        "[Bolivia Copa] Tomayapo vs Nacional Potosi (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -39087,29 +39087,6 @@
       "source_refs": {
         "pluto-tv": [
           "bravo-vault"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "brazil-serie-b-botafogo-sp-vs-ponte-preta-fawa": {
-      "name": "[Brazil Serie B] Botafogo SP vs Ponte Preta (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Brazil Serie B] Botafogo SP vs Ponte Preta (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
         ]
       },
       "logo": "",
@@ -57674,12 +57651,12 @@
       "not_24_7": false,
       "excluded_by": "country:CL"
     },
-    "chile-copa-d-puerto-montt-vs-colo-colo-fawa": {
-      "name": "[Chile Copa] D Puerto Montt vs Colo Colo (FAWA)",
+    "chile-copa-d-concepcion-vs-ohiggins-fawa": {
+      "name": "[Chile Copa] D Concepcion vs OHiggins (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Chile Copa] D Puerto Montt vs Colo Colo (FAWA)"
+        "[Chile Copa] D Concepcion vs OHiggins (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -63879,35 +63856,12 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "colombia-primera-a-ind-medellin-vs-millonarios-fawa": {
-      "name": "[Colombia Primera A] Ind Medellin vs Millonarios (FAWA)",
+    "colombia-primera-a-atl-nacional-vs-junior-fawa": {
+      "name": "[Colombia Primera A] Atl Nacional vs Junior (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Colombia Primera A] Ind Medellin vs Millonarios (FAWA)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "colombia-primera-b-u-magdalena-vs-cartagena-fawa": {
-      "name": "[Colombia Primera B] U Magdalena vs Cartagena (FAWA)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Colombia Primera B] U Magdalena vs Cartagena (FAWA)"
+        "[Colombia Primera A] Atl Nacional vs Junior (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -65879,12 +65833,12 @@
       "quality_height": 720,
       "not_24_7": false
     },
-    "copa-chile-d-puerto-montt-vs-colo-colo-1-stp": {
-      "name": "[Copa Chile] D. Puerto Montt vs Colo Colo 1 (STP)",
+    "copa-chile-deportes-concepcion-vs-o-higgins-1-plibre": {
+      "name": "[Copa Chile] Deportes Concepción vs O'Higgins 1 (PLIBRE)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Copa Chile] D. Puerto Montt vs Colo Colo 1 (STP)"
+        "[Copa Chile] Deportes Concepción vs O'Higgins 1 (PLIBRE)"
       ],
       "countries": [],
       "categories": [
@@ -65902,12 +65856,35 @@
       "enabled": true,
       "english": null
     },
-    "copa-chile-d-puerto-montt-vs-colo-colo-tnt-sports-cl-strmxhd": {
-      "name": "[Copa Chile] D. Puerto Montt vs Colo Colo | TNT Sports CL (STRMXHD)",
+    "copa-chile-deportes-concepcion-vs-o-higgins-1-stp": {
+      "name": "[Copa Chile] Deportes Concepción vs O'Higgins 1 (STP)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Copa Chile] D. Puerto Montt vs Colo Colo | TNT Sports CL (STRMXHD)"
+        "[Copa Chile] Deportes Concepción vs O'Higgins 1 (STP)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-chile-deportes-concepcion-vs-o-higgins-tnt-sports-chile-strmxhd": {
+      "name": "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Chile (STRMXHD)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Chile (STRMXHD)"
       ],
       "countries": [],
       "categories": [
@@ -65925,12 +65902,12 @@
       "enabled": true,
       "english": null
     },
-    "copa-chile-puerto-montt-vs-colo-colo-tnt-sports-premiun-cl-hd-tvf90": {
-      "name": "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL HD (TVF90)",
+    "copa-chile-deportes-concepcion-vs-o-higgins-tnt-sports-premiun-cl-hd-tvf90": {
+      "name": "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Premiun CL HD (TVF90)",
       "quality_height": 720,
       "not_24_7": false,
       "aliases": [
-        "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL HD (TVF90)"
+        "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Premiun CL HD (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -65948,12 +65925,12 @@
       "enabled": true,
       "english": null
     },
-    "copa-chile-puerto-montt-vs-colo-colo-tnt-sports-premiun-cl-op2-tvf90": {
-      "name": "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL OP2 (TVF90)",
+    "copa-chile-deportes-concepcion-vs-o-higgins-tnt-sports-premiun-cl-op2-tvf90": {
+      "name": "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Premiun CL OP2 (TVF90)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL OP2 (TVF90)"
+        "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Premiun CL OP2 (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -65971,12 +65948,12 @@
       "enabled": true,
       "english": null
     },
-    "copa-chile-puerto-montt-vs-colo-colo-tnt-sports-premiun-cl-tvf90": {
-      "name": "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL (TVF90)",
+    "copa-chile-deportes-concepcion-vs-o-higgins-tnt-sports-premiun-cl-tvf90": {
+      "name": "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Premiun CL (TVF90)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Copa Chile] Puerto Montt vs Colo-Colo | TNT Sports Premiun CL (TVF90)"
+        "[Copa Chile] Deportes Concepción vs O'Higgins | TNT Sports Premiun CL (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -65994,12 +65971,12 @@
       "enabled": true,
       "english": null
     },
-    "copa-de-la-division-profesional-real-potosi-vs-abb-entel-tv-plus-tvf90": {
-      "name": "[Copa de la División Profesional] Real Potosí vs ABB | Entel TV PLUS+ (TVF90)",
+    "copa-paraguay-cerro-porteno-vs-rubio-nu-1-stp": {
+      "name": "[Copa Paraguay] Cerro Porteño vs Rubio Ñú 1 (STP)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Copa de la División Profesional] Real Potosí vs ABB | Entel TV PLUS+ (TVF90)"
+        "[Copa Paraguay] Cerro Porteño vs Rubio Ñú 1 (STP)"
       ],
       "countries": [],
       "categories": [
@@ -66023,6 +66000,29 @@
       "not_24_7": false,
       "aliases": [
         "[Copa Paraguay] Cerro Porteño vs Rubio Ñú | Tigo Sports (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "copa-paraguay-independiente-fbc-vs-nacional-asuncion-1-stp": {
+      "name": "[Copa Paraguay] Independiente FBC vs Nacional Asunción 1 (STP)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Copa Paraguay] Independiente FBC vs Nacional Asunción 1 (STP)"
       ],
       "countries": [],
       "categories": [
@@ -133988,6 +133988,52 @@
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
+    "liga-1-cienciano-vs-los-chankas-1-plibre": {
+      "name": "[Liga 1] Cienciano vs Los Chankas 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga 1] Cienciano vs Los Chankas 1 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-1-cienciano-vs-los-chankas-1-stp": {
+      "name": "[Liga 1] Cienciano vs Los Chankas 1 (STP)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga 1] Cienciano vs Los Chankas 1 (STP)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "liga-1-cienciano-vs-los-chankas-l1-max-strmxhd": {
       "name": "[Liga 1] Cienciano vs Los Chankas | L1 Max (STRMXHD)",
       "quality_height": null,
@@ -134011,12 +134057,12 @@
       "enabled": true,
       "english": null
     },
-    "liga-betplay-deportivo-pereira-vs-santa-fe-1-stp": {
-      "name": "[Liga BetPlay] Deportivo Pereira vs Santa Fe 1 (STP)",
-      "quality_height": null,
+    "liga-1-cienciano-vs-los-chankas-liga1max-hd-tvf90": {
+      "name": "[Liga 1] Cienciano vs Los Chankas | Liga1MAX | HD (TVF90)",
+      "quality_height": 720,
       "not_24_7": false,
       "aliases": [
-        "[Liga BetPlay] Deportivo Pereira vs Santa Fe 1 (STP)"
+        "[Liga 1] Cienciano vs Los Chankas | Liga1MAX | HD (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -134034,12 +134080,81 @@
       "enabled": true,
       "english": null
     },
-    "liga-betplay-medellin-vs-millonarios-1-stp": {
-      "name": "[Liga BetPlay] Medellín vs Millonarios 1 (STP)",
+    "liga-1-cienciano-vs-los-chankas-liga1max-op2-tvf90": {
+      "name": "[Liga 1] Cienciano vs Los Chankas | Liga1Max | OP2 (TVF90)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Liga BetPlay] Medellín vs Millonarios 1 (STP)"
+        "[Liga 1] Cienciano vs Los Chankas | Liga1Max | OP2 (TVF90)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-1-cienciano-vs-los-chankas-liga1max-op3-tvf90": {
+      "name": "[Liga 1] Cienciano vs Los Chankas | Liga1Max | OP3 (TVF90)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga 1] Cienciano vs Los Chankas | Liga1Max | OP3 (TVF90)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-1-cienciano-vs-los-chankas-liga1max-tvf90": {
+      "name": "[Liga 1] Cienciano vs Los Chankas | Liga1MAX (TVF90)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga 1] Cienciano vs Los Chankas | Liga1MAX (TVF90)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "liga-betplay-atletico-nacional-vs-junior-1-stp": {
+      "name": "[Liga BetPlay] Atlético Nacional vs Junior 1 (STP)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Liga BetPlay] Atlético Nacional vs Junior 1 (STP)"
       ],
       "countries": [],
       "categories": [
@@ -134080,52 +134195,6 @@
       "enabled": true,
       "english": null
     },
-    "liga-colombia-deportivo-pereira-vs-santa-fe-win-sports-strmxhd": {
-      "name": "[Liga Colombia] Deportivo Pereira vs Santa Fe | Win Sports + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga Colombia] Deportivo Pereira vs Santa Fe | Win Sports + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-colombia-medellin-vs-millonarios-win-sports-strmxhd": {
-      "name": "[Liga Colombia] Medellín vs Millonarios | Win Sports + (STRMXHD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga Colombia] Medellín vs Millonarios | Win Sports + (STRMXHD)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
     "liga-de-campeones-por-movistar-plus": {
       "name": "Liga de Campeones por Movistar Plus+",
       "aliases": [
@@ -134149,857 +134218,6 @@
       "quality_height": null,
       "not_24_7": false,
       "excluded_by": "country:ES"
-    },
-    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Anguila vs Aruba 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-fox-sports-2-usa-op2-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA | OP2 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA | OP2 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-anguila-vs-aruba-fox-sports-2-usa-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Anguila vs Aruba | Fox Sports 2 USA (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-fox-sports-2-usa-op2-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas | Fox Sports 2 USA | OP2 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas | Fox Sports 2 USA | OP2 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-belice-vs-san-vicente-granadinas-fox-sports-2-usa-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas | Fox Sports 2 USA (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Belice vs San Vicente / Granadinas | Fox Sports 2 USA (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-plibre": {
-      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-fox-sports-2-usa-op2-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA | OP2 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA | OP2 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-guayana-francesa-vs-sint-maarten-fox-sports-2-usa-tvf90": {
-      "name": "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Guayana Francesa vs Sint Maarten | Fox Sports 2 USA (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-concacaf-islas-virgenes-britanicas-vs-islas-turcas-y-caicos-1-stp": {
-      "name": "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la CONCACAF] Islas Vírgenes Británicas vs Islas Turcas y Caicos 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-bulgaria-vs-estonia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Bulgaria vs Estonia 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Bulgaria vs Estonia 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-bulgaria-vs-estonia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Bulgaria vs Estonia 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Bulgaria vs Estonia 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-escocia-vs-suiza-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Escocia vs Suiza 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Escocia vs Suiza 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-escocia-vs-suiza-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Escocia vs Suiza 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Escocia vs Suiza 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-eslovaquia-vs-kazajstan-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Eslovaquia vs Kazajstán 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Eslovaquia vs Kazajstán 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-eslovaquia-vs-kazajstan-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Eslovaquia vs Kazajstán 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Eslovaquia vs Kazajstán 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-eslovenia-vs-macedonia-del-norte-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-eslovenia-vs-macedonia-del-norte-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-eslovenia-vs-macedonia-del-norte-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 3 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Eslovenia vs Macedonia del Norte 3 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-espana-vs-croacia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] España vs Croacia 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] España vs Croacia 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-espana-vs-croacia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] España vs Croacia 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] España vs Croacia 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-espana-vs-croacia-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] España vs Croacia 3 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] España vs Croacia 3 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-espana-vs-croacia-4-stp": {
-      "name": "[Liga de Naciones de la UEFA] España vs Croacia 4 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] España vs Croacia 4 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-finlandia-vs-bielorrusia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Finlandia vs Bielorrusia 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Finlandia vs Bielorrusia 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-finlandia-vs-bielorrusia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Finlandia vs Bielorrusia 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Finlandia vs Bielorrusia 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-luxemburgo-vs-islandia-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-luxemburgo-vs-islandia-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-luxemburgo-vs-islandia-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 3 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Luxemburgo vs Islandia 3 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-moldavia-vs-islas-feroe-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] Moldavia vs Islas Feroe 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] Moldavia vs Islas Feroe 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-republica-checa-vs-inglaterra-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-republica-checa-vs-inglaterra-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-republica-checa-vs-inglaterra-3-stp": {
-      "name": "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 3 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] República Checa vs Inglaterra 3 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-san-marino-vs-albania-1-stp": {
-      "name": "[Liga de Naciones de la UEFA] San Marino vs Albania 1 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] San Marino vs Albania 1 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "liga-de-naciones-de-la-uefa-san-marino-vs-albania-2-stp": {
-      "name": "[Liga de Naciones de la UEFA] San Marino vs Albania 2 (STP)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Liga de Naciones de la UEFA] San Marino vs Albania 2 (STP)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
     },
     "liga-uruguay-torque-vs-penarol-disney-strmxhd": {
       "name": "[Liga Uruguay] Torque vs Peñarol | Disney + (STRMXHD)",
@@ -148018,12 +147236,132 @@
       "quality_height": 720,
       "not_24_7": false
     },
+    "mls-league-new-york-red-bulls-vs-st-louis-city-2-fawa": {
+      "name": "[MLS League] New York Red Bulls vs St Louis City 2 (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS League] New York Red Bulls vs St Louis City 2 (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "mls-league-new-york-red-bulls-vs-st-louis-city-fawa": {
+      "name": "[MLS League] New York Red Bulls vs St Louis City (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS League] New York Red Bulls vs St Louis City (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "mls-new-york-rb-vs-st-louis-city-1-stp": {
+      "name": "[MLS] New York RB vs St. Louis City 1 (STP)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] New York RB vs St. Louis City 1 (STP)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
     "mls-new-york-rb-vs-st-louis-city-apple-tv-espanol-strmxhd": {
       "name": "[MLS] New York RB vs St. Louis City | Apple TV Español (STRMXHD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
         "[MLS] New York RB vs St. Louis City | Apple TV Español (STRMXHD)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "mls-red-bull-new-york-vs-st-louis-city-sc-damitv": {
+      "name": "[MLS] Red Bull New York vs. St. Louis CITY SC (DAMITV)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] Red Bull New York vs. St. Louis CITY SC (DAMITV)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\bnew\\s+york\\b"
+    },
+    "mls-st-louis-city-sc-vs-red-bull-new-york-english-strmgate": {
+      "name": "[MLS] St. Louis CITY SC vs Red Bull New York | English (STRMGATE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[MLS] St. Louis CITY SC vs Red Bull New York | English (STRMGATE)"
       ],
       "countries": [],
       "categories": [
@@ -174635,6 +173973,29 @@
       "not_24_7": false,
       "excluded_by": "name:\\[\\s*geo[\\s-]*block(?:ed)?\\s*\\]"
     },
+    "paraguay-copa-cerro-porteno-vs-rubio-nu-fawa": {
+      "name": "[Paraguay Copa] Cerro Porteno vs Rubio Nu (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Paraguay Copa] Cerro Porteno vs Rubio Nu (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "paraguay-tv-1080p": {
       "name": "Paraguay TV",
       "aliases": [
@@ -192054,12 +191415,58 @@
       "not_24_7": false,
       "excluded_by": "country:BR"
     },
-    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-hd-tvf90": {
-      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | HD (TVF90)",
+    "primera-a-atletico-nacional-vs-junior-1-plibre": {
+      "name": "[Primera A] Atlético Nacional vs Junior 1 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Primera A] Atlético Nacional vs Junior 1 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "primera-a-atletico-nacional-vs-junior-2-plibre": {
+      "name": "[Primera A] Atlético Nacional vs Junior 2 (PLIBRE)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Primera A] Atlético Nacional vs Junior 2 (PLIBRE)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
+    "primera-a-atletico-nacional-vs-junior-win-sports-hd-tvf90": {
+      "name": "[Primera A] Atlético Nacional vs Junior | Win Sports + | HD (TVF90)",
       "quality_height": 720,
       "not_24_7": false,
       "aliases": [
-        "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | HD (TVF90)"
+        "[Primera A] Atlético Nacional vs Junior | Win Sports + | HD (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -192077,12 +191484,12 @@
       "enabled": true,
       "english": null
     },
-    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-op2-tvf90": {
-      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | OP2 (TVF90)",
+    "primera-a-atletico-nacional-vs-junior-win-sports-op2-tvf90": {
+      "name": "[Primera A] Atlético Nacional vs Junior | Win Sports + | OP2 (TVF90)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | OP2 (TVF90)"
+        "[Primera A] Atlético Nacional vs Junior | Win Sports + | OP2 (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -192100,12 +191507,12 @@
       "enabled": true,
       "english": null
     },
-    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-op3-tvf90": {
-      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | OP3 (TVF90)",
+    "primera-a-atletico-nacional-vs-junior-win-sports-op3-tvf90": {
+      "name": "[Primera A] Atlético Nacional vs Junior | Win Sports + | OP3 (TVF90)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + | OP3 (TVF90)"
+        "[Primera A] Atlético Nacional vs Junior | Win Sports + | OP3 (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -192123,12 +191530,12 @@
       "enabled": true,
       "english": null
     },
-    "primera-a-deportivo-pereira-vs-santa-fe-win-sports-tvf90": {
-      "name": "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + (TVF90)",
+    "primera-a-atletico-nacional-vs-junior-win-sports-tvf90": {
+      "name": "[Primera A] Atlético Nacional vs Junior | Win Sports + (TVF90)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Primera A] Deportivo Pereira vs Santa Fe | Win Sports + (TVF90)"
+        "[Primera A] Atlético Nacional vs Junior | Win Sports + (TVF90)"
       ],
       "countries": [],
       "categories": [
@@ -192146,12 +191553,12 @@
       "enabled": true,
       "english": null
     },
-    "primera-a-medellin-vs-millonarios-1-plibre": {
-      "name": "[Primera A] Medellín vs Millonarios 1 (PLIBRE)",
+    "primera-division-torque-vs-penarol-1-plibre": {
+      "name": "[Primera División] Torque vs Peñarol 1 (PLIBRE)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Primera A] Medellín vs Millonarios 1 (PLIBRE)"
+        "[Primera División] Torque vs Peñarol 1 (PLIBRE)"
       ],
       "countries": [],
       "categories": [
@@ -192169,242 +191576,12 @@
       "enabled": true,
       "english": null
     },
-    "primera-a-medellin-vs-millonarios-2-plibre": {
-      "name": "[Primera A] Medellín vs Millonarios 2 (PLIBRE)",
+    "primera-division-torque-vs-penarol-1-stp": {
+      "name": "[Primera División] Torque vs Peñarol 1 (STP)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[Primera A] Medellín vs Millonarios 2 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-a-medellin-vs-millonarios-win-sports-hd-tvf90": {
-      "name": "[Primera A] Medellín vs Millonarios | Win Sports + | HD (TVF90)",
-      "quality_height": 720,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera A] Medellín vs Millonarios | Win Sports + | HD (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-a-medellin-vs-millonarios-win-sports-op2-tvf90": {
-      "name": "[Primera A] Medellín vs Millonarios | Win Sports + | OP2 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera A] Medellín vs Millonarios | Win Sports + | OP2 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-a-medellin-vs-millonarios-win-sports-op3-tvf90": {
-      "name": "[Primera A] Medellín vs Millonarios | Win Sports + | OP3 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera A] Medellín vs Millonarios | Win Sports + | OP3 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-a-medellin-vs-millonarios-win-sports-tvf90": {
-      "name": "[Primera A] Medellín vs Millonarios | Win Sports + (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera A] Medellín vs Millonarios | Win Sports + (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-b-union-magdalena-vs-real-cartagena-1-plibre": {
-      "name": "[Primera B] Unión Magdalena vs Real Cartagena 1 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera B] Unión Magdalena vs Real Cartagena 1 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-b-union-magdalena-vs-real-cartagena-2-plibre": {
-      "name": "[Primera B] Unión Magdalena vs Real Cartagena 2 (PLIBRE)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera B] Unión Magdalena vs Real Cartagena 2 (PLIBRE)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-b-union-magdalena-vs-real-cartagena-win-sports-hd-tvf90": {
-      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | HD (TVF90)",
-      "quality_height": 720,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | HD (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-b-union-magdalena-vs-real-cartagena-win-sports-op2-tvf90": {
-      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | OP2 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | OP2 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-b-union-magdalena-vs-real-cartagena-win-sports-op3-tvf90": {
-      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | OP3 (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports + | OP3 (TVF90)"
-      ],
-      "countries": [],
-      "categories": [
-        "soccer"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "Soccer.Dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": true,
-      "english": null
-    },
-    "primera-b-union-magdalena-vs-real-cartagena-win-sports-tvf90": {
-      "name": "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports (TVF90)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[Primera B] Unión Magdalena vs Real Cartagena | Win Sports (TVF90)"
+        "[Primera División] Torque vs Peñarol 1 (STP)"
       ],
       "countries": [],
       "categories": [
@@ -275770,6 +274947,29 @@
       "not_24_7": false,
       "excluded_by": "country:ES"
     },
+    "uruguay-liga-auf-montevideo-city-vs-penarol-fawa": {
+      "name": "[Uruguay Liga AUF] Montevideo City vs Penarol (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[Uruguay Liga AUF] Montevideo City vs Penarol (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "soccer"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "Soccer.Dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": true,
+      "english": null
+    },
     "usa-network": {
       "name": "USA Network",
       "aliases": [
@@ -285734,6 +284934,30 @@
       "not_24_7": true,
       "excluded_by": "name:\\[\\s*not\\s*24\\s*/\\s*7\\s*\\]"
     },
+    "wnba-atlanta-dream-vs-washington-mystics-damitv": {
+      "name": "[WNBA] Atlanta Dream vs. Washington Mystics (DAMITV)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA] Atlanta Dream vs. Washington Mystics (DAMITV)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\batlanta\\b"
+    },
     "wnba-atlanta-dream-vs-washington-mystics-espn-2-strmxhd": {
       "name": "[WNBA] Atlanta Dream vs Washington Mystics | ESPN 2 (STRMXHD)",
       "quality_height": null,
@@ -285758,12 +284982,12 @@
       "english": null,
       "excluded_by": "name:\\batlanta\\b"
     },
-    "wnba-basketball-indiana-fever-w-vs-las-vegas-aces-w-1-fawa": {
-      "name": "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 1 (FAWA)",
+    "wnba-atlanta-dream-vs-washington-mystics-flyembd": {
+      "name": "[WNBA] Atlanta Dream vs Washington Mystics (FLYEMBD)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 1 (FAWA)"
+        "[WNBA] Atlanta Dream vs Washington Mystics (FLYEMBD)"
       ],
       "countries": [],
       "categories": [
@@ -285780,14 +285004,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\blas\\s+vegas\\b"
+      "excluded_by": "name:\\batlanta\\b"
     },
-    "wnba-basketball-indiana-fever-w-vs-las-vegas-aces-w-2-fawa": {
-      "name": "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 2 (FAWA)",
+    "wnba-atlanta-dream-vs-washington-mystics-strmfree": {
+      "name": "[WNBA] Atlanta Dream vs Washington Mystics (STRMFREE)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA Basketball] Indiana Fever W vs Las Vegas Aces W 2 (FAWA)"
+        "[WNBA] Atlanta Dream vs Washington Mystics (STRMFREE)"
       ],
       "countries": [],
       "categories": [
@@ -285804,14 +285028,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\blas\\s+vegas\\b"
+      "excluded_by": "name:\\batlanta\\b"
     },
-    "wnba-basketball-new-york-liberty-w-vs-minnesota-lynx-w-1-fawa": {
-      "name": "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 1 (FAWA)",
+    "wnba-basketball-dallas-wings-w-vs-golden-state-valkyries-w-2-fawa": {
+      "name": "[WNBA Basketball] Dallas Wings W vs Golden State Valkyries W 2 (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 1 (FAWA)"
+        "[WNBA Basketball] Dallas Wings W vs Golden State Valkyries W 2 (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -285828,14 +285052,14 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "excluded_by": "name:\\bdallas\\b"
     },
-    "wnba-basketball-new-york-liberty-w-vs-minnesota-lynx-w-2-fawa": {
-      "name": "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 2 (FAWA)",
+    "wnba-basketball-dallas-wings-w-vs-golden-state-valkyries-w-fawa": {
+      "name": "[WNBA Basketball] Dallas Wings W vs Golden State Valkyries W (FAWA)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA Basketball] New York Liberty W vs Minnesota Lynx W 2 (FAWA)"
+        "[WNBA Basketball] Dallas Wings W vs Golden State Valkyries W (FAWA)"
       ],
       "countries": [],
       "categories": [
@@ -285852,7 +285076,55 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "excluded_by": "name:\\bdallas\\b"
+    },
+    "wnba-basketball-washington-mystics-w-vs-atlanta-dream-w-1-fawa": {
+      "name": "[WNBA Basketball] Washington Mystics W vs Atlanta Dream W 1 (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA Basketball] Washington Mystics W vs Atlanta Dream W 1 (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\batlanta\\b"
+    },
+    "wnba-basketball-washington-mystics-w-vs-atlanta-dream-w-2-fawa": {
+      "name": "[WNBA Basketball] Washington Mystics W vs Atlanta Dream W 2 (FAWA)",
+      "quality_height": null,
+      "not_24_7": false,
+      "aliases": [
+        "[WNBA Basketball] Washington Mystics W vs Atlanta Dream W 2 (FAWA)"
+      ],
+      "countries": [],
+      "categories": [
+        "nba"
+      ],
+      "sources": [
+        "core"
+      ],
+      "source_refs": {
+        "core": [
+          "WNBA.dummy.us"
+        ]
+      },
+      "logo": "",
+      "enabled": false,
+      "english": null,
+      "excluded_by": "name:\\batlanta\\b"
     },
     "wnba-golden-state-valkyries-vs-dallas-wings-espn-2-strmxhd": {
       "name": "[WNBA] Golden State Valkyries vs Dallas Wings | ESPN 2 (STRMXHD)",
@@ -285878,12 +285150,12 @@
       "english": null,
       "excluded_by": "name:\\bdallas\\b"
     },
-    "wnba-minnesota-lynx-vs-new-york-liberty-strmfree": {
-      "name": "[WNBA] Minnesota Lynx vs New York Liberty (STRMFREE)",
+    "wnba-washington-mystics-vs-atlanta-dream-istrmeast": {
+      "name": "[WNBA] Washington Mystics vs Atlanta Dream (iSTRMEAST)",
       "quality_height": null,
       "not_24_7": false,
       "aliases": [
-        "[WNBA] Minnesota Lynx vs New York Liberty (STRMFREE)"
+        "[WNBA] Washington Mystics vs Atlanta Dream (iSTRMEAST)"
       ],
       "countries": [],
       "categories": [
@@ -285900,55 +285172,7 @@
       "logo": "",
       "enabled": false,
       "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
-    },
-    "wnba-new-york-liberty-vs-minnesota-lynx-flyembd": {
-      "name": "[WNBA] New York Liberty vs Minnesota Lynx (FLYEMBD)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[WNBA] New York Liberty vs Minnesota Lynx (FLYEMBD)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "WNBA.dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
-    },
-    "wnba-new-york-liberty-vs-minnesota-lynx-watchfty": {
-      "name": "[WNBA] New York Liberty vs Minnesota Lynx (WATCHFTY)",
-      "quality_height": null,
-      "not_24_7": false,
-      "aliases": [
-        "[WNBA] New York Liberty vs Minnesota Lynx (WATCHFTY)"
-      ],
-      "countries": [],
-      "categories": [
-        "nba"
-      ],
-      "sources": [
-        "core"
-      ],
-      "source_refs": {
-        "core": [
-          "WNBA.dummy.us"
-        ]
-      },
-      "logo": "",
-      "enabled": false,
-      "english": null,
-      "excluded_by": "name:\\bnew\\s+york\\b"
+      "excluded_by": "name:\\batlanta\\b"
     },
     "women-s-sports-network": {
       "name": "Women's Sports Network",
