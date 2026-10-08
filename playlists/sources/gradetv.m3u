@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="DodomaTV.tz" tvg-name="Dodoma TV" tvg-logo="https://gradetv.net/logos/DodomaTV.tz" tvg-country="TZ" group-title="entertainment",Dodoma TV
+https://m3m8.gradetv.net/api/s/DodomaTV.tz%3ASD%3A5752.m3u8
 #EXTINF:-1 tvg-id="IBNTV.tz" tvg-name="IBN TV" tvg-logo="https://gradetv.net/logos/IBNTV.tz" tvg-country="TZ" group-title="documentary",IBN TV
 https://m3m8.gradetv.net/api/s/IBNTV.tz%3ASD%3A7531.m3u8
 #EXTINF:-1 tvg-id="IBNTVAfrica.tz" tvg-name="IBN TV Africa" tvg-logo="https://gradetv.net/logos/IBNTVAfrica.tz" tvg-country="TZ" group-title="documentary",IBN TV Africa
@@ -14,7 +16,7 @@ https://m3m8.gradetv.net/api/s/TraceAfrikora.fr%3ASD%3A15061.m3u8
 #EXTINF:-1 tvg-id="TraceAyiti.fr" tvg-name="Trace Ayiti" tvg-logo="https://gradetv.net/logos/TraceAyiti.fr" tvg-country="FR" group-title="music",Trace Ayiti
 https://m3m8.gradetv.net/api/s/TraceAyiti.fr%3ASD%3A15062.m3u8
 #EXTINF:-1 tvg-id="TraceBrazuca.fr" tvg-name="Trace Brazuca" tvg-logo="https://gradetv.net/logos/TraceBrazuca.fr" tvg-country="FR" group-title="music",Trace Brazuca
-https://m3m8.gradetv.net/api/s/TraceBrazuca.fr%3ASD%3A15065.m3u8
+https://m3m8.gradetv.net/api/s/TraceBrazuca.fr%3AHD%3A15063.m3u8
 #EXTINF:-1 tvg-id="TraceCaribbean.fr" tvg-name="Trace Caribbean" tvg-logo="https://gradetv.net/logos/TraceCaribbean.fr" tvg-country="FR" group-title="music",Trace Caribbean
 https://m3m8.gradetv.net/api/s/TraceCaribbean.fr%3ASD%3A15066.m3u8
 #EXTINF:-1 tvg-id="TraceGospel.fr" tvg-name="Trace Gospel" tvg-logo="https://gradetv.net/logos/TraceGospel.fr" tvg-country="FR" group-title="music",Trace Gospel
