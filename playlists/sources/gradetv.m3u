@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="DodomaTV.tz" tvg-name="Dodoma TV" tvg-logo="https://gradetv.net/logos/DodomaTV.tz" tvg-country="TZ" group-title="entertainment",Dodoma TV
-https://m3m8.gradetv.net/api/s/DodomaTV.tz%3ASD%3A5752.m3u8
 #EXTINF:-1 tvg-id="IBNTV.tz" tvg-name="IBN TV" tvg-logo="https://gradetv.net/logos/IBNTV.tz" tvg-country="TZ" group-title="documentary",IBN TV
 https://m3m8.gradetv.net/api/s/IBNTV.tz%3ASD%3A7531.m3u8
 #EXTINF:-1 tvg-id="IBNTVAfrica.tz" tvg-name="IBN TV Africa" tvg-logo="https://gradetv.net/logos/IBNTVAfrica.tz" tvg-country="TZ" group-title="documentary",IBN TV Africa
