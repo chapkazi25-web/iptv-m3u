@@ -1,20 +1,11 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-10-19 08:01 UTC
+## Playlist Log @ 2026-10-19 15:48 UTC
 
-### ✅ Active Streams: 205
-❌ Dead Streams: 6
+### ✅ Active Streams: 206
+❌ Dead Streams: 0
 
-_Skipped 325 dead live-event streams — event links expire when the match ends._
-
-| Channel | Category | Error (Code) |
-| --- | --- | --- |
-| [Animal Planet](http://23.237.104.106:8080/USA_ANIMAL_PLANET/index.m3u8) | Documentary & Reality | HTTP Error (404) |
-| [BBC America](http://23.237.104.106:8080/USA_BBC_AMERICA/index.m3u8) | Entertainment | HTTP Error (404) |
-| [CW](http://23.237.104.106:8080/USA_WGN/index.m3u8) | Entertainment | Timeout |
-| [Boomerang](http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8) | Kids & Family | Timeout |
-| [MTV](http://23.237.104.106:8080/USA_MTV/index.m3u8) | Music | HTTP Error (404) |
-| [NewsNation](https://cache0.wonvt.st/live/1p9okc609o1gm607y3qdf/master.m3u8) | News & Weather | HTTP Error (502) |
+_Skipped 202 dead live-event streams — event links expire when the match ends._
 
 ---
 
@@ -29,12 +20,13 @@ _Skipped 325 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 18 |
 | Entertainment | 47 |
 | Kids & Family | 10 |
-| Live - American Football | 69 |
-| Live - Baseball | 9 |
-| Live - Hockey | 12 |
-| Live - Other Events | 54 |
-| Live - Soccer | 203 |
-| Live - Tennis | 1 |
+| Live - American Football | 10 |
+| Live - Baseball | 8 |
+| Live - Basketball | 1 |
+| Live - Hockey | 8 |
+| Live - Other Events | 72 |
+| Live - Racing | 2 |
+| Live - Soccer | 119 |
 | Movies & Premium | 24 |
 | Music | 5 |
 | News & Weather | 31 |
