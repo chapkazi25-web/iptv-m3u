@@ -1,11 +1,11 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-10-20 18:37 UTC
+## Playlist Log @ 2026-10-20 23:18 UTC
 
-### ✅ Active Streams: 243
+### ✅ Active Streams: 245
 ❌ Dead Streams: 1
 
-_Skipped 408 dead live-event streams — event links expire when the match ends._
+_Skipped 319 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
@@ -24,14 +24,12 @@ _Skipped 408 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 18 |
 | Entertainment | 48 |
 | Kids & Family | 10 |
-| Live - American Football | 6 |
+| Live - American Football | 7 |
 | Live - Baseball | 1 |
-| Live - Basketball | 6 |
-| Live - Hockey | 25 |
-| Live - Other Events | 301 |
-| Live - Racing | 2 |
+| Live - Basketball | 8 |
+| Live - Hockey | 49 |
+| Live - Other Events | 190 |
 | Live - Soccer | 121 |
-| Live - Tennis | 1 |
 | Movies & Premium | 24 |
 | Music | 5 |
 | News & Weather | 31 |
