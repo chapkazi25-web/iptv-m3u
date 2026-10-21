@@ -1,15 +1,15 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-10-20 23:18 UTC
+## Playlist Log @ 2026-10-21 07:54 UTC
 
-### ✅ Active Streams: 245
+### ✅ Active Streams: 224
 ❌ Dead Streams: 1
 
-_Skipped 319 dead live-event streams — event links expire when the match ends._
+_Skipped 392 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [ESPN Deportes](http://186.33.0.101:4430/play/espnhd/index.m3u8) | Sports | HTTP Error (404) |
+| [Nicktoons](http://41.205.93.154/NICKTOONS/index.m3u8) | Kids & Family | HTTP Error (404) |
 
 ---
 
@@ -26,10 +26,10 @@ _Skipped 319 dead live-event streams — event links expire when the match ends.
 | Kids & Family | 10 |
 | Live - American Football | 7 |
 | Live - Baseball | 1 |
-| Live - Basketball | 8 |
-| Live - Hockey | 49 |
-| Live - Other Events | 190 |
-| Live - Soccer | 121 |
+| Live - Basketball | 7 |
+| Live - Hockey | 68 |
+| Live - Other Events | 202 |
+| Live - Soccer | 143 |
 | Movies & Premium | 24 |
 | Music | 5 |
 | News & Weather | 31 |
