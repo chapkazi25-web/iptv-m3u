@@ -1,17 +1,17 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-10-21 18:49 UTC
+## Playlist Log @ 2026-10-21 23:32 UTC
 
-### ✅ Active Streams: 252
+### ✅ Active Streams: 240
 ❌ Dead Streams: 3
 
-_Skipped 395 dead live-event streams — event links expire when the match ends._
+_Skipped 414 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (404) |
-| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (404) |
-| [ESPN Deportes](http://186.33.0.101:4430/play/espnhd/index.m3u8) | Sports | HTTP Error (404) |
+| [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
 
 ---
 
@@ -23,16 +23,16 @@ _Skipped 395 dead live-event streams — event links expire when the match ends.
 
 | Category | Channels |
 | --- | ---: |
-| Documentary & Reality | 21 |
+| Documentary & Reality | 20 |
 | Entertainment | 47 |
-| Kids & Family | 12 |
-| Live - American Football | 2 |
+| Kids & Family | 11 |
+| Live - American Football | 4 |
 | Live - Baseball | 1 |
-| Live - Basketball | 20 |
-| Live - Hockey | 13 |
-| Live - Other Events | 250 |
-| Live - Racing | 2 |
-| Live - Soccer | 169 |
+| Live - Basketball | 28 |
+| Live - Hockey | 19 |
+| Live - Other Events | 243 |
+| Live - Soccer | 170 |
+| Live - Tennis | 1 |
 | Movies & Premium | 24 |
 | Music | 5 |
 | News & Weather | 31 |
