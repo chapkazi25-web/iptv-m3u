@@ -1,20 +1,17 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-10-21 14:02 UTC
+## Playlist Log @ 2026-10-21 18:49 UTC
 
-### ✅ Active Streams: 206
-❌ Dead Streams: 6
+### ✅ Active Streams: 252
+❌ Dead Streams: 3
 
-_Skipped 346 dead live-event streams — event links expire when the match ends._
+_Skipped 395 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
-| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (403) |
-| [CBS Sports Golazo Network](https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8) | Sports | Timeout |
+| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (404) |
+| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (404) |
+| [ESPN Deportes](http://186.33.0.101:4430/play/espnhd/index.m3u8) | Sports | HTTP Error (404) |
 
 ---
 
@@ -27,14 +24,15 @@ _Skipped 346 dead live-event streams — event links expire when the match ends.
 | Category | Channels |
 | --- | ---: |
 | Documentary & Reality | 21 |
-| Entertainment | 48 |
+| Entertainment | 47 |
 | Kids & Family | 12 |
-| Live - American Football | 1 |
-| Live - Basketball | 12 |
-| Live - Hockey | 4 |
-| Live - Other Events | 192 |
+| Live - American Football | 2 |
+| Live - Baseball | 1 |
+| Live - Basketball | 20 |
+| Live - Hockey | 13 |
+| Live - Other Events | 250 |
 | Live - Racing | 2 |
-| Live - Soccer | 153 |
+| Live - Soccer | 169 |
 | Movies & Premium | 24 |
 | Music | 5 |
 | News & Weather | 31 |
