@@ -1,20 +1,23 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-10-25 13:18 UTC
+## Playlist Log @ 2026-10-25 17:46 UTC
 
-### ✅ Active Streams: 226
-❌ Dead Streams: 6
+### ✅ Active Streams: 262
+❌ Dead Streams: 9
 
-_Skipped 695 dead live-event streams — event links expire when the match ends._
+_Skipped 896 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [MSG](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTI5NDQwMDcwMTU6Y2RubGl2ZXR2LnR2OmI0ZTNkOWIzMTI2YmVmZGMuNDk5MDc3MTQyZDQ1ZDkxZDYzYzc3ZjU2NzAwNTFiZjlkZTQ5M2Q2MmEwMTNiNTY3MmJiMzkxYzk3MDk0NTFkNw) | Sports | HTTP Error (503) |
-| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTI5NDQwMDc0MjM6Y2RubGl2ZXR2LnR2OjI5MmJmNDQzYTQ0YzkyMDEuZGU2OGE1YmQ1ZjZmYzc2YjY5OWUzNTdmMzk4MWZkZTQyNmQ0YTZkZTk5ODhhODkyNDRmNjVmNmJmNDg0Y2FmMQ) | Sports | HTTP Error (503) |
-| [Sky Sports Racing](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTI5NDQwMDg5NTY6Y2RubGl2ZXR2LnR2OmEwY2NhZDkxMWI2ZjZmZmMuMDdjMWMxZTNmMzUwNDg3NzFiODdlZmRkY2I3ODAxNzNjM2Q3NDI3NjRlY2U2OWRhYzcwYzcwYTMwOTMwYTE1Ng) | Sports | HTTP Error (503) |
-| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTI5NDQwMTAzOTI6Y2RubGl2ZXR2LnR2OjMzMWE1YmQ5NTNiOTZlYmQuNTllMGM4NmViYTMxMWJhOGE4OWVhZDRhYmM1OThjYTFhYjc0MWQ5ZmE1NThhMGU0NzUxNWNmOWQ0ZGUyZDIyNQ) | Sports | HTTP Error (503) |
-| [TSN 2](https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3a/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNhOjE3OTI5NDQwMTA4MDY6Y2RubGl2ZXR2LnR2OjE5YzEyY2UwYWRiMzM2NWEuYmMwNmE3Mzg2MGVkOGViN2U2Mzc3YmJkMGY2ZjQ5MzM3OWQ2MmM1MTMzYTRlZDVkMDk0OTBmZDZmYmY4NTdhMw) | Sports | HTTP Error (503) |
-| [TSN 5](https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTI5NDQwMTE0Mjc6Y2RubGl2ZXR2LnR2OjM1OWMwZmJmODBmMjk2OTIuMjAzODkwYTliY2I2ZDcwY2E3ODI3MTQ1NjAzOGQyNjhiNWVlOWNhZTJhMmI2MmNmZTc5NjgwMjk4Y2I3MWVmNA) | Sports | HTTP Error (503) |
+| [History Channel (Alt)](https://tvsen3.aynaott.com/np3JstRE/index.m3u8Q) | Documentary & Reality | HTTP Error (404) |
+| [ESPN](http://stream.bottledesk.net/6500/index.m3u8) | Sports | HTTP Error (404) |
+| [Golf Channel](https://tvsen6.aynaott.com/golfchannel/index.m3u8) | Sports | HTTP Error (404) |
+| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTI5NjAyMDUyODE6Y2RubGl2ZXR2LnR2OjQ4YWUwOWQ0NDJjYWRkYmYuNGM0ZjVmOWJkZmNjN2EzY2Y0MjZiMjA5NzA0ZjFjYjUxNWNmMDAxODQ5MDhjOGY0NWQ1NjliMzVjZWRkMWQzOQ) | Sports | HTTP Error (503) |
+| [SportsNet New York](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTI5NjAyMDczMjQ6Y2RubGl2ZXR2LnR2OjQ3MWQ3NThjYjkyNDdkNWQuMDZkY2E5ZDU1MjQ4NTU1MDQ4M2IwYjk4YzMwMWZmYWQ2MGJhMmFkNDAzOTM2MzIwYjliNGNkNzkwZDY2ZmRlNg) | Sports | HTTP Error (503) |
+| [TNT Sports 1](https://tvsen6.aynaott.com/TntSports1HD/index.m3u8) | Sports | HTTP Error (404) |
+| [TNT Sports 2](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c892/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODkyOjE3OTI5NjAyMDc1MjU6Y2RubGl2ZXR2LnR2OmQ2NGQ4NTQ2ZjNiNTc1YzQuYTc1MjZiYzkxYjdlNWMwOTlmMGVjNzA3YTBlMzdiNGFiMmUyNGQ5MTNmYzNhNGYzMTk5ZTRmZGVhYmQxOWIxNA) | Sports | HTTP Error (503) |
+| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTI5NjAyMDc2OTY6Y2RubGl2ZXR2LnR2OjZjNGUxNDE3YWVjNzgyMTIuMjEwMjQ5Y2UxNmU0ZjMyZjc3OTRkZWNhYjM4MzBhYTQyYTQ2ZTg1MDAwMDBmOTE4MGVkZWJkYjYzOGRjMGYyZA) | Sports | HTTP Error (503) |
+| [TSN 3](https://tvsen5.aynaott.com/tsn3/index.m3u8) | Sports | HTTP Error (404) |
 
 ---
 
@@ -27,20 +30,20 @@ _Skipped 695 dead live-event streams — event links expire when the match ends.
 | Category | Channels |
 | --- | ---: |
 | Documentary & Reality | 16 |
-| Entertainment | 46 |
+| Entertainment | 47 |
 | Kids & Family | 8 |
-| Live - American Football | 74 |
+| Live - American Football | 144 |
 | Live - Baseball | 1 |
-| Live - Basketball | 9 |
+| Live - Basketball | 7 |
 | Live - Hockey | 14 |
-| Live - Other Events | 258 |
+| Live - Other Events | 384 |
 | Live - Racing | 1 |
-| Live - Soccer | 398 |
-| Live - Tennis | 3 |
-| Movies & Premium | 13 |
+| Live - Soccer | 440 |
+| Live - Tennis | 4 |
+| Movies & Premium | 14 |
 | Music | 5 |
 | News & Weather | 30 |
-| Sports | 51 |
+| Sports | 52 |
 
 ### Sources
 
