@@ -4077,6 +4077,22 @@
       "extension": ".png"
     },
     {
+      "name": "CBC Prince Edward Island",
+      "path": "TV:CA/CBC Prince Edward Island.png",
+      "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/CBC%20Prince%20Edward%20Island.png",
+      "country": "CA",
+      "kind": "channel",
+      "extension": ".png"
+    },
+    {
+      "name": "CBC Saskatchewan",
+      "path": "TV:CA/CBC Saskatchewan.png",
+      "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/CBC%20Saskatchewan.png",
+      "country": "CA",
+      "kind": "channel",
+      "extension": ".png"
+    },
+    {
       "name": "CBC Toronto",
       "path": "TV:CA/CBC Toronto.png",
       "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:CA/CBC%20Toronto.png",
