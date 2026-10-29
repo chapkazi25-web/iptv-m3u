@@ -5,6 +5,8 @@ https://m3m8.gradetv.net/api/s/DodomaTV.tz%3ASD%3A5752.m3u8
 https://m3m8.gradetv.net/api/s/IBNTV.tz%3ASD%3A7531.m3u8
 #EXTINF:-1 tvg-id="IBNTVAfrica.tz" tvg-name="IBN TV Africa" tvg-logo="https://gradetv.net/logos/IBNTVAfrica.tz" tvg-country="TZ" group-title="documentary",IBN TV Africa
 https://m3m8.gradetv.net/api/s/IBNTVAfrica.tz%3ASD%3A7532.m3u8
+#EXTINF:-1 tvg-id="MahaasinTV.tz" tvg-name="Mahaasin TV" tvg-logo="https://gradetv.net/logos/MahaasinTV.tz" tvg-country="TZ" group-title="documentary",Mahaasin TV
+https://m3m8.gradetv.net/api/s/MahaasinTV.tz%3ASD%3A8838.m3u8
 #EXTINF:-1 tvg-id="TBC2.tz" tvg-name="TBC2" tvg-logo="https://gradetv.net/logos/TBC2.tz" tvg-country="TZ" group-title="entertainment",TBC2
 https://m3m8.gradetv.net/api/s/TBC2.tz%3ASD%3A14266.m3u8
 #EXTINF:-1 tvg-id="TraceAfrica.fr" tvg-name="Trace Africa" tvg-logo="https://gradetv.net/logos/TraceAfrica.fr" tvg-country="FR" group-title="music",Trace Africa
