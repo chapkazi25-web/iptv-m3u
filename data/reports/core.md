@@ -1,17 +1,20 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-03 09:52 UTC
+## Playlist Log @ 2026-11-03 20:34 UTC
 
-### ✅ Active Streams: 208
-❌ Dead Streams: 3
+### ✅ Active Streams: 244
+❌ Dead Streams: 6
 
-_Skipped 297 dead live-event streams — event links expire when the match ends._
+_Skipped 302 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [MS NOW](https://p4.usnlive.com/stream/msnbc.m3u8) | News & Weather | HTTP Error (404) |
-| [Sky Sports Racing](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTM3MDcyMDUwNzM6Y2RubGl2ZXR2LnR2OjY2MjhhODhjZDNkZmJhOGQuMmRhOGY4YmNmYjdlY2NlMGE2NzFiZGE2NjA5ZDEzN2E5MDRmZWY3NWEyMzE3MzliNTc5ZTU0YzAyMGQ3MGQxYQ) | Sports | HTTP Error (503) |
-| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTM3MDcyMDU4ODY6Y2RubGl2ZXR2LnR2OmVjOTIzNGYxYjJiNWQ2NzAuYzQ2MmYzNzAzOGMxN2Q3NmY5NzYxZTkyNWI4YjkxMDE3Y2JmOGNjNDg3NDdmY2NiNGNlN2FhM2I2NDEwMTFiNg) | Sports | HTTP Error (503) |
+| [TLC](http://41.205.93.154/TLC/index.m3u8) | Documentary & Reality | HTTP Error (404) |
+| [Bravo](http://41.205.93.154/BRAVO/index.m3u8) | Entertainment | HTTP Error (404) |
+| [Living Faith TV](https://cdn-unified-hls.streamspot.com/ingest1/0b5c0f18e9/chunklist.m3u8?origin=1) | Entertainment | HTTP Error (404) |
+| [Nicktoons](http://41.205.93.154/NICKTOONS/index.m3u8) | Kids & Family | HTTP Error (404) |
+| [Sky Sports Golf](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c864/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY0OjE3OTM3NTIyMDM4MzU6Y2RubGl2ZXR2LnR2OmZiMjdlNGNiMjJhZDk1MGIuMDRkYjlkOTI1MGU0OWFlNzllYjQ3ODVmMjA0ZjU0ZjdlNDFlNTcyZjNlM2Q1YWEyN2JmMGFlNmQyYmY5NWM2Zg) | Sports | HTTP Error (503) |
+| [Sky Sports Main Event](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c855/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODU1OjE3OTM3NTIyMDQwNDc6Y2RubGl2ZXR2LnR2OmFiMjJiNzg1MmY2ZDQ1MDUuZDRiMTI5ZThhYjk1Y2E3NmE4YTMyOTNlODAwOGVhNTdkOTUxZDYyYTEwMzlkYjY2OWYyMTg1NzkyNTcxYTM3Mg) | Sports | HTTP Error (503) |
 
 ---
 
@@ -26,12 +29,12 @@ _Skipped 297 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 18 |
 | Entertainment | 60 |
 | Kids & Family | 10 |
-| Live - American Football | 19 |
-| Live - Basketball | 45 |
-| Live - Hockey | 25 |
-| Live - Other Events | 117 |
-| Live - Soccer | 100 |
-| Live - Tennis | 1 |
+| Live - American Football | 1 |
+| Live - Basketball | 1 |
+| Live - Hockey | 16 |
+| Live - Other Events | 283 |
+| Live - Soccer | 48 |
+| Live - Tennis | 2 |
 | Movies & Premium | 23 |
 | Music | 5 |
 | News & Weather | 30 |
