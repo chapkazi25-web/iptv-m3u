@@ -1,19 +1,17 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-02 22:51 UTC
+## Playlist Log @ 2026-11-03 09:52 UTC
 
-### ✅ Active Streams: 218
-❌ Dead Streams: 5
+### ✅ Active Streams: 208
+❌ Dead Streams: 3
 
-_Skipped 313 dead live-event streams — event links expire when the match ends._
+_Skipped 297 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [Sky Sports Football](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c88c/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODhjOjE3OTM2NzEyMDI4MTI6Y2RubGl2ZXR2LnR2OmI1NzZkZDFhMzBiNjNmZWUuYjU2MzdmZjQyZjExMzkwY2ZkYjZiYTVjNjM4NGMxOGIxMWEwZTdjNjM4ODFkMjkxMTc2OTNhN2FhMTQ0OTAyZQ) | Sports | HTTP Error (503) |
-| [Sky Sports Golf](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c864/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODY0OjE3OTM2NzEyMDI5NDI6Y2RubGl2ZXR2LnR2OmIyZmY4MTI1Y2VmY2Q0NjAuMDI5ZWIzYTM0Y2I4MmEzNTBmNTIyMjk1ZjQxYjQ3ODY3ODQ1NmE5MGE3YmU0NmRjYTNhN2RkYjk4YjdjNmJmYg) | Sports | HTTP Error (503) |
-| [Sky Sports Mix](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c873/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODczOjE3OTM2NzEyMDMyMTA6Y2RubGl2ZXR2LnR2OjczOGRjNWEyY2IzNmVmZTcuNzhhNTJiMjlkNTQ5YzRhNTYwZTEzMDNiMWU2ZTE2NjExOGE0MTM5OTkyZjQ2NjRmNGVlYzNmZmI3NGY0ODIxYg) | Sports | HTTP Error (503) |
-| [TNT Sports 2](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c892/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODkyOjE3OTM2NzEyMDM3NDE6Y2RubGl2ZXR2LnR2OjBmYjEzNTM3ZmNmNTRiYzYuZTcxODc5NzQ0YWYwNjJjMjYxNGYwYjQ4NDMyNDBhYzUzMTE0MTI4YzRjNGVlYzBjYTNiNWJiMTZkMTc1NDRkOA) | Sports | HTTP Error (503) |
-| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTM2NzEyMDM4NzM6Y2RubGl2ZXR2LnR2OjgxOWI3ZjhiMjlmNGY5NTIuNDdhMzYzMzdhNDM5MDU0MDRmYTQ5M2Q4NjNiMzdmNWYyYjFiOTUxYzQyM2YzM2M3Y2VmNmE1NmZlZTBiNDQ3YQ) | Sports | HTTP Error (503) |
+| [MS NOW](https://p4.usnlive.com/stream/msnbc.m3u8) | News & Weather | HTTP Error (404) |
+| [Sky Sports Racing](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTM3MDcyMDUwNzM6Y2RubGl2ZXR2LnR2OjY2MjhhODhjZDNkZmJhOGQuMmRhOGY4YmNmYjdlY2NlMGE2NzFiZGE2NjA5ZDEzN2E5MDRmZWY3NWEyMzE3MzliNTc5ZTU0YzAyMGQ3MGQxYQ) | Sports | HTTP Error (503) |
+| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTM3MDcyMDU4ODY6Y2RubGl2ZXR2LnR2OmVjOTIzNGYxYjJiNWQ2NzAuYzQ2MmYzNzAzOGMxN2Q3NmY5NzYxZTkyNWI4YjkxMDE3Y2JmOGNjNDg3NDdmY2NiNGNlN2FhM2I2NDEwMTFiNg) | Sports | HTTP Error (503) |
 
 ---
 
@@ -25,13 +23,15 @@ _Skipped 313 dead live-event streams — event links expire when the match ends.
 
 | Category | Channels |
 | --- | ---: |
-| Documentary & Reality | 17 |
+| Documentary & Reality | 18 |
 | Entertainment | 60 |
 | Kids & Family | 10 |
-| Live - American Football | 6 |
-| Live - Hockey | 8 |
-| Live - Other Events | 130 |
-| Live - Soccer | 192 |
+| Live - American Football | 19 |
+| Live - Basketball | 45 |
+| Live - Hockey | 25 |
+| Live - Other Events | 117 |
+| Live - Soccer | 100 |
+| Live - Tennis | 1 |
 | Movies & Premium | 23 |
 | Music | 5 |
 | News & Weather | 30 |
