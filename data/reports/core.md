@@ -1,18 +1,15 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-04 00:49 UTC
+## Playlist Log @ 2026-11-04 09:40 UTC
 
-### ✅ Active Streams: 276
-❌ Dead Streams: 4
+### ✅ Active Streams: 210
+❌ Dead Streams: 1
 
-_Skipped 162 dead live-event streams — event links expire when the match ends._
+_Skipped 244 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
 | [Living Faith TV](https://cdn-unified-hls.streamspot.com/ingest1/0b5c0f18e9/chunklist.m3u8?origin=1) | Entertainment | HTTP Error (404) |
-| [Sky Sports Cricket](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c860/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODYwOjE3OTM3NjEyMDI4NDA6Y2RubGl2ZXR2LnR2OjhmMjg5ZmI1NDEyOGE0NTUuYmQzOGVkNGU0OGMzZDBlYjBhYzAxZmY2YTVkOGQ0NjRmMWM4OTg3YjRiOWVlNzk0NDdhMmNmMTI1MjRiMWZiNg) | Sports | HTTP Error (503) |
-| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTM3NjEyMDQ2Nzg6Y2RubGl2ZXR2LnR2OjcyYmY4YjNhNDlmYzc4NTQuNjc3NmEwNjg5ZTJjMjdiZWZhZTU5NzA5YWUxNGEwZGM1OWEyMzZhMzg2Yjc3ZTY4MTk4N2E3NDQ1MTcxZDM2NQ) | Sports | HTTP Error (503) |
-| [TNT Sports 4](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTM3NjEyMDQ4OTE6Y2RubGl2ZXR2LnR2OmI5ODE1OWIzNDhjYmE2NmYuZDUxMzU1M2Q0MGVjZWI0NDNjZGNmZmFlMmJiZmYxNDRhZmMzNjU5NmNmZGMwYzk0MGVlY2YyNTVkMjgxNmJkYg) | Sports | HTTP Error (503) |
 
 ---
 
@@ -28,10 +25,10 @@ _Skipped 162 dead live-event streams — event links expire when the match ends.
 | Entertainment | 58 |
 | Kids & Family | 10 |
 | Live - American Football | 3 |
-| Live - Basketball | 2 |
-| Live - Hockey | 91 |
-| Live - Other Events | 109 |
-| Live - Soccer | 39 |
+| Live - Basketball | 8 |
+| Live - Hockey | 52 |
+| Live - Other Events | 148 |
+| Live - Soccer | 46 |
 | Movies & Premium | 23 |
 | Music | 5 |
 | News & Weather | 30 |
