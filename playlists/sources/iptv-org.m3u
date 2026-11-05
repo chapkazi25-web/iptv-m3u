@@ -1597,6 +1597,8 @@ https://hplayer1.juyun.tv/camera/154379194.m3u8
 https://5949aa132c8fb.streamlock.net:1963/iptvantares/liveantarestv/playlist.m3u8
 #EXTINF:-1 tvg-id="Antena1.pe.SD" tvg-name="Antena 1 (Peru) (1080p)" tvg-logo="https://i.imgur.com/Bt0yGtw.jpeg" group-title="entertainment",Antena 1 (Peru) (1080p)
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/antenauno.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Antena1.ro.HD" tvg-name="Antena 1 (Romania) HD (1440p)" tvg-logo="https://i.imgur.com/EPmwuuv.png" group-title="entertainment",Antena 1 (Romania) HD (1440p)
+https://live77cdn2.antenaplay.ro/live2_aws4_sdi01/live2_aws4_sdi01_5000k.m3u8
 #EXTINF:-1 tvg-id="Antena1.ro.SD" tvg-name="Antena 1 (Romania)" tvg-logo="https://i.imgur.com/EPmwuuv.png" group-title="entertainment",Antena 1 (Romania)
 https://live4dai.antenaplay.ro/live2_sdi14/live2_sdi14_600k.m3u8
 #EXTINF:-1 tvg-id="Antena21.do.HD" tvg-name="Antena 21 HD (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/QE0XWLh.png" group-title="entertainment",Antena 21 HD (720p) [Not 24/7]
@@ -12573,6 +12575,8 @@ https://livefta.malimarcdn.com/ftaedge00/ningtv.sdp/playlist.m3u8
 http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us.SD" tvg-name="Ninja Kidz TV (720p)" tvg-logo="https://i.imgur.com/7EngqUi.png" group-title="kids",Ninja Kidz TV (720p)
 https://d3868b4ny0rgdf.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="NipponTV.jp.JOAXDTV" tvg-name="Nippon TV" tvg-logo="https://i.imgur.com/IxD8V5X.png" group-title="entertainment",Nippon TV
+https://ntv5.mov3.co/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="NireekshanaTV.in.SD" tvg-name="Nireekshana TV (576p)" tvg-logo="https://i.imgur.com/nGJv6QR.png" group-title="documentary",Nireekshana TV (576p)
 https://fta.ektv.in/live/706/master.m3u8
 #EXTINF:-1 tvg-id="NitidaTV.do.SD" tvg-name="Nitida TV (720p) [Not 24/7]" tvg-logo="https://i.imgur.com/z9JkxcM.png" group-title="entertainment",Nitida TV (720p) [Not 24/7]
@@ -19683,6 +19687,8 @@ https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
 http://103.250.28.74:8000/play/a06e/index.m3u8
 #EXTINF:-1 tvg-id="TVTodayJanakpur.np.SD" tvg-name="TV Today Janakpur" tvg-logo="https://i.imgur.com/5fZF69m.png" group-title="entertainment",TV Today Janakpur
 https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8
+#EXTINF:-1 tvg-id="TVTokyo.jp.JOTXDTV" tvg-name="TV Tokyo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/960px-TV_Tokyo_%28Japanese%29_2023.svg.png" group-title="entertainment",TV Tokyo
+https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
 #EXTINF:-1 tvg-id="TVTorun.pl.SD" tvg-name="TV Torun (1080p) [Not 24/7]" tvg-logo="https://i.imgur.com/ZJ0yDWI.png" group-title="entertainment",TV Torun (1080p) [Not 24/7]
 http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVTrwam.pl.SD" tvg-name="TV Trwam (1080p) [Geo-blocked]" tvg-logo="https://i.imgur.com/yq10wS5.png" group-title="entertainment",TV Trwam (1080p) [Geo-blocked]
@@ -19845,7 +19851,7 @@ https://cloudfront44.lexanetwork.com:1344/relay01/broadcast006.sdp/playlist.m3u8
 https://5f22d76e220e1.streamlock.net/taurianovatv/taurianovatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tavriya.ru.SD" tvg-name="Tavriya" tvg-logo="https://i.imgur.com/gqung6i.png" group-title="entertainment",Tavriya
 https://streaming.televizor-24-tochka.ru/live/24.m3u8
-#EXTINF:-1 tvg-id="TayNinhTV.vn.SD" tvg-name="Tay Ninh TV (720p)" tvg-logo="https://tayninhtv.vn/static/images/logo.png" group-title="entertainment",Tay Ninh TV (720p)
+#EXTINF:-1 tvg-id="TayNinhTV.vn.SD" tvg-name="Tay Ninh TV (720p)" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/Logo%20kh%C3%A1c/TTV11%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20T%C3%A2y%20Ninh%20HD/TTV11%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20T%C3%A2y%20Ninh.png" group-title="entertainment",Tay Ninh TV (720p)
 https://live-hq.evgcdn.net/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
 #EXTINF:-1 tvg-id="TayariWestTV.ug.SD" tvg-name="Tayari West TV (1080p)" tvg-logo="https://i.imgur.com/tbnOtUZ.jpeg" group-title="entertainment",Tayari West TV (1080p)
 https://stream.hydeinnovations.com/tarari-west/index.m3u8
@@ -22591,6 +22597,8 @@ http://213.91.179.28:8000/play/a05i
 https://bein-xtra-bein.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="beINSPORTSXTRAenEspanol.us.SD" tvg-name="beIN SPORTS XTRA en Espanol (1080p)" tvg-logo="https://i.imgur.com/V562tpO.png" group-title="sports",beIN SPORTS XTRA en Espanol (1080p)
 https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8
+#EXTINF:-1 tvg-id="beINSportsUSA.us.SD" tvg-name="beIN Sports USA (576p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/BeIN_Sports_logo_%28vertical_version%29.svg/500px-BeIN_Sports_logo_%28vertical_version%29.svg.png" group-title="sports",beIN Sports USA (576p)
+https://tvsen6.aynaott.com/beinsports/index.m3u8
 #EXTINF:-1 tvg-id="bitMe.mx.SD" tvg-name="bitMe (1080p)" tvg-logo="https://i.imgur.com/79hrcx8.png" group-title="entertainment",bitMe (1080p)
 https://cablered.iptvperu.tv:1936/cablered/bitme-srt_new/playlist.m3u8
 #EXTINF:-1 tvg-id="bitMeLatinAmerica.mx.SD" tvg-name="bitMe Latin America (1080p)" tvg-logo="https://i.imgur.com/JgXQz6c.png" group-title="entertainment",bitMe Latin America (1080p)
