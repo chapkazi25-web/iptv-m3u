@@ -1,11 +1,17 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-05 21:10 UTC
+## Playlist Log @ 2026-11-06 09:41 UTC
 
-### ✅ Active Streams: 271
-❌ Dead Streams: 0
+### ✅ Active Streams: 213
+❌ Dead Streams: 3
 
-_Skipped 394 dead live-event streams — event links expire when the match ends._
+_Skipped 270 dead live-event streams — event links expire when the match ends._
+
+| Channel | Category | Error (Code) |
+| --- | --- | --- |
+| [Bravo](http://41.205.93.154/BRAVO/index.m3u8) | Entertainment | HTTP Error (404) |
+| [Sky Sports Racing](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTM5NjgyMDUwMTk6Y2RubGl2ZXR2LnR2OmIyMDBiNWUxNmEyMDM2MjEuM2RkYjQ4OGYxNjFlYmYxYWQwYTc0MzA2NTMyYjJjZDc4YjZlMGY1NDQwNjlhZmE0NmNlYWM2OTg2NTY2YzhlMA) | Sports | HTTP Error (503) |
+| [TNT Sports 4](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTM5NjgyMDYwMzk6Y2RubGl2ZXR2LnR2OjUyZDI2MGQzNjQyYTRlYTkuNTNhNTFmMWU4NGY4ZGVjZDk1ZTAzMzMzYjM4Y2UyMzZhNGQ0ZTJiNmE3NGNjMmJkMzc5MWI4YzRkMTZhYTlmNA) | Sports | HTTP Error (503) |
 
 ---
 
@@ -20,13 +26,11 @@ _Skipped 394 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 17 |
 | Entertainment | 58 |
 | Kids & Family | 10 |
-| Live - American Football | 9 |
-| Live - Basketball | 5 |
-| Live - Hockey | 11 |
-| Live - Other Events | 379 |
-| Live - Racing | 2 |
-| Live - Soccer | 59 |
-| Live - Tennis | 2 |
+| Live - American Football | 18 |
+| Live - Basketball | 7 |
+| Live - Hockey | 42 |
+| Live - Other Events | 138 |
+| Live - Soccer | 83 |
 | Movies & Premium | 23 |
 | Music | 5 |
 | News & Weather | 30 |
