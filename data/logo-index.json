@@ -9509,6 +9509,14 @@
       "extension": ".png"
     },
     {
+      "name": "Sky Justice",
+      "path": "TV:NZ/Sky Justice.png",
+      "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:NZ/Sky%20Justice.png",
+      "country": "NZ",
+      "kind": "channel",
+      "extension": ".png"
+    },
+    {
       "name": "Sky Kids NZ",
       "path": "TV:NZ/Sky Kids NZ.png",
       "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:NZ/Sky%20Kids%20NZ.png",
@@ -9712,6 +9720,14 @@
       "name": "Sky Sports Select",
       "path": "TV:NZ/Sky Sports Select.png",
       "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:NZ/Sky%20Sports%20Select.png",
+      "country": "NZ",
+      "kind": "channel",
+      "extension": ".png"
+    },
+    {
+      "name": "Sky Suspect",
+      "path": "TV:NZ/Sky Suspect.png",
+      "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:NZ/Sky%20Suspect.png",
       "country": "NZ",
       "kind": "channel",
       "extension": ".png"
@@ -9928,6 +9944,14 @@
       "name": "5Action",
       "path": "TV:UK/5Action.png",
       "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/5Action.png",
+      "country": "GB",
+      "kind": "channel",
+      "extension": ".png"
+    },
+    {
+      "name": "5Drama",
+      "path": "TV:UK/5Drama.png",
+      "url": "https://raw.githubusercontent.com/K-yzu/Logos/main/TV:UK/5Drama.png",
       "country": "GB",
       "kind": "channel",
       "extension": ".png"
