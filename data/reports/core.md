@@ -1,21 +1,25 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-12 10:06 UTC
+## Playlist Log @ 2026-11-12 21:31 UTC
 
-### ✅ Active Streams: 213
-❌ Dead Streams: 7
+### ✅ Active Streams: 207
+❌ Dead Streams: 11
 
-_Skipped 179 dead live-event streams — event links expire when the match ends._
+_Skipped 226 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [BET](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cdd7/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZGQ3OjE3OTQ0OTIwMDQzMzE6Y2RubGl2ZXR2LnR2OmM3MjQzOWUyNWYwZDMzMDIuN2MwMWExYzY3NDg0ZmIxMDAzMzFiY2Q2ZWRlYTE4Yzk4ZjFkODI3MjRkZDlmZjIxM2NjNzkzMDcxODRlYjZjOA) | Entertainment | HTTP Error (403) |
-| [FETV](https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8) | Entertainment | HTTP Error (502) |
-| [NBC](https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8) | Entertainment | HTTP Error (502) |
-| [The Travel Channel](https://cache0.wonvt.st/live/1sfof101ifqzke0fuw3tz/master.m3u8) | Entertainment | HTTP Error (502) |
-| [Hallmark Channel](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTQ0OTIwMDQ1Mzc6Y2RubGl2ZXR2LnR2OjE1MTEwYjFhMDlhZWNlOWMuY2Q4MGUxZTA1ZWEyMTFjZjlhYjkyZTNmYTUzMzAyMjBjNGVhNmUzZTIzZDc5YWU0Y2VjNzI5MmMzMzQ2NTYwMQ) | Movies & Premium | HTTP Error (403) |
-| [HBO](https://cache0.wonvt.st/live/0vyvl7y1gwwplb0m12enw/master.m3u8) | Movies & Premium | HTTP Error (502) |
-| [Starz](https://cache0.wonvt.st/live/16fgsju1pnic1t0n4pa9a/master.m3u8) | Movies & Premium | HTTP Error (502) |
+| [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Nat Geo](http://212.5.144.156:8080/natgeo/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
+| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (403) |
+| [Lifetime](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ceae/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWFlOjE3OTQ1MjgwMDY1NjE6Y2RubGl2ZXR2LnR2Ojk2YzAwZGJkMWIyYmMwODQuNmI0MDEyMjQ5YzI0ZTI0YzQ3OGRmNjNhYWI1NmQwYmI4MzFiYTdmODg1NDI4ZjZjYWM0ZTE3NWIyYTNiNzg2Ng) | Movies & Premium | HTTP Error (503) |
+| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ1MjgwMDQ3MjI6Y2RubGl2ZXR2LnR2OjU2MmRjYmFjNjZmM2QzNmEuNjI2YmYwODIxYmY1MGYyNTk4MDZlYzRlOWVlNTdjNDg5YzcxOTU0ZmU4YTYzNzNlZmIxMzc3OTFjYzIzZTYyZg) | Sports | HTTP Error (503) |
+| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ1MjgwMDcxNzQ6Y2RubGl2ZXR2LnR2OjcyYTUzZjI3ZjlhNTYwNDcuYjFlNmIzMDNiY2FmOTlkZjNmYjYxOTc5ZjgxZDUyMjQzNDYxMjA3ZDMyYTU5NWM5ZTQyNDVhOWZiYzNkNjQyMw) | Sports | HTTP Error (503) |
+| [Space City Home Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTQ1MjgwMDkxNDA6Y2RubGl2ZXR2LnR2OmJiMGEwMzg3OWVmYWEwNzkuYmY4ZWFmZWIzODg4ZTlmZTljOWMzZmMzMzM0OGU4NGI0NjU1OWFkOTg1ODIwMzdjNjY4YzQzZTQ3M2U5YTA2MA) | Sports | HTTP Error (503) |
+| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ1MjgwMDk5NDc6Y2RubGl2ZXR2LnR2OjUwMDRhNzlhZTNkOGQxNTMuMzNhZWFhNDZkODVkODZkOTQ2MmVkM2EyZmU3ZWZlMGY3NmU2ZGNkNDYyN2JkMTJjMTIyNTFjYTM5ZWI2ZDA2ZQ) | Sports | HTTP Error (503) |
 
 ---
 
@@ -28,18 +32,18 @@ _Skipped 179 dead live-event streams — event links expire when the match ends.
 | Category | Channels |
 | --- | ---: |
 | Documentary & Reality | 16 |
-| Entertainment | 54 |
-| Kids & Family | 10 |
-| Live - American Football | 4 |
-| Live - Basketball | 33 |
-| Live - Hockey | 49 |
-| Live - Other Events | 80 |
-| Live - Soccer | 43 |
+| Entertainment | 50 |
+| Kids & Family | 9 |
+| Live - American Football | 9 |
+| Live - Basketball | 5 |
+| Live - Hockey | 17 |
+| Live - Other Events | 136 |
+| Live - Soccer | 100 |
 | Live - Tennis | 2 |
-| Movies & Premium | 16 |
+| Movies & Premium | 13 |
 | Music | 5 |
 | News & Weather | 31 |
-| Sports | 56 |
+| Sports | 51 |
 
 ### Sources
 
