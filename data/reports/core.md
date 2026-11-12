@@ -1,26 +1,21 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-11 21:30 UTC
+## Playlist Log @ 2026-11-12 10:06 UTC
 
-### ✅ Active Streams: 174
-❌ Dead Streams: 12
+### ✅ Active Streams: 213
+❌ Dead Streams: 7
 
-_Skipped 111 dead live-event streams — event links expire when the match ends._
+_Skipped 179 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [History Channel (Alt)](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cfc6/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZmM2OjE3OTQ0MzgwMDUwMzQ6Y2RubGl2ZXR2LnR2OjFkMGU4NzE5NWI5YmZlM2YuNWEwMDA0MzBkZWIzMWEzZDU5MDQ0NjFlYzhiMmVjMzA3MzE5NTg5NmVjNWI1ZWNhYzUyNWZjMmRjMzVkNmI3Zg) | Documentary & Reality | HTTP Error (403) |
-| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [Nat Geo](http://212.5.144.156:8080/natgeo/index.m3u8) | Documentary & Reality | HTTP Error (403) |
-| [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
-| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (403) |
-| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ0MzgwMDM4MDg6Y2RubGl2ZXR2LnR2Ojk2ZWRkNmFhOTRhMjlkNTIuZjJjMjg3ZWY0NWJkOGViOWYyODIwZTNlMDc1NGE1NjVlMDFjYTM5NDRhODcwN2FjM2EzYzlmMmRhOTI3NDE2ZQ) | Sports | HTTP Error (503) |
-| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTQ0MzgwMDQ0MzA6Y2RubGl2ZXR2LnR2OjlkN2RkYjUyOWQ4Y2UzZWIuNDUzMWEyYjRlNTEwNTFmZjFlOGVhNGE3Y2FmNjYxY2VhZjI0ODc1YjQ2Zjc3MTA3OTYzY2M3N2QwZmQ0NTUwZg) | Sports | HTTP Error (503) |
-| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ0MzgwMDU4NTk6Y2RubGl2ZXR2LnR2OmQ5NGRiNzg4YThmYTM4MDYuMjcwM2UxODk3ODA0MWNkNDc3NDljN2VlNDliYmMxMDE0NGMzYTYyMTg3ZGNhMjdmMDJmODhiYjExNWE2YzNlZQ) | Sports | HTTP Error (503) |
-| [Space City Home Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTQ0MzgwMDgzMzk6Y2RubGl2ZXR2LnR2OmI4ZDA1MTYyODk4OTUzMGMuMGY5ZmE5NTNkNmE3ODMxMGQxZmExOTVkNGI1ZTg4ZmY4Mzk3OGY1NTBmNWYzZGNmMjdkOGI0YWZkMTFiYzk5Ng) | Sports | HTTP Error (503) |
-| [TNT Sports 4](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ0MzgwMDkzMzQ6Y2RubGl2ZXR2LnR2OjA1MDllNzAxOWE3MDZmNWQuN2MxYjI3OTQ1MTg5NDVjMjdhMDRjZmU5MmU2ZjBiZTM3ZjUyZjIzOGM2MTRhYmEyZmExNmUyZjU0MGNiNmRlZg) | Sports | HTTP Error (503) |
+| [BET](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cdd7/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZGQ3OjE3OTQ0OTIwMDQzMzE6Y2RubGl2ZXR2LnR2OmM3MjQzOWUyNWYwZDMzMDIuN2MwMWExYzY3NDg0ZmIxMDAzMzFiY2Q2ZWRlYTE4Yzk4ZjFkODI3MjRkZDlmZjIxM2NjNzkzMDcxODRlYjZjOA) | Entertainment | HTTP Error (403) |
+| [FETV](https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8) | Entertainment | HTTP Error (502) |
+| [NBC](https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8) | Entertainment | HTTP Error (502) |
+| [The Travel Channel](https://cache0.wonvt.st/live/1sfof101ifqzke0fuw3tz/master.m3u8) | Entertainment | HTTP Error (502) |
+| [Hallmark Channel](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce10/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTEwOjE3OTQ0OTIwMDQ1Mzc6Y2RubGl2ZXR2LnR2OjE1MTEwYjFhMDlhZWNlOWMuY2Q4MGUxZTA1ZWEyMTFjZjlhYjkyZTNmYTUzMzAyMjBjNGVhNmUzZTIzZDc5YWU0Y2VjNzI5MmMzMzQ2NTYwMQ) | Movies & Premium | HTTP Error (403) |
+| [HBO](https://cache0.wonvt.st/live/0vyvl7y1gwwplb0m12enw/master.m3u8) | Movies & Premium | HTTP Error (502) |
+| [Starz](https://cache0.wonvt.st/live/16fgsju1pnic1t0n4pa9a/master.m3u8) | Movies & Premium | HTTP Error (502) |
 
 ---
 
@@ -33,19 +28,18 @@ _Skipped 111 dead live-event streams — event links expire when the match ends.
 | Category | Channels |
 | --- | ---: |
 | Documentary & Reality | 16 |
-| Entertainment | 50 |
+| Entertainment | 54 |
 | Kids & Family | 10 |
-| Live - American Football | 1 |
-| Live - Basketball | 6 |
-| Live - Hockey | 8 |
+| Live - American Football | 4 |
+| Live - Basketball | 33 |
+| Live - Hockey | 49 |
 | Live - Other Events | 80 |
-| Live - Racing | 2 |
-| Live - Soccer | 22 |
+| Live - Soccer | 43 |
 | Live - Tennis | 2 |
-| Movies & Premium | 13 |
+| Movies & Premium | 16 |
 | Music | 5 |
 | News & Weather | 31 |
-| Sports | 51 |
+| Sports | 56 |
 
 ### Sources
 
