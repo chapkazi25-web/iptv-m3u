@@ -1,26 +1,50 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-13 09:51 UTC
+## Playlist Log @ 2026-11-14 09:16 UTC
 
-### ✅ Active Streams: 182
-❌ Dead Streams: 12
+### ✅ Active Streams: 177
+❌ Dead Streams: 36
 
-_Skipped 198 dead live-event streams — event links expire when the match ends._
+_Skipped 243 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
 | [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
 | [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [History Channel (Alt)](https://cache0.wonvt.st/live/00l9cyk0hoy9rx0kp05s0/master.m3u8) | Documentary & Reality | URL Error (_ssl.c:994: The handshake operation timed out) |
 | [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (403) |
 | [Nat Geo](http://212.5.144.156:8080/natgeo/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [ABC](https://cache0.wonvt.st/live/178232v17z1k5v1nckt35/master.m3u8) | Entertainment | URL Error (timed out) |
+| [CBS](https://cache0.wonvt.st/live/0x8kufu0m609fs0hv3gqj/master.m3u8) | Entertainment | URL Error (timed out) |
+| [FETV](https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8) | Entertainment | URL Error (timed out) |
+| [FXX](https://cache0.wonvt.st/live/110fynw1a68kro18sxusr/master.m3u8) | Entertainment | URL Error (_ssl.c:994: The handshake operation timed out) |
+| [Grit](https://cache0.wonvt.st/live/091cvyx0d5ekhm1kkjtwa/master.m3u8) | Entertainment | URL Error (timed out) |
+| [NBC](https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8) | Entertainment | URL Error (timed out) |
+| [NFL RedZone](https://cache0.wonvt.st/live/1cbg6qo1qp8wpc0vuu0v1/master.m3u8) | Entertainment | URL Error (_ssl.c:994: The handshake operation timed out) |
+| [The Travel Channel](https://cache0.wonvt.st/live/1sfof101ifqzke0fuw3tz/master.m3u8) | Entertainment | URL Error (_ssl.c:994: The handshake operation timed out) |
+| [TV Land](https://cache0.wonvt.st/live/1d9d5fm15shhb30dnkvt0/master.m3u8) | Entertainment | URL Error (timed out) |
+| [TV ONE](https://cache0.wonvt.st/live/1oxx3bw1uf3t3s0datpdp/master.m3u8) | Entertainment | URL Error (timed out) |
+| [Cartoon Network](https://cache0.wonvt.st/live/162nn8p18ljgc71v5dou4/master.m3u8) | Kids & Family | URL Error (timed out) |
 | [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
 | [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (403) |
-| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTQ1NzMwMDQyNzk6Y2RubGl2ZXR2LnR2OjE2ZTA3ZmVmZWUwYTE4OGQuZDU4ODA1Y2EzMDg3ODQ4ZGU2OThhZGVhNDM1YzgxYTg3ZjA3NTU5NzViZTI2NDUzNzJmNTNmYjI1OGVkMTczYQ) | Sports | HTTP Error (503) |
-| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ1NzMwMDU3MTM6Y2RubGl2ZXR2LnR2OjVmODU3OTFhODJiOTQ3ZjcuOTZmNmFjOWNiOWNiZjgzYTI1OWEyMTUwYTljMjI3NzhlMDBmMWM1MTNlY2EzZGVmNjljYzA0M2YwYTIyNDhhZA) | Sports | Timeout |
-| [Space City Home Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTQ1NzMwMDc3Njc6Y2RubGl2ZXR2LnR2OjdmMTVjMDg0YzI5YzUxMjAuNmRkMDM1MDVkMzU5OTEzNjFkZGYzOGZjMzBmOGNhMDU3YzE1Y2ZkYWUxM2M5ODUyZTk1YTVhNTJkNmI3ZmIxMQ) | Sports | HTTP Error (503) |
-| [SportsNet New York](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTQ1NzMwMDc5NjA6Y2RubGl2ZXR2LnR2OjI3MGQ1NzBmNmJhNzE3N2QuNzIyZTQ3ZTNlMzg3OTM3YjNmZWQwY2Y5MzI4Y2QwMWE4N2MxZDgyNmM5NzY0N2MxZTE4MzRhNDE1ZDJkNTM0NA) | Sports | HTTP Error (503) |
-| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ1NzMwMDg1Nzc6Y2RubGl2ZXR2LnR2OmNmNGU0YzQxNGYxMjY5OGMuYzY3NTY1MTE4NjA5ZmNjYjJlZDExMTQ5MjJmNjZlNmJhZTNkMzk1ODNkYjIwMWY3Y2ZlNTQxOWNlMjc2ZGIyZQ) | Sports | HTTP Error (503) |
-| [TSN 5](https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTQ1NzMwMDk0MTA6Y2RubGl2ZXR2LnR2OmZjZDhmMWJjN2YzMGVlZjQuYTNkOGRmNzE5Y2IxN2E4ZDU2NDAxOTRhMDc2YzhiNGM0MjVlMGFjZGM1NjIzY2Q2OTA4N2Y3NWQzMDAxMjIzNA) | Sports | HTTP Error (503) |
+| [Nickelodeon](https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8) | Kids & Family | URL Error (timed out) |
+| [Lifetime Movie Network](https://cache0.wonvt.st/live/1t9dc2w00br9sx13nldbm/master.m3u8) | Movies & Premium | URL Error (timed out) |
+| [Paramount+ with Showtime](https://cache0.wonvt.st/live/1az2pv01wqk8zi11yns1c/master.m3u8) | Movies & Premium | URL Error (_ssl.c:994: The handshake operation timed out) |
+| [Starz](https://cache0.wonvt.st/live/16fgsju1pnic1t0n4pa9a/master.m3u8) | Movies & Premium | URL Error (timed out) |
+| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ2NTQwMDQzNTE6Y2RubGl2ZXR2LnR2OmQ2YTNiOTJiOTc1NDYwMWQuYWZmNTlmMGVhMzNhMDc0ZWM5YTRhZGQzMGM1MTkzMTNhZjQxMTIxZjJkNjY1OWM5NWJmMTY2YzZjNDQ4NjE4MA) | Sports | HTTP Error (503) |
+| [CBS Sports Network](https://cache0.wonvt.st/live/1ht5wwv045ffdr1yt1h5m/master.m3u8) | Sports | URL Error (timed out) |
+| [Fox Sports 2](https://cache0.wonvt.st/live/13r6cob1fh05tc1261qhx/master.m3u8) | Sports | URL Error (timed out) |
+| [MSG](https://cache0.wonvt.st/live/00g9qgg133gtja13nq2hs/master.m3u8) | Sports | URL Error (timed out) |
+| [NBC Sports Bay Area](https://cache0.wonvt.st/live/1l1gsxk1pvtxv00kuywhx/master.m3u8) | Sports | URL Error (timed out) |
+| [NBC Sports Boston](https://cache0.wonvt.st/live/0fpm15a0k4ux2g1tx7fhe/master.m3u8) | Sports | URL Error (timed out) |
+| [NBC Sports California](https://cache0.wonvt.st/live/0iexaqu0xs8ukv01awmpa/master.m3u8) | Sports | URL Error (timed out) |
+| [NHL Network](https://cache0.wonvt.st/live/0nkruul0d8pahi1pz4sjc/master.m3u8) | Sports | URL Error (timed out) |
+| [Space City Home Network](https://cache0.wonvt.st/live/034yveq0x3b43c1q0ycfa/master.m3u8) | Sports | URL Error (timed out) |
+| [Spectrum SportsNet Lakers](https://cache0.wonvt.st/live/0rwqr121hh9q861eel783/master.m3u8) | Sports | URL Error (timed out) |
+| [SportsNet New York](https://cache0.wonvt.st/live/0hiq6c61a1o18r1kmwr4v/master.m3u8) | Sports | URL Error (timed out) |
+| [TSN 2](https://tvsen5.aynaott.com/tsn2/index.m3u8) | Sports | HTTP Error (404) |
+| [TSN 4](https://cache0.wonvt.st/live/0db5oui05zn8xx16swui5/master.m3u8) | Sports | URL Error (timed out) |
+| [TSN 5](https://cache0.wonvt.st/live/0in1i4q11fbx250cx88k4/master.m3u8) | Sports | URL Error (timed out) |
 
 ---
 
@@ -33,19 +57,18 @@ _Skipped 198 dead live-event streams — event links expire when the match ends.
 | Category | Channels |
 | --- | ---: |
 | Documentary & Reality | 16 |
-| Entertainment | 50 |
-| Kids & Family | 9 |
-| Live - American Football | 15 |
-| Live - Baseball | 1 |
-| Live - Basketball | 13 |
-| Live - Hockey | 39 |
-| Live - Other Events | 70 |
-| Live - Soccer | 77 |
+| Entertainment | 55 |
+| Kids & Family | 10 |
+| Live - American Football | 4 |
+| Live - Basketball | 22 |
+| Live - Hockey | 16 |
+| Live - Other Events | 149 |
+| Live - Soccer | 74 |
 | Live - Tennis | 2 |
-| Movies & Premium | 13 |
+| Movies & Premium | 16 |
 | Music | 5 |
 | News & Weather | 31 |
-| Sports | 51 |
+| Sports | 56 |
 
 ### Sources
 
