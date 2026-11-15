@@ -1,19 +1,16 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-15 09:45 UTC
+## Playlist Log @ 2026-11-15 19:54 UTC
 
-### ✅ Active Streams: 228
-❌ Dead Streams: 5
+### ✅ Active Streams: 289
+❌ Dead Streams: 2
 
-_Skipped 340 dead live-event streams — event links expire when the match ends._
+_Skipped 299 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [FETV](https://cache0.wonvt.st/live/1iihbgf0gp1z3m0kzyxf8/master.m3u8) | Entertainment | HTTP Error (502) |
-| [NBC](https://cache0.wonvt.st/live/108kde90atgxpe1b70g4o/master.m3u8) | Entertainment | HTTP Error (502) |
-| [The Travel Channel](https://cache0.wonvt.st/live/1sfof101ifqzke0fuw3tz/master.m3u8) | Entertainment | HTTP Error (502) |
-| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ3NDQwMDQ4ODg6Y2RubGl2ZXR2LnR2OjljZWEwNDcwNWQ5YWM5ZDUuYzgyNmJkMWQwYjg0MjhmY2UxZTlhNTljNTQ0MmNiZGRjOWU4ZjdlNjZhYWU4ZGY3YzMxOWNhNzQ5NmM3YWY2NQ) | Sports | HTTP Error (503) |
-| [SportsNet New York](https://cache0.wonvt.st/live/0hiq6c61a1o18r1kmwr4v/master.m3u8) | Sports | HTTP Error (502) |
+| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ3ODAwMDMwNDg6Y2RubGl2ZXR2LnR2OjY0ZDhhMTc5NTc2ZjBmZTQuYzU5MzQ5NmFjZDkxYzZmYzM2ZDgyNGMzNWVhODIxOTJlMGIxOThiM2I0NTg0ZGY2ZjE4YmI0YWM3OWRjM2JiMA) | Sports | HTTP Error (503) |
+| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTQ3ODAwMDMzOTQ6Y2RubGl2ZXR2LnR2OmZmY2VjMDU0MTI1Mzc3MzguNGNkYmZlMjM0YWRiZmFhOGYyOTU4OWQ5MWNjMGJjMmJhZDQwNzY5NmQxMGMwYjAzNjE0MjQ5NTRhMTc0ZjFlNg) | Sports | HTTP Error (503) |
 
 ---
 
@@ -28,11 +25,12 @@ _Skipped 340 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 16 |
 | Entertainment | 56 |
 | Kids & Family | 10 |
-| Live - American Football | 58 |
-| Live - Basketball | 9 |
-| Live - Hockey | 51 |
-| Live - Other Events | 110 |
-| Live - Soccer | 155 |
+| Live - American Football | 117 |
+| Live - Basketball | 7 |
+| Live - Hockey | 9 |
+| Live - Other Events | 164 |
+| Live - Soccer | 101 |
+| Live - Tennis | 2 |
 | Movies & Premium | 17 |
 | Music | 5 |
 | News & Weather | 31 |
