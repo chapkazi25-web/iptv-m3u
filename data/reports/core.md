@@ -1,16 +1,25 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-15 19:54 UTC
+## Playlist Log @ 2026-11-16 00:11 UTC
 
-### ✅ Active Streams: 289
-❌ Dead Streams: 2
+### ✅ Active Streams: 257
+❌ Dead Streams: 11
 
-_Skipped 299 dead live-event streams — event links expire when the match ends._
+_Skipped 194 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ3ODAwMDMwNDg6Y2RubGl2ZXR2LnR2OjY0ZDhhMTc5NTc2ZjBmZTQuYzU5MzQ5NmFjZDkxYzZmYzM2ZDgyNGMzNWVhODIxOTJlMGIxOThiM2I0NTg0ZGY2ZjE4YmI0YWM3OWRjM2JiMA) | Sports | HTTP Error (503) |
-| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTQ3ODAwMDMzOTQ6Y2RubGl2ZXR2LnR2OmZmY2VjMDU0MTI1Mzc3MzguNGNkYmZlMjM0YWRiZmFhOGYyOTU4OWQ5MWNjMGJjMmJhZDQwNzY5NmQxMGMwYjAzNjE0MjQ5NTRhMTc0ZjFlNg) | Sports | HTTP Error (503) |
+| [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Nat Geo](http://212.5.144.156:8080/natgeo/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
+| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (403) |
+| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTQ3OTgwMDMxNjQ6Y2RubGl2ZXR2LnR2OjdlZDJmMjc0MDg3MDQ5MTkuMzRkNGE1ZTQ2ODczOTkzYmJlMDdlZmE5YzhlOWJhYzI5NTA4MmU0NmRiNjZhZWIxZTc5YmVlYjUwOTE1YTRiZQ) | Sports | HTTP Error (503) |
+| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTQ3OTgwMDM1Nzk6Y2RubGl2ZXR2LnR2OjhkMmI1NWJmNzJkZWZmNTcuNzIxNjMzZjVlY2I0NWY4ZjFlZWJkODcyOWNhZjQxY2VjN2MwMTE0NWZiZDc1YTZiNWI5YTNhNzljNDc5MjY1Zg) | Sports | HTTP Error (503) |
+| [Sky Sports Racing](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTQ3OTgwMDYzMTE6Y2RubGl2ZXR2LnR2OjIyYmQwZDE3ZmUwOGViNTAuYjc4YTUzMmExOTZhMzhkNjBjNjZhNDRmNWM0ODQ3MDBmZDc3ZTE4ZTc3MDRlZDYxY2MzYzAzZTMzOWQxZWNmYw) | Sports | HTTP Error (503) |
+| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTQ3OTgwMDcxNTg6Y2RubGl2ZXR2LnR2OjJhYWE0MjI5YTllMzdkNTMuNzc3MjY5NTQ2MDVhYmNkY2VkMmEzY2U5ZjY3YzQzMWI1MWFiMDU5M2U1YjVhNjQwYWNlMjVkMTFlNzMxNjg1OQ) | Sports | HTTP Error (503) |
+| [TNT Sports 4](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTQ3OTgwMDczNjM6Y2RubGl2ZXR2LnR2OjBmNDljMTAyZDVjMzM5YjMuMmIwM2I1ZjkxZDdmMTc3MTFhZGIzYzk5NzYxYmYxMGY4OTViYmIzMzU1NjI5MjZlNWE1MmRmODYyZDE4MjIxMQ) | Sports | HTTP Error (503) |
 
 ---
 
@@ -25,12 +34,12 @@ _Skipped 299 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 16 |
 | Entertainment | 56 |
 | Kids & Family | 10 |
-| Live - American Football | 117 |
-| Live - Basketball | 7 |
-| Live - Hockey | 9 |
-| Live - Other Events | 164 |
-| Live - Soccer | 101 |
-| Live - Tennis | 2 |
+| Live - American Football | 74 |
+| Live - Basketball | 23 |
+| Live - Hockey | 16 |
+| Live - Other Events | 88 |
+| Live - Soccer | 68 |
+| Live - Tennis | 3 |
 | Movies & Premium | 17 |
 | Music | 5 |
 | News & Weather | 31 |
