@@ -1,18 +1,22 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-17 10:58 UTC
+## Playlist Log @ 2026-11-17 22:33 UTC
 
-### ✅ Active Streams: 197
-❌ Dead Streams: 4
+### ✅ Active Streams: 200
+❌ Dead Streams: 8
 
-_Skipped 154 dead live-event streams — event links expire when the match ends._
+_Skipped 291 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [MSG](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf32/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjMyOjE3OTQ5MTg2MDQ5MDM6Y2RubGl2ZXR2LnR2OjY0MjcyZGYxNGM1YWViN2MuZDkwMTQwZmEzMjNhNWRkMzkxMzk2NzA1OTY2YmY2ZDRiNWE3ODI4ZWEyOWY5MzU2NDAxMDZmZDk1YTUwMTRiZQ) | Sports | HTTP Error (503) |
-| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ5MTg2MDUzMTM6Y2RubGl2ZXR2LnR2OmM5MTUxZjE0ZjM5Y2I4MWYuZGJlNTMyZTUxNzE1OGNiOWJlOGRkNmUyMGMyZGYzYmU5M2ViY2U2MzEwMWVlOTI1OWUyM2ExMjU4YWIwNGM1ZQ) | Sports | HTTP Error (503) |
-| [TSN 4](https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed3f/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDNmOjE3OTQ5MTg2MDg4MDE6Y2RubGl2ZXR2LnR2OjkzNDMzODVlODY5MWZiYTUuMjVmZTFlNzdiZDgyNWQxYjdmMmEyZGUxZjM4MTQyNTk1MTY3MTFmY2UyYjE5ZTU2MDc5OTIxYzY5MjZkN2Y0MA) | Sports | HTTP Error (503) |
-| [TSN 5](https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTQ5MTg2MDkwMDU6Y2RubGl2ZXR2LnR2OmZjMTc2Y2UxODJjMTdhNjIuODE2YTE3MTI0NGFlODkxMTcxMjA4NWUxOGI4MzhhMzg1YjRkMGZiZjM4NmM3MTlmYTA2OTQ0MTUwY2I4ZjljMw) | Sports | HTTP Error (503) |
+| [Discovery Channel](http://212.5.144.156:8080/discovery/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [History Channel](http://212.5.144.156:8080/history/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Investigation Discovery](http://212.5.144.156:8080/id/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Nat Geo](http://212.5.144.156:8080/natgeo/index.m3u8) | Documentary & Reality | HTTP Error (403) |
+| [Telemundo Internacional](http://45.70.168.162:80/play/a01k/index.m3u8) | Entertainment | URL Error (timed out) |
+| [Disney Channel](http://212.5.144.156:8080/disney/index.m3u8) | Kids & Family | HTTP Error (403) |
+| [Nick Jr](http://212.5.144.156:8080/nickjr/index.m3u8) | Kids & Family | HTTP Error (403) |
+| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTQ5NjE4MDYxNTY6Y2RubGl2ZXR2LnR2OjA1NGY5MGExYTg5NmY1ZDYuYzY0ODEwZWY2OTMzYWM0ZmM0M2QzMjRjNTRhMjNiZGU0MDU1OGFmODdhOGQxY2ZiODJjMTcxMjE4MzJkNzUwMA) | Sports | HTTP Error (503) |
 
 ---
 
@@ -27,12 +31,12 @@ _Skipped 154 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 16 |
 | Entertainment | 53 |
 | Kids & Family | 9 |
-| Live - American Football | 18 |
-| Live - Basketball | 20 |
-| Live - Hockey | 12 |
-| Live - Other Events | 52 |
-| Live - Racing | 4 |
-| Live - Soccer | 70 |
+| Live - American Football | 1 |
+| Live - Basketball | 17 |
+| Live - Hockey | 23 |
+| Live - Other Events | 157 |
+| Live - Soccer | 121 |
+| Live - Tennis | 1 |
 | Movies & Premium | 15 |
 | Music | 5 |
 | News & Weather | 31 |
