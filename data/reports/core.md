@@ -1,24 +1,22 @@
 # Core IPTV Generation Report
 
-## Playlist Log @ 2026-11-22 10:06 UTC
+## Playlist Log @ 2026-11-22 20:48 UTC
 
-### ✅ Active Streams: 193
-❌ Dead Streams: 10
+### ✅ Active Streams: 208
+❌ Dead Streams: 8
 
-_Skipped 517 dead live-event streams — event links expire when the match ends._
+_Skipped 707 dead live-event streams — event links expire when the match ends._
 
 | Channel | Category | Error (Code) |
 | --- | --- | --- |
-| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTUzNTYwMDQxOTQ6Y2RubGl2ZXR2LnR2OmE0MjViNGIwNzkzZDRlNzYuMTJlYTkyNzg0OTdmYjIxMGY4MmQ2ZWY2ZDdhNDc4NjY5MjM0MjNmYWMxZTA2ZGExMTkzOTllZDRjMDRhNjYzMw) | Sports | HTTP Error (503) |
-| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTUzNTYwMDU2MjU6Y2RubGl2ZXR2LnR2OmM4ZTY0NTJkMjRmMmMyNjEuNzNiODdjZWVlOTE0NjZiYzFjNmJlNTlmZjAwNWZmNGNlYjY5YmM5MWZlZGI0N2UyY2NkMzFmYjU2ZWVlZjUwNA) | Sports | HTTP Error (503) |
-| [Sky Sports Racing](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c87b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODdiOjE3OTUzNTYwMDc0Njc6Y2RubGl2ZXR2LnR2OjFhY2JjZGEyZDFjNWE0ZTkuOThjZTRhNjI4MjAzODE1MTVhYjVkMGI0Y2RmMzRlODk5N2ZiN2RjMzU4MDE1Y2ViNWVkOGZlMDBhNjRjYjQ1Mw) | Sports | HTTP Error (503) |
-| [Space City Home Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTUzNTYwMDc4NzU6Y2RubGl2ZXR2LnR2OjY2ZGUxZGJmMWRmN2U2ZjAuNTRkYmUxZmFkZmM5MTFkYjE2MDEzMWFlOGY0MjFmNDlmNzJkOTUzYzkyYjRhZWFkMGI1ODVmZWRjMGMyODIyMw) | Sports | HTTP Error (503) |
-| [SportsNet New York](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTUzNTYwMDgwODU6Y2RubGl2ZXR2LnR2OmNjYjAzMTMwM2VlMzA4NjcuZjFmZDc5MDA2MjQzZDFjYmY0ODQwY2UwMmUyNGRhMzdkNjQzZmYyM2MxZmY5YjU0OTgxMjEwYTE2NmUyYjI4Zg) | Sports | HTTP Error (503) |
+| [Altitude Sports](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ced8/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZWQ4OjE3OTUzOTIwMDM3MDM6Y2RubGl2ZXR2LnR2OjcyMDlmMzc5M2YzNTc2MzEuZmYxMWQ4MTg1MzQyNTM0MjU4MTc1ZGQ2NjRkN2FhYjE0ZjhjODRlZTk1NGE5NTMzMDU2ZWRkYTdmNGVkOTMzMg) | Sports | HTTP Error (503) |
+| [Chicago Sports Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d280/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkMjgwOjE3OTUzOTIwMDQ1MjQ6Y2RubGl2ZXR2LnR2OjE0NDQwNjIyYTRlMWY1OGUuMTExYjEyZWNhNmMyOGFmZTBiNDA4YTkxMzdjNjdiOGM0N2VlNzM5YWI1MzM0YzcxMjk3Yzk2ZjFjM2Y2NDcyNg) | Sports | HTTP Error (503) |
+| [NHL Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf44/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjQ0OjE3OTUzOTIwMDU5NTg6Y2RubGl2ZXR2LnR2OjFjYjY1NDNlZWNlZDc4NDcuOGZhNDM4NTk3ODI1MjlhNGQ1OGY0YjFkNzM2ZjNiMDU4NGJjZGZiNDdhMzA5ZWI3MjAyZDM2ZTJhYzM1YzExZg) | Sports | HTTP Error (503) |
+| [Space City Home Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b1/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIxOjE3OTUzOTIwMDgyMTk6Y2RubGl2ZXR2LnR2OmJjNTZjM2ViYjI4YzRjODkuNDE1MTlkNGNhYjczNTJjMzUxYzdiNTI4NmYzNzA3YmNkYzJhZjVhNzFkYWUxNTk4Y2MzNWQyZjRjZjI1ZmI1ZQ) | Sports | HTTP Error (503) |
+| [SportsNet New York](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363d4b3/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNkNGIzOjE3OTUzOTIwMDg0MjE6Y2RubGl2ZXR2LnR2OmIxMzI0ODEyNTc5M2NjMTMuMWNiZmI5NDhmZDBhZTE5Yjk4YmQwYzU2MGU5OWMxMTU4MzdmMDY0ZjAxZGU1NzAxZmMyYjVkYThhYzY5NTYxYw) | Sports | HTTP Error (503) |
 | [Tennis Channel](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363cf53/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZjUzOjE3OTUyMjI4MDg3NzU6Y2RubGl2ZXR2LnR2OmE1NjUyMjNhNzA4NTc5YTcuYzhjMWM0MTdkODViZTdkMzg3NmM5NjBmNjI3ZTg3NDliM2U5M2Q3MjQ2ZTFjMzZmZjMyOGI1NmE0YzZjMTY4MQ) | Sports | HTTP Error (403) |
-| [TNT Sports 3](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c897/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODk3OjE3OTUzNTYwMDg2OTE6Y2RubGl2ZXR2LnR2OmNmZDM5ZDY5MWI4NjgxMDkuMTgzZTA2MDRmOGM5MTgxYjZmY2RlMWQ5MjkxZjFhOTRjY2UzODA2OGFiODdmNWRlMjQ3ODgxZWZlNmYwNWU3Mg) | Sports | HTTP Error (503) |
-| [TNT Sports 4](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTUzNTYwMDg4OTk6Y2RubGl2ZXR2LnR2OjNiNjhiY2Y0ZTg3YTQwMmMuZWU3Y2M4NmMwZjQzYWEyNmJjOWJmYjg4ZTU2M2RiYmFkZDhjOWVhNjQ3M2VlMGNiZTlmMzI2MjUzNWFkNjA5MQ) | Sports | HTTP Error (503) |
-| [TSN 5](https://cdnlivetv.tv/secure/api/v1/6add40b12d4a99e07363ed42/playlist.m3u8?token=NmFkZDQwYjEyZDRhOTllMDczNjNlZDQyOjE3OTUzNTYwMDk1MjE6Y2RubGl2ZXR2LnR2OmY5MmY2Y2NiYzY1OTI3NzkuODY4OWNmMTRjNjIwMjAzNWMyODFkNDRhMzVkN2JlZThkMmVhYmRjNjQ3MTRhMTMyODRiYjg5YWI3NGZkZTMxNQ) | Sports | HTTP Error (503) |
-| [YES Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce72/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTcyOjE3OTUzNTYwMDk5ODg6Y2RubGl2ZXR2LnR2OjE2ZjA3OTk3NTFjZDU4ZGQuMjE2MDVlNjEwNmJiMDc0OTAzNTk2M2EyOWQ3ZTZkYTZhNmJiZjYzNThkY2VhOTU3M2ZiNzM5MzZmYmY3N2JhZg) | Sports | HTTP Error (503) |
+| [TNT Sports 4](https://cdnlivetv.tv/secure/api/v1/6add40ae2d4a99e07363c89b/playlist.m3u8?token=NmFkZDQwYWUyZDRhOTllMDczNjNjODliOjE3OTUzOTIwMDkyMjk6Y2RubGl2ZXR2LnR2OmMyY2NhNDkzOGI5YTRkNTYuOTRkMjIzYWY0NDk1MDM1ZDEyZTkyM2ZkYjRlZThiMmNiYWNlNWI4MDk5NzA4NDg1YjlkMzQzODFjZDIwY2E0OQ) | Sports | HTTP Error (503) |
+| [YES Network](https://cdnlivetv.tv/secure/api/v1/6add40af2d4a99e07363ce72/playlist.m3u8?token=NmFkZDQwYWYyZDRhOTllMDczNjNjZTcyOjE3OTUzOTIwMTAyNTQ6Y2RubGl2ZXR2LnR2OjI4NWFkNDRlNGZjZTk1NGEuODNhMzZiOWNlODUzYTU0ZWE1ZDE2MzMzYWQ1YjI5YTFiODQyMTIzODFiMWRhY2I0OTNjZWQ5NGExNWE5MWE4OA) | Sports | HTTP Error (503) |
 
 ---
 
@@ -33,11 +31,11 @@ _Skipped 517 dead live-event streams — event links expire when the match ends.
 | Documentary & Reality | 11 |
 | Entertainment | 45 |
 | Kids & Family | 8 |
-| Live - American Football | 69 |
-| Live - Basketball | 11 |
-| Live - Hockey | 40 |
-| Live - Other Events | 206 |
-| Live - Soccer | 241 |
+| Live - American Football | 107 |
+| Live - Basketball | 2 |
+| Live - Hockey | 10 |
+| Live - Other Events | 243 |
+| Live - Soccer | 408 |
 | Movies & Premium | 8 |
 | Music | 2 |
 | News & Weather | 30 |
